@@ -1,0 +1,162 @@
+[
+    {
+        "type": "dates",
+        "value": "November 3, 1992",
+        "bbox": [
+            204,
+            409,
+            348,
+            426
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            151,
+            598,
+            299,
+            630
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "The Commonwealth of Massachusetts",
+        "bbox": [
+            205,
+            56,
+            546,
+            85
+        ]
+    },
+    {
+        "type": "address",
+        "value": "One Ashburton Place, Boston, MA 02108",
+        "bbox": [
+            110,
+            204,
+            338,
+            222
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "M. Alfred Peterson;",
+        "bbox": [
+            177,
+            263,
+            350,
+            278
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Peter J. Marzullo",
+        "bbox": [
+            556,
+            258,
+            710,
+            273
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Company",
+        "bbox": [
+            222,
+            285,
+            449,
+            305
+        ]
+    },
+    {
+        "type": "address",
+        "value": "One Park Avenue New York. NY 10016 -5895",
+        "bbox": [
+            223,
+            311,
+            440,
+            352
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "October 16,",
+        "bbox": [
+            341,
+            490,
+            437,
+            508
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "November 5. 1992",
+        "bbox": [
+            564,
+            485,
+            710,
+            504
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            53,
+            591,
+            151,
+            643
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "March 30, 1993",
+        "bbox": [
+            384,
+            596,
+            509,
+            613
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "10/ 26/ 92",
+        "bbox": [
+            77,
+            712,
+            127,
+            726
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "10/ 30/ 92",
+        "bbox": [
+            75,
+            729,
+            129,
+            745
+        ]
+    },
+    {
+        "type": "address",
+        "value": "P. O. B03 5979 Boston, MA 0212",
+        "bbox": [
+            370,
+            704,
+            563,
+            717
+        ]
+    },
+    {
+        "type": "address",
+        "value": "P. O. Box 5979. Boston, MA 02114",
+        "bbox": [
+            370,
+            728,
+            563,
+            742
+        ]
+    }
+]

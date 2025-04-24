@@ -1,0 +1,42 @@
+[
+    {
+        "type": "dates",
+        "value": "October 17, 1979",
+        "bbox": [
+            607,
+            21,
+            719,
+            40
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "1979",
+        "bbox": [
+            706,
+            109,
+            734,
+            124
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "The Data Group. Inc",
+        "bbox": [
+            588,
+            637,
+            719,
+            654
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Scott R. Benson",
+        "bbox": [
+            237,
+            698,
+            345,
+            711
+        ]
+    }
+]

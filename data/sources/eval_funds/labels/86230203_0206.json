@@ -1,0 +1,192 @@
+[
+    {
+        "type": "full_name",
+        "value": "Seyle Dantzlen",
+        "bbox": [
+            388,
+            642,
+            431,
+            669
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "K&B",
+        "bbox": [
+            73,
+            647,
+            98,
+            659
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Delchamps",
+        "bbox": [
+            73,
+            666,
+            133,
+            676
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Litco",
+        "bbox": [
+            75,
+            762,
+            103,
+            775
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "11-Dec-96",
+        "bbox": [
+            51,
+            940,
+            120,
+            950
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/12/96",
+        "bbox": [
+            57,
+            70,
+            114,
+            82
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "204 7348616",
+        "bbox": [
+            210,
+            70,
+            284,
+            82
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD TOB",
+        "bbox": [
+            359,
+            66,
+            452,
+            81
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "K. A. Sparrow",
+        "bbox": [
+            138,
+            139,
+            216,
+            151
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "F. Strickland",
+        "bbox": [
+            139,
+            168,
+            205,
+            180
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Winn Dixie",
+        "bbox": [
+            73,
+            686,
+            130,
+            696
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Schwegmann",
+        "bbox": [
+            73,
+            704,
+            145,
+            717
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Aurry Greer",
+        "bbox": [
+            76,
+            726,
+            139,
+            735
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Double",
+        "bbox": [
+            75,
+            741,
+            112,
+            756
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Huber Oil",
+        "bbox": [
+            76,
+            783,
+            127,
+            792
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Morris Corp",
+        "bbox": [
+            76,
+            802,
+            137,
+            814
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Bayou Foods",
+        "bbox": [
+            388,
+            719,
+            457,
+            731
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Compac Foods",
+        "bbox": [
+            388,
+            699,
+            466,
+            712
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Southeast Foods",
+        "bbox": [
+            389,
+            681,
+            475,
+            693
+        ]
+    }
+]

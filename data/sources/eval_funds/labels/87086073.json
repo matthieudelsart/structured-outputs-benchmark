@@ -1,0 +1,82 @@
+[
+    {
+        "type": "full_name",
+        "value": "J. D. Engle",
+        "bbox": [
+            469,
+            603,
+            548,
+            617
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. F. Dufresne",
+        "bbox": [
+            469,
+            687,
+            572,
+            701
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            479,
+            570,
+            559,
+            622
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            471,
+            648,
+            657,
+            711
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "J. D. Ergle",
+        "bbox": [
+            115,
+            147,
+            193,
+            161
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. F. Dufresne",
+        "bbox": [
+            226,
+            144,
+            329,
+            159
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "August 14, 1990",
+        "bbox": [
+            522,
+            137,
+            630,
+            159
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD RESEARCH CENTER",
+        "bbox": [
+            92,
+            927,
+            210,
+            937
+        ]
+    }
+]

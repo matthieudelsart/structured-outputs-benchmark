@@ -1,0 +1,82 @@
+[
+    {
+        "type": "full_name",
+        "value": "Jordan BressierLorilllard/MLBA",
+        "bbox": [
+            166,
+            48,
+            311,
+            60
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "mupirate@flash.net",
+        "bbox": [
+            384,
+            50,
+            470,
+            64
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "04/11/2002",
+        "bbox": [
+            165,
+            63,
+            217,
+            76
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Bart-",
+        "bbox": [
+            99,
+            122,
+            125,
+            135
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard",
+        "bbox": [
+            461,
+            163,
+            507,
+            176
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Anthony Arena,",
+        "bbox": [
+            604,
+            164,
+            137,
+            190
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Bozell New York",
+        "bbox": [
+            251,
+            176,
+            342,
+            190
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212-727-5302.",
+        "bbox": [
+            354,
+            176,
+            428,
+            190
+        ]
+    }
+]

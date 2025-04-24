@@ -1,0 +1,242 @@
+[
+    {
+        "type": "company_name",
+        "value": "Emra",
+        "bbox": [
+            77,
+            751,
+            102,
+            764
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Walmart",
+        "bbox": [
+            78,
+            786,
+            119,
+            797
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "S. P. ZOLOT",
+        "bbox": [
+            144,
+            119,
+            205,
+            130
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. W. RICHARDSON",
+        "bbox": [
+            142,
+            149,
+            244,
+            160
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "OCT 05",
+        "bbox": [
+            359,
+            147,
+            398,
+            158
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "DEC 21",
+        "bbox": [
+            499,
+            148,
+            535,
+            159
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "NOV 16",
+        "bbox": [
+            360,
+            175,
+            399,
+            186
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Quality Dairy",
+        "bbox": [
+            77,
+            494,
+            138,
+            505
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Bay Stations",
+        "bbox": [
+            77,
+            513,
+            134,
+            526
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Schmuckal Dil",
+        "bbox": [
+            77,
+            531,
+            147,
+            542
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Wilson Oil",
+        "bbox": [
+            80,
+            547,
+            127,
+            560
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Quik Stop",
+        "bbox": [
+            77,
+            566,
+            126,
+            579
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Forwards",
+        "bbox": [
+            78,
+            585,
+            119,
+            595
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Phil Flint",
+        "bbox": [
+            75,
+            601,
+            118,
+            614
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Arbor Rx",
+        "bbox": [
+            78,
+            620,
+            121,
+            632
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Imperial Oil",
+        "bbox": [
+            77,
+            638,
+            132,
+            651
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Speedy Q",
+        "bbox": [
+            335,
+            494,
+            380,
+            508
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Clark Gas",
+        "bbox": [
+            78,
+            732,
+            125,
+            743
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "7- Eleven",
+        "bbox": [
+            78,
+            770,
+            120,
+            780
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Southland",
+        "bbox": [
+            122,
+            770,
+            168,
+            781
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Ultra Diamond",
+        "bbox": [
+            80,
+            804,
+            146,
+            815
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Dairy Mart",
+        "bbox": [
+            82,
+            823,
+            130,
+            834
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Mobil Oil",
+        "bbox": [
+            78,
+            841,
+            123,
+            853
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "ACA Amoco",
+        "bbox": [
+            80,
+            860,
+            141,
+            869
+        ]
+    }
+]

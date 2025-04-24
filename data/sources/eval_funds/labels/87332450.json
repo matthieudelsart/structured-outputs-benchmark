@@ -1,0 +1,92 @@
+[
+    {
+        "type": "company_name",
+        "value": "47th TCRC",
+        "bbox": [
+            163,
+            145,
+            280,
+            176
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "September 1)",
+        "bbox": [
+            314,
+            487,
+            385,
+            504
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "September ",
+        "bbox": [
+            272,
+            504,
+            343,
+            519
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "47th TCRC",
+        "bbox": [
+            561,
+            789,
+            627,
+            803
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Dr. Phil P. Hunter",
+        "bbox": [
+            166,
+            824,
+            272,
+            835
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "U. T. Tobacco Experiment Station",
+        "bbox": [
+            169,
+            838,
+            355,
+            851
+        ]
+    },
+    {
+        "type": "address",
+        "value": "Route 5 Box 113 Greeneville, TN 37743",
+        "bbox": [
+            166,
+            853,
+            298,
+            881
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(615) ) 638- 5532",
+        "bbox": [
+            541,
+            835,
+            625,
+            850
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(615) ) 638- 6458",
+        "bbox": [
+            508,
+            852,
+            595,
+            865
+        ]
+    }
+]

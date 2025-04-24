@@ -1,0 +1,42 @@
+[
+    {
+        "type": "full_name",
+        "value": "Balgley, Annemarie",
+        "bbox": [
+            134,
+            117,
+            220,
+            131
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "December 20, 2000:",
+        "bbox": [
+            189,
+            127,
+            277,
+            141
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Krug, Renec J",
+        "bbox": [
+            134,
+            139,
+            199,
+            153
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Ryan, Thomas M",
+        "bbox": [
+            133,
+            150,
+            210,
+            165
+        ]
+    }
+]

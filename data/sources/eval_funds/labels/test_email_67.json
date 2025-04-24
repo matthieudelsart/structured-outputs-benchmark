@@ -1,0 +1,92 @@
+[
+    {
+        "type": "full_name",
+        "value": "Balgley, Annemarie",
+        "bbox": [
+            55,
+            156,
+            188,
+            173
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Annemarie I Balgley,",
+        "bbox": [
+            244,
+            184,
+            245,
+            201
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "October 18, 2000",
+        "bbox": [
+            268,
+            197,
+            362,
+            211
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "HANAMAMDURA@NCIBMERMECONT",
+        "bbox": [
+            200,
+            208,
+            385,
+            225
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Alan Kloor",
+        "bbox": [
+            376,
+            326,
+            433,
+            339
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "CES",
+        "bbox": [
+            445,
+            326,
+            473,
+            339
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Landor",
+        "bbox": [
+            312,
+            339,
+            352,
+            352
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Hania,",
+        "bbox": [
+            315,
+            377,
+            351,
+            393
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Annemarie Balgley",
+        "bbox": [
+            54,
+            406,
+            183,
+            423
+        ]
+    }
+]

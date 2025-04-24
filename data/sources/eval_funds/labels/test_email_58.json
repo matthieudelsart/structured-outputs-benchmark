@@ -1,0 +1,62 @@
+[
+    {
+        "type": "full_name",
+        "value": "Arbetier, Louis",
+        "bbox": [
+            191,
+            309,
+            258,
+            323
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "January 1999",
+        "bbox": [
+            236,
+            317,
+            315,
+            332
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Bancoryfacosseny Bender,",
+        "bbox": [
+            187,
+            313,
+            229,
+            344
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Stanvians Magda S.",
+        "bbox": [
+            263,
+            314,
+            350,
+            343
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Murillo, Kathloon;",
+        "bbox": [
+            190,
+            335,
+            330,
+            349
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Gibert, Jacquio",
+        "bbox": [
+            327,
+            335,
+            398,
+            350
+        ]
+    }
+]

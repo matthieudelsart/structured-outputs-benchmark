@@ -1,0 +1,122 @@
+[
+    {
+        "type": "dates",
+        "value": "May 18, 1999",
+        "bbox": [
+            490,
+            67,
+            562,
+            83
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR NABISCO HOLDINGS CORP.",
+        "bbox": [
+            103,
+            124,
+            334,
+            143
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "May 18, 1999",
+        "bbox": [
+            279,
+            206,
+            362,
+            225
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR Nabisco Holdings Corp.",
+        "bbox": [
+            373,
+            207,
+            542,
+            225
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR Nabisco Holdings Capital Trust I",
+        "bbox": [
+            487,
+            243,
+            192,
+            277
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Junc 18, 1999.",
+        "bbox": [
+            307,
+            259,
+            394,
+            276
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR Nabisco lloldings Corp.",
+        "bbox": [
+            147,
+            312,
+            317,
+            332
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR Nabisco, Inc.,",
+        "bbox": [
+            540,
+            314,
+            132,
+            347
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR Nabisco's",
+        "bbox": [
+            400,
+            332,
+            491,
+            348
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "R. J. Reynolds Tobacco Co.",
+        "bbox": [
+            172,
+            347,
+            335,
+            365
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "RJR Nabisco",
+        "bbox": [
+            340,
+            348,
+            418,
+            364
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Nabisco Holdings Corp.",
+        "bbox": [
+            105,
+            366,
+            246,
+            384
+        ]
+    }
+]

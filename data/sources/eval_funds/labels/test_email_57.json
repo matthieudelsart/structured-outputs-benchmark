@@ -1,0 +1,62 @@
+[
+    {
+        "type": "full_name",
+        "value": "Hoel, John",
+        "bbox": [
+            164,
+            156,
+            213,
+            169
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "March 18, 1999",
+        "bbox": [
+            207,
+            165,
+            274,
+            178
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Scruggs, John",
+        "bbox": [
+            166,
+            174,
+            227,
+            188
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Chairman Kolbe's",
+        "bbox": [
+            85,
+            252,
+            196,
+            269
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Michelle Mrdeza,",
+        "bbox": [
+            230,
+            252,
+            334,
+            268
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Steny Hoyer,",
+        "bbox": [
+            521,
+            253,
+            600,
+            270
+        ]
+    }
+]

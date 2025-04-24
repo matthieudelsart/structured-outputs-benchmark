@@ -1,0 +1,62 @@
+[
+    {
+        "type": "full_name",
+        "value": " Mallery",
+        "bbox": [
+            106,
+            390,
+            283,
+            426
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "2 /15 /90",
+        "bbox": [
+            557,
+            391,
+            623,
+            408
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Wayne Boughan",
+        "bbox": [
+            156,
+            591,
+            307,
+            640
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "4 /18 /90",
+        "bbox": [
+            556,
+            605,
+            624,
+            620
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Wayne Baughan",
+        "bbox": [
+            155,
+            799,
+            314,
+            853
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "7 /25 /90",
+        "bbox": [
+            556,
+            816,
+            624,
+            834
+        ]
+    }
+]

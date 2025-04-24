@@ -1,0 +1,372 @@
+[
+    {
+        "type": "full_name",
+        "value": "\"Homburger. Kaly",
+        "bbox": [
+            166,
+            48,
+            250,
+            62
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "(BSMG)\"",
+        "bbox": [
+            249,
+            47,
+            292,
+            61
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Jordan",
+        "bbox": [
+            384,
+            49,
+            418,
+            63
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "BesaerlankardMUBACWLBA",
+        "bbox": [
+            416,
+            50,
+            554,
+            63
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<KHomburger@er@",
+        "bbox": [
+            165,
+            56,
+            303,
+            73
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"Adam Goldfarb",
+        "bbox": [
+            384,
+            65,
+            457,
+            77
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "copida(Grenven.boelicamP)",
+        "bbox": [
+            493,
+            64,
+            637,
+            78
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"John Roth",
+        "bbox": [
+            638,
+            65,
+            688,
+            76
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "07/02/2001",
+        "bbox": [
+            166,
+            74,
+            218,
+            86
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<juth@henework.boxkl.com>.",
+        "bbox": [
+            423,
+            75,
+            552,
+            88
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"Winfrey. Tamara",
+        "bbox": [
+            551,
+            75,
+            629,
+            88
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "(BSMG)\"",
+        "bbox": [
+            627,
+            75,
+            668,
+            89
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<twinfrey@BSMG",
+        "bbox": [
+            384,
+            85,
+            464,
+            99
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "COM>.",
+        "bbox": [
+            461,
+            84,
+            496,
+            98
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"Williams, Hugh",
+        "bbox": [
+            493,
+            85,
+            566,
+            100
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "(BSMG)\"",
+        "bbox": [
+            564,
+            85,
+            606,
+            99
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<hwiliams@BSMG:",
+        "bbox": [
+            384,
+            96,
+            470,
+            109
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "COM>.",
+        "bbox": [
+            467,
+            97,
+            500,
+            108
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"Michaels. Lizal",
+        "bbox": [
+            500,
+            96,
+            568,
+            109
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "(BSMG)\"",
+        "bbox": [
+            567,
+            96,
+            607,
+            111
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<lmichaels@BSMG",
+        "bbox": [
+            385,
+            107,
+            470,
+            120
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "COM>.",
+        "bbox": [
+            468,
+            106,
+            501,
+            120
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"Trego. Sarah",
+        "bbox": [
+            500,
+            107,
+            565,
+            121
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "(BSMG)\"",
+        "bbox": [
+            563,
+            104,
+            605,
+            122
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<STrego@BSMG.COM>.",
+        "bbox": [
+            385,
+            118,
+            493,
+            131
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"Abraham, Alex",
+        "bbox": [
+            492,
+            117,
+            565,
+            130
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "(BSMG)\"",
+        "bbox": [
+            562,
+            117,
+            603,
+            131
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "<AAbxaham@BSMGCOM>",
+        "bbox": [
+            384,
+            130,
+            506,
+            144
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Jordan:",
+        "bbox": [
+            99,
+            210,
+            150,
+            225
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Katy",
+        "bbox": [
+            99,
+            304,
+            131,
+            320
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Katy Homburger",
+        "bbox": [
+            99,
+            358,
+            202,
+            374
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "BSMG Worldwide",
+        "bbox": [
+            99,
+            380,
+            203,
+            394
+        ]
+    },
+    {
+        "type": "address",
+        "value": "676 N. St. Clair. Suite 1000 Chicago. II 60611-2927",
+        "bbox": [
+            100,
+            392,
+            266,
+            418
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "312/988-2347",
+        "bbox": [
+            129,
+            415,
+            217,
+            427
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "312/988-2363",
+        "bbox": [
+            129,
+            425,
+            216,
+            439
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "khomburgergbsmg.",
+        "bbox": [
+            101,
+            438,
+            210,
+            452
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "COR",
+        "bbox": [
+            213,
+            439,
+            238,
+            450
+        ]
+    }
+]

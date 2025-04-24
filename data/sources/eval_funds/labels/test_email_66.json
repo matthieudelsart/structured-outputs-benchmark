@@ -1,0 +1,92 @@
+[
+    {
+        "type": "full_name",
+        "value": "Bacchi, Kathy E.",
+        "bbox": [
+            190,
+            112,
+            256,
+            126
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "December Sue 13, 19093:12PM",
+        "bbox": [
+            225,
+            121,
+            339,
+            144
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Nancy W: Horn,",
+        "bbox": [
+            289,
+            130,
+            356,
+            144
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Bonnie T.",
+        "bbox": [
+            353,
+            128,
+            395,
+            142
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Altschul, E;",
+        "bbox": [
+            190,
+            132,
+            257,
+            146
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Conrad.",
+        "bbox": [
+            255,
+            130,
+            291,
+            145
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Nancy,",
+        "bbox": [
+            131,
+            168,
+            171,
+            183
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Susan Reich",
+        "bbox": [
+            130,
+            205,
+            203,
+            219
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Kathy",
+        "bbox": [
+            131,
+            243,
+            166,
+            257
+        ]
+    }
+]

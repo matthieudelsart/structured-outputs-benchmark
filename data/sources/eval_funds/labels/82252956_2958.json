@@ -1,0 +1,72 @@
+[
+    {
+        "type": "dates",
+        "value": "AUG 4",
+        "bbox": [
+            547,
+            143,
+            588,
+            163
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "SEP 15",
+        "bbox": [
+            541,
+            173,
+            592,
+            193
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JUN 23",
+        "bbox": [
+            425,
+            176,
+            479,
+            195
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "MAY 12",
+        "bbox": [
+            429,
+            145,
+            477,
+            160
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "K. A. Sparrow",
+        "bbox": [
+            190,
+            111,
+            269,
+            126
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "D. J. Landro",
+        "bbox": [
+            191,
+            144,
+            258,
+            161
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Walgreen Drug",
+        "bbox": [
+            37,
+            651,
+            124,
+            668
+        ]
+    }
+]

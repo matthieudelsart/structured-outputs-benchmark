@@ -1,0 +1,122 @@
+[
+    {
+        "type": "phone_number",
+        "value": "212 5578",
+        "bbox": [
+            204,
+            77,
+            280,
+            89
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "DAVIS POLK & WARDWELL",
+        "bbox": [
+            249,
+            112,
+            465,
+            127
+        ]
+    },
+    {
+        "type": "address",
+        "value": "450 Lexington Avenue New York NY 10017",
+        "bbox": [
+            57,
+            183,
+            159,
+            209
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212- 450 4000",
+        "bbox": [
+            56,
+            207,
+            125,
+            221
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Robert H. Shaw,",
+        "bbox": [
+            258,
+            184,
+            360,
+            199
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "November 11, 1997",
+        "bbox": [
+            454,
+            184,
+            578,
+            201
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Company",
+        "bbox": [
+            257,
+            235,
+            432,
+            252
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "910 -335- 7077",
+        "bbox": [
+            258,
+            285,
+            343,
+            303
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "910 -335- 7720",
+        "bbox": [
+            455,
+            286,
+            539,
+            301
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Charles Duggan",
+        "bbox": [
+            260,
+            337,
+            360,
+            355
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212 -450- 4785",
+        "bbox": [
+            258,
+            388,
+            341,
+            402
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212 -450 -5578",
+        "bbox": [
+            258,
+            437,
+            343,
+            454
+        ]
+    }
+]

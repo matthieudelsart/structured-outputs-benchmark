@@ -1,0 +1,42 @@
+[
+    {
+        "type": "full_name",
+        "value": "Ed Palomo",
+        "bbox": [
+            199,
+            152,
+            247,
+            166
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "SMTPEPMOROMO@INSqR.com)",
+        "bbox": [
+            303,
+            152,
+            424,
+            166
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "August 04, 1999",
+        "bbox": [
+            252,
+            163,
+            323,
+            177
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Borger, Susan D.",
+        "bbox": [
+            199,
+            173,
+            272,
+            187
+        ]
+    }
+]

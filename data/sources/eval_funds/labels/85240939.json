@@ -1,0 +1,122 @@
+[
+    {
+        "type": "company_name",
+        "value": "Lorillard",
+        "bbox": [
+            163,
+            282,
+            248,
+            296
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "TOBACCO INSTITUTE",
+        "bbox": [
+            332,
+            64,
+            491,
+            86
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "FEBRUARY 19-21 1980",
+        "bbox": [
+            545,
+            103,
+            732,
+            125
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "GEORGE R. TELFORD",
+        "bbox": [
+            165,
+            218,
+            322,
+            236
+        ]
+    },
+    {
+        "type": "address",
+        "value": "666 Fifth Avenue, New York, NY 10019",
+        "bbox": [
+            163,
+            314,
+            502,
+            337
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 841- 8787",
+        "bbox": [
+            163,
+            339,
+            292,
+            357
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "2/18/80",
+        "bbox": [
+            300,
+            500,
+            370,
+            520
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "2/21/80",
+        "bbox": [
+            311,
+            536,
+            377,
+            554
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Connie Drath",
+        "bbox": [
+            268,
+            802,
+            384,
+            824
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Carol Musgrave",
+        "bbox": [
+            416,
+            809,
+            549,
+            829
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "800/424- 9876.",
+        "bbox": [
+            580,
+            814,
+            705,
+            836
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JANUARY 18, 1980**",
+        "bbox": [
+            570,
+            895,
+            736,
+            919
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "type": "full_name",
+        "value": "patj kolar",
+        "bbox": [
+            235,
+            158,
+            286,
+            174
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "[pkool7539@juno.com)",
+        "bbox": [
+            284,
+            157,
+            396,
+            173
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Friday, July 14, 2000",
+        "bbox": [
+            235,
+            171,
+            337,
+            187
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "P JK KOLAR",
+        "bbox": [
+            370,
+            411,
+            427,
+            424
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Juno",
+        "bbox": [
+            140,
+            453,
+            168,
+            466
+        ]
+    }
+]

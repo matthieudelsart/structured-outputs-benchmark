@@ -1,0 +1,132 @@
+[
+    {
+        "type": "dates",
+        "value": "89/ 22/ 97",
+        "bbox": [
+            54,
+            80,
+            107,
+            91
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "12124554900",
+        "bbox": [
+            208,
+            78,
+            278,
+            88
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "ROPER STARCH WORLDWIDE",
+        "bbox": [
+            338,
+            75,
+            481,
+            88
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "ROPER STARCH",
+        "bbox": [
+            279,
+            109,
+            447,
+            168
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Ron Milstein",
+        "bbox": [
+            208,
+            296,
+            278,
+            313
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(910) 335 7707",
+        "bbox": [
+            209,
+            360,
+            287,
+            375
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "\"JJ\" Klein",
+        "bbox": [
+            489,
+            299,
+            544,
+            314
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Roper Starch Worldwide",
+        "bbox": [
+            99,
+            860,
+            189,
+            873
+        ]
+    },
+    {
+        "type": "address",
+        "value": "205 East 42nd Street New York NY 0017",
+        "bbox": [
+            98,
+            872,
+            173,
+            893
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212 599 0700",
+        "bbox": [
+            98,
+            892,
+            146,
+            902
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212 887 7008",
+        "bbox": [
+            99,
+            904,
+            146,
+            914
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "INRA World Headquarters",
+        "bbox": [
+            535,
+            902,
+            624,
+            913
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "September 22, 1997",
+        "bbox": [
+            208,
+            268,
+            316,
+            283
+        ]
+    }
+]

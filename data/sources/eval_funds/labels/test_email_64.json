@@ -1,0 +1,72 @@
+[
+    {
+        "type": "phone_number",
+        "value": "2078345376",
+        "bbox": [
+            349,
+            90,
+            445,
+            113
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Woodward, Ellis",
+        "bbox": [
+            126,
+            142,
+            234,
+            156
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Feb 5, 1997",
+        "bbox": [
+            293,
+            140,
+            375,
+            157
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Portnoy, Sharon",
+        "bbox": [
+            112,
+            169,
+            220,
+            184
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Berlind, Mark;",
+        "bbox": [
+            112,
+            182,
+            211,
+            196
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Laufer, David;",
+        "bbox": [
+            216,
+            182,
+            317,
+            196
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mihas, Tracy",
+        "bbox": [
+            323,
+            182,
+            410,
+            196
+        ]
+    }
+]

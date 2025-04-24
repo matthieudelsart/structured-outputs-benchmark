@@ -1,0 +1,62 @@
+[
+    {
+        "type": "company_name",
+        "value": "RJRT",
+        "bbox": [
+            27,
+            15,
+            62,
+            27
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "8-17-88",
+        "bbox": [
+            455,
+            71,
+            517,
+            80
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "8-17-88",
+        "bbox": [
+            682,
+            800,
+            768,
+            826
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "9/8/88",
+        "bbox": [
+            335,
+            916,
+            400,
+            941
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Dan Straka",
+        "bbox": [
+            167,
+            56,
+            248,
+            72
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "D. Marsh",
+        "bbox": [
+            700,
+            85,
+            768,
+            96
+        ]
+    }
+]

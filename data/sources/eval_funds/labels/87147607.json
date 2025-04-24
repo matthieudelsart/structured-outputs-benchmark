@@ -1,0 +1,182 @@
+[
+    {
+        "type": "dates",
+        "value": "April 19, 1988",
+        "bbox": [
+            581,
+            56,
+            701,
+            71
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Piedmont Research Laboratory",
+        "bbox": [
+            46,
+            84,
+            283,
+            102
+        ]
+    },
+    {
+        "type": "address",
+        "value": "2748 Patterson Ave., Greensboro,",
+        "bbox": [
+            291,
+            87,
+            563,
+            103
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Research Center",
+        "bbox": [
+            43,
+            140,
+            257,
+            156
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "N. A. Thaggard",
+        "bbox": [
+            338,
+            144,
+            462,
+            159
+        ]
+    },
+    {
+        "type": "address",
+        "value": "420 English St., Greensboro, NC 27405",
+        "bbox": [
+            43,
+            168,
+            359,
+            186
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "April 1, 1988",
+        "bbox": [
+            186,
+            313,
+            299,
+            328
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "December 31, 1988.",
+        "bbox": [
+            374,
+            316,
+            524,
+            332
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard.",
+        "bbox": [
+            552,
+            346,
+            637,
+            360
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Piedmont",
+        "bbox": [
+            415,
+            401,
+            483,
+            419
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "December 10, 1984",
+        "bbox": [
+            200,
+            455,
+            347,
+            472
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Piedmont Reseach Laboratories",
+        "bbox": [
+            567,
+            461,
+            227,
+            497
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard.",
+        "bbox": [
+            270,
+            485,
+            355,
+            499
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. Neil Thaggard",
+        "bbox": [
+            123,
+            511,
+            268,
+            528
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(919) 373-6628",
+        "bbox": [
+            278,
+            513,
+            404,
+            528
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            511,
+            749,
+            532,
+            774
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            532,
+            750,
+            553,
+            778
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            554,
+            750,
+            673,
+            788
+        ]
+    }
+]

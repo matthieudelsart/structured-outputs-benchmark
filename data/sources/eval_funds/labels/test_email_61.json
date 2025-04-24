@@ -1,0 +1,92 @@
+[
+    {
+        "type": "full_name",
+        "value": "McCormick, Brendan",
+        "bbox": [
+            147,
+            168,
+            277,
+            181
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "McCormick, Brendan",
+        "bbox": [
+            168,
+            195,
+            298,
+            208
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Fri, Jan 30, 1998",
+        "bbox": [
+            168,
+            208,
+            290,
+            222
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Beauchemin, Ed;",
+        "bbox": [
+            127,
+            234,
+            234,
+            249
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Chaikin, Karen;",
+        "bbox": [
+            239,
+            234,
+            345,
+            249
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Daragan, Karen;",
+        "bbox": [
+            352,
+            235,
+            458,
+            249
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Lenzi, Jack",
+        "bbox": [
+            463,
+            233,
+            544,
+            248
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Quast, David",
+        "bbox": [
+            224,
+            249,
+            313,
+            262
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Gilmore",
+        "bbox": [
+            590,
+            314,
+            643,
+            327
+        ]
+    }
+]

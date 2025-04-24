@@ -1,0 +1,52 @@
+[
+    {
+        "type": "dates",
+        "value": "3/14/90",
+        "bbox": [
+            520,
+            30,
+            570,
+            49
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "James James",
+        "bbox": [
+            475,
+            590,
+            512,
+            644
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "J. H. Bell",
+        "bbox": [
+            227,
+            95,
+            293,
+            112
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "2/15/90",
+        "bbox": [
+            319,
+            95,
+            371,
+            110
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "C. W. Lassiter",
+        "bbox": [
+            283,
+            140,
+            379,
+            152
+        ]
+    }
+]

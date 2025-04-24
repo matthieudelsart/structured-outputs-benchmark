@@ -1,0 +1,122 @@
+[
+    {
+        "type": "full_name",
+        "value": "Jack",
+        "bbox": [
+            99,
+            575,
+            130,
+            595
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JAN 31. 1997",
+        "bbox": [
+            57,
+            75,
+            131,
+            95
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "SHOOK HARDY & BACON L. L. P.",
+        "bbox": [
+            242,
+            105,
+            507,
+            129
+        ]
+    },
+    {
+        "type": "address",
+        "value": "One Kansas City Place 1200 Main Street Kansas City Missouri 64105- 2118",
+        "bbox": [
+            304,
+            133,
+            474,
+            184
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(816) 474 6550",
+        "bbox": [
+            281,
+            184,
+            369,
+            200
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(816) 421- 5547",
+        "bbox": [
+            444,
+            183,
+            533,
+            198
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "JACK REILLY",
+        "bbox": [
+            165,
+            229,
+            261,
+            247
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212/ 545- 3297",
+        "bbox": [
+            482,
+            229,
+            565,
+            247
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JANUARY 31, 1997",
+        "bbox": [
+            163,
+            297,
+            288,
+            317
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "JIM DALEY",
+        "bbox": [
+            163,
+            263,
+            243,
+            281
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "February 5",
+        "bbox": [
+            563,
+            682,
+            626,
+            699
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Jim Daley",
+        "bbox": [
+            98,
+            763,
+            161,
+            781
+        ]
+    }
+]

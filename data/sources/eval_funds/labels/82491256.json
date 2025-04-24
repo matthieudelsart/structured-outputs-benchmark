@@ -1,0 +1,112 @@
+[
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            105,
+            223,
+            180,
+            237
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            105,
+            443,
+            180,
+            457
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Wartnick, Chaber, Harowitz, Smith & Tigerman",
+        "bbox": [
+            233,
+            363,
+            479,
+            378
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Madelyn J. Chaber",
+        "bbox": [
+            232,
+            376,
+            331,
+            388
+        ]
+    },
+    {
+        "type": "address",
+        "value": "101 California Street, Suite 2200 San Francisco, California 94111",
+        "bbox": [
+            233,
+            390,
+            401,
+            417
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "415 986- 5566",
+        "bbox": [
+            233,
+            416,
+            304,
+            431
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "August 3, 1998",
+        "bbox": [
+            233,
+            295,
+            309,
+            310
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "July 23, 1998",
+        "bbox": [
+            232,
+            264,
+            303,
+            279
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Company",
+        "bbox": [
+            233,
+            237,
+            380,
+            252
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Wanda G. Robinson",
+        "bbox": [
+            233,
+            165,
+            338,
+            182
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Carroll Robinson",
+        "bbox": [
+            362,
+            165,
+            449,
+            180
+        ]
+    }
+]

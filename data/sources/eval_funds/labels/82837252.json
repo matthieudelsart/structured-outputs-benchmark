@@ -1,0 +1,252 @@
+[
+    {
+        "type": "full_name",
+        "value": "BOBBY MILLS,",
+        "bbox": [
+            235,
+            142,
+            320,
+            157
+        ]
+    },
+    {
+        "type": "address",
+        "value": "INDIANAPOLIS, IN",
+        "bbox": [
+            468,
+            141,
+            578,
+            154
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "8/ 10/ 90",
+        "bbox": [
+            189,
+            183,
+            240,
+            197
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "HALL RODECAP,",
+        "bbox": [
+            236,
+            237,
+            325,
+            254
+        ]
+    },
+    {
+        "type": "address",
+        "value": "NOBLESVILLE, IN",
+        "bbox": [
+            331,
+            237,
+            437,
+            250
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "B & W",
+        "bbox": [
+            250,
+            279,
+            288,
+            292
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "G. Telford",
+        "bbox": [
+            233,
+            782,
+            292,
+            796
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "F. J. Schultz",
+        "bbox": [
+            232,
+            796,
+            304,
+            812
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "A. W. Spears",
+        "bbox": [
+            235,
+            811,
+            310,
+            824
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "N. P. Ruffalo",
+        "bbox": [
+            233,
+            825,
+            305,
+            840
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "T.  Achey",
+        "bbox": [
+            233,
+            842,
+            299,
+            855
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "P. J. McCann",
+        "bbox": [
+            233,
+            855,
+            312,
+            870
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "A. J. Giacolo",
+        "bbox": [
+            232,
+            870,
+            308,
+            883
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "J. J. Tatulli",
+        "bbox": [
+            348,
+            782,
+            409,
+            795
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "L. H. Kersh",
+        "bbox": [
+            346,
+            796,
+            411,
+            811
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "J. R. Slater",
+        "bbox": [
+            346,
+            813,
+            411,
+            826
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "S. T. Jones",
+        "bbox": [
+            346,
+            841,
+            412,
+            855
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R S. Goldbrenner",
+        "bbox": [
+            346,
+            856,
+            451,
+            869
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "E. R. Harrow",
+        "bbox": [
+            348,
+            870,
+            423,
+            884
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "A. H. Tisch",
+        "bbox": [
+            94,
+            782,
+            156,
+            796
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. H. Orcutt",
+        "bbox": [
+            94,
+            797,
+            159,
+            812
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "M. A. Peterson",
+        "bbox": [
+            96,
+            811,
+            173,
+            826
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "T. H. Mau",
+        "bbox": [
+            94,
+            827,
+            147,
+            841
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "L. Gordon",
+        "bbox": [
+            92,
+            841,
+            149,
+            855
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "J. P. Mastandrea",
+        "bbox": [
+            92,
+            855,
+            187,
+            869
+        ]
+    }
+]

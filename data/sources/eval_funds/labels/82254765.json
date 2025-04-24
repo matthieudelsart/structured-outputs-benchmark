@@ -1,0 +1,62 @@
+[
+    {
+        "type": "dates",
+        "value": "1/24/97",
+        "bbox": [
+            608,
+            126,
+            664,
+            139
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "01/17/97",
+        "bbox": [
+            640,
+            934,
+            683,
+            947
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "K. A. SPARROW",
+        "bbox": [
+            215,
+            126,
+            304,
+            139
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "S. Reindel",
+        "bbox": [
+            216,
+            151,
+            298,
+            166
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "3/18/97",
+        "bbox": [
+            228,
+            314,
+            285,
+            328
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "H. Levinson",
+        "bbox": [
+            216,
+            288,
+            311,
+            303
+        ]
+    }
+]

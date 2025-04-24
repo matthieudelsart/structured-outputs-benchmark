@@ -1,0 +1,82 @@
+[
+    {
+        "type": "company_name",
+        "value": "MSA",
+        "bbox": [
+            270,
+            282,
+            304,
+            297
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mike,",
+        "bbox": [
+            117,
+            560,
+            151,
+            575
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD TOBACCO COMPANY",
+        "bbox": [
+            237,
+            184,
+            473,
+            199
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mike Mozina",
+        "bbox": [
+            271,
+            260,
+            354,
+            277
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Susan Smith",
+        "bbox": [
+            271,
+            342,
+            358,
+            359
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "335- 7733",
+        "bbox": [
+            270,
+            365,
+            336,
+            382
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "335- 7150",
+        "bbox": [
+            271,
+            388,
+            335,
+            403
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "8/ 31/ 98",
+        "bbox": [
+            270,
+            426,
+            324,
+            441
+        ]
+    }
+]

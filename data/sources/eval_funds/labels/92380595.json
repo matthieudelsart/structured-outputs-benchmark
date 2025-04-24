@@ -1,0 +1,242 @@
+[
+    {
+        "type": "address",
+        "value": "1 GULF+ WESTE PLAZA",
+        "bbox": [
+            151,
+            61,
+            309,
+            75
+        ]
+    },
+    {
+        "type": "address",
+        "value": "NEW YORK, NEW YORK",
+        "bbox": [
+            332,
+            56,
+            474,
+            71
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 373- 7500",
+        "bbox": [
+            306,
+            74,
+            389,
+            87
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "PRENTICE HALL CORPORATE SERVICES",
+        "bbox": [
+            133,
+            94,
+            563,
+            115
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "United States Corporation Company",
+        "bbox": [
+            27,
+            131,
+            224,
+            146
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "The Prentice- Hall Corporation System, Inc.",
+        "bbox": [
+            437,
+            127,
+            668,
+            141
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12- 13- 89",
+        "bbox": [
+            87,
+            152,
+            146,
+            167
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD, INC.",
+        "bbox": [
+            87,
+            183,
+            195,
+            196
+        ]
+    },
+    {
+        "type": "address",
+        "value": "ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016",
+        "bbox": [
+            88,
+            198,
+            235,
+            225
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "DEC 14 89",
+        "bbox": [
+            306,
+            189,
+            393,
+            209
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "MR. ARTHUR STEVENS,",
+        "bbox": [
+            131,
+            226,
+            266,
+            240
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "A. J. STEVENS",
+        "bbox": [
+            302,
+            219,
+            398,
+            234
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD, INC.",
+        "bbox": [
+            88,
+            277,
+            199,
+            292
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "UNITED STATES CORPORATION COMPANY",
+        "bbox": [
+            138,
+            353,
+            422,
+            368
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12- 13- 89",
+        "bbox": [
+            362,
+            377,
+            421,
+            391
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "WEBSTER CRECC",
+        "bbox": [
+            172,
+            561,
+            269,
+            574
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. J. REYNOLDS",
+        "bbox": [
+            94,
+            599,
+            198,
+            615
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "TOBACCO COMPANY,",
+        "bbox": [
+            203,
+            596,
+            317,
+            613
+        ]
+    },
+    {
+        "type": "address",
+        "value": "345th Judicial District Court Travis County. Tx",
+        "bbox": [
+            204,
+            631,
+            543,
+            646
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mary Ellen Felps",
+        "bbox": [
+            209,
+            737,
+            328,
+            754
+        ]
+    },
+    {
+        "type": "address",
+        "value": "1000 West Ave. Austin, Tx. 78701",
+        "bbox": [
+            214,
+            751,
+            338,
+            781
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "512/478- 4873",
+        "bbox": [
+            494,
+            785,
+            583,
+            799
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "PAT HIGGINS",
+        "bbox": [
+            494,
+            842,
+            576,
+            856
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/ 14/ 89",
+        "bbox": [
+            144,
+            915,
+            278,
+            954
+        ]
+    }
+]

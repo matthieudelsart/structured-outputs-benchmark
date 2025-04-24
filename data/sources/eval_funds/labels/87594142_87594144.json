@@ -1,0 +1,192 @@
+[
+    {
+        "type": "address",
+        "value": "Baltimore 21205",
+        "bbox": [
+            105,
+            384,
+            579,
+            399
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "01/01/94",
+        "bbox": [
+            211,
+            532,
+            272,
+            546
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "01/01/95",
+        "bbox": [
+            261,
+            550,
+            322,
+            570
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "01/01/96",
+        "bbox": [
+            263,
+            574,
+            323,
+            592
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/31/94",
+        "bbox": [
+            369,
+            531,
+            429,
+            549
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/31/95",
+        "bbox": [
+            372,
+            550,
+            431,
+            567
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/31/96",
+        "bbox": [
+            372,
+            575,
+            431,
+            592
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "5/26/93",
+        "bbox": [
+            553,
+            654,
+            631,
+            693
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "CENTER FOR INDOOR AIR RESEARCH",
+        "bbox": [
+            453,
+            84,
+            690,
+            100
+        ]
+    },
+    {
+        "type": "address",
+        "value": "1099 WINTERSON ROAD SUITE 280 LINTHICUM, MD. 21090",
+        "bbox": [
+            411,
+            98,
+            687,
+            113
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(410) 684-3777",
+        "bbox": [
+            513,
+            109,
+            587,
+            127
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(410) 684-3729",
+        "bbox": [
+            612,
+            110,
+            687,
+            127
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Steven R. Kleeberger,",
+        "bbox": [
+            108,
+            180,
+            259,
+            197
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(410) 955-3515/955-0299",
+        "bbox": [
+            584,
+            182,
+            749,
+            196
+        ]
+    },
+    {
+        "type": "address",
+        "value": "615 North Wolfe Street, Baltimore, Maryland",
+        "bbox": [
+            108,
+            243,
+            416,
+            259
+        ]
+    },
+    {
+        "type": "address",
+        "value": "615 North Wolfe Street Maryland 21205",
+        "bbox": [
+            324,
+            348,
+            651,
+            401
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Alan M. Goldberg,",
+        "bbox": [
+            102,
+            635,
+            227,
+            654
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(410) 955-9253",
+        "bbox": [
+            105,
+            658,
+            204,
+            676
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "\u2013",
+        "bbox": [
+            302,
+            587,
+            455,
+            731
+        ]
+    }
+]

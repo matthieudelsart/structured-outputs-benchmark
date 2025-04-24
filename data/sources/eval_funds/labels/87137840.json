@@ -1,0 +1,62 @@
+[
+    {
+        "type": "company_name",
+        "value": "Lorillard",
+        "bbox": [
+            272,
+            190,
+            340,
+            208
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            378,
+            697,
+            581,
+            751
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            215,
+            608,
+            392,
+            667
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "03 /01 /90",
+        "bbox": [
+            564,
+            623,
+            623,
+            639
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Ray David",
+        "bbox": [
+            352,
+            670,
+            419,
+            684
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "03 /02 /90",
+        "bbox": [
+            189,
+            753,
+            279,
+            788
+        ]
+    }
+]

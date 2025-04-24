@@ -1,0 +1,82 @@
+[
+    {
+        "type": "full_name",
+        "value": "Downey, Kathryn A",
+        "bbox": [
+            135,
+            161,
+            219,
+            175
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Tuesday, April 27, 1999",
+        "bbox": [
+            134,
+            171,
+            239,
+            186
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Levy, Carolyn J.",
+        "bbox": [
+            135,
+            182,
+            206,
+            197
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Carolyn,",
+        "bbox": [
+            74,
+            219,
+            119,
+            234
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Eisen",
+        "bbox": [
+            375,
+            246,
+            406,
+            259
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Sansone",
+        "bbox": [
+            578,
+            246,
+            627,
+            259
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Daragan",
+        "bbox": [
+            183,
+            259,
+            230,
+            273
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Kathryn",
+        "bbox": [
+            599,
+            259,
+            641,
+            274
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "type": "company_name",
+        "value": "STOUT INDUSTRIES, INC.",
+        "bbox": [
+            204,
+            109,
+            598,
+            135
+        ]
+    },
+    {
+        "type": "address",
+        "value": "6425 W. FLORISSANT AVE. ST. LOUIS MO 63136",
+        "bbox": [
+            203,
+            140,
+            547,
+            153
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(314) 385- 2280",
+        "bbox": [
+            561,
+            138,
+            674,
+            151
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Corporation",
+        "bbox": [
+            105,
+            212,
+            286,
+            229
+        ]
+    },
+    {
+        "type": "address",
+        "value": "666 Fifth Avenue",
+        "bbox": [
+            106,
+            226,
+            243,
+            240
+        ]
+    },
+    {
+        "type": "address",
+        "value": "New York",
+        "bbox": [
+            106,
+            243,
+            174,
+            257
+        ]
+    },
+    {
+        "type": "address",
+        "value": "New York 10103",
+        "bbox": [
+            106,
+            258,
+            233,
+            268
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "October 16, 1987",
+        "bbox": [
+            487,
+            222,
+            624,
+            240
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. A. D. Steinberg",
+        "bbox": [
+            485,
+            253,
+            653,
+            270
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. Robert Kennedy",
+        "bbox": [
+            170,
+            271,
+            329,
+            285
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Harley Davidson",
+        "bbox": [
+            103,
+            344,
+            236,
+            357
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "STOUT INDUSTRIES INC,",
+        "bbox": [
+            339,
+            898,
+            441,
+            929
+        ]
+    },
+    {
+        "type": "address",
+        "value": "S. T. LOUIS M. O.",
+        "bbox": [
+            605,
+            792,
+            680,
+            802
+        ]
+    },
+    {
+        "type": "address",
+        "value": "F. O. B. S. T. LOUIS MISSOURI",
+        "bbox": [
+            46,
+            853,
+            185,
+            862
+        ]
+    }
+]

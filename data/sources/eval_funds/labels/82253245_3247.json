@@ -1,0 +1,212 @@
+[
+    {
+        "type": "company_name",
+        "value": "Sheetz",
+        "bbox": [
+            37,
+            563,
+            73,
+            576
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Kroger",
+        "bbox": [
+            37,
+            729,
+            74,
+            738
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "cvs",
+        "bbox": [
+            39,
+            773,
+            60,
+            784
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "K. A. Sparrow",
+        "bbox": [
+            183,
+            94,
+            253,
+            107
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. E. Lane",
+        "bbox": [
+            182,
+            120,
+            235,
+            136
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JUNE 30",
+        "bbox": [
+            428,
+            124,
+            471,
+            135
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "AUG 11",
+        "bbox": [
+            432,
+            151,
+            471,
+            164
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "SEP 22",
+        "bbox": [
+            556,
+            127,
+            593,
+            138
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "NOV 10",
+        "bbox": [
+            555,
+            152,
+            594,
+            167
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "June 30",
+        "bbox": [
+            94,
+            222,
+            132,
+            233
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "M. Maskos & Sons",
+        "bbox": [
+            36,
+            499,
+            134,
+            508
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Pollock Candy and Cigar",
+        "bbox": [
+            40,
+            513,
+            168,
+            526
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "McKeesport Candy Co.",
+        "bbox": [
+            40,
+            530,
+            159,
+            542
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Sicc Serva",
+        "bbox": [
+            35,
+            546,
+            95,
+            557
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Thrift/ Eckerd",
+        "bbox": [
+            41,
+            577,
+            110,
+            590
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Rich Oil",
+        "bbox": [
+            37,
+            742,
+            80,
+            753
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Super America",
+        "bbox": [
+            37,
+            758,
+            114,
+            771
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "W H Smith",
+        "bbox": [
+            36,
+            791,
+            93,
+            804
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "7- 11",
+        "bbox": [
+            39,
+            806,
+            60,
+            819
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Zon Dairy Marts",
+        "bbox": [
+            85,
+            808,
+            101,
+            835
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Widman Drugs",
+        "bbox": [
+            40,
+            838,
+            117,
+            852
+        ]
+    }
+]

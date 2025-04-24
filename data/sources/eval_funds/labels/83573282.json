@@ -1,0 +1,352 @@
+[
+    {
+        "type": "dates",
+        "value": "04/ 14/ 99",
+        "bbox": [
+            52,
+            75,
+            107,
+            89
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "206 623 0594",
+        "bbox": [
+            180,
+            74,
+            259,
+            90
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "HAGENS BERMAN",
+        "bbox": [
+            310,
+            77,
+            395,
+            92
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "HAGENS BERMAN",
+        "bbox": [
+            289,
+            141,
+            417,
+            155
+        ]
+    },
+    {
+        "type": "address",
+        "value": "1301 FIFTH AVENUE, SUITE 2900 SEATTLE, WA 98101",
+        "bbox": [
+            230,
+            183,
+            476,
+            190
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(206) 623 7293",
+        "bbox": [
+            278,
+            191,
+            356,
+            204
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(206) 623- 0594",
+        "bbox": [
+            408,
+            190,
+            482,
+            201
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "January 14, 1999",
+        "bbox": [
+            152,
+            279,
+            247,
+            297
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Steve W. Berman",
+        "bbox": [
+            152,
+            309,
+            250,
+            324
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 403- 2000",
+        "bbox": [
+            511,
+            471,
+            602,
+            489
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 450- 4800",
+        "bbox": [
+            513,
+            515,
+            604,
+            535
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(917) 663- 5399",
+        "bbox": [
+            514,
+            546,
+            603,
+            563
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(502) 568- 7297",
+        "bbox": [
+            513,
+            575,
+            602,
+            592
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(336) 335- 7707",
+        "bbox": [
+            513,
+            622,
+            602,
+            639
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(336) 741- 2998",
+        "bbox": [
+            513,
+            652,
+            604,
+            668
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(312) 861- 2200",
+        "bbox": [
+            515,
+            696,
+            601,
+            713
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(312) 861- 2000",
+        "bbox": [
+            399,
+            697,
+            487,
+            712
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 450- 4000",
+        "bbox": [
+            399,
+            517,
+            487,
+            534
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 403- 1000",
+        "bbox": [
+            398,
+            472,
+            484,
+            489
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Wachtell, Lipton, Rosen & Katz",
+        "bbox": [
+            254,
+            472,
+            297,
+            503
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Davis, Polk & Wardwell",
+        "bbox": [
+            254,
+            517,
+            391,
+            534
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Philip Morris Inc.",
+        "bbox": [
+            254,
+            546,
+            352,
+            564
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Brown & Williamson Tobacco Corp.",
+        "bbox": [
+            256,
+            577,
+            335,
+            609
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Co.",
+        "bbox": [
+            254,
+            620,
+            377,
+            636
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "R. J. Reynolds Tobacco Co",
+        "bbox": [
+            254,
+            651,
+            274,
+            680
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Kirkland & Ellis",
+        "bbox": [
+            256,
+            694,
+            351,
+            713
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Stephen R. Patton",
+        "bbox": [
+            117,
+            696,
+            218,
+            711
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Charles A. Blixt",
+        "bbox": [
+            119,
+            649,
+            212,
+            666
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Ronald Milstein",
+        "bbox": [
+            117,
+            622,
+            205,
+            636
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "F. Anthony Burke",
+        "bbox": [
+            117,
+            577,
+            217,
+            592
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Martin Barrington",
+        "bbox": [
+            116,
+            546,
+            217,
+            561
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Arthur F. Golden",
+        "bbox": [
+            116,
+            518,
+            213,
+            532
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Meyer G. Koplow",
+        "bbox": [
+            117,
+            472,
+            216,
+            487
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(206) 268- 9312",
+        "bbox": [
+            271,
+            813,
+            358,
+            828
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(206) 623- 7292,",
+        "bbox": [
+            468,
+            894,
+            528,
+            905
+        ]
+    }
+]

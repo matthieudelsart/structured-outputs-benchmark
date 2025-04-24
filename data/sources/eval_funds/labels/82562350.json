@@ -1,0 +1,142 @@
+[
+    {
+        "type": "company_name",
+        "value": "LORILLARD TOBACCO COMPANY",
+        "bbox": [
+            272,
+            128,
+            458,
+            186
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "82562350",
+        "bbox": [
+            653,
+            756,
+            683,
+            861
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "05/01/00",
+        "bbox": [
+            56,
+            75,
+            111,
+            87
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "612 894 9690",
+        "bbox": [
+            201,
+            70,
+            279,
+            85
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            349,
+            68,
+            407,
+            81
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. Randy Spell",
+        "bbox": [
+            169,
+            332,
+            267,
+            350
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Rick Redfield",
+        "bbox": [
+            409,
+            334,
+            493,
+            349
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "May 1, 2000",
+        "bbox": [
+            410,
+            357,
+            487,
+            377
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "952 894- 9690",
+        "bbox": [
+            409,
+            385,
+            496,
+            405
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. Fred Paternostro",
+        "bbox": [
+            166,
+            387,
+            294,
+            405
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "April 3, 2000.",
+        "bbox": [
+            239,
+            537,
+            319,
+            552
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Rick",
+        "bbox": [
+            116,
+            583,
+            148,
+            600
+        ]
+    },
+    {
+        "type": "address",
+        "value": "205 River Ridge Circle P. O. Box 7589 Bumsville, MN 5337",
+        "bbox": [
+            319,
+            864,
+            409,
+            895
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(952) 694-2238",
+        "bbox": [
+            355,
+            907,
+            420,
+            917
+        ]
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "type": "full_name",
+        "value": "Barry Miller",
+        "bbox": [
+            159,
+            111,
+            235,
+            130
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Don Haver,",
+        "bbox": [
+            227,
+            128,
+            302,
+            146
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Downtown Development Corporation",
+        "bbox": [
+            407,
+            128,
+            643,
+            147
+        ]
+    },
+    {
+        "type": "address",
+        "value": "Albert Hall",
+        "bbox": [
+            387,
+            145,
+            458,
+            163
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "DDC",
+        "bbox": [
+            593,
+            164,
+            627,
+            179
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "David Shannon",
+        "bbox": [
+            289,
+            180,
+            389,
+            198
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Don Haver",
+        "bbox": [
+            85,
+            234,
+            156,
+            250
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Sara Lee",
+        "bbox": [
+            588,
+            235,
+            649,
+            250
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Hunter and Associates,",
+        "bbox": [
+            247,
+            340,
+            395,
+            358
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "R.J. Reynolds,",
+        "bbox": [
+            84,
+            390,
+            184,
+            411
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Wachovia,",
+        "bbox": [
+            255,
+            393,
+            325,
+            410
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Joann Robinson",
+        "bbox": [
+            298,
+            410,
+            407,
+            427
+        ]
+    }
+]

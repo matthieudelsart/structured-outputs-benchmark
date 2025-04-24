@@ -1,0 +1,82 @@
+[
+    {
+        "type": "full_name",
+        "value": "Walk, Roger",
+        "bbox": [
+            196,
+            138,
+            252,
+            154
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "July 28. 1999:",
+        "bbox": [
+            251,
+            149,
+            312,
+            164
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Goldsmith, Alan L",
+        "bbox": [
+            197,
+            160,
+            275,
+            173
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Valerie",
+        "bbox": [
+            296,
+            223,
+            336,
+            237
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Debbie",
+        "bbox": [
+            359,
+            223,
+            399,
+            237
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Ed Carmines",
+        "bbox": [
+            307,
+            238,
+            378,
+            250
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Roger",
+        "bbox": [
+            135,
+            263,
+            169,
+            279
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "2078586648",
+        "bbox": [
+            627,
+            962,
+            716,
+            976
+        ]
+    }
+]

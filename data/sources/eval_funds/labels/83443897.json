@@ -1,0 +1,162 @@
+[
+    {
+        "type": "dates",
+        "value": "JAN 11 '99",
+        "bbox": [
+            89,
+            67,
+            158,
+            78
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "DICKSTEIN SHAPIRO MORING OSHINSKY",
+        "bbox": [
+            511,
+            126,
+            591,
+            200
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "January 11, 1999",
+        "bbox": [
+            177,
+            222,
+            282,
+            240
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Dewey Tedder",
+        "bbox": [
+            179,
+            285,
+            268,
+            304
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Company",
+        "bbox": [
+            179,
+            313,
+            343,
+            331
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "336/ 373- 6917",
+        "bbox": [
+            179,
+            341,
+            270,
+            357
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "336/ 373- 6750",
+        "bbox": [
+            177,
+            367,
+            270,
+            385
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Andy Zausner",
+        "bbox": [
+            175,
+            404,
+            261,
+            421
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Rob Mangas",
+        "bbox": [
+            288,
+            402,
+            361,
+            420
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202/ 828- 2259",
+        "bbox": [
+            175,
+            433,
+            269,
+            447
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202/ 828 2241",
+        "bbox": [
+            295,
+            430,
+            380,
+            448
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JAN 1 2 1999",
+        "bbox": [
+            451,
+            568,
+            526,
+            585
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202- 861- 9106,",
+        "bbox": [
+            381,
+            716,
+            462,
+            730
+        ]
+    },
+    {
+        "type": "address",
+        "value": "2101 L Street NW Washington, DC 20037- 1526",
+        "bbox": [
+            144,
+            926,
+            370,
+            938
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202- 785 9700",
+        "bbox": [
+            395,
+            923,
+            459,
+            937
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202- 887 0689",
+        "bbox": [
+            490,
+            925,
+            555,
+            937
+        ]
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "type": "full_name",
+        "value": "Lynnette Stevens",
+        "bbox": [
+            101,
+            122,
+            177,
+            136
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Kelli Scruggs",
+        "bbox": [
+            102,
+            148,
+            162,
+            163
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Vincent Losito",
+        "bbox": [
+            101,
+            175,
+            167,
+            190
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "George Baroody",
+        "bbox": [
+            101,
+            191,
+            176,
+            204
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "S. Tesh",
+        "bbox": [
+            232,
+            187,
+            298,
+            206
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "C. Hill",
+        "bbox": [
+            309,
+            183,
+            361,
+            205
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Don Kisling",
+        "bbox": [
+            236,
+            176,
+            291,
+            190
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Newport Parent, Lights. & 120's",
+        "bbox": [
+            344,
+            229,
+            491,
+            243
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "4/ 14/ 00",
+        "bbox": [
+            496,
+            370,
+            535,
+            384
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "9 /30 00",
+        "bbox": [
+            497,
+            397,
+            535,
+            412
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            335,
+            547,
+            646,
+            621
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "21- Jan 00",
+        "bbox": [
+            441,
+            606,
+            492,
+            626
+        ]
+    }
+]

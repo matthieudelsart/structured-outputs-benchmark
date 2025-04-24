@@ -1,0 +1,312 @@
+[
+    {
+        "type": "dates",
+        "value": "November 12, 1999",
+        "bbox": [
+            253,
+            214,
+            387,
+            227
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "11/ 12/ 99",
+        "bbox": [
+            42,
+            63,
+            99,
+            75
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212 450 4800",
+        "bbox": [
+            177,
+            64,
+            258,
+            76
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "DAVIS POLK & WARDWELL",
+        "bbox": [
+            237,
+            110,
+            476,
+            125
+        ]
+    },
+    {
+        "type": "address",
+        "value": "450 Lexington Avenue New York, NY 10017",
+        "bbox": [
+            43,
+            179,
+            146,
+            201
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212- 450- 4000",
+        "bbox": [
+            43,
+            201,
+            112,
+            214
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Charles Duggan",
+        "bbox": [
+            253,
+            173,
+            366,
+            192
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212- 450- 4785",
+        "bbox": [
+            464,
+            249,
+            557,
+            262
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212- 450- 4785",
+        "bbox": [
+            256,
+            251,
+            347,
+            265
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "212- 450- 3785",
+        "bbox": [
+            257,
+            288,
+            346,
+            303
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Thomas M. Sobol",
+        "bbox": [
+            45,
+            344,
+            164,
+            361
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "617- 439- 3278",
+        "bbox": [
+            201,
+            342,
+            293,
+            358
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Brown Rudnick Freed & Gesmer",
+        "bbox": [
+            362,
+            341,
+            454,
+            372
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "617- 330- 9000",
+        "bbox": [
+            520,
+            338,
+            612,
+            355
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "843- 720 9000",
+        "bbox": [
+            520,
+            391,
+            610,
+            408
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Ness, Motley, Loadholt, Richardson & Poole",
+        "bbox": [
+            360,
+            394,
+            425,
+            458
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "843- 720- 9290",
+        "bbox": [
+            204,
+            394,
+            295,
+            410
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Joseph F. Rice",
+        "bbox": [
+            45,
+            397,
+            147,
+            412
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Robert V. Costello",
+        "bbox": [
+            46,
+            480,
+            169,
+            495
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Jeffrey D. Woolf",
+        "bbox": [
+            45,
+            497,
+            157,
+            511
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "617- 722- 0286",
+        "bbox": [
+            203,
+            480,
+            295,
+            494
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "415- 956- 1008",
+        "bbox": [
+            204,
+            531,
+            293,
+            548
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Richard M. Heimann",
+        "bbox": [
+            47,
+            531,
+            184,
+            548
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Michael P. Thornton",
+        "bbox": [
+            46,
+            585,
+            181,
+            600
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "617- 720- 2445",
+        "bbox": [
+            204,
+            585,
+            295,
+            599
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Thomton, Early & Naumes",
+        "bbox": [
+            363,
+            582,
+            442,
+            615
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "617- 720- 1333",
+        "bbox": [
+            520,
+            582,
+            611,
+            599
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "415- 956- 1000",
+        "bbox": [
+            521,
+            531,
+            610,
+            548
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "617- 227- 7500",
+        "bbox": [
+            521,
+            478,
+            612,
+            493
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Schneider, Reilly, Zabin & Costello",
+        "bbox": [
+            362,
+            476,
+            497,
+            510
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lieff, Cabraser & Heimann",
+        "bbox": [
+            362,
+            531,
+            445,
+            561
+        ]
+    }
+]

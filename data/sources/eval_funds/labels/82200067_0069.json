@@ -1,0 +1,92 @@
+[
+    {
+        "type": "dates",
+        "value": "09/ 17/ 97",
+        "bbox": [
+            85,
+            77,
+            136,
+            88
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "603 841 1898",
+        "bbox": [
+            226,
+            77,
+            302,
+            88
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD PTLD",
+        "bbox": [
+            370,
+            78,
+            460,
+            89
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "K. A. Sparrow",
+        "bbox": [
+            225,
+            142,
+            292,
+            154
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "T. D. Blachly",
+        "bbox": [
+            225,
+            169,
+            287,
+            181
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "4",
+        "bbox": [
+            595,
+            170,
+            603,
+            181
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "15",
+        "bbox": [
+            589,
+            198,
+            603,
+            208
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12",
+        "bbox": [
+            479,
+            170,
+            490,
+            180
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "23",
+        "bbox": [
+            478,
+            197,
+            491,
+            208
+        ]
+    }
+]

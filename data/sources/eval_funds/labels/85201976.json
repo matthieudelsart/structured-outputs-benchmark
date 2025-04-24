@@ -1,0 +1,22 @@
+[
+    {
+        "type": "dates",
+        "value": "85201976",
+        "bbox": [
+            663,
+            779,
+            681,
+            867
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Marden - Kane, Inc.",
+        "bbox": [
+            67,
+            77,
+            295,
+            102
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "type": "full_name",
+        "value": "Nixon, Gerry M.",
+        "bbox": [
+            45,
+            113,
+            154,
+            130
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Nixon, Gerry M.",
+        "bbox": [
+            193,
+            142,
+            276,
+            157
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Monday, August 14, 2000",
+        "bbox": [
+            194,
+            155,
+            328,
+            169
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Reininghaus, Wolf",
+        "bbox": [
+            194,
+            168,
+            292,
+            182
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Gerry",
+        "bbox": [
+            47,
+            233,
+            80,
+            249
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Solana, Rick P.",
+        "bbox": [
+            130,
+            269,
+            199,
+            283
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Tuesday, August 08, 2000",
+        "bbox": [
+            130,
+            280,
+            245,
+            294
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Nixon, Gerry M.",
+        "bbox": [
+            130,
+            291,
+            200,
+            305
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Nixon, Gerry M.",
+        "bbox": [
+            130,
+            362,
+            201,
+            376
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Friday, August 04, 2000",
+        "bbox": [
+            131,
+            373,
+            235,
+            387
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Solana, Rick P.",
+        "bbox": [
+            131,
+            383,
+            199,
+            397
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Rick-",
+        "bbox": [
+            69,
+            418,
+            99,
+            432
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "7/13,",
+        "bbox": [
+            559,
+            418,
+            586,
+            433
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Gerry",
+        "bbox": [
+            69,
+            444,
+            102,
+            459
+        ]
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            384,
+            63,
+            445,
+            76
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/ 10/ 36",
+        "bbox": [
+            84,
+            57,
+            140,
+            69
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "317 8450977",
+        "bbox": [
+            232,
+            61,
+            303,
+            72
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "MRS. K. A. SPARROW",
+        "bbox": [
+            141,
+            203,
+            271,
+            218
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. J. Reynolds",
+        "bbox": [
+            439,
+            204,
+            522,
+            219
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. G. Ryan",
+        "bbox": [
+            141,
+            222,
+            196,
+            237
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12/ 10/ 96",
+        "bbox": [
+            142,
+            240,
+            190,
+            255
+        ]
+    }
+]

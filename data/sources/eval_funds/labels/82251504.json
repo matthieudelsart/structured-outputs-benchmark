@@ -1,0 +1,142 @@
+[
+    {
+        "type": "dates",
+        "value": "11/05/97",
+        "bbox": [
+            70,
+            91,
+            124,
+            101
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "813 384 0683",
+        "bbox": [
+            211,
+            88,
+            288,
+            101
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD TAMPA GREENSBOR",
+        "bbox": [
+            360,
+            89,
+            553,
+            101
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R W. C.",
+        "bbox": [
+            487,
+            237,
+            524,
+            250
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. W. Caldarella",
+        "bbox": [
+            314,
+            235,
+            413,
+            249
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Kent B. Mills",
+        "bbox": [
+            316,
+            270,
+            390,
+            282
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "July 31",
+        "bbox": [
+            88,
+            218,
+            126,
+            228
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "August 29",
+        "bbox": [
+            89,
+            235,
+            142,
+            246
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "September 30",
+        "bbox": [
+            89,
+            251,
+            162,
+            262
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "October 31",
+        "bbox": [
+            87,
+            265,
+            147,
+            280
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "November 28",
+        "bbox": [
+            88,
+            285,
+            156,
+            299
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "December 30",
+        "bbox": [
+            88,
+            303,
+            157,
+            316
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard's",
+        "bbox": [
+            446,
+            337,
+            503,
+            351
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Oil Companies",
+        "bbox": [
+            116,
+            420,
+            205,
+            435
+        ]
+    }
+]

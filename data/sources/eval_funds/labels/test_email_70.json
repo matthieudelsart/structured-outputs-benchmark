@@ -1,0 +1,172 @@
+[
+    {
+        "type": "company_name",
+        "value": "RYReynolds Tobacco Company",
+        "bbox": [
+            77,
+            73,
+            293,
+            130
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "August 9, 1996",
+        "bbox": [
+            67,
+            183,
+            152,
+            201
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. J. W. Best",
+        "bbox": [
+            67,
+            226,
+            147,
+            242
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. P. J. Cundari",
+        "bbox": [
+            67,
+            241,
+            162,
+            256
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. R. M. Sanders",
+        "bbox": [
+            67,
+            254,
+            168,
+            271
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Mr. D. L. Wilmesher",
+        "bbox": [
+            67,
+            269,
+            178,
+            285
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Monday, October 21-23. 1996,",
+        "bbox": [
+            111,
+            315,
+            283,
+            331
+        ]
+    },
+    {
+        "type": "address",
+        "value": "Las Vegas, Nevada",
+        "bbox": [
+            281,
+            314,
+            393,
+            331
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Wednesday, October 23,",
+        "bbox": [
+            404,
+            416,
+            540,
+            433
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "October 4, 1996.",
+        "bbox": [
+            85,
+            545,
+            178,
+            562
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Martha Preston",
+        "bbox": [
+            530,
+            601,
+            615,
+            616
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Monday, October 21",
+        "bbox": [
+            91,
+            675,
+            203,
+            693
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Tuesday, October 22",
+        "bbox": [
+            91,
+            690,
+            208,
+            708
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Wednesday, October 23",
+        "bbox": [
+            92,
+            706,
+            226,
+            722
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "M. L. Jones",
+        "bbox": [
+            70,
+            776,
+            136,
+            793
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "J. V. Maguire",
+        "bbox": [
+            92,
+            849,
+            168,
+            867
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "B. K. Stockdale",
+        "bbox": [
+            94,
+            864,
+            180,
+            877
+        ]
+    }
+]

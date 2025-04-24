@@ -1,0 +1,102 @@
+[
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            112,
+            446,
+            187,
+            457
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Wartnick Chaber, Harowitz, Smith& Tigerman",
+        "bbox": [
+            242,
+            363,
+            486,
+            378
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "StephenM. Tigerman",
+        "bbox": [
+            240,
+            380,
+            349,
+            391
+        ]
+    },
+    {
+        "type": "address",
+        "value": "101 California Street Suite 2200 San Francisco California 94111",
+        "bbox": [
+            242,
+            391,
+            407,
+            419
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "August 3, 1998",
+        "bbox": [
+            240,
+            299,
+            319,
+            311
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Company",
+        "bbox": [
+            242,
+            240,
+            388,
+            255
+        ]
+    },
+    {
+        "type": "address",
+        "value": "San Francisco Superior Court- No. 996382",
+        "bbox": [
+            243,
+            198,
+            461,
+            211
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Donald D. Sellers",
+        "bbox": [
+            243,
+            172,
+            330,
+            185
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Robin J. Sellers",
+        "bbox": [
+            353,
+            172,
+            437,
+            186
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Raybestos Manhattan",
+        "bbox": [
+            451,
+            169,
+            565,
+            183
+        ]
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "type": "full_name",
+        "value": "KELLI SCRUGGS",
+        "bbox": [
+            140,
+            144,
+            229,
+            161
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "LEONARD JONES",
+        "bbox": [
+            137,
+            173,
+            235,
+            190
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "V. LOSITO",
+        "bbox": [
+            138,
+            207,
+            195,
+            222
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "M. TAHMASEB",
+        "bbox": [
+            271,
+            207,
+            347,
+            222
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "G. BAROODY",
+        "bbox": [
+            140,
+            222,
+            208,
+            239
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "L. STEVENS",
+        "bbox": [
+            271,
+            222,
+            338,
+            236
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "B. VON DER LIPPE",
+        "bbox": [
+            140,
+            240,
+            236,
+            254
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "D. Risling",
+        "bbox": [
+            268,
+            240,
+            352,
+            263
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "10/ 4/ 99",
+        "bbox": [
+            380,
+            459,
+            419,
+            475
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "3/ 31/ 00",
+        "bbox": [
+            378,
+            492,
+            416,
+            508
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "OCTOBER 1999",
+        "bbox": [
+            381,
+            553,
+            464,
+            571
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            378,
+            707,
+            446,
+            734
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            454,
+            711,
+            467,
+            729
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            475,
+            708,
+            531,
+            753
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "4/ 14/ 99",
+        "bbox": [
+            380,
+            747,
+            419,
+            764
+        ]
+    }
+]

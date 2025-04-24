@@ -1,0 +1,152 @@
+[
+    {
+        "type": "dates",
+        "value": "JUN 05 97",
+        "bbox": [
+            75,
+            74,
+            145,
+            87
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LOEWS CORP",
+        "bbox": [
+            205,
+            74,
+            268,
+            89
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LOEWS CORPORATION",
+        "bbox": [
+            310,
+            175,
+            379,
+            199
+        ]
+    },
+    {
+        "type": "address",
+        "value": "667 Madison Avenue, New York, N. / 10021 8087",
+        "bbox": [
+            149,
+            204,
+            373,
+            217
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 545 2920",
+        "bbox": [
+            374,
+            204,
+            444,
+            215
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 935 6801",
+        "bbox": [
+            465,
+            203,
+            534,
+            217
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "BARRY HIRSCH",
+        "bbox": [
+            67,
+            267,
+            139,
+            277
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "June 4, 1997",
+        "bbox": [
+            165,
+            366,
+            237,
+            383
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Dr. Spears/",
+        "bbox": [
+            169,
+            401,
+            230,
+            413
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "A. J. Stevens/",
+        "bbox": [
+            230,
+            398,
+            298,
+            414
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. Milstein",
+        "bbox": [
+            299,
+            397,
+            356,
+            413
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Barry Hirsch",
+        "bbox": [
+            165,
+            430,
+            236,
+            446
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "CAROL DOKTORSKI",
+        "bbox": [
+            102,
+            494,
+            240,
+            509
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 545- 2934.",
+        "bbox": [
+            264,
+            499,
+            351,
+            510
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(212) 935 6801",
+        "bbox": [
+            249,
+            528,
+            335,
+            545
+        ]
+    }
+]

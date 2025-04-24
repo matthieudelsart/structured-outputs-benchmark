@@ -1,0 +1,122 @@
+[
+    {
+        "type": "dates",
+        "value": "FEB 25 '98",
+        "bbox": [
+            109,
+            84,
+            175,
+            97
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "February 25, 1998",
+        "bbox": [
+            187,
+            240,
+            294,
+            257
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Ronald S. Milstein",
+        "bbox": [
+            186,
+            302,
+            295,
+            317
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lorillard Tobacco Company",
+        "bbox": [
+            187,
+            330,
+            350,
+            348
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "910/ 335- 7707",
+        "bbox": [
+            187,
+            359,
+            279,
+            373
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "910 /335 -7718",
+        "bbox": [
+            187,
+            385,
+            278,
+            401
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Andy Zausner",
+        "bbox": [
+            189,
+            420,
+            271,
+            435
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202 /828 -2259",
+        "bbox": [
+            189,
+            447,
+            277,
+            462
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202- 861 -9106",
+        "bbox": [
+            391,
+            729,
+            475,
+            740
+        ]
+    },
+    {
+        "type": "address",
+        "value": "2101 L. Street NW Washington DC 20037",
+        "bbox": [
+            161,
+            932,
+            357,
+            945
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202 785 9700",
+        "bbox": [
+            408,
+            933,
+            471,
+            945
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "202 -887 -0589",
+        "bbox": [
+            501,
+            934,
+            564,
+            946
+        ]
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "type": "phone_number",
+        "value": "614 -466 -5087",
+        "bbox": [
+            275,
+            85,
+            354,
+            101
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "Dec 10 '98",
+        "bbox": [
+            419,
+            84,
+            484,
+            99
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Betty D. Montgomery",
+        "bbox": [
+            148,
+            172,
+            305,
+            191
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(614) 466- 5087",
+        "bbox": [
+            352,
+            297,
+            438,
+            314
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "George Baroody",
+        "bbox": [
+            142,
+            345,
+            236,
+            360
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(336) 335- 7392",
+        "bbox": [
+            223,
+            376,
+            312,
+            393
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(336) 335- 7363",
+        "bbox": [
+            504,
+            376,
+            592,
+            393
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "June Flynn",
+        "bbox": [
+            304,
+            473,
+            364,
+            486
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Eric Brown/",
+        "bbox": [
+            385,
+            471,
+            452,
+            486
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(614) 466- 8980",
+        "bbox": [
+            450,
+            472,
+            537,
+            487
+        ]
+    },
+    {
+        "type": "address",
+        "value": "State Office Tower / 30 East Broad Street/ Columbus, Ohio 43215 -3428",
+        "bbox": [
+            182,
+            887,
+            539,
+            902
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12 /10 /98",
+        "bbox": [
+            184,
+            406,
+            233,
+            423
+        ]
+    }
+]

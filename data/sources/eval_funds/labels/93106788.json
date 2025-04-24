@@ -1,0 +1,122 @@
+[
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            536,
+            223,
+            590,
+            233
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD MEDIA SERVICES",
+        "bbox": [
+            277,
+            82,
+            485,
+            95
+        ]
+    },
+    {
+        "type": "address",
+        "value": "ONE PARK AVENUE, NEW YORK, NY 10016- 5896",
+        "bbox": [
+            208,
+            99,
+            555,
+            113
+        ]
+    },
+    {
+        "type": "address",
+        "value": "1500 BROADWAY NEW YORK, NY 10036",
+        "bbox": [
+            156,
+            211,
+            259,
+            236
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "JOYCE WINSTON",
+        "bbox": [
+            191,
+            242,
+            273,
+            252
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "MARCH 17, 1995",
+        "bbox": [
+            538,
+            193,
+            616,
+            201
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD MEDIA SERVICES.",
+        "bbox": [
+            175,
+            342,
+            306,
+            352
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JUNE 1995",
+        "bbox": [
+            525,
+            404,
+            576,
+            415
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LOAILLARD MEDIA SERVICES",
+        "bbox": [
+            448,
+            723,
+            577,
+            734
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "LORILLARD MEDIA SERVICES",
+        "bbox": [
+            448,
+            785,
+            576,
+            796
+        ]
+    },
+    {
+        "type": "address",
+        "value": "ONE PARK AVENUE 17TH FLOOR NEW YORK NEW YORK 10016- 5896",
+        "bbox": [
+            450,
+            796,
+            605,
+            828
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "STEVE MOLLOY",
+        "bbox": [
+            479,
+            827,
+            546,
+            836
+        ]
+    }
+]

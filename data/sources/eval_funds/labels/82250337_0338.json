@@ -1,0 +1,52 @@
+[
+    {
+        "type": "company_name",
+        "value": "B&W",
+        "bbox": [
+            451,
+            198,
+            476,
+            212
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Sam Zolot",
+        "bbox": [
+            140,
+            201,
+            193,
+            214
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Kool Waterfall",
+        "bbox": [
+            405,
+            218,
+            472,
+            228
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "D. J. Landro",
+        "bbox": [
+            140,
+            219,
+            199,
+            230
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "2- Dec- 97",
+        "bbox": [
+            138,
+            237,
+            184,
+            247
+        ]
+    }
+]

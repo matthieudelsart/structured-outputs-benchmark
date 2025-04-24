@@ -1,0 +1,52 @@
+[
+    {
+        "type": "full_name",
+        "value": "Debbie: Sinclair",
+        "bbox": [
+            114,
+            114,
+            177,
+            125
+        ]
+    },
+    {
+        "type": "email_address",
+        "value": "ISMP-densa@wachar.compr)",
+        "bbox": [
+            176,
+            113,
+            301,
+            126
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "November 16, 1999",
+        "bbox": [
+            152,
+            123,
+            236,
+            136
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Yonich, Cynthia",
+        "bbox": [
+            113,
+            134,
+            180,
+            149
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Debbie",
+        "bbox": [
+            29,
+            197,
+            70,
+            210
+        ]
+    }
+]

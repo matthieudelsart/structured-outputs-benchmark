@@ -1,0 +1,62 @@
+[
+    {
+        "type": "full_name",
+        "value": "Mrs. K. A. Sparrow",
+        "bbox": [
+            124,
+            102,
+            244,
+            122
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R. G. Ryan",
+        "bbox": [
+            126,
+            138,
+            196,
+            158
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "JUNE7",
+        "bbox": [
+            511,
+            140,
+            560,
+            155
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "AUG.2",
+        "bbox": [
+            510,
+            156,
+            562,
+            174
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "OCT.7",
+        "bbox": [
+            511,
+            175,
+            561,
+            192
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Eagle Foods",
+        "bbox": [
+            47,
+            457,
+            130,
+            477
+        ]
+    }
+]

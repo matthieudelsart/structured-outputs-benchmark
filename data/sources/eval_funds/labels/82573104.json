@@ -1,0 +1,172 @@
+[
+    {
+        "type": "company_name",
+        "value": "COVINGTON & BURLING",
+        "bbox": [
+            196,
+            161,
+            539,
+            185
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "12- 9- 99",
+        "bbox": [
+            588,
+            109,
+            665,
+            126
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "DEC -9 1999",
+        "bbox": [
+            585,
+            168,
+            666,
+            189
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "R B. SPELL",
+        "bbox": [
+            585,
+            196,
+            676,
+            217
+        ]
+    },
+    {
+        "type": "address",
+        "value": "1201 Pennsylvania Avenue, N W. P. O. Box 7566 Washington D. C. 20044- 7566",
+        "bbox": [
+            285,
+            207,
+            445,
+            251
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(202) 662- 6000",
+        "bbox": [
+            327,
+            250,
+            408,
+            260
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(202) 662 6291",
+        "bbox": [
+            318,
+            260,
+            392,
+            277
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(202) 737 0528",
+        "bbox": [
+            409,
+            261,
+            490,
+            274
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(202) 662- 6280",
+        "bbox": [
+            366,
+            275,
+            443,
+            288
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "December 9, 1999",
+        "bbox": [
+            282,
+            458,
+            412,
+            478
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Haney H. Bell,",
+        "bbox": [
+            282,
+            497,
+            384,
+            517
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "David H. Remes",
+        "bbox": [
+            282,
+            539,
+            398,
+            558
+        ]
+    },
+    {
+        "type": "phone_number",
+        "value": "(202) 778 5212",
+        "bbox": [
+            282,
+            559,
+            391,
+            576
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": " ",
+        "bbox": [
+            289,
+            950,
+            349,
+            963
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "",
+        "bbox": [
+            349,
+            948,
+            410,
+            965
+        ]
+    },
+    {
+        "type": "dates",
+        "value": " ",
+        "bbox": [
+            616,
+            947,
+            648,
+            962
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "",
+        "bbox": [
+            649,
+            947,
+            667,
+            962
+        ]
+    }
+]

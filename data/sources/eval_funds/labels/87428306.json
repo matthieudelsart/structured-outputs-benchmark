@@ -1,0 +1,72 @@
+[
+    {
+        "type": "company_name",
+        "value": "LORILLARD",
+        "bbox": [
+            115,
+            912,
+            152,
+            921
+        ]
+    },
+    {
+        "type": "full_name",
+        "value": "Dr. P. D. Schickedantz,",
+        "bbox": [
+            489,
+            250,
+            216,
+            277
+        ]
+    },
+    {
+        "type": "company_name",
+        "value": "Lozillard",
+        "bbox": [
+            222,
+            263,
+            289,
+            275
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            144,
+            882,
+            243,
+            921
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            247,
+            886,
+            278,
+            906
+        ]
+    },
+    {
+        "type": "signature",
+        "value": "",
+        "bbox": [
+            281,
+            886,
+            352,
+            909
+        ]
+    },
+    {
+        "type": "dates",
+        "value": "   ",
+        "bbox": [
+            513,
+            888,
+            672,
+            907
+        ]
+    }
+]
