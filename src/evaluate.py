@@ -1,7 +1,7 @@
 import json
 import numpy as np
 from jsonschema import Draft7Validator
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, Union, Set
 from rapidfuzz import process, distance
 import math
 
@@ -50,6 +50,7 @@ def _numeric_equal(a, b, tol: int | float = 0) -> bool:
     if isinstance(a, (int, float)) and isinstance(b, (int, float)):
         return abs(a - b) <= tol
     return a == b
+
 
 # ────── 1.  Normalisation helpers ───────────────────────────────────────────
 
@@ -167,33 +168,60 @@ def _values_equal(a: Any, b: Any) -> bool:
 
 
 class GeneralJsonSchemaEvaluator:
+    """
+    Validate data against a JSON Schema and return a compliance percentage
+    based on the number of primitive checks implied by the schema.
+    """
+    
     def __init__(self, schema: Dict):
         self.schema = schema
 
-    def _leaf_count(self, schema: dict) -> int:
+    def _leaf_count(self, schema: Dict) -> int:
         """
-        Return the number of primitive checks implied by *schema*.
-        Treat every leaf (number, string, …) as one check.
+        Count the number of primitive validations ('leaf checks') in *schema*.
+        • Every primitive type check (string, number, boolean, integer, null) counts as 1.
+        • For an array we count 1 for the container + the checks for its 'items'.
+        • For an object we sum the counts of its properties.
+        • If 'type' is a list (e.g. ['array', 'null']) we pick the branch that
+          contains 'array' or 'object' so nested checks are still counted.
+        • For combinators we pick the *minimum* leaf count among subschemas
+          (anyOf, oneOf, allOf) so the denominator is not artificially inflated.
         """
+        # 1. normalise 'type' to something hashable
         t = schema.get("type")
 
-        #  object  → sum counts of its properties
+        # Handle unions like ['array', 'null']
+        if isinstance(t, list):
+            if "object" in t:
+                t = "object"
+            elif "array" in t:
+                t = "array"
+            else:  # only primitives
+                return 1
+
+        # ----- objects --------------------------------------------------------
         if t == "object":
             return sum(
                 self._leaf_count(sub) for sub in schema.get("properties", {}).values()
             )
 
-        #  array   → one check for the container + checks for the item schema
+        # ----- arrays ---------------------------------------------------------
         if t == "array":
             return 1 + self._leaf_count(schema.get("items", {}))
 
-        #  anything else (string/number/boolean/null/integer) → single check
+        # ----- combinators ----------------------------------------------------
+        for comb in ("anyOf", "oneOf", "allOf"):
+            if comb in schema:
+                # pick the minimal branch -- that's the shortest path to validity
+                return min(self._leaf_count(sub) for sub in schema[comb])
+
+        # ----- primitives / fall-through --------------------------------------
         return 1
 
-    def score_against_schema(self, data: dict | list) -> dict:
+    def score_against_schema(self, data: Union[Dict, List]) -> Dict:
         """
         Validate *data* and return a dict with:
-            • percentage  – float 0-100
+            • percentage  – float 0-1
             • failures    – list[ValidationError]  (for debugging / UX)
         """
         v = Draft7Validator(self.schema)  # ① build a validator
@@ -212,8 +240,9 @@ class GeneralJsonSchemaEvaluator:
 
 
 class RotowireEvaluator:
-    def __init__(self, schema: Dict[str, Any]):
-        self.schema = schema
+    def __init__(self, schema_loc: str ="data/clean/1-rotowire/schema.json"):
+        with open(schema_loc, "r") as f:
+            self.schema = json.load(f)
         self.validator = Draft7Validator(self.schema)
 
     #### Format evaluation
@@ -549,6 +578,110 @@ class WikiBioEvaluator:
             }
         return results
 
+
 ######## Need to handle that one takes the json str a input and the other the real dict; see with jsonl
 
+class FewNerdsEvaluator:
+    def __init__(self, schema_loc: str = "data/clean/3-few_nerd/schema.json"):
+        with open(schema_loc, "r") as f:
+            self.schema = json.load(f)
 
+    def compute_compliance(self, output: Dict) -> Dict[str, Any]:
+        """
+        Computes compliance of the JSON string against the schema.
+        Returns a dict with compliance percentage and errors.
+        """
+        self.validator = GeneralJsonSchemaEvaluator(self.schema)
+        return self.validator.score_against_schema(output)
+    
+    @staticmethod
+    def _norm(item: Any) -> str:
+        """
+        Robust normaliser:
+        • Strings  → use project-level _norm_name().
+        • Other primitives → convert to str and lower-case so the scorer
+          never crashes. You could also choose to return "" and mark as error.
+        """
+        if isinstance(item, str):
+            return _norm_name(item)
+        return str(item).lower().strip()
+    
+    @staticmethod
+    def _to_list(val: Any) -> list:
+        """None → []; list → list; scalar → [scalar]"""
+        if val is None:
+            return []
+        return val if isinstance(val, list) else [val]
+
+    def compute_correctness(
+        self,
+        reference: Dict[str, Any],
+        prediction: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        """
+        Micro-averaged entity accuracy:
+            overall_score = TP / (TP + FP + FN)
+        where a true positive (TP) is an exact match of both entity string and type
+        after normalisation with _norm_name.
+        """
+
+        tp = fp = fn = 0
+        errors: List[str] = []
+
+        for ent_type in reference.keys():            # 8 mandatory slots
+            ref_raw = self._to_list(reference.get(ent_type))
+            pred_raw = self._to_list(prediction.get(ent_type))
+
+            ref_set: Set[str] = {self._norm(e) for e in ref_raw}
+            pred_set: Set[str] = {self._norm(e) for e in pred_raw}
+
+            inter  = ref_set & pred_set
+            missed = ref_set - pred_set
+            extra  = pred_set - ref_set
+
+            tp += len(inter)
+            fn += len(missed)
+            fp += len(extra)
+
+            if missed:
+                errors.append(f"Missing {ent_type}: {sorted(missed)}")
+            if extra:
+                errors.append(f"Spurious {ent_type}: {sorted(extra)}")
+
+        total = tp + fp + fn
+        overall = round(tp / total, 3) if total else 1.0
+
+        return {
+            "overall_score": overall,
+            "correctness_errors": errors,
+        }
+
+            
+    def score_record(self, reference_record, prediction_record: str) -> Dict[str, Any]:
+        """
+        Scores a single record against the reference.
+        Returns a dict with compliance and correctness scores.
+        """
+        
+        # --- Syntax validity
+        validity_score, prediction_record = assess_json_valid(prediction_record)
+
+        if not isinstance(prediction_record, Dict):
+            return {
+                "is_valid": validity_score,
+                "compliance": 0,
+                "correctness": 0,
+            }
+        
+        compliance = self.compute_compliance(prediction_record)
+        correctness = self.compute_correctness(reference_record, prediction_record)
+        
+        return {
+            "is_valid": validity_score,
+            **compliance,
+            **correctness
+            }
+        
+
+    def score_all_records(self, ):
+        pass

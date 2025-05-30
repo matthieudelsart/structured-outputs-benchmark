@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "items": {
+    "type": "object",
+    "properties": {
+      "teams": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": { "$ref": "#/definitions/team" }
+      },
+      "players": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "$ref": "#/definitions/player" }
+      }
+    },
+    "required": ["teams", "players"],
+    "additionalProperties": false
+  },
+  "definitions": {
+    "team": {
+      "type": "object",
+      "properties": {
+        "team": { "type": "string" },
+        "losses":                { "type": ["integer", "null"] },
+        "total_points":          { "type": ["integer", "null"] },
+        "wins":                  { "type": ["integer", "null"] },
+        "turnovers":             { "type": ["integer", "null"] },
+        "number_of_team_assists":{ "type": ["integer", "null"] },
+        "points_in_1st_quarter": { "type": ["integer", "null"] },
+        "points_in_2nd_quarter": { "type": ["integer", "null"] },
+        "points_in_3rd_quarter": { "type": ["integer", "null"] },
+        "points_in_4th_quarter": { "type": ["integer", "null"] },
+        "rebounds":              { "type": ["integer", "null"] },
+        "percentage_of_3_points":{ "type": ["integer", "null"] },
+        "percentage_of_field_goals": { "type": ["integer", "null"] }
+      },
+      "required": ["team"],
+      "additionalProperties": false
+    },
+    "player": {
+      "type": "object",
+      "properties": {
+        "player":                { "type": "string" },
+        "assists":               { "type": ["integer", "null"] },
+        "blocks":                { "type": ["integer", "null"] },
+        "3_pointers_made":       { "type": ["integer", "null"] },
+        "3_pointers_attempted":  { "type": ["integer", "null"] },
+        "3_pointer_percentage":  { "type": ["integer", "null"] },
+        "field_goals_made":      { "type": ["integer", "null"] },
+        "field_goals_attempted": { "type": ["integer", "null"] },
+        "field_goal_percentage": { "type": ["integer", "null"] },
+        "free_throws_made":      { "type": ["integer", "null"] },
+        "free_throws_attempted": { "type": ["integer", "null"] },
+        "free_throw_percentage": { "type": ["integer", "null"] },
+        "minutes_played":        { "type": ["integer", "null"] },
+        "points":                { "type": ["integer", "null"] },
+        "total_rebounds":        { "type": ["integer", "null"] },
+        "defensive_rebounds":    { "type": ["integer", "null"] },
+        "offensive_rebounds":    { "type": ["integer", "null"] },
+        "steals":                { "type": ["integer", "null"] },
+        "turnovers":             { "type": ["integer", "null"] },
+        "personal_fouls":        { "type": ["integer", "null"] }
+      },
+      "required": ["player"],
+      "additionalProperties": false
+    }
+  }
+}

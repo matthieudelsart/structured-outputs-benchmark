@@ -1,0 +1,43 @@
+You are given one English sentence.
+
+Task → identify every named entity in the sentence and assign each one to
+exactly one of the eight categories below, then return a single JSON object
+whose keys are **exactly** these eight (no more, no less):
+
+  "art"          – works of art, books, songs, films, paintings, etc.
+  "building"     – physical constructions: bridges, hotels, stadiums, roads…
+  "event"        – festivals, wars, sports seasons, conferences, campaigns…
+  "location"     – cities, countries, natural places, geographical regions…
+  "organization" – companies, teams, institutions, agencies, bands…
+  "other"        – entities that do not fit the other seven coarse types
+  "person"       – real people or fictional characters
+  "product"      – manufactured goods, software, vehicles, weapons, models…
+
+Output format rules
+• For each key:
+    – Use **null** if the sentence contains no entity of that category.
+    – Otherwise use a JSON array whose elements are the exact surface strings
+      as they appear in the sentence, without duplicates and in the order of
+      first appearance.
+• Arrays must never be empty; use null instead.
+• Do not wrap the JSON in Markdown, code-fences, or any explanatory text.
+• Do not include any additional keys or metadata.
+
+Example
+
+Input sentence  
+"In 2015, John joined the UN in New York."
+
+Expected JSON  
+{
+  "art": null,
+  "building": null,
+  "event": null,
+  "location": ["New York"],
+  "organization": ["UN"],
+  "other": null,
+  "person": ["John"],
+  "product": null
+}
+
+Now produce the JSON output for the next sentence.
