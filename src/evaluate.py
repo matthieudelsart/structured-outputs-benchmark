@@ -1,17 +1,15 @@
 import json
-import numpy as np
-from jsonschema import Draft7Validator
-from typing import Any, Dict, List, Tuple, Union, Set
-from rapidfuzz import process, distance
 import math
+import re
+from typing import Any, Dict, List, Set, Tuple, Union
 
 import json_repair
-
-import re
-import unicodedata
+import numpy as np
 import pycountry
-from unidecode import unidecode
 from dateutil import parser as dt
+from jsonschema import Draft7Validator, ValidationError, validators
+from rapidfuzz import distance, process
+from unidecode import unidecode
 
 ######### Helpers
 
@@ -172,50 +170,71 @@ class GeneralJsonSchemaEvaluator:
     Validate data against a JSON Schema and return a compliance percentage
     based on the number of primitive checks implied by the schema.
     """
-    
+
     def __init__(self, schema: Dict):
         self.schema = schema
 
-    def _leaf_count(self, schema: Dict) -> int:
-        """
-        Count the number of primitive validations ('leaf checks') in *schema*.
-        • Every primitive type check (string, number, boolean, integer, null) counts as 1.
-        • For an array we count 1 for the container + the checks for its 'items'.
-        • For an object we sum the counts of its properties.
-        • If 'type' is a list (e.g. ['array', 'null']) we pick the branch that
-          contains 'array' or 'object' so nested checks are still counted.
-        • For combinators we pick the *minimum* leaf count among subschemas
-          (anyOf, oneOf, allOf) so the denominator is not artificially inflated.
-        """
-        # 1. normalise 'type' to something hashable
-        t = schema.get("type")
+        # Pick the correct validator implementation for the draft in $schema
+        ValidatorCls = validators.validator_for(schema)
+        ValidatorCls.check_schema(schema)  # fail fast if schema bogus
+        self._validator = ValidatorCls(schema)
 
-        # Handle unions like ['array', 'null']
-        if isinstance(t, list):
-            if "object" in t:
-                t = "object"
-            elif "array" in t:
-                t = "array"
-            else:  # only primitives
-                return 1
+    def _leaf_count(self, schema: Dict[str, Any]) -> int:
+        """
+        Recursively count 'primitive checks' in *schema*.
 
-        # ----- objects --------------------------------------------------------
+        • Every primitive type check (string, number, boolean, integer, null)
+          counts as 1.
+        • Arrays count 1 + items-checks.
+        • Objects add up their property schemas (incl. patternProperties,
+          propertyNames, additionalProperties when it is a schema).
+        • For combinators (anyOf, oneOf, allOf, if/then/else) pick the
+          *minimum* branch so denominator ≈ shortest path to validity.
+        """
+
+        def _norm_type(t):
+            if isinstance(t, list):
+                return (
+                    "object"
+                    if "object" in t
+                    else "array"
+                    if "array" in t
+                    else "primitive"
+                )
+            return t
+
+        t = _norm_type(schema.get("type"))
+
+        # ---------- object -------------------------------------------------
         if t == "object":
-            return sum(
-                self._leaf_count(sub) for sub in schema.get("properties", {}).values()
-            )
+            total = 0
+            for sub in schema.get("properties", {}).values():
+                total += self._leaf_count(sub)
+            for sub in schema.get("patternProperties", {}).values():
+                total += self._leaf_count(sub)
+            if isinstance(schema.get("additionalProperties"), dict):
+                total += self._leaf_count(schema["additionalProperties"])
+            if "propertyNames" in schema and isinstance(schema["propertyNames"], dict):
+                total += self._leaf_count(schema["propertyNames"])
+            return total
 
-        # ----- arrays ---------------------------------------------------------
+        # ---------- array --------------------------------------------------
         if t == "array":
             return 1 + self._leaf_count(schema.get("items", {}))
 
-        # ----- combinators ----------------------------------------------------
+        # ---------- combinators / conditionals -----------------------------
         for comb in ("anyOf", "oneOf", "allOf"):
             if comb in schema:
-                # pick the minimal branch -- that's the shortest path to validity
                 return min(self._leaf_count(sub) for sub in schema[comb])
+        if "if" in schema:  # consider shortest of if/then(/else)
+            branches = [schema["if"]]
+            if "then" in schema:
+                branches.append(schema["then"])
+            if "else" in schema:
+                branches.append(schema["else"])
+            return min(self._leaf_count(b) for b in branches)
 
-        # ----- primitives / fall-through --------------------------------------
+        # ---------- primitive / fall-through -------------------------------
         return 1
 
     def score_against_schema(self, data: Union[Dict, List]) -> Dict:
@@ -224,15 +243,15 @@ class GeneralJsonSchemaEvaluator:
             • percentage  – float 0-1
             • failures    – list[ValidationError]  (for debugging / UX)
         """
-        v = Draft7Validator(self.schema)  # ① build a validator
-        errors = list(v.iter_errors(data))  # ② collect *all* errors
+        errors: List[ValidationError] = list(self._validator.iter_errors(data))
+
         failed_count = len(errors)
         total_checks = self._leaf_count(
             self.schema
         )  # ③ how many independent checks exist
         passed = total_checks - failed_count
 
-        percentage = round(passed / total_checks, 1) if total_checks else 1
+        percentage = max(0.0, round(passed / total_checks, 3)) if total_checks else 1
         return {"compliance": percentage, "compliance_errors": errors}
 
 
@@ -240,7 +259,7 @@ class GeneralJsonSchemaEvaluator:
 
 
 class RotowireEvaluator:
-    def __init__(self, schema_loc: str ="data/clean/1-rotowire/schema.json"):
+    def __init__(self, schema_loc: str = "data/clean/1-rotowire/schema.json"):
         with open(schema_loc, "r") as f:
             self.schema = json.load(f)
         self.validator = Draft7Validator(self.schema)
@@ -479,7 +498,7 @@ class RotowireEvaluator:
             "object_attr_F1": (team_attr_f1 + player_attr_f1) / 2,
             "object_value_acc": (team_val_acc + player_val_acc) / 2,
             "object_attribute_score": (team_attr_score + player_attr_score) / 2,
-            "overall_score": (overall_team_score + overall_player_score) / 2,
+            "correctness": (overall_team_score + overall_player_score) / 2,
         }
 
 
@@ -546,7 +565,7 @@ class WikiBioEvaluator:
                 )
 
         return {
-            "overall_score": correct / total,
+            "correctness": correct / total,
             "correctness_errors": errors,
         }
 
@@ -581,19 +600,19 @@ class WikiBioEvaluator:
 
 ######## Need to handle that one takes the json str a input and the other the real dict; see with jsonl
 
+
 class FewNerdsEvaluator:
     def __init__(self, schema_loc: str = "data/clean/3-few_nerd/schema.json"):
-        with open(schema_loc, "r") as f:
-            self.schema = json.load(f)
+        self.schema = json.load(open(schema_loc))
+        self.validator = GeneralJsonSchemaEvaluator(self.schema)
 
     def compute_compliance(self, output: Dict) -> Dict[str, Any]:
         """
         Computes compliance of the JSON string against the schema.
         Returns a dict with compliance percentage and errors.
         """
-        self.validator = GeneralJsonSchemaEvaluator(self.schema)
         return self.validator.score_against_schema(output)
-    
+
     @staticmethod
     def _norm(item: Any) -> str:
         """
@@ -605,7 +624,7 @@ class FewNerdsEvaluator:
         if isinstance(item, str):
             return _norm_name(item)
         return str(item).lower().strip()
-    
+
     @staticmethod
     def _to_list(val: Any) -> list:
         """None → []; list → list; scalar → [scalar]"""
@@ -620,7 +639,7 @@ class FewNerdsEvaluator:
     ) -> Dict[str, Any]:
         """
         Micro-averaged entity accuracy:
-            overall_score = TP / (TP + FP + FN)
+            correctness = TP / (TP + FP + FN)
         where a true positive (TP) is an exact match of both entity string and type
         after normalisation with _norm_name.
         """
@@ -628,16 +647,16 @@ class FewNerdsEvaluator:
         tp = fp = fn = 0
         errors: List[str] = []
 
-        for ent_type in reference.keys():            # 8 mandatory slots
+        for ent_type in reference.keys():  # 8 mandatory slots
             ref_raw = self._to_list(reference.get(ent_type))
             pred_raw = self._to_list(prediction.get(ent_type))
 
             ref_set: Set[str] = {self._norm(e) for e in ref_raw}
             pred_set: Set[str] = {self._norm(e) for e in pred_raw}
 
-            inter  = ref_set & pred_set
+            inter = ref_set & pred_set
             missed = ref_set - pred_set
-            extra  = pred_set - ref_set
+            extra = pred_set - ref_set
 
             tp += len(inter)
             fn += len(missed)
@@ -652,36 +671,166 @@ class FewNerdsEvaluator:
         overall = round(tp / total, 3) if total else 1.0
 
         return {
-            "overall_score": overall,
+            "correctness": overall,
             "correctness_errors": errors,
         }
 
-            
     def score_record(self, reference_record, prediction_record: str) -> Dict[str, Any]:
         """
         Scores a single record against the reference.
         Returns a dict with compliance and correctness scores.
         """
-        
-        # --- Syntax validity
-        validity_score, prediction_record = assess_json_valid(prediction_record)
 
-        if not isinstance(prediction_record, Dict):
+        # --- Syntax validity
+        validity_score, pred_dict = assess_json_valid(prediction_record)
+
+        if not isinstance(pred_dict, Dict):
             return {
                 "is_valid": validity_score,
                 "compliance": 0,
                 "correctness": 0,
             }
-        
-        compliance = self.compute_compliance(prediction_record)
-        correctness = self.compute_correctness(reference_record, prediction_record)
-        
-        return {
-            "is_valid": validity_score,
-            **compliance,
-            **correctness
-            }
-        
 
-    def score_all_records(self, ):
+        compliance = self.compute_compliance(pred_dict)
+        correctness = self.compute_correctness(reference_record, pred_dict)
+
+        return {"is_valid": validity_score, **compliance, **correctness}
+
+    def score_all_records(
+        self,
+    ):
+        pass
+
+
+class TopV1Evaluator:
+    def __init__(self, schema_loc: str = "data/clean/4-TOPv1/schema.json"):
+        self.schema = json.load(open(schema_loc))
+        self.validator = GeneralJsonSchemaEvaluator(self.schema)  # caching once
+
+    def compute_compliance(self, output: Dict) -> Dict[str, Any]:
+        """
+        Computes compliance of the JSON string against the schema.
+        Returns a dict with compliance percentage and errors.
+        """
+        return self.validator.score_against_schema(output)
+
+    def compute_correctness(
+        self, reference: Dict[str, Any], prediction: Dict[str, Any]
+    ) -> Dict[str, Any]:
+        """
+        Compute correctness of the prediction against the reference, using the official TOPv1 metrics:
+        | component      | metric                                          | weight |
+        | -------------- | ----------------------------------------------- | ------ |
+        | **Top-level**  | root-intent accuracy (0 / 1)                    | 0.25   |
+        |                | slot-label micro-F1 (all depths, ignore values) | 0.25   |
+        | **Whole tree** | TOP triplet F1 (exact-structure match)          | 0.50   |
+        | **Overall**    | 0.5 × (top-level) + 0.5 × (tree-F1)             | 1.00   |
+        """
+
+        errors: List[str] = []
+
+        # ----- intent accuracy ---------------------------------------------
+        intent_correct = reference.get("intent") == prediction.get("intent")
+        if not intent_correct:
+            errors.append(
+                f"root-intent mismatch: ref={reference['intent']!s} "
+                f"pred={prediction.get('intent')!s}"
+            )
+
+        # ----- slot-label F1 (all depths, ignore values) -------------------
+        gold_slots = self._flatten_slot_labels(reference)
+        pred_slots = self._flatten_slot_labels(prediction)
+        tp_slots = len(gold_slots & pred_slots)
+        slot_f1 = f1(
+            tp_slots, fp=len(pred_slots - gold_slots), fn=len(gold_slots - pred_slots)
+        )
+        if slot_f1 < 1.0:
+            errors.append(
+                f"slot-label F1={slot_f1:.2f} "
+                f"(gold={sorted(gold_slots)}, pred={sorted(pred_slots)})"
+            )
+
+        # ----- tree-match F1 (triplets) ------------------------------------
+        gold_trips = self._collect_triplets(reference)
+        pred_trips = self._collect_triplets(prediction)
+        tp_trips = len(gold_trips & pred_trips)
+        tree_f1 = f1(
+            tp_trips, fp=len(pred_trips - gold_trips), fn=len(gold_trips - pred_trips)
+        )
+        if tree_f1 < 1.0:
+            errors.append(f"tree-triplet F1={tree_f1:.2f}")
+
+        # ----- aggregate ----------------------------------------------------
+        top_level_score = 0.5 * intent_correct + 0.5 * slot_f1
+        overall = 0.5 * top_level_score + 0.5 * tree_f1
+
+        return {
+            "correctness": round(overall, 3),
+            "correctness_errors": errors,
+        }
+
+    @classmethod
+    def _flatten_slot_labels(cls, frame: Dict[str, Any]) -> Set[str]:
+        """Return the set of *all* slot names that appear anywhere in the frame."""
+        labels = set(frame.get("slots", {}).keys())
+        for val in frame.get("slots", {}).values():
+            if isinstance(val, dict) and "intent" in val and "slots" in val:
+                labels |= cls._flatten_slot_labels(val)
+            elif isinstance(val, list):
+                for item in val:
+                    if isinstance(item, dict) and "intent" in item and "slots" in item:
+                        labels |= cls._flatten_slot_labels(item)
+        return labels
+
+    @classmethod
+    def _collect_triplets(
+        cls, frame: Dict[str, Any], parent_path: Tuple[str, ...] = ()
+    ) -> Set[Tuple[Tuple[str, ...], str, str]]:
+        """
+        Produce the official TOP-style triplets:
+            (path-to-parent, slot_name, child_intent_or_STRING)
+        where *path* is the sequence of slot labels from the root down to the parent.
+        """
+        trips = set()
+        for slot_name, val in frame.get("slots", {}).items():
+            if isinstance(val, dict) and "intent" in val and "slots" in val:
+                # child is a frame
+                trips.add((parent_path, slot_name, val["intent"]))
+                trips |= cls._collect_triplets(val, parent_path + (slot_name,))
+            elif isinstance(val, list):
+                for item in val:
+                    if isinstance(item, dict) and "intent" in item and "slots" in item:
+                        trips.add((parent_path, slot_name, item["intent"]))
+                        trips |= cls._collect_triplets(item, parent_path + (slot_name,))
+                    else:
+                        # primitive inside list → mark as STRING
+                        trips.add((parent_path, slot_name, "STRING"))
+            else:
+                trips.add((parent_path, slot_name, "STRING"))
+        return trips
+
+    def score_record(self, reference_record, prediction_record: str) -> Dict[str, Any]:
+        """
+        Scores a single record against the reference.
+        Returns a dict with compliance and correctness scores.
+        """
+
+        # --- Syntax validity
+        validity_score, pred_dict = assess_json_valid(prediction_record)
+
+        if not isinstance(pred_dict, Dict):
+            return {
+                "is_valid": validity_score,
+                "compliance": 0,
+                "correctness": 0,
+            }
+
+        compliance = self.compute_compliance(pred_dict)
+        correctness = self.compute_correctness(reference_record["output"], pred_dict)
+
+        return {"is_valid": validity_score, **compliance, **correctness}
+
+    def score_all_records(
+        self,
+    ):
         pass

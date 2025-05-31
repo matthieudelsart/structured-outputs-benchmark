@@ -1,0 +1,6691 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TOP hierarchical frame",
+  "$defs": {
+    "slotValue": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/frame"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/slotValue"
+          }
+        }
+      ]
+    },
+    "frame": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "COMBINE"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "COMBINE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_CONTACT"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "CONTACT_RELATED": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "TYPE_RELATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_DIRECTIONS"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME_ARRIVAL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_DEPARTURE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ROAD_CONDITION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ROAD_CONDITION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_DISTANCE"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "AMOUNT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "UNIT_DISTANCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_ESTIMATED_ARRIVAL"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME_ARRIVAL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_DEPARTURE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ROAD_CONDITION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_ESTIMATED_DEPARTURE"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME_ARRIVAL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_DEPARTURE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_ESTIMATED_DURATION"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_ARRIVAL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_DEPARTURE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ROAD_CONDITION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_EVENT"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "ATTENDEE_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ATTRIBUTE_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "CATEGORY_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "NAME_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ORDINAL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ORGANIZER_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_EVENT_ORGANIZER"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "CATEGORY_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ORGANIZER_EVENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_INFO_ROAD_CONDITION"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_DEPARTURE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ROAD_CONDITION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_INFO_ROUTE"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_INFO_TRAFFIC"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "METHOD_TRAVEL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "ROAD_CONDITION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "WAYPOINT_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_LOCATION"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "CATEGORY_LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION_MODIFIER": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION_USER": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "POINT_ON_MAP": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SEARCH_RADIUS": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_LOCATION_HOME"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "CONTACT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "CONTACT_RELATED": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION_CURRENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "TYPE_RELATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_LOCATION_HOMETOWN"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_LOCATION_SCHOOL"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "CONTACT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "CONTACT_RELATED": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "TYPE_RELATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "GET_LOCATION_WORK"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "CONTACT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "CONTACT_RELATED": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION_CURRENT": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "LOCATION_WORK": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "TYPE_RELATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "NEGATION"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "UNSUPPORTED"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "UNSUPPORTED_EVENT"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "UNSUPPORTED_NAVIGATION"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "const": "UPDATE_DIRECTIONS"
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "DATE_TIME_ARRIVAL": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DATE_TIME_DEPARTURE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "DESTINATION": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "OBSTRUCTION_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "PATH_AVOID": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                },
+                "SOURCE": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "$ref": "#/$defs/frame"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/slotValue"
+                      }
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "intent",
+            "slots"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "COMBINE": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "COMBINE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "COMBINE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_CONTACT": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_CONTACT"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_DIRECTIONS": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_DIRECTIONS"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_DISTANCE": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_DISTANCE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "AMOUNT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "UNIT_DISTANCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_ESTIMATED_ARRIVAL": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_ESTIMATED_ARRIVAL"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_ESTIMATED_DEPARTURE": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_ESTIMATED_DEPARTURE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_ESTIMATED_DURATION": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_ESTIMATED_DURATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_EVENT": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_EVENT"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "ATTENDEE_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ATTRIBUTE_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CATEGORY_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "NAME_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ORDINAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ORGANIZER_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_EVENT_ORGANIZER": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_EVENT_ORGANIZER"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CATEGORY_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ORGANIZER_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_INFO_ROAD_CONDITION": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_INFO_ROAD_CONDITION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_INFO_ROUTE": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_INFO_ROUTE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_INFO_TRAFFIC": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_INFO_TRAFFIC"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_LOCATION": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CATEGORY_LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_MODIFIER": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_USER": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "POINT_ON_MAP": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SEARCH_RADIUS": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_LOCATION_HOME": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_HOME"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_CURRENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_LOCATION_HOMETOWN": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_HOMETOWN"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_LOCATION_SCHOOL": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_SCHOOL"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "GET_LOCATION_WORK": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_WORK"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_CURRENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_WORK": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "NEGATION": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "NEGATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "UNSUPPORTED": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UNSUPPORTED"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "UNSUPPORTED_EVENT": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UNSUPPORTED_EVENT"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "UNSUPPORTED_NAVIGATION": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UNSUPPORTED_NAVIGATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "UPDATE_DIRECTIONS": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UPDATE_DIRECTIONS"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "COMBINE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "COMBINE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_CONTACT"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_DIRECTIONS"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_DISTANCE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "AMOUNT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "UNIT_DISTANCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_ESTIMATED_ARRIVAL"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_ESTIMATED_DEPARTURE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_ESTIMATED_DURATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_EVENT"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "ATTENDEE_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ATTRIBUTE_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CATEGORY_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "NAME_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ORDINAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ORGANIZER_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_EVENT_ORGANIZER"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CATEGORY_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ORGANIZER_EVENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_INFO_ROAD_CONDITION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_INFO_ROUTE"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_INFO_TRAFFIC"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "METHOD_TRAVEL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "ROAD_CONDITION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "WAYPOINT_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CATEGORY_LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_MODIFIER": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_USER": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "POINT_ON_MAP": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SEARCH_RADIUS": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_HOME"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_CURRENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_HOMETOWN"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_SCHOOL"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "GET_LOCATION_WORK"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "CONTACT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "CONTACT_RELATED": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_CURRENT": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "LOCATION_WORK": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "TYPE_RELATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "NEGATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UNSUPPORTED"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UNSUPPORTED_EVENT"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UNSUPPORTED_NAVIGATION"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "const": "UPDATE_DIRECTIONS"
+        },
+        "slots": {
+          "type": "object",
+          "properties": {
+            "DATE_TIME_ARRIVAL": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DATE_TIME_DEPARTURE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "DESTINATION": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "OBSTRUCTION_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "PATH_AVOID": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            },
+            "SOURCE": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/frame"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/slotValue"
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "intent",
+        "slots"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}
