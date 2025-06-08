@@ -2,6 +2,7 @@ import json
 import math
 import re
 from typing import Any, Dict, List, Set, Tuple, Union
+import numbers
 
 import json_repair
 import numpy as np
@@ -834,3 +835,153 @@ class TopV1Evaluator:
         self,
     ):
         pass
+    
+    
+class ApiBankEvaluator:
+    def __init__(self):
+        pass
+
+    def compute_compliance(self, output: Dict, schema: Dict) -> Dict[str, Any]:
+
+        """
+        The useful compliance calculator, but with a twist to focus on the right API:
+        Compute the compliance score of an output against a schema.
+        This function evaluates how well the output complies with the schema by:
+        1. Finding the branch in the schema that matches the output's 'api_name'.
+        2. Using a general JSON schema evaluator to score the output against the matched branch.
+        Parameters:
+        ----------
+        output : Dict
+            The output dictionary to be evaluated.
+        schema : Dict
+            The JSON schema dictionary to evaluate against, which may contain multiple branches.
+        Returns:
+        -------
+        Dict[str, Any]
+            A dictionary containing at least:
+            - 'compliance': float between 0.0 and 1.0, where 1.0 means fully compliant
+            - 'compliance_errors': list of strings describing compliance errors (if any)
+        """
+        
+
+        # 1️⃣  choose the branch that matches api_name (if any)
+        branches = schema.get("oneOf", []) or [schema]     # cope with no oneOf
+        chosen = next(
+            (b for b in branches
+            if b.get("properties", {}).get("api_name", {}).get("const")
+                == output.get("api_name")),
+            None
+        )
+
+        if chosen is None:       # api_name not allowed at all
+            return {"compliance": 0.0,
+                    "compliance_errors": ["api_name not in allowed set"]}
+
+        # 2️⃣  run the generic evaluator on that branch
+        validator = GeneralJsonSchemaEvaluator(chosen)
+        return validator.score_against_schema(output)
+
+    @staticmethod
+    def _equivalent(a, b) -> bool:
+        """
+        Return True if two JSON scalars / arrays / dicts should be treated
+        as the same *value* for the purpose of correctness.
+        – lists compare order-insensitively
+        – "970420" vs 970420 is OK
+        """
+        # numeric ↔ string-of-digits coercion
+        if isinstance(a, numbers.Number) and isinstance(b, str) and b.isdigit():
+            b = type(a)(b)
+        if isinstance(b, numbers.Number) and isinstance(a, str) and a.isdigit():
+            a = type(b)(a)
+
+        # list ↔ list: ignore ordering of simple scalars
+        if isinstance(a, list) and isinstance(b, list):
+            try:
+                return sorted(a) == sorted(b)
+            except TypeError:
+                # list of dicts etc.: fall back to exact
+                return a == b
+        return a == b   
+
+    def compute_correctness(
+        self, reference: Dict[str, Any], prediction: Dict[str, Any]
+    ) -> Dict[str, Any]:
+        """
+        1.0  = perfect match
+        0.75 = right API + half the parameters right
+        0.5  = right API only
+        etc.
+        """
+        errors: List[str] = []
+        score: float = 0.0
+
+        # ---------- API name ---------- #
+        if prediction.get("api_name") == reference.get("api_name"):
+            score += 0.5
+        else:
+            errors.append(
+                f"api_name mismatch: expected '{reference.get('api_name')}', got "
+                f"'{prediction.get('api_name')}'"
+            )
+
+        # ---------- parameters ---------- #
+        ref_params = reference.get("parameters", {}) or {}
+        pred_params = prediction.get("parameters", {}) or {}
+
+        if not isinstance(pred_params, dict):
+            errors.append("`parameters` field missing or not an object")
+        else:
+            # per-key credit
+            per_key_weight = 0.5 / max(len(ref_params), 1)
+            for k, v in ref_params.items():
+                if k not in pred_params:
+                    errors.append(f"parameter '{k}' missing")
+                elif self._equivalent(v, pred_params[k]):
+                    score += per_key_weight
+                else:
+                    errors.append(
+                        f"parameter '{k}' wrong value: expected {v!r}, got {pred_params[k]!r}"
+                    )
+
+            # unexpected keys
+            extra = set(pred_params) - set(ref_params)
+            if extra:
+                errors.append(f"unexpected parameters: {', '.join(sorted(extra))}")
+
+            # special case: no parameters expected at all
+            if not ref_params:
+                score += 0.5   # full parameter slice
+
+        # round for readability
+        return {
+            "correctness": round(score, 3),
+            "correctness_errors": errors,
+        }
+
+    
+    def score_record(self, reference_record: Dict, prediction_record: str) -> Dict[str, Any]:
+        """
+        Scores a single record against the reference.
+        Returns a dict with compliance and correctness scores.
+        
+        :param reference_record: The reference record containing the schema and output.
+        :param prediction_record: The prediction record as a JSON string.
+        """
+
+        # --- Syntax validity
+        validity_score, pred_dict = assess_json_valid(prediction_record)
+
+        if not isinstance(pred_dict, Dict):
+            return {
+                "is_valid": validity_score,
+                "compliance": 0,
+                "correctness": 0,
+            }
+
+        compliance = self.compute_compliance(pred_dict, reference_record["json_schema"])
+        correctness = self.compute_correctness(reference_record["output"], pred_dict)
+
+        return {"is_valid": validity_score, **compliance, **correctness}
+    
+    

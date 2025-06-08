@@ -18,6 +18,7 @@ dependencies = [
     "pillow>=11.2.1",
     "pycountry>=24.6.1",
     "rapidfuzz>=3.13.0",
+    "regex>=2024.11.6",
     "transformers>=4.52.3",
     "unidecode>=1.4.0",
 ]
