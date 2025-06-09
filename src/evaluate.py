@@ -3,6 +3,7 @@ import math
 import re
 from typing import Any, Dict, List, Set, Tuple, Union
 import numbers
+import logging
 
 import json_repair
 import numpy as np
@@ -12,38 +13,88 @@ from jsonschema import Draft7Validator, ValidationError, validators
 from rapidfuzz import distance, process
 from unidecode import unidecode
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 ######### Helpers
 
 
-def assess_json_valid(json_string: str):
+def assess_json_valid(json_string: str) -> Tuple[int, Dict]:
     """
-    Returns (1, record) if json_string is valid JSON,
-    otherwise returns (0, repaired_record) using json_repair.
+    Assess if the given JSON string is valid.
+
+    Args:
+        json_string (str): The JSON string to validate.
+
+    Returns:
+        Tuple[int, Dict]: A tuple containing a status code (1 for valid, 0 for invalid) and the parsed record.
     """
     try:
         record = json.loads(json_string)
         return 1, record
     except json.JSONDecodeError:
+        logger.warning(f"Invalid JSON string: {json_string} - Fixing")
         record = json_repair.loads(json_string)
         return 0, record
 
 
 def f1(tp: int, fp: int, fn: int) -> float:
+    """
+    Calculate the F1 score.
+
+    Args:
+        tp (int): True positives.
+        fp (int): False positives.
+        fn (int): False negatives.
+
+    Returns:
+        float: The F1 score.
+    """
     p = tp / (tp + fp) if tp + fp else 0.0
     r = tp / (tp + fn) if tp + fn else 0.0
     return 2 * p * r / (p + r) if p + r else 0.0
 
 
-def gmean(x, y):
+def gmean(x: float, y: float) -> float:
+    """
+    Calculate the geometric mean of two numbers.
+
+    Args:
+        x (float): First number.
+        y (float): Second number.
+
+    Returns:
+        float: The geometric mean.
+    """
     return math.sqrt(x * y) if x and y else 0
 
 
 def _norm_name(name: str) -> str:
-    """Lower-case, collapse whitespace, drop periods."""
+    """
+    Normalize a name by lower-casing, collapsing whitespace, and dropping periods.
+
+    Args:
+        name (str): The name to normalize.
+
+    Returns:
+        str: The normalized name.
+    """
     return " ".join(name.lower().replace(".", "").split())
 
 
-def _numeric_equal(a, b, tol: int | float = 0) -> bool:
+def _numeric_equal(a: Any, b: Any, tol: int | float = 0) -> bool:
+    """
+    Check if two numeric values are equal within a tolerance.
+
+    Args:
+        a (Any): First value.
+        b (Any): Second value.
+        tol (int | float, optional): Tolerance for comparison. Defaults to 0.
+
+    Returns:
+        bool: True if the values are equal within the tolerance, False otherwise.
+    """
     if a is None and b is None:
         return True
     if isinstance(a, (int, float)) and isinstance(b, (int, float)):
@@ -53,21 +104,39 @@ def _numeric_equal(a, b, tol: int | float = 0) -> bool:
 
 # ────── 1.  Normalisation helpers ───────────────────────────────────────────
 
-DATE_PAREN_RE = re.compile(r"\(.*?\)")  # strip “(aged 67)”
+DATE_PAREN_RE = re.compile(r"\(.*?\)")  # strip "(aged 67)"
 
 
 def _norm_date(val: str) -> str:
-    """ISO 8601 (`YYYY-MM-DD` or `YYYY-MM` if day unknown)."""
+    """
+    Normalize a date string to ISO 8601 format.
+
+    Args:
+        val (str): The date string to normalize.
+
+    Returns:
+        str: The normalized date string in ISO 8601 format.
+    """
     val = DATE_PAREN_RE.sub("", val).strip()
     try:
         d = dt.parse(val, dayfirst=False, fuzzy=True)
-    except Exception:
+    except Exception as e:
+        logger.error(f"Error parsing date: {val}, error: {e}")
         return val.lower().strip()
     iso = d.date().isoformat()
     return iso if re.search(r"\b([12]?\d|3[01])\b", val) else iso[:7]
 
 
 def _digits_only(val: str) -> str:
+    """
+    Extract only digits from a string.
+
+    Args:
+        val (str): The string to process.
+
+    Returns:
+        str: A string containing only digits.
+    """
     return "".join(re.findall(r"\d+", val))
 
 
@@ -86,12 +155,22 @@ ALIASES = {
 
 
 def _norm_nationality(val: str) -> str:
+    """
+    Normalize a nationality string.
+
+    Args:
+        val (str): The nationality string to normalize.
+
+    Returns:
+        str: The normalized nationality string.
+    """
     v = unidecode(val).lower().strip().replace(".", "")
     if v in ALIASES:
         return ALIASES[v]
     try:  # pycountry catch-all
         return pycountry.countries.lookup(v).name
-    except LookupError:
+    except LookupError as e:
+        logger.warning(f"Lookup error for nationality: {val}, error: {e}")
         return v
 
 
@@ -109,6 +188,15 @@ REDUNDANT = {
 
 
 def _norm_place(val: str) -> str:
+    """
+    Normalize a place string.
+
+    Args:
+        val (str): The place string to normalize.
+
+    Returns:
+        str: The normalized place string.
+    """
     parts = [p.strip() for p in val.split(",")]
     clean = [
         unidecode(p).lower() for p in parts if unidecode(p).lower() not in REDUNDANT
@@ -120,10 +208,29 @@ MULTI_SEP_RE = re.compile(r"[;,/•]+")
 
 
 def _split_set(val: str) -> List[str]:
+    """
+    Split a string into a list of strings based on multiple separators.
+
+    Args:
+        val (str): The string to split.
+
+    Returns:
+        List[str]: A list of strings.
+    """
     return [s.strip() for s in MULTI_SEP_RE.split(val) if s.strip()]
 
 
 def _normalise_value(key: str, val: Any) -> Any:
+    """
+    Normalize a value based on its key.
+
+    Args:
+        key (str): The key associated with the value.
+        val (Any): The value to normalize.
+
+    Returns:
+        Any: The normalized value.
+    """
     if val is None:
         return val
     if isinstance(val, (int, float)):
@@ -153,7 +260,16 @@ def _normalise_value(key: str, val: Any) -> Any:
 
 
 def _values_equal(a: Any, b: Any) -> bool:
-    """Set-aware equality."""
+    """
+    Check if two values are equal, treating multi-valued strings as sets.
+
+    Args:
+        a (Any): First value.
+        b (Any): Second value.
+
+    Returns:
+        bool: True if the values are equal, False otherwise.
+    """
     if isinstance(a, str) and isinstance(b, str):
         # treat multi-valued strings as sets
         a_set, b_set = map(_split_set, (a, b))
@@ -180,7 +296,7 @@ class GeneralJsonSchemaEvaluator:
         ValidatorCls.check_schema(schema)  # fail fast if schema bogus
         self._validator = ValidatorCls(schema)
 
-    def _leaf_count(self, schema: Dict[str, Any]) -> int:
+    def _leaf_count(self) -> int:
         """
         Recursively count 'primitive checks' in *schema*.
 
@@ -204,35 +320,35 @@ class GeneralJsonSchemaEvaluator:
                 )
             return t
 
-        t = _norm_type(schema.get("type"))
+        t = _norm_type(self.schema.get("type"))
 
         # ---------- object -------------------------------------------------
         if t == "object":
             total = 0
-            for sub in schema.get("properties", {}).values():
+            for sub in self.schema.get("properties", {}).values():
                 total += self._leaf_count(sub)
-            for sub in schema.get("patternProperties", {}).values():
+            for sub in self.schema.get("patternProperties", {}).values():
                 total += self._leaf_count(sub)
-            if isinstance(schema.get("additionalProperties"), dict):
-                total += self._leaf_count(schema["additionalProperties"])
-            if "propertyNames" in schema and isinstance(schema["propertyNames"], dict):
-                total += self._leaf_count(schema["propertyNames"])
+            if isinstance(self.schema.get("additionalProperties"), dict):
+                total += self._leaf_count(self.schema["additionalProperties"])
+            if "propertyNames" in self.schema and isinstance(self.schema["propertyNames"], dict):
+                total += self._leaf_count(self.schema["propertyNames"])
             return total
 
         # ---------- array --------------------------------------------------
         if t == "array":
-            return 1 + self._leaf_count(schema.get("items", {}))
+            return 1 + self._leaf_count(self.schema.get("items", {}))
 
         # ---------- combinators / conditionals -----------------------------
         for comb in ("anyOf", "oneOf", "allOf"):
-            if comb in schema:
-                return min(self._leaf_count(sub) for sub in schema[comb])
-        if "if" in schema:  # consider shortest of if/then(/else)
-            branches = [schema["if"]]
-            if "then" in schema:
-                branches.append(schema["then"])
-            if "else" in schema:
-                branches.append(schema["else"])
+            if comb in self.schema:
+                return min(self._leaf_count(sub) for sub in self.schema[comb])
+        if "if" in self.schema:  # consider shortest of if/then(/else)
+            branches = [self.schema["if"]]
+            if "then" in self.schema:
+                branches.append(self.schema["then"])
+            if "else" in self.schema:
+                branches.append(self.schema["else"])
             return min(self._leaf_count(b) for b in branches)
 
         # ---------- primitive / fall-through -------------------------------
@@ -247,9 +363,7 @@ class GeneralJsonSchemaEvaluator:
         errors: List[ValidationError] = list(self._validator.iter_errors(data))
 
         failed_count = len(errors)
-        total_checks = self._leaf_count(
-            self.schema
-        )  # ③ how many independent checks exist
+        total_checks = self._leaf_count()  # ③ how many independent checks exist
         passed = total_checks - failed_count
 
         percentage = max(0.0, round(passed / total_checks, 3)) if total_checks else 1
