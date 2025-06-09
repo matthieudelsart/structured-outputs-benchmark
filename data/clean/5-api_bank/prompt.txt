@@ -4,10 +4,10 @@ You will be first given the dialogue history and then the instruction,
 that contains information about the possible APIs you can use to answer the user request.
 
 # Dialogue history:
-{record["input"]}
+{input}
 
 # Instruction:
-{record["instruction"]}
+{instruction}
 
 You must must only generate the JSON object, without any additional text or explanation. You must follow the API specifications provided.
 """

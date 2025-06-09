@@ -1100,9 +1100,9 @@ class ApiBankEvaluator:
     
     
 class ReasoningEvaluator:
-    def __init__(self, type="GSM8K"):
-        self.type = type
-        self.schema = json.load(open(f"data/clean/6-reasoning/schema_{type}.json"))
+    def __init__(self, subtask="GSM8K"):
+        self.subtask = subtask
+        self.schema = json.load(open(f"data/clean/6-reasoning/{subtask}/schema.json"))
         self.validator = GeneralJsonSchemaEvaluator(self.schema)
 
     def compute_compliance(self, output: Dict) -> Dict[str, Any]:
