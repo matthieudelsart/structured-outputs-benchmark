@@ -1,0 +1,9 @@
+
+You will be presented a sequence of words. 
+You role is to identify, for each word, the last letter of the word and to concatenate all these last letters in the right order to create a new string.
+You will always repond with JSON in the format described below:
+
+{"reasoning": <reasoning about the answer>, "answer": <final answer>}
+
+Do not include anything apart from the json, no extra text.
+The "reasoning" field will contain your reasoning about the sequence of events, and the "answer" will contain only the answer (the concatenated string), in the form of a string.

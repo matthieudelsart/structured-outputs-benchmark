@@ -985,3 +985,62 @@ class ApiBankEvaluator:
         return {"is_valid": validity_score, **compliance, **correctness}
     
     
+class ReasoningEvaluator:
+    def __init__(self, type="GSM8K"):
+        self.type = type
+        self.schema = json.load(open(f"data/clean/6-reasoning/schema_{type}.json"))
+        self.validator = GeneralJsonSchemaEvaluator(self.schema)
+
+    def compute_compliance(self, output: Dict) -> Dict[str, Any]:
+        """
+        Computes compliance of the JSON string against the schema.
+        Returns a dict with compliance percentage and errors.
+        """
+        return self.validator.score_against_schema(output)
+    
+    def compute_correctness(
+        self, reference: Dict[str, Any], prediction: Dict[str, Any]
+    ) -> Dict[str, Any]:
+        """"Returns correctness score and errors for reasoning tasks.
+        Here, correctness is defined as an exact match of the 'answer' field (reasoning is not evaluated).
+        Normalisation is applied to compare strings in a robust way and disregard type issues (assessed in compliance).
+        """
+
+        score = _norm_name(str(prediction.get("answer", ""))) == _norm_name(
+            str(reference.get("answer", ""))
+        )
+        errors: List[str] = []
+        if not score:
+            errors.append(
+                f"answer mismatch: expected '{reference.get('answer')}', got "
+                f"'{prediction.get('answer')}'"
+            )
+        
+        return {
+            "correctness": round(score, 3),
+            "correctness_errors": errors,
+        }
+    
+    def score_record(self, reference_record: Dict, prediction_record: str) -> Dict[str, Any]:
+        """
+        Scores a single record against the reference.
+        Returns a dict with compliance and correctness scores.
+        
+        :param reference_record: The reference record.
+        :param prediction_record: The prediction record as a JSON string.
+        """
+
+        # --- Syntax validity
+        validity_score, pred_dict = assess_json_valid(prediction_record)
+
+        if not isinstance(pred_dict, Dict):
+            return {
+                "is_valid": validity_score,
+                "compliance": 0,
+                "correctness": 0,
+            }
+
+        compliance = self.compute_compliance(pred_dict)
+        correctness = self.compute_correctness(reference_record["output"], pred_dict)
+
+        return {"is_valid": validity_score, **compliance, **correctness}
