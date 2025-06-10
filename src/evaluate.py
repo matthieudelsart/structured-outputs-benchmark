@@ -5,6 +5,7 @@ from typing import Any, Dict, List, Set, Tuple, Union
 import numbers
 import logging
 
+import argparse
 import json_repair
 import numpy as np
 import pycountry
@@ -12,6 +13,7 @@ from dateutil import parser as dt
 from jsonschema import Draft7Validator, ValidationError, validators
 from rapidfuzz import distance, process
 from unidecode import unidecode
+from pathlib import Path
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -20,7 +22,7 @@ logger = logging.getLogger(__name__)
 ######### Helpers
 
 
-def assess_json_valid(json_string: str) -> Tuple[int, Dict]:
+def assess_json_valid(json_string: str) -> Tuple[float, Any]:
     """
     Assess if the given JSON string is valid.
 
@@ -34,9 +36,16 @@ def assess_json_valid(json_string: str) -> Tuple[int, Dict]:
         record = json.loads(json_string)
         return 1, record
     except json.JSONDecodeError:
-        logger.warning(f"Invalid JSON string: {json_string} - Fixing")
-        record = json_repair.loads(json_string)
-        return 0, record
+        try:
+            record = json.loads(json_string.replace("```json", "").replace("```", ""))
+            return 0.8, record
+        except json.JSONDecodeError:
+            logger.warning(f"Invalid JSON string: {json_string} - Fixing")
+            record = json_repair.loads(json_string)
+            return 0, record
+    except Exception as e:
+        logger.error(f"Error parsing JSON: {e}. Problem with {json_string}")
+        return 0, json_string
 
 
 def f1(tp: int, fp: int, fn: int) -> float:
@@ -296,7 +305,7 @@ class GeneralJsonSchemaEvaluator:
         ValidatorCls.check_schema(schema)  # fail fast if schema bogus
         self._validator = ValidatorCls(schema)
 
-    def _leaf_count(self) -> int:
+    def _leaf_count(self, schema: Dict) -> int:
         """
         Recursively count 'primitive checks' in *schema*.
 
@@ -320,35 +329,35 @@ class GeneralJsonSchemaEvaluator:
                 )
             return t
 
-        t = _norm_type(self.schema.get("type"))
+        t = _norm_type(schema.get("type"))
 
         # ---------- object -------------------------------------------------
         if t == "object":
             total = 0
-            for sub in self.schema.get("properties", {}).values():
+            for sub in schema.get("properties", {}).values():
                 total += self._leaf_count(sub)
-            for sub in self.schema.get("patternProperties", {}).values():
+            for sub in schema.get("patternProperties", {}).values():
                 total += self._leaf_count(sub)
-            if isinstance(self.schema.get("additionalProperties"), dict):
-                total += self._leaf_count(self.schema["additionalProperties"])
-            if "propertyNames" in self.schema and isinstance(self.schema["propertyNames"], dict):
-                total += self._leaf_count(self.schema["propertyNames"])
+            if isinstance(schema.get("additionalProperties"), dict):
+                total += self._leaf_count(schema["additionalProperties"])
+            if "propertyNames" in schema and isinstance(schema["propertyNames"], dict):
+                total += self._leaf_count(schema["propertyNames"])
             return total
 
         # ---------- array --------------------------------------------------
         if t == "array":
-            return 1 + self._leaf_count(self.schema.get("items", {}))
+            return 1 + self._leaf_count(schema.get("items", {}))
 
         # ---------- combinators / conditionals -----------------------------
         for comb in ("anyOf", "oneOf", "allOf"):
-            if comb in self.schema:
-                return min(self._leaf_count(sub) for sub in self.schema[comb])
-        if "if" in self.schema:  # consider shortest of if/then(/else)
-            branches = [self.schema["if"]]
-            if "then" in self.schema:
-                branches.append(self.schema["then"])
-            if "else" in self.schema:
-                branches.append(self.schema["else"])
+            if comb in schema:
+                return min(self._leaf_count(sub) for sub in schema[comb])
+        if "if" in schema:  # consider shortest of if/then(/else)
+            branches = [schema["if"]]
+            if "then" in schema:
+                branches.append(schema["then"])
+            if "else" in schema:
+                branches.append(schema["else"])
             return min(self._leaf_count(b) for b in branches)
 
         # ---------- primitive / fall-through -------------------------------
@@ -363,7 +372,7 @@ class GeneralJsonSchemaEvaluator:
         errors: List[ValidationError] = list(self._validator.iter_errors(data))
 
         failed_count = len(errors)
-        total_checks = self._leaf_count()  # ③ how many independent checks exist
+        total_checks = self._leaf_count(self.schema)  # ③ how many independent checks exist
         passed = total_checks - failed_count
 
         percentage = max(0.0, round(passed / total_checks, 3)) if total_checks else 1
@@ -397,7 +406,7 @@ class RotowireEvaluator:
         definition: Dict[str, Any],
         min_items: int | None,
         max_items: int | None,
-    ) -> Tuple[int, int]:
+    ) -> Tuple[int, Any]:
         """
         Returns (valid, total) for the section.
         If data is None (missing) or length violates min/max, returns (0, 1) → 0 %.
@@ -436,19 +445,8 @@ class RotowireEvaluator:
 
         return valid, total if total else (0, 1)  # avoid div-by-zero
 
-    def compliance_breakdown(self, json_string: str) -> Dict[str, float]:
+    def compliance_breakdown(self, record: Dict) -> Dict[str, Any]:
         """Percentage compliance + real Draft-07 errors, handles all edge-cases."""
-
-        # Check json valid
-        validity_score, record = assess_json_valid(json_string)
-        if not isinstance(record, Dict):
-            return {
-                "is_valid": validity_score,
-                "team_compliance": 0,
-                "player_compliance": 0,
-                "overall_compliance": 0,
-                "errors": None,
-            }
 
         errors = list(self.validator.iter_errors(record))
 
@@ -476,12 +474,15 @@ class RotowireEvaluator:
         player_compliance = p_valid / p_total
 
         return {
-            "is_valid": validity_score,
             "team_compliance": team_compliance,
             "player_compliance": player_compliance,
             "overall_compliance": float(np.mean([team_compliance, player_compliance])),
             "errors": errors,
         }
+    
+    def compute_compliance(self, output: Dict) -> Dict[str, Any]:
+        full_compliance = self.compliance_breakdown(output)
+        return {"compliance": full_compliance["overall_compliance"], "compliance_errors": full_compliance["errors"]}
 
     ##### Correctness evaluation
 
@@ -555,7 +556,7 @@ class RotowireEvaluator:
         prediction: Dict,
         value_tolerance: Dict[str, float] | None = None,
         edit_threshold: int = 1,
-    ) -> Dict[str, float]:
+    ) -> Dict[str, Any]:
         """
         Returns a dict with detection and attribute scores for one game.
         """
@@ -614,42 +615,50 @@ class RotowireEvaluator:
             "object_value_acc": (team_val_acc + player_val_acc) / 2,
             "object_attribute_score": (team_attr_score + player_attr_score) / 2,
             "correctness": (overall_team_score + overall_player_score) / 2,
+            "errors": [], # too complex for that one
         }
+    
+    def compute_correctness(self, reference: Dict, prediction: Dict) -> Dict[str, Any]:
+        """
+        Computes correctness of the prediction against the reference.
+        Returns a dict with correctness percentage and errors.
+        """
+        full_score = self.evaluate_game(reference, prediction)
+        return {"correctness": full_score["correctness"], "correctness_errors": full_score["errors"]}
+    
+    def score_record(self, record: Dict) -> Dict[str, Any]:
+        """
+        Scores a single record against the reference.
+        Returns a dict with compliance and correctness scores.
+        """
+
+        # --- Syntax validity
+        validity_score, pred_dict = assess_json_valid(record["generated_output"])
+
+        if not isinstance(pred_dict, Dict):
+            return {
+                "is_valid": validity_score,
+                "compliance": 0,
+                "correctness": 0,
+            }
+
+        compliance = self.compute_compliance(pred_dict)
+        correctness = self.compute_correctness(record["output"], pred_dict)
+
+        return {"is_valid": validity_score, **compliance, **correctness}
 
 
 class WikiBioEvaluator:
     def __init__(self):
         pass
-
-    def compute_compliance(
-        self, json_string: str, schema: Dict[str, Any]
-    ) -> Dict[str, Any]:
+    
+    def compute_compliance(self, output: Dict, schema: Dict[str, Any]) -> Dict[str, Any]:
         """
-        • Parses *json_string* (repairing if needed) and flags JSON validity.
-        • Runs Draft-07 compliance against *schema*.
-        • Returns one merged dict:
-            {
-            "is_valid": 0|1,          # JSON well-formedness
-            "compliance": 0-100,      # % of schema checks passed
-            "errors": [...]           # jsonschema.ValidationError objects
-            }
+        Computes compliance of the JSON string against the schema.
+        Returns a dict with compliance percentage and errors.
         """
-
-        # --- Syntax validity
-        validity_score, record = assess_json_valid(json_string)
-
-        if not isinstance(record, Dict):
-            return {
-                "is_valid": validity_score,
-                "compliance": 0,
-                "errors": None,
-            }
-
-        # ---- Schema compliance
         validator = GeneralJsonSchemaEvaluator(schema)
-        schema_result = validator.score_against_schema(record)
-
-        return {"is_valid": validity_score, **schema_result}
+        return validator.score_against_schema(output)
 
     def compute_correctness(
         self,
@@ -661,16 +670,13 @@ class WikiBioEvaluator:
         Returns percentage and list of mismatches.
         """
         errors = []
-        keys = reference["output"].keys()
+        keys = reference.keys()
         total = len(keys)
         correct = 0
 
         for k in keys:
             ref_val = _normalise_value(k, reference.get(k))
-            try:
-                pred_val = _normalise_value(k, prediction.get(k))
-            except KeyError:
-                errors.append(f"Key '{k}': Missing key)")
+            pred_val = _normalise_value(k, prediction.get(k))
 
             if _values_equal(ref_val, pred_val):
                 correct += 1
@@ -683,34 +689,27 @@ class WikiBioEvaluator:
             "correctness": correct / total,
             "correctness_errors": errors,
         }
-
-    def compute_score_all_records(
-        self, outputs: str, reference_json: str = "data/clean/wiki_bio/bench.json"
-    ) -> Dict[str, Dict[str, Any]]:
+    
+    def score_record(self, record: Dict) -> Dict[str, Any]:
         """
-        Computes compliance and correctness for all records in the outputs file against the reference JSON.
-        :param outputs: Path to the outputs JSON file.
-        :param reference_json: Path to the reference JSON file.
-        :return: A dictionary with record IDs as keys and their compliance and correctness results.
+        Scores a single record against the reference.
+        Returns a dict with compliance and correctness scores.
         """
-        with open(reference_json, "r") as rf, open(outputs, "r") as o:
-            reference_records = json.load(rf)
-            output_records = json.load(o)
 
-        results = {}
-        for reference, output in zip(reference_records, output_records):
-            compliance_results = self.compute_compliance(
-                json_string=output["output"], schema=reference["schema"]
-            )
-            correctness_results = self.compute_correctness(
-                reference=reference["output"],
-                prediction=output["output"],
-            )
-            results[reference["id"]] = {
-                "compliance": compliance_results,
-                "correctness": correctness_results,
+        # --- Syntax validity
+        validity_score, pred_dict = assess_json_valid(record["generated_output"])
+
+        if not isinstance(pred_dict, Dict):
+            return {
+                "is_valid": validity_score,
+                "compliance": 0,
+                "correctness": 0,
             }
-        return results
+
+        compliance = self.compute_compliance(pred_dict, schema=record["schema"])
+        correctness = self.compute_correctness(record["output"], pred_dict)
+
+        return {"is_valid": validity_score, **compliance, **correctness}
 
 
 ######## Need to handle that one takes the json str a input and the other the real dict; see with jsonl
@@ -790,14 +789,14 @@ class FewNerdsEvaluator:
             "correctness_errors": errors,
         }
 
-    def score_record(self, reference_record, prediction_record: str) -> Dict[str, Any]:
+    def score_record(self, record: Dict) -> Dict[str, Any]:
         """
         Scores a single record against the reference.
         Returns a dict with compliance and correctness scores.
         """
 
         # --- Syntax validity
-        validity_score, pred_dict = assess_json_valid(prediction_record)
+        validity_score, pred_dict = assess_json_valid(record["generated_output"])
 
         if not isinstance(pred_dict, Dict):
             return {
@@ -807,14 +806,9 @@ class FewNerdsEvaluator:
             }
 
         compliance = self.compute_compliance(pred_dict)
-        correctness = self.compute_correctness(reference_record, pred_dict)
+        correctness = self.compute_correctness(record["output"], pred_dict)
 
         return {"is_valid": validity_score, **compliance, **correctness}
-
-    def score_all_records(
-        self,
-    ):
-        pass
 
 
 class TopV1Evaluator:
@@ -924,14 +918,14 @@ class TopV1Evaluator:
                 trips.add((parent_path, slot_name, "STRING"))
         return trips
 
-    def score_record(self, reference_record, prediction_record: str) -> Dict[str, Any]:
+    def score_record(self, record: Dict) -> Dict[str, Any]:
         """
         Scores a single record against the reference.
         Returns a dict with compliance and correctness scores.
         """
 
         # --- Syntax validity
-        validity_score, pred_dict = assess_json_valid(prediction_record)
+        validity_score, pred_dict = assess_json_valid(record["generated_output"])
 
         if not isinstance(pred_dict, Dict):
             return {
@@ -941,14 +935,9 @@ class TopV1Evaluator:
             }
 
         compliance = self.compute_compliance(pred_dict)
-        correctness = self.compute_correctness(reference_record["output"], pred_dict)
+        correctness = self.compute_correctness(record["output"], pred_dict)
 
         return {"is_valid": validity_score, **compliance, **correctness}
-
-    def score_all_records(
-        self,
-    ):
-        pass
     
     
 class ApiBankEvaluator:
@@ -1074,7 +1063,7 @@ class ApiBankEvaluator:
         }
 
     
-    def score_record(self, reference_record: Dict, prediction_record: str) -> Dict[str, Any]:
+    def score_record(self, record: Dict) -> Dict[str, Any]:
         """
         Scores a single record against the reference.
         Returns a dict with compliance and correctness scores.
@@ -1084,7 +1073,7 @@ class ApiBankEvaluator:
         """
 
         # --- Syntax validity
-        validity_score, pred_dict = assess_json_valid(prediction_record)
+        validity_score, pred_dict = assess_json_valid(record["generated_output"])
 
         if not isinstance(pred_dict, Dict):
             return {
@@ -1093,8 +1082,8 @@ class ApiBankEvaluator:
                 "correctness": 0,
             }
 
-        compliance = self.compute_compliance(pred_dict, reference_record["json_schema"])
-        correctness = self.compute_correctness(reference_record["output"], pred_dict)
+        compliance = self.compute_compliance(pred_dict, record["json_schema"])
+        correctness = self.compute_correctness(record["output"], pred_dict)
 
         return {"is_valid": validity_score, **compliance, **correctness}
     
@@ -1135,7 +1124,7 @@ class ReasoningEvaluator:
             "correctness_errors": errors,
         }
     
-    def score_record(self, reference_record: Dict, prediction_record: str) -> Dict[str, Any]:
+    def score_record(self, record:Dict) -> Dict[str, Any]:
         """
         Scores a single record against the reference.
         Returns a dict with compliance and correctness scores.
@@ -1145,7 +1134,7 @@ class ReasoningEvaluator:
         """
 
         # --- Syntax validity
-        validity_score, pred_dict = assess_json_valid(prediction_record)
+        validity_score, pred_dict = assess_json_valid(record["generated_output"])
 
         if not isinstance(pred_dict, Dict):
             return {
@@ -1155,6 +1144,84 @@ class ReasoningEvaluator:
             }
 
         compliance = self.compute_compliance(pred_dict)
-        correctness = self.compute_correctness(reference_record["output"], pred_dict)
+        correctness = self.compute_correctness(record["output"], pred_dict)
 
         return {"is_valid": validity_score, **compliance, **correctness}
+
+def evaluate_task(evaluator: Any, bench_path: Path) -> List[Dict[str, Any]]:
+    """
+    Evaluates all records for a given task.
+    """
+    with open(bench_path, 'r') as f:
+        bench_data = json.load(f)
+    
+    scores = [evaluator.score_record(record) for record in bench_data]
+    return scores
+
+def main():
+    """
+    Main function to run the evaluation for all benchmark tasks.
+    """
+    parser = argparse.ArgumentParser(description="Evaluate benchmark results.")
+    parser.add_argument(
+        "--bench_repo",
+        type=str,
+        default="data/generated",
+        help="Path to the directory containing the generated benchmark files."
+    )
+    parser.add_argument(
+        "--output_file",
+        type=str,
+        default="results/bench_results.json",
+        help="Path to save the consolidated evaluation results."
+    )
+    args = parser.parse_args()
+
+    evaluators = {
+        "1-rotowire": RotowireEvaluator(),
+        "2-wiki_bio": WikiBioEvaluator(),
+        "3-few_nerd": FewNerdsEvaluator(),
+        "4-TOPv1": TopV1Evaluator(),
+        "5-api_bank": ApiBankEvaluator(),
+        "6-reasoning/GSM8K": ReasoningEvaluator(subtask="GSM8K"),
+        "6-reasoning/last_letter": ReasoningEvaluator(subtask="last_letter"),
+    }
+
+    all_results = {}
+    base_bench_path = Path(args.bench_repo)
+
+    for task_name, evaluator in evaluators.items():
+        logger.info(f"Evaluating task: {task_name}")
+        bench_path = base_bench_path / task_name / "generated.json"
+
+        task_scores = evaluate_task(evaluator, bench_path)
+        logger.info(f"Computed scores for {task_name}")
+
+        # Aggregate scores
+        if task_scores:
+            # agg_scores = {key: np.mean([s[key] for s in task_scores if key in s]) for key in task_scores[0]}
+            numeric_keys = {
+                key
+                for s in task_scores
+                for key, value in s.items()
+                if isinstance(value, numbers.Number)
+            }
+            agg_scores = {
+                key: np.mean(
+                    [s[key] for s in task_scores if key in s and isinstance(s[key], numbers.Number)]
+                )
+                for key in numeric_keys
+            }
+            all_results[task_name] = agg_scores
+            logger.info(f"Aggregated scores for {task_name}: {agg_scores}")
+
+    output_path = Path(args.output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, 'w') as f:
+        json.dump(all_results, f, indent=4)
+
+    logger.info(f"Evaluation complete. Results saved to {args.output_file}")
+
+if __name__ == '__main__':
+    main()
+    # uv run python -m  src.evaluate --bench_repo data/generated --output_file results/bench_results.json

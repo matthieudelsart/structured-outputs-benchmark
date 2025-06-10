@@ -223,10 +223,6 @@ def main():
     base_data_path = Path('data/clean')
     output_base_path = Path('data/generated')
 
-    # The `tasks` dictionary maps a task name to the function responsible
-    # for generating its prompts. This allows for both generic and specialized
-    # prompt construction. Lambdas are used for the generic case to pass the
-    # task name as an argument.
     tasks = {
         "1-rotowire": lambda c, d, o: generate_generic(c, "1-rotowire", d, o),
         "2-wiki_bio": generate_wikibio,
@@ -235,36 +231,35 @@ def main():
         "5-api_bank": generate_apibank,
     }
 
-    all_task_names = list(tasks.keys()) + ["6-reasoning"]
+    task_names = list(tasks.keys())
     start_index = 0
     if args.start_from:
         try:
-            start_index = all_task_names.index(args.start_from)
+            start_index = task_names.index(args.start_from)
         except ValueError:
             logger.error(f"Invalid task name: {args.start_from}")
             return
 
-    # Process tasks from the tasks dictionary
-    for i in range(start_index, len(all_task_names)):
-        task_name = all_task_names[i]
-        
-        if task_name == "6-reasoning":
-            logger.info("Processing task: 6-reasoning")
-            reasoning_path = base_data_path / "6-reasoning"
-            output_reasoning_path = output_base_path / "6-reasoning"
-            for subtask in ["GSM8K", "last_letter"]:
-                logger.info(f"Processing subtask: {subtask}")
-                subtask_path = reasoning_path / subtask
-                output_path = output_reasoning_path / subtask
-                output_path.mkdir(parents=True, exist_ok=True)
-                generate_generic(client, f"6-reasoning/{subtask}", subtask_path, output_path)
-        else:
-            gen_func = tasks[task_name]
-            logger.info(f"Processing task: {task_name}")
-            data_path = base_data_path / task_name
-            output_path = output_base_path / task_name
+    for i in range(start_index, len(task_names)):
+        task_name = task_names[i]
+        gen_func = tasks[task_name]
+        logger.info(f"Processing task: {task_name}")
+        data_path = base_data_path / task_name
+        output_path = output_base_path / task_name
+        output_path.mkdir(parents=True, exist_ok=True)
+        gen_func(client, data_path, output_path)
+
+    # Special handling for 6-reasoning
+    if not args.start_from or task_names.index(args.start_from) <= len(task_names):
+        logger.info("Processing task: 6-reasoning")
+        reasoning_path = base_data_path / "6-reasoning"
+        output_reasoning_path = output_base_path / "6-reasoning"
+        for subtask in ["GSM8K", "last_letter"]:
+            logger.info(f"Processing subtask: {subtask}")
+            subtask_path = reasoning_path / subtask
+            output_path = output_reasoning_path / subtask
             output_path.mkdir(parents=True, exist_ok=True)
-            gen_func(client, data_path, output_path)
+            generate_generic(client, f"6-reasoning/{subtask}", subtask_path, output_path)
 
 
 if __name__ == '__main__':

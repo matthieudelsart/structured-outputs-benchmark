@@ -1,0 +1,37 @@
+{
+    "1-rotowire": {
+        "is_valid": 0.7999999999999998,
+        "compliance": 1.0,
+        "correctness": 0.5651411643057994
+    },
+    "2-wiki_bio": {
+        "is_valid": 0.986,
+        "compliance": 0.9644699999999999,
+        "correctness": 0.3268444924303189
+    },
+    "3-few_nerd": {
+        "is_valid": 1.0,
+        "compliance": 1.0,
+        "correctness": 0.5992500000000001
+    },
+    "4-TOPv1": {
+        "is_valid": 0.9533333333333334,
+        "compliance": 0.9333333333333333,
+        "correctness": 0.6398199999999999
+    },
+    "5-api_bank": {
+        "is_valid": 0.82,
+        "compliance": 0.995,
+        "correctness": 0.9072133333333333
+    },
+    "6-reasoning/GSM8K": {
+        "is_valid": 0.7939999999999998,
+        "compliance": 1.0,
+        "correctness": 0.93
+    },
+    "6-reasoning/last_letter": {
+        "is_valid": 0.7999999999999998,
+        "compliance": 1.0,
+        "correctness": 0.98
+    }
+}
