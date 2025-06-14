@@ -36,11 +36,11 @@ def assess_json_valid(json_string: str) -> Tuple[float, Any]:
     except json.JSONDecodeError:
         try:
             record = json.loads(json_string.replace("```json", "").replace("```", ""))
-            return 0.8, record
+            return 0.9, record
         except json.JSONDecodeError:
             try:
                 record = json.loads(json_string.replace("```json", "").replace("```", "").replace("'",'"'))
-                return 0.6, record
+                return 0.7, record
             except json.JSONDecodeError:
                 logger.warning(f"Invalid JSON string: {json_string} - Fixing")
                 record = json_repair.loads(json_string)
@@ -1156,9 +1156,111 @@ def evaluate_task(evaluator: Any, bench_path: Path) -> List[Dict[str, Any]]:
     """
     with open(bench_path, 'r') as f:
         bench_data = json.load(f)
-    
-    scores = [evaluator.score_record(record) for record in bench_data]
+    scores = []
+    for record in bench_data:
+        try:
+            scores.append(evaluator.score_record(record))
+        except Exception as e:
+            logger.error(f"Error evaluating record: {e}")
+            scores.append({"is_valid": 0, "compliance": 0, "correctness": 0})
     return scores
+
+def evaluate_repo(repo_path: str | Path, output_file: str) -> None:
+    """Evaluate all benchmark tasks for a single repository.
+
+    Parameters
+    ----------
+    repo_path : str | Path
+        Path to the repository directory (e.g. ``results/gemma-3-1b-it``).
+    output_file : str
+        Path to the JSON file where consolidated results should be stored.
+    """
+    repo_path = Path(repo_path)
+    repo_name = repo_path.name
+
+    # ------------- logging -------------
+    logs_dir = Path("logs")
+    logs_dir.mkdir(exist_ok=True)
+    log_file = logs_dir / f"evaluate_{repo_name}.log"
+
+    # Reset root handlers to avoid duplicate logs when evaluating multiple repos
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        handlers=[logging.FileHandler(log_file, mode="w"), logging.StreamHandler()],
+    )
+
+    logging.info(f"Starting evaluation for repository: {repo_name}")
+
+    # ------------- evaluators -------------
+    evaluators: Dict[str, Any] = {
+        "1-rotowire": RotowireEvaluator(),
+        "2-wiki_bio": WikiBioEvaluator(),
+        "3-few_nerd": FewNerdsEvaluator(),
+        "4-TOPv1": TopV1Evaluator(),
+        "5-api_bank": ApiBankEvaluator(),
+        "6-reasoning/GSM8K": ReasoningEvaluator(subtask="GSM8K"),
+        "6-reasoning/last_letter": ReasoningEvaluator(subtask="last_letter"),
+    }
+
+    all_results: Dict[str, Dict[str, float]] = {}
+
+    for task_name, evaluator in evaluators.items():
+        logging.info(f"Evaluating task: {task_name}")
+        bench_path = repo_path / task_name / "generated.json"
+
+        if not bench_path.exists():
+            logging.warning(f"Benchmark file not found, skipping: {bench_path}")
+            continue
+
+        task_scores = evaluate_task(evaluator, bench_path)
+        logging.info(f"Computed scores for {task_name}")
+
+        if not task_scores:
+            continue
+
+        numeric_keys: Set[str] = {
+            key
+            for s in task_scores
+            for key, value in s.items()
+            if isinstance(value, numbers.Number)
+        }
+
+        agg_scores: Dict[str, float] = {
+            key: round(
+                float(
+                    np.mean(
+                        [s[key] for s in task_scores if key in s and isinstance(s[key], numbers.Number)]
+                    )
+                ),
+                3,
+            )
+            for key in numeric_keys
+        }
+
+        all_results[task_name] = agg_scores
+        logging.info(f"Aggregated scores for {task_name}: {agg_scores}")
+
+    # ------------- write output -------------
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        with open(output_path, "r") as f:
+            current_results = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        current_results = {}
+
+    current_results[repo_name] = all_results
+
+    with open(output_path, "w") as f:
+        json.dump(current_results, f, indent=4)
+
+    logging.info("Evaluation complete for repository: %s", repo_name)
+
 
 def main():
     """
@@ -1168,7 +1270,7 @@ def main():
     parser.add_argument(
         "--bench_repo",
         type=str,
-        default="data/generated",
+        default="all",
         help="Path to the directory containing the generated benchmark files."
     )
     parser.add_argument(
@@ -1179,76 +1281,14 @@ def main():
     )
     args = parser.parse_args()
 
-    # Create logs directory if it doesn't exist
-    logs_dir = Path("logs")
-    logs_dir.mkdir(exist_ok=True)
+    if args.bench_repo.lower() == "all":
+        results_dir = Path("results")
+        bench_repos = [d for d in results_dir.iterdir() if d.is_dir()]
 
-    # Set up logging
-    bench_repo_name = Path(args.bench_repo).name
-    log_file = logs_dir / f"evaluate_{bench_repo_name}.log"
-
-    # Remove all handlers associated with the root logger object.
-    for handler in logging.root.handlers[:]:
-        logging.root.removeHandler(handler)
-        
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(message)s",
-        handlers=[
-            logging.FileHandler(log_file, mode='w'),
-            logging.StreamHandler()
-        ]
-    )
-
-
-    evaluators = {
-        "1-rotowire": RotowireEvaluator(),
-        "2-wiki_bio": WikiBioEvaluator(),
-        "3-few_nerd": FewNerdsEvaluator(),
-        "4-TOPv1": TopV1Evaluator(),
-        "5-api_bank": ApiBankEvaluator(),
-        "6-reasoning/GSM8K": ReasoningEvaluator(subtask="GSM8K"),
-        "6-reasoning/last_letter": ReasoningEvaluator(subtask="last_letter"),
-    }
-
-    all_results = {}
-    base_bench_path = Path(args.bench_repo)
-
-    for task_name, evaluator in evaluators.items():
-        logger.info(f"Evaluating task: {task_name}")
-        bench_path = base_bench_path / task_name / "generated.json"
-
-        task_scores = evaluate_task(evaluator, bench_path)
-        logger.info(f"Computed scores for {task_name}")
-
-        # Aggregate scores
-        if task_scores:
-            # agg_scores = {key: np.mean([s[key] for s in task_scores if key in s]) for key in task_scores[0]}
-            numeric_keys = {
-                key
-                for s in task_scores
-                for key, value in s.items()
-                if isinstance(value, numbers.Number)
-            }
-            agg_scores = {
-                key: round(np.mean(
-                    [s[key] for s in task_scores if key in s and isinstance(s[key], numbers.Number)]
-                ), 3)
-                for key in numeric_keys
-            }
-            all_results[task_name] = agg_scores
-            logger.info(f"Aggregated scores for {task_name}: {agg_scores}")
-
-    output_path = Path(args.output_file)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    # Add the new results to the existing results
-    current_results = json.load(open(output_path, 'r'))
-    current_results[args.bench_repo.split("/")[-1]] = all_results
-    with open(output_path, 'w') as f:
-        json.dump(current_results, f, indent=4)
-
-    logger.info(f"Evaluation complete. Results saved to {args.output_file}")
+        for repo in bench_repos:
+            evaluate_repo(repo, output_file=args.output_file)
+    else:
+        evaluate_repo(Path(args.bench_repo), output_file=args.output_file)
 
 if __name__ == '__main__':
     main()
