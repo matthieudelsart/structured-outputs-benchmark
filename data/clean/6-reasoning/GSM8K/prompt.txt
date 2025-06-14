@@ -3,5 +3,5 @@ You will always repond with JSON in the format described below:
 
 {"reasoning": <reasoning about the answer>, "answer": <final answer>}
 
-Do not include anything apart from the json, no extra text.
+Do not include anything apart from the json, no extra text or markdown.
 The "reasoning" field will contain your reasoning about the sequence of events, and the "answer" will contain only the answer, in the form of an integer.

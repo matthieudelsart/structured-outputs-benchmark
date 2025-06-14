@@ -1,0 +1,2011 @@
+[
+    {
+        "id": 16119,
+        "input": "The mission of the 303rd Military Intelligence Battalion , `` Longhorns , '' is to , on order , conduct multi-disciplined intelligence collection , exploitation , and limited analysis operations in support of the commander 's information requirements during worldwide contingency missions within assigned areas of a Division , Corps , or Joint Task Force area of operations .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "303rd Military Intelligence Battalion",
+                "Longhorns"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"303rd Military Intelligence Battalion\", \"Longhorns\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 29924,
+        "input": "This was officially launched in a ceremony at the Genting Highlands Fire and Rescue Station in Pahang on 21 February 1997 , by Prime Minister of Malaysia Mahathir Mohamad .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Pahang",
+                "Malaysia"
+            ],
+            "organization": [
+                "Genting Highlands Fire",
+                "Rescue Station"
+            ],
+            "other": null,
+            "person": [
+                "Mahathir Mohamad"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Genting Highlands Fire and Rescue Station\"],\n  \"event\": [\"ceremony\"],\n  \"location\": [\"Pahang\"],\n  \"organization\": [\"Genting\"],\n  \"other\": null,\n  \"person\": [\"Mahathir Mohamad\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 24020,
+        "input": "Visitors are able to ride the park 's attractions by purchasing either pay-one-price , all-day/unlimited-access wristbands ( which are not usually available on weekends , except near the beginning and end of each season ) , limited-access hand stamps or books of tickets , with hand stamp costs varying depending on the height of the rider .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"pay-one-price\", \"all-day/unlimited-access wristbands\", \"limited-access hand stamps\", \"books of tickets\"],\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 30732,
+        "input": "The result of the 22-game round-robin was a surprise , as American Harry Nelson Pillsbury won with 16.5 points despite playing in his first international tournament .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "American"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Harry Nelson Pillsbury"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"22-game round-robin\"],\n  \"location\": [\"American\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Harry Nelson Pillsbury\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 8575,
+        "input": "He took particular umbrage at claims to the contrary by then-Senate minority leader Harry Reid , saying they amounted to libel , although he did not deny that meetings took place .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Harry Reid"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Senate\"],\n  \"other\": null,\n  \"person\": [\"Harry Reid\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 22016,
+        "input": "Nonetheless , the Nazis decimated the Polish Jewry by 90 % , killing 3 million people , half of all Jewish Holocaust deaths .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "Jewish Holocaust"
+            ],
+            "location": [
+                "Polish"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Poland\"],\n  \"organization\": [\"Nazis\"],\n  \"other\": null,\n  \"person\": [\"Jewish\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 20661,
+        "input": "Casein and gluten exclusion diets are sometimes used in alternative medicine for children with autism ; however , the evidence that such diets have any impact on behavior or cognitive and social functioning in autistic children was limited and weak .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "Casein",
+                "gluten",
+                "autism"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 35161,
+        "input": "In December 1947 , KKE and its allies that participated in the Civil War formed the Provisional Democratic Government ( `` Mountain Government `` ) under the premiership of Markos Vafiadis .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "Civil War"
+            ],
+            "location": null,
+            "organization": [
+                "Provisional Democratic Government",
+                "Mountain Government"
+            ],
+            "other": null,
+            "person": [
+                "KKE",
+                "Markos Vafiadis"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Civil War\"],\n  \"location\": null,\n  \"organization\": [\"KKE\", \"Mountain Government\"],\n  \"other\": null,\n  \"person\": [\"Markos Vafiadis\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 11412,
+        "input": "Sun Country Airlines operates charter flights to Laughlin , NV and Xtra Airways operates charter flights to Wendove r , NV .",
+        "output": {
+            "art": null,
+            "building": [
+                "Sun Country Airlines",
+                "Xtra Airways"
+            ],
+            "event": null,
+            "location": [
+                "Laughlin",
+                "NV",
+                "Wendove",
+                "NV"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Laughlin\", \"NV\", \"Wendover\", \"NV\"],\n  \"organization\": [\"Sun Country Airlines\", \"Xtra Airways\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 9216,
+        "input": "She was artistical leader of the studio `` Norsk billedvev `` from 1951 to 1968 , through which she delivered decorations to a number of public institutions , including the Royal Palace , the Akershus Castle , the Stortinget building , and the Oslo City Hall .",
+        "output": {
+            "art": null,
+            "building": [
+                "Royal Palace",
+                "Akershus Castle",
+                "Stortinget building",
+                "Oslo City Hall"
+            ],
+            "event": null,
+            "location": null,
+            "organization": [
+                "Norsk billedvev"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Norsk billedvev\"],\n  \"building\": [\"Akershus Castle\", \"Stortinget building\", \"Oslo City Hall\"],\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"studio\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 37634,
+        "input": "In 2015 , Yeung , at the helm of the National Asian Pacific American Women 's Forum , engaged in activism surrounding workers \u2019 rights , occupational safety , and wage theft protections for nail salon workers , coordinating with New York Governor Andrew Cuomo to expand workers ' protections and education in the industry .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "New York"
+            ],
+            "organization": [
+                "National Asian Pacific American Women 's Forum"
+            ],
+            "other": null,
+            "person": [
+                "Yeung",
+                "Andrew Cuomo"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"New York\"],\n  \"organization\": [\"National Asian Pacific American Women's Forum\"],\n  \"other\": null,\n  \"person\": [\"Yeung\", \"Andrew Cuomo\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 22597,
+        "input": "ESEO was launched from Vandenberg AFB on 3 December 2018 as a part of Spaceflight 's SmallSat Express and was expected to function for 6 to 18 months .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Spaceflight 's SmallSat Express"
+            ],
+            "other": null,
+            "person": null,
+            "product": [
+                "ESEO"
+            ]
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Vandenberg AFB\"],\n  \"event\": [\"Spaceflight 's SmallSat Express\"],\n  \"location\": null,\n  \"organization\": [\"ESEO\", \"Spaceflight\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 9960,
+        "input": "The oldest known recordings of computer-generated music were played by the Ferranti Mark 1 computer , a commercial version of the Baby Machine from the University of Manchester in the autumn of 1951 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "University of Manchester"
+            ],
+            "other": null,
+            "person": null,
+            "product": [
+                "Ferranti Mark 1",
+                "Baby Machine"
+            ]
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Manchester\"],\n  \"organization\": [\"Ferranti Mark 1 computer\", \"University of Manchester\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 15877,
+        "input": "As of the 2018\u201319 school year , the high school had an enrollment of 1,038 students and 97.4 classroom teachers ( on an FTE basis ) , for a student\u2013teacher ratio of 10.7:1 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "FTE"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 9093,
+        "input": "The 2015 Blossom Kite Festival took place on the Washington Monument grounds on Saturday , March 28 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "Blossom Kite Festival"
+            ],
+            "location": [
+                "Washington Monument"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Washington Monument\"],\n  \"event\": [\"Blossom Kite Festival\"],\n  \"location\": [\"Washington\"],\n  \"organization\": null,\n  \"other\": [\"Saturday\", \"March 28\"],\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 3989,
+        "input": "Andrew Bergeron is instructor of guitar and music theory at Grand Rapids Community College , Grand Valley State University and Aquinas College .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Grand Rapids Community College",
+                "Grand Valley State University",
+                "Aquinas College"
+            ],
+            "other": null,
+            "person": [
+                "Andrew Bergeron"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Grand Rapids Community College\", \"Grand Valley State University\", \"Aquinas College\"],\n  \"organization\": [\"Grand Rapids Community College\", \"Grand Valley State University\", \"Aquinas College\"],\n  \"other\": null,\n  \"person\": [\"Andrew Bergeron\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 26203,
+        "input": "The largest of the Flushing branches of the Queens Borough Public Library is located at the intersection of Kissena Boulevard and Main Street .",
+        "output": {
+            "art": null,
+            "building": [
+                "Queens Borough Public Library"
+            ],
+            "event": null,
+            "location": [
+                "Kissena Boulevard",
+                "Main Street"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Flushing\", \"Queens\", \"Kissena Boulevard\", \"Main Street\"],\n  \"organization\": [\"Queens Borough Public Library\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 11542,
+        "input": "When their half-brother Efnisien , upset that he has not been consulted , mutilates Matholwch 's horses , Br\u00e2n sends Manawydan to offer recompense .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "Manawydan"
+            ],
+            "person": [
+                "Efnisien",
+                "Matholwch",
+                "Br\u00e2n"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Efnisien\", \"Matholwch\", \"Br\u00e2n\", \"Manawydan\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 32508,
+        "input": "They were overruled by CinCPac , Admiral Nimitz because General Smith had sacked a U.S. Army General , Ralph Smith , during the Saipan campaign , and justifiable animosity between senior U.S . Army staff existed towards General Smith due to his service chauvinism .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Saipan",
+                "U.S ."
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Smith",
+                "Ralph Smith",
+                "Smith"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Saipan campaign\"],\n  \"location\": null,\n  \"organization\": [\"CinCPac\", \"U.S. Army\"],\n  \"other\": null,\n  \"person\": [\"Admiral Nimitz\", \"General Smith\", \"Ralph Smith\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 27548,
+        "input": "On the same aspect , Theo de Raadt , founder and leader of the OpenBSD and OpenSSH projects , has criticized the OpenSSL developers for writing their own memory management routines and thereby , he claims , circumventing OpenBSD C standard library exploit countermeasures , saying `` OpenSSL is not developed by a responsible team . ''",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Theo de Raadt"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"OpenBSD\", \"OpenSSH\", \"OpenSSL\"],\n  \"other\": null,\n  \"person\": [\"Theo de Raadt\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 10810,
+        "input": "Galer\u00edas Pac\u00edfico is a shopping centre in Buenos Aires , Argentina , located at the intersection of Florida Street and C\u00f3rdoba Avenue .",
+        "output": {
+            "art": null,
+            "building": [
+                "Galer\u00edas Pac\u00edfico"
+            ],
+            "event": null,
+            "location": [
+                "Buenos Aires",
+                "Argentina",
+                "Florida Street",
+                "C\u00f3rdoba Avenue"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Galer\u00edas Pac\u00edfico\"],\n  \"event\": null,\n  \"location\": [\"Buenos Aires\", \"Argentina\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 8457,
+        "input": "Ward began the 2008 NFL season with 6 receptions , 76 receiving yards , and 2 touchdown catches in a 38\u201316 victory over the Texans .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Texans"
+            ],
+            "organization": [
+                "NFL"
+            ],
+            "other": null,
+            "person": [
+                "Ward"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"2008 NFL season\"],\n  \"location\": null,\n  \"organization\": [\"Texans\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 13412,
+        "input": "At Memphis , the god Tatenen , an earth god and the origin of `` all things in the shape of food and viands , divine offers , all good things '' , was the personification of the primeval mound .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Memphis"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Tatenen"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Memphis\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Tatenen\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 7366,
+        "input": "Goswami was born to a middle-class family in the town of Chakdaha in the Nadia district of West Bengal on 25 November 1982 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Chakdaha",
+                "Nadia",
+                "Bengal"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Goswami"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Chakdaha\", \"Nadia district\", \"West Bengal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Goswami\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 29409,
+        "input": "Immediately to the north lie the San Gabriel Mountains , which is a popular recreation area for Angelenos .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "San Gabriel Mountains",
+                "Angelenos"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"San Gabriel Mountains\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 22855,
+        "input": "Androstenedione is a precursor of testosterone and other androgens , as well as of estrogens like estrone , in the body .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "Androstenedione",
+                "testosterone",
+                "estrone"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 1036,
+        "input": "This magnificent , two-storey cloister is considered one of the most important examples of Mannerist architecture in Portugal .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Portugal"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Mannerist architecture\"],\n  \"building\": [\"cloister\"],\n  \"event\": null,\n  \"location\": [\"Portugal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 16008,
+        "input": "Their first album `` Felino `` is mainly original music created for `` TanGhost `` , a tango/theater performance based on Henrik Ibsen 's play `` Ghosts `` , directed by Per-Olav S\u00f8rensen ( 2004 ) .",
+        "output": {
+            "art": [
+                "Felino",
+                "TanGhost",
+                "Ghosts"
+            ],
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Henrik Ibsen",
+                "Per-Olav S\u00f8rensen"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Felino\"],\n  \"building\": null,\n  \"event\": [\"TanGhost\"],\n  \"location\": null,\n  \"organization\": [\"Henrik Ibsen\"],\n  \"other\": [\"Ghosts\", \"Per-Olav S\u00f8rensen\"],\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 34483,
+        "input": "A defect in any of these sperm structures may result in infertility that will not be detected by semen analysis .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 24952,
+        "input": "High levels of STAT activation have been associated with cancer ; in particular , high amounts of STAT3 and STAT5 activation is mostly linked to more dangerous tumours .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "STAT",
+                "STAT3",
+                "STAT5"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 23958,
+        "input": "Van Reysschoot was commissioned to paint a that included portraits of the key members of the crossbowmen \u2019 s guild .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Van Reysschoot"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"paint\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"crossbowmen \u2019 s guild\"],\n  \"other\": null,\n  \"person\": [\"Van Reysschoot\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 35361,
+        "input": "KIAA1107 has a higher frequency of Serine and Aspartate and a lower frequency of Tyrosine than in the average protein in `` Homo sapiens . ''",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "KIAA1107",
+                "Serine",
+                "Aspartate",
+                "Tyrosine"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 31283,
+        "input": "Sweden was neutral in World War I , although the Swedish government was sympathetic to both sides at different times during the conflict , even briefly occupying the \u00c5land islands jointly with the Germans .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "World War I"
+            ],
+            "location": [
+                "Sweden",
+                "\u00c5land islands"
+            ],
+            "organization": [
+                "Swedish government"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"World War I\"],\n  \"location\": [\"Sweden\", \"\u00c5land islands\"],\n  \"organization\": [\"Swedish government\", \"Germans\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 30251,
+        "input": "Two asari characters join the crew of the Andromeda Initiative Survey Ship `` Tempest `` : Dr . Lexi T'Perro , a medical doctor who arrived in the Andromeda Galaxy on board the human Ark ship , and Pelessaria `` Peebee `` B'Sayle , who accompanies the human Pathfinder as a squad mate or companion .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "asari"
+            ],
+            "other": [
+                "Andromeda Galaxy"
+            ],
+            "person": [
+                "Lexi T'Perro",
+                "Ark ship",
+                "Pelessaria",
+                "Peebee",
+                "B'Sayle"
+            ],
+            "product": [
+                "Andromeda Initiative",
+                "Tempest"
+            ]
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Andromeda Galaxy\"],\n  \"organization\": [\"Andromeda Initiative Survey Ship\", \"Pathfinder\"],\n  \"other\": null,\n  \"person\": [\"Lexi T'Perro\", \"Pelessaria B'Sayle\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 19862,
+        "input": "Mammals include hippopotamus Hippopotamus amphibius , buffalo Syncerus caffer , elephant Loxodonta africana , antelopes and for the reptiles the crocodile Crocodylus sp . , although the diversity of fauna has been reported as being reduced .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "Hippopotamus amphibius",
+                "Syncerus caffer",
+                "Loxodonta africana",
+                "Crocodylus sp"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 11207,
+        "input": "In January 2019 , the federal government announced that the minister of Crown-Indigenous Relations , Carolyn Bennett will deliver the formal apology on behalf of the Canadian government in Arviat , Nunavut on January 22 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Arviat",
+                "Nunavut"
+            ],
+            "organization": [
+                "Crown-Indigenous Relations",
+                "Canadian government"
+            ],
+            "other": null,
+            "person": [
+                "Carolyn Bennett"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Arviat\", \"Nunavut\"],\n  \"organization\": [\"Canadian government\", \"Crown-Indigenous Relations\"],\n  \"other\": null,\n  \"person\": [\"Carolyn Bennett\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 14857,
+        "input": "All emergency ambulance crews rostered within the Adelaide metropolitan area are skilled at least Paramedic level ( 3-year degree + 1-year internship ) with numerous crews skilled at Intensive Care Paramedic level ( 3-year degree + 1-year internship + 2 years paramedic experience as a minimum + graduate diploma + an ICP internship ) .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Adelaide"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Adelaide\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 22371,
+        "input": "His brothers included emperors John VIII Palaiologos and Constantine XI Palaiologos , as well as Demetrios Palaiologos and Thomas Palaiologos , despots in the Despotate of Morea , and Andronikos Palaiologos , despot in Thessalonica .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Morea",
+                "Thessalonica"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "John VIII Palaiologos",
+                "Constantine XI Palaiologos",
+                "Demetrios Palaiologos",
+                "Thomas Palaiologos",
+                "Andronikos Palaiologos"
+            ],
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Morea\", \"Thessalonica\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"John VIII Palaiologos\", \"Constantine XI Palaiologos\", \"Demetrios Palaiologos\", \"Thomas Palaiologos\", \"Andronikos Palaiologos\"],\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 30759,
+        "input": "He continued his education at Massachusetts University and later at the New England Conservatory of Music , where he studied voice .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Massachusetts University",
+                "New England Conservatory of Music"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Music\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Massachusetts University\", \"New England\"],\n  \"organization\": [\"Massachusetts University\", \"New England Conservatory of Music\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 19347,
+        "input": "By the time he graduated , he went from to , and was an all-state three-sport star in baseball , football , and basketball .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 25632,
+        "input": "The 1900 Galveston hurricane subsequently devastated that city , killing about 8,000 people or possibly as many as 12,000 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Galveston hurricane\"],\n  \"location\": [\"Galveston\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 27789,
+        "input": "In April 2009 , Webster ran in the London Marathon raising money for the Bobby Moore Fund for Cancer Research UK .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "London Marathon"
+            ],
+            "location": null,
+            "organization": [
+                "Bobby Moore Fund for Cancer Research UK"
+            ],
+            "other": null,
+            "person": [
+                "Webster"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"London Marathon\"],\n  \"location\": [\"London\"],\n  \"organization\": [\"Bobby Moore Fund for Cancer Research UK\"],\n  \"other\": null,\n  \"person\": [\"Webster\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 12545,
+        "input": "Foster 's second verse of his lyrics to Disney 's `` Zorro `` theme song which was `` He is polite , but the wicked take flight , when they catch the sight of Zorro .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Disney"
+            ],
+            "other": null,
+            "person": [
+                "Foster",
+                "Zorro",
+                "Zorro"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Zorro\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Disney\"],\n  \"other\": null,\n  \"person\": [\"Foster\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 27150,
+        "input": "Bar Kokhba Revolt coinage were coins issued by the Judaean rebel state , headed by Simon Bar Kokhba , during the Bar Kokhba revolt against the Roman Empire of 132-135 CE .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "Bar Kokhba Revolt"
+            ],
+            "location": [
+                "Roman"
+            ],
+            "organization": [
+                "Judaean"
+            ],
+            "other": null,
+            "person": [
+                "Simon Bar Kokhba",
+                "Bar Kokhba"
+            ],
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Bar Kokhba Revolt\", \"Bar Kokhba revolt\"],\n  \"location\": [\"Roman Empire\"],\n  \"organization\": [\"Judaean rebel state\"],\n  \"other\": null,\n  \"person\": [\"Simon Bar Kokhba\"],\n  \"product\": [\"coinage\", \"coins\"]\n}\n```"
+    },
+    {
+        "id": 32228,
+        "input": "The township comprises 14 wards , and shares borders with Thingangyun township in the north , Mingala Taungnyunt township in the west , Thaketa township in the east , and Pazundaung township in the south across the Pazundaung Creek .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Thingangyun township",
+                "Mingala Taungnyunt township",
+                "Thaketa township",
+                "Pazundaung township",
+                "Pazundaung Creek"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Thingangyun township\", \"Mingala Taungnyunt township\", \"Thaketa township\", \"Pazundaung township\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 6733,
+        "input": "The book was adapted into a motion picture directed by Barry Sonnenfeld and starring Tim Allen , Rene Russo , and Patrick Warburton , with a cameo by Barry ( deleted in post-production ) .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Barry Sonnenfeld",
+                "Tim Allen",
+                "Rene Russo",
+                "Patrick Warburton",
+                "Barry"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"book\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Barry Sonnenfeld\", \"Tim Allen\", \"Rene Russo\", \"Patrick Warburton\", \"Barry\"],\n  \"product\": [\"motion picture\"]\n}\n"
+    },
+    {
+        "id": 19581,
+        "input": "Guatemala issued a purple alert as well , recommending boats to stay in port , telling people to prepare or seek shelter , and warning of potential overflowing rivers .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Guatemala"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Guatemala\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 10823,
+        "input": "According to Rennie , all content was stored in Watson 's RAM for the Jeopardy game because data stored on hard drives would be too slow to be competitive with human Jeopardy champions .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Rennie"
+            ],
+            "other": null,
+            "person": null,
+            "product": [
+                "Watson",
+                "RAM",
+                "Jeopardy",
+                "Jeopardy"
+            ]
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Jeopardy\"],\n  \"location\": null,\n  \"organization\": [\"Watson\"],\n  \"other\": null,\n  \"person\": [\"Rennie\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 31679,
+        "input": "After his contract expired with Charlton Athletic in 2004 , Rachubka took the option to re-sign for Huddersfield Town .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Charlton Athletic",
+                "Huddersfield Town"
+            ],
+            "other": null,
+            "person": [
+                "Rachubka"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Charlton Athletic\", \"Huddersfield Town\"],\n  \"organization\": [\"Charlton Athletic\", \"Huddersfield Town\"],\n  \"other\": null,\n  \"person\": [\"Rachubka\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 23059,
+        "input": "The Wellington City Council announces that Rugby League Park will be shared by the Wellington Rugby League and the Wellington Rugby Union , following the sale of Athletic Park .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Rugby League Park",
+                "Athletic Park"
+            ],
+            "organization": [
+                "Wellington City Council",
+                "Wellington Rugby League",
+                "Wellington Rugby Union"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Athletic Park\"],\n  \"event\": null,\n  \"location\": [\"Wellington\"],\n  \"organization\": [\"Wellington City Council\", \"Wellington Rugby League\", \"Wellington Rugby Union\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 31380,
+        "input": "There were also cameos by Canadian directors Atom Egoyan ( early director of Barney 's soap opera `` Constable O'Malley of the North `` ) , David Cronenberg ( later director of Barney 's soap ) , Paul Gross ( star in Barney 's soap ) , Denys Arcand ( Jean , the ma\u00eetre d ' at both of Barney and Miriam 's luncheons beside the duck pond at Montreal 's Ritz-Carlton ) , and Ted Kotcheff ( train conductor ) .",
+        "output": {
+            "art": [
+                "Constable O'Malley of the North"
+            ],
+            "building": [
+                "the duck pond",
+                "Ritz-Carlton"
+            ],
+            "event": null,
+            "location": [
+                "Canadian",
+                "Montreal"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Atom Egoyan",
+                "Barney",
+                "David Cronenberg",
+                "Barney",
+                "Paul Gross",
+                "Barney",
+                "Denys Arcand",
+                "Jean",
+                "Barney",
+                "Miriam",
+                "Ted Kotcheff"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Constable O'Malley of the North\", \"Barney's soap\", \"Barney's soap\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Montreal\", \"Ritz-Carlton\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Atom Egoyan\", \"David Cronenberg\", \"Paul Gross\", \"Denys Arcand\", \"Ted Kotcheff\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 14928,
+        "input": "The studio of Saul Bass on Sunset Boulevard in Hollywood became Lloyd Northover 's base on the West Coast of America .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Sunset Boulevard",
+                "Hollywood",
+                "West Coast",
+                "America"
+            ],
+            "organization": [
+                "Lloyd Northover"
+            ],
+            "other": null,
+            "person": [
+                "Saul Bass"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Sunset Boulevard\", \"Hollywood\", \"West Coast of America\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Saul Bass\", \"Lloyd Northover\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 29350,
+        "input": "2011 - Screening of `` Francesco di Assisi `` by Liliana Cavani ( 1966 ) ; `` Angelo alla carriera '' Award to Liliana Cavani .",
+        "output": {
+            "art": [
+                "Francesco di Assisi"
+            ],
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "`` Angelo alla carriera '' Award"
+            ],
+            "person": [
+                "Liliana Cavani",
+                "Liliana Cavani"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Francesco di Assisi\", \"Angelo alla carriera\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Liliana Cavani\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 12846,
+        "input": "In 2005 , Sarathkumar announced that he would be appearing in his 100th film titled `` Thalaimagan `` .",
+        "output": {
+            "art": [
+                "Thalaimagan"
+            ],
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Sarathkumar"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"Thalaimagan\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Sarathkumar\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 9622,
+        "input": "The Vita is also backward compatible with the majority of the PS one Classics \u2013 the group of PlayStation 1 games Sony has made available digitally for download , and PlayStation Minis \u2013 small-budget downloadable titles originally created for the PSP and PS3 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Sony"
+            ],
+            "other": null,
+            "person": null,
+            "product": [
+                "Vita",
+                "PS one Classics",
+                "PlayStation 1",
+                "PlayStation Minis",
+                "PSP",
+                "PS3"
+            ]
+        },
+        "generated_output": "{\n  \"art\": [\"PS one Classics\", \"PlayStation Minis\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Sony\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"Vita\"]\n}\n"
+    },
+    {
+        "id": 1818,
+        "input": "Ripple Rock , an undersea double pinnacle that sank more than 100 vessels ( and cost as many lives ) over the years , was obliterated by a man-made explosion on April 5 , 1958 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Ripple Rock"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"April 5, 1958\"],\n  \"location\": [\"Ripple Rock\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 29280,
+        "input": "Oladipo Akinola Olaitan ; as the local government chairman of Union Group Cacaus of the People 's Democratic Party .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Union Group\"],\n  \"other\": null,\n  \"person\": [\"Oladipo Akinola Olaitan\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 26769,
+        "input": "On 9 July 1558 , the Ottomans under Piyale Pasha and Turgut Reis put the town under siege for eight days , then entered and decimated the town .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Piyale Pasha",
+                "Turgut Reis"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"siege\"],\n  \"location\": [\"town\"],\n  \"organization\": [\"Ottomans\", \"Piyaele Pasha\", \"Turgut Reis\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 29078,
+        "input": "After serving at the LSU Service Charity Hospital in New Orleans and a year of neurosurgery at the University of Texas Medical Branch ( UTMB ) in Galveston , Texas , Griffith began preparing to become a radiation oncologist , one who specializes in using radiation to cure cancer , training in radiation oncology through a combined program between UTMB and M.D .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "New Orleans",
+                "Galveston",
+                "Texas"
+            ],
+            "organization": [
+                "LSU Service Charity Hospital",
+                "University of Texas Medical Branch",
+                "UTMB",
+                "UTMB"
+            ],
+            "other": null,
+            "person": [
+                "Griffith"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"New Orleans\", \"Texas\", \"Galveston\"],\n  \"organization\": [\"LSU Service Charity Hospital\", \"University of Texas Medical Branch\", \"UTMB\", \"M.D.\"],\n  \"other\": null,\n  \"person\": [\"Griffith\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 18813,
+        "input": "The storm stalled over land for a very long time , allowing it to drop unprecedented amounts of rain over the Greater Houston area and surrounding counties .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Greater Houston"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Greater Houston area\", \"surrounding counties\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 12596,
+        "input": "In 1989 , Harcourt , Brace and Jovanovich ( heavy in debt and fighting a hostile takeover ) sold its SeaWorld and Boardwalk and Baseball theme parks to Anheuser-Busch , Inc . Plans to build a second Boardwalk and Baseball park adjacent to Sea World San Antonio were abandoned .",
+        "output": {
+            "art": null,
+            "building": [
+                "Sea World San Antonio"
+            ],
+            "event": null,
+            "location": [
+                "SeaWorld",
+                "Boardwalk",
+                "Baseball",
+                "Boardwalk",
+                "Baseball"
+            ],
+            "organization": [
+                "Harcourt",
+                "Brace",
+                "Jovanovich",
+                "Anheuser-Busch , Inc"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": [\"SeaWorld\", \"Boardwalk and Baseball\"],\n  \"building\": [\"Boardwalk and Baseball\"],\n  \"event\": null,\n  \"location\": [\"San Antonio\"],\n  \"organization\": [\"Harcourt, Brace and Jovanovich\", \"Anheuser-Busch\", \"Sea World\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 2155,
+        "input": "This album introduced new bass player Timo Honkanen and new vocalist Tomi Mykk\u00e4nen , who had previously toured with the band when Miika Kokkola and Patrik Mennander had been unavailable .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Timo Honkanen",
+                "Tomi Mykk\u00e4nen",
+                "Miika Kokkola",
+                "Patrik Mennander"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"band\"],\n  \"other\": null,\n  \"person\": [\"Timo Honkanen\", \"Tomi Mykk\u00e4nen\", \"Miika Kokkola\", \"Patrik Mennander\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 2669,
+        "input": "In keeping with the conventions of the time , when the Negresco first opened in 1913 its front opened on the side opposite the Mediterranean .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Mediterranean"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Negresco"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Negresco\"],\n  \"event\": null,\n  \"location\": [\"Mediterranean\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 4055,
+        "input": "His conflictual relationship with Arimondi , however , led to the massacre of Toselli 's column at the Amba Alagi and the loss of the isolated Fort of Mek'ele ( `` Macall\u00e8 `` in Italian sources ) after a two-weeks siege .",
+        "output": {
+            "art": null,
+            "building": [
+                "Fort of Mek'ele",
+                "Macall\u00e8"
+            ],
+            "event": null,
+            "location": [
+                "Amba Alagi",
+                "Italian"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Arimondi",
+                "Toselli"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Amba Alagi\", \"Mek'ele\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Arimondi\", \"Toselli\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 15449,
+        "input": "It was rebuilt in 1524 by the Ottomans and received new name : `` Fethi Islam `` ( `` Feth\u00fclislam `` ) .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Fethi Islam",
+                "Feth\u00fclislam"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Fethi Islam\", \"Feth\u00fclislam\"],\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 35935,
+        "input": "With its hub at Tan Son Nhat International Airport , Ho Chi Minh City , operates scheduled domestic and international services along with charter flights .",
+        "output": {
+            "art": null,
+            "building": [
+                "Tan Son Nhat International Airport"
+            ],
+            "event": null,
+            "location": [
+                "Ho Chi Minh City"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Tan Son Nhat International Airport\", \"Ho Chi Minh City\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 20852,
+        "input": "Dexlansoprazole is used to heal and maintain healing of erosive esophagitis and to treat heartburn associated with gastroesophageal reflux disease ( GERD ) .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": [
+                "Dexlansoprazole",
+                "GERD"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"Dexlansoprazole\"]\n}\n"
+    },
+    {
+        "id": 13111,
+        "input": "Following the 1914 elections , Albornoz left politics and the Radical Republican Party to practice law and spend more time writing .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Radical Republican Party"
+            ],
+            "other": null,
+            "person": [
+                "Albornoz"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"1914 elections\"],\n  \"location\": null,\n  \"organization\": [\"Radical Republican Party\"],\n  \"other\": null,\n  \"person\": [\"Albornoz\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 10475,
+        "input": "In the early 1990s the club was known as FC J\u00f6nk\u00f6ping but in 1994 the club reverted to the name R\u00e5sl\u00e4tts SK .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "FC J\u00f6nk\u00f6ping",
+                "R\u00e5sl\u00e4tts SK"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"FC J\u00f6nk\u00f6ping\", \"R\u00e5sl\u00e4tts SK\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 35828,
+        "input": "Daily News Live , presented by AT & amp ; T , was a live , sports oriented talk show that aired weeknights from 5:00PM to 6:00PM ET on Comcast SportsNet Philadelphia ( now NBC Sports Philadelphia ) .",
+        "output": {
+            "art": [
+                "Daily News Live"
+            ],
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "AT & amp ; T",
+                "Comcast SportsNet Philadelphia",
+                "NBC Sports Philadelphia"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"AT & amp ; T\", \"Comcast SportsNet Philadelphia\", \"NBC Sports Philadelphia\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 30130,
+        "input": "Network security company Damballa records a 57 percent infection increase from Backoff malware during August 2014 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Damballa"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Damballa\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 27767,
+        "input": "For transport , the howitzers on PIAT mounts could be broken down into two wagon loads , one for the howitzer/cradle and another for the wooden base .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": [
+                "PIAT"
+            ]
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"PIAT\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 37151,
+        "input": "Kaman spent much of his childhood on a farm and as a child he used to tear shingles off neighbors ' rooftops and misbehave in school .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Kaman"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Kaman\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 5304,
+        "input": "The Northern line 's Strand station was temporarily closed from 1974 to enable new escalators to be installed and it reopened along with the opening of the Jubilee line on 1 May 1979 .",
+        "output": {
+            "art": null,
+            "building": [
+                "Northern line",
+                "Strand station",
+                "Jubilee line"
+            ],
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"'s Strand station\"],\n  \"event\": null,\n  \"location\": [\"Northern line\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 14845,
+        "input": "His last exhibition of paintings , `` Hokonui Moonshine Final Works `` , opened the same night of his death .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": [
+                "Hokonui Moonshine Final Works"
+            ],
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"paintings\", \"Hokonui Moonshine Final Works\"],\n  \"building\": null,\n  \"event\": [\"night of his death\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 19297,
+        "input": "Train stops on London Underground lines are gradually being phased out in favour of ATP and distance-to-go signalling .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "London"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"London\"],\n  \"organization\": [\"London Underground\"],\n  \"other\": [\"ATP\", \"distance-to-go signalling\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 17289,
+        "input": "Eva Matsuzaki was job architect for the 1973 addition when she was working in the firm of Kevin Roche John Dinkeloo and Associates .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Eva Matsuzaki",
+                "Kevin Roche John Dinkeloo"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Kevin Roche John Dinkeloo and Associates\"],\n  \"other\": null,\n  \"person\": [\"Eva Matsuzaki\", \"Kevin Roche\", \"John Dinkeloo\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 2738,
+        "input": "Before she got involved with Broadway productions , she trained at the American Musical and Dramatic Academy in New York City .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Broadway",
+                "New York City"
+            ],
+            "organization": [
+                "American Musical and Dramatic Academy"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Broadway productions\"],\n  \"location\": [\"New York City\"],\n  \"organization\": [\"American Musical and Dramatic Academy\"],\n  \"other\": null,\n  \"person\": [\"she\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 5061,
+        "input": "The Serbian Ortodox Church Parish of Saint George , uses Artane Oratory of the Resurrection , Kilmore Road , for its services .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Serbian Ortodox Church Parish",
+                "Saint George",
+                "Artane Oratory of the Resurrection",
+                "Kilmore Road"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Artane Oratory\"],\n  \"event\": null,\n  \"location\": [\"Kilmore Road\"],\n  \"organization\": [\"Serbian Ortodox Church Parish of Saint George\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 11192,
+        "input": "She attended St Joseph of Cluny 's primary school and Newtown School in Waterford for her secondary education before spending time delved in theatre studies at Trinity College , Dublin .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Waterford",
+                "Dublin"
+            ],
+            "organization": [
+                "St Joseph of Cluny 's primary school",
+                "Newtown School",
+                "Trinity College"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Newtown School\", \"Waterford\", \"Trinity College\", \"Dublin\"],\n  \"organization\": [\"St Joseph of Cluny\", \"Trinity College\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 33095,
+        "input": "He would continue to coach for the Toros under their last two seasons in that name before being renamed to the Austin Spurs .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Toros",
+                "Austin Spurs"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"two seasons\"],\n  \"location\": [\"Austin\"],\n  \"organization\": [\"Toros\", \"Austin Spurs\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 23640,
+        "input": "Besides football , Austria also has professional national leagues for most major team sports , including the Austrian Hockey League for ice hockey , and the \u00d6sterreichische Basketball Bundesliga for basketball .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Austria"
+            ],
+            "organization": [
+                "Austrian Hockey League",
+                "\u00d6sterreichische Basketball Bundesliga"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Austria\"],\n  \"organization\": [\"Austrian Hockey League\", \"\u00d6sterreichische Basketball Bundesliga\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 24663,
+        "input": "This is in keeping with the jollity of the music , including as it does nonsense songs , exuberant dance , general bawdiness and the grand false start to Princess Royal .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": [\"songs\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"nonsense\", \"bawdiness\"],\n  \"person\": [\"Princess Royal\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 37060,
+        "input": "In 2004 , Raw Power bassist Stephen 'Tash ' Reddihough got back in touch with Nick Paul after many intervening years , and together with Nick and Collectors drummer Adrian even had a couple of jams before realising a fresh new approach was needed .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Raw Power",
+                "Collectors"
+            ],
+            "other": null,
+            "person": [
+                "Stephen 'Tash ' Reddihough",
+                "Nick Paul",
+                "Nick",
+                "Adrian"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Collectors\"],\n  \"other\": null,\n  \"person\": [\"Stephen 'Tash ' Reddihough\", \"Nick Paul\", \"Adrian\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 33042,
+        "input": "The system was previously known as the `` Croydon Tramlink `` , having been established under the Croydon Tramlink Act 1994 .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "Croydon Tramlink"
+            ],
+            "other": [
+                "Croydon Tramlink Act 1994"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Croydon\"],\n  \"organization\": [\"Croydon Tramlink\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 11,
+        "input": "He was born in Wellingborough , Northamptonshire , where he attended Victoria Junior School , Westfield Boys School and Sir Christopher Hatton School .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Wellingborough",
+                "Northamptonshire"
+            ],
+            "organization": [
+                "Victoria Junior School",
+                "Westfield Boys School",
+                "Sir Christopher Hatton School"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Wellingborough\", \"Northamptonshire\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 27633,
+        "input": "Despite having considerable intelligence of the strength of the French fleet at Toulon that was designated for the invasion of Minorca , the ships allocated to Byng were all in a poor state of repair and undermanned .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Toulon",
+                "Minorca"
+            ],
+            "organization": [
+                "the French fleet"
+            ],
+            "other": null,
+            "person": [
+                "Byng"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Toulon\", \"Minorca\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 6385,
+        "input": "The `` Times `` drew fire for a last-minute story before the 2003 California recall election alleging that gubernatorial candidate Arnold Schwarzenegger groped scores of women during his movie career .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "California"
+            ],
+            "organization": [
+                "Times"
+            ],
+            "other": null,
+            "person": [
+                "Arnold Schwarzenegger"
+            ],
+            "product": null
+        },
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"2003 California recall election\"],\n  \"location\": [\"California\"],\n  \"organization\": [\"Times\"],\n  \"other\": null,\n  \"person\": [\"Arnold Schwarzenegger\"],\n  \"product\": null\n}\n```"
+    },
+    {
+        "id": 22114,
+        "input": "The Selective Training and Service Act of 1940 which allowed the government to draft US citizens , was passed , and all available National Guard Divisions were inducted into Federal Service within a year .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "US"
+            ],
+            "organization": [
+                "National Guard Divisions",
+                "Federal Service"
+            ],
+            "other": [
+                "Selective Training and Service Act"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Selective Training and Service Act of 1940\"],\n  \"location\": [\"US\"],\n  \"organization\": [\"government\", \"National Guard\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 4575,
+        "input": "Greenland currently uses ordinary Danish kroner but has considered introducing its own currency , the Greenlandic krone in a system similar to that of the Faroese one .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Greenland"
+            ],
+            "organization": null,
+            "other": [
+                "Danish kroner",
+                "Greenlandic krone",
+                "Faroese"
+            ],
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Greenland\", \"Faroese\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 32859,
+        "input": "Mukund Dharmadhikari , senior partner of the firm , became joint managing partner of Deloitte Haskins & amp ; Sells India .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Mukund Dharmadhikari"
+            ],
+            "organization": [
+                "Deloitte Haskins & amp ; Sells India"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Deloitte Haskins & Sells India\"],\n  \"other\": null,\n  \"person\": [\"Mukund Dharmadhikari\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 30882,
+        "input": "Each spot is having tons of Pure Ghee or Clarified Butter kept ready to pour on the `` Palli '' Rath .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": [
+                "Pure Ghee",
+                "Clarified Butter"
+            ]
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Palli\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"Ghee\", \"Clarified Butter\"]\n}\n"
+    },
+    {
+        "id": 25543,
+        "input": "In independent India \u2019 s first election in 1951 Sudhir Chandra Das of KMPP won the Contai North seat .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "India",
+                "Contai North"
+            ],
+            "organization": [
+                "KMPP"
+            ],
+            "other": null,
+            "person": [
+                "Sudhir Chandra Das"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"first election\", \"1951\"],\n  \"location\": [\"Contai North\"],\n  \"organization\": [\"KMPP\"],\n  \"other\": null,\n  \"person\": [\"Sudhir Chandra Das\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 8255,
+        "input": "He took an engineering degree at Link\u00f6ping University in 2001 , after which he moved to Chamonix in France to focus on skiing .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Chamonix",
+                "France"
+            ],
+            "organization": [
+                "Link\u00f6ping University"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Link\u00f6ping University\", \"Chamonix\", \"France\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 7552,
+        "input": "Before building of the Aswan High Dam , Kulubnarti was an island only at the season of the high Nile flood This remains true today in the sense that it is an island only when the level of Lake Nubia ( the Aswan High Dam reservoir ) is at its peak .",
+        "output": {
+            "art": null,
+            "building": [
+                "Aswan High Dam",
+                "Aswan High Dam"
+            ],
+            "event": null,
+            "location": [
+                "Kulubnarti",
+                "Nile",
+                "Lake Nubia"
+            ],
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"Aswan High Dam\"],\n  \"event\": null,\n  \"location\": [\"Kulubnarti\", \"Lake Nubia\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 21144,
+        "input": "Growing up in Cincinnati , Ohio , Farley won four state high school singles championships , a record for any player ( male or female ) .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Cincinnati",
+                "Ohio"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Farley"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Cincinnati\", \"Ohio\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Farley\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 32874,
+        "input": "These allegations lost much of its credibility when , in February 2009 , Gerardo Aguilar , known as `` C\u00e9sar `` , was extradited to US by the Colombian Supreme Court on charges of narcotrafficking and then sentenced to 27 years in jail .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "US"
+            ],
+            "organization": [
+                "Colombian Supreme Court"
+            ],
+            "other": null,
+            "person": [
+                "Gerardo Aguilar",
+                "C\u00e9sar"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"US\", \"Colombian\"],\n  \"organization\": [\"Colombian Supreme Court\"],\n  \"other\": null,\n  \"person\": [\"Gerardo Aguilar\", \"C\u00e9sar\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 22271,
+        "input": "In October 2018 and March 2019 , Howard was spotted in Middletown , Ohio , again scouting filming locations .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Middletown",
+                "Ohio"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Howard"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Middletown\", \"Ohio\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Howard\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 18830,
+        "input": "A new wall was built to protect a wider area then before , around the Histrian Acropolis , probably in connection with the democratic `` revolution '' mentioned by Aristotle in `` The Politics `` ( cap .",
+        "output": {
+            "art": [
+                "The Politics"
+            ],
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Acropolis",
+                "Aristotle"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": [\"wall\"],\n  \"event\": [\"revolution\"],\n  \"location\": [\"Histrian Acropolis\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Aristotle\"],\n  \"product\": null\n}\n"
+    },
+    {
+        "id": 24508,
+        "input": "In the summer of 2006 he was the drummer in a collaboration with Trey Anastasio , Mike Gordon , and Marco Benevento ( sometimes referred to as GRAB or Mike & amp ; the Italians ) .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": [
+                "Trey Anastasio",
+                "Mike Gordon",
+                "Marco Benevento",
+                "GRAB",
+                "Mike & amp"
+            ],
+            "product": null
+        },
+        "generated_output": "{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"GRAB\", \"Mike & the Italians\"],\n  \"other\": null,\n  \"person\": [\"Trey Anastasio\", \"Mike Gordon\", \"Marco Benevento\"],\n  \"product\": null\n}\n"
+    }
+]

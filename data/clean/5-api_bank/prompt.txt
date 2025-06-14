@@ -9,5 +9,5 @@ that contains information about the possible APIs you can use to answer the user
 # Instruction:
 {instruction}
 
-You must must only generate the JSON object, without any additional text or explanation. You must follow the API specifications provided.
+You must must only generate the JSON object, without any additional text, explanation or markdown. You must follow the API specifications provided.
 """

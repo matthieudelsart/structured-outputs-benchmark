@@ -15,8 +15,6 @@ from rapidfuzz import distance, process
 from unidecode import unidecode
 from pathlib import Path
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 ######### Helpers
@@ -40,9 +38,13 @@ def assess_json_valid(json_string: str) -> Tuple[float, Any]:
             record = json.loads(json_string.replace("```json", "").replace("```", ""))
             return 0.8, record
         except json.JSONDecodeError:
-            logger.warning(f"Invalid JSON string: {json_string} - Fixing")
-            record = json_repair.loads(json_string)
-            return 0, record
+            try:
+                record = json.loads(json_string.replace("```json", "").replace("```", "").replace("'",'"'))
+                return 0.6, record
+            except json.JSONDecodeError:
+                logger.warning(f"Invalid JSON string: {json_string} - Fixing")
+                record = json_repair.loads(json_string)
+                return 0, record
     except Exception as e:
         logger.error(f"Error parsing JSON: {e}. Problem with {json_string}")
         return 0, json_string
@@ -1177,6 +1179,28 @@ def main():
     )
     args = parser.parse_args()
 
+    # Create logs directory if it doesn't exist
+    logs_dir = Path("logs")
+    logs_dir.mkdir(exist_ok=True)
+
+    # Set up logging
+    bench_repo_name = Path(args.bench_repo).name
+    log_file = logs_dir / f"evaluate_{bench_repo_name}.log"
+
+    # Remove all handlers associated with the root logger object.
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+        
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        handlers=[
+            logging.FileHandler(log_file, mode='w'),
+            logging.StreamHandler()
+        ]
+    )
+
+
     evaluators = {
         "1-rotowire": RotowireEvaluator(),
         "2-wiki_bio": WikiBioEvaluator(),
@@ -1207,9 +1231,9 @@ def main():
                 if isinstance(value, numbers.Number)
             }
             agg_scores = {
-                key: np.mean(
+                key: round(np.mean(
                     [s[key] for s in task_scores if key in s and isinstance(s[key], numbers.Number)]
-                )
+                ), 3)
                 for key in numeric_keys
             }
             all_results[task_name] = agg_scores
@@ -1217,11 +1241,16 @@ def main():
 
     output_path = Path(args.output_file)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Add the new results to the existing results
+    current_results = json.load(open(output_path, 'r'))
+    current_results[args.bench_repo.split("/")[-1]] = all_results
     with open(output_path, 'w') as f:
-        json.dump(all_results, f, indent=4)
+        json.dump(current_results, f, indent=4)
 
     logger.info(f"Evaluation complete. Results saved to {args.output_file}")
 
 if __name__ == '__main__':
     main()
-    # uv run python -m  src.evaluate --bench_repo data/generated --output_file results/bench_results.json
+    # uv run python -m  src.evaluate --bench_repo results/gemini-2.5-flash-preview-05-20 --output_file results/bench_results.json
+    # uv run python -m  src.evaluate --bench_repo results/gemma-3-4b-it     

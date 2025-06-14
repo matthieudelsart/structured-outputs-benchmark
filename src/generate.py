@@ -26,18 +26,17 @@ from google.genai.types import GenerateContentConfigDict
 import argparse
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Load environment variables
 load_dotenv()
 GEMINI_KEY = os.getenv('GEMINI_KEY')
 
-MODEL_NAME = "gemini-2.5-flash-preview-05-20"
+MODEL_NAME = "gemma-3-1b-it"
 GENERATION_CONFIG: GenerateContentConfigDict = {"temperature": 0.0}
-MAX_WORKERS = 10
+MAX_WORKERS = 2
 
-def generate_with_retry(client: genai.client.Client, prompt: str, max_retries: int = 5, delay: int = 5) -> str | None:
+def generate_with_retry(client: genai.client.Client, prompt: str, max_retries: int = 10, delay: int = 10) -> str | None:
     """
     Generates content using the Gemini API with a retry mechanism.
 
@@ -217,11 +216,32 @@ def main():
     )
     args = parser.parse_args()
 
-    client = genai.Client(api_key=GEMINI_KEY)
+    # Create logs directory if it doesn't exist
+    logs_dir = Path("logs")
+    logs_dir.mkdir(exist_ok=True)
+    
+    # Setup logging
+    log_file = logs_dir / f"generate_{MODEL_NAME}.log"
+
+    # Remove all handlers associated with the root logger object.
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+        
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        handlers=[
+            logging.FileHandler(log_file, mode='w'),
+            logging.StreamHandler()
+        ]
+    )
+    
+    # Initialize the Gemini client
+    client = genai.client.Client(api_key=GEMINI_KEY)
 
     # Define paths
     base_data_path = Path('data/clean')
-    output_base_path = Path('data/generated')
+    output_base_path = Path(f'results/{MODEL_NAME}')
 
     tasks = {
         "1-rotowire": lambda c, d, o: generate_generic(c, "1-rotowire", d, o),
