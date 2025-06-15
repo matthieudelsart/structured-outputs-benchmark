@@ -1,0 +1,160 @@
+[
+    {
+        "id": 150,
+        "input": "User: Can you check my account balance, please?\nAI: Sure, may I have your account information for authentication?\nUser: testuser, testpass\nAI: Got it.\nAPI-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"testuser\",\"password\":\"testpass\"}}->{'token': 'p9o8i7u6y5t4k3e2w1q'}\nAI: Your balance is 1935.44. Anything else I can help you with?\nUser: I want to open a new bank account.\nAI: Okay. What should be the account identifier, password, and account holder's name?\nUser: The account identifier is newaccount, the password is newpassword, and the account holder's name is John Doe.\nAI: Sure, I will open a new bank account for you.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"OpenBankAccount\", \"description\": \"This is an API for opening a bank account for a user, given the account, password and name.\", \"input_parameters\": {\"account\": {\"type\": \"str\", \"description\": \"The account for the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password.\"}, \"name\": {\"type\": \"str\", \"description\": \"account holder name.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n{\"name\": \"QueryStock\", \"description\": \"This API queries the stock price of a given stock code and date.\", \"input_parameters\": {\"stock_code\": {\"type\": \"str\", \"description\": \"The stock code of the given stock.\"}, \"date\": {\"type\": \"str\", \"description\": \"The date of the stock price. Format: %Y-%m-%d\"}}, \"output_parameters\": {\"stock_price\": {\"type\": \"float\", \"description\": \"The stock price of the given stock.\"}}}\n{\"name\": \"GetUserToken\", \"description\": \"Get the user token by username and password.\", \"input_parameters\": {\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}, \"output_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}}",
+        "output": {
+            "api_name": "OpenBankAccount",
+            "parameters": {
+                "account": "newaccount",
+                "password": "newpassword",
+                "name": "John Doe"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "OpenBankAccount"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "account",
+                                "password",
+                                "name"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "account": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryStock"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "stock_code",
+                                "date"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "stock_code": {
+                                    "type": "string"
+                                },
+                                "date": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "GetUserToken"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "username",
+                                "password"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "username": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"newaccount\",\"password\":\"newpassword\",\"name\":\"John Doe\"}}"
+    },
+    {
+        "id": 335,
+        "input": "User: Can you help me find my upcoming appointment with Dr. Smith on October 10th, 2023 under the name Olivia Davis with patient ID 90123456?\nAI: Sure, let me check for you.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"QueryRegistration\", \"description\": \"This API queries the registration of a patient, given patient ID.\", \"input_parameters\": {\"patient_name\": {\"type\": \"str\", \"description\": \"The name of patient.\"}, \"date\": {\"type\": \"str\", \"description\": \"The date of appointment. Format be like %Y-%m-%d\"}}, \"output_parameters\": {\"appointments\": {\"type\": \"list\", \"description\": \"The dict where from appointment_id to a list like [\\\"patient_name\\\":xxx, \\\"date\\\":xxx, \\\"doctor_name\\\":xxx]\"}}}",
+        "output": {
+            "api_name": "QueryRegistration",
+            "parameters": {
+                "patient_name": "Olivia Davis",
+                "date": "2023-10-10"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryRegistration"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "patient_name",
+                                "date"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "patient_name": {
+                                    "type": "string"
+                                },
+                                "date": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "{\"api_name\": \"QueryRegistration\",\n      \"parameters\": {\n        \"patient_name\": \"Olivia Davis\",\n        \"date\": \"2023-10-10\"\n      }\n    }\n"
+    }
+]

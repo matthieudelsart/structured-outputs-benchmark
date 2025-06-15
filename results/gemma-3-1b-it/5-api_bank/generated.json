@@ -39,7 +39,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"Dictionary\", \"parameters\":{\"key1\":\"resilience\", \"key2\":\"definition\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"Dictionary\",\"parameters\":{\"key1\":\"resilience\",\"key2\":\"\"}}"
     },
     {
         "id": 362,
@@ -215,7 +215,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"user3\",\"key2\":\"user3pass\"}}"
+        "generated_output": "```json\n{\"api_name\":\"OpenBankAccount\",\n      \"parameters\":{\"account\": {\"type\": \"str\", \"description\": \"The account for the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password.\"}, \"name\": {\"type\": \"str\", \"description\": \"account holder name.\"}},\n      \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n```"
     },
     {
         "id": 280,
@@ -374,7 +374,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"ApiName\",\n  \"parameters\": {\n    \"key1\": \"p9o8i7u6y5t4k3e2w1q\",\n    \"key2\": \"value1\"\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"p9o8i7u6y5t4k3e2w1q\",\"key2\":\"Submit report\",\"key3\":\"2023-03-17 09:00:00\"}}\n```"
     },
     {
         "id": 233,
@@ -475,7 +475,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DocumentQA\",\"parameters\":{\"key1\":\"https://www.example.com/article-4.txt?\",\"key2\":\"What are the key features of this software?\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DocumentQA\",\"parameters\":{\"key1\":\"https://www.example.com/article-4.txt?url=https://www.example.com/article-4.txt\"}}"
     },
     {
         "id": 234,
@@ -604,7 +604,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-09-17 10:30:00\",\"health_data\": [{\"name\":\"blood_pressure\", \"value\":\"120/80\"},{\"name\":\"heart_rate\", \"value\":\"75\"}]}}"
+        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-09-17 10:30:00\"}, \"health_data\": [{\"name\":\"blood_pressure\", \"value\":\"120/80\"}, {\"name\":\"heart_rate\", \"value\":\"75\"}]}"
     },
     {
         "id": 26,
@@ -738,7 +738,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AMZN\",\"date\":\"2023-03-12\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"user4\",\"key2\":\"user4pass\"}}->success\n```"
     },
     {
         "id": 263,
@@ -809,7 +809,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"ApiName\",\n  \"parameters\": {\n    \"key1\": \"Shortness of breath\",\n    \"key2\": \"First-aid method\"\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\"}}\n```"
     },
     {
         "id": 332,
@@ -886,7 +886,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAlarm\",\"parameters\":{\"key1\":\"6:30 AM on March 20, 2023\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DeleteAlarm\",\"parameters\":{\"key1\":\"6:30 AM on March 20, 2023\"}}}"
     },
     {
         "id": 194,
@@ -1042,7 +1042,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"token\":\"o8i7u6y5t4r3e2w1q0\"}}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ModifyMeeting\",\"parameters\":{\"token\":\"o8i7u6y5t4r3e2w1q0\"}}\n```"
     },
     {
         "id": 338,
@@ -1159,7 +1159,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AddAgenda\",\"parameters\":{\"content\":\"Meeting with John\",\"time\":\"2023-09-12\",\"location\":\"office\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"AddAgenda\",\"parameters\":{\"content\":{\"type\": \"str\", \"description\": \"The content of the agenda.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time for agenda. Format: %Y-%m-%d %H:%M:%S\"}, \"location\": {\"type\": \"str\", \"description\": \"The location of the agenda.\"}}}"
     },
     {
         "id": 12,
@@ -1235,7 +1235,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"Fatigue\",\"key2\":\"User's utterence\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"Fatigue\"}}"
     },
     {
         "id": 119,
@@ -1357,7 +1357,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\", \"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\", \"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}, \"old_password\": {\"type\": \"str\", \"description\": \"The old password of the user.\"}, \"new_password\": {\"type\": \"str\", \"description\": \"The new password of the user.\"}}}"
     },
     {
         "id": 271,
@@ -1547,7 +1547,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"ModifyRegistration\",\n  \"parameters\": {\n    \"appointment_id\": \"12345678\",\n    \"new_appointment_date\": \"2023-05-13\",\n    \"new_appointment_doctor\": \"Dr. Lee\"\n  }\n}\n```"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"Fatigue\"}}"
     },
     {
         "id": 325,
@@ -1618,7 +1618,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"March 25th, 2023\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"EmergencyKnowledge\"}}"
     },
     {
         "id": 74,
@@ -1720,7 +1720,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\", \"parameters\":{\"stock_code\":\"NFLX\", \"date\":\"2022-02-17\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"QueryStock\", \"parameters\":{\"stock_code\": \"NFLX\", \"date\": \"2022-02-17\"}}"
     },
     {
         "id": 133,
@@ -1826,7 +1826,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RegisterUser\",\"parameters\":{\"username\":\"johnsmith123\",\"password\":\"1234password\",\"email\":\"johnsmith123@example.com\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"RegisterUser\",\"parameters\":{\"key1\":\"johnsmith123\",\"key2\":\"1234password\",\"key3\":\"johnsmith123@example.com\"}}"
     },
     {
         "id": 157,
@@ -1878,7 +1878,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"MyNewAccount\",\"password\":\"Password123\",\"name\":\"John Smith\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"key1\":\"MyNewAccount\",\"key2\":\"Password123\",\"key3\":\"John Smith\"}}"
     },
     {
         "id": 352,
@@ -2037,7 +2037,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\"}}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"p9o8i7u6y5t4k3e2w1q\",\"key2\":\"\"}\n}\n```"
     },
     {
         "id": 490,
@@ -2157,7 +2157,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\": \"chest pain\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"12345678\",\"key2\":\"April 15th, 2023\",\"key3\":\"Dr. Johnson\"}}"
     },
     {
         "id": 188,
@@ -2239,7 +2239,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\",\"password\":\"user1pass\"}}\n"
+        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\"}}"
     },
     {
         "id": 226,
@@ -2356,7 +2356,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"I need to attend a meeting.\",\"time\":\"2023-03-18 14:00:00\",\"location\":\"Office downtown\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"I need to attend a meeting.\",\"time\":\"2023-03-18 14:00:00\",\"location\":\"\"}}"
     },
     {
         "id": 315,
@@ -2403,7 +2403,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"Olivia Davis\",\"date\":\"2023-10-10\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"QueryRegistration\",\"parameters\":{\"key1\":\"Olivia Davis\",\"key2\":\"October 10th, 2023\"}}"
     },
     {
         "id": 260,
@@ -2480,7 +2480,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"AddAlarm\",\n  \"parameters\": {\n    \"key1\": \"8:30 AM\",\n    \"key2\": \"March 25th, 2023\"\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n```"
     },
     {
         "id": 314,
@@ -2562,7 +2562,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"ModifyReminder\",\n  \"parameters\": {\n    \"key1\": \"m9n8b7v6c5x4z3a2s1\",\n    \"key2\": \"value1\"\n  },\n  \"output_parameters\": {\n    \"status\": \"success\"\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ModifyReminder\",\n      \"parameters\":{\"content\":{\"type\": \"str\", \"description\": \"The content of the conference.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time for conference. Format: %Y-%m-%d %H:%M:%S\"}},\n      \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}\n}\n```"
     },
     {
         "id": 154,
@@ -2640,7 +2640,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"12345678\",\"key2\":\"May 15, 2023\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}"
     },
     {
         "id": 197,
@@ -2720,7 +2720,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}"
     },
     {
         "id": 445,
@@ -2762,7 +2762,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"sales report\",\"key2\":\"3pm January 5, 2023\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"sales report\",\"key2\":\"3pm on January 5, 2023\"}}"
     },
     {
         "id": 14,
@@ -2834,7 +2834,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAccount\", \"parameters\":{\"key1\":\"foo\", \"key2\":\"bar\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DeleteAccount\", \"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}}"
     },
     {
         "id": 13,
@@ -2910,7 +2910,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"Fatigue\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"User's utterence\"}}"
     },
     {
         "id": 303,
@@ -2981,7 +2981,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"34567890\",\"key2\":\"2023-03-25\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterance\"}}"
     },
     {
         "id": 209,
@@ -3090,7 +3090,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"Fever over 100 degrees Fahrenheit\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"fever\",\"key2\":\"over 100\"}}"
     },
     {
         "id": 81,
@@ -3192,7 +3192,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"E97531\",\"key2\":\"2023-03-05 10:00:00\",\"key3\":\"2023-03-18 20:00:00\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"E97531\",\"key2\":\"2023-03-13 22:30:00\",\"key3\":\"2023-03-18 20:00:00\"}}"
     },
     {
         "id": 146,
@@ -3287,7 +3287,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryMeeting\",\"parameters\":{\"token\":\"JohnDoe\",\"meeting_topic\":\"Sales Meeting\",\"start_time\":\"2023-03-20\",\"end_time\":\"2023-03-20 4:00:00\",\"location\":\"Conference Room A\",\"attendees\":{\"type\":\"list(str)\"}}\n"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"JohnDoe\", \"key2\":\"pass123\"}}"
     },
     {
         "id": 40,
@@ -3367,7 +3367,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\", \"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\", \"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}, \"old_password\": {\"type\": \"str\", \"description\": \"The old password of the user.\"}, \"new_password\": {\"type\": \"str\", \"description\": \"The new password of the user.\"}}}"
     },
     {
         "id": 414,
@@ -3409,7 +3409,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"9:00 am\",\"key2\":\"7-15\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"9:00 am\", \"key2\":\"7-15\"}}"
     },
     {
         "id": 277,
@@ -3566,7 +3566,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"testuser\", \"key2\":\"testpass\", \"key3\":\"testuser@example.com\"}}"
+        "generated_output": "```json\n{\"api_name\": \"ModifyReminder\",\n      \"parameters\": {\n        \"token\": {\"type\": \"str\", \"description\": \"User's token\"}\n      }\n    }\n```"
     },
     {
         "id": 348,
@@ -3723,7 +3723,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}, \"content\": {\"type\": \"str\", \"description\": \"The content of the agenda.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time for agenda. Format: %Y-%m-%d %H:%M:%S\"}, \"location\": {\"type\": \"str\", \"description\": \"The location of the agenda.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}"
+        "generated_output": "```json\n{\"api_name\": \"ModifyReminder\",\n      \"parameters\": {\n        \"token\": {\"type\": \"str\", \"description\": \"User's token.\"},\n        \"content\": {\"type\": \"str\", \"description\": \"The content of the conference.\"},\n        \"time\": {\"type\": \"str\", \"description\": \"The time for conference. Format: %Y-%m-%d %H:%M:%S\"}\n      }\n    }\n```"
     },
     {
         "id": 230,
@@ -3859,7 +3859,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"123456\",\"key2\":\"John Doe\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"user3\",\"key2\":\"secret123\"}}\n```"
     },
     {
         "id": 367,
@@ -3926,7 +3926,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryHistoryToday\", \"parameters\":{\"date\": {\"type\": \"str\", \"description\": \"The date of the history. Format: %m-%d\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\": {\"type\": \"str\", \"description\": \"The date of the history. Format: %m-%d\"}}}"
     },
     {
         "id": 389,
@@ -3973,7 +3973,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DocumentQA\",\"parameters\":{\"key1\":\"https://www.example.com/article-4.txt\",\"key2\":\"What are the key features of this software?\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"What are the platforms the software is compatible with?\"}}"
     },
     {
         "id": 217,
@@ -4015,7 +4015,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"Dictionary\", \"parameters\":{\"key1\":\"perplexed\", \"key2\":\"\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"Dictionary\",\"parameters\":{\"key1\":\"perplexed\"}}"
     },
     {
         "id": 275,
@@ -4154,7 +4154,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John\",\"date\":\"2022-08-15\",\"doctor_name\":\"Smith\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"key1\":\"John\",\"key2\":\"Smith\",\"key3\":\"2022-08-15\"}}"
     },
     {
         "id": 453,
@@ -4196,7 +4196,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"John Doe\",\"key2\":\"April 12th\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"April 12th\"}}"
     },
     {
         "id": 24,
@@ -4332,7 +4332,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AMZN\",\"date\":\"2023-03-12\"}}"
+        "generated_output": "```json\n{\"api_name\": \"OpenBankAccount\",\n      \"parameters\": {\n        \"account\": {\n          \"type\": \"str\",\n          \"description\": \"The account for the user.\"\n        },\n        \"password\": {\n          \"type\": \"str\",\n          \"description\": \"The password.\"\n        },\n        \"name\": {\n          \"type\": \"str\",\n          \"description\": \"account holder name.\"\n        }\n      }\n    }\n```"
     },
     {
         "id": 375,
@@ -4384,7 +4384,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John\",\"date\":\"2022-03-05\",\"doctor_name\":\"Dr. Smith\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"key1\":\"John\", \"key2\":\"2022-03-05\", \"key3\":\"Dr. Smith\"}}"
     },
     {
         "id": 219,
@@ -4503,7 +4503,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryAlarm\",\"parameters\":{\"time\": {\"type\": \"str\", \"description\": \"The time for alarm. Format: %Y-%m-%d %H:%M:%S\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"QueryAlarm\",\"parameters\":{\"token\":\"o8i7u6y5t4r3e2w1q0\",\"time\":\"2023-03-20\"}"
     },
     {
         "id": 23,
@@ -4638,7 +4638,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AAPL\",\"date\":\"2023-03-12\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\", \"parameters\":{\"account\": {\"type\": \"str\", \"description\": \"The account for the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password.\"}, \"name\": {\"type\": \"str\", \"description\": \"account holder name.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}"
     },
     {
         "id": 377,
@@ -4757,7 +4757,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyReminder\",\"parameters\":{\"key1\":\"admin\",\"key2\":\"adminpass\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyReminder\",\"parameters\":{\"token\":\"adminpass\",\"content\":\"March 20th at 12 PM\"}}"
     },
     {
         "id": 265,
@@ -5077,7 +5077,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryHealthData\",\"parameters\":{\"user_id\":\"J46801\",\"start_time\":\"2023-03-01\",\"end_time\":\"2023-03-31\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"J46801\",\"key2\":\"March 1st, 2023\"}}\n```"
     },
     {
         "id": 292,
@@ -5129,7 +5129,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John Smith\",\"date\":\"2022-06-01\",\"doctor_name\":\"Dr. Johnson\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"key1\":\"John Smith\",\"key2\":\"Dr. Johnson\",\"key3\":\"June 1st, 2022\"}}"
     },
     {
         "id": 79,
@@ -5196,7 +5196,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"2\",\"key2\":\"3\",\"key3\":\"5\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"2\",\"key2\":\"3\"}}"
     },
     {
         "id": 287,
@@ -5277,7 +5277,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyReminder\",\"parameters\":{\"key1\":\"user3pass\",\"key2\":\"user3\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyReminder\",\"parameters\":{\"key1\":\"proposal submission date\", \"key2\":\"March 25th at 2:00 PM\"}}"
     },
     {
         "id": 47,
@@ -5583,7 +5583,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\",\"password\":\"user1pass\"}}"
     },
     {
         "id": 291,
@@ -5749,7 +5749,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\", \"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}}"
     },
     {
         "id": 110,
@@ -5860,7 +5860,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"RecordHealthData\",\n  \"parameters\": {\n    \"user_id\": \"12345\",\n    \"time\": \"2023-07-10 09:15:00\",\n    \"health_data\": [\n      {\n        \"name\": \"blood_pressure\",\n        \"value\": \"140/90\"\n      },\n      {\n        \"name\": \"heart_rate\",\n        \"value\": \"85\"\n      }\n    ]\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"EmergencyKnowledge\",\n      \"parameters\":{\"symptom\": \"chest pain\"}}\n```"
     },
     {
         "id": 60,
@@ -6028,7 +6028,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAgenda\",\"parameters\":{\"key1\":\"l9k8j7h6g5f4d3s2a1\",\"key2\":\"\"}"
+        "generated_output": "```json\n{\"api_name\":\"DeleteAgenda\",\n      \"parameters\":{\"token\":\"l9k8j7h6g5f4d3s2a1\"}}\n```"
     },
     {
         "id": 59,
@@ -6179,7 +6179,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAccount\",\"parameters\":{\"key1\":\"z9x8c7v6b5n4m3q2w1\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DeleteAccount\",\"parameters\":{\"key1\":\"foo\",\"key2\":\"bar\"}}"
     },
     {
         "id": 25,
@@ -6314,7 +6314,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AMZN\",\"date\":\"2023-03-12\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterance\"}}\n```"
     },
     {
         "id": 103,
@@ -6450,7 +6450,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":{\"type\":\"str\", \"description\":\"The account for the user.\"}, \"password\":{\"type\":\"str\", \"description\":\"The password.\"}, \"name\":{\"type\":\"str\", \"description\":\"account holder name.\"}}, \"output_parameters\": {\"status\":{\"type\":\"str\", \"description\":\"success or failed\"}}"
+        "generated_output": "```json\n{\"api_name\":\"OpenBankAccount\",\n      \"parameters\":{\"account\": {\"type\": \"str\", \"description\": \"The account for the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password.\"}, \"name\": {\"type\": \"str\", \"description\": \"account holder name.\"}},\n    \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n```"
     },
     {
         "id": 98,
@@ -6512,7 +6512,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-11-12 10:00:00\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"key1\":\"12345\",\"key2\":\"2023-11-12 10:00:00\"}}"
     },
     {
         "id": 456,
@@ -6709,7 +6709,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyAlarm\",\"parameters\":{\"key1\":\"7am\",\"key2\":\"7am\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ModifyAlarm\",\n      \"parameters\":{\"key1\":\"7am\", \"key2\":\"7am\"}}\n```"
     },
     {
         "id": 252,
@@ -6885,7 +6885,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\", \"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}}"
     },
     {
         "id": 269,
@@ -6972,7 +6972,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyAgenda\",\"parameters\":{\"key1\":\"2023-03-22 14:00:00\",\"key2\":\"Laundry\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ModifyAgenda\",\n      \"parameters\":{\"content\":\"Pick up dry cleaning\", \"time\":\"2023-03-22 14:00:00\", \"location\":\"Laundry\"}}\n```"
     },
     {
         "id": 108,
@@ -7189,7 +7189,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AAPL\",\"date\":\"2023-01-03\"}}"
+        "generated_output": "```json\n{\"api_name\":\"QueryStock\",\n      \"parameters\":{\"stock_code\":{\"type\": \"str\", \"description\": \"The stock code of the given stock.\"}, \"date\":{\"type\": \"str\", \"description\": \"The date of the stock price. Format: %Y-%m-%d\"}}\n```"
     },
     {
         "id": 181,
@@ -7242,7 +7242,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\": \"90123456\", \"new_appointment_date\": \"2023-10-15\", \"new_appointment_doctor\": \"Dr. Johnson\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"key1\":\"90123456\",\"key2\":\"10/15/2023\",\"key3\":\"Dr. Johnson\"}}"
     },
     {
         "id": 91,
@@ -7351,7 +7351,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\"}}"
     },
     {
         "id": 274,
@@ -7427,7 +7427,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"56789012\",\"time\":\"2023-04-10\",\"health_data\": [{\"name\":\"blood_pressure\",\"value\":\"120\",\"\"}, {\"name\":\"heart_rate\",\"value\":\"80\"}]}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"56789012\",\"key2\":\"April 10th\"}}"
     },
     {
         "id": 381,
@@ -7585,7 +7585,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"JohnDoe\"}}"
+        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"JohnDoe\"}}\n```"
     },
     {
         "id": 235,
@@ -7652,7 +7652,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"23\",\"key2\":\"7\",\"key3\":\"3\",\"key4\":\"-42\",\"key5\":\"6\"}}\n```"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"23\",\"key2\":\"7\",\"key3\":\"3-42/6\"}}"
     },
     {
         "id": 39,
@@ -7799,7 +7799,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"foo\",\"password\":\"newpassword\"}}->{'token': 'z9x8c7v6b5n4m3q2w1'}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n```"
     },
     {
         "id": 168,
@@ -8008,7 +8008,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyMeeting\",\"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}, \"meeting_topic\": {\"type\": \"str\", \"description\": \"The title of the meeting, no more than 50 characters.\"}, \"start_time\": {\"type\": \"str\", \"description\": \"The start time of the meeting, in the pattern of %Y-%m-%d %H:%M:%S\"}, \"end_time\": {\"type\": \"str\", \"description\": \"The end time of the meeting, in the pattern of %Y-%m-%d %H:%M:%S\"}, \"location\": {\"type\": \"str\", \"description\": \"The location where the meeting to be held, no more than 100 characters.\"}, \"attendees\": {\"type\": \"list(str)\", \"description\": \"The attendees of the meeting, including names, positions and other information.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyMeeting\",\"parameters\":{\"key1\":\"newuser\",\"key2\":\"newpass\"}}"
     },
     {
         "id": 18,
@@ -8103,7 +8103,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryMeeting\",\"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}, \"meeting_topic\": {\"type\": \"str\", \"description\": \"The title of the meeting, no more than 50 characters.\"}, \"start_time\": {\"type\": \"str\", \"description\": \"The start time of the meeting, in the pattern of %Y-%m-%d %H:%M:%S\"}, \"end_time\": {\"type\": \"str\", \"description\": \"The end time of the meeting, in the pattern of %Y-%m-%d %H:%M:%S\"}, \"location\": {\"type\": \"str\", \"description\": \"The location where the meeting to be held, no more than 100 characters.\"}, \"attendees\": {\"type\": \"list(str)\", \"description\": \"The attendees of the meeting, including names, positions and other information.\"}}}\n"
+        "generated_output": "API-Request: {\"api_name\":\"QueryMeeting\",\"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}}}"
     },
     {
         "id": 531,
@@ -8145,7 +8145,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"rash\",\"key2\":\"search\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"rash\",\"key2\":\"\"}}"
     },
     {
         "id": 44,
@@ -8198,7 +8198,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":{\"type\": \"str\", \"description\": \"The ID of appointment.\"}, \"new_appointment_date\":{\"type\": \"str\", \"description\": \"The new appointment date. Format: %Y-%m-%d.\"}, \"new_appointment_doctor\":{\"type\": \"str\", \"description\": \"The new appointment doctor.\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"90123456\",\"new_appointment_date\":\"2023-10\",\"new_appointment_doctor\":\"Dr. Johnson\"}}"
     },
     {
         "id": 172,
@@ -8275,7 +8275,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AddAlarm\",\"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"User's token\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"8\", \"key2\":\"00:00:00\"}}"
     },
     {
         "id": 155,
@@ -8351,7 +8351,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"12345678\",\"key2\":\"2023-05-15\",\"key3\":\"Dr. Lee\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"2023-05-15\"}}"
     },
     {
         "id": 378,
@@ -8471,7 +8471,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyReminder\",\"parameters\":{\"key1\":\"admin\",\"key2\":\"adminpass\"}}"
+        "generated_output": "```json\n{\"api_name\":\"ModifyReminder\",\n      \"parameters\":{\"content\":\"Pay utility bills\", \"time\":\"2023-03-20 12:00:00\"}}\n```"
     },
     {
         "id": 465,
@@ -8513,7 +8513,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"blood pressure\",\"key2\":\"systolic\",\"key3\":\"heart rate\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"blood pressure and heart rate data\"}}"
     },
     {
         "id": 55,
@@ -8622,7 +8622,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"User's utterence\",\"key2\":\"Fever\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"John\",\"key2\":\"2023-09-03\"}}"
     },
     {
         "id": 105,
@@ -8757,7 +8757,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"JohnDoe\",\"key2\":\"pass123\"}}\n"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"JohnDoe\",\"key2\":\"pass123\"}}\n```"
     },
     {
         "id": 72,
@@ -8940,7 +8940,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"1234\",\"key2\":\"2023-04-03 10:00:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"80\"}]}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"1234\",\"key2\":\"2023-04-03 10:00:00\"}}"
     },
     {
         "id": 33,
@@ -9056,7 +9056,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-08-06 09:00:00\",\"health_data\": [{\"name\":\"blood_pressure\", \"value\":\"120\",\"unit\":\"/\",\"description\": \"blood_pressure\"}, {\"name\":\"heart_rate\", \"value\":\"80\",\"unit\":\"/\",\"description\": \"heart_rate\"}]}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"78901234\",\"key2\":\"August 5th, 2023\"}}\n```"
     },
     {
         "id": 94,
@@ -9143,7 +9143,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"October 26th, 9am, Coffee Shop on Main Street\",\"time\":\"2023-10-26 09:00:00\",\"location\":\"Main Street, Coffee Shop\"}}"
+        "generated_output": "```json\n{\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"October 26th, 2023 9am\",\"time\":\"2023-10-26 09:00:00\",\"location\":\"Main Street\"}}\n```"
     },
     {
         "id": 49,
@@ -9496,7 +9496,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\"}}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"p9o8i7u6y5t4k3e2w1q\",\"key2\":\"Submit report\",\"key3\":\"2023-03-17 09:00:00\"}}\n```"
     },
     {
         "id": 206,
@@ -9579,7 +9579,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ModifyAlarm\",\"parameters\":{\"key1\":\"2023-03-24 10:30:00\",\"key2\":\"2023-03-24 09:00:00\"}}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ModifyAlarm\",\n      \"parameters\":{\"key1\":\"2023-03-24 10:30:00\", \"key2\":\"2023-03-24 09:00:00\"}}\n```"
     },
     {
         "id": 350,
@@ -9736,7 +9736,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"ApiName\",\n  \"parameters\": {\n    \"key1\": \"p9o8i7u6y5t4k3e2w1q\",\n    \"key2\": \"testpass\"\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"p9o8i7u6y5t4k3e2w1q\",\"key2\":\"Submit report\",\"key3\":\"2023-03-17 09:00:00\"}}\n```"
     },
     {
         "id": 148,
@@ -9789,7 +9789,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\": \"90123456\", \"new_appointment_date\": \"October 12th\", \"new_appointment_doctor\": \"Dr. Lee\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"90123456\",\"new_appointment_date\":\"2023-10-12\",\"new_appointment_doctor\":\"Dr. Lee\"}}"
     },
     {
         "id": 288,
@@ -10070,7 +10070,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\n  \"api_name\": \"ApiName\",\n  \"parameters\": {\n    \"key1\": \"p9o8i7u6y5t4k3e2w1q\",\n    \"key2\": \"true\"\n  }\n}\n```"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"p9o8i7u6y5t4k3e2w1q\",\"key2\":\"Submit report\"}}\n```"
     },
     {
         "id": 176,
@@ -10180,7 +10180,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\": \"shortness of breath\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\": \"Shortness of breath\"}}"
     },
     {
         "id": 514,
@@ -10222,7 +10222,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"hotel booking\",\"key2\":\"October 5th - October 7th\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"October 5th\",\"key2\":\"2023-10-05\",\"key3\":\"October 7th\",\"key4\":\"2023-10-07\"}}"
     },
     {
         "id": 135,
@@ -10338,7 +10338,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"123456\",\"time\":\"2023-07-15 09:00:00\",\"health_data\": [{\"name\":\"blood_pressure\", \"value\": \"120\"}, {\"name\":\"heart_rate\", \"value\": \"80\"}]}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"78901234\",\"key2\":\"Sarah Johnson\"}}\n```"
     },
     {
         "id": 150,
@@ -10449,7 +10449,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":{\"type\":\"str\", \"description\":\"The account for the user.\"}, \"password\":{\"type\":\"str\", \"description\":\"The password.\"}, \"name\":{\"type\":\"str\", \"description\":\"account holder name.\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}"
     },
     {
         "id": 335,
@@ -10496,7 +10496,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"Olivia Davis\",\"date\":\"2023-10-10\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"QueryRegistration\",\"parameters\":{\"key1\":\"Olivia Davis\", \"key2\":\"October 10th, 2023\"}}"
     },
     {
         "id": 484,
@@ -10538,7 +10538,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"Marketing Campaign Planning\",\"key2\":\"March 22nd at 9am\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"Marketing Campaign Planning\",\"key2\":\"March 22nd at 9am in the Marketing Department\"}}"
     },
     {
         "id": 2,
@@ -10720,7 +10720,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAccount\",\"parameters\":{\"key1\":\"n9m8k7j6h5g4f3d2s1a0\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DeleteAccount\",\"parameters\":{\"key1\":\"user1\",\"key2\":\"user1pass\"}}"
     },
     {
         "id": 149,
@@ -10830,7 +10830,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"testuser\",\"key2\":\"testpass\"}}\n"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"user_name\",\"key2\":\"user_password\"}}"
     },
     {
         "id": 344,
@@ -10917,7 +10917,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\": {\"type\": \"str\", \"description\": \"The ID of user.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time of health data. Format: %Y-%m-%d %H:%M:%S\"}, \"health_data\": {\"type\": \"list\", \"description\": \"The health data, with the format like [{'name': 'blood_pressure', 'value': '120/80'}, {'name': 'heart_rate', 'value': '80'}]\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"The status of recording.\"}}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n```"
     },
     {
         "id": 41,
@@ -10998,7 +10998,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\",\"parameters\":{\"token\": \"n9m8k7j6h5g4f3d2s1a0\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\", \"parameters\":{\"token\": \"n9m8k7j6h5g4f3d2s1a0\"}}"
     },
     {
         "id": 180,
@@ -11050,7 +11050,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"john@example.com\",\"password\":\"abc123\",\"name\":\"John Smith\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"key1\":\"john@example.com\",\"key2\":\"abc123\"}}"
     },
     {
         "id": 231,
@@ -11102,7 +11102,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"RegisterUser\",\"parameters\":{\"username\":\"user123\",\"password\":\"pass123\",\"email\":\"user123@example.com\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"RegisterUser\",\"parameters\":{\"key1\":\"user123\",\"key2\":\"pass123\",\"key3\":\"user123@example.com\"}}"
     },
     {
         "id": 319,
@@ -11187,7 +11187,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAgenda\",\"parameters\":{\"token\":\"newuser\",\"content\":\"March 21st\",\"time\":\"2023-03-21 12:00:00\",\"location\":\"Cleaners\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DeleteAgenda\",\"parameters\":{\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}}}"
     },
     {
         "id": 293,
@@ -11316,7 +11316,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryReminder\",\"parameters\":{\"token\":\"2023-03-16T14:30:00\"} }"
+        "generated_output": "API-Request: {\"api_name\":\"QueryReminder\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\"}}"
     },
     {
         "id": 496,
@@ -11358,7 +11358,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"March 17th\",\"key2\":\"2 PM\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"March 17th\",\"key2\":\"2:00 PM\"}}"
     },
     {
         "id": 19,
@@ -11541,7 +11541,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}}, \"output_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}}"
     },
     {
         "id": 286,
@@ -11717,7 +11717,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteReminder\",\"parameters\":{\"key1\":\"user4\",\"key2\":\"user4pass\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"DeleteReminder\",\"parameters\":{\"key1\":\"March 16th at 4:30 pm\"}}"
     },
     {
         "id": 174,
@@ -11936,7 +11936,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"NFLX\",\"date\":\"2023-02-23\"}}"
+        "generated_output": "```json\n{\"api_name\": \"OpenBankAccount\",\n      \"parameters\": {\n        \"account\": {\n          \"type\": \"str\",\n          \"description\": \"The account for the user.\"\n        },\n        \"password\": {\n          \"type\": \"str\",\n          \"description\": \"The password.\"\n        },\n        \"name\": {\n          \"type\": \"str\",\n          \"description\": \"account holder name.\"\n        }\n      }\n    }\n```"
     },
     {
         "id": 127,
@@ -11970,7 +11970,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetToday\", \"parameters\":{\"date\":\"2023-08-21\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"GetToday\", \"parameters\":{\"date\": {\"type\": \"str\", \"description\": \"The current date. Format: %Y-%m-%d\"}}}"
     },
     {
         "id": 201,
@@ -12085,7 +12085,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"12345\",\"key2\":\"2023-11-12 10:30:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"80\"}]}}"
+        "generated_output": "```json\n{\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"Mary\",\"key2\":\"Dr. Lee\"}}\n```"
     },
     {
         "id": 232,
@@ -12127,7 +12127,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\": {\"type\": \"str\", \"description\": \"The date of the history. Format: %m-%d\"}}}"
+        "generated_output": "API-Request: {\"api_name\":\"QueryHistoryToday\", \"parameters\":{\"date\": {\"type\": \"str\", \"description\": \"The date of the history. Format: %m-%d\"}}}"
     },
     {
         "id": 136,
@@ -12233,7 +12233,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"123456\",\"date\":\"2023-07-15 09:00:00\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"78901234\"}}"
     },
     {
         "id": 420,
@@ -12275,7 +12275,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"appointment_id\",\"key2\":\"34567890\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"key1\":\"appointment ID 34567890\",\"key2\":\"March 28th, 2023\"}}"
     },
     {
         "id": 199,
@@ -12328,6 +12328,6 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"90123456\",\"new_appointment_date\":\"2023-10-15\",\"new_appointment_doctor\":\"Dr. Brown\"}}"
+        "generated_output": "API-Request: {\"api_name\":\"ModifyRegistration\",\"parameters\":{\"key1\":\"90123456\",\"key2\":\"October 15th\",\"key3\":\"Dr. Brown\"}}"
     }
 ]

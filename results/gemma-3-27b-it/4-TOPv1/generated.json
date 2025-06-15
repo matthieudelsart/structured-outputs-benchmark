@@ -6,7 +6,7 @@
             "intent": "UNSUPPORTED_NAVIGATION",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"photo radar cameras\",\n    \"SEARCH_RADIUS\": \"10 mile\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {\n        \"LOCATION_CURRENT\": \"my house\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"photo radar cameras\",\n    \"SEARCH_RADIUS\": \"10 mile\",\n    \"LOCATION_USER\": \"my house\"\n  }\n}\n```"
     },
     {
         "id": 8303,
@@ -37,7 +37,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Bon Iver concerts\",\n    \"DATE_TIME\": \"this weekend\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"me\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Bon Iver concerts\",\n    \"DATE_TIME\": \"this weekend\",\n    \"LOCATION_USER\": \"me\"\n  }\n}\n```"
     },
     {
         "id": 150,
@@ -91,7 +91,7 @@
             "intent": "UNSUPPORTED_NAVIGATION",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Niagara Falls, ON\",\n    \"DATE_TIME\": \"time of day\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Niagara Falls\",\n    \"LOCATION_MODIFIER\": \"ON\",\n    \"DATE_TIME\": \"time of day\"\n  }\n}\n```"
     },
     {
         "id": 2996,
@@ -113,7 +113,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"the zoo\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"the zoo\"\n      }\n    }\n  }\n}\n```"
     },
     {
         "id": 7764,
@@ -136,7 +136,7 @@
                 "DATE_TIME": "for this weekend"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Chocolate Tours\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Chocolate Tours\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}\n```"
     },
     {
         "id": 3773,
@@ -160,7 +160,7 @@
                 "OBSTRUCTION_AVOID": "traffic"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION_WORK\",\n      \"slots\": {}\n    },\n    \"OBSTRUCTION_AVOID\": \"traffic\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION_WORK\"\n    },\n    \"OBSTRUCTION_AVOID\": \"traffic\"\n  }\n}\n```"
     },
     {
         "id": 7213,
@@ -176,7 +176,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Torie's\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_CONTACT\",\n      \"slots\": {\n        \"CONTACT_RELATED\": \"Torie\",\n        \"TYPE_RELATION\": null\n      }\n    }\n  }\n}\n```"
     },
     {
         "id": 4569,
@@ -285,7 +285,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {}\n    },\n    \"SEARCH_RADIUS\": \"20 miles\",\n    \"OBSTRUCTION\": \"accidents\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SEARCH_RADIUS\": \"20 miles\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {\n        \"LOCATION_CURRENT\": true\n      }\n    },\n    \"OBSTRUCTION\": \"accidents\"\n  }\n}\n```"
     },
     {
         "id": 4866,
@@ -358,7 +358,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"Canada\"\n      }\n    },\n    \"SOURCE\": \"here\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"Canada\"\n      }\n    },\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_CURRENT\": true\n      }\n    }\n  }\n}\n```"
     },
     {
         "id": 2139,
@@ -389,7 +389,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"lax\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"lax\",\n    \"OBSTRUCTION\": \"heavy traffic\"\n  }\n}\n```"
     },
     {
         "id": 5171,
@@ -445,7 +445,7 @@
                 "DATE_TIME_DEPARTURE": "right now"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_EVENT\",\n      \"slots\": {\n        \"NAME_EVENT\": \"Joseph's play\"\n      }\n    },\n    \"DATE_TIME_DEPARTURE\": \"right now\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Joseph's play\"\n      }\n    },\n    \"DATE_TIME_DEPARTURE\": \"right now\"\n  }\n}\n```"
     },
     {
         "id": 742,
@@ -457,7 +457,7 @@
                 "DATE_TIME": "tomorrow"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Boston\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"Boston\"\n      }\n    },\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}\n```"
     },
     {
         "id": 4234,
@@ -494,7 +494,7 @@
                 "ROAD_CONDITION": "heavy rain"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Brasilia\"\n      }\n    },\n    \"ROAD_CONDITION\": \"heavy rain\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Brasilia\"\n      }\n    },\n    \"ROAD_CONDITION\": \"heavy rain\",\n    \"METHOD_TRAVEL\": \"travel\"\n  }\n}\n```"
     },
     {
         "id": 1877,
@@ -540,7 +540,7 @@
             "intent": "UNSUPPORTED",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_LOCATION\",\n  \"slots\": {\n    \"CATEGORY_LOCATION\": \"wine bar\",\n    \"LOCATION\": \"San Diego\",\n    \"LOCATION_MODIFIER\": \"kid friendly\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_LOCATION\",\n  \"slots\": {\n    \"CATEGORY_LOCATION\": \"wine bars\",\n    \"LOCATION\": \"San Diego\",\n    \"LOCATION_MODIFIER\": \"kid friendly\"\n  }\n}\n```"
     },
     {
         "id": 8954,
@@ -583,7 +583,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_SCHOOL\",\n      \"slots\": {}\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_SCHOOL\"\n    }\n  }\n}\n```"
     },
     {
         "id": 6220,
@@ -613,7 +613,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"church\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"church\"\n      }\n    }\n  }\n}\n```"
     },
     {
         "id": 6820,
@@ -652,7 +652,7 @@
                 "PATH": "I - 490"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Penfield\"\n      }\n    },\n    \"PATH\": \"I-490\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Penfield\",\n    \"PATH\": \"I-490\",\n    \"METHOD_TRAVEL\": \"driving\"\n  }\n}\n```"
     },
     {
         "id": 5557,
@@ -708,7 +708,7 @@
                 ]
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"renaissance festival\",\n    \"ATTRIBUTE_EVENT\": \"admission rates\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {}\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"renaissance festival\",\n    \"ATTRIBUTE_EVENT\": \"admission rates\",\n    \"CATEGORY_EVENT\": \"festival\"\n  }\n}\n```"
     },
     {
         "id": 5296,
@@ -736,7 +736,7 @@
                 "DATE_TIME": "this weekend"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"tree lighting ceremony\",\n    \"LOCATION\": \"here\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"tree lighting ceremonies\",\n    \"LOCATION\": \"here\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}\n```"
     },
     {
         "id": 572,
@@ -749,7 +749,7 @@
                 "DATE_TIME": "halloween"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"parties\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"NYC\"\n      }\n    },\n    \"DATE_TIME\": \"halloween\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"parties\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"NYC\"\n      }\n    },\n    \"DATE_TIME\": \"halloween\"\n  }\n}\n```"
     },
     {
         "id": 3162,
@@ -809,7 +809,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Bruno Mars\",\n    \"CATEGORY_EVENT\": \"Concerts\",\n    \"DATE_TIME\": \"during the next few months\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"where I live\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Bruno Mars\",\n    \"CATEGORY_EVENT\": \"concerts\",\n    \"DATE_TIME\": \"during the next few months\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"where I live\"\n      }\n    }\n  }\n}\n```"
     },
     {
         "id": 1547,
@@ -830,7 +830,7 @@
             "intent": "UNSUPPORTED_NAVIGATION",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"lane closure\",\n    \"PATH\": \"hwy 280\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"lanes closed\",\n    \"PATH\": \"hwy 280\"\n  }\n}\n```"
     },
     {
         "id": 2559,
@@ -860,7 +860,7 @@
                 "DATE_TIME_ARRIVAL": "before noon"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"noon\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_EVENT\",\n      \"slots\": {\n        \"NAME_EVENT\": \"rally\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"noon\"\n  }\n}\n```"
     },
     {
         "id": 5959,
@@ -883,7 +883,7 @@
                 "DATE_TIME_ARRIVAL": "before 12 pm"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"12 pm\",\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"Dad's office\"\n      }\n    },\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"kinder field\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"12 pm\",\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"Dad's office\"\n      }\n    },\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"kinder field\"\n      }\n    }\n  }\n}\n```"
     },
     {
         "id": 1924,
@@ -907,7 +907,7 @@
                 "DATE_TIME_ARRIVAL": "before 2PM"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": \"San Diego\",\n    \"DATE_TIME_ARRIVAL\": \"2PM\",\n    \"OBSTRUCTION_AVOID\": \"traffic\",\n    \"METHOD_TRAVEL\": \"quickest\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"2PM\",\n    \"OBSTRUCTION_AVOID\": \"traffic\",\n    \"DESTINATION\": \"San Diego\"\n  }\n}\n```"
     },
     {
         "id": 4772,
@@ -999,7 +999,7 @@
                 "DATE_TIME_DEPARTURE": "at night"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": \"Brookings\",\n    \"PATH\": \"shortest\",\n    \"OBSTRUCTION_AVOID\": \"delays\",\n    \"DATE_TIME_ARRIVAL\": \"night\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": \"Brookings\",\n    \"PATH_AVOID\": \"delays\",\n    \"DATE_TIME_ARRIVAL\": \"night\"\n  }\n}\n```"
     },
     {
         "id": 8250,
@@ -1035,7 +1035,7 @@
                 "DATE_TIME": "this next week after 8 pm"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Raves\",\n    \"DATE_TIME\": {\n      \"intent\": \"GET_EVENT\",\n      \"slots\": {\n        \"DATE_TIME\": \"this next week after 8pm\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Raves\",\n    \"DATE_TIME\": \"this next week after 8pm\"\n  }\n}\n```"
     },
     {
         "id": 432,
@@ -1177,7 +1177,7 @@
                 "DATE_TIME": "next week"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Concerts\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Municipal Auditorium\",\n        \"LOCATION_MODIFIER\": \"in Mobile\"\n      }\n    },\n    \"DATE_TIME\": \"next week\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"concerts\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Municipal Auditorium\",\n        \"LOCATION_MODIFIER\": \"in Mobile\"\n      }\n    },\n    \"DATE_TIME\": \"next week\"\n  }\n}\n```"
     },
     {
         "id": 2631,
@@ -1190,7 +1190,7 @@
                 "DATE_TIME": "tomorrow"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"tours\",\n    \"LOCATION\": \"New York\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"tours\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"New York\"\n      }\n    },\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}\n```"
     },
     {
         "id": 2303,
@@ -1242,7 +1242,7 @@
             "intent": "UNSUPPORTED_NAVIGATION",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DESTINATION\": \"Dinner\",\n    \"PATH_AVOID\": \"the highway\",\n    \"PATH\": \"south of the district\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"PATH_AVOID\": \"the highway\",\n    \"PATH\": \"south of the district\"\n  }\n}\n```"
     },
     {
         "id": 2583,
@@ -1382,7 +1382,7 @@
                 "DESTINATION": "Alabama"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Alabama\"\n      }\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": \"Alabama\"\n  }\n}\n```"
     },
     {
         "id": 272,
@@ -1391,7 +1391,7 @@
             "intent": "UNSUPPORTED",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"UNSUPPORTED\"\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"NEGATION\"\n}\n```"
     },
     {
         "id": 2978,
@@ -1400,7 +1400,7 @@
             "intent": "GET_INFO_TRAFFIC",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {}\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\"\n}\n```"
     },
     {
         "id": 2712,
@@ -1508,7 +1508,7 @@
                 "LOCATION": "new orleans"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"christmas market\",\n    \"LOCATION\": \"new orleans\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"christmas markets\",\n    \"LOCATION\": \"new orleans\"\n  }\n}\n```"
     },
     {
         "id": 2007,
@@ -1517,7 +1517,7 @@
             "intent": "UNSUPPORTED_EVENT",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"spa appointments\",\n    \"DATE_TIME\": \"tomorrow\",\n    \"LOCATION\": \"Philadelphia\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"spa appointments\",\n    \"DATE_TIME\": \"tomorrow\",\n    \"LOCATION\": \"near Philadelphia\"\n  }\n}\n```"
     },
     {
         "id": 4989,
@@ -1545,7 +1545,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"mom's new house\",\n        \"LOCATION_MODIFIER\": \"in Manchester, New Hampshire\"\n      }\n    },\n    \"METHOD_TRAVEL\": \"driving\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"new house\",\n        \"LOCATION_MODIFIER\": \"in Manchester, New Hampshire\"\n      }\n    },\n    \"CONTACT_RELATED\": \"mom\"\n  }\n}\n```"
     },
     {
         "id": 3958,
@@ -1565,7 +1565,7 @@
                 "ATTRIBUTE_EVENT": "under 21"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"under 21 events\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"ORDINAL\": \"under 21\",\n    \"CATEGORY_EVENT\": \"events\"\n  }\n}\n```"
     },
     {
         "id": 8663,
@@ -1616,7 +1616,7 @@
                 "PATH": "I - 71"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Columbus\"\n      }\n    },\n    \"PATH\": \"I-71\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Columbus\"\n      }\n    },\n    \"METHOD_TRAVEL\": \"driving\",\n    \"PATH\": \"I-71\"\n  }\n}\n```"
     },
     {
         "id": 2607,
@@ -1629,7 +1629,7 @@
                 "DATE_TIME": "tomorrow"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"beer festival\",\n    \"LOCATION\": \"Orlando\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"beer festivals\",\n    \"LOCATION\": \"Orlando\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}\n```"
     },
     {
         "id": 836,
@@ -1642,7 +1642,7 @@
                 "DATE_TIME": "next month"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"music festival\",\n    \"LOCATION\": \"Denver\",\n    \"DATE_TIME\": \"next month\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"music festivals\",\n    \"LOCATION\": \"Denver\",\n    \"DATE_TIME\": \"next month\"\n  }\n}\n```"
     },
     {
         "id": 3565,
@@ -1730,7 +1730,7 @@
                 "PATH": "I - 5"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Mountain View\",\n        \"LOCATION\": \"California\"\n      }\n    },\n    \"METHOD_TRAVEL\": \"I-5\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Mountain View\",\n        \"LOCATION\": \"California\"\n      }\n    },\n    \"METHOD_TRAVEL\": \"driving\",\n    \"PATH\": \"I-5\"\n  }\n}\n```"
     },
     {
         "id": 161,
@@ -1808,7 +1808,7 @@
                 }
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_WORK\",\n      \"slots\": {}\n    }\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"drive\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_WORK\"\n    }\n  }\n}\n```"
     },
     {
         "id": 1981,
@@ -1826,7 +1826,7 @@
                 "DATE_TIME": "this weekend"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"movies\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"the Esquire\"\n      }\n    },\n    \"DATE_TIME\": \"this weekend\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"movies\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Esquire\"\n      }\n    },\n    \"DATE_TIME\": \"this weekend\"\n  }\n}\n```"
     },
     {
         "id": 8742,
@@ -1870,7 +1870,7 @@
             "intent": "UNSUPPORTED_NAVIGATION",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DATE_TIME_DEPARTURE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"grandmother's house\"\n      }\n    },\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Macy's\"\n      }\n    },\n    \"DATE_TIME\": \"this evening\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Macy's\"\n      }\n    },\n    \"DATE_TIME_DEPARTURE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_CURRENT\": \"grandmother's house\"\n      }\n    },\n    \"DATE_TIME\": \"this evening\"\n  }\n}\n```"
     },
     {
         "id": 7607,
@@ -1887,7 +1887,7 @@
                 "DESTINATION": "grove city"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": \"grove city\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"back ups\",\n    \"DESTINATION\": \"grove city\",\n    \"LOCATION\": \"here\"\n  }\n}\n```"
     },
     {
         "id": 2534,
@@ -1917,7 +1917,7 @@
             "intent": "UPDATE_DIRECTIONS",
             "slots": {}
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"WAYPOINT\": \"new waypoint\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"UNSUPPORTED_NAVIGATION\"\n}\n```"
     },
     {
         "id": 4997,
@@ -1928,7 +1928,7 @@
                 "DATE_TIME": "right now"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"accidents\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": \"right now\"\n  }\n}\n```"
     },
     {
         "id": 3236,
@@ -2004,7 +2004,7 @@
                 "DATE_TIME": "today"
             }
         },
-        "generated_output": "```json\n{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"Seattle\"\n      }\n    },\n    \"DATE_TIME\": \"today\"\n  }\n}\n```"
+        "generated_output": "```json\n{\n  \"intent\": \"GET_LOCATION\",\n  \"slots\": {\n    \"LOCATION\": \"Seattle\",\n    \"DATE_TIME\": \"today\"\n  }\n}\n```"
     },
     {
         "id": 8358,

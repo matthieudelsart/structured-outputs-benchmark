@@ -15,7 +15,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"303rd Military Intelligence Battalion\", \"Longhorns\", \"Division\", \"Corps\", \"Joint Task Force\"],\n  \"other\": [\"worldwide contingency missions\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"worldwide contingency missions\"],\n  \"location\": null,\n  \"organization\": [\"303rd Military Intelligence Battalion\", \"Longhorns\", \"Division\", \"Corps\", \"Joint Task Force\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 29924,
@@ -476,7 +476,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Chakdaha\", \"Nadia district\", \"West Bengal\"],\n  \"organization\": null,\n  \"other\": [\"25 November 1982\"],\n  \"person\": [\"Goswami\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Chakdaha\", \"Nadia district\", \"West Bengal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Goswami\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 29409,
@@ -733,7 +733,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Adelaide\"],\n  \"organization\": null,\n  \"other\": [\"Paramedic\", \"Intensive Care Paramedic\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Adelaide\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 22371,
@@ -790,7 +790,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"baseball\", \"football\", \"basketball\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"baseball\", \"football\", \"basketball\"]\n}\n```"
     },
     {
         "id": 25632,
@@ -930,7 +930,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"purple alert\"],\n  \"location\": [\"Guatemala\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Guatemala\"],\n  \"organization\": null,\n  \"other\": [\"purple alert\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 10823,
@@ -952,7 +952,7 @@
                 "Jeopardy"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Jeopardy\"],\n  \"building\": null,\n  \"event\": [\"Jeopardy\"],\n  \"location\": null,\n  \"organization\": [\"Watson\"],\n  \"other\": null,\n  \"person\": [\"Rennie\"],\n  \"product\": [\"RAM\", \"hard drives\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Jeopardy\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"RAM\"],\n  \"person\": [\"Rennie\"],\n  \"product\": [\"Watson\", \"hard drives\"]\n}\n```"
     },
     {
         "id": 31679,
@@ -1053,7 +1053,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Sunset Boulevard\"],\n  \"event\": null,\n  \"location\": [\"Hollywood\", \"America\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Saul Bass\", \"Lloyd Northover\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"studio\"],\n  \"event\": null,\n  \"location\": [\"Hollywood\", \"America\"],\n  \"organization\": null,\n  \"other\": [\"West Coast\"],\n  \"person\": [\"Saul Bass\", \"Lloyd Northover\"],\n  \"product\": [\"Sunset Boulevard\"]\n}\n```"
     },
     {
         "id": 29350,
@@ -1415,7 +1415,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Daily News Live\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Philadelphia\"],\n  \"organization\": [\"AT & amp ; T\", \"Comcast SportsNet\", \"NBC Sports Philadelphia\"],\n  \"other\": [\"ET\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Daily News Live\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Philadelphia\"],\n  \"organization\": [\"AT & amp ; T\", \"Comcast SportsNet\", \"NBC Sports Philadelphia\"],\n  \"other\": [\"5:00PM\", \"6:00PM\", \"ET\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 30130,
@@ -1652,7 +1652,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Princess Royal\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"music\", \"dance\", \"bawdiness\"],\n  \"person\": null,\n  \"product\": [\"songs\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Princess Royal\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"music\", \"songs\", \"dance\", \"bawdiness\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 37060,
@@ -1716,7 +1716,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Victoria Junior School\", \"Westfield Boys School\", \"Sir Christopher Hatton School\"],\n  \"event\": null,\n  \"location\": [\"Wellingborough\", \"Northamptonshire\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Victoria Junior School\", \"Westfield Boys School\", \"Sir Christopher Hatton School\"],\n  \"event\": null,\n  \"location\": [\"Wellingborough\", \"Northamptonshire\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"He\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 27633,
@@ -1781,7 +1781,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Selective Training and Service Act of 1940\"],\n  \"location\": [\"US\"],\n  \"organization\": [\"National Guard\"],\n  \"other\": [\"Federal Service\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"US\"],\n  \"organization\": [\"National Guard\"],\n  \"other\": [\"Selective Training and Service Act of 1940\", \"Federal Service\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 4575,
@@ -2006,6 +2006,6 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"summer of 2006\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"GRAB\", \"Mike & amp ; the Italians\"],\n  \"person\": [\"Trey Anastasio\", \"Mike Gordon\", \"Marco Benevento\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"summer of 2006\"],\n  \"location\": null,\n  \"organization\": [\"GRAB\", \"Mike & amp ; the Italians\"],\n  \"other\": null,\n  \"person\": [\"Trey Anastasio\", \"Mike Gordon\", \"Marco Benevento\"],\n  \"product\": null\n}\n```"
     }
 ]

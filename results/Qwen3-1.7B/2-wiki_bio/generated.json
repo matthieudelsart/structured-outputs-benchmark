@@ -1,0 +1,979 @@
+[
+    {
+        "id": 32710,
+        "input": "robert w. `` bob'' doll (august 10, 1919 -- september 18, 1959) was an american professional basketball player who played in the early days of professional basketball for the st. louis bombers and boston celtics during the early years of the nba. doll starred at chaffey high school in ontario, california and played collegiately at the university of colorado from 1939 to 1942, leading the buffaloes to a period of great team success. a post player, `` ichabod'' doll was known as a voracious rebounder and defender with a soft shooting touch. in his first season of eligibility as a sophomore in 1940, doll led the buffaloes to bids in both the ncaa tournament and nit. while the ncaa tournament appearance lasted only one game, doll led the buffs to the nit title and was named the tournament most valuable player after averaging 15.5 points per game. two years later, doll was named a consensus second team all-american and led colorado to its first final four. following the close of his collegiate career, doll played for several years in the amateur athletic union and was named an aau all-american in 1943 while playing for the denver american legion team. in 1946, doll joined the st. louis bombers of the basketball association of america (baa). after two years with the bombers, doll joined the boston celtics as a free agent. during his two-year stint with the celtics, the baa merged with the national basketball league to form the national basketball association. doll played for one more year with the celtics in the inaugural nba campaign. bob doll averaged 8.4 points and 1.4 assists per game for his four-year baa/nba career. doll died on september 18, 1959 at the age of 40, of an apparent suicide.",
+        "output": {
+            "career_end": "1950",
+            "statlabel": "points rebounds assists",
+            "college": "colorado (1939 -- 1942)",
+            "number": "519",
+            "years": "1946 -- 1948 1948 -- 1950",
+            "name": "bob doll",
+            "height_in": "5",
+            "weight_lbs": "195",
+            "birth_date": "1919-08-10",
+            "statvalue": "1,653 not tracked 273",
+            "bbr": "dollbo01",
+            "height_ft": "6",
+            "highschool": "chaffey (ontario, california)",
+            "birth_place": "steamboat springs, colorado",
+            "career_start": "1946",
+            "article_title": "bob doll",
+            "position": "forward / center",
+            "team": "st. louis bombers boston celtics",
+            "death_date": "1959-09-13"
+        },
+        "keys": [
+            "article_title",
+            "bbr",
+            "birth_date",
+            "birth_place",
+            "career_end",
+            "career_start",
+            "college",
+            "death_date",
+            "height_ft",
+            "height_in",
+            "highschool",
+            "name",
+            "number",
+            "position",
+            "statlabel",
+            "statvalue",
+            "team",
+            "weight_lbs",
+            "years"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "bbr",
+                "birth_date",
+                "birth_place",
+                "career_end",
+                "career_start",
+                "college",
+                "death_date",
+                "height_ft",
+                "height_in",
+                "highschool",
+                "name",
+                "number",
+                "position",
+                "statlabel",
+                "statvalue",
+                "team",
+                "weight_lbs",
+                "years"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "bbr": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "career_end": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "career_start": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "college": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "height_ft": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "height_in": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "highschool": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "number": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "position": {
+                    "type": "string"
+                },
+                "statlabel": {
+                    "type": "string"
+                },
+                "statvalue": {
+                    "type": "string"
+                },
+                "team": {
+                    "type": "string"
+                },
+                "weight_lbs": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "years": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"robert w. bob doll\",\n    \"bbr\": \"robert w. bob doll\",\n    \"birth_date\": \"1919-08-10\",\n    \"birth_place\": \"ontario, california\",\n    \"career_end\": \"1959-09-18\",\n    \"career_start\": \"1940\",\n    \"college\": \"university of colorado\",\n    \"death_date\": \"1959-09-18\",\n    \"height_ft\": \"6\",\n    \"height_in\": \"4\",\n    \"highschool\": \"chaffey high school\",\n    \"name\": \"bob doll\",\n    \"number\": \"\",\n    \"position\": \"post player\",\n    \"statlabel\": \"points per game\",\n    \"statvalue\": \"8.4\",\n    \"team\": \"st. louis bombers\",\n    \"weight_lbs\": \"\",\n    \"years\": \"1940-1959\"\n}\n```"
+    },
+    {
+        "id": 53161,
+        "input": "william frishe dean, sr. (august 1, 1899august 24, 1981) was a united states army major general during world war ii and the korean war. he received the medal of honor for his actions on july 20 and 21, 1950, during the battle of taejon in south korea. dean was also the highest ranking american officer captured by the north koreans during the korean war. born in illinois, dean attended the university of california at berkeley before graduating with a commission in the us army through the reserve officer's training corps (rotc) in 1921. slowly rising up the ranks in the inter-war years, dean worked a desk job in washington d.c. for much of world war ii before being transferred to the 44th infantry division which he later commanded during the final days of the war, and was awarded a distinguished service cross. dean is known for commanding the 24th infantry division at the outbreak of the korean war. dean led the division for several weeks in unsuccessful delaying battles against the north koreans, before he led his division in making a last stand at taejon. during the confused retreat from that city, dean was separated from his soldiers and badly injured, and was eventually captured by the north koreans. he remained in north korean custody near p'yongyang for the remainder of the war. after the end of the conflict, dean returned to the united states to a hero's welcome. he retired from the army soon after and lived a quiet life until his death.",
+        "output": {
+            "awards": "medal legion of merit bronze star of honor distinguished service cross distinguished service medal",
+            "commands": "44th infantry division 7th infantry division 24th infantry division",
+            "battles": "world war ii korean war",
+            "article_title": "william f. dean",
+            "allegiance": "united states of america 1912",
+            "serviceyears": "19211955",
+            "birth_name": "william frishe dean",
+            "death_place": "san francisco, california, u.s.",
+            "branch": "usa",
+            "birth_place": "carlyle, illinois, u.s.",
+            "death_date": "1981-08-24",
+            "placeofburial": "san u.s. francisco national cemetery san francisco, california,",
+            "birth_date": "1899-08"
+        },
+        "keys": [
+            "allegiance",
+            "article_title",
+            "awards",
+            "battles",
+            "birth_date",
+            "birth_name",
+            "birth_place",
+            "branch",
+            "commands",
+            "death_date",
+            "death_place",
+            "placeofburial",
+            "serviceyears"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "allegiance",
+                "article_title",
+                "awards",
+                "battles",
+                "birth_date",
+                "birth_name",
+                "birth_place",
+                "branch",
+                "commands",
+                "death_date",
+                "death_place",
+                "placeofburial",
+                "serviceyears"
+            ],
+            "properties": {
+                "allegiance": {
+                    "type": "string"
+                },
+                "article_title": {
+                    "type": "string"
+                },
+                "awards": {
+                    "type": "string"
+                },
+                "battles": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_name": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "branch": {
+                    "type": "string"
+                },
+                "commands": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_place": {
+                    "type": "string"
+                },
+                "placeofburial": {
+                    "type": "string"
+                },
+                "serviceyears": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"William Friesen, Sr.\",\n    \"allegiance\": \"United States\",\n    \"awards\": \"Medal of Honor\",\n    \"battles\": \"Battle of Taejon\",\n    \"birth_date\": \"1899-08-01\",\n    \"birth_name\": \"William Friesen\",\n    \"birth_place\": \"Illinois\",\n    \"branch\": \"United States Army\",\n    \"commands\": \"44th Infantry Division, 24th Infantry Division\",\n    \"death_date\": \"1981-08-24\",\n    \"death_place\": \"\",\n    \"placeofburial\": \"\",\n    \"serviceyears\": \"1921\u20131981\"\n}\n```"
+    },
+    {
+        "id": 7801,
+        "input": "pierre-augustin caron de beaumarchais (; 24 january 1732 -- 18 may 1799) was a french playwright, watchmaker, inventor, musician, diplomat, fugitive, spy, publisher, horticulturalist, arms dealer, satirist, financier, and revolutionary (both french and american). born a provincial watchmaker's son, beaumarchais rose in french society and became influential in the court of louis xv as an inventor and music teacher. he made a number of important business and social contacts, played various roles as a diplomat and spy, and had earned a considerable fortune before a series of costly court battles jeopardized his reputation. an early french supporter of american independence, beaumarchais lobbied the french government on behalf of the american rebels during the american war of independence. beaumarchais oversaw covert aid from the french and spanish governments to supply arms and financial assistance to the rebels in the years before france's formal entry into the war in 1778. he later struggled to recover money he had personally invested in the scheme. beaumarchais was also a participant in the early stages of the french revolution. he is probably best known, however, for his theatrical works, especially the three figaro plays.",
+        "output": {
+            "genre": "plays; comedy and drama",
+            "period": "revolutionary france",
+            "article_title": "pierre beaumarchais",
+            "nationality": "french",
+            "notableworks": "'' mariage de figaro'','' la m\u00e8re coupable'' le barbier de s\u00e9ville'','' le",
+            "name": "pierre-augustin caron de beaumarchais",
+            "birth_name": "pierre-augustin caron",
+            "death_place": "paris",
+            "birth_place": "paris",
+            "death_date": "1799-05-18",
+            "birth_date": "1732-01-24"
+        },
+        "keys": [
+            "article_title",
+            "birth_date",
+            "birth_name",
+            "birth_place",
+            "death_date",
+            "death_place",
+            "genre",
+            "name",
+            "nationality",
+            "notableworks",
+            "period"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "birth_date",
+                "birth_name",
+                "birth_place",
+                "death_date",
+                "death_place",
+                "genre",
+                "name",
+                "nationality",
+                "notableworks",
+                "period"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_name": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_place": {
+                    "type": "string"
+                },
+                "genre": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "nationality": {
+                    "type": "string"
+                },
+                "notableworks": {
+                    "type": "string"
+                },
+                "period": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"birth_date\": \"1732-01-24\",\n    \"birth_name\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"birth_place\": \"Provincial watchmaker's son\",\n    \"death_date\": \"1799-05-18\",\n    \"death_place\": \"\",\n    \"genre\": \"playwright, watchmaker, inventor, musician, diplomat, fugitive, spy, publisher, horticulturalist, arms dealer, satirist, financier, revolutionary\",\n    \"name\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"nationality\": \"United States\",\n    \"notableworks\": \"three figaro plays\",\n    \"period\": \"early stages of the French Revolution\"\n}\n```"
+    },
+    {
+        "id": 46040,
+        "input": "janet hinostroza is an ecuadoran television journalist and one of the best known personalities on ecuadorian television. she is the anchor on a morning news program, `` la ma\u00f1ana de 24 horas,'' and was the creator and anchor of the long-running investigative news program `` 30 plus,'' which aired on teleamazonas for more than a decade, investigating such subjects as human trafficking, arms trafficking, government and police corruption, and extrajudicial killings. hinostroza has been a major target and opponent of the ecuadorian government, and has also been a recurring topic of president rafael correa's weekly tv and radio talks, which usually last several hours. correa has referred to her dismissively as `` blondie.'' in 2012, after hinostroza reported on a suspicious loan by the state bank cofiec to a businessman allegedly associated with a cousin of correa, she received death threats and took a leave of absence for safety reasons. due to this she was offered security surveillance by the minister of the interior jos\u00e9 serrano to which hinostroza gratefully did not accept. in 2013, she was awarded the international press freedom award of the new york-based committee to protect journalists.",
+        "output": {
+            "occupation": "television journalist, investigative journalist",
+            "article_title": "janet hinostroza",
+            "name": "janet hinostroza",
+            "birth_name": "janet hinostroza",
+            "education": "central university of ecuador",
+            "birth_place": "quito, ecuador"
+        },
+        "keys": [
+            "article_title",
+            "birth_name",
+            "birth_place",
+            "education",
+            "name",
+            "occupation"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "birth_name",
+                "birth_place",
+                "education",
+                "name",
+                "occupation"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_name": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "education": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"janet hinostroza\",\n    \"birth_name\": \"janet hinostroza\",\n    \"birth_place\": \"\",\n    \"education\": \"\",\n    \"name\": \"janet hinostroza\",\n    \"occupation\": \"ecuadoran television journalist\"\n}\n```"
+    },
+    {
+        "id": 54738,
+        "input": ": `` for the 20th-century atlanta-based architect, see neel reid'' neil reid (born 1959) is a scottish former child singing star, winner of itv's `` opportunity knocks,'' and the holder of the title youngest person to reach number one on the uk albums chart. known also as `` wee neil reid'', he was eight when he was discovered singing at a pensioners' party in 1968. reid won `` opportunity knocks'' on 13 december 1971 singing his version of `` mother of mine'', which, when released commercially by decca records shortly afterwards, went to number two on the uk singles chart following a performance on `` top of the pops.'' the `` mother of mine'' record sold over 250,000 copies in the united kingdom, and over 2.5 million globally. it also sold around 400,000 copies in japan alone. reid's self-titled album went to number one in 1972, making reid the youngest person to reach number one on the uk albums chart, at the age of 12 years 9 months... this remains one of the very few number 1 selling albums that has never had an official cd release and as such is unavailable in this format. the youngest girl to top the chart is canadian artist avril lavigne at 17 years and 3 months with `` let go'' in 2003. reid's follow-up single three months later `` that's what i want to be'' peaked at number 45, and reid quickly faded from national prominence to performing on the northern england working men's club circuit. two years after winning `` opportunity knocks,'' reid's voice broke and as a result he gave up professional singing. reid is now an independent financial adviser living in blackpool, lancashire; and was interviewed by amanda holden about his child stardom for itv1's `` when britain first had talent'' in january 2008.",
+        "output": {
+            "label": "decca",
+            "birth_date": "1959-05",
+            "article_title": "neil reid",
+            "background": "solo singer",
+            "years_active": "19681972",
+            "instrument": "guitar, vocals",
+            "name": "neil reid",
+            "origin": "glasgow, united kingdom"
+        },
+        "keys": [
+            "article_title",
+            "background",
+            "birth_date",
+            "instrument",
+            "label",
+            "name",
+            "origin",
+            "years_active"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "background",
+                "birth_date",
+                "instrument",
+                "label",
+                "name",
+                "origin",
+                "years_active"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "background": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "instrument": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "origin": {
+                    "type": "string"
+                },
+                "years_active": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"neil reid\",\n    \"background\": \"the 20th-century atlanta-based architect, see neel reid\",\n    \"birth_date\": \"1959\",\n    \"instrument\": \"singing\",\n    \"label\": \"decca records\",\n    \"name\": \"neil reid\",\n    \"origin\": \"atlanta, usa\",\n    \"years_active\": \"1971-1972\"\n}\n```"
+    },
+    {
+        "id": 32948,
+        "input": "francis longworth haszard (november 20, 1849 -- july 25, 1938) was a prince edward island politician and jurist, the tenth premier of prince edward island. haszard's family had been united empire loyalists moving to pei from the united states after the american revolution. longworth was born at bellevue, lot 49, prince edward island. he studied law, was called to the bar in 1872 and set up practice in charlottetown. he had been a magistrate in charlottetown before being elected to the provincial legislature for the first time in 1904 as a liberal. in 1908, he was asked by the lieutenant governor to become premier after the death of arthur peters. the liberals had been in power since 1891 and their majority in the legislature had eroded over time. by the time haszard became premier the liberals and opposition conservatives had almost equal strength in the house. haszard represented pei at the maritime and inter-provincial conferences held in 1910 and attempted to obtain a better deal for the province from the federal government. haszard left politics in 1911 to accept an appointment to the province's supreme court and as master of the rolls. he retired from the bench in 1930.",
+        "output": {
+            "party": "liberal",
+            "monarch": "edward vii george v",
+            "name": "francis haszard",
+            "death_place": "charlottetown, prince edward island",
+            "office": "premier edward island liberal party mla (councillor) for 4th of queens prince edward island leader of the prince",
+            "spouse": "elizabeth desbrisay 1876",
+            "profession": "politician",
+            "religion": "anglican",
+            "residence": "charlottetown, prince edward island",
+            "birth_date": "1849-11-20",
+            "successor": "herbert james palmer herbert james palmer alexander macphail",
+            "term_start": "february 7, 1904 1, 1908 february 1, 1908 december",
+            "term_end": "may 16, 1911 16, 1911 may 16, 1911 may",
+            "predecessor": "arthur peters arthur peters george forbes",
+            "birth_place": "bellevue, lot 49, prince edward island",
+            "alma_mater": "prince of wales college",
+            "cabinet": "attorney general (1908 -- 1911)",
+            "lieutenant_governor": "donald alexander mackinnon benjamin rogers",
+            "occupation": "lawyer of the rolls, judge, and farmer, city magistrate, city recorder, master",
+            "article_title": "francis haszard",
+            "nationality": "canadian",
+            "children": "charles hilda, helen, evelyn, and ethel f., louis g., mary e.,",
+            "death_date": "1938-07-25",
+            "order": "10th"
+        },
+        "keys": [
+            "alma_mater",
+            "article_title",
+            "birth_date",
+            "birth_place",
+            "cabinet",
+            "children",
+            "death_date",
+            "death_place",
+            "lieutenant_governor",
+            "monarch",
+            "name",
+            "nationality",
+            "occupation",
+            "office",
+            "order",
+            "party",
+            "predecessor",
+            "profession",
+            "religion",
+            "residence",
+            "spouse",
+            "successor",
+            "term_end",
+            "term_start"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "alma_mater",
+                "article_title",
+                "birth_date",
+                "birth_place",
+                "cabinet",
+                "children",
+                "death_date",
+                "death_place",
+                "lieutenant_governor",
+                "monarch",
+                "name",
+                "nationality",
+                "occupation",
+                "office",
+                "order",
+                "party",
+                "predecessor",
+                "profession",
+                "religion",
+                "residence",
+                "spouse",
+                "successor",
+                "term_end",
+                "term_start"
+            ],
+            "properties": {
+                "alma_mater": {
+                    "type": "string"
+                },
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "cabinet": {
+                    "type": "string"
+                },
+                "children": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_place": {
+                    "type": "string"
+                },
+                "lieutenant_governor": {
+                    "type": "string"
+                },
+                "monarch": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "nationality": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                },
+                "office": {
+                    "type": "string"
+                },
+                "order": {
+                    "type": "string"
+                },
+                "party": {
+                    "type": "string"
+                },
+                "predecessor": {
+                    "type": "string"
+                },
+                "profession": {
+                    "type": "string"
+                },
+                "religion": {
+                    "type": "string"
+                },
+                "residence": {
+                    "type": "string"
+                },
+                "spouse": {
+                    "type": "string"
+                },
+                "successor": {
+                    "type": "string"
+                },
+                "term_end": {
+                    "type": "string"
+                },
+                "term_start": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"francis longworth haszard\",\n    \"birth_date\": \"1849-11-20\",\n    \"birth_place\": \"bellevue, lot 49, prince edward island\",\n    \"death_date\": \"1938-07-25\",\n    \"death_place\": \"\",\n    \"name\": \"francis longworth haszard\",\n    \"nationality\": \"United States\",\n    \"occupation\": \"politician, jurist\",\n    \"office\": \"tenth premier of prince edward island, master of the rolls, chief justice of the province's supreme court\",\n    \"predecessor\": \"arthur peters\",\n    \"successor\": \"\",\n    \"term_start\": \"1904\",\n    \"term_end\": \"1911\",\n    \"profession\": \"lawyer, judge\",\n    \"residence\": \"\",\n    \"spouse\": \"\",\n    \"children\": \"\",\n    \"party\": \"liberal\",\n    \"order\": \"\",\n    \"cabinet\": \"\",\n    \"alma_mater\": \"law\",\n    \"religion\": \"\",\n    \"place\": \"\"\n}\n```"
+    },
+    {
+        "id": 7982,
+        "input": ", born 27 november 1949) is a racing car driver, most famous for being the first japanese driver to win the 24 hours of le mans, in 1995. sekiya drove in single-seaters in his early career, contesting the japanese formula 3000 championship and formula nippon from 1987 to 1993, mostly for the leyton house team. he never achieved any victories, but finished 4th in the standings in 1988 and 1989, scoring three and four podiums, respectively. a long-time works toyota driver, sekiya drove in the all japan sports prototype championship, all japan grand touring championship and japanese touring car championship, a series which he won in 1994, driving a toyota chaser for the tom's team. he was also runner-up the following year. as sekiya is rather fond of le mans, in 1987, he got married in the town prior to the race. his best result in international sports car racing was winning the 1995 24 hours of le mans, at the wheel of a mclaren f1 gtr for kokusai kaihatsu racing. he became the first japanese-born driver to win the 24 hours of le mans. he was also fourth in the 1993 edition. he competed in the jgtc until the 2000 season and now works as team manager for the super gt division of the toyota team tom's and also runs a racing school at fuji speedway. in 1998, sekiya also appeared in a tv commercial in japan driving a jza80 supra promoting its handling package.",
+        "output": {
+            "article_title": "masanori sekiya",
+            "nationality": "japan japanese",
+            "years": "1985 -- 1997 -- 1990, 1992 -- 1993, 1995",
+            "name": "masanori sekiya",
+            "birth_place": "ikawa, shizuoka, japan",
+            "birth_date": "1949-11-27"
+        },
+        "keys": [
+            "article_title",
+            "birth_date",
+            "birth_place",
+            "name",
+            "nationality",
+            "years"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "birth_date",
+                "birth_place",
+                "name",
+                "nationality",
+                "years"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "nationality": {
+                    "type": "string"
+                },
+                "years": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"Sekiya\",\n    \"birth_date\": \"1949-11-27\",\n    \"birth_place\": \"Tokyo, Japan\",\n    \"name\": \"Sekiya\",\n    \"nationality\": \"Japan\",\n    \"years\": \"1949-2000\"\n}\n```"
+    },
+    {
+        "id": 42363,
+        "input": "john william king (21 january 1908 -- 25 march 1953) was an english cricketer who played 48 first-class matches for worcestershire and leicestershire in the late 1920s. he was the nephew of another john king, who played one test for england, and the son of james king, who played first-class cricket for leicestershire. king made his debut in may 1927, for worcestershire against sussex at hove, scoring 7 and 0. he remained in the side, but did not make a really sizeable contribution until his 12th innings, when he struck 91 (which was to remain his highest score) against essex at leyton. he ended the season with disappointing figures of 386 runs in 31 first-class innings, at an average of 13.78. in 1928, king did rather better, and indeed his 629 runs at 19.06, with three half-centuries, represented easily the best season's return of his short career. he passed a thousand runs for his career in late august, when he hit an unbeaten 50 against warwickshire at new road. however, in four further innings before the end of the season he never made more than 2, and for 1929 he switched counties to leicestershire. king's one season with the county of his birth was not a success. he averaged a mere 11.84, and apart from one innings of 56 against derbyshire in mid-july, his highest score all season was 23. by the end of july he was playing for the second xi in the minor counties championship, a position whence he never re-emerged. he did appear in two single-innings games for the county during the second world war, but did not bat in either.",
+        "output": {
+            "tenfor": "0",
+            "name": "john king",
+            "death_place": "narborough, leicestershire, england",
+            "club": "worcestershire leicestershire",
+            "column": "first-class",
+            "s/s": "0/5",
+            "wickets": "0",
+            "matches": "48",
+            "fivefor": "0",
+            "fullname": "john william king",
+            "birth_date": "1908-01-21",
+            "catches/stumpings": "13/0",
+            "runs": "1,169",
+            "batting": "right-handed",
+            "birth_place": "leicester, england",
+            "date": "1908-01-21",
+            "article_title": "john william king",
+            "year": "1927 -- 1928 1929 2008",
+            "deliveries": "balls 0",
+            "country": "england",
+            "columns": "1",
+            "death_date": "1953-03-25"
+        },
+        "keys": [
+            "article_title",
+            "batting",
+            "birth_date",
+            "birth_place",
+            "catches/stumpings",
+            "club",
+            "column",
+            "columns",
+            "country",
+            "date",
+            "death_date",
+            "death_place",
+            "deliveries",
+            "fivefor",
+            "fullname",
+            "matches",
+            "name",
+            "runs",
+            "s/s",
+            "tenfor",
+            "wickets",
+            "year"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "batting",
+                "birth_date",
+                "birth_place",
+                "catches/stumpings",
+                "club",
+                "column",
+                "columns",
+                "country",
+                "date",
+                "death_date",
+                "death_place",
+                "deliveries",
+                "fivefor",
+                "fullname",
+                "matches",
+                "name",
+                "runs",
+                "s/s",
+                "tenfor",
+                "wickets",
+                "year"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "batting": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "catches/stumpings": {
+                    "type": "string"
+                },
+                "club": {
+                    "type": "string"
+                },
+                "column": {
+                    "type": "string"
+                },
+                "columns": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_place": {
+                    "type": "string"
+                },
+                "deliveries": {
+                    "type": "string"
+                },
+                "fivefor": {
+                    "type": "string"
+                },
+                "fullname": {
+                    "type": "string"
+                },
+                "matches": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "runs": {
+                    "type": "string"
+                },
+                "s/s": {
+                    "type": "string"
+                },
+                "tenfor": {
+                    "type": "string"
+                },
+                "wickets": {
+                    "type": "string"
+                },
+                "year": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"john william king\",\n    \"batting\": \"john william king\",\n    \"birth_date\": \"1908-01-21\",\n    \"birth_place\": \"unknown\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"worcestershire; leicestershire\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"United States\",\n    \"date\": \"1908-01-21\",\n    \"death_date\": \"1953-03-25\",\n    \"death_place\": \"unknown\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"john william king\",\n    \"matches\": \"48\",\n    \"name\": \"john william king\",\n    \"runs\": \"\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"\",\n    \"year\": \"1908-1953\"\n}\n```"
+    },
+    {
+        "id": 61186,
+        "input": "sir nowroji saklatwala, kbe, cie (1875 - 1938) was the third chairman of the tata group from 1932 till his sudden death in 1938 due to a heart attack. he was son of bapuji saklatwala and virbaiji saklatwala (`` n\u00e9\u00e9 tata''). his mother virbaiji was the sister of jamshetji nusserwani tata. he completed his studies at st. xavier college, joined the tata group in 1899 as a clerk in svadeshi mills in mumbai. within twenty years, he rose to be the head of the firm. he was the only non-tata to make it to the top, and worked closely with dorabji tata. when dorabji died in 1932, he became the chairman of the tata group and had the task of consolidating the company during the depression years. closely connected with indian cricket, saklatwala played for the parsees team during 1904-05, but stopped playing actively due to business pre-occupations. as a cricket player he represented the parsees against the europeans in 1904. he was the first chairman of the cricket club of india after its inception in 1933 till his death and was instrumental in the development of brabourne stadium, for which he also donated a large sum of money. saklatwala was appointed a companion of the order of the indian empire (cie) in the 1923 new year honours list, knighted in the 1933 birthday honours list and further knighted as a knight commander of the order of the british empire (kbe) in the 1937 coronation honours list.",
+        "output": {
+            "occupation": "former chairman of tata group",
+            "article_title": "nowroji saklatwala",
+            "relatives": "jamshetji tata (uncle)",
+            "parents": "bapuji and virbaiji (n\u00e9\u00e9 tata)",
+            "religion": "zoroastrian",
+            "name": "sir nowroji saklatwala",
+            "ethnicity": "parsi",
+            "birth_place": "bombay, british india",
+            "death_date": "1938-01",
+            "alma_mater": "university of bombay",
+            "birth_date": "1875-05"
+        },
+        "keys": [
+            "alma_mater",
+            "article_title",
+            "birth_date",
+            "birth_place",
+            "death_date",
+            "ethnicity",
+            "name",
+            "occupation",
+            "parents",
+            "relatives",
+            "religion"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "alma_mater",
+                "article_title",
+                "birth_date",
+                "birth_place",
+                "death_date",
+                "ethnicity",
+                "name",
+                "occupation",
+                "parents",
+                "relatives",
+                "religion"
+            ],
+            "properties": {
+                "alma_mater": {
+                    "type": "string"
+                },
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "ethnicity": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                },
+                "parents": {
+                    "type": "string"
+                },
+                "relatives": {
+                    "type": "string"
+                },
+                "religion": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"Sir Nowroji Saklatwala, KBE, CIE\",\n    \"birth_date\": \"1875\",\n    \"birth_place\": \"Mumbai\",\n    \"death_date\": \"1938\",\n    \"name\": \"Sir Nowroji Saklatwala\",\n    \"occupation\": \"Chairman of the Tata Group, Cricket Club of India, and Brabourne Stadium Donor\",\n    \"parents\": \"Bapuji Saklatwala and Virbaiji Saklatwala\",\n    \"relatives\": \"N\u00e9\u00e9 Tata (mother), Jamshetji Nusserwani Tata (father)\",\n    \"ethnicity\": \"Indian\",\n    \"alma_mater\": \"St. Xavier College\",\n    \"religion\": \"Not specified\"\n}\n```"
+    },
+    {
+        "id": 72190,
+        "input": "joe miller (born july 29, 1987 in rotherham, england) is a british commentator. he started his career as an esports caster at gaming tournaments, working his first event shoutcasting battlefield 1942 (short: bf1942). the 3d world war ii first-person shooter (fps) video game was coincidentally also the first game miller played at a competitive level. at age sixteen, he began to commentate bf1942 games at home in the uk, pushing out as many audio commentaries as he could. in an interview with jp mcdaniel (host of real talk on youtube), miller revealed that it was a `` big jump'' from the audio commentaries he initially produced to the audio-video commentaries we are accustomed to today. miller's big break came when he joined tsn, through which he cast the cyberathlete professional league (cpl) world tour in 2005, arguably the `` most definitive moment'' of his early esports career. from there he went on to work as a broadcaster for numerous professional video game leagues including the world series of video games (wsvg), championship gaming series, dreamhack and various electronic sports league (esl) events. in amongst these achievements he worked as general manager for fnatic back when they were based in southampton as well as joining the quadv team, headed by fellow casters leigh `` deman'' smith and paul `` redeye'' chaloner. although miller is known for casting competitive `` counter-strike'' and `` quake live'' tournaments, recently he has made a name for himself in `` league of legends'' (lol). miller began working for the esl in 2008 and so secured a regular spot casting weekly league of legends championship series, which he does alongside the likes of leigh `` deman'' smith, trevor `` qu1ksh0t'' henry, jason kaplan, martin `` deficio'' lynge and eefje `` sjokz'' depoortere. miller currently resides in cologne, germany and speaks fluent german. notable recent achievements include casting the riot league of legends tournaments at gamescom 2013 and securing a casting position at lol world championships hosted in los angeles. it was recently announced soon after the european lol regionals at gamescom 2014 that he would also be casting at the 2014 lol world championships in taipei, taiwan, singapore and the south korean cities of busan and seoul.",
+        "output": {
+            "article_title": "joe miller (commentator)",
+            "occupation": "commentator",
+            "nationality": "british",
+            "name": "joe miller",
+            "birth_place": "rotherham, england"
+        },
+        "keys": [
+            "article_title",
+            "birth_place",
+            "name",
+            "nationality",
+            "occupation"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "birth_place",
+                "name",
+                "nationality",
+                "occupation"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "nationality": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"joe miller\",\n    \"birth_place\": \"rotherham, england\",\n    \"name\": \"joe miller\",\n    \"nationality\": \"british\",\n    \"occupation\": \"commentator\"\n}\n```"
+    }
+]

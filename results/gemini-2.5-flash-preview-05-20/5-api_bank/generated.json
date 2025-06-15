@@ -39,7 +39,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"Dictionary\",\"parameters\":{\"keyword\":\"resilience\"}}\n```"
+        "generated_output": "{\"api_name\": \"Dictionary\",\n      \"parameters\": {\n        \"keyword\": \"resilience\"\n      }\n    }"
     },
     {
         "id": 362,
@@ -81,7 +81,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"headache\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"headache\"}}"
     },
     {
         "id": 229,
@@ -215,7 +215,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"QueryBalance\",\"parameters\":{\"token\":\"p9o8i7u6y5t4r3e2w1q\"}}"
+        "generated_output": "{\"api_name\":\"QueryBalance\",\"parameters\":{\"token\":\"p9o8i7u6y5t4r3e2w1q\"}}"
     },
     {
         "id": 280,
@@ -374,7 +374,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Dinner with friends\",\"time\":\"2023-03-20 19:00:00\",\"location\":\"The Cheesecake Factory\"}}"
+        "generated_output": "{\"api_name\": \"AddAgenda\", \"parameters\": {\"token\": \"p9o8i7u6y5t4k3e2w1q\", \"content\": \"Dinner with friends\", \"time\": \"2023-03-20 00:00:00\", \"location\": \"the Cheesecake Factory\"}}"
     },
     {
         "id": 233,
@@ -428,7 +428,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"QueryHealthData\", \"parameters\": {\"user_id\": \"A12345\", \"start_time\": \"2023-03-08 00:00:00\", \"end_time\": \"2023-03-15 23:59:59\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryHealthData\",\n      \"parameters\": {\n        \"user_id\": \"A12345\",\n        \"start_time\": \"2023-03-08 00:00:00\",\n        \"end_time\": \"2023-03-15 23:59:59\"\n      }\n    }"
     },
     {
         "id": 282,
@@ -475,7 +475,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"DocumentQA\",\"parameters\":{\"url\":\"https://www.example.com/article-4.txt\",\"question\":\"What are the key features of this software?\"}}\n```"
+        "generated_output": "{\"api_name\": \"DocumentQA\", \"parameters\": {\"url\": \"https://www.example.com/article-4.txt\", \"question\": \"What are the key features of this software?\"}}"
     },
     {
         "id": 234,
@@ -542,7 +542,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\":\"04-21\"}}"
+        "generated_output": "{\"api_name\": \"QueryHistoryToday\",\n      \"parameters\": {\n        \"date\": \"04-21\"\n      }\n    }"
     },
     {
         "id": 395,
@@ -604,7 +604,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2021-09-17 10:30:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"75\"}]}}\n```"
+        "generated_output": "{\"api_name\": \"RecordHealthData\", \"parameters\": {\"user_id\": \"12345\", \"time\": \"2021-09-17 10:30:00\", \"health_data\": [{\"name\": \"blood_pressure\", \"value\": \"120/80\"}, {\"name\": \"heart_rate\", \"value\": \"75\"}]}}"
     },
     {
         "id": 26,
@@ -738,7 +738,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryBalance\",\"parameters\":{\"token\":\"q9w8e7r6t5y4u3i2o1\"}}"
+        "generated_output": "{\"api_name\": \"QueryBalance\", \"parameters\": {\"token\": \"q9w8e7r6t5y4u3i2o1\"}}"
     },
     {
         "id": 263,
@@ -809,7 +809,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"Shortness of breath\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"Shortness of breath\"}}"
     },
     {
         "id": 332,
@@ -886,7 +886,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"JaneSmith\", \"password\": \"password\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"JaneSmith\",\n        \"password\": \"password\"\n      }\n    }"
     },
     {
         "id": 194,
@@ -1042,7 +1042,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyMeeting\",\"parameters\":{\"token\":\"o8i7u6y5t4r3e2w1q0\",\"meeting_topic\":\"Team Building Activity\",\"start_time\":\"2023-04-01 10:00:00\",\"end_time\":\"2023-04-01 12:00:00\",\"location\":\"Recreation center\",\"attendees\":[\"Jackie Lee\",\"Mike Chen\"]}}"
+        "generated_output": "{\"api_name\": \"ModifyMeeting\", \"parameters\": {\"token\": \"o8i7u6y5t4r3e2w1q0\", \"meeting_topic\": \"Team Building Activity\", \"start_time\": \"2023-04-01 10:00:00\", \"end_time\": \"2023-04-01 12:00:00\", \"location\": \"Recreation center\", \"attendees\": [\"Jackie Lee\", \"Mike Chen\"]}}"
     },
     {
         "id": 338,
@@ -1235,7 +1235,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"Fatigue\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"Fatigue\"}}"
     },
     {
         "id": 119,
@@ -1277,7 +1277,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\":\"12-10\"}}"
+        "generated_output": "{\"api_name\": \"QueryHistoryToday\", \"parameters\": {\"date\": \"12-10\"}}"
     },
     {
         "id": 116,
@@ -1357,7 +1357,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user2\",\"password\":\"user2pass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user2\", \"password\": \"user2pass\"}}"
     },
     {
         "id": 271,
@@ -1429,7 +1429,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"JohnDoe\",\"password\":\"pass123\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"JohnDoe\", \"password\": \"pass123\"}}"
     },
     {
         "id": 451,
@@ -1471,7 +1471,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"nauseous\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"nauseous\"}}"
     },
     {
         "id": 222,
@@ -1547,7 +1547,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"fatigue\"}}\n```"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"fatigue\"}}"
     },
     {
         "id": 325,
@@ -1618,7 +1618,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"shortness of breath\"}}\n```"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"shortness of breath\"}}"
     },
     {
         "id": 74,
@@ -1720,7 +1720,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"QueryStock\", \"parameters\": {\"stock_code\": \"NFLX\", \"date\": \"2022-02-17\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryStock\", \"parameters\": {\"stock_code\": \"NFLX\", \"date\": \"2022-02-17\"}}"
     },
     {
         "id": 133,
@@ -1774,7 +1774,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryHealthData\",\"parameters\":{\"user_id\":\"A12345\",\"start_time\":\"2023-03-01 00:00:00\",\"end_time\":\"2023-03-31 23:59:59\"}}"
+        "generated_output": "{\"api_name\": \"QueryHealthData\", \"parameters\": {\"user_id\": \"A12345\", \"start_time\": \"2023-03-01 00:00:00\", \"end_time\": \"2023-03-31 23:59:59\"}}"
     },
     {
         "id": 220,
@@ -1826,7 +1826,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"RegisterUser\",\"parameters\":{\"username\":\"johnsmith123\",\"password\":\"1234password\",\"email\":\"johnsmith123@example.com\"}}\n```"
+        "generated_output": "{\"api_name\": \"RegisterUser\",\n      \"parameters\": {\n        \"username\": \"johnsmith123\",\n        \"password\": \"1234password\",\n        \"email\": \"johnsmith123@example.com\"\n      }\n    }"
     },
     {
         "id": 157,
@@ -1878,7 +1878,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"MyNewAccount\",\"password\":\"Password123\",\"name\":\"John Smith\"}}\n```"
+        "generated_output": "{\"api_name\": \"OpenBankAccount\",\n      \"parameters\": {\n        \"account\": \"MyNewAccount\",\n        \"password\": \"Password123\",\n        \"name\": \"John Smith\"\n      }\n    }"
     },
     {
         "id": 352,
@@ -2037,7 +2037,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAgenda\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Dinner with friends\",\"time\":\"2023-03-20 00:00:00\",\"location\":\"Cheesecake Factory\"}}"
+        "generated_output": "{\"api_name\":\"DeleteAgenda\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Dinner with friends\",\"time\":\"2023-03-20 00:00:00\",\"location\":\"Cheesecake Factory\"}}"
     },
     {
         "id": 490,
@@ -2079,7 +2079,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"appointment registration\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"registering an appointment\"}}"
     },
     {
         "id": 11,
@@ -2157,7 +2157,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"12345678\",\"new_appointment_date\":\"2023-04-15\",\"new_appointment_doctor\":\"Dr. Johnson\"}}"
+        "generated_output": "{\"api_name\": \"ModifyRegistration\", \"parameters\": {\"appointment_id\": \"12345678\", \"new_appointment_date\": \"2023-04-15\", \"new_appointment_doctor\": \"Dr. Johnson\"}}"
     },
     {
         "id": 188,
@@ -2239,7 +2239,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AddReminder\",\"parameters\":{\"token\":\"n9m8k7j6h5g4f3d2s1a0\",\"content\":\"call John\",\"time\":\"2022-05-25 15:00:00\"}}"
+        "generated_output": "{\"api_name\": \"AddReminder\",\n      \"parameters\": {\n        \"token\": \"n9m8k7j6h5g4f3d2s1a0\",\n        \"content\": \"call John\",\n        \"time\": \"2022-05-25 15:00:00\"\n      }\n    }"
     },
     {
         "id": 226,
@@ -2356,7 +2356,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"attend a meeting\",\"time\":\"2023-03-18 14:00:00\",\"location\":\"office downtown\"}}"
+        "generated_output": "{\"api_name\": \"AddAgenda\", \"parameters\": {\"token\": \"a9s8d7f6g5h4j3k2l1\", \"content\": \"attend a meeting\", \"time\": \"2023-03-18 14:00:00\", \"location\": \"office downtown\"}}"
     },
     {
         "id": 315,
@@ -2403,7 +2403,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"Olivia Davis\",\"date\":\"2023-10-10\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryRegistration\", \"parameters\": {\"patient_name\": \"Olivia Davis\", \"date\": \"2023-10-10\"}}"
     },
     {
         "id": 260,
@@ -2480,7 +2480,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"AddAlarm\",\"parameters\":{\"token\":\"m9n8b7v6c5x4z3a2s1\",\"time\":\"2023-03-25 08:30:00\"}}\n```"
+        "generated_output": "{\"api_name\": \"AddAlarm\", \"parameters\": {\"token\": \"m9n8b7v6c5x4z3a2s1\", \"time\": \"2023-03-25 08:30:00\"}}"
     },
     {
         "id": 314,
@@ -2562,7 +2562,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyReminder\",\"parameters\":{\"token\":\"m9n8b7v6c5x4z3a2s1\",\"content\":\"Pay bills\",\"time\":\"2023-03-20 12:00:00\"}}"
+        "generated_output": "{\"api_name\": \"ModifyReminder\", \"parameters\": {\"token\": \"m9n8b7v6c5x4z3a2s1\", \"content\": \"Pay bills\", \"time\": \"2023-03-20 12:00:00\"}}"
     },
     {
         "id": 154,
@@ -2640,7 +2640,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"12345678\",\"new_appointment_date\":\"2023-05-15\",\"new_appointment_doctor\":\"Dr. Lee\"}}"
+        "generated_output": "{\"api_name\": \"ModifyRegistration\", \"parameters\": {\"appointment_id\": \"12345678\", \"new_appointment_date\": \"2023-05-15\", \"new_appointment_doctor\": \"Dr. Lee\"}}"
     },
     {
         "id": 197,
@@ -2720,7 +2720,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\",\"password\":\"user1pass\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user1\", \"password\": \"user1pass\"}}"
     },
     {
         "id": 445,
@@ -2762,7 +2762,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"reminder\"}}\n```"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"add reminder\"}}"
     },
     {
         "id": 14,
@@ -2834,7 +2834,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"foo\",\"password\":\"bar\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"foo\", \"password\": \"bar\"}}"
     },
     {
         "id": 13,
@@ -2981,7 +2981,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"shortness of breath\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"shortness of breath\"}}"
     },
     {
         "id": 209,
@@ -3090,7 +3090,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"fever of over 100 degrees Fahrenheit\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"fever over 100 degrees Fahrenheit\"}}"
     },
     {
         "id": 81,
@@ -3192,7 +3192,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"CancelRegistration\",\"parameters\":{\"appointment_id\":\"12345678\"}}"
+        "generated_output": "{\"api_name\": \"CancelRegistration\", \"parameters\": {\"appointment_id\": \"12345678\"}}"
     },
     {
         "id": 146,
@@ -3287,7 +3287,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"JohnDoe\",\"password\":\"pass123\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"JohnDoe\", \"password\": \"pass123\"}}"
     },
     {
         "id": 40,
@@ -3367,7 +3367,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\",\"password\":\"user1pass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user1\", \"password\": \"user1pass\"}}"
     },
     {
         "id": 414,
@@ -3409,7 +3409,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"alarm\"}}\n```"
+        "generated_output": "{\"api_name\": \"ToolSearcher\",\n      \"parameters\": {\n        \"keywords\": \"alarm\"\n      }\n    }"
     },
     {
         "id": 277,
@@ -3566,7 +3566,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"testuser\",\"password\":\"testpass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"testuser\", \"password\": \"testpass\"}}"
     },
     {
         "id": 348,
@@ -3723,7 +3723,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"testuser\",\"password\":\"testpass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"testuser\", \"password\": \"testpass\"}}"
     },
     {
         "id": 230,
@@ -3859,7 +3859,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"123456\",\"password\":\"secret123\",\"name\":\"John Doe\"}}"
+        "generated_output": "{\"api_name\": \"OpenBankAccount\", \"parameters\": {\"account\": \"123456\", \"password\": \"secret123\", \"name\": \"John Doe\"}}"
     },
     {
         "id": 367,
@@ -3926,7 +3926,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\":\"12-10\"}}"
+        "generated_output": "{\"api_name\": \"QueryHistoryToday\", \"parameters\": {\"date\": \"12-10\"}}"
     },
     {
         "id": 389,
@@ -3973,7 +3973,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"DocumentQA\",\"parameters\":{\"url\":\"https://www.example.com/article-4.txt\",\"question\":\"What platforms is the software compatible with?\"}}\n```"
+        "generated_output": "{\"api_name\":\"DocumentQA\",\"parameters\":{\"url\":\"https://www.example.com/article-4.txt\",\"question\":\"what platforms the software is compatible with?\"}}"
     },
     {
         "id": 217,
@@ -4015,7 +4015,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"Dictionary\",\"parameters\":{\"keyword\":\"perplexed\"}}\n```"
+        "generated_output": "{\"api_name\": \"Dictionary\", \"parameters\": {\"keyword\": \"perplexed\"}}"
     },
     {
         "id": 275,
@@ -4102,7 +4102,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-04-10 00:00:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"80\"}]}}\n```"
+        "generated_output": "{\"api_name\": \"RecordHealthData\",\n      \"parameters\": {\n        \"user_id\": \"12345\",\n        \"time\": \"2023-10-31 00:00:00\",\n        \"health_data\": [\n          {\n            \"name\": \"blood_pressure\",\n            \"value\": \"120/80\"\n          },\n          {\n            \"name\": \"heart_rate\",\n            \"value\": \"80\"\n          }\n        ]\n      }\n    }"
     },
     {
         "id": 318,
@@ -4154,7 +4154,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"AppointmentRegistration\", \"parameters\": {\"patient_name\": \"John\", \"date\": \"2022-08-15\", \"doctor_name\": \"Smith\"}}\n```"
+        "generated_output": "{\"api_name\": \"AppointmentRegistration\",\n      \"parameters\": {\n        \"patient_name\": \"John\",\n        \"date\": \"2022-08-15\",\n        \"doctor_name\": \"Smith\"\n      }\n    }"
     },
     {
         "id": 453,
@@ -4196,7 +4196,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"check appointment\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"appointment\"}}"
     },
     {
         "id": 24,
@@ -4332,7 +4332,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"user4\",\"password\":\"user4pass\",\"name\":\"John\"}}\n```"
+        "generated_output": "{\"api_name\": \"OpenBankAccount\", \"parameters\": {\"account\": \"user4\", \"password\": \"user4pass\", \"name\": \"John\"}}"
     },
     {
         "id": 375,
@@ -4384,7 +4384,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John\",\"date\":\"2022-03-05\",\"doctor_name\":\"Dr. Smith\"}}"
+        "generated_output": "{\"api_name\": \"AppointmentRegistration\", \"parameters\": {\"patient_name\": \"John\", \"date\": \"2022-03-05\", \"doctor_name\": \"Dr. Smith\"}}"
     },
     {
         "id": 219,
@@ -4426,7 +4426,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\":\"12-10\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryHistoryToday\", \"parameters\": {\"date\": \"12-10\"}}"
     },
     {
         "id": 17,
@@ -4503,7 +4503,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryAlarm\",\"parameters\":{\"token\":\"o8i7u6y5t4r3e2w1q0\",\"time\":\"2023-03-20 06:30:00\"}}"
+        "generated_output": "{\"api_name\": \"QueryAlarm\", \"parameters\": {\"token\": \"o8i7u6y5t4r3e2w1q0\", \"time\": \"2023-03-20 06:30:00\"}}"
     },
     {
         "id": 23,
@@ -4638,7 +4638,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"Amazon\",\"date\":\"2022-03-12\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryStock\", \"parameters\": {\"stock_code\": \"Amazon\", \"date\": \"2022-03-12\"}}"
     },
     {
         "id": 377,
@@ -4757,7 +4757,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"admin\",\"password\":\"adminpass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"admin\",\n        \"password\": \"adminpass\"\n      }\n    }"
     },
     {
         "id": 265,
@@ -4834,7 +4834,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"DeleteAlarm\",\"parameters\":{\"token\":\"o8i7u6y5t4r3e2w1q0\",\"time\":\"2023-03-20 06:30:00\"}}"
+        "generated_output": "{\"api_name\": \"DeleteAlarm\", \"parameters\": {\"token\": \"o8i7u6y5t4r3e2w1q0\", \"time\": \"2023-03-20 06:30:00\"}}"
     },
     {
         "id": 102,
@@ -4882,7 +4882,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"SQ\",\"date\":\"2022-03-14\"}}"
+        "generated_output": "{\"api_name\": \"QueryStock\", \"parameters\": {\"stock_code\": \"SQ\", \"date\": \"2022-03-14\"}}"
     },
     {
         "id": 205,
@@ -4964,7 +4964,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user3\",\"password\":\"user3pass\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"user3\",\n        \"password\": \"user3pass\"\n      }\n    }"
     },
     {
         "id": 162,
@@ -5077,7 +5077,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryHealthData\",\"parameters\":{\"user_id\":\"J46801\",\"start_time\":\"2023-03-01 00:00:00\",\"end_time\":\"2023-03-31 23:59:59\"}}"
+        "generated_output": "{\"api_name\": \"QueryHealthData\", \"parameters\": {\"user_id\": \"J46801\", \"start_time\": \"2023-03-01 00:00:00\", \"end_time\": \"2023-03-31 23:59:59\"}}"
     },
     {
         "id": 292,
@@ -5129,7 +5129,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John Smith\",\"date\":\"2022-06-01\",\"doctor_name\":\"Dr. Johnson\"}}"
+        "generated_output": "{\"api_name\": \"AppointmentRegistration\", \"parameters\": {\"patient_name\": \"John Smith\", \"date\": \"2022-06-01\", \"doctor_name\": \"Dr. Johnson\"}}"
     },
     {
         "id": 79,
@@ -5196,7 +5196,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"Calculator\",\"parameters\":{\"formula\":\"(2+3)*5\"}}"
+        "generated_output": "{\"api_name\": \"Calculator\",\n      \"parameters\": {\n        \"formula\": \"(2+3)*5\"\n      }\n    }"
     },
     {
         "id": 287,
@@ -5390,7 +5390,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\",\"password\":\"user1pass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user1\", \"password\": \"user1pass\"}}"
     },
     {
         "id": 42,
@@ -5471,7 +5471,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"JohnDoe\", \"password\": \"pass123\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"JohnDoe\",\n        \"password\": \"pass123\"\n      }\n    }"
     },
     {
         "id": 48,
@@ -5583,7 +5583,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"DeleteAccount\",\"parameters\":{\"token\":\"n9m8k7j6h5g4f3d2s1a0\"}}"
+        "generated_output": "{\"api_name\": \"DeleteAccount\", \"parameters\": {\"token\": \"n9m8k7j6h5g4f3d2s1a0\"}}"
     },
     {
         "id": 291,
@@ -5654,7 +5654,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"DeleteAccount\",\"parameters\":{\"token\":\"p9o8i7u6y5t4r3e2w1q\"}}\n```"
+        "generated_output": "{\"api_name\": \"DeleteAccount\", \"parameters\": {\"token\": \"p9o8i7u6y5t4r3e2w1q\"}}"
     },
     {
         "id": 306,
@@ -5749,7 +5749,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"JohnDoe\",\"password\":\"pass123\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"JohnDoe\",\n        \"password\": \"pass123\"\n      }\n    }"
     },
     {
         "id": 110,
@@ -5860,7 +5860,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John Smith\",\"date\":\"2023-08-15\",\"doctor_name\":\"Dr. Johnson\"}}"
+        "generated_output": "{\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John Smith\",\"date\":\"2023-08-15\",\"doctor_name\":\"Dr. Johnson\"}}"
     },
     {
         "id": 60,
@@ -5941,7 +5941,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyPassword\",\"parameters\":{\"token\":\"m9n8b7v6c5x4z3a2s1\",\"old_password\":\"adminpass\",\"new_password\":\"654321\"}}"
+        "generated_output": "{\"api_name\": \"ModifyPassword\",\n      \"parameters\": {\n        \"token\": \"m9n8b7v6c5x4z3a2s1\",\n        \"old_password\": \"adminpass\",\n        \"new_password\": \"654321\"\n      }\n    }"
     },
     {
         "id": 320,
@@ -6028,7 +6028,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"DeleteAgenda\",\"parameters\":{\"token\":\"l9k8j7h6g5f4d3s2a1\",\"content\":\"picking up my dry cleaning\",\"time\":\"2023-03-21 15:00:00\",\"location\":\"the Cleaners\"}}\n```"
+        "generated_output": "{\"api_name\": \"DeleteAgenda\", \"parameters\": {\"token\": \"l9k8j7h6g5f4d3s2a1\", \"content\": \"picking up my dry cleaning\", \"time\": \"2023-03-21 15:00:00\", \"location\": \"the Cleaners\"}}"
     },
     {
         "id": 59,
@@ -6108,7 +6108,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyPassword\",\"parameters\":{}}"
+        "generated_output": null
     },
     {
         "id": 15,
@@ -6179,7 +6179,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"DeleteAccount\",\"parameters\":{\"token\":\"z9x8c7v6b5n4m3q2w1\"}}"
+        "generated_output": "{\"api_name\": \"DeleteAccount\",\n      \"parameters\": {\n        \"token\": \"z9x8c7v6b5n4m3q2w1\"\n      }\n    }"
     },
     {
         "id": 25,
@@ -6314,7 +6314,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user4\",\"password\":\"user4pass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user4\", \"password\": \"user4pass\"}}"
     },
     {
         "id": 103,
@@ -6450,7 +6450,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"johnsmith123\",\"password\":\"p@ssw0rd\",\"name\":\"John Smith\"}}\n```"
+        "generated_output": "{\"api_name\": \"OpenBankAccount\",\n      \"parameters\": {\n        \"account\": \"johnsmith123\",\n        \"password\": \"p@ssw0rd\",\n        \"name\": \"John Smith\"\n      }\n    }"
     },
     {
         "id": 98,
@@ -6512,7 +6512,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-11-12 10:00:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"80\"}]}}\n```"
+        "generated_output": "{\"api_name\": \"RecordHealthData\", \"parameters\": {\"user_id\": \"12345\", \"time\": \"2023-11-12 10:00:00\", \"health_data\": [{\"name\": \"blood_pressure\", \"value\": \"120/80\"}, {\"name\": \"heart_rate\", \"value\": \"80\"}]}}"
     },
     {
         "id": 456,
@@ -6554,7 +6554,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"rash diagnosis\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"skin rash diagnosis\"}}"
     },
     {
         "id": 56,
@@ -6709,7 +6709,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyAlarm\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"from_time\":\"2023-03-16 07:00:00\",\"to_time\":\"2023-03-16 07:15:00\"}}"
+        "generated_output": "{\"api_name\": \"ModifyAlarm\", \"parameters\": {\"token\": \"a9s8d7f6g5h4j3k2l1\", \"from_time\": \"2023-03-16 07:00:00\", \"to_time\": \"2023-03-16 07:15:00\"}}"
     },
     {
         "id": 252,
@@ -6790,7 +6790,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AMZN\",\"date\":\"2022-03-10\"}}"
+        "generated_output": "{\"api_name\": \"QueryStock\", \"parameters\": {\"stock_code\": \"AMZN\", \"date\": \"2022-03-10\"}}"
     },
     {
         "id": 328,
@@ -6885,7 +6885,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"newuser\",\"password\":\"newpass\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"newuser\",\n        \"password\": \"newpass\"\n      }\n    }"
     },
     {
         "id": 269,
@@ -6972,7 +6972,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ModifyAgenda\",\"parameters\":{\"token\":\"l9k8j7h6g5f4d3s2a1\",\"content\":\"Pick up dry cleaning\",\"time\":\"2023-03-22 14:00:00\",\"location\":\"Laundry\"}}\n```"
+        "generated_output": "{\"api_name\": \"ModifyAgenda\",\n      \"parameters\": {\n        \"token\": \"l9k8j7h6g5f4d3s2a1\",\n        \"content\": \"Pick up dry cleaning\",\n        \"time\": \"2023-03-22 14:00:00\",\n        \"location\": \"Laundry\"\n      }\n    }"
     },
     {
         "id": 108,
@@ -7054,7 +7054,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryReminder\",\"parameters\":{\"token\":\"l9k8j7h6g5f4d3s2a1\",\"content\":\"Attend meeting\",\"time\":\"2023-03-18 10:30:00\"}}"
+        "generated_output": "{\"api_name\": \"QueryReminder\", \"parameters\": {\"token\": \"l9k8j7h6g5f4d3s2a1\", \"content\": \"Attend meeting\", \"time\": \"2023-03-18 10:30:00\"}}"
     },
     {
         "id": 104,
@@ -7189,7 +7189,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AAPL\",\"date\":\"2022-01-03\"}}\n```"
+        "generated_output": "{\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AAPL\",\"date\":\"2022-01-03\"}}"
     },
     {
         "id": 181,
@@ -7242,7 +7242,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"90123456\",\"new_appointment_date\":\"2023-10-15\",\"new_appointment_doctor\":\"Dr. Johnson\"}}\n```"
+        "generated_output": "{\"api_name\": \"ModifyRegistration\",\n      \"parameters\": {\n        \"appointment_id\": \"90123456\",\n        \"new_appointment_date\": \"2023-10-15\",\n        \"new_appointment_doctor\": \"Dr. Johnson\"\n      }\n    }"
     },
     {
         "id": 91,
@@ -7351,7 +7351,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"fever\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"fever\"}}"
     },
     {
         "id": 274,
@@ -7427,7 +7427,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"CancelRegistration\",\"parameters\":{\"appointment_id\":\"56789012\"}}"
+        "generated_output": "{\"api_name\": \"CancelRegistration\", \"parameters\": {\"appointment_id\": \"56789012\"}}"
     },
     {
         "id": 381,
@@ -7585,7 +7585,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"Meeting with clients\",\"time\":\"2023-12-15 14:00:00\",\"location\":\"ABC company\"}}\n```"
+        "generated_output": "{\"api_name\": \"AddAgenda\",\n      \"parameters\": {\n        \"token\": \"a9s8d7f6g5h4j3k2l1\",\n        \"content\": \"Meeting with clients\",\n        \"time\": \"2023-12-15 14:00:00\",\n        \"location\": \"ABC company\"\n      }\n    }"
     },
     {
         "id": 235,
@@ -7652,7 +7652,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"Calculator\",\"parameters\":{\"formula\":\"(23+7)*3-42/6\"}}"
+        "generated_output": "{\"api_name\": \"Calculator\",\n      \"parameters\": {\n        \"formula\": \"(23+7)*3-42/6\"\n      }\n    }"
     },
     {
         "id": 39,
@@ -7799,7 +7799,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"RegisterUser\",\"parameters\":{\"username\":\"foo\",\"password\":\"bar\",\"email\":\"foo@example.com\"}}"
+        "generated_output": "{\"api_name\": \"RegisterUser\", \"parameters\": {\"username\": \"foo\", \"password\": \"bar\", \"email\": \"foo@example.com\"}}"
     },
     {
         "id": 168,
@@ -7871,7 +7871,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"DeleteAccount\",\"parameters\":{\"token\":\"retrieved_token\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"foo\",\n        \"password\": \"bar\"\n      }\n    }"
     },
     {
         "id": 511,
@@ -7913,7 +7913,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"causes of rashes\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"causes of rashes\"}}"
     },
     {
         "id": 353,
@@ -8008,7 +8008,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"newuser\",\"password\":\"newpass\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"newuser\",\n        \"password\": \"newpass\"\n      }\n    }"
     },
     {
         "id": 18,
@@ -8103,7 +8103,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"JohnDoe\", \"password\": \"pass123\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"JohnDoe\",\n        \"password\": \"pass123\"\n      }\n    }"
     },
     {
         "id": 531,
@@ -8145,7 +8145,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"illnesses causing rash\"}}\n```"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"illnesses that cause a rash\"}}"
     },
     {
         "id": 44,
@@ -8198,7 +8198,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"90123456\",\"new_appointment_date\":\"2023-10-20\",\"new_appointment_doctor\":\"Dr. Johnson\"}}"
+        "generated_output": "{\"api_name\": \"ModifyRegistration\", \"parameters\": {\"appointment_id\": \"90123456\", \"new_appointment_date\": \"2023-10-20\", \"new_appointment_doctor\": \"Dr. Johnson\"}}"
     },
     {
         "id": 172,
@@ -8275,7 +8275,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"foo\",\"password\":\"bar\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"foo\",\n        \"password\": \"bar\"\n      }\n    }"
     },
     {
         "id": 155,
@@ -8351,7 +8351,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"fatigued\"}}\n```"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"fatigued\"}}"
     },
     {
         "id": 378,
@@ -8471,7 +8471,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ModifyReminder\",\"parameters\":{\"token\":\"m9n8b7v6c5x4z3a2s1\",\"content\":\"Pay utility bills\",\"time\":\"2023-03-20 12:00:00\"}}\n```"
+        "generated_output": "{\"api_name\": \"ModifyReminder\", \"parameters\": {\"token\": \"m9n8b7v6c5x4z3a2s1\", \"content\": \"Pay utility bills\", \"time\": \"2023-03-20 12:00:00\"}}"
     },
     {
         "id": 465,
@@ -8513,7 +8513,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"blood pressure, heart rate, record data\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"record blood pressure heart rate\"}}"
     },
     {
         "id": 55,
@@ -8622,7 +8622,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"fever\"}}"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"fever\"}}"
     },
     {
         "id": 105,
@@ -8757,7 +8757,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"JohnDoe\",\"password\":\"pass123\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"JohnDoe\", \"password\": \"pass123\"}}"
     },
     {
         "id": 72,
@@ -8829,7 +8829,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"foo\",\"password\":\"bar\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"foo\", \"password\": \"bar\"}}"
     },
     {
         "id": 208,
@@ -8940,7 +8940,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John\",\"date\":\"2023-04-05\",\"doctor_name\":\"Dr. Smith\"}}\n```"
+        "generated_output": "{\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"John\",\"date\":\"2023-04-05\",\"doctor_name\":\"Dr. Smith\"}}"
     },
     {
         "id": 33,
@@ -9056,7 +9056,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-08-06 09:00:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"80\"}]}}\n```"
+        "generated_output": "{\"api_name\": \"RecordHealthData\", \"parameters\": {\"user_id\": \"12345\", \"time\": \"2023-08-06 09:00:00\", \"health_data\": [{\"name\": \"blood_pressure\", \"value\": \"120/80\"}, {\"name\": \"heart_rate\", \"value\": \"80\"}]}}"
     },
     {
         "id": 94,
@@ -9143,7 +9143,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"Meeting with John\",\"time\":\"2023-10-26 09:00:00\",\"location\":\"the coffee shop on Main Street\"}}"
+        "generated_output": "{\"api_name\": \"AddAgenda\",\n      \"parameters\": {\n        \"token\": \"a9s8d7f6g5h4j3k2l1\",\n        \"content\": \"Meeting with John\",\n        \"time\": \"2023-10-26 09:00:00\",\n        \"location\": \"the coffee shop on Main Street\"\n      }\n    }"
     },
     {
         "id": 49,
@@ -9224,7 +9224,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user1\", \"password\": \"user1pass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"user1\",\n        \"password\": \"user1pass\"\n      }\n    }"
     },
     {
         "id": 169,
@@ -9337,7 +9337,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"query meeting details\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\",\n      \"parameters\": {\n        \"keywords\": \"meeting details\"\n      }\n    }"
     },
     {
         "id": 351,
@@ -9496,7 +9496,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Dinner with friends\",\"time\":\"2023-03-20 00:00:00\",\"location\":\"Cheesecake Factory\"}}"
+        "generated_output": "{\"api_name\":\"AddAgenda\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Dinner with friends\",\"time\":\"2023-03-20 00:00:00\",\"location\":\"Cheesecake Factory\"}}"
     },
     {
         "id": 206,
@@ -9789,7 +9789,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"ModifyRegistration\", \"parameters\": {\"appointment_id\": \"90123456\", \"new_appointment_date\": \"2023-10-12\", \"new_appointment_doctor\": \"Dr. Lee\"}}\n```"
+        "generated_output": "{\"api_name\": \"ModifyRegistration\", \"parameters\": {\"appointment_id\": \"90123456\", \"new_appointment_date\": \"2023-10-12\", \"new_appointment_doctor\": \"Dr. Lee\"}}"
     },
     {
         "id": 288,
@@ -9913,7 +9913,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"PlayMusic\",\"parameters\":{\"music_name\":\"Shape of You\"}}"
+        "generated_output": "{\"api_name\": \"PlayMusic\", \"parameters\": {\"music_name\": \"Shape of You by Ed Sheeran\"}}"
     },
     {
         "id": 279,
@@ -10180,7 +10180,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"Shortness of breath\"}}\n```"
+        "generated_output": "{\"api_name\": \"EmergencyKnowledge\", \"parameters\": {\"symptom\": \"Shortness of breath\"}}"
     },
     {
         "id": 514,
@@ -10222,7 +10222,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"hotel booking\"}}\n```"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"hotel booking\"}}"
     },
     {
         "id": 135,
@@ -10338,7 +10338,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"123456\",\"time\":\"2023-07-15 09:00:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"80\"}]}}"
+        "generated_output": "{\"api_name\": \"RecordHealthData\", \"parameters\": {\"user_id\": \"123456\", \"time\": \"2023-07-15 09:00:00\", \"health_data\": [{\"name\": \"blood_pressure\", \"value\": \"120/80\"}, {\"name\": \"heart_rate\", \"value\": \"80\"}]}}"
     },
     {
         "id": 150,
@@ -10449,7 +10449,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"newaccount\",\"password\":\"newpassword\",\"name\":\"John Doe\"}}"
+        "generated_output": "{\"api_name\": \"OpenBankAccount\", \"parameters\": {\"account\": \"newaccount\", \"password\": \"newpassword\", \"name\": \"John Doe\"}}"
     },
     {
         "id": 335,
@@ -10496,7 +10496,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"Olivia Davis\",\"date\":\"2023-10-10\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryRegistration\", \"parameters\": {\"patient_name\": \"Olivia Davis\", \"date\": \"2023-10-10\"}}"
     },
     {
         "id": 484,
@@ -10538,7 +10538,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"meeting reservation\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"meeting reservation\"}}"
     },
     {
         "id": 2,
@@ -10649,7 +10649,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"CancelRegistration\",\"parameters\":{\"appointment_id\":\"90123456\"}}"
+        "generated_output": "{\"api_name\": \"CancelRegistration\", \"parameters\": {\"appointment_id\": \"90123456\"}}"
     },
     {
         "id": 204,
@@ -10830,7 +10830,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"testuser\",\"password\":\"testpass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"testuser\",\n        \"password\": \"testpass\"\n      }\n    }"
     },
     {
         "id": 344,
@@ -10917,7 +10917,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"123456\",\"time\":\"2023-04-26 09:00:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"130/90\"},{\"name\":\"heart_rate\",\"value\":\"75\"}]}}"
+        "generated_output": "{\"api_name\": \"RecordHealthData\", \"parameters\": {\"user_id\": \"123456\", \"time\": \"2023-04-26 09:00:00\", \"health_data\": [{\"name\": \"blood_pressure\", \"value\": \"130/90\"}, {\"name\": \"heart_rate\", \"value\": \"75\"}]}}"
     },
     {
         "id": 41,
@@ -10998,7 +10998,7 @@
                 }
             ]
         },
-        "generated_output": "API-Request: {\"api_name\":\"ModifyPassword\",\"parameters\":{\"token\":\"n9m8k7j6h5g4f3d2s1a0\",\"old_password\":\"user1pass\",\"new_password\":\"newpassword123\"}}"
+        "generated_output": "{\"api_name\": \"ModifyPassword\",\n      \"parameters\": {\n        \"token\": \"n9m8k7j6h5g4f3d2s1a0\",\n        \"old_password\": \"user1pass\",\n        \"new_password\": \"newpassword123\"\n      }\n    }"
     },
     {
         "id": 180,
@@ -11050,7 +11050,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"john@example.com\",\"password\":\"abc123\",\"name\":\"John Smith\"}}\n```"
+        "generated_output": "{\"api_name\": \"OpenBankAccount\", \"parameters\": {\"account\": \"john@example.com\", \"password\": \"abc123\", \"name\": \"John Smith\"}}"
     },
     {
         "id": 231,
@@ -11102,7 +11102,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"RegisterUser\",\"parameters\":{\"username\":\"user123\",\"password\":\"pass123\",\"email\":\"user123@example.com\"}}\n```"
+        "generated_output": "{\"api_name\": \"RegisterUser\", \"parameters\": {\"username\": \"user123\", \"password\": \"pass123\", \"email\": \"user123@example.com\"}}"
     },
     {
         "id": 319,
@@ -11187,7 +11187,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"newuser\", \"password\": \"newpass\"}}\n```"
+        "generated_output": "{\"api_name\": \"GetUserToken\",\n      \"parameters\": {\n        \"username\": \"newuser\",\n        \"password\": \"newpass\"\n      }\n    }"
     },
     {
         "id": 293,
@@ -11234,7 +11234,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"Olivia Davis\",\"date\":\"2023-10-10\"}}"
+        "generated_output": "{\"api_name\": \"QueryRegistration\", \"parameters\": {\"patient_name\": \"Olivia Davis\", \"date\": \"2023-10-10\"}}"
     },
     {
         "id": 183,
@@ -11316,7 +11316,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryReminder\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"content\":\"call my mom\",\"time\":\"2023-03-16 14:30:00\"}}"
+        "generated_output": "{\"api_name\": \"QueryReminder\", \"parameters\": {\"token\": \"a9s8d7f6g5h4j3k2l1\", \"content\": \"call my mom\", \"time\": \"2023-03-16 14:30:00\"}}"
     },
     {
         "id": 496,
@@ -11358,7 +11358,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"ToolSearcher\",\"parameters\":{\"keywords\":\"reminder\"}}"
+        "generated_output": "{\"api_name\": \"ToolSearcher\", \"parameters\": {\"keywords\": \"modify reminder\"}}"
     },
     {
         "id": 19,
@@ -11460,7 +11460,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"QueryMeeting\",\"parameters\":{\"token\":\"a9s8d7f6g5h4j3k2l1\",\"meeting_topic\":\"Sales Meeting\",\"start_time\":\"2023-03-20 14:00:00\",\"end_time\":\"2023-03-20 16:00:00\",\"location\":\"Conference Room A\",\"attendees\":[\"John Smith\",\"Jane Doe\"]}}"
+        "generated_output": "{\"api_name\": \"QueryMeeting\",\n      \"parameters\": {\n        \"token\": \"a9s8d7f6g5h4j3k2l1\",\n        \"meeting_topic\": \"Sales Meeting\",\n        \"start_time\": \"2023-03-20 14:00:00\",\n        \"end_time\": \"2023-03-20 16:00:00\",\n        \"location\": \"Conference Room A\",\n        \"attendees\": [\"John Smith\", \"Jane Doe\"]\n      }\n    }"
     },
     {
         "id": 29,
@@ -11541,7 +11541,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user1\",\"password\":\"user1pass\"}}"
+        "generated_output": "{\"api_name\": \"GetUserToken\", \"parameters\": {\"username\": \"user1\", \"password\": \"user1pass\"}}"
     },
     {
         "id": 286,
@@ -11583,7 +11583,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"SymptomSearch\",\"parameters\":{\"symptom\":\"abdominal pain\"}}\n```"
+        "generated_output": "{\"api_name\": \"SymptomSearch\", \"parameters\": {\"symptom\": \"abdominal pain\"}}"
     },
     {
         "id": 248,
@@ -11635,7 +11635,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"RegisterUser\",\"parameters\":{\"username\":\"JohnSmith123\",\"password\":\"qwerty1234\",\"email\":\"johnsmith123@gmail.com\"}}"
+        "generated_output": "{\"api_name\": \"RegisterUser\",\n      \"parameters\": {\n        \"username\": \"JohnSmith123\",\n        \"password\": \"qwerty1234\",\n        \"email\": \"johnsmith123@gmail.com\"\n      }\n    }"
     },
     {
         "id": 124,
@@ -11717,7 +11717,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"DeleteReminder\",\"parameters\":{\"token\":\"q9w8e7r6t5y4u3i2o1\",\"content\":\"call the dentist\",\"time\":\"2023-03-16 16:30:00\"}}"
+        "generated_output": "{\"api_name\": \"DeleteReminder\", \"parameters\": {\"token\": \"q9w8e7r6t5y4u3i2o1\", \"content\": \"to call the dentist\", \"time\": \"2023-03-16 16:30:00\"}}"
     },
     {
         "id": 174,
@@ -11759,7 +11759,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\":\"04-21\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryHistoryToday\", \"parameters\": {\"date\": \"04-21\"}}"
     },
     {
         "id": 273,
@@ -11801,7 +11801,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"DeleteScene\",\"parameters\":{\"name\":\"Relaxing Time\"}}\n```"
+        "generated_output": "{\"api_name\": \"DeleteScene\", \"parameters\": {\"name\": \"Relaxing Time\"}}"
     },
     {
         "id": 227,
@@ -11936,7 +11936,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"NFLX\",\"date\":\"2022-02-23\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryStock\", \"parameters\": {\"stock_code\": \"NFLX\", \"date\": \"2022-02-23\"}}"
     },
     {
         "id": 127,
@@ -12085,7 +12085,7 @@
                 }
             ]
         },
-        "generated_output": "{\"api_name\":\"AppointmentRegistration\",\"parameters\":{\"patient_name\":\"Mary\",\"date\":\"2023-11-15\",\"doctor_name\":\"Dr. Lee\"}}"
+        "generated_output": "{\"api_name\": \"AppointmentRegistration\", \"parameters\": {\"patient_name\": \"Mary\", \"date\": \"2023-11-15\", \"doctor_name\": \"Dr. Lee\"}}"
     },
     {
         "id": 232,
@@ -12127,7 +12127,7 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\": \"QueryHistoryToday\", \"parameters\": {\"date\": \"12-10\"}}\n```"
+        "generated_output": "{\"api_name\": \"QueryHistoryToday\", \"parameters\": {\"date\": \"12-10\"}}"
     },
     {
         "id": 136,
@@ -12328,6 +12328,6 @@
                 }
             ]
         },
-        "generated_output": "```json\n{\"api_name\":\"ModifyRegistration\",\"parameters\":{\"appointment_id\":\"90123456\",\"new_appointment_date\":\"2023-10-15\",\"new_appointment_doctor\":\"Dr. Brown\"}}\n```"
+        "generated_output": "{\"api_name\": \"ModifyRegistration\", \"parameters\": {\"appointment_id\": \"90123456\", \"new_appointment_date\": \"2023-10-15\", \"new_appointment_doctor\": \"Dr. Brown\"}}"
     }
 ]

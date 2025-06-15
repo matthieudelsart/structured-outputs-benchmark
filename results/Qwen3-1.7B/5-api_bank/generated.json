@@ -1,0 +1,814 @@
+[
+    {
+        "id": 129,
+        "input": "User: Can you give me the definition of the word \"resilience\"?\nAI: Sure, let me check.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"Dictionary\", \"description\": \"This API searches the dictionary for a given keyword.\", \"input_parameters\": {\"keyword\": {\"type\": \"str\", \"description\": \"The keyword to search.\"}}, \"output_parameters\": {\"results\": {\"type\": \"list\", \"description\": \"The list of results. Format be like [{\\\"partOfSpeech\\\": \\\"xxx\\\", \\\"definitions\\\": [{\\\"definition\\\": \\\"xxx\\\", \\\"example\\\": \\\"xxx\\\", \\\"synonyms\\\": [\\\"xxx\\\", \\\"xxx\\\"]}, ...]\"}}}",
+        "output": {
+            "api_name": "Dictionary",
+            "parameters": {
+                "keyword": "resilience"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "Dictionary"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "keyword"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "keyword": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"Dictionary\",\"parameters\":{\"keyword\":\"resilience\"}}"
+    },
+    {
+        "id": 362,
+        "input": "User: Can you help me find some information about a headache?\nAI: Sure, I can assist you with that. What specific symptom are you experiencing?\nUser: I have a headache and it's really bothering me.\nAI: Understood. Let me search for some information.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"EmergencyKnowledge\", \"description\": \"This API searches for a given symptom for emergency knowledge.\", \"input_parameters\": {\"symptom\": {\"type\": \"str\", \"description\": \"The symptom to search.\"}}, \"output_parameters\": {\"results\": {\"type\": \"list\", \"description\": \"The list of results. Format be like [{\\\"name\\\":possible disease name, \\\"aid\\\": first-aid method},...]\"}}}",
+        "output": {
+            "api_name": "EmergencyKnowledge",
+            "parameters": {
+                "symptom": "Headache"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "EmergencyKnowledge"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "symptom"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "symptom": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"headache\"}}"
+    },
+    {
+        "id": 229,
+        "input": "User: Can you tell me the stock price for NFLX on February 23, 2022?\nAI: Sure, I can help you with that.\nAPI-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"NFLX\",\"date\":\"2022-02-23\"}}->614.2\nAI: The stock price of NFLX on February 23, 2022 was 614.2.\nUser: Can you check my account balance?\nAI: Yes, I can. I need your token for that.\nUser: My username is user3 and password is user3pass.\nAPI-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user3\",\"password\":\"user3pass\"}}->{'token': 'p9o8i7u6y5t4r3e2w1q'}\nAI: Now, I can check your account balance.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"OpenBankAccount\", \"description\": \"This is an API for opening a bank account for a user, given the account, password and name.\", \"input_parameters\": {\"account\": {\"type\": \"str\", \"description\": \"The account for the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password.\"}, \"name\": {\"type\": \"str\", \"description\": \"account holder name.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n{\"name\": \"QueryStock\", \"description\": \"This API queries the stock price of a given stock code and date.\", \"input_parameters\": {\"stock_code\": {\"type\": \"str\", \"description\": \"The stock code of the given stock.\"}, \"date\": {\"type\": \"str\", \"description\": \"The date of the stock price. Format: %Y-%m-%d\"}}, \"output_parameters\": {\"stock_price\": {\"type\": \"float\", \"description\": \"The stock price of the given stock.\"}}}\n{\"name\": \"QueryBalance\", \"description\": \"This API queries the balance of a given user.\", \"input_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}, \"output_parameters\": {\"balance\": {\"type\": \"float\", \"description\": \"The balance of the user.\"}}}\n{\"name\": \"GetUserToken\", \"description\": \"Get the user token by username and password.\", \"input_parameters\": {\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}, \"output_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}}",
+        "output": {
+            "api_name": "QueryBalance",
+            "parameters": {
+                "token": "p9o8i7u6y5t4r3e2w1q"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "OpenBankAccount"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "account",
+                                "password",
+                                "name"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "account": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryStock"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "stock_code",
+                                "date"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "stock_code": {
+                                    "type": "string"
+                                },
+                                "date": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryBalance"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "GetUserToken"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "username",
+                                "password"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "username": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"QueryBalance\",\"parameters\":{\"token\":\"p9o8i7u6y5t4r3e2w1q\"}}"
+    },
+    {
+        "id": 280,
+        "input": "User: Can you help me modify a reminder with the description \"Submit report\" at 9 am on March 17th, 2023?\nAI: Sure, I can help with that. Can you please provide me your username, password, and email?\nUser: My username is testuser, password is testpass, and email is testuser@example.com.\nAI: Thank you. Let me authenticate you.\nAPI-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"testuser\",\"password\":\"testpass\"}}->{'token': 'p9o8i7u6y5t4k3e2w1q'}\nAI: Got it. Now, what is the description for the reminder and at what time should it be triggered?\nUser: The description is \"Submit report\" and it should be triggered at 9 am on March 17th, 2023.\nAI: Great.\nAPI-Request: {\"api_name\":\"ModifyReminder\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Submit report\",\"time\":\"2023-03-17 09:00:00\"}}->success\nAI: Done. Your reminder has been modified successfully. Anything else I can help with?\nUser: Yes, can you add an agenda item for March 20th, 2023, with the description \"Dinner with friends\" at the Cheesecake Factory?\nAI: Of course. Please provide me your username, password, and email for authentication\nUser: My username is testuser, password is testpass, and email is testuser@example.com.\nAI: Thank you. Let me authenticate you.\nAPI-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"testuser\",\"password\":\"testpass\"}}->{'token': 'p9o8i7u6y5t4k3e2w1q'}\nAI: Okay. What is the description, time, and location for the agenda item?\nUser: The description is \"Dinner with friends\", the time is March 20th, 2023 and the location is the Cheesecake Factory.\nAI: Got it.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"DeleteAgenda\", \"description\": \"The API for deleting a schedule item includes parameters for token, content, time, and location.\", \"input_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}, \"content\": {\"type\": \"str\", \"description\": \"The content of the agenda.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time for agenda. Format: %Y-%m-%d %H:%M:%S\"}, \"location\": {\"type\": \"str\", \"description\": \"The location of the agenda.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n{\"name\": \"ModifyReminder\", \"description\": \"The API for deleting a reminder item includes content and time.\", \"input_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}, \"content\": {\"type\": \"str\", \"description\": \"The content of the conference.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time for conference. Format: %Y-%m-%d %H:%M:%S\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n{\"name\": \"GetUserToken\", \"description\": \"Get the user token by username and password.\", \"input_parameters\": {\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}, \"output_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}}\n{\"name\": \"AddAgenda\", \"description\": \"The API for adding a agenda item includes content, time and location.\", \"input_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"User's token.\"}, \"content\": {\"type\": \"str\", \"description\": \"The content of the agenda.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time for agenda. Format: %Y-%m-%d %H:%M:%S\"}, \"location\": {\"type\": \"str\", \"description\": \"The location of the agenda.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}",
+        "output": {
+            "api_name": "AddAgenda",
+            "parameters": {
+                "token": "p9o8i7u6y5t4k3e2w1q",
+                "content": "Dinner with friends",
+                "time": "2023-03-20 00:00:00",
+                "location": "Cheesecake Factory"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "DeleteAgenda"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "token",
+                                "content",
+                                "time",
+                                "location"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                },
+                                "content": {
+                                    "type": "string"
+                                },
+                                "time": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                                },
+                                "location": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "ModifyReminder"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "token",
+                                "content",
+                                "time"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                },
+                                "content": {
+                                    "type": "string"
+                                },
+                                "time": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "GetUserToken"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "username",
+                                "password"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "username": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "AddAgenda"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "token",
+                                "content",
+                                "time",
+                                "location"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                },
+                                "content": {
+                                    "type": "string"
+                                },
+                                "time": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                                },
+                                "location": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"DeleteAgenda\",\"parameters\":{\"token\":\"p9o8i7u6y5t4k3e2w1q\",\"content\":\"Dinner with friends\",\"time\":\"2023-03-20 18:00:00\",\"location\":\"Cheesecake Factory\"}}"
+    },
+    {
+        "id": 233,
+        "input": "User: Can you give me my health data for the last week?\nAI: Sure, I can help you with that. Can you please provide your user id?\nUser: A12345\nAI: Great. And what is the start time of the time span you're interested in? Please provide the time in the format: %Y-%m-%d %H:%M:%S\nUser: 2023-03-08 00:00:00\nAI: And what is the end time of the time span you're interested in? Please provide the time in the format: %Y-%m-%d %H:%M:%S\nUser: 2023-03-15 23:59:59\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"QueryHealthData\", \"description\": \"This API queries the recorded health data in database of a given user and time span.\", \"input_parameters\": {\"user_id\": {\"type\": \"str\", \"description\": \"The user id of the given user. Cases are ignored.\"}, \"start_time\": {\"type\": \"str\", \"description\": \"The start time of the time span. Format: %Y-%m-%d %H:%M:%S\"}, \"end_time\": {\"type\": \"str\", \"description\": \"The end time of the time span. Format: %Y-%m-%d %H:%M:%S\"}}, \"output_parameters\": {\"health_data\": {\"type\": \"list\", \"description\": \"The health data of the given user and time span.\"}}}",
+        "output": {
+            "api_name": "QueryHealthData",
+            "parameters": {
+                "user_id": "A12345",
+                "start_time": "2023-03-08 00:00:00",
+                "end_time": "2023-03-15 23:59:59"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryHealthData"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "user_id",
+                                "start_time",
+                                "end_time"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "user_id": {
+                                    "type": "string"
+                                },
+                                "start_time": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                                },
+                                "end_time": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"QueryHealthData\",\"parameters\":{\"user_id\":\"A12345\",\"start_time\":\"2023-03-08 00:00:00\",\"end_time\":\"2023-03-15 23:59:59\"}}"
+    },
+    {
+        "id": 282,
+        "input": "User: Can you give me the key features of the software in this article - https://www.example.com/article-4.txt?\nAI: Sure, what's the question you want me to answer?\nUser: What are the key features of this software?\nAI: Let me check.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"DocumentQA\", \"description\": \"This API answers the question from a given document url.\", \"input_parameters\": {\"url\": {\"type\": \"str\", \"description\": \"The url to download the document. It should end with .txt.\"}, \"question\": {\"type\": \"str\", \"description\": \"The question to be answered.\"}}, \"output_parameters\": {\"answer\": {\"type\": \"str\", \"description\": \"The answer to the question.\"}}}",
+        "output": {
+            "api_name": "DocumentQA",
+            "parameters": {
+                "url": "https://www.example.com/article-4.txt",
+                "question": "What are the key features of this software?"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "DocumentQA"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "url",
+                                "question"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "url": {
+                                    "type": "string"
+                                },
+                                "question": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"DocumentQA\",\"parameters\":{\"url\":\"https://www.example.com/article-4.txt\",\"question\":\"What are the key features of this software?\"}}"
+    },
+    {
+        "id": 234,
+        "input": "User: Can you tell me the historical events that happened on April 21st?\nAI: Sure, I can query the history for you.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"QueryHistoryToday\", \"description\": \"This API queries the history of the given date.\", \"input_parameters\": {\"date\": {\"type\": \"str\", \"description\": \"The date of the history. Format: %m-%d\"}}, \"output_parameters\": {\"history\": {\"type\": \"list\", \"description\": \"The history of the user today.\"}}}\n{\"name\": \"Calculator\", \"description\": \"This API provides basic arithmetic operations: addition, subtraction, multiplication, and division.\", \"input_parameters\": {\"formula\": {\"type\": \"str\", \"description\": \"The formula that needs to be calculated. Only integers are supported. Valid operators are +, -, *, /, and (, ). For example, '(1 + 2) * 3'.\"}}, \"output_parameters\": {\"result\": {\"type\": \"float\", \"description\": \"The result of the formula.\"}}}",
+        "output": {
+            "api_name": "QueryHistoryToday",
+            "parameters": {
+                "date": "04-21"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryHistoryToday"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "date"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "date": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "Calculator"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "formula"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "formula": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"QueryHistoryToday\",\"parameters\":{\"date\":\"04-21\"}}"
+    },
+    {
+        "id": 395,
+        "input": "User: Can you record my health data?\nAI: Sure! What's your user ID?\nUser: My user ID is 12345.\nAI: What is the date and time for the health data?\nUser: It is today, at 10:30 am. Today is 2021-09-17.\nAI: Great. What health data would you like to record?\nUser: Blood pressure is 120/80 and heart rate is 75.\nAI: Got it.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"RecordHealthData\", \"description\": \"This API records the health data of a user.\", \"input_parameters\": {\"user_id\": {\"type\": \"str\", \"description\": \"The ID of user.\"}, \"time\": {\"type\": \"str\", \"description\": \"The time of health data. Format: %Y-%m-%d %H:%M:%S\"}, \"health_data\": {\"type\": \"list\", \"description\": \"The health data, with the format like [{'name': 'blood_pressure', 'value': '120/80'}, {'name': 'heart_rate', 'value': '80'}]\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"The status of recording.\"}}}",
+        "output": {
+            "api_name": "RecordHealthData",
+            "parameters": {
+                "user_id": "12345",
+                "time": "2021-09-17 10:30:00",
+                "health_data": [
+                    {
+                        "name": "blood_pressure",
+                        "value": "120/80"
+                    },
+                    {
+                        "name": "heart_rate",
+                        "value": "75"
+                    }
+                ]
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "RecordHealthData"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "user_id",
+                                "time",
+                                "health_data"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "user_id": {
+                                    "type": "string"
+                                },
+                                "time": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                                },
+                                "health_data": {
+                                    "type": "array"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"RecordHealthData\",\"parameters\":{\"user_id\":\"12345\",\"time\":\"2023-09-17 10:30:00\",\"health_data\":[{\"name\":\"blood_pressure\",\"value\":\"120/80\"},{\"name\":\"heart_rate\",\"value\":\"75\"}]}}"
+    },
+    {
+        "id": 26,
+        "input": "User: Can you tell me the stock price of Amazon on March 12th, 2022?\nAI: Sure, let me check that for you.\nAPI-Request: {\"api_name\":\"QueryStock\",\"parameters\":{\"stock_code\":\"AMZN\",\"date\":\"2022-03-12\"}}->3026.1\nAI: The stock price of Amazon on March 12th, 2022 was 3026.1.\nUser: I want to open a bank account.\nAI: Alright, I can help you with that. What account identifier would you like to use?\nUser: My account identifier is user4.\nAI: Great. What password would you like to use for your account?\nUser: My password is user4pass.\nAI: And what should I use as your name on the account?\nUser: Use John.\nAPI-Request: {\"api_name\":\"OpenBankAccount\",\"parameters\":{\"account\":\"user4\",\"password\":\"user4pass\",\"name\":\"John\"}}->success\nAI: Your account has been successfully created.\nUser: How much money do I have in my account?\nAPI-Request: {\"api_name\":\"GetUserToken\",\"parameters\":{\"username\":\"user4\",\"password\":\"user4pass\"}}->{'token': 'q9w8e7r6t5y4u3i2o1'}\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"OpenBankAccount\", \"description\": \"This is an API for opening a bank account for a user, given the account, password and name.\", \"input_parameters\": {\"account\": {\"type\": \"str\", \"description\": \"The account for the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password.\"}, \"name\": {\"type\": \"str\", \"description\": \"account holder name.\"}}, \"output_parameters\": {\"status\": {\"type\": \"str\", \"description\": \"success or failed\"}}}\n{\"name\": \"QueryStock\", \"description\": \"This API queries the stock price of a given stock code and date.\", \"input_parameters\": {\"stock_code\": {\"type\": \"str\", \"description\": \"The stock code of the given stock.\"}, \"date\": {\"type\": \"str\", \"description\": \"The date of the stock price. Format: %Y-%m-%d\"}}, \"output_parameters\": {\"stock_price\": {\"type\": \"float\", \"description\": \"The stock price of the given stock.\"}}}\n{\"name\": \"QueryBalance\", \"description\": \"This API queries the balance of a given user.\", \"input_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}, \"output_parameters\": {\"balance\": {\"type\": \"float\", \"description\": \"The balance of the user.\"}}}\n{\"name\": \"GetUserToken\", \"description\": \"Get the user token by username and password.\", \"input_parameters\": {\"username\": {\"type\": \"str\", \"description\": \"The username of the user.\"}, \"password\": {\"type\": \"str\", \"description\": \"The password of the user.\"}}, \"output_parameters\": {\"token\": {\"type\": \"str\", \"description\": \"The token of the user.\"}}}",
+        "output": {
+            "api_name": "QueryBalance",
+            "parameters": {
+                "token": "q9w8e7r6t5y4u3i2o1"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "OpenBankAccount"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "account",
+                                "password",
+                                "name"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "account": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryStock"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "stock_code",
+                                "date"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "stock_code": {
+                                    "type": "string"
+                                },
+                                "date": {
+                                    "type": "string",
+                                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryBalance"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "GetUserToken"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "username",
+                                "password"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "username": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"QueryBalance\",\"parameters\":{\"token\":\"q9w8e7r6t5y4u3i2o1\"}}"
+    },
+    {
+        "id": 263,
+        "input": "User: Can you check the registration of patient with ID 34567890 on March 25, 2023 and tell me about his appointments?\nAI: What's your name?\nUser: Robert Lee\nAI: Sure, let me check. \nAPI-Request: {\"api_name\":\"QueryRegistration\",\"parameters\":{\"patient_name\":\"Robert Lee\",\"date\":\"2023-03-25\"}}->{'34567890': {'patient_name': 'Robert Lee', 'date': '2023-03-25', 'doctor_name': 'Dr. Kim'}}\nAI: According to the registration, Robert Lee has one appointment on March 25, 2023 with Dr. Kim.\nUser: Thank you. Can you also search for possible diseases related to shortness of breath and their first-aid methods?\nAI: Of course, please tell me the symptom for which you want to search.\nUser: Shortness of breath.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"EmergencyKnowledge\", \"description\": \"This API searches for a given symptom for emergency knowledge.\", \"input_parameters\": {\"symptom\": {\"type\": \"str\", \"description\": \"The symptom to search.\"}}, \"output_parameters\": {\"results\": {\"type\": \"list\", \"description\": \"The list of results. Format be like [{\\\"name\\\":possible disease name, \\\"aid\\\": first-aid method},...]\"}}}\n{\"name\": \"QueryRegistration\", \"description\": \"This API queries the registration of a patient, given patient ID.\", \"input_parameters\": {\"patient_name\": {\"type\": \"str\", \"description\": \"The name of patient.\"}, \"date\": {\"type\": \"str\", \"description\": \"The date of appointment. Format be like %Y-%m-%d\"}}, \"output_parameters\": {\"appointments\": {\"type\": \"list\", \"description\": \"The dict where from appointment_id to a list like [\\\"patient_name\\\":xxx, \\\"date\\\":xxx, \\\"doctor_name\\\":xxx]\"}}}",
+        "output": {
+            "api_name": "EmergencyKnowledge",
+            "parameters": {
+                "symptom": "shortness of breath"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "EmergencyKnowledge"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "symptom"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "symptom": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "QueryRegistration"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "patient_name",
+                                "date"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "patient_name": {
+                                    "type": "string"
+                                },
+                                "date": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "API-Request: {\"api_name\":\"EmergencyKnowledge\",\"parameters\":{\"symptom\":\"Shortness of breath\"}}"
+    }
+]

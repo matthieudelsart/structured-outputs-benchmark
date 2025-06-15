@@ -1,0 +1,141 @@
+[
+    {
+        "id": 4758,
+        "input": "Where are the active photo radar cameras in the 10 mile radius around my house",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION_AVOID\": \"yes\",\n    \"PATH_AVOID\": \"yes\",\n    \"ROAD_CONDITION\": \"yes\",\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {\n        \"LOCATION\": \"my house\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 8303,
+        "input": "what is the traffic on the belt",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "the belt"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"belt\",\n    \"OBSTRUCTION_AVOID\": \"\",\n    \"PATH\": \"\",\n    \"PATH_AVOID\": \"\",\n    \"ROAD_CONDITION\": \"\",\n    \"SOURCE\": \"\"\n  }\n}"
+    },
+    {
+        "id": 2766,
+        "input": "Bon Iver concerts this weekend near me",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "NAME_EVENT": "Bon Iver",
+                "CATEGORY_EVENT": "concerts",
+                "DATE_TIME": "this weekend",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "near",
+                        "LOCATION_USER": "me"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"ATTRIBUTE_EVENT\": \"Bon Iver concerts\",\n    \"CATEGORY_EVENT\": \"concert\",\n    \"DATE_TIME\": \"this weekend\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"near me\"\n      }\n    },\n    \"ORGANIZER_EVENT\": \"Bon Iver\"\n  }\n}"
+    },
+    {
+        "id": 150,
+        "input": "I'm looking for a Broadway show for tomorrow afternoon",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "a Broadway show",
+                "DATE_TIME": "for tomorrow afternoon"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"DATE_TIME\": \"tomorrow afternoon\",\n    \"NAME_EVENT\": \"Broadway show\",\n    \"CATEGORY_EVENT\": \"event\",\n    \"LOCATION\": \"Broadway\"\n  }\n}"
+    },
+    {
+        "id": 3712,
+        "input": "Are there any traffic problems between here and home this afternoon?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {}
+                },
+                "DATE_TIME": "this afternoon"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"here\"\n      }\n    },\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"home\"\n      }\n    },\n    \"METHOD_TRAVEL\": \"driving\"\n  }\n}"
+    },
+    {
+        "id": 7383,
+        "input": "Are the roads flooded this evening?",
+        "output": {
+            "intent": "GET_INFO_ROAD_CONDITION",
+            "slots": {
+                "ROAD_CONDITION": "flooded",
+                "DATE_TIME": "this evening"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"this evening\"\n      }\n    },\n    \"OBSTRUCTION_AVOID\": \"yes\",\n    \"PATH_AVOID\": \"yes\",\n    \"ROAD_CONDITION\": \"flooded\"\n  }\n}"
+    },
+    {
+        "id": 3832,
+        "input": "What time of day is traffic the lightest in Niagara Falls, ON",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Niagara Falls, ON\"\n      }\n    },\n    \"OBSTRUCTION_AVOID\": \"yes\",\n    \"PATH_AVOID\": \"yes\"\n  }\n}"
+    },
+    {
+        "id": 2996,
+        "input": "will there be much traffic between here and the zoo",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "the zoo"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION_AVOID\": \"no\",\n    \"PATH_AVOID\": \"no\",\n    \"ROAD_CONDITION\": \"no\",\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"here\"\n      }\n    },\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"the zoo\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 7764,
+        "input": "will i hit any construction on my commute",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "PATH": "my commute"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION_AVOID\": \"yes\",\n    \"PATH_AVOID\": \"yes\",\n    \"ROAD_CONDITION\": \"yes\"\n  }\n}"
+    },
+    {
+        "id": 431,
+        "input": "Chocolate Tours  for this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Chocolate Tours",
+                "DATE_TIME": "for this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Chocolate Tours\",\n    \"ORDINAL\": \"this weekend\"\n  }\n}"
+    }
+]

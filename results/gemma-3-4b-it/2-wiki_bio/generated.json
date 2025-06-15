@@ -155,7 +155,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Robert W. Doll\",\n    \"bbr\": \"\",\n    \"birth_date\": \"1919-08-10\",\n    \"birth_place\": \"California\",\n    \"career_end\": \"1959-09-18\",\n    \"career_start\": \"1946\",\n    \"college\": \"University of Colorado\",\n    \"death_date\": \"1959-09-18\",\n    \"height_ft\": \"6\",\n    \"height_in\": \"\",\n    \"highschool\": \"Chaffey High School\",\n    \"name\": \"Robert W. Doll\",\n    \"number\": \"8.4\",\n    \"position\": \"post player\",\n    \"statlabel\": \"points per game\",\n    \"statvalue\": \"15.5\",\n    \"team\": \"St. Louis Bombers; Boston Celtics\",\n    \"weight_lbs\": \"\",\n    \"years\": \"1939-1942; 1943; 1946-1959\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Robert W. Doll\",\n    \"bbr\": \"\",\n    \"birth_date\": \"1919-08-10\",\n    \"birth_place\": \"California\",\n    \"career_end\": \"1959\",\n    \"career_start\": \"1946\",\n    \"college\": \"University of Colorado\",\n    \"death_date\": \"1959-09-18\",\n    \"height_ft\": \"6\",\n    \"height_in\": \"\",\n    \"highschool\": \"Chaffey High School\",\n    \"name\": \"Robert W. Doll\",\n    \"number\": \"8.4\",\n    \"position\": \"Post Player\",\n    \"statlabel\": \"Points per game\",\n    \"statvalue\": \"15.5\",\n    \"team\": \"St. Louis Bombers; Boston Celtics\",\n    \"weight_lbs\": \"\",\n    \"years\": \"1939-1942; 1943; 1946-1959\"\n}\n```"
     },
     {
         "id": 53161,
@@ -343,7 +343,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"birth_date\": \"1732-01-24\",\n    \"birth_name\": \"Pierre-Augustin Caron\",\n    \"birth_place\": \"Savigny-l'\u00c9v\u00eaque\",\n    \"death_date\": \"1799-05-18\",\n    \"death_place\": \"Paris\",\n    \"genre\": \"playwright\",\n    \"name\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"nationality\": \"French\",\n    \"notableworks\": \"the three figaro plays\",\n    \"period\": \"18th century; 1770s; 1780s; 1790s\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"birth_date\": \"1732-01-24\",\n    \"birth_name\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"birth_place\": \"Bourges\",\n    \"death_date\": \"1799-05-18\",\n    \"death_place\": \"Paris\",\n    \"genre\": \"playwright\",\n    \"name\": \"Pierre-Augustin Caron de Beaumarchais\",\n    \"nationality\": \"French\",\n    \"notableworks\": \"the three figaro plays\",\n    \"period\": \"18th century\"\n}\n```"
     },
     {
         "id": 46040,
@@ -632,7 +632,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Francis Longworth Haszard\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1849-11-20\",\n    \"birth_place\": \"Bellevue, Lot 49, Prince Edward Island\",\n    \"cabinet\": \"\",\n    \"children\": \"\",\n    \"death_date\": \"1938-07-25\",\n    \"death_place\": \"Prince Edward Island\",\n    \"lieutenant_governor\": \"Arthur Peters\",\n    \"monarch\": \"United Kingdom\",\n    \"name\": \"Francis Longworth Haszard\",\n    \"nationality\": \"Canada\",\n    \"occupation\": \"politician, jurist\",\n    \"office\": \"Premier of Prince Edward Island, Magistrate, Master of the Rolls\",\n    \"order\": \"\",\n    \"party\": \"Liberal\",\n    \"predecessor\": \"Arthur Peters\",\n    \"profession\": \"lawyer\",\n    \"religion\": \"\",\n    \"residence\": \"Prince Edward Island\",\n    \"spouse\": \"\",\n    \"successor\": \"\",\n    \"term_end\": \"1911\",\n    \"term_start\": \"1908\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Francis Longworth Haszard\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1849-11-20\",\n    \"birth_place\": \"Bellevue, Lot 49, Prince Edward Island\",\n    \"cabinet\": \"\",\n    \"children\": \"\",\n    \"death_date\": \"1938-07-25\",\n    \"death_place\": \"Prince Edward Island\",\n    \"lieutenant_governor\": \"Arthur Peters\",\n    \"monarch\": \"United Kingdom\",\n    \"name\": \"Francis Longworth Haszard\",\n    \"nationality\": \"Canada\",\n    \"occupation\": \"politician, jurist\",\n    \"office\": \"Premier of Prince Edward Island, Magistrate, Master of the Rolls, Supreme Court Justice\",\n    \"order\": \"\",\n    \"party\": \"Liberal\",\n    \"predecessor\": \"Arthur Peters\",\n    \"profession\": \"lawyer\",\n    \"religion\": \"\",\n    \"residence\": \"Prince Edward Island\",\n    \"spouse\": \"\",\n    \"successor\": \"\",\n    \"term_end\": \"1911\",\n    \"term_start\": \"1908\"\n}\n```"
     },
     {
         "id": 7982,
@@ -840,7 +840,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"John William King\",\n    \"batting\": \"Right-handed\",\n    \"birth_date\": \"1908-01-21\",\n    \"birth_place\": \"England\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"Worcestershire; Leicestershire\",\n    \"column\": \"First-class matches\",\n    \"columns\": \"\",\n    \"country\": \"England\",\n    \"date\": \"1927-05\",\n    \"death_date\": \"1953-03-25\",\n    \"death_place\": \"\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"John William King\",\n    \"matches\": \"48\",\n    \"name\": \"John William King\",\n    \"runs\": \"1000\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"\",\n    \"year\": \"1927, 1928, 1929, 1953\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"John William King\",\n    \"batting\": \"Right-handed\",\n    \"birth_date\": \"1908-01-21\",\n    \"birth_place\": \"England\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"Worcestershire; Leicestershire\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"England\",\n    \"date\": \"1927-05\",\n    \"death_date\": \"1953-03-25\",\n    \"death_place\": \"\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"John William King\",\n    \"matches\": \"48\",\n    \"name\": \"John William King\",\n    \"runs\": \"1002\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"\",\n    \"year\": \"1927, 1928, 1929, 1953\"\n}\n```"
     },
     {
         "id": 61186,
@@ -1152,7 +1152,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    'article_title': \"claude bourdet\",\n    'alma_mater': \"swiss federal institute of technology zurich\",\n    'birth_date': \"1909-10-28\",\n    'birth_place': \"paris\",\n    'death_date': \"1996-03-20\",\n    'death_place': \"paris\",\n    'name': \"claude bourdet\",\n    'nationality': \"french\",\n    'occupation': \"writer; journalist; polemist; militant politician\",\n    'portaldisp': \"\",\n    'relatives': \"\u00c9douard bourdet; catherine pozzi\"\n}\n```"
+        "generated_output": "```json\n{\n    'article_title': \"claude bourdet\",\n    'alma_mater': \"\",\n    'birth_date': \"1909-10-28\",\n    'birth_place': \"paris\",\n    'death_date': \"1996-03-20\",\n    'death_place': \"paris\",\n    'name': \"claude bourdet\",\n    'nationality': \"french\",\n    'occupation': \"writer; journalist; polemist; politician\",\n    'portaldisp': \"\",\n    'relatives': \"\u00c9douard bourdet; catherine pozzi\"\n}\n```"
     },
     {
         "id": 11747,
@@ -1266,7 +1266,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Francis William Rhodes\",\n    \"allegiance\": \"\",\n    \"birth_date\": \"1850-04-09\",\n    \"birth_name\": \"Francis William Rhodes\",\n    \"birth_place\": \"\"\"\",\n    \"branch\": \"British Army\",\n    \"death_date\": \"1905-09-21\",\n    \"death_place\": \"Groot Schuur, Cape Colony\",\n    \"name\": \"Francis William Rhodes\",\n    \"nickname\": \"Frank\",\n    \"placeofburial\": \"Dalham Hall, village\",\n    \"placeofburial_label\": \"Dalham Hall, village\",\n    \"relations\": \"Cecil Rhodes\",\n    \"serviceyears\": \"1873\u20131903\",\n    \"unit\": \"1st Royal Dragoons\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Francis William Rhodes\",\n    \"allegiance\": \"\",\n    \"birth_date\": \"1850-04-09\",\n    \"birth_name\": \"Francis William Rhodes\",\n    \"birth_place\": \"\"\"\",\n    \"branch\": \"British Army\",\n    \"death_date\": \"1905-09-21\",\n    \"death_place\": \"Groot Schuur, Cape Colony\",\n    \"name\": \"Francis William Rhodes\",\n    \"nickname\": \"Frank\",\n    \"placeofburial\": \"Dalham Hall, Natal\",\n    \"placeofburial_label\": \"Dalham Hall\",\n    \"relations\": \"Cecil Rhodes\",\n    \"serviceyears\": \"1873\u20131903\",\n    \"unit\": \"1st Royal Dragoons\"\n}\n```"
     },
     {
         "id": 31646,
@@ -1508,7 +1508,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Anthony William Durley\",\n    \"batting\": \"right-handed\",\n    \"birth_date\": \"1933-09-30\",\n    \"birth_place\": \"Ilford, Essex\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"Essex; Bedfordshire; Hertfordshire\",\n    \"column\": \"list a\",\n    \"columns\": \"\",\n    \"country\": \"England\",\n    \"date\": \"1993-01-01\",\n    \"death_date\": \"1993-01-01\",\n    \"death_place\": \"Luton, Bedfordshire\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"Anthony William Durley\",\n    \"matches\": \"5\",\n    \"name\": \"Anthony William Durley\",\n    \"role\": \"wicket-keeper\",\n    \"runs\": \"140\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"0\",\n    \"year\": \"1933\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Anthony William Durley\",\n    \"batting\": \"right-handed\",\n    \"birth_date\": \"1933-09-30\",\n    \"birth_place\": \"Ilford, Essex\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"Essex; Bedfordshire; Hertfordshire\",\n    \"column\": \"list a\",\n    \"columns\": \"\",\n    \"country\": \"England\",\n    \"date\": \"1993-01-01\",\n    \"death_date\": \"1993-01-01\",\n    \"death_place\": \"Luton, Bedfordshire\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"Anthony William Durley\",\n    \"matches\": \"5\",\n    \"name\": \"Anthony William Durley\",\n    \"role\": \"wicket-keeper\",\n    \"runs\": \"140\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"0\",\n    \"year\": \"19331993\"\n}\n```"
     },
     {
         "id": 16381,
@@ -1597,7 +1597,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"agent\": \"Angelica Panganiban\",\n    \"article_title\": \"Angelica Panganiban\",\n    \"birth_date\": \"1986-11-04\",\n    \"birth_name\": \"Angelica Panganiban\",\n    \"birth_place\": \"Philippines\",\n    \"name\": \"Angelica Panganiban\",\n    \"nationality\": \"Philippines\",\n    \"occupation\": \"Actress\",\n    \"othernames\": \"\",\n    \"partner\": \"\",\n    \"years_active\": \"1992-2014\"\n}\n```"
+        "generated_output": "```json\n{\n    \"agent\": \"Angelica Panganiban\",\n    \"article_title\": \"Angelica Panganiban\",\n    \"birth_date\": \"1986-11-04\",\n    \"birth_name\": \"Angelica Panganiban\",\n    \"birth_place\": \"\"\"\",\n    \"name\": \"Angelica Panganiban\",\n    \"nationality\": \"Philippines\",\n    \"occupation\": \"Actress\",\n    \"othernames\": \"\"\"\",\n    \"partner\": \"\"\"\",\n    \"years_active\": \"2000-2014\"\n}\n```"
     },
     {
         "id": 513,
@@ -1793,7 +1793,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Eric McMillan\",\n    \"birth_date\": \"1942-06-04\",\n    \"birth_place\": \"Sheffield, England\",\n    \"name\": \"Eric McMillan\"\n}\n```"
+        "generated_output": "```json\n{\n    'article_title': 'eric mcmillan',\n    'birth_date': '1942-06-04',\n    'birth_place': 'sheffield, england',\n    'name': 'eric mcmillan'\n}\n```"
     },
     {
         "id": 8475,
@@ -1928,7 +1928,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Louis Pierre Althusser\",\n    \"birth_date\": \"1918-10-16\",\n    \"birth_name\": \"Louis Pierre Althusser\",\n    \"birth_place\": \"Algeria\",\n    \"death_date\": \"1990-10-22\",\n    \"death_place\": \"\",\n    \"era\": \"20th century\",\n    \"influenced\": \"\",\n    \"influences\": \"\",\n    \"main_interests\": \"Marxism\",\n    \"notable_ideas\": \"Structural Marxism\",\n    \"region\": \"France\",\n    \"school_tradition\": \"Marxist\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Louis Althusser\",\n    \"birth_date\": \"1918-10-16\",\n    \"birth_name\": \"Louis Pierre Althusser\",\n    \"birth_place\": \"Algeria\",\n    \"death_date\": \"1990-10-22\",\n    \"death_place\": \"\",\n    \"era\": \"20th Century\",\n    \"influenced\": \"\",\n    \"influences\": \"\",\n    \"main_interests\": \"Marxism\",\n    \"notable_ideas\": \"Structural Marxism\",\n    \"region\": \"Europe\",\n    \"school_tradition\": \"Marxist\"\n}\n```"
     },
     {
         "id": 43602,
@@ -2144,7 +2144,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Richard Wogan Talbot, 2nd Baron Talbot of Malahide\",\n    \"allegiance\": \"United Kingdom; Ireland\",\n    \"battles\": \"\",\n    \"birth_date\": \"1766-01-01\",\n    \"branch\": \"Military\",\n    \"commands\": \"\",\n    \"death_date\": \"1849-10-29\",\n    \"name\": \"Richard Wogan Talbot\",\n    \"office\": \"Lord Malahide; Baron Furnival\",\n    \"party\": \"\",\n    \"predecessor\": \"Margaret Talbot, 1st Baroness Talbot of Malahide\",\n    \"religion\": \"\",\n    \"serviceyears\": \"1790-1791; 1807-1830\",\n    \"successor\": \"James Talbot\",\n    \"term_end\": \"1830\",\n    \"term_start\": \"1790\",\n    \"birth_place\": \"Ireland\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Richard Wogan Talbot, 2nd Baron Talbot of Malahide PC\",\n    \"allegiance\": \"United Kingdom; Ireland\",\n    \"battles\": \"\",\n    \"birth_date\": \"1766-01-01\",\n    \"branch\": \"Military\",\n    \"commands\": \"\",\n    \"death_date\": \"1849-10-29\",\n    \"name\": \"Richard Wogan Talbot\",\n    \"office\": \"MP, Peer\",\n    \"party\": \"\",\n    \"predecessor\": \"Margaret Talbot, 1st Baroness Talbot of Malahide\",\n    \"religion\": \"\",\n    \"serviceyears\": \"1790\u20131830\",\n    \"successor\": \"James Talbot\",\n    \"term_end\": \"1830\",\n    \"term_start\": \"1790\"\n}\n```"
     },
     {
         "id": 71273,
@@ -2452,7 +2452,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Juraj Njavro\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1938-07-02\",\n    \"birth_place\": \"Cerovica, near Neum\",\n    \"death_date\": \"2008-09-15\",\n    \"death_place\": \"Zagreb\",\n    \"name\": \"Juraj Njavro\",\n    \"office\": \"Minister of Health; Minister without portfolio; Minister of Defenders from the Homeland War\",\n    \"party\": \"Croatian Democratic Union\",\n    \"predecessor\": \"\",\n    \"primeminister\": \"\",\n    \"successor\": \"\",\n    \"term_end\": \"1993-10-12\",\n    \"term_start\": \"1992-08-12\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Juraj Njavro\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1938-07-02\",\n    \"birth_place\": \"Cerovica, near Neum\",\n    \"death_date\": \"2008-09-15\",\n    \"death_place\": \"Zagreb\",\n    \"name\": \"Juraj Njavro\",\n    \"office\": \"Minister of Health, Minister of Defenders from the Homeland War, Minister without portfolio\",\n    \"party\": \"Croatian Democratic Union\",\n    \"predecessor\": \"\",\n    \"primeminister\": \"\",\n    \"successor\": \"\",\n    \"term_end\": \"2003\",\n    \"term_start\": \"1992\"\n}\n```"
     },
     {
         "id": 50939,
@@ -2574,7 +2574,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Andrew Ryan McGill\",\n    \"birth_date\": \"1840-02-19\",\n    \"birth_place\": \"Saegertown, Pennsylvania\",\n    \"death_date\": \"1905-10-31\",\n    \"death_place\": \"\",\n    \"lieutenant\": \"\",\n    \"name\": \"Andrew Ryan McGill\",\n    \"office\": \"Governor of Minnesota\",\n    \"order\": \"\",\n    \"party\": \"Republican Party\",\n    \"predecessor\": \"\",\n    \"profession\": \"Politician, Schoolteacher, Lawyer, Editor, Insurance Commissioner, County Superintendent of Public Schools, Senator, Postmaster\",\n    \"religion\": \"\",\n    \"spouse\": \"Eliza E. Bryant (m. 1879), Mary E. Wilson (m. 1879)\",\n    \"successor\": \"\",\n    \"term_end\": \"1889-01-09\",\n    \"term_start\": \"1887-01-05\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Andrew Ryan McGill\",\n    \"birth_date\": \"1840-02-19\",\n    \"birth_place\": \"Saegertown, Pennsylvania\",\n    \"death_date\": \"1905-10-31\",\n    \"death_place\": \"\",\n    \"lieutenant\": \"\",\n    \"name\": \"Andrew Ryan McGill\",\n    \"office\": \"Governor of Minnesota\",\n    \"order\": \"\",\n    \"party\": \"Republican Party\",\n    \"predecessor\": \"\",\n    \"profession\": \"Politician, Schoolteacher, Lawyer, Editor, Insurance Commissioner, Senator, Postmaster\",\n    \"religion\": \"\",\n    \"spouse\": \"Eliza E. Bryant, Mary E. Wilson\",\n    \"successor\": \"\",\n    \"term_end\": \"1889-01-09\",\n    \"term_start\": \"1887-01-05\"\n}\n```"
     },
     {
         "id": 30493,
@@ -2732,7 +2732,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    'article_title': 'avis devoto',\n    'birth_date': '1904-05-22',\n    'birth_name': 'avis macvicar devoto',\n    'birth_place': 'houghton, michigan',\n    'children': 'gordon; mark',\n    'death_date': '1989',\n    'genre': 'culinary editor; book reviewer; cook',\n    'name': 'avis devoto',\n    'nationality': 'United States',\n    'occupation': 'culinary editor; book reviewer; cook; secretary; cookbook scout; editor',\n    'spouse': 'bernard devoto'\n}\n```"
+        "generated_output": "```json\n{\n    'article_title': 'Avis Devoto',\n    'birth_date': '1904-05-22',\n    'birth_name': 'Avis Macvicar Devoto',\n    'birth_place': 'Houghton, Michigan',\n    'children': 'Gordon; Mark',\n    'death_date': '1989',\n    'genre': 'Culinary editor; book reviewer; cook',\n    'name': 'Avis Devoto',\n    'nationality': 'United States',\n    'occupation': 'Culinary editor; book reviewer; cook; secretary; cookbook scout; editor',\n    'spouse': 'Bernard Devoto'\n}\n```"
     },
     {
         "id": 6853,
@@ -2798,7 +2798,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Kenneth R. Koedinger\",\n    \"alma_mater\": \"University of Wisconsin\u2014Madison; Carnegie Mellon University\",\n    \"citizenship\": \"United States\",\n    \"field\": \"human-computer interaction; psychology\",\n    \"name\": \"Kenneth R. Koedinger\",\n    \"nationality\": \"United States\",\n    \"residence\": \"Pittsburgh, Pennsylvania\",\n    \"work_institutions\": \"Carnegie Mellon University\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Kenneth R. Koedinger\",\n    \"alma_mater\": \"University of Wisconsin\u2014Madison; Carnegie Mellon University\",\n    \"citizenship\": \"United States\",\n    \"field\": \"human-computer interaction; psychology; cognitive psychology; intelligent tutoring systems; educational data mining\",\n    \"name\": \"Kenneth R. Koedinger\",\n    \"nationality\": \"United States\",\n    \"residence\": \"Pittsburgh, Pennsylvania\",\n    \"work_institutions\": \"Carnegie Mellon University\"\n}\n```"
     },
     {
         "id": 25877,
@@ -2896,7 +2896,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Chivu Stoica\",\n    \"birth_date\": \"1908-08-08\",\n    \"birth_place\": \"Smeeni, Buz\u0103u County, Romania\",\n    \"death_date\": \"1975-02-18\",\n    \"death_place\": \"Romania\",\n    \"name\": \"Chivu Stoica\",\n    \"office\": \"Prime Minister of Romania\",\n    \"party\": \"Romanian Communist Party\",\n    \"predecessor\": \"\",\n    \"primeminister\": \"true\",\n    \"successor\": \"\",\n    \"term_end\": \"1961\",\n    \"term_start\": \"1955\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Chivu Stoica\",\n    \"birth_date\": \"1908-08-08\",\n    \"birth_place\": \"Smeeni, Buz\u0103u County, Romania\",\n    \"death_date\": \"1975-02-18\",\n    \"death_place\": \"Romania\",\n    \"name\": \"Chivu Stoica\",\n    \"office\": \"Prime Minister of Romania; President of the State Council of Romania\",\n    \"party\": \"Romanian Communist Party\",\n    \"predecessor\": \"\",\n    \"primeminister\": \"1955-1961\",\n    \"successor\": \"\",\n    \"term_end\": \"1961\",\n    \"term_start\": \"1955\"\n}\n```"
     },
     {
         "id": 20967,
@@ -3000,7 +3000,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Eleanor of England\",\n    \"birth_date\": \"1269-06-18\",\n    \"birth_place\": \"\"\"\",\n    \"consort\": \"Henry III, Count of Bar\",\n    \"death_date\": \"1298-08-29\",\n    \"death_place\": \"Westminster Abbey\",\n    \"father\": \"Edward I of England\",\n    \"house\": \"England\",\n    \"issue\": \"Edward I, Count of Bar; Joan\",\n    \"mother\": \"Eleanor of Castile\",\n    \"name\": \"Eleanor\",\n    \"reign\": \"\"\"\",\n    \"spouse\": \"Henry III, Count of Bar\",\n    \"succession\": \"\"\"\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Eleanor of England\",\n    \"birth_date\": \"1269-06-18\",\n    \"birth_place\": \"\"\"\",\n    \"consort\": \"Henry III, Count of Bar\",\n    \"death_date\": \"1298-08-29\",\n    \"death_place\": \"Westminster Abbey\",\n    \"father\": \"Edward I of England\",\n    \"house\": \"House of England\",\n    \"issue\": \"Edward I, Count of Bar; Joan\",\n    \"mother\": \"Eleanor of Castile\",\n    \"name\": \"Eleanor\",\n    \"reign\": \"\"\"\",\n    \"spouse\": \"Henry III, Count of Bar\",\n    \"succession\": \"\"\"\"\n}\n```"
     },
     {
         "id": 30443,
@@ -3195,7 +3195,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Virginia Ruth Shehee\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1923-07-12\",\n    \"birth_name\": \"Virginia Ruth Kilpatrick Shehee\",\n    \"birth_place\": \"Shreveport, Louisiana\",\n    \"children\": \"\",\n    \"death_date\": \"2015-07-06\",\n    \"death_place\": \"Shreveport, Louisiana\",\n    \"name\": \"Virginia Ruth Shehee\",\n    \"occupation\": \"businesswoman, civic leader, patron of the arts, state senator\",\n    \"office\": \"State Senator\",\n    \"party\": \"Republican\",\n    \"preceded\": \"Cecil K. Carter, Jr.\",\n    \"religion\": \"\",\n    \"residence\": \"Shreveport, Louisiana\",\n    \"resting_place\": \"\",\n    \"spouse\": \"\",\n    \"succeeded\": \"Richard G. Neeson\",\n    \"term_end\": \"1980\",\n    \"term_start\": \"1976\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Virginia Ruth Shehee\",\n    \"other_key\": \"\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1923-07-12\",\n    \"birth_name\": \"Virginia Ruth Kilpatrick Shehee\",\n    \"birth_place\": \"Shreveport, Louisiana\",\n    \"children\": \"\",\n    \"death_date\": \"2015-07-06\",\n    \"death_place\": \"Shreveport, Louisiana\",\n    \"name\": \"Virginia Ruth Shehee\",\n    \"occupation\": \"businesswoman, civic leader, patron of the arts, state senator\",\n    \"office\": \"State Senator\",\n    \"party\": \"Republican\",\n    \"preceded\": \"Cecil K. Carter, Jr.\",\n    \"religion\": \"\",\n    \"residence\": \"Shreveport, Louisiana\",\n    \"resting_place\": \"\",\n    \"spouse\": \"\",\n    \"succeeded\": \"Richard G. Neeson\",\n    \"term_end\": \"1980\",\n    \"term_start\": \"1976\"\n}\n```"
     },
     {
         "id": 26118,
@@ -3499,7 +3499,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Ian Johnson\",\n    \"batting\": \"\",\n    \"birth_date\": \"1921-02-16\",\n    \"birth_place\": \"Melbourne, Victoria, Australia\",\n    \"bowling\": \"\",\n    \"catches/stumpings\": \"23\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"Australia\",\n    \"date\": \"1948\",\n    \"death_date\": \"\",\n    \"death_place\": \"\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"Ian Johnson\",\n    \"heightm\": \"\",\n    \"international\": \"Australia\",\n    \"lasttestagainst\": \"England\",\n    \"lasttestdate\": \"1948-06-08\",\n    \"lasttestyear\": \"1948\",\n    \"matches\": \"34\",\n    \"name\": \"Ian Johnson\",\n    \"role\": \"Off Spinner\",\n    \"runs\": \"51\",\n    \"s/s\": \"5\",\n    \"tenfor\": \"\",\n    \"testdebutagainst\": \"England\",\n    \"testdebutdate\": \"1947-08-26\",\n    \"testdebutyear\": \"1947\",\n    \"wickets\": \"7\",\n    \"year\": \"1948\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Ian Johnson\",\n    \"batting\": \"\",\n    \"birth_date\": \"1921-02-16\",\n    \"birth_place\": \"Melbourne, Victoria, Australia\",\n    \"bowling\": \"off-spinner\",\n    \"catches/stumpings\": \"23\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"Australia\",\n    \"date\": \"1948\",\n    \"death_date\": \"\",\n    \"death_place\": \"\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"Ian Johnson\",\n    \"heightm\": \"\",\n    \"international\": true,\n    \"lasttestagainst\": \"England\",\n    \"lasttestdate\": \"1948-06-25\",\n    \"lasttestyear\": \"1948\",\n    \"matches\": \"34\",\n    \"name\": \"Ian Johnson\",\n    \"role\": \"bowler\",\n    \"runs\": \"51\",\n    \"s/s\": \"5\",\n    \"tenfor\": \"\",\n    \"testdebutagainst\": \"England\",\n    \"testdebutdate\": \"1948-06-25\",\n    \"testdebutyear\": \"1948\",\n    \"wickets\": \"7\",\n    \"year\": \"1948\"\n}\n```"
     },
     {
         "id": 55969,
@@ -3627,7 +3627,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Marie of Romania\",\n    \"burial_place\": \"Bucharest\",\n    \"coronation\": \"1922-12-01\",\n    \"house\": \"Romania\",\n    \"issue\": \"Carol I, Ferdinand I, Marie, Gisela, and Elisabeth\",\n    \"reign\": \"1893-1914\",\n    \"spouse\": \"Ferdinand I\",\n    \"succession\": \"\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Marie of Romania\",\n    \"burial_place\": \"Bucharest\",\n    \"coronation\": \"1922-12-01\",\n    \"house\": \"Romania\",\n    \"issue\": \"Carol I, Ferdinand I, Marie, Gisela, and Simeon\",\n    \"reign\": \"1893-1914\",\n    \"spouse\": \"Ferdinand I\",\n    \"succession\": \"\"\n}\n```"
     },
     {
         "id": 49310,
@@ -3772,7 +3772,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    'article_title': 'john lefebvre',\n    'background': '\"\"',\n    'birth_date': '1951-08-06',\n    'instrument': 'songwriter, touring performer, recording artist',\n    'name': 'john lefebvre',\n    'occupation': 'musician, composer, entrepreneur, retired lawyer, philanthropist, activist, advocate',\n    'origin': 'canada',\n    'years_active': '1999\u20132007; 2007\u20132010'\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"John Lefebvre\",\n    \"background\": \"\",\n    \"birth_date\": \"1951-08-06\",\n    \"instrument\": \"musician, composer, songwriter, touring performer, recording artist\",\n    \"name\": \"John Lefebvre\",\n    \"occupation\": \"lawyer, entrepreneur, philanthropist, activist, advocate\",\n    \"origin\": \"Canada\",\n    \"years_active\": \"1999\u20132007; 2007\u20132010\"\n}\n```"
     },
     {
         "id": 463,
@@ -4011,7 +4011,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Boris Borisovich Yegorov\",\n    \"birth_date\": \"1937-11-26\",\n    \"birth_place\": \"Moscow\",\n    \"death_date\": \"1994-09-12\",\n    \"death_place\": \"Moscow\",\n    \"mission\": \"Voskhod 1\",\n    \"name\": \"Boris Borisovich Yegorov\",\n    \"nationality\": \"Soviet\",\n    \"occupation\": \"Physician, Cosmonaut\",\n    \"selection\": \"First physician to make a space flight\",\n    \"time\": \"1960; 1964; 1994\",\n    \"type\": \"Cosmonaut\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Boris Borisovich Yegorov\",\n    \"birth_date\": \"1937-11-26\",\n    \"birth_place\": \"Moscow\",\n    \"death_date\": \"1994-09-12\",\n    \"death_place\": \"Moscow\",\n    \"mission\": \"Voskhod 1\",\n    \"name\": \"Boris Borisovich Yegorov\",\n    \"nationality\": \"Soviet\",\n    \"occupation\": \"Physician, Cosmonaut\",\n    \"selection\": \"First physician to make a space flight\",\n    \"time\": \"1960\u20131964\",\n    \"type\": \"Cosmonaut\"\n}\n```"
     },
     {
         "id": 4729,
@@ -4576,7 +4576,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Ljubi\u0161a Bro\u0107i\u0107\",\n    \"birth_date\": \"1911-10-03\",\n    \"birth_place\": \"Gu\u010da, Kingdom of Serbia\",\n    \"death_date\": \"1995-08-16\",\n    \"death_place\": \"\",\n    \"fullname\": \"Ljubi\u0161a Bro\u0107i\u0107\",\n    \"managerclubs\": \"PSV Eindhoven; Juventus; FC Barcelona; Al-Nasr; OFK Beograd; Racing Beirut; Albania national team; Kuwait national team; Bahrain national team; Footscray United; South Melbourne Hellas\",\n    \"manageryears\": \"\",\n    \"name\": \"Ljubi\u0161a Bro\u0107i\u0107\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Ljubi\u0161a Bro\u0107i\u0107\",\n    \"birth_date\": \"1911-10-03\",\n    \"birth_place\": \"Gu\u010da, Kingdom of Serbia\",\n    \"death_date\": \"1995-08-16\",\n    \"death_place\": \"\",\n    \"fullname\": \"Ljubi\u0161a Bro\u0107i\u0107\",\n    \"managerclubs\": \"PSV Eindhoven; Juventus; FC Barcelona; Al-Nasr; OFK Beograd; Racing Beirut; Albania national team; Bahrain national team; Kuweit national team; Footscray United; South Melbourne Hellas\",\n    \"manageryears\": \"1953\",\n    \"name\": \"Ljubi\u0161a Bro\u0107i\u0107\"\n}\n```"
     },
     {
         "id": 40176,
@@ -4759,7 +4759,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    'article_title': 'Richard Dale Barnes',\n    'awards': 'Big 12 Coach of the Year (3); Big 12 Conference Championship',\n    'birth_date': '1954-07-17',\n    'birth_place': '\"\"',\n    'championships': 'Big 12 Conference Championship (1998); Providence Big East Tournament (1994)',\n    'coach_team': 'Tennessee Volunteers',\n    'coach_years': 'current',\n    'current_conference': 'SEC',\n    'current_record': '\"\"',\n    'current_team': 'Tennessee Volunteers',\n    'current_title': 'Head Coach',\n    'name': 'Richard Dale Barnes',\n    'overall_record': '20-20 (.500)',\n    'player_team': '\"\"',\n    'player_years': '\"\"',\n    'sport': 'Basketball'\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Richard Dale Barnes\",\n    \"awards\": \"Big 12 Coach of the Year (3)\",\n    \"birth_date\": \"1954-07-17\",\n    \"birth_place\": \"Tennessee\",\n    \"championships\": \"Big 12 Conference Championship (1998)\",\n    \"coach_team\": \"Tennessee Volunteers\",\n    \"coach_years\": \"current\",\n    \"current_conference\": \"SEC\",\n    \"current_record\": \"20-20\",\n    \"current_team\": \"Tennessee Volunteers\",\n    \"current_title\": \"Head Coach\",\n    \"name\": \"Richard Dale Barnes\",\n    \"overall_record\": \"20-20\",\n    \"player_team\": \"\",\n    \"player_years\": \"\",\n    \"sport\": \"Basketball\"\n}\n```"
     },
     {
         "id": 70313,
@@ -4833,7 +4833,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Collin Wilcox\",\n    \"birth_date\": \"1924-09-21\",\n    \"birth_place\": \"Detroit, Michigan\",\n    \"death_date\": \"1996-07-12\",\n    \"death_place\": \"San Francisco\",\n    \"language\": \"English\",\n    \"name\": \"Collin Wilcox\",\n    \"nationality\": \"United States\",\n    \"occupation\": \"Mystery writer\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"collin wilcox\",\n    \"birth_date\": \"1924-09-21\",\n    \"birth_place\": \"detroit, michigan\",\n    \"death_date\": \"1996-07-12\",\n    \"death_place\": \"san francisco\",\n    \"language\": \"\",\n    \"name\": \"collin wilcox\",\n    \"nationality\": \"United States\",\n    \"occupation\": \"mystery writer\"\n}\n```"
     },
     {
         "id": 9496,
@@ -4918,7 +4918,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Sam Blease\",\n    \"birth_date\": \"1991-02-19\",\n    \"careerhighlights\": \"Selected by Melbourne with pick 17 in the 2008 AFL draft; played for Melbourne Football Club and Geelong Football Club; kicked a career high five goals against the saints in round 20 of the 2012 AFL season; nominated for the 2011 AFL Rising Star; nominated for the 2012 AFL Rising Star\",\n    \"draftpick\": \"17\",\n    \"fullname\": \"Sam Blease\",\n    \"heightweight\": \"\",\n    \"name\": \"Sam Blease\",\n    \"originalteam\": \"Eastern Ranges\",\n    \"position\": \"defender\",\n    \"statsend\": \"\",\n    \"years\": \"2008-2015\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Sam Blease\",\n    \"birth_date\": \"1991-02-19\",\n    \"careerhighlights\": \"Selected by Melbourne with pick 17 in the 2008 AFL draft; played for Melbourne Football Club and Geelong Football Club; kicked a career high five goals against the saints in round 20 of the 2012 AFL season; nominated for the 2011 AFL Rising Star; nominated for the 2012 AFL Rising Star; dropped after the brisbane game; traded from the club; delisted on October 22, 2014; joined the Geelong football club as a delisted free agent; announced his immediate retirement from the AFL on 31 August 2015\",\n    \"draftpick\": \"17\",\n    \"fullname\": \"Sam Blease\",\n    \"heightweight\": \"\",\n    \"name\": \"Sam Blease\",\n    \"originalteam\": \"Eastern Ranges\",\n    \"position\": \"defender\",\n    \"statsend\": \"\",\n    \"years\": \"2008-2015\"\n}\n```"
     },
     {
         "id": 62464,
@@ -4986,7 +4986,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Sir John Russell Reynolds\",\n    \"birth_date\": \"1828-05-22\",\n    \"birth_place\": \"Romsey, Hampshire\",\n    \"death_date\": \"1896-05-29\",\n    \"death_place\": \"London\",\n    \"name\": \"John Russell Reynolds\",\n    \"nationality\": \"United Kingdom\",\n    \"occupation\": \"Neurologist, Physician\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Sir John Russell Reynolds, 1st Baronet\",\n    \"birth_date\": \"1828-05-22\",\n    \"birth_place\": \"Romsey, Hampshire\",\n    \"death_date\": \"1896-05-29\",\n    \"death_place\": \"London\",\n    \"name\": \"John Russell Reynolds\",\n    \"nationality\": \"United Kingdom\",\n    \"occupation\": \"Neurologist, Physician\"\n}\n```"
     },
     {
         "id": 28321,
@@ -5556,7 +5556,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Alan Norman Connolly\",\n    \"batting\": \"\",\n    \"birth_date\": \"1939-06-29\",\n    \"birth_place\": \"Skipton, Victoria\",\n    \"bowling\": \"fast bowler; support bowler\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"Middlesex\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"Australia\",\n    \"date\": \"1963-1971\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"Alan Norman Connolly\",\n    \"international\": \"Test cricket; ODI cricket\",\n    \"lasttestagainst\": \"England\",\n    \"lasttestdate\": \"1970-11-29\",\n    \"lasttestyear\": \"1970\",\n    \"matches\": \"29\",\n    \"name\": \"Alan Norman Connolly\",\n    \"odidebutagainst\": \"South Africa\",\n    \"odidebutdate\": \"1963-06-13\",\n    \"odidebutyear\": \"1963\",\n    \"oneodi\": \"1\",\n    \"runs\": \"\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"testdebutagainst\": \"England\",\n    \"testdebutdate\": \"1963-06-13\",\n    \"testdebutyear\": \"1963\",\n    \"wickets\": \"23\",\n    \"year\": \"1971\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Alan Norman Connolly\",\n    \"batting\": \"\",\n    \"birth_date\": \"1939-06-29\",\n    \"birth_place\": \"Skipton, Victoria\",\n    \"bowling\": \"fast bowler; support bowler\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"Middlesex\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"Australia\",\n    \"date\": \"1963-1971\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"Alan Norman Connolly\",\n    \"international\": \"Test cricket; ODI cricket\",\n    \"lasttestagainst\": \"England\",\n    \"lasttestdate\": \"1970-11-29\",\n    \"lasttestyear\": \"1970\",\n    \"matches\": \"29\",\n    \"name\": \"Alan Norman Connolly\",\n    \"odidebutagainst\": \"N/A\",\n    \"odidebutdate\": \"N/A\",\n    \"odidebutyear\": \"1963\",\n    \"oneodi\": \"1\",\n    \"runs\": \"\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"testdebutagainst\": \"N/A\",\n    \"testdebutdate\": \"N/A\",\n    \"testdebutyear\": \"1963\",\n    \"wickets\": \"23\",\n    \"year\": \"1939\"\n}\n```"
     },
     {
         "id": 48539,
@@ -5638,7 +5638,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"invsn\",\n    \"associated_acts\": \"refused; randy; david sandstr\u00f6m; stefan granberg; lisa miskovsky\",\n    \"background\": \"\",\n    \"current_members\": \"dennis lyxz\u00e9n\",\n    \"genre\": \"punk rock; folkish; power pop\",\n    \"label\": \"burning heart records; razor & tie\",\n    \"landscape\": \"\",\n    \"name\": \"invsn; the lost patrol band\",\n    \"origin\": \"sweden\",\n    \"years_active\": \"1999\u20132013\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"invsn\",\n    \"associated_acts\": \"refused; randy; david sandstr\u00f6m; stefan granberg; lisa miskovsky\",\n    \"background\": \"\",\n    \"current_members\": \"dennis lyxz\u00e9n\",\n    \"genre\": \"punk rock; folkish; power pop\",\n    \"label\": \"burning heart records; razor & tie\",\n    \"landscape\": \"\",\n    \"name\": \"invsn; the lost patrol band\",\n    \"origin\": \"Sweden\",\n    \"years_active\": \"1999\u20132013\"\n}\n```"
     },
     {
         "id": 26488,
@@ -5819,7 +5819,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Max Rubner\",\n    \"alma_mater\": \"University of Munich; University of Marburg; University of Berlin\",\n    \"birth_date\": \"1854-06-02\",\n    \"birth_place\": \"Munich\",\n    \"death_date\": \"1932-04-27\",\n    \"death_place\": \"Berlin\",\n    \"doctoral_advisor\": \"Adolf von Baeyer; Carl von Voit\",\n    \"field\": \"Physiology; Hygiene\",\n    \"known_for\": \"Isodynamic law; Surface hypothesis; Rate-of-living theory; Metabolism research\",\n    \"name\": \"Max Rubner\",\n    \"nationality\": \"German\",\n    \"work_institutions\": \"University of Munich; University of Marburg; Robert Koch Institute of Hygiene; Kaiser-Wilhelm Institute for Occupational Physiology\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Max Rubner\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1854-06-02\",\n    \"birth_place\": \"Munich\",\n    \"death_date\": \"1932-04-27\",\n    \"death_place\": \"Berlin\",\n    \"doctoral_advisor\": \"\",\n    \"field\": \"Physiology, Hygiene\",\n    \"known_for\": \"Isodynamic law; rate-of-living theory; surface hypothesis; research in metabolism, energy physiology, hygiene and dietary thermogenesis\",\n    \"name\": \"Max Rubner\",\n    \"nationality\": \"German\",\n    \"work_institutions\": \"University of Munich; University of Marburg; Robert Koch Institute of Hygiene; Kaiser-Wilhelm Institut f\u00fcr arbeitsphysiologie\"\n}\n```"
     },
     {
         "id": 6974,
@@ -5977,7 +5977,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Alexander Bowleski\",\n    \"appearances\": \"13\",\n    \"appearancesa\": \"13\",\n    \"birth_date\": \"1891-05-18\",\n    \"birth_place\": \"Ballina, New South Wales\",\n    \"club\": \"Glebe Dirty Reds; Newtown\",\n    \"death_date\": \"1981-07-16\",\n    \"death_place\": \"Undercliffe, New South Wales\",\n    \"fieldgoals\": \"\",\n    \"fullname\": \"Alexander Bowleski\",\n    \"goals\": \"\",\n    \"goalsa\": \"\",\n    \"name\": \"Alexander Bowleski\",\n    \"points\": \"\",\n    \"pointsa\": \"\",\n    \"retired\": \"\",\n    \"sources\": \"\",\n    \"teama\": \"Glebe Dirty Reds; Newtown\",\n    \"tries\": \"\",\n    \"triesa\": \"\",\n    \"yearastart\": \"1914\",\n    \"yearend\": \"1924\",\n    \"yearstart\": \"1891\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Alexander Bowleski\",\n    \"other_key\": \"\",\n    \"appearances\": \"13\",\n    \"appearancesa\": \"\",\n    \"birth_date\": \"1891-05-18\",\n    \"birth_place\": \"Ballina, New South Wales\",\n    \"club\": \"Glebe Dirty Reds; Newtown\",\n    \"death_date\": \"1981-07-16\",\n    \"death_place\": \"Undercliffe, New South Wales\",\n    \"fieldgoals\": \"\",\n    \"fullname\": \"Alexander Bowleski\",\n    \"goals\": \"\",\n    \"goalsa\": \"\",\n    \"name\": \"Alexander Bowleski\",\n    \"points\": \"\",\n    \"pointsa\": \"\",\n    \"retired\": \"\",\n    \"sources\": \"\",\n    \"teama\": \"Glebe Dirty Reds; Newtown\",\n    \"tries\": \"\",\n    \"triesa\": \"\",\n    \"yearastart\": \"1914\",\n    \"yearend\": \"1924\",\n    \"yearstart\": \"1891\"\n}\n```"
     },
     {
         "id": 10004,
@@ -6090,7 +6090,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Bryan Leitch\",\n    \"birth_date\": \"1984-03-05\",\n    \"birth_place\": \"Coquitlam, British Columbia\",\n    \"career_end\": \"\",\n    \"career_start\": \"2009\",\n    \"draft\": \"\",\n    \"height_ft\": \"6\",\n    \"height_in\": \"\",\n    \"name\": \"Bryan Leitch\",\n    \"played_for\": \"Coquitlam Express; Merritt Centennials; Quinnipiac Bobcats; Milwaukee Admirals; Cincinnati Cyclones\",\n    \"position\": \"Forward\",\n    \"shoots\": \"Right\",\n    \"weight_lb\": \"\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Bryan Leitch\",\n    \"birth_date\": \"1984-03-05\",\n    \"birth_place\": \"Coquitlam, British Columbia\",\n    \"career_end\": \"\",\n    \"career_start\": \"2009\",\n    \"draft\": \"\",\n    \"height_ft\": \"6\",\n    \"height_in\": \"\",\n    \"name\": \"Bryan Leitch\",\n    \"played_for\": \"Coquitlam Express; Merritt Centennials; Quinnipiac Bobcats; Milwaukee Admirals; Cincinnati Cyclones\",\n    \"position\": \"Forward\",\n    \"shoots\": \"\",\n    \"weight_lb\": \"\"\n}\n```"
     },
     {
         "id": 30846,
@@ -6414,7 +6414,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"John Cleve \\\"Rube\\\" Benton\",\n    \"bats\": \"\",\n    \"birth_date\": \"1890-06-27\",\n    \"birth_place\": \"Clinton, North Carolina\",\n    \"death_date\": \"1937-12-12\",\n    \"death_place\": \"Dothan, Alabama\",\n    \"debutdate\": \"1910-04-18\",\n    \"debutteam\": \"Cincinnati Reds\",\n    \"debutyear\": \"1910\",\n    \"finaldate\": \"1923-10-01\",\n    \"finalteam\": \"New York Giants\",\n    \"finalyear\": \"1923\",\n    \"name\": \"John Cleve \\\"Rube\\\" Benton\",\n    \"position\": \"pitcher\",\n    \"statlabel\": \"wins\",\n    \"statvalue\": \"150\",\n    \"throws\": \"right\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"John Cleve \\\"Rube\\\" Benton\",\n    \"bats\": \"\",\n    \"birth_date\": \"1890-06-27\",\n    \"birth_place\": \"Clinton, North Carolina\",\n    \"death_date\": \"1937-12-12\",\n    \"death_place\": \"Dothan, Alabama\",\n    \"debutdate\": \"1910-04-18\",\n    \"debutteam\": \"Cincinnati Reds\",\n    \"debutyear\": \"1910\",\n    \"finaldate\": \"1923-10-01\",\n    \"finalteam\": \"New York Giants\",\n    \"finalyear\": \"1923\",\n    \"name\": \"John Cleve \\\"Rube\\\" Benton\",\n    \"position\": \"pitcher\",\n    \"statlabel\": \"ERA\",\n    \"statvalue\": \"3.09\",\n    \"throws\": \"right-handed\"\n}\n```"
     },
     {
         "id": 35904,
@@ -6749,7 +6749,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Catherine of Aragon\",\n    \"birth_date\": \"1485-12-16\",\n    \"birth_place\": \"Toledo, Spain\",\n    \"burial_place\": \" Peterborough Cathedral\",\n    \"consort\": \"Henry VIII\",\n    \"coronation\": \"\",\n    \"death_date\": \"1536-01-07\",\n    \"death_place\": \"Kimbolton Castle, England\",\n    \"father\": \"Ferdinand II of Aragon\",\n    \"house\": \"Habsburg\",\n    \"issue\": \"Mary I of England\",\n    \"mother\": \"Isabella I of Castile\",\n    \"reign\": \"1509-1533\",\n    \"religion\": \"Catholic\",\n    \"spouse\": \"Henry VIII\",\n    \"succession\": \"\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Catherine of Aragon\",\n    \"birth_date\": \"1485-12-16\",\n    \"birth_place\": \"Toledo, Spain\",\n    \"burial_place\": \" Peterborough Cathedral\",\n    \"consort\": \"Henry VIII\",\n    \"coronation\": \"\",\n    \"death_date\": \"1536-01-07\",\n    \"death_place\": \"Kimbolton Castle, England\",\n    \"father\": \"Ferdinand II of Aragon\",\n    \"house\": \"House of Aragon\",\n    \"issue\": \"Mary I of England\",\n    \"mother\": \"Isabella I of Castile\",\n    \"reign\": \"1509-1533\",\n    \"religion\": \"Catholic\",\n    \"spouse\": \"Henry VIII\",\n    \"succession\": \"\"\n}\n```"
     },
     {
         "id": 47532,
@@ -6960,7 +6960,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Pete Stark\",\n    \"allegiance\": \"United States\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1931-11-11\",\n    \"birth_place\": \"\",\n    \"birthname\": \"Fortney Hillman Stark, Jr.\",\n    \"branch\": \"Legislative\",\n    \"district\": \"13th\",\n    \"name\": \"Pete Stark\",\n    \"party\": \"Democrat\",\n    \"preceded\": \"\",\n    \"profession\": \"Politician\",\n    \"residence\": \"Alameda\",\n    \"serviceyears\": \"1973-2013\",\n    \"spouse\": \"\",\n    \"state\": \"California\",\n    \"succeeded\": \"\",\n    \"term_end\": \"2013\",\n    \"term_start\": \"1973\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Pete Stark\",\n    \"other_key\": \"\",\n    \"allegiance\": \"United States\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1931-11-11\",\n    \"birth_place\": \"\",\n    \"birthname\": \"Fortney Hillman Stark, Jr.\",\n    \"branch\": \"Legislative\",\n    \"district\": \"13th\",\n    \"name\": \"Pete Stark\",\n    \"party\": \"Democrat\",\n    \"preceded\": \"\",\n    \"profession\": \"Politician\",\n    \"residence\": \"Alameda, California\",\n    \"serviceyears\": \"1973-2013\",\n    \"spouse\": \"\",\n    \"state\": \"California\",\n    \"succeeded\": \"\",\n    \"term_end\": \"2013\",\n    \"term_start\": \"1973\"\n}\n```"
     },
     {
         "id": 15934,
@@ -7209,7 +7209,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Wy On Dale Childers\",\n    \"alma_mater\": \"\",\n    \"birth_date\": \"1933-11-25\",\n    \"birth_place\": \"Pensacola, Florida\",\n    \"children\": \"\",\n    \"district\": \"District 1\",\n    \"name\": \"Wy On Dale Childers\",\n    \"office\": \"State Senator, Dean\",\n    \"preceded\": \"None\",\n    \"spouse\": \"\",\n    \"state\": \"Florida\",\n    \"state_senate\": \"1970-2000\",\n    \"succeeded\": \"None\",\n    \"term_end\": \"2000\",\n    \"term_start\": \"1970\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Wy On Dale Childers\",\n    \"other_key\": \"\",\n    \"birth_date\": \"1933-11-25\",\n    \"birth_place\": \"\",\n    \"children\": \"\",\n    \"district\": \"district 1\",\n    \"name\": \"Wy On Dale Childers\",\n    \"office\": \"state senator, senate president, dean\",\n    \"preceded\": \"none\",\n    \"spouse\": \"\",\n    \"state\": \"Florida\",\n    \"state_senate\": \"1970-2000\",\n    \"succeeded\": \"none\",\n    \"term_end\": \"2000\",\n    \"term_start\": \"1970\"\n}\n```"
     },
     {
         "id": 37510,
@@ -7358,7 +7358,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Anson Vasco Call II\",\n    \"birth_date\": \"1875-01-01\",\n    \"birth_place\": \"Willard, Utah Territory\",\n    \"death_date\": \"1944-10-12\",\n    \"name\": \"Anson Vasco Call II\",\n    \"order\": \"\",\n    \"predecessor\": \"\",\n    \"religion\": \"Church of Jesus Christ of Latter-day Saints\",\n    \"term_end\": \"1927\",\n    \"term_start\": \"1902\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Anson Vasco Call II\",\n    \"birth_date\": \"1875-01-01\",\n    \"birth_place\": \"Willard, Utah Territory\",\n    \"death_date\": \"1944-10-12\",\n    \"name\": \"Anson Vasco Call II\",\n    \"order\": \"\",\n    \"predecessor\": \"\",\n    \"religion\": \"Church of Jesus Christ of Latter-day Saints\",\n    \"term_end\": \"\",\n    \"term_start\": \"\"\n}\n```"
     },
     {
         "id": 23249,
@@ -7700,7 +7700,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Mircea Eliade\",\n    \"birth_date\": \"1908-04-22\",\n    \"birth_place\": \"Ia\u0219i\",\n    \"death_date\": \"\",\n    \"death_place\": \"\",\n    \"genre\": \"fantastic; autobiographical\",\n    \"influenced\": \"\",\n    \"influences\": \"nae ionescu\",\n    \"movement\": \"fascist; antisemitic\",\n    \"name\": \"Mircea Eliade\",\n    \"nationality\": \"Romanian\",\n    \"occupation\": \"historian of religion; fiction writer; philosopher; professor\",\n    \"parents\": \"\",\n    \"period\": \"late 1930s; 1940s\",\n    \"subject\": \"religious experience; hierophanies; eternal return\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Mircea Eliade\",\n    \"birth_date\": \"1908-03-22\",\n    \"birth_place\": \"Ia\u0219i\",\n    \"death_date\": \"\",\n    \"death_place\": \"\",\n    \"genre\": \"fantastic; autobiographical; novels; novellas; short stories; journalism; essay\",\n    \"influenced\": \"\",\n    \"influences\": \"nae ionescu\",\n    \"movement\": \"far-right\",\n    \"name\": \"Mircea Eliade\",\n    \"nationality\": \"Romanian\",\n    \"occupation\": \"historian of religion; fiction writer; philosopher; professor\",\n    \"parents\": \"\",\n    \"period\": \"late 1930s; 1940s\",\n    \"subject\": \"religious experience; hierophanies; eternal return\"\n}\n```"
     },
     {
         "id": 13457,
@@ -7883,7 +7883,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Hans Nilsen Hauge\",\n    \"birth_date\": \"1853-11-03\",\n    \"death_date\": \"1931-12-17\",\n    \"name\": \"Hans Nilsen Hauge\",\n    \"nationality\": \"Norway\",\n    \"office\": \"Minister of Education and Church Affairs\",\n    \"party\": \"Conservative Party\",\n    \"profession\": \"priest\",\n    \"term_end\": \"1905\",\n    \"term_start\": \"1903\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Hans Nilsen Hauge\",\n    \"birth_date\": \"1853-11-03\",\n    \"death_date\": \"1931-12-17\",\n    \"name\": \"Hans Nilsen Hauge\",\n    \"nationality\": \"Norway\",\n    \"office\": \"Minister of Education and Church Affairs\",\n    \"party\": \"Conservative Party\",\n    \"term_end\": \"1905\",\n    \"term_start\": \"1903\",\n    \"profession\": \"priest\"\n}\n```"
     },
     {
         "id": 23178,
@@ -7990,7 +7990,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"alias\": \"ikon the verbal hologram; louie doggs; boxcutter pazzy; hologram; paz; vinnie p; the pazmanian devil; ikon the python; pazienza\",\n    \"article_title\": \"Vinnie Paz\",\n    \"associated_acts\": \"army of the pharaohs\",\n    \"background\": \"\",\n    \"birth_date\": \"1983-03-15\",\n    \"birth_name\": \"Vincent Alessandrino\",\n    \"birth_place\": \"Bronx, New York City, New York\",\n    \"genre\": \"hip hop, heavy metal\",\n    \"label\": \"\",\n    \"name\": \"Vinnie Paz\",\n    \"occupation\": \"rapper, songwriter, journalist\",\n    \"religion\": \"muslim\",\n    \"website\": \"maxboxing.com\",\n    \"years_active\": \"2005-2013; 2012-2014\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Vinnie Paz\",\n    \"alias\": \"ikon the verbal hologram; louie doggs; boxcutter pazzy; hologram; paz; vinnie p; the pazmanian devil; ikon the python; pazienza\",\n    \"associated_acts\": \"army of the pharaohs\",\n    \"background\": \"\",\n    \"birth_date\": \"1983-03-15\",\n    \"birth_name\": \"Vincent Alessandrino\",\n    \"birth_place\": \"Bronx, New York City, New York\",\n    \"genre\": \"hip hop, heavy metal\",\n    \"label\": \"\",\n    \"name\": \"Vinnie Paz\",\n    \"occupation\": \"rapper, songwriter, journalist\",\n    \"religion\": \"muslim\",\n    \"website\": \"https://vinnypaz.com/\",\n    \"years_active\": \"2001-2012; 2012-2013; 2013-2014\"\n}\n```"
     },
     {
         "id": 59647,
@@ -8222,7 +8222,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"gabriel jones\",\n    \"other_key\": \"\",\n    \"alma_mater\": \"\",\n    \"alongside\": \"george washington; thomas fairfax, 6th lord fairfax of cameron; hugh mercer; john gabriel jones\",\n    \"birth_date\": \"1724-05-17\",\n    \"birth_place\": \"\",\n    \"children\": \"\",\n    \"death_date\": \"1806-10\",\n    \"death_place\": \"\",\n    \"name\": \"gabriel jones\",\n    \"nationality\": \"american; welsh\",\n    \"occupation\": \"lawyer; legislator; court clerk; civil servant\",\n    \"office\": \"clerk of court; member of the house of burgesses of virginia; king's attorney; coroner\",\n    \"preceded\": \"\",\n    \"relations\": \"uncle of john gabriel jones; friend of george washington and thomas fairfax, 6th lord fairfax of cameron\",\n    \"religion\": \"\",\n    \"residence\": \"virginia\",\n    \"spouse\": \"\",\n    \"succeeded\": \"\",\n    \"term_end\": \"\",\n    \"term_start\": \"\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"gabriel jones\",\n    \"other_key\": \"\",\n    \"alma_mater\": \"\",\n    \"alongside\": \"george washington; thomas fairfax, 6th lord fairfax of cameron; hugh mercer\",\n    \"birth_date\": \"1724-05-17\",\n    \"birth_place\": \"\",\n    \"children\": \"\",\n    \"death_date\": \"1806-10\",\n    \"death_place\": \"\",\n    \"name\": \"gabriel jones\",\n    \"nationality\": \"American; Welsh\",\n    \"occupation\": \"lawyer; legislator; court clerk; civil servant\",\n    \"office\": \"clerk of court; member of the house of burgesses of virginia; king's attorney; coroner\",\n    \"preceded\": \"\",\n    \"relations\": \"uncle of john gabriel jones; friend of george washington and thomas fairfax, 6th lord fairfax of cameron\",\n    \"religion\": \"\",\n    \"residence\": \"virginia\",\n    \"spouse\": \"\",\n    \"succeeded\": \"\",\n    \"term_end\": \"\",\n    \"term_start\": \"\"\n}\n```"
     },
     {
         "id": 22701,
@@ -8258,7 +8258,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"mehraj mattoo\",\n    \"nationality\": \"United States\",\n    \"occupation\": \"hedge fund commentator\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"mehraj mattoo\",\n    \"nationality\": \"United Kingdom\",\n    \"occupation\": \"financial economist\"\n}\n```"
     },
     {
         "id": 45717,
@@ -8453,7 +8453,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Rosalind Elsie Franklin\",\n    \"alma_mater\": \"Newnham College, Cambridge\",\n    \"birth_date\": \"1920-07-25\",\n    \"birth_name\": \"Rosalind Elsie Franklin\",\n    \"birth_place\": \"London, England\",\n    \"death_cause\": \"Ovarian cancer\",\n    \"death_date\": \"1958-04-07\",\n    \"death_place\": \"London, England\",\n    \"doctoral_student\": \"\",\n    \"fields\": \"Chemistry, X-ray crystallography\",\n    \"known_for\": \"X-ray diffraction images of DNA, discovery of the DNA double helix\",\n    \"name\": \"Rosalind Elsie Franklin\",\n    \"nationality\": \"United Kingdom\",\n    \"resting_place\": \"Nunhead Cemetery, London\",\n    \"resting_place_coordinates\": \"\",\n    \"thesis_title\": \"\",\n    \"thesis_year\": \"\",\n    \"work_institutions\": \"University of Cambridge, Laboratoire Central des Services Chimiques de l'\u00c9tat, King's College London, Birkbeck College\"\n}\n```"
+        "generated_output": "```json\n{\n    'article_title': \"Rosalind Franklin\",\n    'alma_mater': \"Newnham College, Cambridge\",\n    'birth_date': \"1920-07-25\",\n    'birth_name': \"Rosalind Elsie Franklin\",\n    'birth_place': \"London, England\",\n    'death_cause': \"Ovarian cancer\",\n    'death_date': \"1958-04-07\",\n    'death_place': \"London, England\",\n    'doctoral_student': \"\",\n    'fields': \"Chemistry, X-ray crystallography\",\n    'known_for': \"X-ray diffraction images of DNA, discovery of the DNA double helix\",\n    'name': \"Rosalind Elsie Franklin\",\n    'nationality': \"United Kingdom\",\n    'resting_place': \"Richmond Cemetery, London\",\n    'resting_place_coordinates': \"\",\n    'thesis_title': \"\",\n    'thesis_year': \"\",\n    'work_institutions': \"University of Cambridge, Laboratoire Central des Services Chimiques de l'\u00c9tat, King's College London, Birkbeck College\"\n}\n```"
     },
     {
         "id": 69704,
@@ -8507,7 +8507,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Geoffrey Stanton Morrow\",\n    \"background\": \"\",\n    \"birth_name\": \"Geoffrey Stanton Morrow\",\n    \"birth_place\": \"Paris, France\",\n    \"name\": \"Geoffrey Stanton Morrow\",\n    \"occupation\": \"songwriter; businessman; director; shareholder\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Geoffrey Stanton Morrow\",\n    \"background\": \"\",\n    \"birth_name\": \"Geoffrey Stanton Morrow\",\n    \"birth_place\": \"Paris, France\",\n    \"name\": \"Geoffrey Stanton Morrow\",\n    \"occupation\": \"songwriter; businessman; director; major shareholder\"\n}\n```"
     },
     {
         "id": 52320,
@@ -8930,7 +8930,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    'article_title': \"Cyril Knowlton Nash\",\n    'birth_date': \"1927-11-18\",\n    'birth_name': \"Cyril Knowlton Nash\",\n    'birth_place': \"Toronto\",\n    'death_date': \"2014-05-24\",\n    'death_place': \"Toronto\",\n    'known_for': \"Canadian journalist, author and news anchor\",\n    'nationality': \"Canada\",\n    'occupation': \"journalist; author; news anchor\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Cyril Knowlton Nash\",\n    \"birth_date\": \"1927-11-18\",\n    \"birth_name\": \"Cyril Knowlton Nash\",\n    \"birth_place\": \"Toronto\",\n    \"death_date\": \"2014-05-24\",\n    \"death_place\": \"Toronto\",\n    \"known_for\": \"Canadian journalist, author and news anchor\",\n    \"nationality\": \"Canada\",\n    \"occupation\": \"journalist; author; news anchor\"\n}\n```"
     },
     {
         "id": 32381,
@@ -9156,7 +9156,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Dr John Charles Lill\",\n    \"batting\": \"right-handed top order batsman\",\n    \"birth_date\": \"1933-12-07\",\n    \"birth_place\": \"Adelaide\",\n    \"bowling\": \"\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"South Australia; Norwood; Melbourne Cricket Club\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"Australia\",\n    \"date\": \"1959/60; 1960/61; 1962; 1961; 1962\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"John Charles Lill\",\n    \"matches\": \"2\",\n    \"name\": \"John Charles Lill\",\n    \"role\": \"batsman; footballer\",\n    \"runs\": \"809\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"1\",\n    \"year\": \"1963; 1960; 1983\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"dr john charles lill\",\n    \"batting\": \"right-handed top order batsman\",\n    \"birth_date\": \"1933-12-07\",\n    \"birth_place\": \"adelaide\",\n    \"bowling\": \"\",\n    \"catches/stumpings\": \"\",\n    \"club\": \"south australia; norwood\",\n    \"column\": \"\",\n    \"columns\": \"\",\n    \"country\": \"australia\",\n    \"date\": \"1959; 1960; 1961; 1962; 1963; 1964; 1983; 2000\",\n    \"deliveries\": \"\",\n    \"fivefor\": \"\",\n    \"fullname\": \"dr john charles lill\",\n    \"matches\": \"2\",\n    \"name\": \"john charles lill\",\n    \"role\": \"batsman\",\n    \"runs\": \"809\",\n    \"s/s\": \"\",\n    \"tenfor\": \"\",\n    \"wickets\": \"1\",\n    \"year\": \"1960; 1961; 1962; 1963; 1964; 1983; 2000\"\n}\n```"
     },
     {
         "id": 23526,
@@ -9266,7 +9266,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Mircea Eliade\",\n    \"birth_date\": \"1908-04-22\",\n    \"birth_place\": \"Ia\u0219i\",\n    \"death_date\": \"\",\n    \"death_place\": \"\",\n    \"genre\": \"fantastic; autobiographical; novels; novellas; short stories\",\n    \"influenced\": \"\",\n    \"influences\": \"nae ionescu\",\n    \"movement\": \"fascist; antisemitic\",\n    \"name\": \"Mircea Eliade\",\n    \"nationality\": \"Romanian\",\n    \"occupation\": \"historian of religion; fiction writer; philosopher; professor\",\n    \"parents\": \"\",\n    \"period\": \"late 1930s; 1940s\",\n    \"subject\": \"religious experience; hierophanies; eternal return\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Mircea Eliade\",\n    \"birth_date\": \"1908-03-22\",\n    \"birth_place\": \"Ia\u0219i\",\n    \"death_date\": \"\",\n    \"death_place\": \"\",\n    \"genre\": \"fantastic; autobiographical; novels; novellas; short stories; journalism; essay\",\n    \"influenced\": \"\",\n    \"influences\": \"nae ionescu\",\n    \"movement\": \"far-right\",\n    \"name\": \"Mircea Eliade\",\n    \"nationality\": \"Romanian\",\n    \"occupation\": \"historian of religion; fiction writer; philosopher; professor\",\n    \"parents\": \"\",\n    \"period\": \"late 1930s; 1940s\",\n    \"subject\": \"religious experience; hierophanies; eternal return\"\n}\n```"
     },
     {
         "id": 18196,
@@ -9424,7 +9424,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    \"article_title\": \"Obrad Glu\u0161\u010devi\u0107\",\n    \"birth_date\": \"1913-01-17\",\n    \"birth_place\": \"Metkovi\u0107\",\n    \"death_date\": \"1980-09-05\",\n    \"death_place\": \"\",\n    \"name\": \"Obrad Glu\u0161\u010devi\u0107\",\n    \"occupation\": \"film director\",\n    \"years_active\": \"1950s\u20131980\"\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"Obrad Glu\u0161\u010devi\u0107\",\n    \"birth_date\": \"1913-01-17\",\n    \"birth_place\": \"Metkovi\u0107\",\n    \"death_date\": \"1980-09-05\",\n    \"death_place\": \"\",\n    \"name\": \"Obrad Glu\u0161\u010devi\u0107\",\n    \"occupation\": \"film director\",\n    \"years_active\": \"19501980\"\n}\n```"
     },
     {
         "id": 55845,
@@ -9538,7 +9538,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\n    'article_title': 'John Hay, 2nd Marquess of Tweeddale',\n    'allegiance': 'Scotland',\n    'birth_date': '1645-01-01',\n    'children': 'Charles Hay; Lord John Hay',\n    'death_date': '1713-04-20',\n    'monarch': 'Robert II of Scotland',\n    'name': 'John Hay, 2nd Marquess of Tweeddale',\n    'office': 'Lord High Commissioner to the Scots Parliament; Lord Chancellor of Scotland; Sheriff of Haddington',\n    'party': 'Scottish',\n    'predecessor': 'John Hay, 1st Marquess of Tweeddale',\n    'serviceyears': '1668 -- 1674; 1682 -- 1713',\n    'spouse': 'Lady Mary Maitland',\n    'successor': 'Charles Hay',\n    'term_end': '1713',\n    'term_start': '1697',\n    'party': 'Scottish',\n    'other_key': ''\n}\n```"
+        "generated_output": "```json\n{\n    \"article_title\": \"John Hay, 2nd Marquess of Tweeddale\",\n    \"allegiance\": \"Scotland\",\n    \"birth_date\": \"1645-01-01\",\n    \"children\": \"Charles Hay; Lord John Hay\",\n    \"death_date\": \"1713-04-20\",\n    \"monarch\": \"Robert II of Scotland\",\n    \"name\": \"John Hay, 2nd Marquess of Tweeddale\",\n    \"office\": \"Privy Councillor (Scotland); Lord High Commissioner to the Scots Parliament; Lord Chancellor of Scotland; Sheriff of Haddington\",\n    \"party\": \"\",\n    \"predecessor\": \"John Hay, 1st Marquess of Tweeddale\",\n    \"serviceyears\": \"1668 -- 1674; 1682 -- 1713; 1668 -- 1674; 1672 -- 1684; 1678 -- 1685; 1678 -- 1685; 1690 -- 1704; 1695 -- 1704; 1694 -- 1713; 1695\",\n    \"spouse\": \"Lady Mary Maitland\",\n    \"successor\": \"Charles Hay\",\n    \"term_end\": \"1713\",\n    \"term_start\": \"1697\",\n    \"monarch\": \"Robert II of Scotland\"\n}\n```"
     },
     {
         "id": 34086,

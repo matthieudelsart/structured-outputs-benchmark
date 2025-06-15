@@ -11,106 +11,133 @@ It automates the process of:
 The script is structured to handle the unique prompt-formatting requirements of each
 benchmark task.
 """
-from google import genai
-from dotenv import load_dotenv
+# Standard libs
 import os
 import json
 from pathlib import Path
 import logging
 from tqdm import tqdm
 import time
-from concurrent.futures import ThreadPoolExecutor
-from functools import partial
 from typing import Dict, Any, List
-from google.genai.types import GenerateContentConfigDict
 import argparse
 
-# Configure logging
+# Transformers
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+# -----------------------------------------------------------------------------
+# Model / generation parameters
+# -----------------------------------------------------------------------------
+
+MODEL_NAME = "Qwen/Qwen3-1.7B"
+# Directory where the model will be downloaded (instead of HF default cache)
+MODEL_DIR = Path("models")
+MODEL_DIR.mkdir(parents=True, exist_ok=True)
+
+# Generation config – keep temperature 0 for deterministic outputs
+GENERATION_KWARGS = {
+    "temperature": 0.0,  # ignored when do_sample False, kept for completeness
+    "do_sample": False,
+    "max_new_tokens": 256,
+}
+
+# Batch size – adjusted dynamically if you wish
+BATCH_SIZE = 4
+
+# Will be set from CLI; used by helpers to truncate benchmark
+MAX_RECORDS: int | None = None
+
+# Configure logging (handlers added in main)
 logger = logging.getLogger(__name__)
 
-# Load environment variables
-load_dotenv()
-GEMINI_KEY = os.getenv('GEMINI_KEY')
+# -----------------------------------------------------------------------------
+# Helpers
+# -----------------------------------------------------------------------------
 
-MODEL_NAME = "gemma-3-1b-it"
-GENERATION_CONFIG: GenerateContentConfigDict = {"temperature": 0.0}
-MAX_WORKERS = 2
+def batch_generate(
+    model: AutoModelForCausalLM,
+    tokenizer: AutoTokenizer,
+    chats: List[List[Dict[str, str]]],
+) -> List[str]:
+    """Generate texts for a list of prompts in batches.
 
-def generate_with_retry(client: genai.client.Client, prompt: str, max_retries: int = 10, delay: int = 10) -> str | None:
+    Parameters
+    ----------
+    model / tokenizer : already loaded HF classes
+    chats : list[list[dict[str, str]]]
+
+    Returns
+    -------
+    list[str] – generated texts in the same order.
     """
-    Generates content using the Gemini API with a retry mechanism.
 
-    This function sends a prompt to the Gemini model and will retry the request
-    on failure, which is useful for handling intermittent network issues or API
-    errors.
+    results: List[str] = []
+    model.eval()  # type: ignore[attr-defined]
 
-    Args:
-        client: The initialized `google.genai.Client` instance.
-        prompt: The complete prompt string to send to the model.
-        max_retries: The maximum number of times to retry the API call.
-        delay: The number of seconds to wait between retries.
+    with torch.no_grad():
+        for i in range(0, len(chats), BATCH_SIZE):
+            batch_chats = chats[i : i + BATCH_SIZE]
 
-    Returns:
-        The generated text as a string, or None if the request fails after
-        all retries.
-    """
-    for attempt in range(max_retries):
-        try:
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=prompt,
-                config=GENERATION_CONFIG
-            )
-            return response.text
-        except Exception as e:
-            logger.error(f"API call failed on attempt {attempt + 1}/{max_retries}: {e}")
-            if attempt < max_retries - 1:
-                logger.info(f"Retrying in {delay} seconds...")
-                time.sleep(delay)
-            else:
-                logger.error("Max retries reached. Skipping this record.")
-                return None
+            batch_texts = [
+                tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True, enable_thinking=False)  # type: ignore[attr-defined]
+                for m in batch_chats
+            ]
 
+            inputs = tokenizer(
+                batch_texts,
+                return_tensors="pt",
+                padding=True,
+                truncation=True,
+            ).to(model.device)  # type: ignore[attr-defined]
+
+            output_ids = model.generate(**inputs, **GENERATION_KWARGS)  # type: ignore[attr-defined]
+
+            # Remove the prompt part from generation and decode
+            for j, ids in enumerate(output_ids):
+                gen_ids = ids[inputs["input_ids"].shape[1] :]  # skip prompt tokens
+                text = tokenizer.decode(gen_ids, skip_special_tokens=True)  # type: ignore[arg-type]
+                results.append(text.strip())
+
+    return results
+
+# New process_batch without threading (batch inference instead)
 
 def process_batch(
-    client: genai.client.Client,
+    model: AutoModelForCausalLM,
+    tokenizer: AutoTokenizer,
     prompts: List[str],
     records: List[Dict[str, Any]],
     output_path: Path,
     task_name: str,
 ) -> None:
-    """
-    Processes a batch of prompts in parallel using a thread pool.
+    """Generate outputs for a list of prompts and save them.
 
-    Args:
-        client: The initialized `google.genai.Client` instance.
-        prompts: A list of complete prompt strings to be sent to the model.
-        records: The corresponding list of original benchmark records.
-        output_path: The file path where the final JSON output will be saved.
-        task_name: The name of the task, used for the progress bar description.
+    Uses batched inference instead of multi-threading, which is generally faster
+    for local model execution.
     """
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # We use partial to pre-fill the `client` argument of the generation function,
-        # as `executor.map` only passes the item from the iterable (the prompt).
-        bound_generate_func = partial(generate_with_retry, client)
-        
-        generated_texts = list(tqdm(
-            executor.map(bound_generate_func, prompts),
-            total=len(prompts),
-            desc=f"Generating for {task_name}"
-        ))
+
+    generated_texts: List[str] = []
+
+    pbar = tqdm(total=len(prompts), desc=f"Generating for {task_name}")
+    for i in range(0, len(prompts), BATCH_SIZE):
+        batch_prompts = prompts[i : i + BATCH_SIZE]
+        batch_chats = [[{"role": "user", "content": p}] for p in batch_prompts]
+        batch_texts = batch_generate(model, tokenizer, batch_chats)
+        generated_texts.extend(batch_texts)
+        pbar.update(len(batch_prompts))
+
+    pbar.close()
 
     results = []
     for record, generated_text in zip(records, generated_texts):
         new_record = record.copy()
-        new_record['generated_output'] = generated_text
+        new_record["generated_output"] = generated_text
         results.append(new_record)
 
-    with open(output_path / 'generated.json', 'w') as f:
+    with open(output_path / "generated.json", "w") as f:
         json.dump(results, f, indent=4)
 
-
-def generate_wikibio(client: genai.client.Client, data_path: Path, output_path: Path) -> None:
+def generate_wikibio(model, tokenizer, data_path: Path, output_path: Path) -> None:
     """
     Generates outputs for the `2-wiki_bio` task.
 
@@ -118,7 +145,8 @@ def generate_wikibio(client: genai.client.Client, data_path: Path, output_path: 
     keys is specified uniquely for each record in the benchmark data.
 
     Args:
-        client: The initialized `google.genai.Client` instance.
+        model: The loaded HF model.
+        tokenizer: The corresponding HF tokenizer.
         data_path: The path to the directory containing the task's data.
         output_path: The path to the directory where results will be saved.
     """
@@ -127,6 +155,9 @@ def generate_wikibio(client: genai.client.Client, data_path: Path, output_path: 
 
     with open(bench_file, 'r') as f:
         bench_data = json.load(f)
+
+    if MAX_RECORDS is not None:
+        bench_data = bench_data[:MAX_RECORDS]
 
     with open(prompt_file, 'r') as f:
         prompt_template = f.read()
@@ -137,10 +168,9 @@ def generate_wikibio(client: genai.client.Client, data_path: Path, output_path: 
         prompt = prompt_template.replace('{{EXPECTED_KEYS}}', keys)
         prompts.append(prompt + "\n\nInput: " + record['input'] + "\nOutput:")
         
-    process_batch(client, prompts, bench_data, output_path, "2-wiki_bio")
+    process_batch(model, tokenizer, prompts, bench_data, output_path, "2-wiki_bio")
 
-
-def generate_apibank(client: genai.client.Client, data_path: Path, output_path: Path) -> None:
+def generate_apibank(model, tokenizer, data_path: Path, output_path: Path) -> None:
     """
     Generates outputs for the `5-api_bank` task.
 
@@ -148,7 +178,8 @@ def generate_apibank(client: genai.client.Client, data_path: Path, output_path: 
     fields from the benchmark record (`input` and `instruction`).
 
     Args:
-        client: The initialized `google.genai.Client` instance.
+        model: The loaded HF model.
+        tokenizer: The corresponding HF tokenizer.
         data_path: The path to the directory containing the task's data.
         output_path: The path to the directory where results will be saved.
     """
@@ -158,6 +189,9 @@ def generate_apibank(client: genai.client.Client, data_path: Path, output_path: 
     with open(bench_file, 'r') as f:
         bench_data = json.load(f)
 
+    if MAX_RECORDS is not None:
+        bench_data = bench_data[:MAX_RECORDS]
+
     with open(prompt_file, 'r') as f:
         prompt_template = f.read()
     
@@ -165,10 +199,9 @@ def generate_apibank(client: genai.client.Client, data_path: Path, output_path: 
         prompt_template.format(input=record['input'], instruction=record['instruction'])
         for record in bench_data
     ]
-    process_batch(client, prompts, bench_data, output_path, "5-api_bank")
+    process_batch(model, tokenizer, prompts, bench_data, output_path, "5-api_bank")
 
-
-def generate_generic(client: genai.client.Client, task_name: str, data_path: Path, output_path: Path) -> None:
+def generate_generic(model, tokenizer, task_name: str, data_path: Path, output_path: Path) -> None:
     """
     A generic generator for tasks with a simple prompt structure.
 
@@ -176,7 +209,8 @@ def generate_generic(client: genai.client.Client, task_name: str, data_path: Pat
     replacing an `{input}` placeholder or simply appending the input text.
 
     Args:
-        client: The initialized `google.genai.Client` instance.
+        model: The loaded HF model.
+        tokenizer: The corresponding HF tokenizer.
         task_name: The name of the task (e.g., "1-rotowire").
         data_path: The path to the directory containing the task's data.
         output_path: The path to the directory where results will be saved.
@@ -186,6 +220,9 @@ def generate_generic(client: genai.client.Client, task_name: str, data_path: Pat
 
     with open(bench_file, 'r') as f:
         bench_data = json.load(f)
+
+    if MAX_RECORDS is not None:
+        bench_data = bench_data[:MAX_RECORDS]
 
     with open(prompt_file, 'r') as f:
         prompt_template = f.read()
@@ -199,55 +236,87 @@ def generate_generic(client: genai.client.Client, task_name: str, data_path: Pat
             full_prompt += "\n\nInput: " + record['input'] + "\nOutput:"
         prompts.append(full_prompt)
         
-    process_batch(client, prompts, bench_data, output_path, task_name)
-
+    process_batch(model, tokenizer, prompts, bench_data, output_path, task_name)
 
 def main():
     """
     Main function to run the generation for all benchmark tasks.
     """
-    parser = argparse.ArgumentParser(description="Generate benchmark outputs using the Gemini API.")
+    parser = argparse.ArgumentParser(description="Generate benchmark outputs using the HF Qwen model.")
     parser.add_argument(
         "--start-from",
         type=str,
         default=None,
-        choices=["1-rotowire", "2-wiki_bio", "3-few_nerd", "4-TOPv1", "5-api_bank", "6-reasoning"],
-        help="The task to start the generation from."
+        choices=[
+            "1-rotowire",
+            "2-wiki_bio",
+            "3-few_nerd",
+            "4-TOPv1",
+            "5-api_bank",
+            "6-reasoning",
+        ],
+        help="The task to start the generation from.",
     )
+    parser.add_argument(
+        "--max-records",
+        type=int,
+        default=None,
+        help="If set, only generate for the first N records of each task (quick test run).",
+    )
+
     args = parser.parse_args()
 
-    # Create logs directory if it doesn't exist
+    # expose globally for helper functions
+    global MAX_RECORDS
+    MAX_RECORDS = args.max_records
+
+    # ---------------- Logging ----------------
     logs_dir = Path("logs")
     logs_dir.mkdir(exist_ok=True)
-    
-    # Setup logging
-    log_file = logs_dir / f"generate_{MODEL_NAME}.log"
 
-    # Remove all handlers associated with the root logger object.
+    log_file = logs_dir / f"generate_{MODEL_NAME.split('/')[-1]}.log"
+
     for handler in logging.root.handlers[:]:
         logging.root.removeHandler(handler)
-        
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s",
-        handlers=[
-            logging.FileHandler(log_file, mode='w'),
-            logging.StreamHandler()
-        ]
+        handlers=[logging.FileHandler(log_file, mode="w"), logging.StreamHandler()],
     )
-    
-    # Initialize the Gemini client
-    client = genai.client.Client(api_key=GEMINI_KEY)
+
+    # ---------------- Load HF model ----------------
+    logger.info("Loading model %s to %s", MODEL_NAME, MODEL_DIR)
+    tokenizer = AutoTokenizer.from_pretrained(
+        MODEL_NAME, cache_dir=MODEL_DIR, trust_remote_code=True
+    )
+
+    # Ensure correct padding side for decoder-only chat models
+    tokenizer.padding_side = "left"
+
+    # Detect best dtype / device
+    use_mps = torch.backends.mps.is_available()
+    dtype = torch.float16 if (torch.cuda.is_available() or use_mps) else torch.float32
+
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_NAME,
+        cache_dir=MODEL_DIR,
+        torch_dtype=dtype,
+        device_map="auto",  # let Accelerate place weights (MPS / CUDA / CPU)
+        trust_remote_code=True,
+    )
+
+    logger.info("Model loaded on device %s", model.device)
 
     # Define paths
     base_data_path = Path('data/clean')
-    output_base_path = Path(f'results/{MODEL_NAME}')
+    output_base_path = Path(f'results/{MODEL_NAME.split("/")[-1]}')
 
     tasks = {
-        "1-rotowire": lambda c, d, o: generate_generic(c, "1-rotowire", d, o),
+        "1-rotowire": lambda m, t, d, o: generate_generic(m, t, "1-rotowire", d, o),
         "2-wiki_bio": generate_wikibio,
-        "3-few_nerd": lambda c, d, o: generate_generic(c, "3-few_nerd", d, o),
-        "4-TOPv1": lambda c, d, o: generate_generic(c, "4-TOPv1", d, o),
+        "3-few_nerd": lambda m, t, d, o: generate_generic(m, t, "3-few_nerd", d, o),
+        "4-TOPv1": lambda m, t, d, o: generate_generic(m, t, "4-TOPv1", d, o),
         "5-api_bank": generate_apibank,
     }
 
@@ -267,7 +336,7 @@ def main():
         data_path = base_data_path / task_name
         output_path = output_base_path / task_name
         output_path.mkdir(parents=True, exist_ok=True)
-        gen_func(client, data_path, output_path)
+        gen_func(model, tokenizer, data_path, output_path)
 
     # Special handling for 6-reasoning
     if not args.start_from or task_names.index(args.start_from) <= len(task_names):
@@ -279,8 +348,9 @@ def main():
             subtask_path = reasoning_path / subtask
             output_path = output_reasoning_path / subtask
             output_path.mkdir(parents=True, exist_ok=True)
-            generate_generic(client, f"6-reasoning/{subtask}", subtask_path, output_path)
-
+            generate_generic(model, tokenizer, f"6-reasoning/{subtask}", subtask_path, output_path)
 
 if __name__ == '__main__':
     main() 
+
+# uv run python -m src.generate_transformers --max-records 4 

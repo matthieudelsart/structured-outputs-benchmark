@@ -155,7 +155,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\"article_title\": \"robert w. bob doll\", \"bbr\": \"\", \"birth_date\": \"1919-08-10\", \"birth_place\": \"\", \"career_end\": \"1950\", \"career_start\": \"1946\", \"college\": \"university of colorado\", \"death_date\": \"1959-09-18\", \"height_ft\": \"\", \"height_in\": \"\", \"highschool\": \"chaffey high school\", \"name\": \"robert w. bob doll\", \"number\": \"\", \"position\": \"post player\", \"statlabel\": \"points; assists\", \"statvalue\": \"8.4; 1.4\", \"team\": \"st. louis bombers; boston celtics\", \"weight_lbs\": \"\", \"years\": \"19461950\"}\n```"
+        "generated_output": "{\"article_title\": \"robert w. bob doll\", \"bbr\": \"\", \"birth_date\": \"1919-08-10\", \"birth_place\": \"ontario\", \"career_end\": \"1950\", \"career_start\": \"1946\", \"college\": \"university of colorado\", \"death_date\": \"1959-09-18\", \"height_ft\": \"\", \"height_in\": \"\", \"highschool\": \"chaffey high school\", \"name\": \"robert w. bob doll\", \"number\": \"\", \"position\": \"post player\", \"statlabel\": \"points per game; assists per game\", \"statvalue\": \"8.4; 1.4\", \"team\": \"st. louis bombers; boston celtics\", \"weight_lbs\": \"\", \"years\": \"19391942\"}"
     },
     {
         "id": 53161,
@@ -257,7 +257,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"william frishe dean, sr.\", \"awards\": \"medal of honor; distinguished service cross\", \"battles\": \"world war ii; korean war; battle of taejon\", \"birth_date\": \"1899-08-01\", \"birth_name\": \"\", \"birth_place\": \"illinois\", \"branch\": \"army\", \"commands\": \"44th infantry division; 24th infantry division\", \"death_date\": \"1981-08-24\", \"death_place\": \"\", \"placeofburial\": \"\", \"serviceyears\": \"19211953\"}"
+        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"william frishe dean, sr.\", \"awards\": \"Medal of Honor; Distinguished Service Cross\", \"battles\": \"World War II; Korean War; Battle of Taejon\", \"birth_date\": \"1899-08-01\", \"birth_name\": \"\", \"birth_place\": \"illinois\", \"branch\": \"United States Army\", \"commands\": \"44th infantry division; 24th infantry division\", \"death_date\": \"1981-08-24\", \"death_place\": \"\", \"placeofburial\": \"\", \"serviceyears\": \"19211953\"}"
     },
     {
         "id": 7801,
@@ -343,7 +343,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"pierre-augustin caron de beaumarchais\", \"birth_date\": \"1732-01-24\", \"birth_name\": \"Pierre-Augustin Caron de Beaumarchais\", \"birth_place\": \"\", \"death_date\": \"1799-05-18\", \"death_place\": \"\", \"genre\": \"playwright\", \"name\": \"Pierre-Augustin Caron de Beaumarchais\", \"nationality\": \"France\", \"notableworks\": \"the three figaro plays\", \"period\": \"17321799\"}"
+        "generated_output": "{\"article_title\": \"pierre-augustin caron de beaumarchais\", \"birth_date\": \"1732-01-24\", \"birth_name\": \"\", \"birth_place\": \"\", \"death_date\": \"1799-05-18\", \"death_place\": \"\", \"genre\": \"playwright; satirist\", \"name\": \"Pierre-Augustin Caron de Beaumarchais\", \"nationality\": \"France\", \"notableworks\": \"the three figaro plays\", \"period\": \"17321799\"}"
     },
     {
         "id": 46040,
@@ -397,7 +397,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"janet hinostroza\", \"birth_name\": \"\", \"birth_place\": \"\", \"education\": \"\", \"name\": \"janet hinostroza\", \"occupation\": \"television journalist\"}"
+        "generated_output": "{\"article_title\": \"janet hinostroza\", \"birth_name\": \"\", \"birth_place\": \"\", \"education\": \"\", \"name\": \"janet hinostroza\", \"occupation\": \"television journalist; anchor\"}"
     },
     {
         "id": 54738,
@@ -468,7 +468,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"Neil Reid\", \"background\": \"child singing star\", \"birth_date\": \"1959\", \"instrument\": \"vocals\", \"label\": \"decca records\", \"name\": \"Neil Reid\", \"origin\": \"scotland\", \"years_active\": \"19681973\"}"
+        "generated_output": "{\"article_title\": \"Neil Reid\", \"background\": \"singer\", \"birth_date\": \"1959\", \"instrument\": \"\", \"label\": \"decca records\", \"name\": \"Neil Reid\", \"origin\": \"Scotland\", \"years_active\": \"19681973\"}"
     },
     {
         "id": 32948,
@@ -632,7 +632,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"francis longworth haszard\", \"birth_date\": \"1849-11-20\", \"birth_place\": \"bellevue, lot 49, prince edward island\", \"cabinet\": \"\", \"children\": \"\", \"death_date\": \"1938-07-25\", \"death_place\": \"\", \"lieutenant_governor\": \"\", \"monarch\": \"\", \"name\": \"francis longworth haszard\", \"nationality\": \"\", \"occupation\": \"politician; jurist\", \"office\": \"premier of prince edward island; magistrate; supreme court justice; master of the rolls\", \"order\": \"\", \"party\": \"liberal\", \"predecessor\": \"arthur peters\", \"profession\": \"lawyer\", \"religion\": \"\", \"residence\": \"\", \"spouse\": \"\", \"successor\": \"\", \"term_end\": \"1911\", \"term_start\": \"1904\"}"
+        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"francis longworth haszard\", \"birth_date\": \"1849-11-20\", \"birth_place\": \"bellevue, lot 49, prince edward island\", \"cabinet\": \"\", \"children\": \"\", \"death_date\": \"1938-07-25\", \"death_place\": \"\", \"lieutenant_governor\": \"\", \"monarch\": \"\", \"name\": \"francis longworth haszard\", \"nationality\": \"\", \"occupation\": \"politician; jurist\", \"office\": \"premier of prince edward island; magistrate; member of the provincial legislature; supreme court judge; master of the rolls\", \"order\": \"\", \"party\": \"liberal\", \"predecessor\": \"arthur peters\", \"profession\": \"lawyer; magistrate; judge\", \"religion\": \"\", \"residence\": \"\", \"spouse\": \"\", \"successor\": \"\", \"term_end\": \"1911\", \"term_start\": \"1908\"}"
     },
     {
         "id": 7982,
@@ -687,7 +687,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"\", \"birth_date\": \"1949-11-27\", \"birth_place\": \"\", \"name\": \"Sekiya\", \"nationality\": \"Japan\", \"years\": \"19872000\"}"
+        "generated_output": "{\"article_title\": \"Sekiya\", \"birth_date\": \"1949-11-27\", \"birth_place\": \"\", \"name\": \"Sekiya\", \"nationality\": \"Japan\", \"years\": \"19872000\"}"
     },
     {
         "id": 42363,
@@ -840,7 +840,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"john william king\", \"batting\": \"19.06\", \"birth_date\": \"1908-01-21\", \"birth_place\": \"leicestershire\", \"catches/stumpings\": \"\", \"club\": \"worcestershire; leicestershire\", \"column\": \"\", \"columns\": \"\", \"country\": \"England\", \"date\": \"\", \"death_date\": \"1953-03-25\", \"death_place\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"john william king\", \"matches\": \"48\", \"name\": \"king\", \"runs\": \"1000\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"\", \"year\": \"1927\"}"
+        "generated_output": "{\"article_title\": \"john william king\", \"batting\": \"\", \"birth_date\": \"1908-01-21\", \"birth_place\": \"\", \"catches/stumpings\": \"\", \"club\": \"worcestershire; leicestershire\", \"column\": \"\", \"columns\": \"\", \"country\": \"United Kingdom\", \"date\": \"1927-05\", \"death_date\": \"1953-03-25\", \"death_place\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"john william king\", \"matches\": \"48\", \"name\": \"king\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"\", \"year\": \"1927\"}"
     },
     {
         "id": 61186,
@@ -926,7 +926,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"st. xavier college\", \"article_title\": \"sir nowroji saklatwala\", \"birth_date\": \"1875\", \"birth_place\": \"\", \"death_date\": \"1938\", \"ethnicity\": \"parsee\", \"name\": \"Nowroji Saklatwala\", \"occupation\": \"chairman; cricket player\", \"parents\": \"bapuji saklatwala; virbaiji saklatwala\", \"relatives\": \"jamshetji nusserwani tata\", \"religion\": \"\"}"
+        "generated_output": "{\"alma_mater\": \"st. xavier college\", \"article_title\": \"sir nowroji saklatwala\", \"birth_date\": \"1875\", \"birth_place\": \"\", \"death_date\": \"1938\", \"ethnicity\": \"parsee\", \"name\": \"nowroji saklatwala\", \"occupation\": \"chairman; clerk; cricket player\", \"parents\": \"bapuji saklatwala; virbaiji saklatwala\", \"relatives\": \"jamshetji nusserwani tata; dorabji tata\", \"religion\": \"\"}"
     },
     {
         "id": 72190,
@@ -1349,7 +1349,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"George James Eade\", \"awards\": \"\", \"battles\": \"\", \"birth_date\": \"1921-10-27\", \"birth_place\": \"lockney\", \"branch\": \"air force\", \"name\": \"George James Eade\", \"placeofburial_label\": \"\", \"serviceyears\": \"19421975\"}"
+        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"george james eade\", \"awards\": \"\", \"battles\": \"\", \"birth_date\": \"1921-10-27\", \"birth_place\": \"lockney\", \"branch\": \"air force\", \"name\": \"george james eade\", \"placeofburial_label\": \"\", \"serviceyears\": \"19421975\"}"
     },
     {
         "id": 52802,
@@ -1508,7 +1508,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"anthony william durley\", \"batting\": \"right-handed\", \"birth_date\": \"1933-09-30\", \"birth_place\": \"ilford\", \"catches/stumpings\": \"\", \"club\": \"essex; bedfordshire; hertfordshire\", \"column\": \"\", \"columns\": \"\", \"country\": \"United Kingdom\", \"date\": \"\", \"death_date\": \"1993-01-01\", \"death_place\": \"luton\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"anthony william durley\", \"matches\": \"\", \"name\": \"durley\", \"role\": \"batsman; wicket-keeper\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"\", \"year\": \"\"}"
+        "generated_output": "{\"article_title\": \"anthony william durley\", \"batting\": \"right-handed\", \"birth_date\": \"1933-09-30\", \"birth_place\": \"ilford\", \"catches/stumpings\": \"\", \"club\": \"essex; bedfordshire; hertfordshire\", \"column\": \"\", \"columns\": \"\", \"country\": \"United Kingdom\", \"date\": \"\", \"death_date\": \"1993-01-01\", \"death_place\": \"luton\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"anthony william durley\", \"matches\": \"96\", \"name\": \"anthony william durley\", \"role\": \"cricketer\", \"runs\": \"178\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"\", \"year\": \"\"}"
     },
     {
         "id": 16381,
@@ -1597,7 +1597,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"angelica panganiban\", \"agent\": \"\", \"birth_date\": \"1986-11-04\", \"birth_name\": \"\", \"birth_place\": \"\", \"name\": \"angelica panganiban\", \"nationality\": \"philippines; united states\", \"occupation\": \"actress\", \"othernames\": \"\", \"partner\": \"\", \"years_active\": \"1992\"}"
+        "generated_output": "{\"agent\": \"\", \"article_title\": \"angelica panganiban\", \"birth_date\": \"1986-11-04\", \"birth_name\": \"\", \"birth_place\": \"\", \"name\": \"angelica panganiban\", \"nationality\": \"Philippines; United States\", \"occupation\": \"actress\", \"othernames\": \"\", \"partner\": \"\", \"years_active\": \"19922014\"}"
     },
     {
         "id": 513,
@@ -1750,7 +1750,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"george puckrin harrison\", \"batting\": \"\", \"bowling\": \"\", \"catches/stumpings\": \"\", \"column\": \"\", \"columns\": \"\", \"country\": \"England\", \"date\": \"1862-02-11\", \"deliveries\": \"\", \"fivefor\": \"1\", \"international\": \"\", \"lasttestdate\": \"\", \"lasttestyear\": \"\", \"matches\": \"59\", \"name\": \"george puckrin harrison\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"3\", \"testdebutdate\": \"\", \"testdebutyear\": \"\", \"wickets\": \"\", \"year\": \"1883\"}"
+        "generated_output": "{\"article_title\": \"george puckrin harrison\", \"batting\": \"\", \"bowling\": \"\", \"catches/stumpings\": \"\", \"column\": \"\", \"columns\": \"\", \"country\": \"England\", \"date\": \"1862-02-11\", \"deliveries\": \"\", \"fivefor\": \"5\", \"international\": \"England\", \"lasttestdate\": \"\", \"lasttestyear\": \"\", \"matches\": \"59\", \"name\": \"george puckrin harrison\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"11\", \"testdebutdate\": \"\", \"testdebutyear\": \"\", \"wickets\": \"100\", \"year\": \"18831892\"}"
     },
     {
         "id": 26078,
@@ -1928,7 +1928,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"louis pierre althusser\", \"birth_date\": \"1918-10-16\", \"birth_name\": \"louis pierre althusser\", \"birth_place\": \"algeria\", \"death_date\": \"1990-10-22\", \"death_place\": \"\", \"era\": \"\", \"influenced\": \"\", \"influences\": \"marxism\", \"main_interests\": \"marxist philosophy; structuralism\", \"notable_ideas\": \"structural marxism; critique of empiricism in marxism; critique of humanist socialism; critique of reformist socialism; critique of cult of personality; critique of ideology\", \"region\": \"france\", \"school_tradition\": \"marxism; structuralism\"}"
+        "generated_output": "{\"article_title\": \"louis pierre althusser\", \"birth_date\": \"1918-10-16\", \"birth_name\": \"\", \"birth_place\": \"algeria\", \"death_date\": \"1990-10-22\", \"death_place\": \"\", \"era\": \"\", \"influenced\": \"\", \"influences\": \"marxism; empiricism\", \"main_interests\": \"marxism; empiricism; humanism; reformist socialism; cult of personality; ideology\", \"notable_ideas\": \"\", \"region\": \"france\", \"school_tradition\": \"structural marxism\"}"
     },
     {
         "id": 43602,
@@ -2024,7 +2024,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"pavle \u0110uri\u0161i\u0107\", \"birth_date\": \"1909-07-09\", \"birth_place\": \"\", \"branch\": \"royal yugoslav army; chetniks; montenegrin volunteer corps\", \"death_date\": \"1945-04\", \"death_place\": \"banja luka\", \"honorific_prefix\": \"\", \"name\": \"pavle \u0110uri\u0161i\u0107\", \"native_name\": \"\", \"placeofburial\": \"\", \"placeofburial_label\": \"\", \"serviceyears\": \"\"}"
+        "generated_output": "{\"article_title\": \"pavle \u0110uri\u0161i\u0107\", \"birth_date\": \"1909-07-09\", \"birth_place\": \"\", \"branch\": \"royal yugoslav army\", \"death_date\": \"1945-04\", \"death_place\": \"banja luka\", \"honorific_prefix\": \"vojvoda\", \"name\": \"pavle \u0110uri\u0161i\u0107\", \"native_name\": \"\", \"placeofburial\": \"\", \"placeofburial_label\": \"\", \"serviceyears\": \"\"}"
     },
     {
         "id": 70974,
@@ -2144,7 +2144,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "```json\n{\"allegiance\": \"\", \"article_title\": \"richard wogan talbot, 2nd baron talbot of malahide pc\", \"battles\": \"\", \"birth_date\": \"1766\", \"branch\": \"\", \"commands\": \"\", \"death_date\": \"1849-10-29\", \"name\": \"Richard Wogan Talbot\", \"office\": \"Baron Talbot of Malahide\", \"party\": \"\", \"predecessor\": \"Margaret Talbot\", \"religion\": \"\", \"serviceyears\": \"\", \"successor\": \"James\", \"term_end\": \"1849-10-29\", \"term_start\": \"1834\"}\n```"
+        "generated_output": "{\"allegiance\": \"\", \"article_title\": \"richard wogan talbot\", \"battles\": \"\", \"birth_date\": \"1766\", \"branch\": \"\", \"commands\": \"\", \"death_date\": \"1849-10-29\", \"name\": \"Richard Wogan Talbot\", \"office\": \"MP for Dublin County; MP for County Dublin; Baron Talbot of Malahide; Irish Privy Council; Baron Furnival\", \"party\": \"\", \"predecessor\": \"Margaret Talbot\", \"religion\": \"\", \"serviceyears\": \"\", \"successor\": \"James Talbot\", \"term_end\": \"1791-03; 1830; 1849-10-29; 1849-10-29; 1849-10-29\", \"term_start\": \"1790-05; 1807; 1834; 1836; 1839\"}"
     },
     {
         "id": 71273,
@@ -2221,7 +2221,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"david ouimet\", \"associated_acts\": \"cop shoot cop; motherhead bug; firewater; sulfur; foetus; swans\", \"background\": \"United States; memphis; music oriented household\", \"birth_date\": \"\", \"genre\": \"noise rock\", \"instrument\": \"sampler; keyboards; trombone; vocals\", \"name\": \"david ouimet\", \"occupation\": \"musician; artist; illustrator\", \"years_active\": \"\"}"
+        "generated_output": "{\"article_title\": \"david ouimet\", \"associated_acts\": \"cop shoot cop; motherhead bug; firewater; sulfur; foetus; swans\", \"background\": \"grew up in memphis; music oriented household; introduced to synthesizers in teenage years; developed interest in editing; moved to rhode island; befriended tod ashley and jon spencer\", \"birth_date\": \"\", \"genre\": \"noise rock\", \"instrument\": \"synthesizers; sampler; keyboards; trombone\", \"name\": \"david ouimet\", \"occupation\": \"musician; artist; illustrator\", \"years_active\": \"\"}"
     },
     {
         "id": 21462,
@@ -2299,7 +2299,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"university of michigan\", \"article_title\": \"john rich\", \"birth_date\": \"1925-07-06\", \"birth_place\": \"\", \"death_date\": \"2012-01-29\", \"death_place\": \"\", \"name\": \"john rich\", \"occupation\": \"film director; television director\", \"years_active\": \"\"}"
+        "generated_output": "{\"alma_mater\": \"University of Michigan\", \"article_title\": \"john rich\", \"birth_date\": \"1925-07-06\", \"birth_place\": \"\", \"death_date\": \"2012-01-29\", \"death_place\": \"\", \"name\": \"John Rich\", \"occupation\": \"film and television director\", \"years_active\": \"\"}"
     },
     {
         "id": 16789,
@@ -2452,7 +2452,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"dubrovnik\", \"article_title\": \"juraj njavro\", \"birth_date\": \"1938-07-02\", \"birth_place\": \"cerovica\", \"death_date\": \"2008-09-15\", \"death_place\": \"zagreb\", \"name\": \"Juraj Njavro\", \"office\": \"minister of health\", \"party\": \"croatian democratic union\", \"predecessor\": \"\", \"primeminister\": \"\", \"successor\": \"\", \"term_end\": \"1993-10-12\", \"term_start\": \"1992-08-12\"}"
+        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"juraj njavro\", \"birth_date\": \"1938-07-02\", \"birth_place\": \"cerovica\", \"death_date\": \"2008-09-15\", \"death_place\": \"zagreb\", \"name\": \"juraj njavro\", \"office\": \"minister of defenders from the homeland war\", \"party\": \"croatian democratic union\", \"predecessor\": \"\", \"primeminister\": \"\", \"successor\": \"\", \"term_end\": \"2000-01-27\", \"term_start\": \"1997-12-19\"}"
     },
     {
         "id": 50939,
@@ -2574,7 +2574,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"andrew ryan mcgill\", \"birth_date\": \"1840-02-19\", \"birth_place\": \"saegertown\", \"death_date\": \"1905-10-31\", \"death_place\": \"\", \"lieutenant\": \"\", \"name\": \"Andrew Ryan McGill\", \"office\": \"governor of minnesota\", \"order\": \"10\", \"party\": \"republican\", \"predecessor\": \"\", \"profession\": \"politician\", \"religion\": \"\", \"spouse\": \"eliza e. bryant; mary e. wilson\", \"successor\": \"\", \"term_end\": \"1889-01-09\", \"term_start\": \"1887-01-05\"}"
+        "generated_output": "{\"article_title\": \"andrew ryan mcgill\", \"birth_date\": \"1840-02-19\", \"birth_place\": \"saegertown\", \"death_date\": \"1905-10-31\", \"death_place\": \"\", \"lieutenant\": \"\", \"name\": \"andrew ryan mcgill\", \"office\": \"governor\", \"order\": \"10\", \"party\": \"republican\", \"predecessor\": \"\", \"profession\": \"politician\", \"religion\": \"\", \"spouse\": \"eliza e. bryant; mary e. wilson\", \"successor\": \"\", \"term_end\": \"1889-01-09\", \"term_start\": \"1887-01-05\"}"
     },
     {
         "id": 30493,
@@ -2646,7 +2646,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"don wilbanks\", \"birth_date\": \"1926-10-04\", \"birth_name\": \"thomas donald wilbanks\", \"birth_place\": \"holdenville\", \"death_date\": \"2013-07-26\", \"name\": \"don wilbanks\", \"nationality\": \"United States\", \"years_active\": \"1955\"}"
+        "generated_output": "{\"article_title\": \"don wilbanks\", \"birth_date\": \"1926-10-04\", \"birth_name\": \"thomas donald wilbanks\", \"birth_place\": \"holdenville, oklahoma\", \"death_date\": \"2013-07-26\", \"name\": \"don wilbanks\", \"nationality\": \"United States\", \"years_active\": \"1955\"}"
     },
     {
         "id": 22827,
@@ -2732,7 +2732,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"avis devoto\", \"birth_date\": \"1904-05-22\", \"birth_name\": \"Avis MacVicar\", \"birth_place\": \"houghton, michigan\", \"children\": \"Gordon Devoto; Mark Devoto\", \"death_date\": \"1989\", \"genre\": \"\", \"name\": \"Avis Devoto\", \"nationality\": \"United States\", \"occupation\": \"culinary editor; book reviewer; cook; secretary; cookbook scout; house secretary\", \"spouse\": \"Bernard Devoto\"}"
+        "generated_output": "{\"article_title\": \"avis devoto\", \"birth_date\": \"1904-05-22\", \"birth_name\": \"avis macvicar devoto\", \"birth_place\": \"houghton, michigan\", \"children\": \"gordon; mark\", \"death_date\": \"1989\", \"genre\": \"\", \"name\": \"avis devoto\", \"nationality\": \"United States\", \"occupation\": \"culinary editor; book reviewer; cook; secretary; cookbook scout; house secretary\", \"spouse\": \"bernard devoto\"}"
     },
     {
         "id": 6853,
@@ -2798,7 +2798,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"university of wisconsin--madison; carnegie mellon university\", \"article_title\": \"kenneth r. koedinger\", \"citizenship\": \"\", \"field\": \"human-computer interaction; psychology; cognitive psychology; intelligent tutoring systems; educational data mining\", \"name\": \"kenneth r. koedinger\", \"nationality\": \"United States\", \"residence\": \"\", \"work_institutions\": \"carnegie mellon university; pittsburgh science of learning center\"}"
+        "generated_output": "{\"alma_mater\": \"university of wisconsin-madison; carnegie mellon university\", \"article_title\": \"kenneth r. koedinger\", \"citizenship\": \"\", \"field\": \"human-computer interaction; psychology; cognitive psychology; intelligent tutoring systems; educational data mining\", \"name\": \"kenneth r. koedinger\", \"nationality\": \"\", \"residence\": \"\", \"work_institutions\": \"carnegie mellon university; pittsburgh science of learning center\"}"
     },
     {
         "id": 25877,
@@ -2896,7 +2896,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"chivu stoica\", \"birth_date\": \"1908-08-08\", \"birth_place\": \"smeeni\", \"death_date\": \"1975-02-18\", \"death_place\": \"\", \"name\": \"chivu stoica\", \"office\": \"prime minister of romania; president of the state council of romania\", \"party\": \"romanian worker's party\", \"predecessor\": \"\", \"primeminister\": \"chivu stoica\", \"successor\": \"\", \"term_end\": \"1961\", \"term_start\": \"1955\"}"
+        "generated_output": "{\"article_title\": \"chivu stoica\", \"birth_date\": \"1908-08-08\", \"birth_place\": \"smeeni\", \"death_date\": \"1975-02-18\", \"death_place\": \"\", \"name\": \"chivu stoica\", \"office\": \"president of the state council of romania\", \"party\": \"romanian worker's party\", \"predecessor\": \"\", \"primeminister\": \"prime minister of romania\", \"successor\": \"\", \"term_end\": \"1961\", \"term_start\": \"1955\"}"
     },
     {
         "id": 20967,
@@ -3000,7 +3000,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"eleanor of england\", \"birth_date\": \"1269-06-18\", \"birth_place\": \"\", \"consort\": \"\", \"death_date\": \"1298-08-29\", \"death_place\": \"\", \"father\": \"edward i of england\", \"house\": \"\", \"issue\": \"edward i, count of bar; joan\", \"mother\": \"eleanor of castile\", \"name\": \"eleanor of england\", \"reign\": \"\", \"spouse\": \"henry iii, count of bar\", \"succession\": \"\"}"
+        "generated_output": "{\"article_title\": \"eleanor of england\", \"birth_date\": \"1269-06-18\", \"birth_place\": \"\", \"consort\": \"\", \"death_date\": \"1298-08-29\", \"death_place\": \"\", \"father\": \"edward i of england\", \"house\": \"\", \"issue\": \"edward i, count of bar; joan\", \"mother\": \"eleanor of castile\", \"name\": \"eleanor\", \"reign\": \"\", \"spouse\": \"henry iii, count of bar\", \"succession\": \"\"}"
     },
     {
         "id": 30443,
@@ -3195,7 +3195,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"virginia ruth kilpatrick shehee\", \"birth_date\": \"1923-07-12\", \"birth_name\": \"\", \"birth_place\": \"\", \"children\": \"\", \"death_date\": \"2015-07-06\", \"death_place\": \"\", \"name\": \"virginia ruth kilpatrick shehee\", \"occupation\": \"businesswoman; civic leader; patron of the arts\", \"office\": \"state senator for district 38 in caddo and desoto parishes\", \"party\": \"democrat\", \"preceded\": \"cecil k. carter, jr.\", \"religion\": \"\", \"residence\": \"shreveport, louisiana\", \"resting_place\": \"\", \"spouse\": \"\", \"succeeded\": \"richard g. neeson\", \"term_end\": \"1980\", \"term_start\": \"1976\"}"
+        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"Virginia Ruth Kilpatrick Shehee\", \"birth_date\": \"1923-07-12\", \"birth_name\": \"Virginia Ruth Kilpatrick Shehee\", \"birth_place\": \"\", \"children\": \"\", \"death_date\": \"2015-07-06\", \"death_place\": \"\", \"name\": \"Virginia Ruth Kilpatrick Shehee\", \"occupation\": \"businesswoman; civic leader; patron of the arts\", \"office\": \"state senator\", \"party\": \"democrat\", \"preceded\": \"cecil k. carter, jr.\", \"religion\": \"\", \"residence\": \"shreveport\", \"resting_place\": \"\", \"spouse\": \"\", \"succeeded\": \"richard g. neeson\", \"term_end\": \"1980\", \"term_start\": \"1976\"}"
     },
     {
         "id": 26118,
@@ -3290,7 +3290,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"Andrew Rathbone\", \"associated_acts\": \"mansun; the wandering quatrains; jonti; seraphim; into the bleach; the jokers; world upside down; green smoke hokum band; indio's dream\", \"background\": \"english; grew up in blacon, chester; studied at tech music school in fulham, london; worked as an audi car salesman; launched rhythm rehab\", \"birth_date\": \"1969-09-08\", \"birth_name\": \"Andrew Rathbone\", \"birth_place\": \"chester\", \"genre\": \"rock\", \"instrument\": \"drums; caj\u00f3n\", \"label\": \"\", \"name\": \"Andrew Rathbone\", \"occupation\": \"drummer\", \"years_active\": \"19972013\"}"
+        "generated_output": "{\"article_title\": \"andrew rathbone\", \"associated_acts\": \"green smoke hokum band; indio's dream; into the bleach; jonti; mansun; seraphim; the jokers; the wandering quatrains; world upside down\", \"background\": \"english\", \"birth_date\": \"1969-09-08\", \"birth_name\": \"andrew rathbone\", \"birth_place\": \"chester\", \"genre\": \"rock\", \"instrument\": \"drums; cajon\", \"label\": \"\", \"name\": \"andrew rathbone\", \"occupation\": \"drummer\", \"years_active\": \"\"}"
     },
     {
         "id": 63323,
@@ -3499,7 +3499,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"Ian Johnson\", \"batting\": \"\", \"birth_date\": \"\", \"birth_place\": \"\", \"bowling\": \"\", \"catches/stumpings\": \"23\", \"column\": \"10.20\", \"columns\": \"61.00\", \"country\": \"Australia\", \"date\": \"\", \"death_date\": \"\", \"death_place\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"Ian Johnson\", \"heightm\": \"\", \"international\": \"yes\", \"lasttestagainst\": \"\", \"lasttestdate\": \"\", \"lasttestyear\": \"\", \"matches\": \"4\", \"name\": \"Ian Johnson\", \"role\": \"off spinner\", \"runs\": \"51\", \"s/s\": \"\", \"tenfor\": \"1\", \"testdebutagainst\": \"\", \"testdebutdate\": \"\", \"testdebutyear\": \"\", \"wickets\": \"7\", \"year\": \"1948\"}"
+        "generated_output": "{\"article_title\": \"ian johnson\", \"batting\": \"10.20\", \"birth_date\": \"\", \"birth_place\": \"\", \"bowling\": \"61.00\", \"catches/stumpings\": \"5\", \"column\": \"\", \"columns\": \"\", \"country\": \"Australia\", \"date\": \"\", \"death_date\": \"\", \"death_place\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"ian johnson\", \"heightm\": \"\", \"international\": \"\", \"lasttestagainst\": \"\", \"lasttestdate\": \"\", \"lasttestyear\": \"\", \"matches\": \"4\", \"name\": \"ian johnson\", \"role\": \"off spinner\", \"runs\": \"51\", \"s/s\": \"\", \"tenfor\": \"\", \"testdebutagainst\": \"\", \"testdebutdate\": \"\", \"testdebutyear\": \"\", \"wickets\": \"7\", \"year\": \"1948\"}"
     },
     {
         "id": 55969,
@@ -3627,7 +3627,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"marie of romania\", \"burial_place\": \"\", \"coronation\": \"alba iulia\", \"house\": \"\", \"issue\": \"5\", \"reign\": \"19141927\", \"spouse\": \"ferdinand i\", \"succession\": \"king michael; king carol ii\"}"
+        "generated_output": "{\"article_title\": \"marie of romania\", \"burial_place\": \"\", \"coronation\": \"1922; alba iulia\", \"house\": \"saxe-coburg and gotha\", \"issue\": \"\", \"reign\": \"\", \"spouse\": \"ferdinand i\", \"succession\": \"\"}"
     },
     {
         "id": 49310,
@@ -3701,7 +3701,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"richard irvine\", \"birth_date\": \"1910-04-10\", \"birth_place\": \"\", \"death_date\": \"1976-03-30\", \"death_place\": \"los angeles\", \"name\": \"richard irvine\", \"occupation\": \"art director\", \"othername\": \"\", \"yearsactive\": \"19391973\"}"
+        "generated_output": "{\"article_title\": \"richard irvine\", \"birth_date\": \"1910-04-10\", \"birth_place\": \"\", \"death_date\": \"1976-03-30\", \"death_place\": \"los angeles\", \"name\": \"Richard Irvine\", \"occupation\": \"art director\", \"othername\": \"\", \"yearsactive\": \"19391973\"}"
     },
     {
         "id": 21003,
@@ -3772,7 +3772,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"john lefebvre\", \"background\": \"\", \"birth_date\": \"1951-08-06\", \"instrument\": \"\", \"name\": \"john lefebvre\", \"occupation\": \"musician; composer; entrepreneur; retired lawyer; philanthropist; songwriter; touring performer; recording artist; activist; advocate\", \"origin\": \"Canada\", \"years_active\": \"\"}"
+        "generated_output": "{\"article_title\": \"john lefebvre\", \"background\": \"\", \"birth_date\": \"1951-08-06\", \"instrument\": \"\", \"name\": \"john lefebvre\", \"occupation\": \"musician; composer; entrepreneur; lawyer; philanthropist; songwriter; performer; recording artist; activist; advocate\", \"origin\": \"Canada\", \"years_active\": \"1999\"}"
     },
     {
         "id": 463,
@@ -3821,7 +3821,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"wang tiantian\", \"birth_date\": \"1986-02-14\", \"birth_place\": \"tianjin\", \"discipline\": \"gymnastics\", \"name\": \"wang tiantian\"}"
+        "generated_output": "{\"article_title\": \"Wang Tiantian\", \"birth_date\": \"1986-02-14\", \"birth_place\": \"tianjin\", \"discipline\": \"gymnastics\", \"name\": \"Wang Tiantian\"}"
     },
     {
         "id": 8823,
@@ -3919,7 +3919,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"henry spencer moore\", \"awards\": \"\", \"bgcolour\": \"\", \"birth_date\": \"1898-07-30\", \"birth_name\": \"henry spencer moore\", \"birth_place\": \"castleford\", \"death_date\": \"1986-08-31\", \"death_place\": \"\", \"field\": \"sculptor; artist\", \"movement\": \"modernism\", \"name\": \"henry spencer moore\", \"training\": \"\", \"works\": \"semi-abstract monumental bronze sculptures; carved marble; abstract cast bronze sculptures\"}"
+        "generated_output": "{\"article_title\": \"henry spencer moore\", \"awards\": \"\", \"bgcolour\": \"\", \"birth_date\": \"1898-07-30\", \"birth_name\": \"henry spencer moore\", \"birth_place\": \"castleford\", \"death_date\": \"1986-08-31\", \"death_place\": \"\", \"field\": \"sculptor; artist\", \"movement\": \"modernism\", \"name\": \"henry spencer moore\", \"training\": \"\", \"works\": \"semi-abstract monumental bronze sculptures; carved marble and larger-scale abstract cast bronze sculptures\"}"
     },
     {
         "id": 27126,
@@ -4011,7 +4011,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"boris borisovich yegorov\", \"birth_date\": \"1937-11-26\", \"birth_place\": \"moscow\", \"death_date\": \"1994-09-12\", \"death_place\": \"moscow\", \"mission\": \"voskhod 1\", \"name\": \"boris borisovich yegorov\", \"nationality\": \"Soviet Union\", \"occupation\": \"physician-cosmonaut\", \"selection\": \"multi-disciplinary team\", \"time\": \"\", \"type\": \"cosmonaut\"}"
+        "generated_output": "{\"article_title\": \"boris borisovich yegorov\", \"birth_date\": \"1937-11-26\", \"birth_place\": \"moscow\", \"death_date\": \"1994-09-12\", \"death_place\": \"moscow\", \"mission\": \"voskhod 1\", \"name\": \"boris borisovich yegorov\", \"nationality\": \"Soviet Union\", \"occupation\": \"physician; cosmonaut\", \"selection\": \"selected as a member of the multi-disciplinary team; father's influence suggested\", \"time\": \"\", \"type\": \"cosmonaut\"}"
     },
     {
         "id": 4729,
@@ -4094,7 +4094,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": null
+        "generated_output": "{\"article_title\": \"john edmond\", \"background\": \"moved between scotland and central africa; educated in luanshya, edinburgh, pretoria; won south african junior drumming championships in 1953; worked at roan antelope copper mine; served in royal rhodesia regiment; studied computers in england\", \"birth_date\": \"1936-11-18\", \"birth_place\": \"luanshya\", \"genre\": \"folk; patriotic; cabaret; rock'n' roll\", \"instrument\": \"mouth organ; bugle; guitar; drums\", \"label\": \"roan antelope music\", \"name\": \"john edmond\", \"origin\": \"Rhodesia\", \"years_active\": \"1958\"}"
     },
     {
         "id": 26311,
@@ -4318,7 +4318,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"allegiance\": \"south carolina; united states\", \"article_title\": \"aedanus burke\", \"battles\": \"\", \"birth_date\": \"1743-06-16\", \"birth_place\": \"galway\", \"branch\": \"militia; army\", \"death_date\": \"1802-03-30\", \"district\": \"\", \"name\": \"Aedanus Burke\", \"office\": \"judge of the state circuit court; member of the south carolina house of representatives; commissioner; united states representative; chancellor of the courts of equity; chief justice of south carolina\", \"party\": \"anti-administration\", \"predecessor\": \"\", \"profession\": \"soldier; judge; united states representative\", \"serviceyears\": \"17801782\", \"state\": \"south carolina\", \"successor\": \"\", \"term\": \"17891791\", \"term_end\": \"1791-03-03\", \"term_start\": \"1789-03-04\"}"
+        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"aedanus burke\", \"battles\": \"\", \"birth_date\": \"1743-06-16\", \"birth_place\": \"galway\", \"branch\": \"militia; army\", \"death_date\": \"1802-03-30\", \"district\": \"\", \"name\": \"aedanus burke\", \"office\": \"United States Representative\", \"party\": \"anti-administration\", \"predecessor\": \"\", \"profession\": \"soldier; judge; united states representative\", \"serviceyears\": \"17801782\", \"state\": \"south carolina\", \"successor\": \"\", \"term\": \"1\", \"term_end\": \"1791-03-03\", \"term_start\": \"1789-03-04\"}"
     },
     {
         "id": 39751,
@@ -4410,7 +4410,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"joseph benjamin noil\", \"awards\": \"medal of honor\", \"birth_date\": \"1841\", \"birth_place\": \"nova scotia\", \"branch\": \"navy\", \"death_date\": \"1882-03-21\", \"death_place\": \"washington, d.c.\", \"name\": \"joseph benjamin noil\", \"placeofburial\": \"saint elizabeth's hospital\", \"placeofburial_label\": \"hospital graveyard\", \"unit\": \"\"}"
+        "generated_output": "{\"allegiance\": \"United States\", \"article_title\": \"joseph benjamin noil\", \"awards\": \"medal of honor\", \"birth_date\": \"1841\", \"birth_place\": \"nova scotia\", \"branch\": \"navy\", \"death_date\": \"1882-03-21\", \"death_place\": \"washington, d.c.\", \"name\": \"joseph benjamin noil\", \"placeofburial\": \"saint elizabeth's hospital graveyard\", \"placeofburial_label\": \"joseph b. noel\", \"unit\": \"\"}"
     },
     {
         "id": 47156,
@@ -4502,7 +4502,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"eleanor coerr\", \"birth_date\": \"1922-05-29\", \"birth_name\": \"Page\", \"birth_place\": \"kamsack\", \"death_date\": \"2010-11-22\", \"death_place\": \"\", \"genre\": \"children's books; picture books; nonfiction\", \"name\": \"Eleanor Coerr\", \"occupation\": \"writer; newspaper reporter; editor; teacher\", \"period\": \"19452010\", \"spouse\": \"Wymberly de Renne Coerr\", \"subject\": \"\"}"
+        "generated_output": "{\"article_title\": \"eleanor coerr\", \"birth_date\": \"1922-05-29\", \"birth_name\": \"page\", \"birth_place\": \"kamsack\", \"death_date\": \"2010-11-22\", \"death_place\": \"\", \"genre\": \"children's books; nonfiction; picture books\", \"name\": \"eleanor coerr\", \"occupation\": \"writer; reporter; editor; teacher\", \"period\": \"19452010\", \"spouse\": \"wymberly de renne coerr\", \"subject\": \"\"}"
     },
     {
         "id": 49407,
@@ -4576,7 +4576,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"ljubi\u0161a bro\u0107i\u0107\", \"birth_date\": \"1911-10-03\", \"birth_place\": \"guca\", \"death_date\": \"1995-08-16\", \"death_place\": \"\", \"fullname\": \"ljubi\u0161a bro\u0107i\u0107\", \"managerclubs\": \"al-nasr; albania; bahrain; fc barcelona; footscray just; juventus; kuwait; lebanon; new zealand; ofk beograd; psv eindhoven; racing beirut; south melbourne hellas; yugoslavia\", \"manageryears\": \"\", \"name\": \"ljubi\u0161a bro\u0107i\u0107\"}"
+        "generated_output": "{\"article_title\": \"ljubi\u0161a bro\u0107i\u0107\", \"birth_date\": \"1911-10-03\", \"birth_place\": \"gu\u010da\", \"death_date\": \"1995-08-16\", \"death_place\": \"\", \"fullname\": \"ljubi\u0161a bro\u0107i\u0107\", \"managerclubs\": \"psv eindhoven; juventus; fc barcelona; al-nasr; albania; ofk beograd; racing beirut; lebanon; kuwait; bahrain; yugoslavia; footscray just; south melbourne hellas; new zealand\", \"manageryears\": \"1960\", \"name\": \"ljubi\u0161a bro\u0107i\u0107\"}"
     },
     {
         "id": 40176,
@@ -4644,7 +4644,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"helen naha\", \"birth_date\": \"1922\", \"death_date\": \"1993\", \"ethnicity\": \"hopi\", \"name\": \"helen naha\", \"nationality\": \"\", \"occupation\": \"potter\", \"other_name\": \"feather woman\"}"
+        "generated_output": "{\"article_title\": \"helen naha\", \"birth_date\": \"1922\", \"death_date\": \"1993\", \"ethnicity\": \"hopi\", \"name\": \"helen naha\", \"nationality\": \"United States\", \"occupation\": \"potter\", \"other_name\": \"feather woman\"}"
     },
     {
         "id": 28037,
@@ -4759,7 +4759,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"richard dale barnes\", \"awards\": \"big 12 coach of the year award\", \"birth_date\": \"1954-07-17\", \"birth_place\": \"\", \"championships\": \"big 12 conference championship; big east\", \"coach_team\": \"tennessee volunteers; texas; george mason university; providence college; clemson university\", \"coach_years\": \"19982015\", \"current_conference\": \"\", \"current_record\": \"\", \"current_team\": \"tennessee volunteers\", \"current_title\": \"head coach\", \"name\": \"richard dale barnes\", \"overall_record\": \"2020\", \"player_team\": \"lenoir-rhyne college\", \"player_years\": \"\", \"sport\": \"basketball\"}"
+        "generated_output": "{\"article_title\": \"richard dale barnes\", \"awards\": \"big 12 coach of the year\", \"birth_date\": \"1954-07-17\", \"birth_place\": \"\", \"championships\": \"big 12 conference; big east\", \"coach_team\": \"tennessee volunteers; texas; george mason; providence college; clemson university\", \"coach_years\": \"19982015\", \"current_conference\": \"\", \"current_record\": \"\", \"current_team\": \"tennessee volunteers\", \"current_title\": \"head coach\", \"name\": \"richard dale barnes\", \"overall_record\": \"2020\", \"player_team\": \"lenoir-rhyne college\", \"player_years\": \"1977\", \"sport\": \"basketball\"}"
     },
     {
         "id": 70313,
@@ -4918,7 +4918,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"sam blease\", \"birth_date\": \"1991-02-19\", \"careerhighlights\": \"played for the melbourne football club; geelong football club; nominated for the 2011 afl rising star; kicked a career high five goals; nominated for the 2012 afl rising star; ninth player to be nominated in two different seasons\", \"draftpick\": \"17\", \"fullname\": \"sam blease\", \"heightweight\": \"\", \"name\": \"sam blease\", \"originalteam\": \"melbourne football club\", \"position\": \"australian rules footballer\", \"statsend\": \"2015-08-31\", \"years\": \"20082015\"}"
+        "generated_output": "{\"article_title\": \"sam blease\", \"birth_date\": \"1991-02-19\", \"careerhighlights\": \"nominated for 2011 afl rising star; nominated for 2012 afl rising star; ninth player to be nominated in two different seasons; kicked career high five goals in 2012 afl season; ais/afl academy graduate; represented under-18 vic metro side in 2008; played with eastern ranges in tac cup\", \"draftpick\": \"17\", \"fullname\": \"sam blease\", \"heightweight\": \"\", \"name\": \"sam blease\", \"originalteam\": \"melbourne football club\", \"position\": \"australian rules footballer\", \"statsend\": \"\", \"years\": \"\"}"
     },
     {
         "id": 62464,
@@ -4986,7 +4986,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"sir john russell reynolds, 1st baronet\", \"birth_date\": \"1828-05-22\", \"birth_place\": \"romsey\", \"death_date\": \"1896-05-29\", \"death_place\": \"london\", \"name\": \"John Russell Reynolds\", \"nationality\": \"United Kingdom\", \"occupation\": \"neurologist; physician\"}"
+        "generated_output": "{\"article_title\": \"sir john russell reynolds, 1st baronet\", \"birth_date\": \"1828-05-22\", \"birth_place\": \"romsey\", \"death_date\": \"1896-05-29\", \"death_place\": \"london\", \"name\": \"sir john russell reynolds\", \"nationality\": \"United Kingdom\", \"occupation\": \"neurologist; physician\"}"
     },
     {
         "id": 28321,
@@ -5071,7 +5071,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"west alabama\", \"article_title\": \"john russo\", \"birth_date\": \"1973-11-10\", \"coach_team\": \"west alabama; saint joseph's; vermont mountaineers; hofstra\", \"coach_years\": \"19982000; ; 20052008; 2008\", \"current_conference\": \"caa\", \"current_team\": \"hofstra pride\", \"current_title\": \"head coach\", \"name\": \"john russo\", \"overall_record\": \"\", \"sport\": \"baseball\"}"
+        "generated_output": "{\"alma_mater\": \"west alabama\", \"article_title\": \"john russo\", \"birth_date\": \"1973-11-10\", \"coach_team\": \"west alabama; saint joseph's; vermont mountaineers; hofstra\", \"coach_years\": \"19982000; 20062007; 2008; 2012\", \"current_conference\": \"caa\", \"current_team\": \"hofstra pride\", \"current_title\": \"head coach\", \"name\": \"john russo\", \"overall_record\": \"\", \"sport\": \"baseball\"}"
     },
     {
         "id": 53485,
@@ -5206,7 +5206,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"jimmy de wulf\", \"birth_date\": \"1980-06-09\", \"birth_place\": \"blankenberge\", \"caps\": \"\", \"clubnumber\": \"\", \"clubs\": \"club brugge; troms\u00f8 il; cercle brugge; kv oostende\", \"currentclub\": \"\", \"fullname\": \"jimmy de wulf\", \"goals\": \"\", \"height\": \"\", \"name\": \"jimmy de wulf\", \"nationalcaps\": \"\", \"nationalgoals\": \"\", \"nationalteam\": \"belgium\", \"ntupdate\": \"\", \"pcupdate\": \"\", \"position\": \"central defender\", \"years\": \"19982009\", \"youthclubs\": \"sv blankenberge; club brugge\"}"
+        "generated_output": "{\"article_title\": \"jimmy de wulf\", \"birth_date\": \"1980-06-09\", \"birth_place\": \"blankenberge\", \"caps\": \"\", \"clubnumber\": \"\", \"clubs\": \"club brugge; troms\u00f8 il; cercle brugge; kv oostende\", \"currentclub\": \"\", \"fullname\": \"jimmy de wulf\", \"goals\": \"\", \"height\": \"\", \"name\": \"jimmy de wulf\", \"nationalcaps\": \"\", \"nationalgoals\": \"\", \"nationalteam\": \"\", \"ntupdate\": \"\", \"pcupdate\": \"\", \"position\": \"central defender\", \"years\": \"\", \"youthclubs\": \"sv blankenberge; club brugge\"}"
     },
     {
         "id": 59023,
@@ -5341,7 +5341,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"simon heartfield\", \"background\": \"dj; musician; record producer\", \"birth_date\": \"1962\", \"birth_name\": \"simon heartfield\", \"birth_place\": \"nantwich, cheshire\", \"genre\": \"house; breakbeat; electro; techno\", \"|name\": \"simon heartfield\"}"
+        "generated_output": "{\"article_title\": \"simon heartfield\", \"background\": \"dj; musician; record producer\", \"birth_date\": \"1962\", \"birth_name\": \"simon heartfield\", \"birth_place\": \"nantwich, cheshire\", \"genre\": \"electronic; house; breakbeat; electro; techno\", \"|name\": \"simon heartfield\"}"
     },
     {
         "id": 23370,
@@ -5556,7 +5556,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"alan norman connolly\", \"batting\": \"\", \"birth_date\": \"1939-06-29\", \"birth_place\": \"skipton\", \"bowling\": \"fast bowler\", \"catches/stumpings\": \"\", \"club\": \"middlesex\", \"column\": \"\", \"columns\": \"\", \"country\": \"Australia\", \"date\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"alan norman connolly\", \"international\": \"19631971\", \"lasttestagainst\": \"\", \"lasttestdate\": \"\", \"lasttestyear\": \"1971\", \"matches\": \"30\", \"name\": \"alan norman connolly\", \"odidebutagainst\": \"\", \"odidebutdate\": \"\", \"odidebutyear\": \"1963\", \"oneodi\": \"1\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"\", \"testdebutagainst\": \"\", \"testdebutdate\": \"\", \"testdebutyear\": \"1963\", \"wickets\": \"\", \"year\": \"\"}"
+        "generated_output": "{\"article_title\": \"alan norman connolly\", \"batting\": \"\", \"birth_date\": \"1939-06-29\", \"birth_place\": \"skipton\", \"bowling\": \"\", \"catches/stumpings\": \"\", \"club\": \"middlesex\", \"column\": \"\", \"columns\": \"\", \"country\": \"Australia\", \"date\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"alan norman connolly\", \"international\": \"true\", \"lasttestagainst\": \"england\", \"lasttestdate\": \"\", \"lasttestyear\": \"1971\", \"matches\": \"30\", \"name\": \"alan norman connolly\", \"odidebutagainst\": \"\", \"odidebutdate\": \"\", \"odidebutyear\": \"\", \"oneodi\": \"true\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"\", \"testdebutagainst\": \"\", \"testdebutdate\": \"\", \"testdebutyear\": \"1963\", \"wickets\": \"\", \"year\": \"\"}"
     },
     {
         "id": 48539,
@@ -5638,7 +5638,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"invsn\", \"associated_acts\": \"dennis lyxz\u00e9n; refused; the (international) noise conspiracy; randy\", \"background\": \"music project\", \"current_members\": \"\", \"genre\": \"punk rock; folk; power pop\", \"label\": \"burning heart records; razor & tie\", \"landscape\": \"political\", \"name\": \"invsn\", \"origin\": \"sweden\", \"years_active\": \"1999\"}"
+        "generated_output": "{\"article_title\": \"invsn\", \"associated_acts\": \"refused; the (international) noise conspiracy; randy\", \"background\": \"music project of swedish punk rock musician dennis lyxz\u00e9n; started as solo career; grew into full-fledged band\", \"current_members\": \"\", \"genre\": \"punk rock; folk; power pop\", \"label\": \"burning heart records; razor & tie\", \"landscape\": \"\", \"name\": \"invsn; invasionen; the lost patrol band; the lost patrol\", \"origin\": \"sweden\", \"years_active\": \"19992013\"}"
     },
     {
         "id": 26488,
@@ -5727,7 +5727,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"bibs ekkel\", \"associated_acts\": \"tziganka; balalaika potpourri; russian tornado\", \"background\": \"Poland; United Kingdom\", \"birth_date\": \"1946-01-11\", \"birth_name\": \"\", \"genre\": \"russian folk music\", \"instrument\": \"balalaika\", \"name\": \"bibs ekkel\", \"occupation\": \"musician; lecturer; actor; music adviser\", \"origin\": \"brighton\", \"years_active\": \"\"}"
+        "generated_output": "{\"article_title\": \"bibs ekkel\", \"associated_acts\": \"tziganka; balalaika potpourri; russian tornado\", \"background\": \"polish; english\", \"birth_date\": \"1946-01-11\", \"birth_name\": \"\", \"genre\": \"russian folk music\", \"instrument\": \"balalaika\", \"name\": \"bibs ekkel\", \"occupation\": \"musician\", \"origin\": \"brighton\", \"years_active\": \"\"}"
     },
     {
         "id": 68821,
@@ -5819,7 +5819,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"university of munich\", \"article_title\": \"max rubner\", \"birth_date\": \"1854-06-02\", \"birth_place\": \"munich\", \"death_date\": \"1932-04-27\", \"death_place\": \"berlin\", \"doctoral_advisor\": \"adolf von baeyer; carl von voit\", \"field\": \"physiology; hygiene\", \"known_for\": \"metabolism; energy physiology; hygiene; dietary thermogenesis; isodynamic law of calories; surface hypothesis; rate-of-living theory\", \"name\": \"max rubner\", \"nationality\": \"Germany\", \"work_institutions\": \"university of marburg; robert koch institute of hygiene at the university of berlin; kaiser-wilhelm institut f\u00fcr arbeitsphysiologie\"}"
+        "generated_output": "{\"alma_mater\": \"university of munich\", \"article_title\": \"Max Rubner\", \"birth_date\": \"1854-06-02\", \"birth_place\": \"munich\", \"death_date\": \"1932-04-27\", \"death_place\": \"berlin\", \"doctoral_advisor\": \"adolf von baeyer; carl von voit\", \"field\": \"physiology; hygiene\", \"known_for\": \"metabolism; energy physiology; hygiene; dietary thermogenesis; isodynamic law of calories; surface hypothesis; rate-of-living theory\", \"name\": \"Max Rubner\", \"nationality\": \"Germany\", \"work_institutions\": \"university of marburg; robert koch institute of hygiene; university of berlin; kaiser-wilhelm institut f\\u00fcr arbeitsphysiologie\"}"
     },
     {
         "id": 6974,
@@ -5977,7 +5977,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"appearances\": \"13\", \"appearancesa\": \"1\", \"article_title\": \"alexander bolewski\", \"birth_date\": \"1891\", \"birth_place\": \"ballina\", \"club\": \"glebe dirty reds; newtown\", \"death_date\": \"1981-07-16\", \"death_place\": \"undercliffe\", \"fieldgoals\": \"\", \"fullname\": \"alexander bolewski\", \"goals\": \"\", \"goalsa\": \"\", \"name\": \"alex bolewski\", \"points\": \"\", \"pointsa\": \"\", \"retired\": \"\", \"sources\": \"\", \"teama\": \"metropolis (sydney); new south wales\", \"tries\": \"\", \"triesa\": \"\", \"yearastart\": \"\", \"yearend\": \"1924\", \"yearstart\": \"1914\"}"
+        "generated_output": "{\"appearances\": \"\", \"appearancesa\": \"\", \"article_title\": \"alexander alex bolewski\", \"birth_date\": \"1891\", \"birth_place\": \"ballina\", \"club\": \"glebe dirty reds; newtown\", \"death_date\": \"1981-07-16\", \"death_place\": \"undercliffe\", \"fieldgoals\": \"\", \"fullname\": \"alexander bolewski\", \"goals\": \"\", \"goalsa\": \"\", \"name\": \"alex bolewski\", \"points\": \"\", \"pointsa\": \"\", \"retired\": \"\", \"sources\": \"\", \"teama\": \"metropolis; new south wales\", \"tries\": \"\", \"triesa\": \"\", \"yearastart\": \"1915\", \"yearend\": \"1924\", \"yearstart\": \"1914\"}"
     },
     {
         "id": 10004,
@@ -6090,7 +6090,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"bryan leitch\", \"birth_date\": \"1984-03-05\", \"birth_place\": \"coquitlam\", \"career_end\": \"2010\", \"career_start\": \"2009\", \"draft\": \"\", \"height_ft\": \"\", \"height_in\": \"\", \"name\": \"bryan leitch\", \"played_for\": \"coquitlam express; merritt centennials; quinnipiac bobcats; milwaukee admirals; cincinnati cyclones\", \"position\": \"\", \"shoots\": \"\", \"weight_lb\": \"\"}"
+        "generated_output": "{\"article_title\": \"bryan leitch\", \"birth_date\": \"1984-03-05\", \"birth_place\": \"coquitlam\", \"career_end\": \"2010\", \"career_start\": \"2009\", \"draft\": \"\", \"height_ft\": \"\", \"height_in\": \"\", \"name\": \"bryan leitch\", \"played_for\": \"coquitlam express; merritt centennials; quinnipiac bobcats; milwaukee admirals; cincinnati cyclones\", \"position\": \"ice hockey player\", \"shoots\": \"\", \"weight_lb\": \"\"}"
     },
     {
         "id": 30846,
@@ -6222,7 +6222,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"thomas joseph tucker\", \"bats\": \"switch\", \"birth_date\": \"1863-10-28\", \"birth_place\": \"holyoke\", \"death_date\": \"1935-10-22\", \"death_place\": \"montague\", \"debutdate\": \"\", \"debutteam\": \"baltimore orioles\", \"debutyear\": \"1887\", \"finaldate\": \"\", \"finalteam\": \"cleveland spiders\", \"finalyear\": \"1899\", \"name\": \"thomas joseph tucker\", \"position\": \"first baseman\", \"statlabel\": \"batting average\", \"statvalue\": \"290\", \"throws\": \"right\"}"
+        "generated_output": "{\"article_title\": \"thomas joseph tucker\", \"bats\": \"switch\", \"birth_date\": \"1863-10-28\", \"birth_place\": \"holyoke, massachusetts\", \"death_date\": \"1935-10-22\", \"death_place\": \"montague, massachusetts\", \"debutdate\": \"\", \"debutteam\": \"baltimore orioles\", \"debutyear\": \"1887\", \"finaldate\": \"\", \"finalteam\": \"cleveland spiders\", \"finalyear\": \"1899\", \"name\": \"thomas joseph tucker\", \"position\": \"first baseman\", \"statlabel\": \"batting average\", \"statvalue\": \"372\", \"throws\": \"right\"}"
     },
     {
         "id": 28076,
@@ -6282,7 +6282,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"Sadanand Dhume\", \"awards\": \"bernard schwartz fellow\", \"birth_place\": \"\", \"ethnicity\": \"\", \"name\": \"Sadanand Dhume\", \"occupation\": \"writer; journalist\", \"subject\": \"asian affairs; fundamentalism in indonesia; globalization on india\"}"
+        "generated_output": "{\"article_title\": \"Sadanand Dhume\", \"awards\": \"Bernard Schwartz Fellow\", \"birth_place\": \"\", \"ethnicity\": \"Indian\", \"name\": \"Sadanand Dhume\", \"occupation\": \"writer; journalist\", \"subject\": \"Asian affairs\"}"
     },
     {
         "id": 60725,
@@ -6414,7 +6414,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"john cleave rube benton\", \"bats\": \"\", \"birth_date\": \"1890-06-27\", \"birth_place\": \"clinton\", \"death_date\": \"1937-12-12\", \"death_place\": \"dothan\", \"debutdate\": \"\", \"debutteam\": \"cincinnati reds\", \"debutyear\": \"1910\", \"finaldate\": \"\", \"finalteam\": \"cincinnati reds\", \"finalyear\": \"1925\", \"name\": \"john cleave rube benton\", \"position\": \"pitcher\", \"statlabel\": \"win-loss record\", \"statvalue\": \"150144\", \"throws\": \"\"}"
+        "generated_output": "{\"article_title\": \"John Cleave Rube Benton\", \"bats\": \"\", \"birth_date\": \"1890-06-27\", \"birth_place\": \"clinton\", \"death_date\": \"1937-12-12\", \"death_place\": \"dothan\", \"debutdate\": \"\", \"debutteam\": \"cincinnati reds\", \"debutyear\": \"1910\", \"finaldate\": \"\", \"finalteam\": \"cincinnati reds\", \"finalyear\": \"1925\", \"name\": \"John Cleave Rube Benton\", \"position\": \"pitcher\", \"statlabel\": \"win-loss record\", \"statvalue\": \"150144\", \"throws\": \"\"}"
     },
     {
         "id": 35904,
@@ -6633,7 +6633,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"edward william bastard\", \"batting\": \"\", \"birth_date\": \"1862-02-28\", \"birth_place\": \"\", \"bowling\": \"slow left-arm orthodox\", \"catches/stumpings\": \"\", \"club\": \"oxford university; somerset\", \"column\": \"\", \"columns\": \"\", \"country\": \"England\", \"date\": \"\", \"death_date\": \"1901-04-02\", \"death_place\": \"taunton\", \"debutagainst\": \"\", \"debutdate\": \"\", \"debutfor\": \"\", \"debutyear\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"edward william bastard\", \"lastagainst\": \"\", \"lastdate\": \"\", \"lastfor\": \"\", \"lastyear\": \"1889\", \"matches\": \"\", \"name\": \"edward william bastard\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"\", \"type\": \"cricketer\", \"wickets\": \"\", \"year\": \"\"}"
+        "generated_output": "{\"article_title\": \"edward william bastard\", \"batting\": \"\", \"birth_date\": \"1862-02-28\", \"birth_place\": \"\", \"bowling\": \"slow left-arm orthodox\", \"catches/stumpings\": \"\", \"club\": \"oxford university; somerset\", \"column\": \"\", \"columns\": \"\", \"country\": \"United Kingdom\", \"date\": \"\", \"death_date\": \"1901-04-02\", \"death_place\": \"taunton\", \"debutagainst\": \"\", \"debutdate\": \"\", \"debutfor\": \"\", \"debutyear\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"edward william bastard\", \"lastagainst\": \"\", \"lastdate\": \"\", \"lastfor\": \"somerset\", \"lastyear\": \"1889\", \"matches\": \"\", \"name\": \"edward william bastard\", \"runs\": \"\", \"s/s\": \"\", \"tenfor\": \"\", \"type\": \"cricketer\", \"wickets\": \"\", \"year\": \"\"}"
     },
     {
         "id": 13076,
@@ -6960,7 +6960,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"allegiance\": \"\", \"alma_mater\": \"\", \"article_title\": \"fortney hillman pete stark, jr.\", \"birth_date\": \"1931-11-11\", \"birth_place\": \"\", \"birthname\": \"\", \"branch\": \"\", \"district\": \"13th\", \"name\": \"fortney hillman pete stark, jr.\", \"party\": \"democrat\", \"preceded\": \"\", \"profession\": \"politician\", \"residence\": \"fremont\", \"serviceyears\": \"\", \"spouse\": \"\", \"state\": \"california\", \"succeeded\": \"eric swalwell\", \"term_end\": \"2013\", \"term_start\": \"1973\"}"
+        "generated_output": "{\"allegiance\": \"\", \"alma_mater\": \"\", \"article_title\": \"Fortney Hillman \\\"Pete\\\" Stark, Jr.\", \"birth_date\": \"1931-11-11\", \"birth_place\": \"\", \"birthname\": \"Fortney Hillman \\\"Pete\\\" Stark, Jr.\", \"branch\": \"United States House of Representatives\", \"district\": \"8th; 9th; 13th; 15th\", \"name\": \"Fortney Hillman \\\"Pete\\\" Stark, Jr.\", \"party\": \"Democrat\", \"preceded\": \"\", \"profession\": \"politician\", \"residence\": \"fremont\", \"serviceyears\": \"19732013\", \"spouse\": \"\", \"state\": \"California\", \"succeeded\": \"Eric Swalwell\", \"term_end\": \"2013\", \"term_start\": \"1973\"}"
     },
     {
         "id": 15934,
@@ -7100,7 +7100,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"simon antony brewis daniels\", \"batting\": \"right-handed\", \"birth_date\": \"1958-08-23\", \"birth_place\": \"darlington\", \"bowling\": \"right-arm fast-medium\", \"catches/stumpings\": \"\", \"club\": \"durham; glamorgan\", \"column\": \"\", \"columns\": \"\", \"country\": \"United Kingdom\", \"date\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"simon antony brewis daniels\", \"matches\": \"16\", \"runs\": \"227\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"28\", \"year\": \"1982\"}"
+        "generated_output": "{\"article_title\": \"simon antony brewis daniels\", \"batting\": \"right-handed\", \"birth_date\": \"1958-08-23\", \"birth_place\": \"darlington\", \"bowling\": \"right-arm fast-medium\", \"catches/stumpings\": \"\", \"club\": \"durham; glamorgan\", \"column\": \"\", \"columns\": \"\", \"country\": \"United Kingdom\", \"date\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"simon antony brewis daniels\", \"matches\": \"16\", \"runs\": \"227\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"28\", \"year\": \"\"}"
     },
     {
         "id": 66317,
@@ -7209,7 +7209,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"Wyon Dale Childers\", \"birth_date\": \"1933-11-25\", \"birth_place\": \"\", \"children\": \"\", \"district\": \"1\", \"name\": \"Wyon Dale Childers\", \"office\": \"senate president; dean\", \"preceded\": \"\", \"spouse\": \"\", \"state\": \"Florida\", \"state_senate\": \"state senate\", \"succeeded\": \"\", \"term_end\": \"2000\", \"term_start\": \"1970\"}"
+        "generated_output": "{\"alma_mater\": \"\", \"article_title\": \"w. d. childers\", \"birth_date\": \"1933-11-25\", \"birth_place\": \"\", \"children\": \"\", \"district\": \"\", \"name\": \"wyon dale childers\", \"office\": \"state senator\", \"preceded\": \"\", \"spouse\": \"\", \"state\": \"florida\", \"state_senate\": \"florida state senate\", \"succeeded\": \"\", \"term_end\": \"2000\", \"term_start\": \"1970\"}"
     },
     {
         "id": 37510,
@@ -7278,7 +7278,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"pontus ekhem\", \"birth_date\": \"1991-06-19\", \"birth_place\": \"\", \"height_ft\": \"5\", \"height_in\": \"7\", \"position\": \"\", \"weight_lb\": \"\"}"
+        "generated_output": "{\"article_title\": \"pontus ekhem\", \"birth_date\": \"1991-06-19\", \"birth_place\": \"\", \"height_ft\": \"5\", \"height_in\": \"6\", \"position\": \"\", \"weight_lb\": \"\"}"
     },
     {
         "id": 62531,
@@ -7430,7 +7430,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"james l. baumann\", \"district\": \"\", \"name\": \"james leroy joseph baumann\", \"party\": \"\", \"preceded\": \"\", \"state\": \"ohio\", \"state_house\": \"ohio house of representatives\", \"succeeded\": \"\", \"term\": \"19701978\"}"
+        "generated_output": "{\"article_title\": \"james l. baumann\", \"district\": \"\", \"name\": \"james leroy joseph baumann\", \"party\": \"\", \"preceded\": \"\", \"state\": \"ohio\", \"state_house\": \"house of representatives\", \"succeeded\": \"\", \"term\": \"19701978\"}"
     },
     {
         "id": 810,
@@ -7528,7 +7528,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"edmund graves brown, jr.\", \"birth_date\": \"1921-03-28\", \"birth_place\": \"new orleans\", \"children\": \"edmund brown iii; james ewing brown; bethia brown bundrick; donelson taylor brown; leander moore brown; percy mccay brown\", \"death_date\": \"2008-05-11\", \"death_place\": \"\", \"footnotes\": \"\", \"name\": \"edmund graves brown, jr.\", \"nationality\": \"United States\", \"occupation\": \"newspaper executive\", \"parents\": \"edmund brown, sr.; esther ewing\", \"religion\": \"presbyterian\", \"spouse\": \"bethia mccay\"}"
+        "generated_output": "{\"article_title\": \"edmund graves brown, jr.\", \"birth_date\": \"1921-03-28\", \"birth_place\": \"new orleans\", \"children\": \"edmund brown iii; james ewing brown; bethia brown bundrick; donelson taylor brown; leander moore brown; percy mccay brown\", \"death_date\": \"2008-05-11\", \"death_place\": \"\", \"footnotes\": \"\", \"name\": \"Edmund Graves Brown, Jr.\", \"nationality\": \"United States\", \"occupation\": \"newspaper executive\", \"parents\": \"edmund brown, sr.; esther ewing\", \"religion\": \"presbyterian\", \"spouse\": \"bethia mccay\"}"
     },
     {
         "id": 38238,
@@ -7700,7 +7700,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"mircea eliade\", \"birth_date\": \"\", \"birth_place\": \"\", \"death_date\": \"1986-04-22\", \"death_place\": \"\", \"genre\": \"fantastic; autobiographical\", \"influenced\": \"\", \"influences\": \"nae ionescu\", \"movement\": \"\", \"name\": \"mircea eliade\", \"nationality\": \"Romania\", \"occupation\": \"historian of religion; fiction writer; philosopher; professor; journalist; essayist; cultural attach\u00e9\", \"parents\": \"\", \"period\": \"1930s; 1940s\", \"subject\": \"religious studies; religion\"}"
+        "generated_output": "{\"article_title\": \"mircea eliade\", \"birth_date\": \"\", \"birth_place\": \"\", \"death_date\": \"1986-04-22\", \"death_place\": \"\", \"genre\": \"fantastic; autobiographical\", \"influenced\": \"\", \"influences\": \"nae ionescu\", \"movement\": \"\", \"name\": \"mircea eliade\", \"nationality\": \"Romania\", \"occupation\": \"historian of religion; fiction writer; philosopher; professor; journalist; essayist; cultural attach\u00e9\", \"parents\": \"\", \"period\": \"\", \"subject\": \"religion; religious studies\"}"
     },
     {
         "id": 13457,
@@ -7803,7 +7803,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"greg lee haugen\", \"birth_date\": \"1960-08-31\", \"birth_place\": \"\", \"draws\": \"1\", \"height\": \"\", \"ko\": \"\", \"losses\": \"10\", \"name\": \"greg lee haugen\", \"nationality\": \"United States\", \"realname\": \"greg lee haugen\", \"style\": \"\", \"total\": \"51\", \"weight\": \"\", \"wins\": \"40\"}"
+        "generated_output": "{\"article_title\": \"greg lee haugen\", \"birth_date\": \"1960-08-31\", \"birth_place\": \"\", \"draws\": \"1\", \"height\": \"\", \"ko\": \"\", \"losses\": \"10\", \"name\": \"greg lee haugen\", \"nationality\": \"United States\", \"realname\": \"\", \"style\": \"boxer\", \"total\": \"53\", \"weight\": \"\", \"wins\": \"40\"}"
     },
     {
         "id": 45092,
@@ -7990,7 +7990,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alias\": \"ikon the verbal hologram; louie doggs; boxcutter pazzy; hologram; paz; vinnie p; the pazmanian devil; ikon the python; pazienza\", \"article_title\": \"Vinnie Paz\", \"associated_acts\": \"army of the pharaohs\", \"background\": \"known for his raw and gritty lyrical delivery; lyrics frequently contain references to religion, war, politics, mythology, conspiracy theories, and the paranormal; his gritty style became apparent with the release of Violent by Design and has become progressively more defined; raised catholic, now a muslim; heavy metal fan\", \"birth_date\": \"\", \"birth_name\": \"\", \"birth_place\": \"\", \"genre\": \"\", \"label\": \"\", \"name\": \"vinnie paz\", \"occupation\": \"rapper; writer\", \"religion\": \"muslim\", \"website\": \"maxboxing.com\", \"years_active\": \"\"}"
+        "generated_output": "{\"alias\": \"ikon the verbal hologram; louie doggs; boxcutter pazzy; hologram; paz; vinnie p; the pazmanian devil; ikon the python; pazienza\", \"article_title\": \"Vinnie Paz\", \"associated_acts\": \"jedi mind tricks; army of the pharaohs\", \"background\": \"\", \"birth_date\": \"\", \"birth_name\": \"\", \"birth_place\": \"\", \"genre\": \"hip hop\", \"label\": \"\", \"name\": \"Vinnie Paz\", \"occupation\": \"rapper; writer\", \"religion\": \"muslim\", \"website\": \"maxboxing.com\", \"years_active\": \"\"}"
     },
     {
         "id": 59647,
@@ -8082,7 +8082,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"varvara flink\", \"birth_date\": \"\", \"birth_place\": \"\", \"currentdoublesranking\": \"\", \"currentsinglesranking\": \"\", \"doublestitles\": \"1\", \"highestdoublesranking\": \"471\", \"highestsinglesranking\": \"722\", \"name\": \"Varvara Flink\", \"plays\": \"tennis\", \"singlestitles\": \"\", \"updated\": \"2013-04-01\"}"
+        "generated_output": "{\"article_title\": \"varvara flink\", \"birth_date\": \"\", \"birth_place\": \"\", \"currentdoublesranking\": \"\", \"currentsinglesranking\": \"\", \"doublestitles\": \"1\", \"highestdoublesranking\": \"471\", \"highestsinglesranking\": \"722\", \"name\": \"varvara flink\", \"plays\": \"\", \"singlestitles\": \"0\", \"updated\": \"\"}"
     },
     {
         "id": 14930,
@@ -8222,7 +8222,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"christ's hospital\", \"alongside\": \"george washington; thomas fairfax\", \"article_title\": \"gabriel jones\", \"birth_date\": \"1724-05-17\", \"birth_place\": \"\", \"children\": \"\", \"death_date\": \"1806-10\", \"death_place\": \"\", \"name\": \"gabriel jones\", \"nationality\": \"Wales; United States\", \"occupation\": \"lawyer; legislator; court clerk; civil servant\", \"office\": \"clerk of court; member of the house of burgesses; king's attorney; coroner\", \"preceded\": \"\", \"relations\": \"john gabriel jones\", \"religion\": \"\", \"residence\": \"virginia\", \"spouse\": \"\", \"succeeded\": \"\", \"term_end\": \"1782\", \"term_start\": \"1757\"}"
+        "generated_output": "{\"alma_mater\": \"christ's hospital\", \"alongside\": \"\", \"article_title\": \"gabriel jones\", \"birth_date\": \"1724-05-17\", \"birth_place\": \"\", \"children\": \"\", \"death_date\": \"1806-10\", \"death_place\": \"\", \"name\": \"gabriel jones\", \"nationality\": \"Wales; United States\", \"occupation\": \"lawyer; legislator; court clerk; civil servant\", \"office\": \"clerk of court for hampshire county, virginia; member of the house of burgesses of virginia; king's attorney for augusta county; coroner for frederick county\", \"preceded\": \"\", \"relations\": \"john gabriel jones (nephew); george washington (friend); thomas fairfax, 6th lord fairfax of cameron (friend)\", \"religion\": \"\", \"residence\": \"virginia\", \"spouse\": \"\", \"succeeded\": \"\", \"term_end\": \"\", \"term_start\": \"\"}"
     },
     {
         "id": 22701,
@@ -8258,7 +8258,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"mehraj mattoo\", \"nationality\": \"India\", \"occupation\": \"financial executive; academic; author\"}"
+        "generated_output": "{\"article_title\": \"mehraj mattoo\", \"nationality\": \"India\", \"occupation\": \"founder; global head; managing director; global co-head; executive director; director; commentator; author; research fellow; visiting research scholar\"}"
     },
     {
         "id": 45717,
@@ -8325,7 +8325,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"malcolm walter speed\", \"birth_date\": \"1948-09-14\", \"birth_place\": \"\", \"honorific_suffix\": \"\", \"name\": \"malcolm walter speed\", \"nationality\": \"Australia\", \"occupation\": \"businessman; chief executive officer; board member\", \"profession\": \"barrister\"}"
+        "generated_output": "{\"article_title\": \"malcolm walter speed\", \"birth_date\": \"1948-09-14\", \"birth_place\": \"\", \"honorific_suffix\": \"\", \"name\": \"malcolm walter speed\", \"nationality\": \"Australia\", \"occupation\": \"businessman; chief executive officer\", \"profession\": \"barrister\"}"
     },
     {
         "id": 33337,
@@ -8453,7 +8453,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alma_mater\": \"newnham college, cambridge\", \"article_title\": \"rosalind elsie franklin\", \"birth_date\": \"1920-07-25\", \"birth_name\": \"\", \"birth_place\": \"west london\", \"death_cause\": \"ovarian cancer\", \"death_date\": \"1958-04-16\", \"death_place\": \"\", \"doctoral_student\": \"aaron klug\", \"fields\": \"chemistry; x-ray crystallography\", \"known_for\": \"dna structure; rna structure; virus structure; coal structure; graphite structure; x-ray diffraction images of dna\", \"name\": \"rosalind elsie franklin\", \"nationality\": \"United Kingdom\", \"resting_place\": \"\", \"resting_place_coordinates\": \"\", \"thesis_title\": \"\", \"thesis_year\": \"1945\", \"work_institutions\": \"university of cambridge; british coal utilisation research association; laboratoire central des services chimiques de l'etat; king's college london; birkbeck college\"}"
+        "generated_output": "{\"alma_mater\": \"newnham college, cambridge\", \"article_title\": \"rosalind elsie franklin\", \"birth_date\": \"1920-07-25\", \"birth_name\": \"\", \"birth_place\": \"west london\", \"death_cause\": \"ovarian cancer\", \"death_date\": \"1958-04-16\", \"death_place\": \"\", \"doctoral_student\": \"\", \"fields\": \"chemistry; x-ray crystallography\", \"known_for\": \"dna structure; rna structure; virus structure; coal structure; graphite structure; x-ray diffraction images of dna\", \"name\": \"rosalind elsie franklin\", \"nationality\": \"United Kingdom\", \"resting_place\": \"\", \"resting_place_coordinates\": \"\", \"thesis_title\": \"\", \"thesis_year\": \"1945\", \"work_institutions\": \"university of cambridge; british coal utilisation research association; laboratoire central des services chimiques de l'etat; king's college london; birkbeck college\"}"
     },
     {
         "id": 69704,
@@ -8507,7 +8507,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"Geoffrey Stanton Morrow\", \"background\": \"songwriter; businessman; record company owner; theatre owner; director; musical writer; screenplay writer\", \"birth_name\": \"Geoffrey Stanton Morrow\", \"birth_place\": \"\", \"name\": \"Geoff Morrow\", \"occupation\": \"songwriter; businessman; director; writer\"}"
+        "generated_output": "```json\n{\n    \"article_title\": \"geoffrey stanton `` geoff'' morrow\",\n    \"background\": \"songwriter and businessman known for his compositions, record companies, and theatre ventures\",\n    \"birth_name\": \"Geoffrey Stanton Morrow\",\n    \"birth_place\": \"\",\n    \"name\": \"Geoff Morrow\",\n    \"occupation\": \"songwriter; businessman; producer; director; writer\"\n}\n```"
     },
     {
         "id": 52320,
@@ -8622,7 +8622,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"hasan vezir\", \"birth_date\": \"1962-09-07\", \"birth_place\": \"\", \"caps\": \"\", \"clubs\": \"\u00e7aykur rizespor; trabzonspor; fenerbah\u00e7e; galatasaray\", \"fullname\": \"hasan vezir\", \"goals\": \"\", \"managerclubs\": \"\u00e7\u0131ksal\u0131nspor\", \"manageryears\": \"2014\", \"name\": \"vezir\", \"nationalcaps\": \"19\", \"nationalgoals\": \"0\", \"nationalteam\": \"turkey\", \"nationalyears\": \"19841989\", \"position\": \"\", \"years\": \";19831987;19881989;\"}"
+        "generated_output": "{\"article_title\": \"hasan vezir\", \"birth_date\": \"1962-09-07\", \"birth_place\": \"\", \"caps\": \"\", \"clubs\": \"\u00e7aykur rizespor; trabzonspor; fenerbah\u00e7e; galatasaray\", \"fullname\": \"hasan vezir\", \"goals\": \"\", \"managerclubs\": \"\u00e7\u0131ksal\u0131nspor\", \"manageryears\": \"2014\", \"name\": \"hasan vezir\", \"nationalcaps\": \"15\", \"nationalgoals\": \"0\", \"nationalteam\": \"turkey\", \"nationalyears\": \"19841989\", \"position\": \"\", \"years\": \"19831999\"}"
     },
     {
         "id": 59373,
@@ -8710,7 +8710,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alias\": \"norman westburg\", \"article_title\": \"norman westberg\", \"associated_acts\": \"swans; the body haters; jarboe; the heroine sheiks; nevah; five dollar priest; size queens\", \"background\": \"\", \"genre\": \"\", \"instrument\": \"guitar; banjo; dx drum machine\", \"name\": \"norman westberg\", \"notable_instruments\": \"\", \"occupation\": \"guitarist\", \"origin\": \"detroit\", \"years_active\": \"19832014\"}"
+        "generated_output": "{\"alias\": \"norman westburg\", \"article_title\": \"norman westberg\", \"associated_acts\": \"swans; the body haters; jarboe; the heroine sheiks; nevah; five dollar priest; size queens\", \"background\": \"\", \"genre\": \"\", \"instrument\": \"guitar; banjo; dx drum machine\", \"name\": \"norman westberg\", \"notable_instruments\": \"\", \"occupation\": \"guitarist\", \"origin\": \"detroit\", \"years_active\": \"\"}"
     },
     {
         "id": 52726,
@@ -8771,7 +8771,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"barry j. klarberg\", \"birth_date\": \"1961-03-04\", \"birth_place\": \"\", \"children\": \"\", \"name\": \"barry j. klarberg\", \"occupation\": \"businessman; wealth manager; owner; author; lecturer\", \"residence\": \"\"}"
+        "generated_output": "{\"article_title\": \"barry j. klarberg\", \"birth_date\": \"1961-03-04\", \"birth_place\": \"\", \"children\": \"\", \"name\": \"barry j. klarberg\", \"occupation\": \"businessman; wealth manager; cpa; sports team owner\", \"residence\": \"\"}"
     },
     {
         "id": 4939,
@@ -8856,7 +8856,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"alias\": \"bezel\", \"article_title\": \"jay bezel\", \"associated_acts\": \"Cam'ron; The Diplomats; Juelz Santana; Duke da God; Jim Jones; Lil Wayne; Tone Trump; Hedonis da Amazon; Dipset; Skull Gang; DJ Lazy K; DJ Alamo; Nicki Minaj; Pusha T; Soulja Boy; 40 Cal; Sin\", \"background\": \"lived in new york as well as atlanta; started his career in philly hitting the streets with mixtapes and doing local dvds\", \"birth_date\": \"1983-04-13\", \"birth_name\": \"\", \"birth_place\": \"philadelphia\", \"genre\": \"\", \"label\": \"diplomat records; focus entertainment\", \"name\": \"jay bezel\", \"occupation\": \"rapper\"}"
+        "generated_output": "{\"alias\": \"bezel\", \"article_title\": \"jay bezel\", \"associated_acts\": \"40 cal; cam'ron; dipset; dj alamo; dj lazy k; duke da god; hedonis da amazon; jim jones; juelz santana; lil wayne; nicki minaj; pusha t; sin; skull gang; soulja boy; the diplomats; tone trump\", \"background\": \"\", \"birth_date\": \"1983-04-13\", \"birth_name\": \"\", \"birth_place\": \"philadelphia\", \"genre\": \"\", \"label\": \"diplomat records; focus entertainment\", \"name\": \"jay bezel\", \"occupation\": \"rapper\"}"
     },
     {
         "id": 53580,
@@ -8930,7 +8930,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"cyril knowlton nash\", \"birth_date\": \"1927-11-18\", \"birth_name\": \"cyril knowlton nash\", \"birth_place\": \"\", \"death_date\": \"2014-05-24\", \"death_place\": \"\", \"known_for\": \"senior anchor of cbc television's flagship news program, the national\", \"nationality\": \"Canada\", \"occupation\": \"journalist; author; news anchor\"}"
+        "generated_output": "{\"article_title\": \"cyril knowlton nash\", \"birth_date\": \"1927-11-18\", \"birth_name\": \"\", \"birth_place\": \"\", \"death_date\": \"2014-05-24\", \"death_place\": \"\", \"known_for\": \"senior anchor of cbc television's flagship news program, the national\", \"nationality\": \"Canada\", \"occupation\": \"journalist; author; news anchor\"}"
     },
     {
         "id": 32381,
@@ -9004,7 +9004,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"miroslav zei\", \"awards\": \"levstik award\", \"birth_date\": \"1914-07-25\", \"birth_place\": \"nabre\u017eina\", \"death_date\": \"2006-11-02\", \"death_place\": \"drni\u0161\", \"field\": \"biologist; marine biology; oceanography; ichthyology\", \"known_for\": \"scientific texts; popular science books\", \"name\": \"miroslav zei\"}"
+        "generated_output": "{\"article_title\": \"miroslav zei\", \"awards\": \"levstik award\", \"birth_date\": \"1914-07-25\", \"birth_place\": \"nabrezina\", \"death_date\": \"2006-11-02\", \"death_place\": \"drnis\", \"field\": \"biologist; marine biology; oceanography; ichthyology\", \"known_for\": \"marine biology; oceanography; ichthyology; scientific writing; popular science writing\", \"name\": \"miroslav zei\"}"
     },
     {
         "id": 58556,
@@ -9156,7 +9156,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"dr john charles lill\", \"batting\": \"right-handed\", \"birth_date\": \"1933-12-07\", \"birth_place\": \"adelaide\", \"bowling\": \"\", \"catches/stumpings\": \"\", \"club\": \"south australia; australia; norwood\", \"column\": \"\", \"columns\": \"\", \"country\": \"Australia\", \"date\": \"1962\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"john charles lill\", \"matches\": \"2\", \"name\": \"lill\", \"role\": \"batsman\", \"runs\": \"809\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"1\", \"year\": \"19591960\"}"
+        "generated_output": "{\"article_title\": \"dr john charles lill\", \"batting\": \"right-handed\", \"birth_date\": \"1933-12-07\", \"birth_place\": \"adelaide\", \"bowling\": \"\", \"catches/stumpings\": \"\", \"club\": \"south australia\", \"column\": \"\", \"columns\": \"\", \"country\": \"Australia\", \"date\": \"\", \"deliveries\": \"\", \"fivefor\": \"\", \"fullname\": \"john charles lill\", \"matches\": \"\", \"name\": \"john lill\", \"role\": \"batsman\", \"runs\": \"809\", \"s/s\": \"\", \"tenfor\": \"\", \"wickets\": \"1\", \"year\": \"\"}"
     },
     {
         "id": 23526,
@@ -9266,7 +9266,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"mircea eliade\", \"birth_date\": \"\", \"birth_place\": \"\", \"death_date\": \"1986-04-22\", \"death_place\": \"\", \"genre\": \"fantastic; autobiographical\", \"influenced\": \"\", \"influences\": \"nae ionescu\", \"movement\": \"\", \"name\": \"mircea eliade\", \"nationality\": \"Romania\", \"occupation\": \"historian of religion; fiction writer; philosopher; professor; journalist; essayist; cultural attach\u00e9\", \"parents\": \"\", \"period\": \"1930s; 1940s\", \"subject\": \"religious studies; religion\"}"
+        "generated_output": "{\"article_title\": \"mircea eliade\", \"birth_date\": \"\", \"birth_place\": \"\", \"death_date\": \"1986-04-22\", \"death_place\": \"\", \"genre\": \"fantastic; autobiographical\", \"influenced\": \"\", \"influences\": \"nae ionescu\", \"movement\": \"\", \"name\": \"mircea eliade\", \"nationality\": \"Romania\", \"occupation\": \"historian of religion; fiction writer; philosopher; professor; journalist; essayist; cultural attach\u00e9\", \"parents\": \"\", \"period\": \"\", \"subject\": \"religion; religious studies\"}"
     },
     {
         "id": 18196,
@@ -9352,7 +9352,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"leslie george seymour\", \"awards\": \"honorary alderman of birmingham\", \"birth_date\": \"1900-11-01\", \"death_date\": \"1976-04-15\", \"education\": \"solihull grammar school\", \"honorific_suffix\": \"jp\", \"known_for\": \"company director; politician\", \"name\": \"leslie george seymour\", \"nationality\": \"United Kingdom\", \"occupation\": \"company director; politician; mp\", \"organization\": \"improved metallic appliances ltd.; conservative party; birmingham city council; civil defence committee\"}"
+        "generated_output": "{\"article_title\": \"leslie george seymour\", \"awards\": \"honorary alderman of birmingham\", \"birth_date\": \"1900-11-01\", \"death_date\": \"1976-04-15\", \"education\": \"solihull grammar school\", \"honorific_suffix\": \"jp\", \"known_for\": \"company director; politician\", \"name\": \"leslie george seymour\", \"nationality\": \"United Kingdom\", \"occupation\": \"company director; politician; managing director; mp\", \"organization\": \"improved metallic appliances ltd.; conservative party; birmingham city council\"}"
     },
     {
         "id": 23905,
@@ -9424,7 +9424,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"obrad glu\u0161\u010devi\u0107\", \"birth_date\": \"1913-01-17\", \"birth_place\": \"metkovi\u0107\", \"death_date\": \"1980-09-05\", \"death_place\": \"\", \"name\": \"obrad glu\u0161\u010devi\u0107\", \"occupation\": \"film director\", \"years_active\": \"19501980\"}"
+        "generated_output": "{\"article_title\": \"obrad glu\u0161\u010devi\u0107\", \"birth_date\": \"1913-01-17\", \"birth_place\": \"metkovic\", \"death_date\": \"1980-09-05\", \"death_place\": \"\", \"name\": \"Obrad Glu\u0161\u010devi\u0107\", \"occupation\": \"film director\", \"years_active\": \"19501980\"}"
     },
     {
         "id": 55845,
@@ -9538,7 +9538,7 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"allegiance\": \"Scotland\", \"article_title\": \"john hay, 2nd marquess of tweeddale\", \"birth_date\": \"1645\", \"children\": \"charles; lord john hay\", \"death_date\": \"1713-04-20\", \"monarch\": \"\", \"name\": \"john hay\", \"office\": \"colonel of the militia regiment of foot in co haddington; burgess of edinburgh; commissioner for the borders; commissioner of supply for haddington; commissioner of supply for peebles; commissioner of supply for edinburgh; commissioner of supply for fife; commissioner of supply for berwick; colonel of the east lothian regiment; captain of the militia horse for haddington and berwick; privy councillor (scotland); sheriff of haddington; commissioner of the admiralty (scotland); lord treasurer; lord high commissioner to the scots parliament; lord chancellor of scotland; scottish representative peers\", \"party\": \"squadrone volante\", \"predecessor\": \"\", \"serviceyears\": \"16681713\", \"spouse\": \"lady mary maitland\", \"successor\": \"\", \"term_end\": \"1705\", \"term_start\": \"1704\"}"
+        "generated_output": "{\"allegiance\": \"Scotland\", \"article_title\": \"john hay, 2nd marquess of tweeddale\", \"birth_date\": \"1645\", \"children\": \"charles; lord john hay\", \"death_date\": \"1713-04-20\", \"monarch\": \"\", \"name\": \"john hay\", \"office\": \"colonel; burgess; commissioner; captain; privy councillor; sheriff; lord treasurer; lord high commissioner; lord chancellor; representative peer\", \"party\": \"squadrone volante\", \"predecessor\": \"john hay, 1st marquess of tweeddale\", \"serviceyears\": \"16681674; 1682; 1685; 1689\", \"spouse\": \"lady mary maitland\", \"successor\": \"charles\", \"term_end\": \"1705\", \"term_start\": \"1704\"}"
     },
     {
         "id": 34086,
@@ -9593,6 +9593,6 @@
             },
             "additionalProperties": false
         },
-        "generated_output": "{\"article_title\": \"christian ringnes\", \"birth_date\": \"1954-03-03\", \"birth_place\": \"oslo\", \"name\": \"christian ringnes\", \"nationality\": \"Norway\", \"occupation\": \"businessman; art collector; real estate investor; ceo\"}"
+        "generated_output": "{\"article_title\": \"christian ringnes\", \"birth_date\": \"1954-03-03\", \"birth_place\": \"oslo\", \"name\": \"christian ringnes\", \"nationality\": \"Norway\", \"occupation\": \"businessman; art collector\"}"
     }
 ]

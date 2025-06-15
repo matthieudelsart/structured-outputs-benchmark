@@ -1,0 +1,961 @@
+[
+    {
+        "id": 3280,
+        "input": "Input text: The host Atlanta Hawks defeated the Milwaukee Bucks, 107 - 100, at Philips Arena on Wednesday. Most of the statistics would indicate a Milwaukee win, but Atlanta prevailed thanks to great teamwork. The second quarter was especially decisive, as the Hawks outscored the Bucks 31 - 9 in that 12 - minute stretch. Strangely, Milwaukee took 26 more shots than Atlanta, but made only four more baskets. The Bucks also dominated in the paint, outscoring the Hawks 50 - 28. Atlanta was extremely efficient though, as they shot 49 percent from the field and assisted on 29 of their 35 made baskets. They also took care of business at the charity stripe, going 27 - of - 31 from the free - throw line. Milwaukee (5 - 5) had their opportunities to win this game, but they realized how tough it is to beat an efficient Atlanta team. Giannis Antetokounmpo carried the load, as he tallied 26 points, 15 rebounds and seven assists. Jabari Parker was great as well, totaling 23 points, eight rebounds, three assists and three steals of his own. The only other starter in double figures was Tony Snell, who amassed 11 points, four rebounds and three assists. Mirza Teletovic was a nice spark off the bench, as he scored 14 points on 5 - of - 10 shooting. Milwaukee will be on back - to - back duties, as they travel to face the Miami Heat on Thursday for their next game. Atlanta (9 - 2) had to play this game without Dwight Howard (quad), but they did n't miss a beat. Paul Millsap stepped up in his absence, as he tallied 21 points, eight rebounds and three assists in the win. Mike Muscala started for Howard and provided 16 points, five rebounds and three assists of his own. Kyle Korver had one of his best games of the season, totaling 11 points, six rebounds and five assists. All five starters for Atlanta scored at least 11 points and provided at least three rebounds and three assists. On deck for the Hawks is a road matchup against the Charlotte Hornets on Friday. Table format: There are two tables in the text.   The first table has ten columns: \"Team\", \"Number of team assists\", \"Percentage of field goals\", \"Losses\", \"Total points\", \"Points in 1st quarter\", \"Points in 2nd quarter\", \"Points in 3rd quarter\", \"Wins\", and \"<NEWLINE>\". This table has two rows: \"Hawks\" and \"Bucks\".   The second table has eleven columns: \"Player\", \"Assists\", \"Blocks\", \"3-pointers made\", \"Field goals attempted\", \"Field goals made\", \"Offensive rebounds\", \"Points\", \"Total rebounds\", \"Steals\", and \"<NEWLINE>\". This table has six rows: \"Giannis Antetokounmpo\", \"Jabari Parker\", \"Tony Snell\", \"Mirza Teletovic\", \"Paul Millsap\", and \"Mike Muscala\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Hawks",
+                    "number_of_team_assists": 29,
+                    "percentage_of_field_goals": 49,
+                    "losses": 2,
+                    "total_points": 107,
+                    "points_in_1st_quarter": null,
+                    "points_in_2nd_quarter": 31,
+                    "points_in_3rd_quarter": null,
+                    "wins": 9
+                },
+                {
+                    "team": "Bucks",
+                    "number_of_team_assists": null,
+                    "percentage_of_field_goals": null,
+                    "losses": 5,
+                    "total_points": 100,
+                    "points_in_1st_quarter": 26,
+                    "points_in_2nd_quarter": 9,
+                    "points_in_3rd_quarter": 35,
+                    "wins": 5
+                }
+            ],
+            "players": [
+                {
+                    "player": "Giannis Antetokounmpo",
+                    "assists": 7,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 26,
+                    "total_rebounds": 15,
+                    "steals": null
+                },
+                {
+                    "player": "Jabari Parker",
+                    "assists": 3,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 23,
+                    "total_rebounds": 8,
+                    "steals": 3
+                },
+                {
+                    "player": "Tony Snell",
+                    "assists": 3,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 11,
+                    "total_rebounds": 4,
+                    "steals": null
+                },
+                {
+                    "player": "Mirza Teletovic",
+                    "assists": null,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 10,
+                    "field_goals_made": 5,
+                    "offensive_rebounds": null,
+                    "points": 14,
+                    "total_rebounds": null,
+                    "steals": null
+                },
+                {
+                    "player": "Paul Millsap",
+                    "assists": 3,
+                    "blocks": 1,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 21,
+                    "total_rebounds": 8,
+                    "steals": null
+                },
+                {
+                    "player": "Mike Muscala",
+                    "assists": 3,
+                    "blocks": 1,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": 1,
+                    "points": 16,
+                    "total_rebounds": 5,
+                    "steals": null
+                },
+                {
+                    "player": "Kyle Korver",
+                    "assists": 5,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 11,
+                    "total_rebounds": 6,
+                    "steals": 1
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Atlanta Hawks\",\n      \"wins\": 9,\n      \"losses\": 2,\n      \"total_points\": 107,\n      \"points_in_1st_quarter\": 31,\n      \"points_in_2nd_quarter\": 9,\n      \"points_in_3rd_quarter\": 50,\n      \"points_in_4th_quarter\": 28,\n      \"rebounds\": 29,\n      \"percentage_of_field_goals\": 49,\n      \"number_of_team_assists\": 29\n    },\n    {\n      \"team\": \"Milwaukee Bucks\",\n      \"wins\": 5,\n      \"losses\": 5,\n      \"total_points\": 100,\n      \"points_in_1st_quarter\": 12,\n      \"points_in_2nd_quarter\": 9,\n      \"points_in_3rd_quarter\": 28,\n      \"points_in_4th_quarter\": 4,\n      \"rebounds\": 35,\n      \"percentage_of_field_goals\": 49,\n      \"number_of_team_assists\": 26"
+    },
+    {
+        "id": 3308,
+        "input": "Input text: For the surging Mavericks, Wednesday was a promising night on the offensive end. The team saw 47 percent shooting and a stellar 23 points from recently - signed forward Harrison Barnes. Veteran Dirk Nowitzki contributed 19 points and shot a solid 8 - of - 12 on the night. Point guard Seth Curry added 20. The team was incredibly careful with the ball, turning it over just seven times. The Knicks, meanwhile, saw recklessness hurt their play. Despite out - rebounding Dallas 55 - 36, the Knicks committed 18 turnovers and shot only 42 percent en route to a loss. Veteran Carmelo Anthony led the team with a stellar 30 points, but could not get the job done for the entire team. The Knicks had only 17 assists as a team and canned only seven three - pointers on the night. Table format: The text contains two tables.   The first table has four columns and three rows. The column names are \"Number of team assists\", \"Percentage of field goals\", \"Rebounds\", and \"Turnovers\". The row names are \"Mavericks\", \"Knicks\", and \"Player\".   The second table has four columns and four rows. The column names are \"Field goals attempted\", \"Field goals made\", \"Points\", and \"Seth Curry\". The row names are \"Carmelo Anthony\", \"Harrison Barnes\", \"Dirk Nowitzki\", and \"Seth Curry\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Mavericks",
+                    "number_of_team_assists": null,
+                    "percentage_of_field_goals": null,
+                    "rebounds": 36,
+                    "turnovers": null
+                },
+                {
+                    "team": "Knicks",
+                    "number_of_team_assists": 17,
+                    "percentage_of_field_goals": 42,
+                    "rebounds": 55,
+                    "turnovers": 18
+                }
+            ],
+            "players": [
+                {
+                    "player": "Carmelo Anthony",
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "points": 30
+                },
+                {
+                    "player": "Harrison Barnes",
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "points": 23
+                },
+                {
+                    "player": "Dirk Nowitzki",
+                    "field_goals_attempted": 12,
+                    "field_goals_made": 8,
+                    "points": 19
+                },
+                {
+                    "player": "Seth Curry",
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "points": 20
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Mavericks\",\n      \"wins\": 19,\n      \"losses\": 8,\n      \"total_points\": 100,\n      \"number_of_team_assists\": 17,\n      \"percentage_of_field_goals\": 47,\n      \"rebounds\": 55,\n      \"turnovers\": 7\n    },\n    {\n      \"team\": \"Knicks\",\n      \"wins\": 8,\n      \"losses\": 10,\n      \"total_points\": 90,\n      \"number_of_team_assists\": 17,\n      \"percentage_of_field_goals\": 42,\n      \"rebounds\": 36,\n      \"turnovers\": 18\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Harrison Barnes\",\n      \"field_goals_attempted\": 23,\n      \"field_goals_made\": 23,\n      \"points\": 20,\n      \"field_goal_percentage\": 100\n    },\n    {\n      \"player\": \"Dirk Nowitzki\",\n      \"field_goals_attempted\": 12,\n      \"field_goals_m"
+    },
+    {
+        "id": 1018,
+        "input": "Input text: The Chicago Bulls (20 - 12) fought to the end for a 115 - 113 victory over the host Toronto Raptors (21 - 14), on Sunday afternoon. This was the second match up in a week between the Bulls and Raptors. Chicago won the last game as well and have now won their last seven versus the Raptors. With this win the Bulls have also extended their current win streak to four. Toronto was up 103 - 91 with six minutes left in the game, it was from then on that the Bulls went on a 24 - 10 run to steal the road win. Jimmy Butler hit a huge three with the defense right in his face, which put the Bulls up by one with 30 seconds left. The Raptors were not able to hit a counter - punch, missing three straight shots, while Chicago faired well enough from the foul line in the last seconds to stay on top. Jimmy Butler led the Bulls with a monstrous 42 points on very solid 15 - 23 shooting from the field (2 - 3 3Pt, 10 - 11 FT). Butler also logged five assists, four rebounds, one steal and one block, in 38 minutes. Pau Gasol had a very strong performance, finishing with 19 points (7 - 16 FG, 5 - 6 FT), 13 rebounds, six assists and four blocked shots, in 33 minutes. Nikola Mirotic chipped in 17 points (4 - 9 FG, 3 - 6 3Pt, 6 - 6 FT), three rebounds and one assist, in 28 minutes. The Bulls as a team shot very well, going 51 percent from the field, 88 percent from the foul - line and 42 percent from distance. Derrick Rose sat this one out with a sore hamstring, while Joakim Noah remained out with a shoulder injury. Toronto was led by guard - combo Kyle Lowry and DeMar DeRozan, who combined for 46 points on the game. Lowry finished with a full stat - line, including 22 points, 10 assists, five rebounds, one steal and one blocked shot, in 39 minutes. DeRozan led the Raptors in scoring with 24 points on 7 - 17 shooting from the field (3 - 6 3PT, 7 - 8 FT), in 35 minutes. Luis Scola was the third prong of the Raptors attack, as he finished with 22 points (9 - 17 FG, 2 - 2 3PT, 2 - 3 FT), along with five rebounds, two assists, two steals and one block, in 27 minutes. The Raptors will be right back in action on Monday as they begin a five - game road trip in Cleveland. This will be an important stretch for Toronto if they want to establish themselves at the top of the East. Meanwhile, the Bulls will be back in action on Tuesday, when they host Milwaukee. Table format: There are two tables.   The first table has 4 columns and 3 rows. The column names are \"Team\", \"Percentage of field goals\", \"Losses\", and \"Total points\". The row names are \"Raptors\", \"Bulls\", and \"Player\".   The second table has 16 columns and 5 rows. The column names are \"Assists\", \"Blocks\", \"Defensive rebounds\", \"3-pointers attempted\", \"3-pointers made\", \"Field goals attempted\", \"Field goals made\", \"Free throws attempted\", \"Free throws made\", \"Minutes played\", \"Offensive rebounds\", \"Personal fouls\", \"Points\", \"Total rebounds\", \"Steals\", and \"Turnovers\". The row names are \"Nikola Mirotic\", \"Pau Gasol\", \"Jimmy Butler\", \"Luis Scola\", and \"DeMar DeRozan\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Raptors",
+                    "percentage_of_field_goals": null,
+                    "losses": 14,
+                    "total_points": 113,
+                    "wins": 21
+                },
+                {
+                    "team": "Bulls",
+                    "percentage_of_field_goals": 51,
+                    "losses": 12,
+                    "total_points": 115,
+                    "wins": 20
+                }
+            ],
+            "players": [
+                {
+                    "player": "Nikola Mirotic",
+                    "assists": 1,
+                    "blocks": null,
+                    "defensive_rebounds": null,
+                    "3_pointers_attempted": 6,
+                    "3_pointers_made": 3,
+                    "field_goals_attempted": 9,
+                    "field_goals_made": 4,
+                    "free_throws_attempted": 6,
+                    "free_throws_made": 6,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 17,
+                    "total_rebounds": 3,
+                    "steals": null,
+                    "turnovers": null
+                },
+                {
+                    "player": "Pau Gasol",
+                    "assists": 6,
+                    "blocks": 4,
+                    "defensive_rebounds": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 16,
+                    "field_goals_made": 7,
+                    "free_throws_attempted": 6,
+                    "free_throws_made": 5,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 19,
+                    "total_rebounds": 13,
+                    "steals": null,
+                    "turnovers": null
+                },
+                {
+                    "player": "Jimmy Butler",
+                    "assists": 5,
+                    "blocks": 1,
+                    "defensive_rebounds": 3,
+                    "3_pointers_attempted": 3,
+                    "3_pointers_made": 2,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_attempted": 11,
+                    "free_throws_made": 10,
+                    "minutes_played": null,
+                    "offensive_rebounds": 1,
+                    "personal_fouls": 3,
+                    "points": 42,
+                    "total_rebounds": 4,
+                    "steals": 1,
+                    "turnovers": 3
+                },
+                {
+                    "player": "Luis Scola",
+                    "assists": 2,
+                    "blocks": 1,
+                    "defensive_rebounds": null,
+                    "3_pointers_attempted": 2,
+                    "3_pointers_made": 2,
+                    "field_goals_attempted": 17,
+                    "field_goals_made": 9,
+                    "free_throws_attempted": 3,
+                    "free_throws_made": 2,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 22,
+                    "total_rebounds": 5,
+                    "steals": 2,
+                    "turnovers": null
+                },
+                {
+                    "player": "DeMar DeRozan",
+                    "assists": null,
+                    "blocks": null,
+                    "defensive_rebounds": null,
+                    "3_pointers_attempted": 6,
+                    "3_pointers_made": 3,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_attempted": 8,
+                    "free_throws_made": 7,
+                    "minutes_played": 35,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 24,
+                    "total_rebounds": null,
+                    "steals": null,
+                    "turnovers": null
+                },
+                {
+                    "player": "Kyle Lowry",
+                    "assists": 10,
+                    "blocks": 1,
+                    "defensive_rebounds": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_attempted": null,
+                    "free_throws_made": null,
+                    "minutes_played": 39,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 22,
+                    "total_rebounds": 5,
+                    "steals": 1,
+                    "turnovers": null
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Bulls\",\n      \"wins\": 12,\n      \"losses\": 20,\n      \"total_points\": 115\n    },\n    {\n      \"team\": \"Raptors\",\n      \"wins\": 14,\n      \"losses\": 21,\n      \"total_points\": 113\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Jimmy Butler\",\n      \"assists\": 5,\n      \"blocks\": 1,\n      \"3_pointers_made\": 1,\n      \"3_pointers_attempted\": 23,\n      \"3_pointer_percentage\": 4,\n      \"field_goals_made\": 10,\n      \"field_goals_attempted\": 11,\n      \"field_goal_percentage\": 90,\n      \"free_throws_made\": 1,\n      \"free_throws_attempted\": 11,\n      \"free_throw_percentage\": 9,\n      \"minutes_played\": 38,\n      \"points\": 42,\n      \"total_rebounds\": 1,\n      \"defensive_rebounds\": 0,\n      \"offensive"
+    },
+    {
+        "id": 1444,
+        "input": "Input text: The Houston Rockets (26 - 11) cruised during Saturday's 97 - 82 victory against the Utah Jazz (13 - 25). Houston entered the contest with a previously - unknown quandary, but Dwight Howard brushed aside a minor knee injury to earn a game - high 37 minutes. While his double - double streak ended at four outings, he still managed to tally eight points, eight rebounds, one block, and one assist. The bulk of the offense came from a familiar source, James Harden, who recorded his 15th 30 - point game of the season to uphold his status as the NBA's leading scorer. By drilling four of the Rockets' 13 three - pointers, he's now hit multiple treys in five consecutive contests - - and 28 of 37 games this season - - en route to 27 points per outing. Even Donatas Motiejunas got in on the act, knocking down one trey, but more important was his third double - double of 2014 - 15 (14 points, 10 boards, and three steals in 36 minutes). On Monday, the Rockets return to the East Coast to take on the Brooklyn Nets, with an eye on extending their winning streak to four games. After Wednesday's impressive win in Chicago, the Jazz have suffered back - to - back defeats, and the primary culprit has been a combined 47 turnovers, including 27 on Saturday. On a positive note, the frontcourt welcomed back Enes Kanter following a four - game absence due to a sprained ankle, and the big man responded with 16 points, six rebounds, and one steal in only 21 minutes. The presence of Kanter did n't push Rudy Gobert back to the bench (yet). However, the Frenchman upheld his workload from Kanter's stay on the sideline, racking up four points, five boards, three assists, three blocks, and one steal in 35 minutes. By the final horn, the Jazz had shot merely 41 percent from the field, but no one contributed to the mark more than Gordon Hayward, who put up an ordinary nine points on 2 - for - 10 shooting. Upon returning to Utah, the Jazz will attempt to press the reset button in their next outing, Tuesday versus the Golden State Warriors. Table format: There are two tables.   The first table has six columns and three rows. The column headers are \"Team,\" \"Percentage of field goals,\" \"Losses,\" \"Total points,\" \"Turnovers,\" and \"Wins.\" The row headers are \"Rockets,\" \"Jazz,\" and \"Player.\"   The second table has 14 columns and six rows. The column headers are \"Assists,\" \"Blocks,\" \"3-pointers made,\" \"Field goals attempted,\" \"Field goals made,\" \"Free throws made,\" \"Minutes played,\" \"Offensive rebounds,\" \"Personal fouls,\" \"Points,\" \"Total rebounds,\" \"Steals,\" and \"Enes Kanter.\" The row headers are \"Gordon Hayward,\" \"Rudy Gobert,\" \"Donatas Motiejunas,\" \"Dwight Howard,\" \"James Harden,\" and \"Player.\"",
+        "output": {
+            "teams": [
+                {
+                    "team": "Rockets",
+                    "percentage_of_field_goals": null,
+                    "losses": 11,
+                    "total_points": 97,
+                    "turnovers": null,
+                    "wins": 26
+                },
+                {
+                    "team": "Jazz",
+                    "percentage_of_field_goals": 41,
+                    "losses": 25,
+                    "total_points": 82,
+                    "turnovers": 27,
+                    "wins": 13
+                }
+            ],
+            "players": [
+                {
+                    "player": "Gordon Hayward",
+                    "assists": null,
+                    "blocks": null,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": 10,
+                    "field_goals_made": 2,
+                    "free_throws_made": null,
+                    "minutes_played": null,
+                    "offensive_rebounds": 1,
+                    "personal_fouls": 1,
+                    "points": 9,
+                    "total_rebounds": null,
+                    "steals": null
+                },
+                {
+                    "player": "Rudy Gobert",
+                    "assists": 3,
+                    "blocks": 3,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_made": null,
+                    "minutes_played": 35,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 4,
+                    "total_rebounds": 5,
+                    "steals": 1
+                },
+                {
+                    "player": "Enes Kanter",
+                    "assists": null,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_made": 4,
+                    "minutes_played": 21,
+                    "offensive_rebounds": 4,
+                    "personal_fouls": null,
+                    "points": 16,
+                    "total_rebounds": 6,
+                    "steals": 1
+                },
+                {
+                    "player": "Donatas Motiejunas",
+                    "assists": 1,
+                    "blocks": null,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_made": 1,
+                    "minutes_played": 36,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 14,
+                    "total_rebounds": 10,
+                    "steals": 3
+                },
+                {
+                    "player": "Dwight Howard",
+                    "assists": 1,
+                    "blocks": 1,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": 4,
+                    "free_throws_made": null,
+                    "minutes_played": 37,
+                    "offensive_rebounds": null,
+                    "personal_fouls": 4,
+                    "points": 8,
+                    "total_rebounds": 8,
+                    "steals": 1
+                },
+                {
+                    "player": "James Harden",
+                    "assists": 5,
+                    "blocks": 1,
+                    "3_pointers_made": 4,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_made": null,
+                    "minutes_played": null,
+                    "offensive_rebounds": 1,
+                    "personal_fouls": null,
+                    "points": 30,
+                    "total_rebounds": null,
+                    "steals": 1
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Houston Rockets\",\n      \"wins\": 26,\n      \"losses\": 11,\n      \"total_points\": 97,\n      \"turnovers\": 0,\n      \"points_in_1st_quarter\": null,\n      \"points_in_2nd_quarter\": null,\n      \"points_in_3rd_quarter\": null,\n      \"points_in_4th_quarter\": null,\n      \"rebounds\": null,\n      \"percentage_of_3_points\": null,\n      \"percentage_of_field_goals\": null\n    },\n    {\n      \"team\": \"Utah Jazz\",\n      \"wins\": 13,\n      \"losses\": 25,\n      \"total_points\": 82,\n      \"turnovers\": 47,\n      \"points_in_1st_quarter\": null,\n      \"points_in_2nd_quarter\": null,\n      \"points_in_3rd_quarter\": null,\n      \"points_in_4th_quarter\": null,\n      \"rebounds\": null,\n      \"percentage_of_3_points\": null,\n      \"percentage_of_field_goals\": null\n    }\n  ],\n  \"players"
+    },
+    {
+        "id": 555,
+        "input": "Input text: The San Antonio Spurs (29 - 17) defeated the Milwaukee Bucks (22 - 22) 101 - 95 on Sunday at the AT & T Center in San Antonio. Despite a strong first half where the Bucks out - scored the Spurs 55 - 47, they were n't able to hold off the reigning NBA champion Spurs in the secondf, suffering a tough six - point loss on the road. While the Bucks shot better from field and the three - point line, they were dominated at the free throw line where the Spurs went 26 - for - 30 and the Bucks finished just 9 - for - 13. The Bucks also committed 21 turnovers, which may have been another big difference in this game. The Spurs had a strong showing from their frontcourt, as forwards Tim Duncan and Kawhi Leonard were the team - leaders in both points and rebounds. In 31 minutes, Duncan finished with 20 points (9 - 13 FG, 2 - 2 FT) and 11 rebounds, while Leonard had 19 points (4 - 11 FG, 1 - 5 3Pt, 10 - 12 FT) and 14 rebounds in 36 minutes. It was Leonard's third double - double in his last four games, recording at least 14 rebounds in each of those matchups. Tony Parker really struggled with his shot for the Spurs (3 - 13 FG, 0 - 2 3Pt, 4 - 4 FT), but still contributed 10 points and five assists. He's now averaging 15 points and 5 assists on the season. The Spurs did find some production off their bench, with two players finishing in double figures in points. Boris Diaw had 14 points (7 - 11 FG, 0 - 1 3Pt) and three rebounds, while Manu Ginobili finished with 13 points (3 - 8 FG, 1 - 2 3Pt, 6 - 8 FT) and three assists. Despite the loss, Kris Middleton played well, going 9 - for - 14 from the field and 3 - for - 5 from the three - point line to finish with 21 points and five rebounds as a starter at shooting guard. He's had two strong showings in a row, combining for 37 points, 12 rebounds and four steals over that span. Jerryd Bayless played very well off the bench for the Bucks. In 22 minutes, he added 15 points (5 - 10 FG, 0 - 1 3Pt, 5 - 7 FT) and five assists, as he was very efficient with his time on the court. Bayless had n't scored in double figures since the beginning of January, so it was good to see him turn things around on the offensive side of the ball and play well against a tough Spurs team. Zaza Puchulia added 12 points (5 - 11 FG, 2 - 2 FT) and six rebounds in 24 minutes, while Ersan Ilyasova finished with 11 points (4 - 8 FG, 1 - 2 3Pt, 2 - 4 FT) and six rebounds in just over 22 minutes. The Spurs' next game will be at home against the Charlotte Hornets on Wednesday, while the Bucks will travel to Miami to play the Heat on Tuesday. Table format: There are two tables.   The first table has 4 columns (Spurs, Losses, Total points, Wins) and 2 rows (Team, <NEWLINE>)   The second table has 13 columns (Assists, 3-pointers attempted, 3-pointers made, Field goals attempted, Field goals made, Free throws attempted, Free throws made, Minutes played, Offensive rebounds, Points, Total rebounds, <NEWLINE>, Player) and 9 rows (Ersan Ilyasova, Zaza Pachulia, Khris Middleton, Jerryd Bayless, Kawhi Leonard, Tim Duncan, Tony Parker, Manu Ginobili, Boris Diaw)",
+        "output": {
+            "teams": [
+                {
+                    "team": "Spurs",
+                    "losses": 17,
+                    "total_points": 101,
+                    "wins": 29
+                },
+                {
+                    "team": "Bucks",
+                    "losses": 22,
+                    "total_points": 95,
+                    "wins": 22
+                }
+            ],
+            "players": [
+                {
+                    "player": "Ersan Ilyasova",
+                    "assists": null,
+                    "3_pointers_attempted": 2,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": 8,
+                    "field_goals_made": 4,
+                    "free_throws_attempted": 4,
+                    "free_throws_made": 2,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "points": 11,
+                    "total_rebounds": 6
+                },
+                {
+                    "player": "Zaza Pachulia",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 11,
+                    "field_goals_made": 5,
+                    "free_throws_attempted": 2,
+                    "free_throws_made": 2,
+                    "minutes_played": 24,
+                    "offensive_rebounds": null,
+                    "points": 12,
+                    "total_rebounds": 6
+                },
+                {
+                    "player": "Khris Middleton",
+                    "assists": 2,
+                    "3_pointers_attempted": 5,
+                    "3_pointers_made": 3,
+                    "field_goals_attempted": 14,
+                    "field_goals_made": 9,
+                    "free_throws_attempted": null,
+                    "free_throws_made": null,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "points": 21,
+                    "total_rebounds": 5
+                },
+                {
+                    "player": "Jerryd Bayless",
+                    "assists": 5,
+                    "3_pointers_attempted": 1,
+                    "3_pointers_made": 0,
+                    "field_goals_attempted": 10,
+                    "field_goals_made": 5,
+                    "free_throws_attempted": 7,
+                    "free_throws_made": 5,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "points": 15,
+                    "total_rebounds": null
+                },
+                {
+                    "player": "Kawhi Leonard",
+                    "assists": null,
+                    "3_pointers_attempted": 5,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": 11,
+                    "field_goals_made": 4,
+                    "free_throws_attempted": 12,
+                    "free_throws_made": 10,
+                    "minutes_played": 36,
+                    "offensive_rebounds": 4,
+                    "points": 19,
+                    "total_rebounds": 14
+                },
+                {
+                    "player": "Tim Duncan",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 13,
+                    "field_goals_made": 9,
+                    "free_throws_attempted": 2,
+                    "free_throws_made": 2,
+                    "minutes_played": 31,
+                    "offensive_rebounds": 4,
+                    "points": 20,
+                    "total_rebounds": 11
+                },
+                {
+                    "player": "Tony Parker",
+                    "assists": 5,
+                    "3_pointers_attempted": 2,
+                    "3_pointers_made": 0,
+                    "field_goals_attempted": 13,
+                    "field_goals_made": 3,
+                    "free_throws_attempted": 4,
+                    "free_throws_made": 4,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "points": 10,
+                    "total_rebounds": null
+                },
+                {
+                    "player": "Manu Ginobili",
+                    "assists": 3,
+                    "3_pointers_attempted": 2,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": 8,
+                    "field_goals_made": 3,
+                    "free_throws_attempted": 8,
+                    "free_throws_made": 6,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "points": 13,
+                    "total_rebounds": null
+                },
+                {
+                    "player": "Boris Diaw",
+                    "assists": 3,
+                    "3_pointers_attempted": 1,
+                    "3_pointers_made": 0,
+                    "field_goals_attempted": 11,
+                    "field_goals_made": 7,
+                    "free_throws_attempted": null,
+                    "free_throws_made": null,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "points": 14,
+                    "total_rebounds": 3
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    { \"team\": \"San Antonio Spurs\", \"wins\": 29, \"losses\": 17, \"total_points\": 101 },\n    { \"team\": \"Milwaukee Bucks\", \"wins\": 22, \"losses\": 22, \"total_points\": 95 }\n  ],\n  \"players\": [\n    { \"player\": \"Tim Duncan\", \"points\": 20, \"assists\": 11, \"rebounds\": 11, \"turnovers\": 0, \"field_goals_made\": 9, \"field_goals_attempted\": 13, \"field_goal_percentage\": 69, \"free_throws_made\": 4, \"free_throws_attempted\": 4, \"free_throw_percentage\": 100, \"minutes_played\": 31 },\n    { \"player\": \"Kawhi Leonard\", \"points\": 19, \"assists\": 14, \"rebounds\": 14, \"turnovers\": 0, \"field_goals_made\": 4, \"field_goals_attempted\": 11, \"field_goal_percentage\": 3"
+    },
+    {
+        "id": 163,
+        "input": "Input text: The Minnesota Timberwolves defeated the visiting Golden State Warriors 103 - 102, at Target Center, on Friday evening. It was a dramatic contest, as the Timberwolves jumped out to a 10 - point lead, with a 34 - 24 first quarter. The Warriors responded in the second, where they out - scored the T-Wolves by one. The Timberwolves came back strong in the third, ensuring themselves a 12 - point lead heading into the final quarter. Minnesota then extended their lead to 14, however the Warriors went on a 130 run to bring the game within one point with 7:28 to go. It was then back and forth, with the T-Wolves staying on top, until the Warriors tied it up with 2:37 left. Minnesota battled ahead once again but almost let it slip away as they were up by one, when Andrew Wiggins missed two free throws, allowing the Warriors the opportunity to go up by one on the next possession. Wiggins made up for his error though, as he sank two free throws with 12 seconds left to seal the one - point win. Andrew Wiggins was the high - point man for the Timberwolves (27 - 37), as he finished with 24 points on 9 - of - 21 shooting, in 37 minutes. Karl-Anthony Towns followed up with 23 points on more efficient 10 - of - 18 shooting, in 38 minutes. This marked Towns' 19th straight game with 20 or more points. Four other players scored in double digits for Minnesota, including Ricky Rubio, who chipped in 17 points and dished 13 assists, in 36 minutes. The T-Wolves go on to face the second night of a back - to - back as they visit Milwaukee on Saturday. Klay Thompson led the way for the Warriors (52 - 13) with a game - high 30 points on 12 - of - 22 shooting, while Stephen Curry followed up with 26 points, but struggled from deep, where he went 1 - of - 8, in 35 minutes. The only other player to score in double digits for Golden State was Ian Clark, who added 10 points off the bench. The Warriors have now lost two straight, and face a tough match up in their next contest, when they visit San Antonio on Saturday. Table format: There are two tables.   The first table has 7 columns and 2 rows. The column names are: \"Team\", \"Losses\", \"Total points\", \"Points in 1st quarter\", \"Points in 4th quarter\", \"Wins\". The row names are: \"Timberwolves\", \"Warriors\".   The second table has 8 columns and 6 rows. The column names are: \"Player\", \"Assists\", \"3-pointers attempted\", \"3-pointers made\", \"Field goals attempted\", \"Field goals made\", \"Minutes played\", \"Points\". The row names are: \"Klay Thompson\", \"Stephen Curry\", \"Ian Clark\", \"Andrew Wiggins\", \"Karl-Anthony Towns\", \"Ricky Rubio\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Timberwolves",
+                    "losses": 37,
+                    "total_points": 103,
+                    "points_in_1st_quarter": 34,
+                    "points_in_4th_quarter": null,
+                    "wins": 27
+                },
+                {
+                    "team": "Warriors",
+                    "losses": 13,
+                    "total_points": 102,
+                    "points_in_1st_quarter": 24,
+                    "points_in_4th_quarter": 26,
+                    "wins": 52
+                }
+            ],
+            "players": [
+                {
+                    "player": "Klay Thompson",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 22,
+                    "field_goals_made": 12,
+                    "minutes_played": null,
+                    "points": 30
+                },
+                {
+                    "player": "Stephen Curry",
+                    "assists": null,
+                    "3_pointers_attempted": 8,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "minutes_played": 35,
+                    "points": 26
+                },
+                {
+                    "player": "Ian Clark",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "minutes_played": null,
+                    "points": 10
+                },
+                {
+                    "player": "Andrew Wiggins",
+                    "assists": null,
+                    "3_pointers_attempted": 1,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": 21,
+                    "field_goals_made": 9,
+                    "minutes_played": 37,
+                    "points": 24
+                },
+                {
+                    "player": "Karl-Anthony Towns",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 18,
+                    "field_goals_made": 10,
+                    "minutes_played": 38,
+                    "points": 23
+                },
+                {
+                    "player": "Ricky Rubio",
+                    "assists": 13,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "minutes_played": 36,
+                    "points": 17
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Minnesota Timberwolves\",\n      \"wins\": 10,\n      \"losses\": 5,\n      \"total_points\": 103,\n      \"points_in_1st_quarter\": 34,\n      \"points_in_4th_quarter\": 14,\n      \"points_in_2nd_quarter\": 24\n    },\n    {\n      \"team\": \"Golden State Warriors\",\n      \"wins\": 8,\n      \"losses\": 7,\n      \"total_points\": 102,\n      \"points_in_1st_quarter\": 10,\n      \"points_in_4th_quarter\": 130,\n      \"points_in_2nd_quarter\": 1\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Klay Thompson\",\n      \"assists\": 0,\n      \"3_pointers_attempted\": 22,\n      \"3_pointers_made\": 12,\n      \"field_goals_attempted\": 22,\n      \"field_goals_made\": 12,\n      \"minutes_played\": 35,\n      \"points"
+    },
+    {
+        "id": 549,
+        "input": "Input text: The Memphis Grizzlies (36 - 12) pulled out a victory over the Phoenix Suns (28 - 22) on Monday. Marc Gasol continued his stellar season, showing off his spectacular passing ability from the center position. He finished with 15 points, six rebounds, three blocks and eight assists. He has averaged five assists over his past five games, while shooting 91 percent from the free throw line during that stretch, which is n't an easy feat for one of the game's few true centers. The Grizzlies are now 11 - 1 over their last 12 games, and only have one game against an opponent with a record better than .500 before the All-Star break. Isaiah Thomas led the Suns in scoring, putting up 24 points to give Phoenix a spark off the bench. Eric Bledsoe turned in a good game with 21 points, seven rebounds, eight assists, four steals and two blocks. He hit two free throws to give the Suns a 98 - 91 lead with 3:31 remaining in the game. Memphis' Zach Randolph went on to score five points in the final 2:33 to give his team a fighting chance. Jeff Green then hit a bucket, was fouled in the process with four seconds left, and went on to make the free throw to give the Grizzlies a lead and a 102 - 101 victory. The Grizzlies will play the Utah Jazz on Wednesday, and the Suns will head to the Moda Center to face the Portland Trail Blazers on Thursday. Table format: <NEWLINE>  There are two tables.   The first table has 4 columns and 3 rows. The column names are \"Team\", \"Losses\", \"Total points\", and \"Wins\". The row names are \"Suns\", \"Grizzlies\", and \"Player\".   The second table has 9 columns and 4 rows. The column names are \"Assists\", \"Blocks\", \"Field goals made\", \"Free throws made\", \"Offensive rebounds\", \"Points\", \"Total rebounds\", \"Steals\", and \"Jeff Green\". The row names are \"Marc Gasol\", \"Eric Bledsoe\", \"Isaiah Thomas\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Suns",
+                    "losses": 22,
+                    "total_points": 101,
+                    "wins": 28
+                },
+                {
+                    "team": "Grizzlies",
+                    "losses": 12,
+                    "total_points": 102,
+                    "wins": 36
+                }
+            ],
+            "players": [
+                {
+                    "player": "Jeff Green",
+                    "assists": null,
+                    "blocks": null,
+                    "field_goals_made": 4,
+                    "free_throws_made": null,
+                    "offensive_rebounds": 4,
+                    "points": null,
+                    "total_rebounds": null,
+                    "steals": null
+                },
+                {
+                    "player": "Marc Gasol",
+                    "assists": 8,
+                    "blocks": 3,
+                    "field_goals_made": null,
+                    "free_throws_made": null,
+                    "offensive_rebounds": null,
+                    "points": 15,
+                    "total_rebounds": 6,
+                    "steals": null
+                },
+                {
+                    "player": "Eric Bledsoe",
+                    "assists": 8,
+                    "blocks": 2,
+                    "field_goals_made": null,
+                    "free_throws_made": 2,
+                    "offensive_rebounds": null,
+                    "points": 21,
+                    "total_rebounds": 7,
+                    "steals": 4
+                },
+                {
+                    "player": "Isaiah Thomas",
+                    "assists": null,
+                    "blocks": null,
+                    "field_goals_made": null,
+                    "free_throws_made": null,
+                    "offensive_rebounds": null,
+                    "points": 24,
+                    "total_rebounds": null,
+                    "steals": null
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    { \"team\": \"Grizzlies\", \"wins\": 11, \"losses\": 1, \"total_points\": 102 },\n    { \"team\": \"Suns\", \"wins\": 8, \"losses\": 2, \"total_points\": 91 }\n  ],\n  \"players\": [\n    { \"player\": \"Marc Gasol\", \"assists\": 8, \"blocks\": 3, \"field_goals_made\": 15, \"free_throws_made\": 15, \"offensive_rebounds\": 5, \"points\": 15, \"total_rebounds\": 6, \"steals\": 0, \"turnovers\": 0 },\n    { \"player\": \"Eric Bledsoe\", \"assists\": 8, \"blocks\": 2, \"field_goals_made\": 21, \"free_throws_made\": 10, \"offensive_rebounds\": 7, \"points\": 21, \"total_rebounds\": 14, \"steals\": 4, \"turnovers\": 0 },\n    { \"player\": \"Isaiah Thomas\","
+    },
+    {
+        "id": 1010,
+        "input": "Input text: The Los Angeles Lakers (7 - 27) defeated the Philadelphia 76ers (3 - 32) 93 - 84 on Friday night. In a battle of the two worst teams in the NBA, the less worse team prevailed. Philly's first win of the season came against the Lakers and it was evident Los Angeles wanted to return the favor in their home building. They played some of the best defense they've played all season, as they allowed just 84 points on 37 percent shooting. They also dominated the turnover battle, as the Sixers committed 16 turnovers while the Lakers committed just 10. Both teams shot under 38 percent from the field and they shot a combined 9 - for - 40 from long distance for an atrocious 23 percent. The Sixers have been a revived team recently, but couldn\u2019t muster up much here. The worst offense in the NBA showed it's true colors tonight and couldn\u2019t get anything going. The only player who played well was Nerlens Noel, who tallied 15 points, 12 rebounds, three assists, three steals and three blocks in the loss. T.J. McConnell also had a solid game off the bench, as he amassed 12 points, seven assists and four rebounds. Jahlil Okafor came off the bench here once again and it may be time to re - insert him into the starting - five, considering he is the best offensive player on this team. The Sixers will have a tough task on Saturday, as they'll have to play the Los Angeles Clippers in the second half of a back - to - back set. The Lakers played this game without Kobe Bryant and it was one of their best games of the season. The bench brought in some great energy, as all four players grabbed at least three rebounds and combined for an impressive 10 steals. Lou Williams was the star of the night though, as he contributed 24 points, five assists and four rebounds in the win. Larry Nance Jr. also had a nice game, as he set a career - high with 14 rebounds in the victory. This isn\u2019t a great win by any means, but it's definitely something for them to build off of going forward. The Lakers will take on the Phoenix suns on Sunday in their next game. Table format: There are two tables. The first table has seven columns and two rows. The column names are \"Team,\" \"Percentage of field goals,\" \"Losses,\" \"Total points,\" \"Turnovers,\" \"Wins,\" and the row names are \"Lakers\" and \"76ers.\" The second table has nine columns and three rows. The column names are \"Player,\" \"Assists,\" \"Blocks,\" \"Free throws attempted,\" \"Offensive rebounds,\" \"Points,\" \"Total rebounds,\" \"Steals,\" and the row names are \"Nerlens Noel,\" \"Larry Nance Jr.,\" and \"Lou Williams.\"",
+        "output": {
+            "teams": [
+                {
+                    "team": "Lakers",
+                    "percentage_of_field_goals": 38,
+                    "losses": 27,
+                    "total_points": 93,
+                    "turnovers": 10,
+                    "wins": 7
+                },
+                {
+                    "team": "76ers",
+                    "percentage_of_field_goals": null,
+                    "losses": 32,
+                    "total_points": 84,
+                    "turnovers": null,
+                    "wins": 3
+                }
+            ],
+            "players": [
+                {
+                    "player": "Nerlens Noel",
+                    "assists": 3,
+                    "blocks": 3,
+                    "free_throws_attempted": 5,
+                    "offensive_rebounds": 5,
+                    "points": 15,
+                    "total_rebounds": 12,
+                    "steals": 3
+                },
+                {
+                    "player": "Larry Nance Jr.",
+                    "assists": null,
+                    "blocks": null,
+                    "free_throws_attempted": null,
+                    "offensive_rebounds": null,
+                    "points": null,
+                    "total_rebounds": 14,
+                    "steals": null
+                },
+                {
+                    "player": "Lou Williams",
+                    "assists": 5,
+                    "blocks": null,
+                    "free_throws_attempted": null,
+                    "offensive_rebounds": null,
+                    "points": 24,
+                    "total_rebounds": 4,
+                    "steals": null
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Los Angeles Lakers\",\n      \"wins\": 7,\n      \"losses\": 2,\n      \"total_points\": 93,\n      \"turnovers\": 10,\n      \"percentage_of_field_goals\": 38,\n      \"rebounds\": 10,\n      \"percentage_of_3_points\": 23,\n      \"number_of_team_assists\": 5\n    },\n    {\n      \"team\": \"Philadelphia 76ers\",\n      \"wins\": 3,\n      \"losses\": 2,\n      \"total_points\": 84,\n      \"turnovers\": 16,\n      \"percentage_of_field_goals\": 38,\n      \"rebounds\": 8,\n      \"percentage_of_3_points\": 23,\n      \"number_of_team_assists\": 0\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Nerlens Noel\",\n      \"assists\": 3,\n      \"blocks\": 3,\n      \"3_pointers_made\": 0,\n      \"3_pointers_attempted\": 0,\n      \"3_pointer_percentage\": 0,\n      \""
+    },
+    {
+        "id": 1402,
+        "input": "Input text: All five starters scored in double figures for the Wizards, led by Bradley Beal who finished with 23 points, on 7 - of - 11 shooting, in 30 minutes. Marcin Gortat finished with 21 points on 8 - of - 16 shooting, along with 18 rebounds in 42 minutes. Otto Porter Jr. also finished with a double - double with 15 points and 12 rebounds. Only four players came off the bench for Washington, and combined for 17 points. Kawhi Leonard led the way for the Spurs, with 23 points on 9 - of - 18 shooting, along with five rebounds, two assists and two steals, in 34 minutes. LaMarcus Aldridge added 19 points on 8 - of - 14 shooting, along with five rebounds, in 37 minutes. Manu Ginobili chipped in 13 points on 4 - of - 6 shooting, and seven assists, in 24 minutes off the bench. The Wizards shot 51 percent from the field, while the Spurs shot 49 percent. Table format: <NEWLINE>  There are two tables.   The first table has three columns and two rows. The column names are \"Team\", \"Percentage of field goals\", and \"Points in 3rd quarter\". The row names are \"Spurs\" and \"Wizards\".   The second table has ten columns and five rows. The column names are \"Player\", \"Assists\", \"3-pointers attempted\", \"3-pointers made\", \"Field goals attempted\", \"Field goals made\", \"Free throws attempted\", \"Minutes played\", \"Points\", and \"Total rebounds\". The row names are \"Marcin Gortat\", \"Bradley Beal\", \"Kawhi Leonard\", \"LaMarcus Aldridge\", and \"Manu Ginobili\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Spurs",
+                    "percentage_of_field_goals": 49,
+                    "points_in_3rd_quarter": 23
+                },
+                {
+                    "team": "Wizards",
+                    "percentage_of_field_goals": 51,
+                    "points_in_3rd_quarter": null
+                }
+            ],
+            "players": [
+                {
+                    "player": "Marcin Gortat",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 16,
+                    "field_goals_made": 8,
+                    "free_throws_attempted": null,
+                    "minutes_played": 42,
+                    "points": 21,
+                    "total_rebounds": 18,
+                    "steals": null
+                },
+                {
+                    "player": "Bradley Beal",
+                    "assists": null,
+                    "3_pointers_attempted": 5,
+                    "3_pointers_made": 5,
+                    "field_goals_attempted": 11,
+                    "field_goals_made": 7,
+                    "free_throws_attempted": 5,
+                    "minutes_played": 30,
+                    "points": 23,
+                    "total_rebounds": null,
+                    "steals": null
+                },
+                {
+                    "player": "Kawhi Leonard",
+                    "assists": 2,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 18,
+                    "field_goals_made": 9,
+                    "free_throws_attempted": null,
+                    "minutes_played": 34,
+                    "points": 23,
+                    "total_rebounds": 5,
+                    "steals": 2
+                },
+                {
+                    "player": "LaMarcus Aldridge",
+                    "assists": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 14,
+                    "field_goals_made": 8,
+                    "free_throws_attempted": null,
+                    "minutes_played": 37,
+                    "points": 19,
+                    "total_rebounds": 5,
+                    "steals": null
+                },
+                {
+                    "player": "Manu Ginobili",
+                    "assists": 7,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 6,
+                    "field_goals_made": 4,
+                    "free_throws_attempted": null,
+                    "minutes_played": 24,
+                    "points": 13,
+                    "total_rebounds": null,
+                    "steals": null
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Wizards\",\n      \"wins\": null,\n      \"losses\": null,\n      \"total_points\": 100,\n      \"points_in_1st_quarter\": null,\n      \"points_in_2nd_quarter\": null,\n      \"points_in_3rd_quarter\": null,\n      \"points_in_4th_quarter\": null,\n      \"rebounds\": null,\n      \"percentage_of_3_points\": null,\n      \"percentage_of_field_goals\": 51\n    },\n    {\n      \"team\": \"Spurs\",\n      \"wins\": null,\n      \"losses\": null,\n      \"total_points\": 100,\n      \"points_in_1st_quarter\": null,\n      \"points_in_2nd_quarter\": null,\n      \"points_in_3rd_quarter\": null,\n      \"points_in_4th_quarter\": null,\n      \"rebounds\": null,\n      \"percentage_of_3_points\": null,\n      \"percentage_of_field_goals\": 49\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Marcin Gortat\",\n      \"assists\":"
+    },
+    {
+        "id": 1788,
+        "input": "Input text: The Portland Trail Blazers (40 - 36) defeated the Boston Celtics (43 - 32) 116 - 109 at Moda Center on Thursday. The Celtics dropped their second straight game to Western Conference opponent\u2019s in the back and forth affair that featured two of the craftier coaches in the NBA. Terry Stotts\u2019 group got the better of Brad Stevens\u2019 currently fourth seeded team. Boston was able to get their shots off terrific creation in the first half and entered the third quarter with a slim four point lead, but C.J. McCollum and Al-Farouq Aminu were all but unstoppable down the stretch to give the Blazers the edge. Aminu made up for a brutal shooting night from Damian Lillard, who simply could not get into a rhythm at any point, or break away from the defensive swarm sent his way. Lillard finished with 14 points on 3 - of - 16 shooting, and did the majority of his damage from the free throw line. Aminu bailed out the all - star point guard with one of his best performances of the season, as he finished with 28 points, nine rebounds, one assist and a steal on 11 - of - 19 shooting in 36 minutes. Gerald Henderson and Allen Crabbe were efficient off the bench and aided the starters with a combined 26 points and nine rebounds. While the Celtics have success against the Eastern Conference, they fail to impress against the talent that the Western Conference throws their way, granted they just got Jae Crowder (ankle) back from an eight game absence. The integral part Crowder plays on both ends of the floor will give Boston a boost heading into the playoffs, as proven by his 13 points, 10 boards and two assists. It might take some time for Crowder to find his three point shot again, but when he does it will only make the Celtics better. Avery Bradley and Isiah Thomas sliced and diced through the Portland defense in the first half, and came out of the contest with a combined 42 points and 10 rebounds. The west coast trip continues for the Celtics, as they face up against the league\u2019s best Golden State Warriors (68 - 7) at Oracle Arena on Friday, while the Blazers welcome Dwyane Wade and the Miami Heat (43 - 31) on Saturday. Table format: There are two tables in the text.   The first table has four columns (Team, Losses, Total points, Wins) and three rows (Trail Blazers, Celtics, Player).   The second table has fifteen columns (Assists, Blocks, 3-pointers attempted, 3-pointers made, Field goals attempted, Field goals made, Free throws attempted, Minutes played, Offensive rebounds, Personal fouls, Points, Total rebounds, Steals, Turnovers) and four rows (Jae Crowder, Al-Farouq Aminu, CJ McCollum, Damian Lillard).",
+        "output": {
+            "teams": [
+                {
+                    "team": "Trail Blazers",
+                    "losses": 36,
+                    "total_points": 116,
+                    "wins": 40
+                },
+                {
+                    "team": "Celtics",
+                    "losses": 32,
+                    "total_points": 109,
+                    "wins": 43
+                }
+            ],
+            "players": [
+                {
+                    "player": "Jae Crowder",
+                    "assists": 2,
+                    "blocks": null,
+                    "3_pointers_attempted": 8,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_attempted": null,
+                    "minutes_played": null,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": 13,
+                    "total_rebounds": 10,
+                    "steals": null,
+                    "turnovers": null
+                },
+                {
+                    "player": "Al-Farouq Aminu",
+                    "assists": 1,
+                    "blocks": null,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 19,
+                    "field_goals_made": 11,
+                    "free_throws_attempted": 1,
+                    "minutes_played": 36,
+                    "offensive_rebounds": 1,
+                    "personal_fouls": null,
+                    "points": 28,
+                    "total_rebounds": 9,
+                    "steals": 1,
+                    "turnovers": 1
+                },
+                {
+                    "player": "CJ McCollum",
+                    "assists": null,
+                    "blocks": 1,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "free_throws_attempted": null,
+                    "minutes_played": 36,
+                    "offensive_rebounds": null,
+                    "personal_fouls": null,
+                    "points": null,
+                    "total_rebounds": null,
+                    "steals": 1,
+                    "turnovers": null
+                },
+                {
+                    "player": "Damian Lillard",
+                    "assists": null,
+                    "blocks": 1,
+                    "3_pointers_attempted": null,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": 16,
+                    "field_goals_made": 3,
+                    "free_throws_attempted": null,
+                    "minutes_played": 36,
+                    "offensive_rebounds": 1,
+                    "personal_fouls": 1,
+                    "points": 14,
+                    "total_rebounds": 1,
+                    "steals": null,
+                    "turnovers": null
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Portland Trail Blazers\",\n      \"wins\": 40,\n      \"losses\": 36,\n      \"total_points\": 116\n    },\n    {\n      \"team\": \"Boston Celtics\",\n      \"wins\": 43,\n      \"losses\": 32,\n      \"total_points\": 109\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Jae Crowder\",\n      \"assists\": 0,\n      \"blocks\": 0,\n      \"3_pointers_attempted\": 0,\n      \"3_pointers_made\": 0,\n      \"field_goals_attempted\": 0,\n      \"field_goals_made\": 0,\n      \"free_throws_attempted\": 0,\n      \"free_throws_made\": 0,\n      \"minutes_played\": 36,\n      \"points\": 13,\n      \"total_rebounds\": 10,\n      \"defensive_rebounds\": 0,\n      \"offensive_rebounds\": 0,\n      \"steals\": 0,\n      \"turnovers\": 0,\n      \"personal_fouls"
+    }
+]
