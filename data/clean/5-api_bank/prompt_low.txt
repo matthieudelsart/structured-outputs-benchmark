@@ -4,9 +4,9 @@ You will be first given the dialogue history and then the instruction,
 that contains information about the possible APIs you can use to answer the user request.
 
 Example of output:
-{"api_name": "Calculator",
+{"api_name": "ApiName",
       "parameters": {
-        "formula": "(5+6)*3"
+        ...
       }
     }
 
@@ -16,6 +16,5 @@ Example of output:
 # Instruction:
 {instruction}
 
-You must must only generate the JSON object, without any additional text, explanation or markdown. You must follow the API specifications provided.
-Don't output anything before the json in your answer, like "API Request", ouptut directly the call.
+You must must only generate the JSON object, without any additional text, explanation or markdown.
 """

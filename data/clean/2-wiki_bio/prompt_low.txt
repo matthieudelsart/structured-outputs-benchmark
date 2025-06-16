@@ -1,28 +1,15 @@
-You are given **one lead paragraph from an English Wikipedia biography.** Your task is to convert that prose into a *single JSON object* that follows the schema below.
+You are given **one lead paragraph from an English Wikipedia biography.** Your task is to convert that prose into a *single JSON object* that contains the main information about that biography.
 
 ### 1 · Output format
 
 * **Return only raw JSON** — no markdown fences, no comments, no extra keys.
-* The JSON **must validate** against Draft-07 schema rules that will be enforced automatically.
-* All values must be **UTF-8 strings** (use digits only for numbers).
 
 ### 2 · Key rules
 
 1. **Exactly the keys shown in the block below** — no more, no less, no re-ordering needed.
 2. All keys are mandatory, if the paragraph does **not** contain reliable evidence for a field, keep the value as the empty string `""`.
-3. Do **not** invent values or copy footnotes/ref-tags.
 
-### 3 · Value normalisation
-
-| Field type                | Normalise to                                           | Example input → output                           |
-| ------------------------- | ------------------------------------------------------ | ------------------------------------------------ |
-| Date (`*date`)            | `YYYY-MM-DD` if day known, else `YYYY-MM`, else `YYYY` | "18 May 1799 (aged 67)" → `"1799-05-18"`         |
-| Place (`*place`)          | ASCII, lower-case, drop country if obvious             | "Paris, France" → `"paris"`                      |
-| Nationality               | Canonical country name (ISO-3166)                      | "US", "American" → `"United States"`             |
-| Multi-value (clubs, etc.) | `item1; item2; item3` (semicolon + space)              | "Celtic / Southampton" → `"celtic; southampton"` |
-| Heights/years/numbers     | digits only                                            | "6 ft" → `"6"`; "1960–1976" → `"19601976"`       |
-
-### 4 · Template
+### 3 · Template
 
 Your answer should have the following format, fill in the values you can justify from the paragraph. Leave the others `""`.
 
@@ -32,8 +19,4 @@ Your answer should have the following format, fill in the values you can justify
     'other_key': ...}
 """
 
-For this specific article, I expect you to use the following keys: `{{EXPECTED_KEYS}}`. Remember they must all be there in the output, and only them (no extra keys).
-
----
-
-**Remember:** Return **only** the completed JSON object — no explanations, no markdown, no extra whitespace before or after.
+For this specific article, I expect you to use the following keys: `{{EXPECTED_KEYS}}`.

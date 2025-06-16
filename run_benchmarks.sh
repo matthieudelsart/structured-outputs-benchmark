@@ -42,7 +42,7 @@ done
 echo "All benchmarks completed!"  
 
 #uv run ./run_benchmarks.sh & pid=$!  
-# caffeinate -i -w $pid
+# caffeinate -di -w $pid
 
 #uv run python -m src.generate_gemma --model gemma-3-12b-it & pid=$!  
-#caffeinate -i -w $pid
+#caffeinate -di -w $pid

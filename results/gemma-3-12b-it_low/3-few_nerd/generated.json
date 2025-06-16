@@ -15,7 +15,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"303rd Military Intelligence Battalion\", \"Longhorns\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"worldwide\"],\n  \"organization\": [\"303rd Military Intelligence Battalion\", \"Longhorns\", \"Division\", \"Corps\", \"Joint Task Force\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 29924,
@@ -38,7 +38,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Genting Highlands Fire and Rescue Station\"],\n  \"event\": [\"ceremony\"],\n  \"location\": [\"Pahang\"],\n  \"organization\": [\"Malaysia\"],\n  \"other\": null,\n  \"person\": [\"Mahathir Mohamad\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Genting Highlands Fire and Rescue Station\"],\n  \"event\": null,\n  \"location\": [\"Pahang\", \"Malaysia\"],\n  \"organization\": null,\n  \"other\": [\"Prime Minister\"],\n  \"person\": [\"Mahathir Mohamad\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 24020,
@@ -53,7 +53,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"park\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"books of tickets\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"wristbands\", \"hand stamps\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 30732,
@@ -72,7 +72,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"22-game round-robin\"],\n  \"location\": [\"American\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Harry Nelson Pillsbury\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"22-game round-robin\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Harry Nelson Pillsbury\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 8575,
@@ -89,7 +89,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Senate\"],\n  \"other\": null,\n  \"person\": [\"Harry Reid\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"libel\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Senate\"],\n  \"other\": null,\n  \"person\": [\"Harry Reid\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 22016,
@@ -108,7 +108,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Poland\"],\n  \"organization\": [\"Nazis\"],\n  \"other\": null,\n  \"person\": [\"Jewish\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Holocaust\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Poland\"],\n  \"organization\": [\"Nazis\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 20661,
@@ -127,7 +127,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"autism\", \"alternative medicine\"],\n  \"person\": null,\n  \"product\": [\"Casein\", \"gluten\"]\n}\n```"
     },
     {
         "id": 35161,
@@ -150,7 +150,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Civil War\"],\n  \"location\": [\"Mountain Government\"],\n  \"organization\": [\"KKE\", \"Mountain Government\"],\n  \"other\": null,\n  \"person\": [\"Markos Vafiadis\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Civil War\"],\n  \"location\": null,\n  \"organization\": [\"KKE\"],\n  \"other\": [\"Provisional Democratic Government\", \"Mountain Government\"],\n  \"person\": [\"Markos Vafiadis\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 11412,
@@ -173,7 +173,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Laughlin\", \"Wendover\"],\n  \"organization\": [\"Sun Country Airlines\", \"Xtra Airways\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Laughlin\", \"Wendover\", \"NV\"],\n  \"organization\": [\"Sun Country Airlines\", \"Xtra Airways\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 9216,
@@ -195,7 +195,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Norsk billedvev\"],\n  \"building\": [\"Royal Palace\", \"Akershus Castle\", \"Stortinget\", \"Oslo City Hall\"],\n  \"event\": null,\n  \"location\": [\"Oslo\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Norsk billedvev\"],\n  \"building\": [\"Royal Palace\", \"Akershus Castle\", \"Stortinget building\", \"Oslo City Hall\"],\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 37634,
@@ -236,7 +236,7 @@
                 "ESEO"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Vandenberg AFB\"],\n  \"event\": [\"Spaceflight 's SmallSat Express\"],\n  \"location\": null,\n  \"organization\": [\"ESEO\", \"Spaceflight\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Vandenberg AFB\"],\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Spaceflight\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"ESEO\", \"SmallSat Express\"]\n}\n```"
     },
     {
         "id": 9960,
@@ -256,7 +256,7 @@
                 "Baby Machine"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"University of Manchester\"],\n  \"organization\": [\"Ferranti\", \"Baby Machine\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"music\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Manchester\"],\n  \"organization\": [\"University of Manchester\"],\n  \"other\": [\"computer-generated\"],\n  \"person\": null,\n  \"product\": [\"Ferranti Mark 1\", \"Baby Machine\"]\n}\n```"
     },
     {
         "id": 15877,
@@ -273,7 +273,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"2018\u201319 school year\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 9093,
@@ -292,7 +292,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Washington Monument\"],\n  \"event\": [\"Blossom Kite Festival\"],\n  \"location\": [\"Washington\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Blossom Kite Festival\"],\n  \"building\": [\"Washington Monument\"],\n  \"event\": [\"2015 Blossom Kite Festival\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Saturday\", \"March 28\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 3989,
@@ -313,7 +313,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Grand Rapids\", \"Grand Valley State University\", \"Aquinas College\"],\n  \"organization\": [\"Grand Rapids Community College\"],\n  \"other\": null,\n  \"person\": [\"Andrew Bergeron\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"guitar\", \"music theory\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Grand Rapids Community College\", \"Grand Valley State University\", \"Aquinas College\"],\n  \"other\": null,\n  \"person\": [\"Andrew Bergeron\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 26203,
@@ -333,7 +333,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Flushing\", \"Queens\", \"Kissena Boulevard\", \"Main Street\"],\n  \"organization\": [\"Queens Borough Public Library\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Flushing\", \"Queens\"],\n  \"organization\": [\"Queens Borough Public Library\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 11542,
@@ -354,7 +354,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Efnisien\", \"Matholwch\", \"Br\u00e2n\", \"Manawydan\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Efnisien\", \"Matholwch\", \"Br\u00e2n\", \"Manawydan\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 32508,
@@ -376,7 +376,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Saipan campaign\"],\n  \"location\": [\"U.S.\"],\n  \"organization\": [\"CinCPac\", \"U.S. Army\"],\n  \"other\": null,\n  \"person\": [\"Admiral Nimitz\", \"General Smith\", \"Ralph Smith\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Saipan campaign\"],\n  \"location\": [\"U.S.\"],\n  \"organization\": [\"CinCPac\", \"U.S. Army\"],\n  \"other\": null,\n  \"person\": [\"Nimitz\", \"Smith\", \"Ralph Smith\", \"General Smith\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 27548,
@@ -393,7 +393,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"OpenBSD\", \"OpenSSH\", \"OpenSSL\"],\n  \"other\": null,\n  \"person\": [\"Theo de Raadt\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"OpenBSD\", \"OpenSSH\", \"OpenSSL\"],\n  \"other\": null,\n  \"person\": [\"Theo de Raadt\"],\n  \"product\": [\"OpenSSL\", \"OpenSSH\"]\n}\n```"
     },
     {
         "id": 10810,
@@ -415,7 +415,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Galer\u00edas Pac\u00edfico\"],\n  \"event\": null,\n  \"location\": [\"Buenos Aires\", \"Argentina\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Galer\u00edas Pac\u00edfico\"],\n  \"building\": [\"shopping centre\"],\n  \"event\": null,\n  \"location\": [\"Buenos Aires\", \"Argentina\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 8457,
@@ -436,7 +436,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"2008 NFL season\"],\n  \"location\": [\"Texans\"],\n  \"organization\": [\"NFL\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"2008 NFL season\"],\n  \"location\": null,\n  \"organization\": [\"Texans\"],\n  \"other\": null,\n  \"person\": [\"Ward\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 13412,
@@ -455,7 +455,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Memphis\"],\n  \"organization\": null,\n  \"other\": [\"Tatenen\"],\n  \"person\": [\"Tatenen\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Memphis\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Tatenen\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 7366,
@@ -476,7 +476,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Chakdaha\", \"Nadia district\", \"West Bengal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Goswami\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Chakdaha\", \"Nadia\", \"West Bengal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Goswami\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 29409,
@@ -494,7 +494,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"San Gabriel Mountains\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"San Gabriel Mountains\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Angelenos\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 22855,
@@ -513,7 +513,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Androstenedione\", \"testosterone\", \"androgens\", \"estrogens\", \"estrone\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 1036,
@@ -530,7 +530,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Mannerist architecture\"],\n  \"building\": [\"cloister\"],\n  \"event\": null,\n  \"location\": [\"Portugal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"cloister\"],\n  \"event\": null,\n  \"location\": [\"Portugal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 16008,
@@ -552,7 +552,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Felino\"],\n  \"building\": null,\n  \"event\": [\"TanGhost\"],\n  \"location\": null,\n  \"organization\": [\"Henrik Ibsen\"],\n  \"other\": [\"Per-Olav S\u00f8rensen\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Felino\", \"Ghosts\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"TanGhost\"],\n  \"other\": null,\n  \"person\": [\"Henrik Ibsen\", \"Per-Olav S\u00f8rensen\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 34483,
@@ -586,7 +586,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"STAT\", \"STAT3\", \"STAT5\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 23958,
@@ -603,7 +603,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"paint\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"crossbowmen\u2019s guild\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"painting\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"crossbowmen\u2019s guild\"],\n  \"other\": null,\n  \"person\": [\"Van Reysschoot\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 35361,
@@ -623,7 +623,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Homo sapiens\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Homo sapiens\"],\n  \"organization\": null,\n  \"other\": [\"KIAA1107\", \"Serine\", \"Aspartate\", \"Tyrosine\", \"protein\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 31283,
@@ -645,7 +645,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"World War I\"],\n  \"location\": [\"Sweden\", \"\u00c5land islands\"],\n  \"organization\": [\"Swedish government\", \"Germans\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"World War I\"],\n  \"location\": [\"Sweden\", \"\u00c5land islands\"],\n  \"organization\": [\"Swedish government\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 30251,
@@ -673,7 +673,7 @@
                 "Tempest"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Andromeda Galaxy\", \"Andromeda Initiative Survey Ship Tempest\", \"Andromeda\"],\n  \"organization\": [\"Andromeda Initiative Survey Ship\", \"Pathfinder\"],\n  \"other\": null,\n  \"person\": [\"Lexi T'Perro\", \"Pelessaria B'Sayle\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Tempest\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Andromeda Galaxy\"],\n  \"organization\": [\"Andromeda Initiative\", \"Ark\"],\n  \"other\": null,\n  \"person\": [\"Lexi T'Perro\", \"Pelessaria B'Sayle\", \"Peebee\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 19862,
@@ -693,7 +693,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"hippopotamus Hippopotamus amphibius\", \"buffalo Syncerus caffer\", \"elephant Loxodonta africana\", \"antelopes\", \"crocodile Crocodylus sp.\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 11207,
@@ -716,7 +716,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Arviat\", \"Nunavut\", \"Canada\"],\n  \"organization\": [\"Canadian government\", \"Crown-Indigenous Relations\"],\n  \"other\": null,\n  \"person\": [\"Carolyn Bennett\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"January 2019\", \"January 22\"],\n  \"location\": [\"Arviat\", \"Nunavut\", \"Canada\"],\n  \"organization\": [\"federal government\", \"Crown-Indigenous Relations\"],\n  \"other\": null,\n  \"person\": [\"Carolyn Bennett\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 14857,
@@ -733,7 +733,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Adelaide\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Adelaide\"],\n  \"organization\": null,\n  \"other\": [\"Paramedic\", \"Intensive Care Paramedic\", \"ICP\"],\n  \"person\": null,\n  \"product\": [\"ambulance\"]\n}\n```"
     },
     {
         "id": 22371,
@@ -775,7 +775,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"New England Conservatory of Music\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Massachusetts University\", \"New England\"],\n  \"organization\": [\"Massachusetts University\", \"New England Conservatory of Music\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Massachusetts University\", \"New England Conservatory of Music\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"He\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 19347,
@@ -790,7 +790,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"he\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"all-state three-sport star\"],\n  \"person\": null,\n  \"product\": [\"baseball\", \"football\", \"basketball\"]\n}\n```"
     },
     {
         "id": 25632,
@@ -805,7 +805,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Galveston hurricane\"],\n  \"location\": [\"Galveston\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Galveston hurricane\"],\n  \"location\": [\"Galveston\", \"city\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 27789,
@@ -826,7 +826,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"London Marathon\"],\n  \"location\": [\"London\"],\n  \"organization\": [\"Bobby Moore Fund for Cancer Research UK\"],\n  \"other\": null,\n  \"person\": [\"Webster\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"London Marathon\"],\n  \"location\": [\"London\"],\n  \"organization\": [\"Cancer Research UK\"],\n  \"other\": null,\n  \"person\": [\"Webster\", \"Bobby Moore\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 12545,
@@ -847,7 +847,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Zorro\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Disney\"],\n  \"other\": null,\n  \"person\": [\"Foster\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Zorro\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Disney\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Foster\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 27150,
@@ -871,7 +871,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Bar Kokhba Revolt\"],\n  \"location\": [\"Roman Empire\"],\n  \"organization\": [\"Judaean rebel state\"],\n  \"other\": null,\n  \"person\": [\"Simon Bar Kokhba\"],\n  \"product\": [\"coinage\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Bar Kokhba Revolt coinage\"],\n  \"building\": null,\n  \"event\": [\"Bar Kokhba revolt\"],\n  \"location\": [\"Judaean\", \"Roman Empire\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Simon Bar Kokhba\"],\n  \"product\": [\"coins\"]\n}\n```"
     },
     {
         "id": 32228,
@@ -892,7 +892,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Thingangyun township\", \"Mingala Taungnyunt township\", \"Thaketa township\", \"Pazundaung township\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Thingangyun township\", \"Mingala Taungnyunt township\", \"Thaketa township\", \"Pazundaung township\", \"Pazundaung Creek\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 6733,
@@ -913,7 +913,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"book\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Barry Sonnenfeld\", \"Tim Allen\", \"Rene Russo\", \"Patrick Warburton\", \"Barry\"],\n  \"product\": [\"motion picture\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"book\", \"motion picture\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Barry Sonnenfeld\", \"Tim Allen\", \"Rene Russo\", \"Patrick Warburton\", \"Barry\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 19581,
@@ -930,7 +930,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Guatemala\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"purple alert\"],\n  \"location\": [\"Guatemala\"],\n  \"organization\": null,\n  \"other\": [\"boats\", \"rivers\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 10823,
@@ -952,7 +952,7 @@
                 "Jeopardy"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Jeopardy\"],\n  \"location\": null,\n  \"organization\": [\"Rennie\", \"Watson\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Jeopardy\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Rennie\", \"Watson\"],\n  \"product\": [\"RAM\", \"hard drives\"]\n}\n```"
     },
     {
         "id": 31679,
@@ -972,7 +972,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Charlton Athletic\", \"Huddersfield Town\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Rachubka\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Charlton Athletic\", \"Huddersfield Town\"],\n  \"other\": null,\n  \"person\": [\"Rachubka\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 23059,
@@ -994,7 +994,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Rugby League Park\", \"Athletic Park\"],\n  \"event\": null,\n  \"location\": [\"Wellington\"],\n  \"organization\": [\"Wellington City Council\", \"Wellington Rugby League\", \"Wellington Rugby Union\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Athletic Park\", \"Rugby League Park\"],\n  \"event\": null,\n  \"location\": [\"Wellington City\"],\n  \"organization\": [\"Wellington City Council\", \"Wellington Rugby League\", \"Wellington Rugby Union\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 31380,
@@ -1029,7 +1029,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Montreal\", \"Ritz-Carlton\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Atom Egoyan\", \"David Cronenberg\", \"Paul Gross\", \"Denys Arcand\", \"Ted Kotcheff\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Constable O'Malley of the North\"],\n  \"building\": [\"Ritz-Carlton\"],\n  \"event\": null,\n  \"location\": [\"Canada\", \"Montreal\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Atom Egoyan\", \"David Cronenberg\", \"Paul Gross\", \"Denys Arcand\", \"Ted Kotcheff\", \"Jean\", \"Miriam\"],\n  \"product\": [\"Barney's soap\"]\n}\n```"
     },
     {
         "id": 14928,
@@ -1053,7 +1053,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Sunset Boulevard\", \"Hollywood\", \"West Coast\", \"America\"],\n  \"organization\": null,\n  \"other\": [\"Saul Bass\", \"Lloyd Northover\"],\n  \"person\": [\"Saul Bass\", \"Lloyd Northover\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"studio\"],\n  \"event\": null,\n  \"location\": [\"Hollywood\", \"America\", \"West Coast\"],\n  \"organization\": null,\n  \"other\": [\"Sunset Boulevard\", \"Lloyd Northover\"],\n  \"person\": [\"Saul Bass\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 29350,
@@ -1075,7 +1075,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Francesco di Assisi\", \"Angelo alla carriera\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Liliana Cavani\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Francesco di Assisi\", \"Angelo alla carriera\"],\n  \"building\": null,\n  \"event\": [\"Screening\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Liliana Cavani\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 12846,
@@ -1094,7 +1094,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Thalaimagan\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Sarathkumar\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Thalaimagan\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"2005\"],\n  \"person\": [\"Sarathkumar\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 9622,
@@ -1118,7 +1118,7 @@
                 "PS3"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Sony\"],\n  \"other\": [\"Vita\", \"PS one Classics\", \"PlayStation 1 games\", \"PlayStation Minis\", \"PSP\", \"PS3\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"PS one Classics\", \"PlayStation Minis\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Sony\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"Vita\", \"PSP\", \"PS3\", \"PlayStation 1\"]\n}\n```"
     },
     {
         "id": 1818,
@@ -1135,7 +1135,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"explosion\"],\n  \"location\": [\"Ripple Rock\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"April 5 , 1958\"],\n  \"location\": [\"Ripple Rock\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 29280,
@@ -1150,7 +1150,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Union Group\"],\n  \"organization\": [\"People's Democratic Party\"],\n  \"other\": null,\n  \"person\": [\"Oladipo Akinola Olaitan\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Union Group Cacaus of the People 's Democratic Party\"],\n  \"other\": [\"Oladipo Akinola Olaitan\"],\n  \"person\": [\"Oladipo Akinola Olaitan\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 26769,
@@ -1168,7 +1168,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"siege\"],\n  \"location\": [\"Ottomans\", \"town\"],\n  \"organization\": [\"Ottomans\"],\n  \"other\": null,\n  \"person\": [\"Piyale Pasha\", \"Turgut Reis\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"siege\"],\n  \"location\": [\"Ottomans\"],\n  \"organization\": null,\n  \"other\": [\"9 July 1558\", \"Piyale Pasha\", \"Turgut Reis\"],\n  \"person\": [\"Piyale Pasha\", \"Turgut Reis\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 29078,
@@ -1194,7 +1194,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"LSU Service Charity Hospital\", \"New Orleans\", \"University of Texas Medical Branch\", \"Galveston\", \"Texas\"],\n  \"organization\": [\"UTMB\", \"M.D.\"],\n  \"other\": null,\n  \"person\": [\"Griffith\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"hospital\"],\n  \"event\": null,\n  \"location\": [\"New Orleans\", \"Galveston\", \"Texas\"],\n  \"organization\": [\"LSU Service Charity Hospital\", \"University of Texas Medical Branch\", \"UTMB\", \"M.D.\"],\n  \"other\": [\"radiation oncology\"],\n  \"person\": [\"Griffith\"],\n  \"product\": [\"radiation\"]\n}\n```"
     },
     {
         "id": 18813,
@@ -1211,7 +1211,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Greater Houston\", \"Houston\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"storm\"],\n  \"location\": [\"Houston\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 12596,
@@ -1239,7 +1239,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"SeaWorld\", \"Boardwalk and Baseball\"],\n  \"building\": [\"Boardwalk and Baseball\"],\n  \"event\": null,\n  \"location\": [\"San Antonio\"],\n  \"organization\": [\"Harcourt, Brace and Jovanovich\", \"Anheuser-Busch, Inc.\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"park\", \"stadium\"],\n  \"event\": null,\n  \"location\": [\"San Antonio\"],\n  \"organization\": [\"Harcourt, Brace and Jovanovich\", \"Anheuser-Busch, Inc.\"],\n  \"other\": [\"Boardwalk and Baseball\", \"SeaWorld\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 2155,
@@ -1259,7 +1259,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"band\"],\n  \"other\": null,\n  \"person\": [\"Timo Honkanen\", \"Tomi Mykk\u00e4nen\", \"Miika Kokkola\", \"Patrik Mennander\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"album\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Timo Honkanen\", \"Tomi Mykk\u00e4nen\", \"Miika Kokkola\", \"Patrik Mennander\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 2669,
@@ -1302,7 +1302,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Amba Alagi\", \"Mek'ele\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Arimondi\", \"Toselli\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Fort of Mek'ele\"],\n  \"event\": [\"massacre\"],\n  \"location\": [\"Amba Alagi\", \"Mek'ele\", \"Toselli\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Arimondi\", \"Toselli\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 15449,
@@ -1320,7 +1320,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Fethi Islam\"],\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Ottomans\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Ottomans\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 35935,
@@ -1339,7 +1339,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Tan Son Nhat International Airport\", \"Ho Chi Minh City\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Ho Chi Minh City\"],\n  \"organization\": null,\n  \"other\": [\"Tan Son Nhat International Airport\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 20852,
@@ -1357,7 +1357,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"Dexlansoprazole\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Dexlansoprazole\", \"GERD\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 13111,
@@ -1394,7 +1394,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"FC J\u00f6nk\u00f6ping\", \"R\u00e5sl\u00e4tts SK\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"FC J\u00f6nk\u00f6ping\", \"R\u00e5sl\u00e4tts SK\"],\n  \"other\": [\"1990s\", \"1994\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 35828,
@@ -1415,7 +1415,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Philadelphia\"],\n  \"organization\": [\"AT & amp ; T\", \"Comcast\", \"NBC Sports Philadelphia\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Daily News Live\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Philadelphia\"],\n  \"organization\": [\"AT & T\", \"Comcast SportsNet Philadelphia\", \"NBC Sports Philadelphia\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 30130,
@@ -1432,7 +1432,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Damballa\"],\n  \"other\": [\"Backoff malware\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Damballa\"],\n  \"other\": [\"Backoff\"],\n  \"person\": null,\n  \"product\": [\"malware\"]\n}\n```"
     },
     {
         "id": 27767,
@@ -1449,7 +1449,7 @@
                 "PIAT"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"PIAT\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"PIAT mounts\", \"howitzers\", \"cradle\", \"wagon loads\", \"wooden base\"],\n  \"person\": null,\n  \"product\": [\"howitzers\"]\n}\n```"
     },
     {
         "id": 37151,
@@ -1485,7 +1485,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"'s Strand station\"],\n  \"event\": null,\n  \"location\": [\"Northern line\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Strand station\"],\n  \"event\": null,\n  \"location\": [\"Northern line\", \"Jubilee line\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"escalators\"]\n}\n```"
     },
     {
         "id": 14845,
@@ -1502,7 +1502,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Hokonui Moonshine Final Works\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Hokonui Moonshine Final Works\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"His\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 19297,
@@ -1519,7 +1519,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"London\"],\n  \"organization\": [\"London Underground\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"ATP\", \"distance-to-go signalling\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"London\"],\n  \"organization\": null,\n  \"other\": [\"Underground\", \"ATP\", \"distance-to-go signalling\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 17289,
@@ -1537,7 +1537,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Kevin Roche John Dinkeloo and Associates\"],\n  \"other\": null,\n  \"person\": [\"Eva Matsuzaki\", \"Kevin Roche\", \"John Dinkeloo\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"1973 addition\"],\n  \"location\": null,\n  \"organization\": [\"Kevin Roche John Dinkeloo and Associates\"],\n  \"other\": null,\n  \"person\": [\"Eva Matsuzaki\", \"Kevin Roche\", \"John Dinkeloo\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 2738,
@@ -1557,7 +1557,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": [\"Broadway productions\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"New York City\"],\n  \"organization\": [\"American Musical and Dramatic Academy\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Broadway productions\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"New York City\"],\n  \"organization\": [\"American Musical and Dramatic Academy\"],\n  \"other\": null,\n  \"person\": [\"she\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 5061,
@@ -1577,7 +1577,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Artane Oratory\"],\n  \"event\": null,\n  \"location\": [\"Kilmore Road\"],\n  \"organization\": [\"Serbian Ortodox Church\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Saint George\"],\n  \"building\": [\"Artane Oratory of the Resurrection\"],\n  \"event\": null,\n  \"location\": [\"Kilmore Road\"],\n  \"organization\": [\"Serbian Ortodox Church Parish\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 11192,
@@ -1599,7 +1599,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Waterford\", \"Dublin\"],\n  \"organization\": [\"St Joseph of Cluny\", \"Trinity College\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Waterford\", \"Dublin\"],\n  \"organization\": [\"St Joseph of Cluny\", \"Trinity College\"],\n  \"other\": null,\n  \"person\": [\"She\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 33095,
@@ -1617,7 +1617,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"seasons\"],\n  \"location\": [\"Austin\"],\n  \"organization\": [\"Toros\", \"Austin Spurs\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"seasons\"],\n  \"location\": [\"Austin\"],\n  \"organization\": [\"Toros\", \"Austin Spurs\"],\n  \"other\": null,\n  \"person\": [\"He\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 23640,
@@ -1637,7 +1637,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Austria\"],\n  \"organization\": [\"Austrian Hockey League\", \"\u00d6sterreichische Basketball Bundesliga\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Austrian Hockey League\", \"\u00d6sterreichische Basketball Bundesliga\"],\n  \"location\": [\"Austria\"],\n  \"organization\": null,\n  \"other\": [\"football\", \"ice hockey\", \"basketball\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 24663,
@@ -1652,7 +1652,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Princess Royal\"],\n  \"person\": [\"Princess Royal\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Princess Royal\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 37060,
@@ -1675,7 +1675,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Collectors\"],\n  \"other\": null,\n  \"person\": [\"Stephen 'Tash ' Reddihough\", \"Nick Paul\", \"Adrian\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Raw Power\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Stephen 'Tash ' Reddihough\", \"Nick Paul\", \"Adrian\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 33042,
@@ -1694,7 +1694,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Croydon\"],\n  \"organization\": [\"Croydon Tramlink\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Croydon\"],\n  \"organization\": [\"Croydon Tramlink\"],\n  \"other\": [\"Croydon Tramlink Act 1994\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 11,
@@ -1738,7 +1738,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Toulon\", \"Minorca\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Byng\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Toulon\", \"Minorca\"],\n  \"organization\": [\"French\"],\n  \"other\": null,\n  \"person\": [\"Byng\"],\n  \"product\": [\"ships\"]\n}\n```"
     },
     {
         "id": 6385,
@@ -1759,7 +1759,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"2003 California recall election\"],\n  \"location\": [\"California\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Arnold Schwarzenegger\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Times\", \"movie\"],\n  \"building\": null,\n  \"event\": [\"2003 California recall election\"],\n  \"location\": [\"California\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Arnold Schwarzenegger\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 22114,
@@ -1781,7 +1781,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"US\"],\n  \"organization\": [\"National Guard\"],\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"US\"],\n  \"organization\": [\"National Guard\"],\n  \"other\": [\"Selective Training and Service Act of 1940\", \"Federal Service\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 4575,
@@ -1802,7 +1802,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Greenland\", \"Faroese\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Greenland\", \"Faroese\"],\n  \"organization\": null,\n  \"other\": [\"Danish kroner\", \"Greenlandic krone\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 32859,
@@ -1821,7 +1821,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"Deloitte Haskins & Sells\"],\n  \"other\": null,\n  \"person\": [\"Mukund Dharmadhikari\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"India\"],\n  \"organization\": [\"Deloitte Haskins & Sells\"],\n  \"other\": null,\n  \"person\": [\"Mukund Dharmadhikari\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 30882,
@@ -1839,7 +1839,7 @@
                 "Clarified Butter"
             ]
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"Palli\"],\n  \"location\": null,\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": [\"Ghee\", \"Clarified Butter\"]\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"Palli Rath\"],\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"Pure Ghee\", \"Clarified Butter\"],\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 25543,
@@ -1881,7 +1881,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Link\u00f6ping University\", \"Chamonix\", \"France\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"France\", \"Chamonix\"],\n  \"organization\": [\"Link\u00f6ping University\"],\n  \"other\": null,\n  \"person\": [\"He\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 7552,
@@ -1903,7 +1903,7 @@
             "person": null,
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Aswan High Dam\"],\n  \"event\": [\"high Nile flood\"],\n  \"location\": [\"Kulubnarti\", \"Nubia\", \"Aswan\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Aswan High Dam\"],\n  \"event\": null,\n  \"location\": [\"Kulubnarti\", \"Nile\", \"Lake Nubia\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
     },
     {
         "id": 21144,
@@ -1923,7 +1923,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Cincinnati\", \"Ohio\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Farley\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"championships\"],\n  \"location\": [\"Cincinnati\", \"Ohio\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Farley\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 32874,
@@ -1945,7 +1945,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"US\", \"Colombian\"],\n  \"organization\": [\"Colombian Supreme Court\"],\n  \"other\": null,\n  \"person\": [\"Gerardo Aguilar\", \"C\u00e9sar\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"US\", \"Colombia\"],\n  \"organization\": [\"Colombian Supreme Court\"],\n  \"other\": [\"narcotrafficking\"],\n  \"person\": [\"Gerardo Aguilar\", \"C\u00e9sar\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 22271,
@@ -1965,7 +1965,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": [\"Middletown\", \"Ohio\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Howard\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": [\"October 2018\", \"March 2019\"],\n  \"location\": [\"Middletown\", \"Ohio\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Howard\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 18830,
@@ -1985,7 +1985,7 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": [\"Histrian Acropolis\"],\n  \"event\": [\"revolution\"],\n  \"location\": [\"Aristotle\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": null,\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": [\"The Politics\"],\n  \"building\": [\"wall\", \"Acropolis\"],\n  \"event\": [\"revolution\"],\n  \"location\": [\"Histrian\"],\n  \"organization\": null,\n  \"other\": null,\n  \"person\": [\"Aristotle\"],\n  \"product\": null\n}\n```"
     },
     {
         "id": 24508,
@@ -2006,6 +2006,6 @@
             ],
             "product": null
         },
-        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": [\"GRAB\", \"Mike & the Italians\"],\n  \"other\": null,\n  \"person\": [\"Trey Anastasio\", \"Mike Gordon\", \"Marco Benevento\"],\n  \"product\": null\n}\n```"
+        "generated_output": "```json\n{\n  \"art\": null,\n  \"building\": null,\n  \"event\": null,\n  \"location\": null,\n  \"organization\": null,\n  \"other\": [\"GRAB\", \"Mike & the Italians\"],\n  \"person\": [\"Trey Anastasio\", \"Mike Gordon\", \"Marco Benevento\"],\n  \"product\": null\n}\n```"
     }
 ]

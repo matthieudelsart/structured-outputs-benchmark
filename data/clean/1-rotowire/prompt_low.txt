@@ -1,101 +1,22 @@
 Your role is to extract structured game data into JSON.
 You’re given a block of natural language describing an NBA game. Your output must be only a JSON object with two keys:
 1. teams: an array of exactly 2 team objects
-2. players: an array of one or more player objects
+2. players: an array of one or more player objects, each corresponding to a different player.
 
-Rules:
-- Output only keys defined in the schema. Do not invent any keys.
-- If you include a key, it must appear for all elements in that section.
-- Omit any keys not mentioned in the text or tables.
-- If a mentioned value is ambiguous, use null.
-
-Schema (Draft-07):
-```json
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "items": {
-    "type": "object",
-    "properties": {
-      "teams": {
-        "type": "array",
-        "minItems": 2,
-        "maxItems": 2,
-        "items": { "$ref": "#/definitions/team" }
-      },
-      "players": {
-        "type": "array",
-        "minItems": 1,
-        "items": { "$ref": "#/definitions/player" }
-      }
-    },
-    "required": ["teams", "players"],
-    "additionalProperties": false
-  },
-  "definitions": {
-    "team": {
-      "type": "object",
-      "properties": {
-        "team": { "type": "string" },
-        "losses":                { "type": ["integer", "null"] },
-        "total_points":          { "type": ["integer", "null"] },
-        "wins":                  { "type": ["integer", "null"] },
-        "turnovers":             { "type": ["integer", "null"] },
-        "number_of_team_assists":{ "type": ["integer", "null"] },
-        "points_in_1st_quarter": { "type": ["integer", "null"] },
-        "points_in_2nd_quarter": { "type": ["integer", "null"] },
-        "points_in_3rd_quarter": { "type": ["integer", "null"] },
-        "points_in_4th_quarter": { "type": ["integer", "null"] },
-        "rebounds":              { "type": ["integer", "null"] },
-        "percentage_of_3_points":{ "type": ["integer", "null"] },
-        "percentage_of_field_goals": { "type": ["integer", "null"] }
-      },
-      "required": ["team"],
-      "additionalProperties": false
-    },
-    "player": {
-      "type": "object",
-      "properties": {
-        "player":                { "type": "string" },
-        "assists":               { "type": ["integer", "null"] },
-        "blocks":                { "type": ["integer", "null"] },
-        "3_pointers_made":       { "type": ["integer", "null"] },
-        "3_pointers_attempted":  { "type": ["integer", "null"] },
-        "3_pointer_percentage":  { "type": ["integer", "null"] },
-        "field_goals_made":      { "type": ["integer", "null"] },
-        "field_goals_attempted": { "type": ["integer", "null"] },
-        "field_goal_percentage": { "type": ["integer", "null"] },
-        "free_throws_made":      { "type": ["integer", "null"] },
-        "free_throws_attempted": { "type": ["integer", "null"] },
-        "free_throw_percentage": { "type": ["integer", "null"] },
-        "minutes_played":        { "type": ["integer", "null"] },
-        "points":                { "type": ["integer", "null"] },
-        "total_rebounds":        { "type": ["integer", "null"] },
-        "defensive_rebounds":    { "type": ["integer", "null"] },
-        "offensive_rebounds":    { "type": ["integer", "null"] },
-        "steals":                { "type": ["integer", "null"] },
-        "turnovers":             { "type": ["integer", "null"] },
-        "personal_fouls":        { "type": ["integer", "null"] }
-      },
-      "required": ["player"],
-      "additionalProperties": false
-    }
-  }
-}
-
-Example:
-Input: "The A (10–5) beat the B (8–7) 100–90. A’s player John scored 30 points."
-Output:
-
+Example of output:
 """
 {
   "teams": [
-    { "team": "A", "wins": 10, "losses": 5, "total_points": 100 },
-    { "team": "B", "wins": 8,  "losses": 7, "total_points": 90 }
+    { "team": "A", _other_info_},
+    { "team": "B", _other_info_}
   ],
   "players": [
-    { "player": "John", "points": 30 }
+    { "player": "John", _other_info_}
   ]
 }
 """
+Here are examples of keys you can use: 
+- for teams: "losses","total_points", "wins", "turnovers", "number_of_team_assists", "points_in_1st_quarter", "points_in_2nd_quarter", "points_in_3rd_quarter", "points_in_4th_quarter", "rebounds", "percentage_of_3_points","percentage_of_field_goals"
+- for players: "blocks", "assists", "3_pointers_made", "3_pointers_attempted", "3_pointer_percentage", "field_goals_made","field_goals_attempted" ,"field_goal_percentage", "free_throws_made", "free_throws_attempted", "free_throw_percentage", "minutes_played","points","total_rebounds", "defensive_rebounds", "offensive_rebounds", "steals","turnovers", "personal_fouls
+
 Output only the JSON object. Do not include any additional commentary or markdown.

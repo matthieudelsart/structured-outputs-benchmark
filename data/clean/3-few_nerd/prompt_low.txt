@@ -13,22 +13,13 @@ whose keys are **exactly** these eight (no more, no less):
   "person"       – real people or fictional characters
   "product"      – manufactured goods, software, vehicles, weapons, models…
 
-Output format rules
+Output format rules:
 • For each key:
     – Use **null** if the sentence contains no entity of that category.
-    – Otherwise use a JSON array whose elements are the exact surface strings
-      as they appear in the sentence, without duplicates and in the order of
-      first appearance.
-• Arrays must never be empty; use null instead.
+    – Otherwise use a JSON array 
 • Do not wrap the JSON in Markdown, code-fences, or any explanatory text.
-• Do not include any additional keys or metadata.
 
-Example
-
-Input sentence  
-"In 2015, John joined the UN in New York."
-
-Output :
+Exmample of output:
 """
 {
   "art": null,
