@@ -1,0 +1,77 @@
+[
+    {
+        "id": 16119,
+        "input": "The mission of the 303rd Military Intelligence Battalion , `` Longhorns , '' is to , on order , conduct multi-disciplined intelligence collection , exploitation , and limited analysis operations in support of the commander 's information requirements during worldwide contingency missions within assigned areas of a Division , Corps , or Joint Task Force area of operations .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "303rd Military Intelligence Battalion",
+                "Longhorns"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\"art\":[\"Longhorns\"],\"building\":[\"Division\",\"Corps\",\"Joint Task Force\"],\"event\":[\"contingency missions\"],\"location\":[\"worldwide\"],\"organization\":[\"303rd Military Intelligence Battalion\"],\"other\":[\"commander\"],\"person\":[\"Longhorns\"],\"product\":[\"missions\"]}"
+    },
+    {
+        "id": 29924,
+        "input": "This was officially launched in a ceremony at the Genting Highlands Fire and Rescue Station in Pahang on 21 February 1997 , by Prime Minister of Malaysia Mahathir Mohamad .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "Pahang",
+                "Malaysia"
+            ],
+            "organization": [
+                "Genting Highlands Fire",
+                "Rescue Station"
+            ],
+            "other": null,
+            "person": [
+                "Mahathir Mohamad"
+            ],
+            "product": null
+        },
+        "generated_output": "{\"art\":[\"null\"],\"building\":[\"null\"],\"event\":[\"ceremony\"],\"location\":[\"Genting Highlands\",\"Pahang\"],\"organization\":[\"Genting Highlands Fire and Rescue Station\"],\"other\":[\"null\"],\"person\":[\"Mahathir Mohamad\"],\"product\":[\"null\"]}"
+    },
+    {
+        "id": 24020,
+        "input": "Visitors are able to ride the park 's attractions by purchasing either pay-one-price , all-day/unlimited-access wristbands ( which are not usually available on weekends , except near the beginning and end of each season ) , limited-access hand stamps or books of tickets , with hand stamp costs varying depending on the height of the rider .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": null,
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "{\"art\":[\"books\",\"tickets\"],\"building\":[\"park\"],\"event\":[\"season\"],\"location\":[\"park\"],\"organization\":[\"park\"],\"other\":[\"wristbands\",\"weekend\"],\"person\":[\"rider\"],\"product\":[\"hand stamps\"]}"
+    },
+    {
+        "id": 30732,
+        "input": "The result of the 22-game round-robin was a surprise , as American Harry Nelson Pillsbury won with 16.5 points despite playing in his first international tournament .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": [
+                "American"
+            ],
+            "organization": null,
+            "other": null,
+            "person": [
+                "Harry Nelson Pillsbury"
+            ],
+            "product": null
+        },
+        "generated_output": "{\"art\":[\"16.5\"],\"building\":[\"Pillsbury\"],\"event\":[\"22-game round-robin\"],\"location\":[\"American\"],\"organization\":[\"Harry Nelson Pillsbury\"],\"other\":[\"first international tournament\"],\"person\":[\"Harry Nelson Pillsbury\"],\"product\":[\"points\"]}"
+    }
+]

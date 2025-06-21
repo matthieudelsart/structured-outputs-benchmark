@@ -1,0 +1,402 @@
+[
+    {
+        "id": 32710,
+        "input": "robert w. `` bob'' doll (august 10, 1919 -- september 18, 1959) was an american professional basketball player who played in the early days of professional basketball for the st. louis bombers and boston celtics during the early years of the nba. doll starred at chaffey high school in ontario, california and played collegiately at the university of colorado from 1939 to 1942, leading the buffaloes to a period of great team success. a post player, `` ichabod'' doll was known as a voracious rebounder and defender with a soft shooting touch. in his first season of eligibility as a sophomore in 1940, doll led the buffaloes to bids in both the ncaa tournament and nit. while the ncaa tournament appearance lasted only one game, doll led the buffs to the nit title and was named the tournament most valuable player after averaging 15.5 points per game. two years later, doll was named a consensus second team all-american and led colorado to its first final four. following the close of his collegiate career, doll played for several years in the amateur athletic union and was named an aau all-american in 1943 while playing for the denver american legion team. in 1946, doll joined the st. louis bombers of the basketball association of america (baa). after two years with the bombers, doll joined the boston celtics as a free agent. during his two-year stint with the celtics, the baa merged with the national basketball league to form the national basketball association. doll played for one more year with the celtics in the inaugural nba campaign. bob doll averaged 8.4 points and 1.4 assists per game for his four-year baa/nba career. doll died on september 18, 1959 at the age of 40, of an apparent suicide.",
+        "output": {
+            "career_end": "1950",
+            "statlabel": "points rebounds assists",
+            "college": "colorado (1939 -- 1942)",
+            "number": "519",
+            "years": "1946 -- 1948 1948 -- 1950",
+            "name": "bob doll",
+            "height_in": "5",
+            "weight_lbs": "195",
+            "birth_date": "1919-08-10",
+            "statvalue": "1,653 not tracked 273",
+            "bbr": "dollbo01",
+            "height_ft": "6",
+            "highschool": "chaffey (ontario, california)",
+            "birth_place": "steamboat springs, colorado",
+            "career_start": "1946",
+            "article_title": "bob doll",
+            "position": "forward / center",
+            "team": "st. louis bombers boston celtics",
+            "death_date": "1959-09-13"
+        },
+        "keys": [
+            "article_title",
+            "bbr",
+            "birth_date",
+            "birth_place",
+            "career_end",
+            "career_start",
+            "college",
+            "death_date",
+            "height_ft",
+            "height_in",
+            "highschool",
+            "name",
+            "number",
+            "position",
+            "statlabel",
+            "statvalue",
+            "team",
+            "weight_lbs",
+            "years"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "bbr",
+                "birth_date",
+                "birth_place",
+                "career_end",
+                "career_start",
+                "college",
+                "death_date",
+                "height_ft",
+                "height_in",
+                "highschool",
+                "name",
+                "number",
+                "position",
+                "statlabel",
+                "statvalue",
+                "team",
+                "weight_lbs",
+                "years"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "bbr": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "career_end": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "career_start": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "college": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "height_ft": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "height_in": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "highschool": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "number": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "position": {
+                    "type": "string"
+                },
+                "statlabel": {
+                    "type": "string"
+                },
+                "statvalue": {
+                    "type": "string"
+                },
+                "team": {
+                    "type": "string"
+                },
+                "weight_lbs": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "years": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "{\"article_title\":\", \",\"bbr\":\"\",\"birth_date\":\"1919-08-10\",\"birth_place\":\"\",\"career_end\":\"1959\",\"career_start\":\"1946\",\"college\":\"University of Colorado\",\"death_date\":\"1959-09-18\",\"height_ft\":\"6\",\"height_in\":\"0\",\"highschool\":\"Chaffey High School\",\"name\":\"Bob Doll\",\"number\":\"8\",\"position\":\"Post Player\",\"statlabel\":\"\",\"statvalue\":\"\",\"team\":\"St. Louis Bombers; Boston Celtics\",\"weight_lbs\":\"0\",\"years\":\"4\"}"
+    },
+    {
+        "id": 53161,
+        "input": "william frishe dean, sr. (august 1, 1899august 24, 1981) was a united states army major general during world war ii and the korean war. he received the medal of honor for his actions on july 20 and 21, 1950, during the battle of taejon in south korea. dean was also the highest ranking american officer captured by the north koreans during the korean war. born in illinois, dean attended the university of california at berkeley before graduating with a commission in the us army through the reserve officer's training corps (rotc) in 1921. slowly rising up the ranks in the inter-war years, dean worked a desk job in washington d.c. for much of world war ii before being transferred to the 44th infantry division which he later commanded during the final days of the war, and was awarded a distinguished service cross. dean is known for commanding the 24th infantry division at the outbreak of the korean war. dean led the division for several weeks in unsuccessful delaying battles against the north koreans, before he led his division in making a last stand at taejon. during the confused retreat from that city, dean was separated from his soldiers and badly injured, and was eventually captured by the north koreans. he remained in north korean custody near p'yongyang for the remainder of the war. after the end of the conflict, dean returned to the united states to a hero's welcome. he retired from the army soon after and lived a quiet life until his death.",
+        "output": {
+            "awards": "medal legion of merit bronze star of honor distinguished service cross distinguished service medal",
+            "commands": "44th infantry division 7th infantry division 24th infantry division",
+            "battles": "world war ii korean war",
+            "article_title": "william f. dean",
+            "allegiance": "united states of america 1912",
+            "serviceyears": "19211955",
+            "birth_name": "william frishe dean",
+            "death_place": "san francisco, california, u.s.",
+            "branch": "usa",
+            "birth_place": "carlyle, illinois, u.s.",
+            "death_date": "1981-08-24",
+            "placeofburial": "san u.s. francisco national cemetery san francisco, california,",
+            "birth_date": "1899-08"
+        },
+        "keys": [
+            "allegiance",
+            "article_title",
+            "awards",
+            "battles",
+            "birth_date",
+            "birth_name",
+            "birth_place",
+            "branch",
+            "commands",
+            "death_date",
+            "death_place",
+            "placeofburial",
+            "serviceyears"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "allegiance",
+                "article_title",
+                "awards",
+                "battles",
+                "birth_date",
+                "birth_name",
+                "birth_place",
+                "branch",
+                "commands",
+                "death_date",
+                "death_place",
+                "placeofburial",
+                "serviceyears"
+            ],
+            "properties": {
+                "allegiance": {
+                    "type": "string"
+                },
+                "article_title": {
+                    "type": "string"
+                },
+                "awards": {
+                    "type": "string"
+                },
+                "battles": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_name": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "branch": {
+                    "type": "string"
+                },
+                "commands": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_place": {
+                    "type": "string"
+                },
+                "placeofburial": {
+                    "type": "string"
+                },
+                "serviceyears": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "{\"allegiance\":\",\",\"article_title\":\"William Frishe Dean\",\"awards\":\"medal of honor; distinguished service cross\",\"battles\":\"battle of taejon; final days of the war\",\"birth_date\":\"1899-08-01\",\"birth_name\":\"William Frishe Dean\",\"birth_place\":\"Illinois\",\"branch\":\"US Army\",\"commands\":\"44th infantry division; 24th infantry division\",\"death_date\":\"1981-08-24\",\"death_place\":\"Washington D.C.\",\"placeofburial\":\"\",\"serviceyears\":\"19211981\"}"
+    },
+    {
+        "id": 7801,
+        "input": "pierre-augustin caron de beaumarchais (; 24 january 1732 -- 18 may 1799) was a french playwright, watchmaker, inventor, musician, diplomat, fugitive, spy, publisher, horticulturalist, arms dealer, satirist, financier, and revolutionary (both french and american). born a provincial watchmaker's son, beaumarchais rose in french society and became influential in the court of louis xv as an inventor and music teacher. he made a number of important business and social contacts, played various roles as a diplomat and spy, and had earned a considerable fortune before a series of costly court battles jeopardized his reputation. an early french supporter of american independence, beaumarchais lobbied the french government on behalf of the american rebels during the american war of independence. beaumarchais oversaw covert aid from the french and spanish governments to supply arms and financial assistance to the rebels in the years before france's formal entry into the war in 1778. he later struggled to recover money he had personally invested in the scheme. beaumarchais was also a participant in the early stages of the french revolution. he is probably best known, however, for his theatrical works, especially the three figaro plays.",
+        "output": {
+            "genre": "plays; comedy and drama",
+            "period": "revolutionary france",
+            "article_title": "pierre beaumarchais",
+            "nationality": "french",
+            "notableworks": "'' mariage de figaro'','' la m\u00e8re coupable'' le barbier de s\u00e9ville'','' le",
+            "name": "pierre-augustin caron de beaumarchais",
+            "birth_name": "pierre-augustin caron",
+            "death_place": "paris",
+            "birth_place": "paris",
+            "death_date": "1799-05-18",
+            "birth_date": "1732-01-24"
+        },
+        "keys": [
+            "article_title",
+            "birth_date",
+            "birth_name",
+            "birth_place",
+            "death_date",
+            "death_place",
+            "genre",
+            "name",
+            "nationality",
+            "notableworks",
+            "period"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "birth_date",
+                "birth_name",
+                "birth_place",
+                "death_date",
+                "death_place",
+                "genre",
+                "name",
+                "nationality",
+                "notableworks",
+                "period"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_name": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "death_place": {
+                    "type": "string"
+                },
+                "genre": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "nationality": {
+                    "type": "string"
+                },
+                "notableworks": {
+                    "type": "string"
+                },
+                "period": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "{\"article_title\":\". pierre-augustin caron de beaumarchais\",\"birth_date\":\"1732-01-24\",\"birth_name\":\"pierre-augustin caron de beaumarchais\",\"birth_place\":\"\\\"\",\"death_date\":\"1799-05-18\",\"death_place\":\"\\\"\",\"genre\":\"playwright\",\"name\":\"pierre-augustin caron de beaumarchais\",\"nationality\":\"french\",\"notableworks\":\"the three figaro plays\",\"period\":\"18th century\"}"
+    },
+    {
+        "id": 46040,
+        "input": "janet hinostroza is an ecuadoran television journalist and one of the best known personalities on ecuadorian television. she is the anchor on a morning news program, `` la ma\u00f1ana de 24 horas,'' and was the creator and anchor of the long-running investigative news program `` 30 plus,'' which aired on teleamazonas for more than a decade, investigating such subjects as human trafficking, arms trafficking, government and police corruption, and extrajudicial killings. hinostroza has been a major target and opponent of the ecuadorian government, and has also been a recurring topic of president rafael correa's weekly tv and radio talks, which usually last several hours. correa has referred to her dismissively as `` blondie.'' in 2012, after hinostroza reported on a suspicious loan by the state bank cofiec to a businessman allegedly associated with a cousin of correa, she received death threats and took a leave of absence for safety reasons. due to this she was offered security surveillance by the minister of the interior jos\u00e9 serrano to which hinostroza gratefully did not accept. in 2013, she was awarded the international press freedom award of the new york-based committee to protect journalists.",
+        "output": {
+            "occupation": "television journalist, investigative journalist",
+            "article_title": "janet hinostroza",
+            "name": "janet hinostroza",
+            "birth_name": "janet hinostroza",
+            "education": "central university of ecuador",
+            "birth_place": "quito, ecuador"
+        },
+        "keys": [
+            "article_title",
+            "birth_name",
+            "birth_place",
+            "education",
+            "name",
+            "occupation"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "birth_name",
+                "birth_place",
+                "education",
+                "name",
+                "occupation"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "birth_name": {
+                    "type": "string"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "education": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "{\"article_title\":\".\",\"birth_name\":\"janet hinostroza\",\"birth_place\":\"ecuador\",\"education\":\"\",\"name\":\"janet hinostroza\",\"occupation\":\"television journalist\"}"
+    }
+]

@@ -30,11 +30,12 @@ from vllm.sampling_params import GuidedDecodingParams  # type: ignore
 TEMPERATURE = 0.0
 MAX_NEW_TOKENS = 1024
 MODEL_DOWNLOAD_DIR = Path("models")  # where vLLM will cache HuggingFace models
+MODEL_DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 # Will be overridden by CLI (handy when debugging)
 MAX_RECORDS: int | None = None
 
-BATCH_SIZE = 32  # tune depending on memory
+BATCH_SIZE = 32  # default, can be overridden by CLI
 
 logger = logging.getLogger(__name__)
 
@@ -70,7 +71,9 @@ def _process_records(
     """
     all_results: List[str] = []
 
-    for start in tqdm(range(0, len(prompts), BATCH_SIZE), desc=f"Generating ({task_name})"):
+    pbar = tqdm(total=len(prompts), desc=f"Generating ({task_name})")
+
+    for start in range(0, len(prompts), BATCH_SIZE):
         chunk_prompts = prompts[start : start + BATCH_SIZE]
         chunk_schemas = schemas[start : start + BATCH_SIZE]
 
@@ -87,6 +90,10 @@ def _process_records(
         outputs = llm.generate(chunk_prompts, param_list)  # type: ignore[arg-type]
         for out in outputs:
             all_results.append(out.outputs[0].text.strip())
+
+        pbar.update(len(chunk_prompts))
+
+    pbar.close()
 
     # Merge with original records and save ------------------------------------------------
     merged: List[Dict[str, Any]] = []
@@ -136,9 +143,9 @@ def _generate_generic(
     schema_file = data_path / "schema.json"
     if schema_file.exists():
         schema = json.load(schema_file.open())
-        schemas = [schema] * len(prompts)
+        schemas = [_sanitize_schema(schema)] * len(prompts)
     else:
-        schemas = [rec["schema"] for rec in bench]
+        schemas = [_sanitize_schema(rec["schema"]) for rec in bench]
 
     _process_records(llm, prompts, schemas, bench, output_path, task_name)
 
@@ -164,7 +171,7 @@ def _generate_wikibio(
         prompt += f"\n\nInput: {rec['input']}\nOutput:"
         prompts.append(prompt)
 
-    schemas = [rec["schema"] for rec in bench]
+    schemas = [_sanitize_schema(rec["schema"]) for rec in bench]
     _process_records(llm, prompts, schemas, bench, output_path, "2-wiki_bio")
 
 
@@ -185,13 +192,48 @@ def _generate_apibank(
         prompt_tpl.format(input=rec["input"], instruction=rec["instruction"])
         for rec in bench
     ]
-    schemas = [rec["schema"] for rec in bench]
+    schemas = [_sanitize_schema(rec["schema"]) for rec in bench]
     _process_records(llm, prompts, schemas, bench, output_path, "5-api_bank")
+
+
+# ────────────────────── Schema sanitization for Outlines ────────────────
+
+def _sanitize_schema(node: Any) -> Any:
+    """Return a copy of *node* where any JSON Schema `type` that is a list
+    (e.g. ["string", "integer"]) is simplified to a single string that
+    Outlines can handle (preferring "string" if present).
+
+    Outlines' regex builder currently supports only string-valued types.  When
+    it encounters a list, it raises `ValueError: 'type' must be a string`.
+    The exact numeric/string distinction is already enforced in our schemas
+    via the accompanying `pattern` regex, so casting to string is safe for the
+    purposes of constrained generation.
+    """
+
+    if isinstance(node, dict):
+        new_d: Dict[str, Any] = {}
+        unsupported = {"if", "then", "else", "allOf", "anyOf", "oneOf", "not", "propertyNames", "$defs"}
+        for k, v in node.items():
+            if k in unsupported:
+                # Drop these keys entirely – Outlines cannot handle them.
+                continue
+            if k == "type" and isinstance(v, list):
+                # Prefer string; otherwise keep first.
+                new_d[k] = "string" if "string" in v else v[0]
+            else:
+                new_d[k] = _sanitize_schema(v)
+        return new_d
+    if isinstance(node, list):
+        return [_sanitize_schema(x) for x in node]
+    return node
 
 
 # ────────────────────────────────  Main  ─────────────────────────────────────
 
 def main() -> None:
+    # Globals overridable by CLI ------------------------------------------------
+    global MAX_RECORDS, BATCH_SIZE
+
     p = argparse.ArgumentParser(
         description="Generate benchmark outputs using vLLM + Outlines constrained decoding."
     )
@@ -243,10 +285,34 @@ def main() -> None:
         default=None,
         help="Limit the number of records processed per task (debugging)",
     )
+    p.add_argument(
+        "--max-model-len",
+        type=int,
+        default=4096,
+        help=(
+            "Maximum model length for vLLM. Increase if you encounter truncation issues."
+        ),
+    )
+
+    # Performance tuning ---------------------------------------------------
+    p.add_argument(
+        "--batch-size",
+        type=int,
+        default=BATCH_SIZE,
+        help="Number of prompts processed concurrently in each vLLM batch. Increase if you have spare VRAM to reduce request overhead.",
+    )
+    p.add_argument(
+        "--tokenizer-pool-size",
+        type=int,
+        default=8,
+        help="Parallel tokenization workers to accelerate request submission (0 = synchronous).",
+    )
 
     args = p.parse_args()
-    global MAX_RECORDS
     MAX_RECORDS = args.max_records
+
+    # Override globals based on CLI ---------------------------------------
+    BATCH_SIZE = args.batch_size
 
     # Logging ----------------------------------------------------------------
     logs_dir = Path("logs"); logs_dir.mkdir(exist_ok=True)
@@ -261,9 +327,12 @@ def main() -> None:
     logger.info(f"Loading model '{args.model}' with vLLM …")
     llm = LLM(
         model=args.model,
-        dtype="float16",
-        download_dir=str(MODEL_DOWNLOAD_DIR),
+        download_dir=str(MODEL_DOWNLOAD_DIR.resolve()),
         trust_remote_code=True,
+        guided_decoding_backend="outlines",
+        max_model_len=args.max_model_len,
+        tokenizer_pool_size=args.tokenizer_pool_size,
+        tokenizer_pool_type="ray" if args.tokenizer_pool_size else None,
     )
 
     base_data = Path("data/clean")
