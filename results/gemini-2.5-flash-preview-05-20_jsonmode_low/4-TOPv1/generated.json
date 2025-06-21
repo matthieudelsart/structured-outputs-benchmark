@@ -1,0 +1,2066 @@
+[
+    {
+        "id": 4758,
+        "input": "Where are the active photo radar cameras in the 10 mile radius around my house",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_LOCATION\",\n  \"slots\": {\n    \"CATEGORY_LOCATION\": \"active photo radar cameras\",\n    \"SEARCH_RADIUS\": {\n      \"AMOUNT\": 10,\n      \"UNIT_DISTANCE\": \"mile\"\n    },\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {}\n    }\n  }\n}"
+    },
+    {
+        "id": 8303,
+        "input": "what is the traffic on the belt",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "the belt"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"PATH\": \"the belt\"\n  }\n}"
+    },
+    {
+        "id": 2766,
+        "input": "Bon Iver concerts this weekend near me",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "NAME_EVENT": "Bon Iver",
+                "CATEGORY_EVENT": "concerts",
+                "DATE_TIME": "this weekend",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "near",
+                        "LOCATION_USER": "me"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"ORGANIZER_EVENT\": \"Bon Iver\",\n    \"CATEGORY_EVENT\": \"concerts\",\n    \"DATE_TIME\": \"this weekend\",\n    \"LOCATION\": \"near me\"\n  }\n}"
+    },
+    {
+        "id": 150,
+        "input": "I'm looking for a Broadway show for tomorrow afternoon",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "a Broadway show",
+                "DATE_TIME": "for tomorrow afternoon"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Broadway show\",\n    \"DATE_TIME\": \"tomorrow afternoon\"\n  }\n}"
+    },
+    {
+        "id": 3712,
+        "input": "Are there any traffic problems between here and home this afternoon?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {}
+                },
+                "DATE_TIME": "this afternoon"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": \"home\",\n    \"DATE_TIME\": \"this afternoon\"\n  }\n}"
+    },
+    {
+        "id": 7383,
+        "input": "Are the roads flooded this evening?",
+        "output": {
+            "intent": "GET_INFO_ROAD_CONDITION",
+            "slots": {
+                "ROAD_CONDITION": "flooded",
+                "DATE_TIME": "this evening"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"ROAD_CONDITION\": \"flooded\",\n    \"DATE_TIME\": \"this evening\"\n  }\n}"
+    },
+    {
+        "id": 3832,
+        "input": "What time of day is traffic the lightest in Niagara Falls, ON",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Niagara Falls, ON\",\n    \"DATE_TIME\": \"time of day\",\n    \"OBSTRUCTION\": \"traffic\"\n  }\n}"
+    },
+    {
+        "id": 2996,
+        "input": "will there be much traffic between here and the zoo",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "the zoo"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": \"the zoo\"\n  }\n}"
+    },
+    {
+        "id": 7764,
+        "input": "will i hit any construction on my commute",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "PATH": "my commute"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"construction\"\n  }\n}"
+    },
+    {
+        "id": 431,
+        "input": "Chocolate Tours  for this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Chocolate Tours",
+                "DATE_TIME": "for this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Chocolate Tours\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    },
+    {
+        "id": 3773,
+        "input": "What's our ETA as it stands?",
+        "output": {
+            "intent": "GET_ESTIMATED_ARRIVAL",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 6507,
+        "input": "how early do i need to leave for work to avoid traffic",
+        "output": {
+            "intent": "GET_ESTIMATED_DEPARTURE",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                },
+                "OBSTRUCTION_AVOID": "traffic"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"DESTINATION\": \"work\",\n    \"OBSTRUCTION_AVOID\": \"traffic\"\n  }\n}"
+    },
+    {
+        "id": 7213,
+        "input": "How long will it take me to get to Torie's?",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {
+                        "CONTACT": "Torie"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Torie's\"\n  }\n}"
+    },
+    {
+        "id": 4569,
+        "input": "How should I travel from home to San jose",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {}
+                },
+                "DESTINATION": "San jose"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED_NAVIGATION\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 4696,
+        "input": "i need the traffic from here to my office",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {
+                        "CONTACT": "my"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"current location\",\n    \"DESTINATION\": \"my office\"\n  }\n}"
+    },
+    {
+        "id": 7165,
+        "input": "is the morning traffic bad today",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DATE_TIME": [
+                    "morning",
+                    "today"
+                ]
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": \"today morning\",\n    \"ROAD_CONDITION\": \"bad\"\n  }\n}"
+    },
+    {
+        "id": 6964,
+        "input": "Are there any traffic delays on I-75 in Buffalo right now?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION": "I - 75",
+                        "LOCATION_MODIFIER": "Buffalo"
+                    }
+                },
+                "DATE_TIME": "right now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"I-75 in Buffalo\",\n    \"DATE_TIME\": \"right now\",\n    \"OBSTRUCTION\": \"traffic delays\"\n  }\n}"
+    },
+    {
+        "id": 2934,
+        "input": "Will there be any construction tomorrow when I drive to Old Navy?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DATE_TIME": "tomorrow",
+                "METHOD_TRAVEL": "drive",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "Old Navy"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"construction\",\n    \"DATE_TIME\": \"tomorrow\",\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": \"Old Navy\"\n  }\n}"
+    },
+    {
+        "id": 7748,
+        "input": "are there any accidents 20 miles from my home",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "20 miles from",
+                        "LOCATION": {
+                            "intent": "GET_LOCATION_HOME",
+                            "slots": {
+                                "CONTACT": "my"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"accidents\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"home\",\n        \"SEARCH_RADIUS\": {\n          \"AMOUNT\": 20,\n          \"UNIT_DISTANCE\": \"miles\"\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 4866,
+        "input": "In current traffic, how long will it take to get from my house to work",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {
+                        "CONTACT": "my"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DATE_TIME\": \"current\",\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {}\n    },\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_WORK\",\n      \"slots\": {}\n    },\n    \"METHOD_TRAVEL\": \"driving\"\n  }\n}"
+    },
+    {
+        "id": 2797,
+        "input": "what's happening in Clovis next weekend that's kid friendly",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "LOCATION": "Clovis",
+                "DATE_TIME": "next weekend",
+                "ATTRIBUTE_EVENT": "kid friendly"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Clovis\",\n    \"DATE_TIME\": \"next weekend\",\n    \"ATTRIBUTE_EVENT\": \"kid friendly\"\n  }\n}"
+    },
+    {
+        "id": 6935,
+        "input": "Traffic from Tacoma to Seattle",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": "Tacoma",
+                "DESTINATION": "Seattle"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"Tacoma\",\n    \"DESTINATION\": \"Seattle\"\n  }\n}"
+    },
+    {
+        "id": 2238,
+        "input": "Anything good on Sunday",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "on Sunday"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"DATE_TIME\": \"Sunday\",\n    \"ATTRIBUTE_EVENT\": \"good\"\n  }\n}"
+    },
+    {
+        "id": 5740,
+        "input": "How long will it take to get to Canada from here",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": "Canada",
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Canada\",\n    \"SOURCE\": \"here\"\n  }\n}"
+    },
+    {
+        "id": 2139,
+        "input": "When is the next Styx concert in Lexington",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "ORDINAL": "next",
+                "NAME_EVENT": "Styx",
+                "CATEGORY_EVENT": "concert",
+                "LOCATION": "Lexington"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Styx concert\",\n    \"DATE_TIME\": \"next\",\n    \"LOCATION\": \"Lexington\"\n  }\n}"
+    },
+    {
+        "id": 4583,
+        "input": "is there heavy traffic in near lax",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "near",
+                        "POINT_ON_MAP": "lax"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"lax\",\n    \"OBSTRUCTION\": \"heavy traffic\"\n  }\n}"
+    },
+    {
+        "id": 5171,
+        "input": "Is there a sidewalk along Lawrenceville hwy",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"ROAD_CONDITION\": \"sidewalk\",\n    \"PATH\": \"Lawrenceville hwy\"\n  }\n}"
+    },
+    {
+        "id": 347,
+        "input": "any ideas what i should do today",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "today"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 8244,
+        "input": "Get the time to Albany using I90",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": "Albany",
+                "PATH": "I90"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Albany\",\n    \"PATH\": \"I90\"\n  }\n}"
+    },
+    {
+        "id": 8748,
+        "input": "How long will it take to get to Joseph's play if I leave my house right now?",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_EVENT",
+                    "slots": {
+                        "ORGANIZER_EVENT": "Joseph",
+                        "CATEGORY_EVENT": "play"
+                    }
+                },
+                "SOURCE": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {
+                        "CONTACT": "my"
+                    }
+                },
+                "DATE_TIME_DEPARTURE": "right now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_EVENT\",\n      \"slots\": {\n        \"NAME_EVENT\": \"Joseph's play\"\n      }\n    },\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {}\n    },\n    \"DATE_TIME_DEPARTURE\": \"right now\"\n  }\n}"
+    },
+    {
+        "id": 742,
+        "input": "Anything going on in Boston tomorrow",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "LOCATION": "Boston",
+                "DATE_TIME": "tomorrow"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Boston\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}"
+    },
+    {
+        "id": 4234,
+        "input": "how is traffic on the way to work",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_WORK\",\n      \"slots\": {}\n    }\n  }\n}"
+    },
+    {
+        "id": 6439,
+        "input": "How is the traffic in Syracuse",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Syracuse"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Syracuse\"\n  }\n}"
+    },
+    {
+        "id": 3034,
+        "input": "get the time that takes to travel to Brasilia in heavy rain",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": "Brasilia",
+                "ROAD_CONDITION": "heavy rain"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Brasilia\",\n    \"ROAD_CONDITION\": \"heavy rain\"\n  }\n}"
+    },
+    {
+        "id": 1877,
+        "input": "any arts events happening in Springfield this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "arts events",
+                "LOCATION": "Springfield",
+                "DATE_TIME": "this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"arts\",\n    \"LOCATION\": \"Springfield\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    },
+    {
+        "id": 6397,
+        "input": "What time should I leave to get to work by 7AM?",
+        "output": {
+            "intent": "GET_ESTIMATED_DEPARTURE",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                },
+                "DATE_TIME_ARRIVAL": "by 7AM"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"DESTINATION\": \"work\",\n    \"DATE_TIME_ARRIVAL\": \"7 AM\"\n  }\n}"
+    },
+    {
+        "id": 8,
+        "input": "What breakfast locations within 5 miles of me open at 6 am",
+        "output": {
+            "intent": "UNSUPPORTED",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 88,
+        "input": "Kid friendly wine bars in San Diego",
+        "output": {
+            "intent": "UNSUPPORTED",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_LOCATION\",\n  \"slots\": {\n    \"CATEGORY_LOCATION\": \"wine bars\",\n    \"LOCATION\": \"San Diego\",\n    \"LOCATION_MODIFIER\": \"Kid friendly\"\n  }\n}"
+    },
+    {
+        "id": 8954,
+        "input": "If I leave here at 8 am, when will I get to Unicamp College using freeways?",
+        "output": {
+            "intent": "GET_ESTIMATED_ARRIVAL",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DATE_TIME_DEPARTURE": "at 8 am",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "Unicamp College"
+                    }
+                },
+                "PATH": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "freeways"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DATE_TIME_DEPARTURE\": \"8 am\",\n    \"DESTINATION\": \"Unicamp College\",\n    \"PATH\": \"freeways\",\n    \"SOURCE\": \"here\"\n  }\n}"
+    },
+    {
+        "id": 7980,
+        "input": "How long to get to school",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_SCHOOL",
+                    "slots": {}
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"school\"\n  }\n}"
+    },
+    {
+        "id": 6220,
+        "input": "How many miles is it from San Antonio to Houston",
+        "output": {
+            "intent": "GET_DISTANCE",
+            "slots": {
+                "UNIT_DISTANCE": "miles",
+                "SOURCE": "San Antonio",
+                "DESTINATION": "Houston"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DISTANCE\",\n  \"slots\": {\n    \"SOURCE\": \"San Antonio\",\n    \"DESTINATION\": \"Houston\",\n    \"UNIT_DISTANCE\": \"miles\"\n  }\n}"
+    },
+    {
+        "id": 8569,
+        "input": "How long is my drive to the church",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "METHOD_TRAVEL": "drive",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "the church"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": \"the church\"\n  }\n}"
+    },
+    {
+        "id": 6820,
+        "input": "When does the highway back up stop",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"highway back up\",\n    \"DATE_TIME\": \"when\"\n  }\n}"
+    },
+    {
+        "id": 3789,
+        "input": "Are there any detours on my trip to work from home?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                },
+                "SOURCE": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {}
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"SOURCE\": \"home\",\n    \"DESTINATION\": \"work\",\n    \"ROAD_CONDITION\": \"detours\"\n  }\n}"
+    },
+    {
+        "id": 5939,
+        "input": "Get the time to Penfield using I-490.",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": "Penfield",
+                "PATH": "I - 490"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Penfield\",\n    \"PATH\": \"I-490\"\n  }\n}"
+    },
+    {
+        "id": 5557,
+        "input": "if i avoid highways can i still make it to my 10 oclock meeting if i left now",
+        "output": {
+            "intent": "GET_ESTIMATED_ARRIVAL",
+            "slots": {
+                "PATH_AVOID": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "highways"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_EVENT",
+                    "slots": {
+                        "ORGANIZER_EVENT": "my",
+                        "DATE_TIME": "10 oclock",
+                        "CATEGORY_EVENT": "meeting"
+                    }
+                },
+                "DATE_TIME_DEPARTURE": "now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"PATH_AVOID\": \"highways\",\n    \"DATE_TIME_DEPARTURE\": \"now\",\n    \"DATE_TIME_ARRIVAL\": \"10 o'clock\"\n  }\n}"
+    },
+    {
+        "id": 7712,
+        "input": "least traffic on nh12 in office hours ,time",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"PATH\": \"nh12\",\n    \"DATE_TIME\": \"office hours\"\n  }\n}"
+    },
+    {
+        "id": 1891,
+        "input": "Where is the renaissance festival usually held and what are the admission rates",
+        "output": {
+            "intent": "COMBINE",
+            "slots": {
+                "COMBINE": [
+                    {
+                        "intent": "GET_EVENT",
+                        "slots": {
+                            "CATEGORY_EVENT": "the renaissance festival"
+                        }
+                    },
+                    {
+                        "intent": "UNSUPPORTED_EVENT",
+                        "slots": {}
+                    }
+                ]
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"renaissance festival\",\n    \"ATTRIBUTE_EVENT\": \"admission rates\"\n  }\n}"
+    },
+    {
+        "id": 5296,
+        "input": "When will construction start between Main St. and Black St. in Memphis?",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"ROAD_CONDITION\": \"construction\",\n    \"PATH\": \"between Main St. and Black St.\",\n    \"LOCATION\": \"Memphis\",\n    \"DATE_TIME\": \"start\"\n  }\n}"
+    },
+    {
+        "id": 2775,
+        "input": "Looking for tree lighting ceremonies around here this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "tree lighting ceremonies",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "around",
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DATE_TIME": "this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"tree lighting ceremonies\",\n    \"LOCATION\": \"here\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    },
+    {
+        "id": 572,
+        "input": "Parties in NYC for halloween",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Parties",
+                "LOCATION": "NYC",
+                "DATE_TIME": "halloween"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"parties\",\n    \"LOCATION\": \"NYC\",\n    \"DATE_TIME\": \"halloween\"\n  }\n}"
+    },
+    {
+        "id": 3162,
+        "input": "How quickly can I get to Steven's house if I leave now?",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {
+                        "CONTACT": "Steven"
+                    }
+                },
+                "DATE_TIME_DEPARTURE": "now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {\n        \"CONTACT\": \"Steven\"\n      }\n    },\n    \"DATE_TIME_DEPARTURE\": \"now\"\n  }\n}"
+    },
+    {
+        "id": 2672,
+        "input": "Are the Beat Farmers coming to town in 2018",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "NAME_EVENT": "the Beat Farmers",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "town"
+                    }
+                },
+                "DATE_TIME": "in 2018"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Beat Farmers\",\n    \"LOCATION\": \"town\",\n    \"DATE_TIME\": \"2018\"\n  }\n}"
+    },
+    {
+        "id": 1017,
+        "input": "Concerts by Bruno Mars during the next few months close to where I live",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Concerts",
+                "NAME_EVENT": "Bruno Mars",
+                "DATE_TIME": "during the next few months",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "close to",
+                        "LOCATION": {
+                            "intent": "GET_LOCATION_HOME",
+                            "slots": {
+                                "CONTACT": "I"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Concerts\",\n    \"NAME_EVENT\": \"Bruno Mars\",\n    \"DATE_TIME\": \"next few months\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"where I live\",\n        \"LOCATION_MODIFIER\": \"close to\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 1547,
+        "input": "Things to do in Flagstaff this month",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "LOCATION": "Flagstaff",
+                "DATE_TIME": "this month"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Flagstaff\",\n    \"DATE_TIME\": \"this month\",\n    \"CATEGORY_EVENT\": \"things to do\"\n  }\n}"
+    },
+    {
+        "id": 5426,
+        "input": "how many lanes of hwy 280 are closed",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"PATH\": \"hwy 280\",\n    \"ROAD_CONDITION\": \"closed\"\n  }\n}"
+    },
+    {
+        "id": 2559,
+        "input": "looking for something family friendly to do next tuesday while i am in Tampa",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "ATTRIBUTE_EVENT": "family friendly",
+                "DATE_TIME": "next tuesday",
+                "LOCATION": "Tampa"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"ATTRIBUTE_EVENT\": \"family friendly\",\n    \"DATE_TIME\": \"next tuesday\",\n    \"LOCATION\": \"Tampa\"\n  }\n}"
+    },
+    {
+        "id": 6771,
+        "input": "Is there a route that would get me to the rally before noon?",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_EVENT",
+                    "slots": {
+                        "CATEGORY_EVENT": "the rally"
+                    }
+                },
+                "DATE_TIME_ARRIVAL": "before noon"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DESTINATION\": \"the rally\",\n    \"DATE_TIME_ARRIVAL\": \"before noon\"\n  }\n}"
+    },
+    {
+        "id": 5959,
+        "input": "Can I get from Dad's office to the kinder field before 12 pm?",
+        "output": {
+            "intent": "GET_ESTIMATED_ARRIVAL",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {
+                        "TYPE_RELATION": "Dad"
+                    }
+                },
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "CATEGORY_LOCATION": "the kinder field"
+                    }
+                },
+                "DATE_TIME_ARRIVAL": "before 12 pm"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"SOURCE\": \"Dad's office\",\n    \"DESTINATION\": \"the kinder field\",\n    \"DATE_TIME_ARRIVAL\": \"before 12 pm\"\n  }\n}"
+    },
+    {
+        "id": 1924,
+        "input": "Show me live theater performance showtimes",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "live theater performance"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"live theater performance\"\n  }\n}"
+    },
+    {
+        "id": 3942,
+        "input": "Tell me the quickest way to avoid traffic while making it to San Diego before 2PM",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "OBSTRUCTION_AVOID": "traffic",
+                "DESTINATION": "San Diego",
+                "DATE_TIME_ARRIVAL": "before 2PM"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"San Diego\",\n    \"DATE_TIME_ARRIVAL\": \"2PM\",\n    \"OBSTRUCTION_AVOID\": \"traffic\"\n  }\n}"
+    },
+    {
+        "id": 4772,
+        "input": "Do you know when we'll get to our destination?",
+        "output": {
+            "intent": "GET_ESTIMATED_ARRIVAL",
+            "slots": {
+                "DESTINATION": "our destination"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 1158,
+        "input": "Christmas tree lightings in Pensacola during the month of December",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": [
+                    "Christmas",
+                    "during the month of December"
+                ],
+                "CATEGORY_EVENT": "tree lightings",
+                "LOCATION": "Pensacola"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Christmas tree lightings\",\n    \"LOCATION\": \"Pensacola\",\n    \"DATE_TIME\": \"December\"\n  }\n}"
+    },
+    {
+        "id": 4405,
+        "input": "Are there any traffic jams near Cleveland right now",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "near",
+                        "LOCATION": "Cleveland"
+                    }
+                },
+                "DATE_TIME": "right now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"traffic jams\",\n    \"LOCATION\": \"Cleveland\",\n    \"DATE_TIME\": \"now\"\n  }\n}"
+    },
+    {
+        "id": 906,
+        "input": "Events in Charlotte for tonight",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "LOCATION": "Charlotte",
+                "DATE_TIME": "for tonight"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Charlotte\",\n    \"DATE_TIME\": \"tonight\"\n  }\n}"
+    },
+    {
+        "id": 3766,
+        "input": "HOW LONG IS THE FLIGHT FROM DALLAS TO SAN JOSE",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "METHOD_TRAVEL": "THE FLIGHT",
+                "SOURCE": "DALLAS",
+                "DESTINATION": "SAN JOSE"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"flight\",\n    \"SOURCE\": \"Dallas\",\n    \"DESTINATION\": \"San Jose\"\n  }\n}"
+    },
+    {
+        "id": 8255,
+        "input": "Can I take the Kennedy Bridge road and get off near 12th St?",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROUTE\",\n  \"slots\": {\n    \"PATH\": \"Kennedy Bridge road\",\n    \"WAYPOINT\": \"12th St\"\n  }\n}"
+    },
+    {
+        "id": 4706,
+        "input": "show me the shortest route with the least amount of delays to Brookings at night",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "OBSTRUCTION_AVOID": "delays",
+                "DESTINATION": "Brookings",
+                "DATE_TIME_DEPARTURE": "at night"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": \"Brookings\",\n    \"PATH\": \"shortest\",\n    \"OBSTRUCTION_AVOID\": \"delays\",\n    \"DATE_TIME_DEPARTURE\": \"night\"\n  }\n}"
+    },
+    {
+        "id": 8250,
+        "input": "What is the easiest way to get downtown from Kent",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "DESTINATION": "downtown",
+                "SOURCE": "Kent"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROUTE\",\n  \"slots\": {\n    \"DESTINATION\": \"downtown\",\n    \"SOURCE\": \"Kent\"\n  }\n}"
+    },
+    {
+        "id": 1712,
+        "input": "Is there any good bands playing tonight",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "bands playing",
+                "DATE_TIME": "tonight"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"bands\",\n    \"DATE_TIME\": \"tonight\"\n  }\n}"
+    },
+    {
+        "id": 98,
+        "input": "Raves happening this next week after 8pm",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Raves",
+                "DATE_TIME": "this next week after 8 pm"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Raves\",\n    \"DATE_TIME\": \"this next week after 8pm\"\n  }\n}"
+    },
+    {
+        "id": 432,
+        "input": "What's there to do this weekend in Orlando",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "this weekend",
+                "LOCATION": "Orlando"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"DATE_TIME\": \"this weekend\",\n    \"LOCATION\": \"Orlando\"\n  }\n}"
+    },
+    {
+        "id": 1003,
+        "input": "what is going on today that I can do for free",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "today",
+                "ATTRIBUTE_EVENT": "free"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"DATE_TIME\": \"today\",\n    \"ATTRIBUTE_EVENT\": \"free\"\n  }\n}"
+    },
+    {
+        "id": 1482,
+        "input": "sports events in Jacksonville this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "sports events",
+                "LOCATION": "Jacksonville",
+                "DATE_TIME": "this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"sports\",\n    \"LOCATION\": \"Jacksonville\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    },
+    {
+        "id": 8687,
+        "input": "How's traffic around the Music Festival in Detroit",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "around",
+                        "LOCATION": {
+                            "intent": "GET_EVENT",
+                            "slots": {
+                                "CATEGORY_EVENT": "the Music Festival",
+                                "LOCATION": "Detroit"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": {\n      \"intent\": \"GET_EVENT\",\n      \"slots\": {\n        \"NAME_EVENT\": \"Music Festival\",\n        \"LOCATION\": \"Detroit\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 2054,
+        "input": "Who has live music tonight",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "live music",
+                "DATE_TIME": "tonight"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"live music\",\n    \"DATE_TIME\": \"tonight\"\n  }\n}"
+    },
+    {
+        "id": 7290,
+        "input": "How many miles is it between Charlotte and Charleston",
+        "output": {
+            "intent": "GET_DISTANCE",
+            "slots": {
+                "UNIT_DISTANCE": "miles",
+                "SOURCE": "Charlotte",
+                "DESTINATION": "Charleston"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DISTANCE\",\n  \"slots\": {\n    \"SOURCE\": \"Charlotte\",\n    \"DESTINATION\": \"Charleston\",\n    \"UNIT_DISTANCE\": \"miles\"\n  }\n}"
+    },
+    {
+        "id": 716,
+        "input": "Best Christmas events in Henderson 2017",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": [
+                    "Christmas",
+                    "2017"
+                ],
+                "LOCATION": "Henderson"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Christmas\",\n    \"LOCATION\": \"Henderson\",\n    \"DATE_TIME\": \"2017\",\n    \"ATTRIBUTE_EVENT\": \"best\"\n  }\n}"
+    },
+    {
+        "id": 3547,
+        "input": "Traffic in Cape cod",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Cape cod"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Cape cod\"\n  }\n}"
+    },
+    {
+        "id": 3690,
+        "input": "What is the fastest way to get to the Alberta Arts District from Northeast Milwaukee?",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "DESTINATION": "the Alberta Arts District",
+                "SOURCE": "Northeast Milwaukee"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Alberta Arts District\",\n    \"SOURCE\": \"Northeast Milwaukee\",\n    \"METHOD_TRAVEL\": \"driving\"\n  }\n}"
+    },
+    {
+        "id": 2325,
+        "input": "Concerts at the Municipal Auditorium in Mobile next week",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Concerts",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "Municipal Auditorium",
+                        "LOCATION_MODIFIER": "Mobile"
+                    }
+                },
+                "DATE_TIME": "next week"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"concerts\",\n    \"LOCATION\": \"Municipal Auditorium in Mobile\",\n    \"DATE_TIME\": \"next week\"\n  }\n}"
+    },
+    {
+        "id": 2631,
+        "input": "Tours available in New York tomorrow",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Tours",
+                "LOCATION": "New York",
+                "DATE_TIME": "tomorrow"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Tours\",\n    \"LOCATION\": \"New York\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}"
+    },
+    {
+        "id": 2303,
+        "input": "What time and where is the parade in Ft Walton Beach tomorrow",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "the parade",
+                "LOCATION": "Ft Walton Beach",
+                "DATE_TIME": "tomorrow"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"DATE_TIME\": \"tomorrow\",\n    \"LOCATION\": \"Ft Walton Beach\",\n    \"NAME_EVENT\": \"parade\"\n  }\n}"
+    },
+    {
+        "id": 8601,
+        "input": "Is there a lot of traffic between here and San Jose",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": "San Jose"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"current location\",\n    \"DESTINATION\": \"San Jose\"\n  }\n}"
+    },
+    {
+        "id": 5309,
+        "input": "How many miles is it from New York to Los Angeles",
+        "output": {
+            "intent": "GET_DISTANCE",
+            "slots": {
+                "UNIT_DISTANCE": "miles",
+                "SOURCE": "New York",
+                "DESTINATION": "Los Angeles"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DISTANCE\",\n  \"slots\": {\n    \"SOURCE\": \"New York\",\n    \"DESTINATION\": \"Los Angeles\",\n    \"UNIT_DISTANCE\": \"miles\"\n  }\n}"
+    },
+    {
+        "id": 3136,
+        "input": "What time would we get to Dinner if we take the route south of the district instead of the highway",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DESTINATION\": \"Dinner\",\n    \"PATH\": \"route south of the district\",\n    \"PATH_AVOID\": \"highway\"\n  }\n}"
+    },
+    {
+        "id": 2583,
+        "input": "Parties in Minneapolis tomorrow",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Parties",
+                "LOCATION": "Minneapolis",
+                "DATE_TIME": "tomorrow"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"parties\",\n    \"LOCATION\": \"Minneapolis\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}"
+    },
+    {
+        "id": 4111,
+        "input": "How long will it take me to get to work today with traffic",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                },
+                "DATE_TIME_DEPARTURE": "today"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"work\"\n      }\n    },\n    \"DATE_TIME\": \"today\",\n    \"ROAD_CONDITION\": \"traffic\"\n  }\n}"
+    },
+    {
+        "id": 1571,
+        "input": "What can I do tomorrow",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "tomorrow"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED_EVENT\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 8895,
+        "input": "what is the traffic like in allentown PA",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "allentown PA"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"allentown PA\"\n  }\n}"
+    },
+    {
+        "id": 7349,
+        "input": "when do i have to leave if i need to go from las vegas to saint george using the 515?",
+        "output": {
+            "intent": "GET_ESTIMATED_DEPARTURE",
+            "slots": {
+                "SOURCE": "las vegas",
+                "DESTINATION": "saint george",
+                "PATH": "the 515"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"SOURCE\": \"las vegas\",\n    \"DESTINATION\": \"saint george\",\n    \"PATH\": \"515\"\n  }\n}"
+    },
+    {
+        "id": 6117,
+        "input": "is there traffic in Jacksonville today",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Jacksonville",
+                "DATE_TIME": "today"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Jacksonville\",\n    \"DATE_TIME\": \"today\"\n  }\n}"
+    },
+    {
+        "id": 6201,
+        "input": "How can I avoid the icy backroads on my way to school",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "ROAD_CONDITION_AVOID": "icy",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_SCHOOL",
+                    "slots": {}
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"ROAD_CONDITION_AVOID\": \"icy\",\n    \"PATH_AVOID\": \"backroads\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_SCHOOL\",\n      \"slots\": {}\n    }\n  }\n}"
+    },
+    {
+        "id": 8412,
+        "input": "Do I have to avoid Main Street on my way to the dog show because of the flooding?",
+        "output": {
+            "intent": "GET_INFO_ROAD_CONDITION",
+            "slots": {
+                "PATH": "Main Street",
+                "DESTINATION": {
+                    "intent": "GET_EVENT",
+                    "slots": {
+                        "CATEGORY_EVENT": "the dog show"
+                    }
+                },
+                "ROAD_CONDITION": "the flooding"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"PATH_AVOID\": \"Main Street\",\n    \"DESTINATION\": \"the dog show\",\n    \"OBSTRUCTION\": \"flooding\"\n  }\n}"
+    },
+    {
+        "id": 4362,
+        "input": "Will traffic be slower today",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DATE_TIME": "today"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": \"today\"\n  }\n}"
+    },
+    {
+        "id": 1540,
+        "input": "Where is the best place to get pizza",
+        "output": {
+            "intent": "UNSUPPORTED_EVENT",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_LOCATION\",\n  \"slots\": {\n    \"CATEGORY_LOCATION\": \"pizza place\"\n  }\n}"
+    },
+    {
+        "id": 7738,
+        "input": "will i run into traffic driving to Alabama",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "METHOD_TRAVEL": "driving",
+                "DESTINATION": "Alabama"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": \"Alabama\"\n  }\n}"
+    },
+    {
+        "id": 272,
+        "input": "Would you ever adopt a child",
+        "output": {
+            "intent": "UNSUPPORTED",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 2978,
+        "input": "is the traffic heavy",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"ROAD_CONDITION\": \"heavy\"\n  }\n}"
+    },
+    {
+        "id": 2712,
+        "input": "Are there any wine events next weekend in NoHo",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "wine events",
+                "DATE_TIME": "next weekend",
+                "LOCATION": "NoHo"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"wine\",\n    \"DATE_TIME\": \"next weekend\",\n    \"LOCATION\": \"NoHo\"\n  }\n}"
+    },
+    {
+        "id": 4719,
+        "input": "what is traffic like today in Hawaii",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DATE_TIME": "today",
+                "LOCATION": "Hawaii"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": \"today\",\n    \"LOCATION\": \"Hawaii\"\n  }\n}"
+    },
+    {
+        "id": 4992,
+        "input": "Is the accident on the 202 affecting bus schedules",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"accident\",\n    \"PATH\": \"the 202\"\n  }\n}"
+    },
+    {
+        "id": 7580,
+        "input": "Where are the street closings in Uptown this weekend",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Uptown",
+                "DATE_TIME": "this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"street closings\",\n    \"LOCATION\": \"Uptown\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    },
+    {
+        "id": 7561,
+        "input": "A wreck was reported on I24, is it cleared yet?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "I24"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"wreck\",\n    \"PATH\": \"I24\"\n  }\n}"
+    },
+    {
+        "id": 1042,
+        "input": "I feel like going to a jazz performance. Anything you can find near me",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "a jazz performance",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "SEARCH_RADIUS": "near",
+                        "LOCATION_USER": "me"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"jazz performance\",\n    \"LOCATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"current location\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 2930,
+        "input": "Tell me when traffic is the heaviest today",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": \"today\",\n    \"OBSTRUCTION\": \"heaviest traffic\"\n  }\n}"
+    },
+    {
+        "id": 436,
+        "input": "Events in Allentown",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "LOCATION": "Allentown"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Allentown\"\n  }\n}"
+    },
+    {
+        "id": 1835,
+        "input": "are there christmas markets in new orleans",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "christmas",
+                "CATEGORY_EVENT": "markets",
+                "LOCATION": "new orleans"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"christmas markets\",\n    \"LOCATION\": \"new orleans\"\n  }\n}"
+    },
+    {
+        "id": 2007,
+        "input": "Are there spa appointments available for tomorrow near Philadelphia",
+        "output": {
+            "intent": "UNSUPPORTED_EVENT",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"spa appointments\",\n    \"DATE_TIME\": \"tomorrow\",\n    \"LOCATION\": \"Philadelphia\"\n  }\n}"
+    },
+    {
+        "id": 4989,
+        "input": "what's the traffic like now",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DATE_TIME": "now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DATE_TIME\": \"now\"\n  }\n}"
+    },
+    {
+        "id": 6883,
+        "input": "Can you give me directions to mom's new house in Manchester, New Hampshire?",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {
+                        "TYPE_RELATION": "mom",
+                        "LOCATION_CURRENT": "Manchester , New Hampshire"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Manchester, New Hampshire\",\n        \"LOCATION_MODIFIER\": \"mom's new house\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 3958,
+        "input": "WHAT TIME IS RUSH HOUR IN NASHVILLE",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Nashville\"\n  }\n}"
+    },
+    {
+        "id": 942,
+        "input": "under 21 events",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "ATTRIBUTE_EVENT": "under 21"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"ATTRIBUTE_EVENT\": \"under 21\"\n  }\n}"
+    },
+    {
+        "id": 8663,
+        "input": "Could you tell me if there's traffic congestion in Downtown Miami right now?",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Downtown Miami",
+                "DATE_TIME": "right now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Downtown Miami\",\n    \"DATE_TIME\": \"right now\",\n    \"OBSTRUCTION\": \"traffic congestion\"\n  }\n}"
+    },
+    {
+        "id": 1711,
+        "input": "Jazz shows in Harvard Square at 9pm tonight",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Jazz shows",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "Harvard Square"
+                    }
+                },
+                "DATE_TIME": "at 9 pm tonight"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Jazz shows\",\n    \"LOCATION\": \"Harvard Square\",\n    \"DATE_TIME\": \"9pm tonight\"\n  }\n}"
+    },
+    {
+        "id": 372,
+        "input": "Buy furniture in Western mass them an antique store",
+        "output": {
+            "intent": "UNSUPPORTED",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 6096,
+        "input": "Get the time to Columbus using I-71.",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": "Columbus",
+                "PATH": "I - 71"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Columbus\",\n    \"PATH\": \"I-71\"\n  }\n}"
+    },
+    {
+        "id": 2607,
+        "input": "Are there any beer festivals  in Orlando tomorrow",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "beer festivals",
+                "LOCATION": "Orlando",
+                "DATE_TIME": "tomorrow"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"beer festivals\",\n    \"LOCATION\": \"Orlando\",\n    \"DATE_TIME\": \"tomorrow\"\n  }\n}"
+    },
+    {
+        "id": 836,
+        "input": "Music festivals in Denver for next month",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Music festivals",
+                "LOCATION": "Denver",
+                "DATE_TIME": "next month"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"music festivals\",\n    \"LOCATION\": \"Denver\",\n    \"DATE_TIME\": \"next month\"\n  }\n}"
+    },
+    {
+        "id": 3565,
+        "input": "How is traffic in Miami",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Miami"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Miami\"\n  }\n}"
+    },
+    {
+        "id": 8265,
+        "input": "How far is Michigan from Hawaii",
+        "output": {
+            "intent": "GET_DISTANCE",
+            "slots": {
+                "DESTINATION": "Michigan",
+                "SOURCE": "Hawaii"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DISTANCE\",\n  \"slots\": {\n    \"SOURCE\": \"Michigan\",\n    \"DESTINATION\": \"Hawaii\"\n  }\n}"
+    },
+    {
+        "id": 4666,
+        "input": "what time should I leave if I want to get into my work at 7am",
+        "output": {
+            "intent": "GET_ESTIMATED_DEPARTURE",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {
+                        "CONTACT": "my"
+                    }
+                },
+                "DATE_TIME_ARRIVAL": "at 7 am"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"7 am\",\n    \"DESTINATION\": \"work\"\n  }\n}"
+    },
+    {
+        "id": 3197,
+        "input": "Is Route 10 the quickest way to get to Oklahoma?",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROUTE\",\n  \"slots\": {\n    \"PATH\": \"Route 10\",\n    \"DESTINATION\": \"Oklahoma\"\n  }\n}"
+    },
+    {
+        "id": 6132,
+        "input": "What time should I leave to make it to Jay Chou's concert by 7pm?",
+        "output": {
+            "intent": "GET_ESTIMATED_DEPARTURE",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_EVENT",
+                    "slots": {
+                        "NAME_EVENT": "Jay Chou",
+                        "CATEGORY_EVENT": "concert"
+                    }
+                },
+                "DATE_TIME_ARRIVAL": "by 7 pm"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DEPARTURE\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"7:00 p.m.\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_EVENT\",\n      \"slots\": {\n        \"NAME_EVENT\": \"Jay Chou's concert\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 4601,
+        "input": "is there traffic on my route",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"PATH\": \"my route\"\n  }\n}"
+    },
+    {
+        "id": 3378,
+        "input": "Get the time to Mountain View California using I-5",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "DESTINATION": "Mountain View California",
+                "PATH": "I - 5"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"Mountain View California\",\n    \"PATH\": \"I-5\"\n  }\n}"
+    },
+    {
+        "id": 161,
+        "input": "What month does Bonaroo happen",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "NAME_EVENT": "Bonaroo"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Bonaroo\",\n    \"ATTRIBUTE_EVENT\": \"month\"\n  }\n}"
+    },
+    {
+        "id": 5537,
+        "input": "Let me know which route to Davis Hospital has the least amount of traffic",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "Davis Hospital"
+                    }
+                },
+                "OBSTRUCTION_AVOID": "traffic"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"Davis Hospital\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 6900,
+        "input": "What is the distance between Tennessee and Texas",
+        "output": {
+            "intent": "GET_DISTANCE",
+            "slots": {
+                "SOURCE": "Tennessee",
+                "DESTINATION": "Texas"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DISTANCE\",\n  \"slots\": {\n    \"SOURCE\": \"Tennessee\",\n    \"DESTINATION\": \"Texas\"\n  }\n}"
+    },
+    {
+        "id": 8170,
+        "input": "If I leave here at 5 am, when will I get to my home",
+        "output": {
+            "intent": "GET_ESTIMATED_ARRIVAL",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DATE_TIME_DEPARTURE": "at 5 am",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_HOME",
+                    "slots": {
+                        "CONTACT": "my"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_ARRIVAL\",\n  \"slots\": {\n    \"DATE_TIME_DEPARTURE\": \"5 am\",\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION_HOME\",\n      \"slots\": {}\n    }\n  }\n}"
+    },
+    {
+        "id": 7553,
+        "input": "How long will the drive to work take",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "METHOD_TRAVEL": "drive",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"DESTINATION\": \"work\",\n    \"METHOD_TRAVEL\": \"driving\"\n  }\n}"
+    },
+    {
+        "id": 1981,
+        "input": "what movies are opening at the Esquire this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "movies",
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "the Esquire"
+                    }
+                },
+                "DATE_TIME": "this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"movie\",\n    \"ATTRIBUTE_EVENT\": \"opening\",\n    \"LOCATION\": \"the Esquire\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    },
+    {
+        "id": 8742,
+        "input": "what time route do i need to take to get to the snhu arena at 7 pm from my work",
+        "output": {
+            "intent": "GET_DIRECTIONS",
+            "slots": {
+                "DESTINATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "POINT_ON_MAP": "the snhu arena"
+                    }
+                },
+                "DATE_TIME_ARRIVAL": "at 7 pm",
+                "SOURCE": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {
+                        "CONTACT": "my"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_DIRECTIONS\",\n  \"slots\": {\n    \"DATE_TIME_ARRIVAL\": \"7 pm\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"POINT_ON_MAP\": \"the snhu arena\"\n      }\n    },\n    \"SOURCE\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION_USER\": \"work\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 6254,
+        "input": "How does the traffic look going from Birmingham to Salem",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": "Birmingham",
+                "DESTINATION": "Salem"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"Birmingham\",\n    \"DESTINATION\": \"Salem\"\n  }\n}"
+    },
+    {
+        "id": 5282,
+        "input": "Will Macy's still be open this evening , if I leave my grandmother's house now?",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED_EVENT\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 7607,
+        "input": "Is there traffic back ups from here to grove city",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "SOURCE": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION_USER": "here"
+                    }
+                },
+                "DESTINATION": "grove city"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"SOURCE\": \"here\",\n    \"DESTINATION\": \"grove city\"\n  }\n}"
+    },
+    {
+        "id": 2534,
+        "input": "Christmas events in London",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "DATE_TIME": "Christmas",
+                "LOCATION": "London"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"CATEGORY_EVENT\": \"Christmas\",\n    \"LOCATION\": \"London\"\n  }\n}"
+    },
+    {
+        "id": 1623,
+        "input": "What cruise ships are available next week",
+        "output": {
+            "intent": "UNSUPPORTED",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 5593,
+        "input": "set a new waypoint",
+        "output": {
+            "intent": "UPDATE_DIRECTIONS",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"UNSUPPORTED_NAVIGATION\",\n  \"slots\": {}\n}"
+    },
+    {
+        "id": 4997,
+        "input": "Are there any accidents right now",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "DATE_TIME": "right now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"accidents\",\n    \"DATE_TIME\": \"right now\"\n  }\n}"
+    },
+    {
+        "id": 3236,
+        "input": "Was there a wreck on the 2-10",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "the 2 - 10"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"wreck\",\n    \"PATH\": \"2-10\"\n  }\n}"
+    },
+    {
+        "id": 4285,
+        "input": "What's the traffic in Queens",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Queens"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Queens\"\n  }\n}"
+    },
+    {
+        "id": 6231,
+        "input": "How long would it take to drive to work right now",
+        "output": {
+            "intent": "GET_ESTIMATED_DURATION",
+            "slots": {
+                "METHOD_TRAVEL": "drive",
+                "DESTINATION": {
+                    "intent": "GET_LOCATION_WORK",
+                    "slots": {}
+                },
+                "DATE_TIME": "right now"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_ESTIMATED_DURATION\",\n  \"slots\": {\n    \"METHOD_TRAVEL\": \"driving\",\n    \"DESTINATION\": {\n      \"intent\": \"GET_LOCATION\",\n      \"slots\": {\n        \"LOCATION\": \"work\"\n      }\n    }\n  }\n}"
+    },
+    {
+        "id": 8672,
+        "input": "Is there a bike lane on Main Street?",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"ROAD_CONDITION\": \"bike lane\",\n    \"PATH\": \"Main Street\"\n  }\n}"
+    },
+    {
+        "id": 8478,
+        "input": "Where does construction end on I-25 in Colorado Springs",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": {
+                    "intent": "GET_LOCATION",
+                    "slots": {
+                        "LOCATION": "I - 25",
+                        "LOCATION_MODIFIER": "Colorado Springs"
+                    }
+                }
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"OBSTRUCTION\": \"construction\",\n    \"PATH\": \"I-25\",\n    \"LOCATION\": \"Colorado Springs\"\n  }\n}"
+    },
+    {
+        "id": 1815,
+        "input": "What is there to do in Seattle today",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "LOCATION": "Seattle",
+                "DATE_TIME": "today"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"LOCATION\": \"Seattle\",\n    \"DATE_TIME\": \"today\"\n  }\n}"
+    },
+    {
+        "id": 8358,
+        "input": "How do I get to Delaware and what is the traffic like",
+        "output": {
+            "intent": "COMBINE",
+            "slots": {
+                "COMBINE": [
+                    {
+                        "intent": "GET_DIRECTIONS",
+                        "slots": {
+                            "DESTINATION": "Delaware"
+                        }
+                    },
+                    {
+                        "intent": "GET_INFO_TRAFFIC",
+                        "slots": {
+                            "OBSTRUCTION": "the traffic"
+                        }
+                    }
+                ]
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"COMBINE\",\n  \"slots\": {\n    \"COMBINE\": [\n      {\n        \"intent\": \"GET_DIRECTIONS\",\n        \"slots\": {\n          \"DESTINATION\": \"Delaware\"\n        }\n      },\n      {\n        \"intent\": \"GET_INFO_TRAFFIC\",\n        \"slots\": {\n          \"LOCATION\": \"Delaware\"\n        }\n      }\n    ]\n  }\n}"
+    },
+    {
+        "id": 8941,
+        "input": "What is the traffic like in Cedar Rapids",
+        "output": {
+            "intent": "GET_INFO_TRAFFIC",
+            "slots": {
+                "LOCATION": "Cedar Rapids"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_TRAFFIC\",\n  \"slots\": {\n    \"LOCATION\": \"Cedar Rapids\"\n  }\n}"
+    },
+    {
+        "id": 5363,
+        "input": "how long will construction last on prairie",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\n  \"intent\": \"GET_INFO_ROAD_CONDITION\",\n  \"slots\": {\n    \"ROAD_CONDITION\": \"construction\",\n    \"PATH\": \"prairie\"\n  }\n}"
+    },
+    {
+        "id": 1325,
+        "input": "Wine festival in Orlando this weekend",
+        "output": {
+            "intent": "GET_EVENT",
+            "slots": {
+                "CATEGORY_EVENT": "Wine festival",
+                "LOCATION": "Orlando",
+                "DATE_TIME": "this weekend"
+            }
+        },
+        "generated_output": "{\n  \"intent\": \"GET_EVENT\",\n  \"slots\": {\n    \"NAME_EVENT\": \"Wine festival\",\n    \"LOCATION\": \"Orlando\",\n    \"DATE_TIME\": \"this weekend\"\n  }\n}"
+    }
+]

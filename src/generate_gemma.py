@@ -34,7 +34,10 @@ GEMINI_KEY = os.getenv('GEMINI_KEY')
 
 # Default model configuration
 DEFAULT_MODEL = "gemma-3-1b-it"
-GENERATION_CONFIG: GenerateContentConfigDict = {"temperature": 0.0}
+GENERATION_CONFIG: GenerateContentConfigDict = {
+    "temperature": 0.0, 
+#    "response_mime_type": "application/json"
+    }
 DEFAULT_MAX_WORKERS = 2
 GEMINI_MAX_WORKERS = 10
 
@@ -256,18 +259,27 @@ def main():
         "--prompt-type",
         type=str,
         default="",
-        choices=["low", "high"],
+        choices=["low", ""],
         help="The type of prompt to use (e.g., 'low', 'high')."
     )
 
+    parser.add_argument(
+        "--suffix",
+        type=str,
+        default=None,
+        help="The suffix to add after the model name."
+    )
+
     args = parser.parse_args()
+
+    output_path = f"{args.model}{'_' + args.suffix if args.suffix else ''}{'_' + args.prompt_type if args.prompt_type else ''}"
 
     # Create logs directory if it doesn't exist
     logs_dir = Path("logs")
     logs_dir.mkdir(exist_ok=True)
     
     # Setup logging
-    log_file = logs_dir / f"generate_{args.model}{'_' + args.prompt_type if args.prompt_type else ''}.log"
+    log_file = logs_dir / f"generate_{output_path}.log"
 
     # Remove all handlers associated with the root logger object.
     for handler in logging.root.handlers[:]:
@@ -287,7 +299,7 @@ def main():
 
     # Define paths
     base_data_path = Path('data/clean')
-    output_base_path = Path(f"results/{args.model}{'_' + args.prompt_type if args.prompt_type else ''}")
+    output_base_path = Path(f"results/{output_path}")
 
     tasks = {
         "1-rotowire": lambda c, d, o: generate_generic(c, "1-rotowire", d, o, args.model, args.prompt_type),
