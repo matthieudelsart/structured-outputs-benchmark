@@ -1,0 +1,696 @@
+2025-06-15 23:00:12,894 [INFO] Processing task: 5-api_bank
+2025-06-15 23:00:12,897 [INFO] Using 2 workers for model gemma-3-1b-it
+2025-06-15 23:00:12,897 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:12,898 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:13,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:13,437 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:13,437 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:13,840 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:13,842 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:13,843 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:14,249 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:14,250 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:14,250 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:14,706 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:14,708 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:14,709 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:15,122 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:15,125 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:15,126 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:15,681 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:15,682 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:15,683 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:15,989 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:15,990 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:15,990 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:16,707 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:16,709 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:16,710 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:17,218 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:17,220 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:17,221 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:17,354 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:17,356 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:17,357 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:17,966 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:17,967 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:17,967 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:18,140 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:18,141 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:18,141 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:18,689 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:18,690 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:18,690 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:19,206 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:19,206 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:19,207 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:19,366 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:19,369 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:19,369 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:19,914 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:19,916 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:19,917 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:20,079 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:20,081 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:20,082 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:20,802 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:20,806 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:20,806 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:20,868 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:20,869 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:20,870 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:21,519 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:21,521 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:21,522 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:22,002 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:22,004 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:22,005 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:22,168 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:22,170 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:22,170 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:22,484 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:22,485 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+2025-06-15 23:00:22,486 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:22,882 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:00:22,884 [INFO] AFC remote call 1 is done.
+2025-06-15 23:00:22,884 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:22,920 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:22,921 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+2025-06-15 23:00:22,921 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:32,489 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:32,571 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:32,572 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}
+2025-06-15 23:00:32,572 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:32,926 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:32,965 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:32,966 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}
+2025-06-15 23:00:32,966 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:42,574 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:42,641 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:42,642 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}
+2025-06-15 23:00:42,642 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:42,967 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:43,007 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:43,007 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}}
+2025-06-15 23:00:43,007 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:52,643 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:52,748 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:52,750 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}
+2025-06-15 23:00:52,750 [INFO] Retrying in 10 seconds...
+2025-06-15 23:00:53,013 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:00:53,061 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:00:53,063 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}
+2025-06-15 23:00:53,063 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:02,752 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:02,826 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:02,828 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}
+2025-06-15 23:01:02,828 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:03,068 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:03,128 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:03,130 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}
+2025-06-15 23:01:03,130 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:12,828 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:12,904 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:12,906 [ERROR] API call failed on attempt 6/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
+2025-06-15 23:01:12,906 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:13,135 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:14,171 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:14,173 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:14,173 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:15,211 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:15,213 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:15,214 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:16,200 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:16,203 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:16,204 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:16,762 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:16,763 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:16,764 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:17,712 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:17,714 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:17,715 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:18,862 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:18,863 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:18,863 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:19,383 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:19,386 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:19,386 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:20,502 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:20,504 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:20,505 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:21,309 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:21,311 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:21,312 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:22,167 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:22,169 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:22,170 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:22,908 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:23,231 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:23,233 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:23,234 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:23,437 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:23,440 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:23,440 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:24,087 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:24,090 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:24,090 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:24,496 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:24,498 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:24,499 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:24,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:24,598 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:24,598 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:25,032 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:25,036 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:25,037 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:25,519 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:25,522 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:25,523 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:25,575 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:25,578 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:25,578 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:26,544 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:26,545 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:26,547 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:26,548 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:26,548 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:26,550 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:26,876 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:26,878 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+2025-06-15 23:01:26,878 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:27,334 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:01:27,336 [INFO] AFC remote call 1 is done.
+2025-06-15 23:01:27,336 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:27,381 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:27,382 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+2025-06-15 23:01:27,382 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:36,883 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:37,124 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:37,126 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2025-06-15 23:01:37,126 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:37,385 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:37,445 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:37,446 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2025-06-15 23:01:37,447 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:47,130 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:47,206 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:47,208 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-06-15 23:01:47,208 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:47,452 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:47,492 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:47,494 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-06-15 23:01:47,494 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:57,213 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:57,291 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:57,292 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-06-15 23:01:57,292 [INFO] Retrying in 10 seconds...
+2025-06-15 23:01:57,495 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:01:57,534 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:01:57,535 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-06-15 23:01:57,535 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:07,298 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:07,374 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:07,375 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-06-15 23:02:07,375 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:07,540 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:07,573 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:07,574 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-06-15 23:02:07,574 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:17,381 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:17,579 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:18,312 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:18,314 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:18,315 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:18,769 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:18,771 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:18,772 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:19,009 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:19,012 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:19,012 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:19,869 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:19,869 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:19,871 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:19,871 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:19,872 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:19,872 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:20,585 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:20,587 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:20,588 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:20,621 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:20,622 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:20,623 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:21,400 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:21,402 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:21,403 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:21,907 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:21,909 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:21,910 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:21,985 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:21,988 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:21,988 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:22,971 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:22,973 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:22,974 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:23,095 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:23,098 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:23,098 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:23,785 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:23,788 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:23,788 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:24,194 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:24,197 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:24,198 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:24,260 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:24,262 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:24,262 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:24,954 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:24,957 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:24,957 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:25,105 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:25,107 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:25,107 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:25,930 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:25,933 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:25,933 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:25,964 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:25,965 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:25,965 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:26,754 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:26,757 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:26,757 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:26,758 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:26,760 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:26,760 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:27,164 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:27,166 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+2025-06-15 23:02:27,166 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:27,265 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:02:27,273 [INFO] AFC remote call 1 is done.
+2025-06-15 23:02:27,274 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:27,309 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:27,310 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+2025-06-15 23:02:27,310 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:37,171 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:37,273 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:37,275 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2025-06-15 23:02:37,275 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:37,316 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:37,347 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:37,349 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2025-06-15 23:02:37,349 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:47,280 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:47,354 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:47,357 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:47,358 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-06-15 23:02:47,358 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:47,408 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:47,409 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-06-15 23:02:47,409 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:57,363 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:57,413 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:02:57,429 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:57,430 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-06-15 23:02:57,430 [INFO] Retrying in 10 seconds...
+2025-06-15 23:02:57,491 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:02:57,493 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-06-15 23:02:57,494 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:07,436 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:07,499 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:07,503 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:07,504 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-06-15 23:03:07,504 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:07,586 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:07,588 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-06-15 23:03:07,588 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:17,509 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:17,594 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:18,118 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:18,120 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:18,120 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:18,130 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:18,131 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:18,131 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:18,924 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:18,927 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:18,928 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:19,028 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:19,030 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:19,030 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:19,460 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:19,462 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:19,462 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:19,944 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:19,947 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:19,947 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:20,412 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:20,415 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:20,415 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:21,026 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:21,029 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:21,030 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:21,085 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:21,094 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:21,094 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:21,988 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:21,990 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:21,991 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:22,111 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:22,113 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:22,114 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:22,839 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:22,840 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:22,841 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:23,188 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:23,191 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:23,191 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:23,430 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:23,433 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:23,433 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:24,099 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:24,102 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:24,102 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:24,407 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:24,410 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:24,410 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:25,244 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:25,246 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:25,247 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:25,316 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:25,318 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:25,318 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:26,045 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:26,048 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:26,048 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:26,454 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:26,456 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:26,457 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:26,653 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:26,655 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+2025-06-15 23:03:26,655 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:27,171 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:03:27,173 [INFO] AFC remote call 1 is done.
+2025-06-15 23:03:27,174 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:27,206 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:27,207 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+2025-06-15 23:03:27,207 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:36,655 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:36,895 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:36,897 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}
+2025-06-15 23:03:36,897 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:37,211 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:37,249 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:37,250 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2025-06-15 23:03:37,250 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:46,900 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:46,972 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:46,974 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-06-15 23:03:46,974 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:47,252 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:47,283 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:47,284 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-06-15 23:03:47,284 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:56,977 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:57,047 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:57,048 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-06-15 23:03:57,048 [INFO] Retrying in 10 seconds...
+2025-06-15 23:03:57,290 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:03:57,321 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:03:57,321 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-06-15 23:03:57,321 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:07,053 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:07,130 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:07,132 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-06-15 23:04:07,132 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:07,327 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:07,361 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:07,362 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-06-15 23:04:07,362 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:17,138 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:17,363 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:18,000 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:18,002 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:18,003 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:18,399 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:18,402 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:18,402 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:18,552 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:18,555 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:18,555 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:19,151 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:19,153 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:19,154 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:19,333 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:19,335 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:19,335 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:19,703 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:19,706 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:19,706 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:20,216 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:20,219 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:20,219 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:20,444 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:20,445 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:20,446 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:21,242 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:21,243 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:21,245 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:21,246 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:21,254 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:21,254 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:21,998 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:21,999 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:22,000 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:22,196 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:22,198 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:22,199 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:22,520 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:22,521 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:22,521 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:22,927 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:22,930 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:22,930 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:23,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:23,800 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:23,803 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:23,803 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:23,804 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:23,805 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:24,925 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:24,928 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:24,928 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:24,999 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:25,002 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:25,002 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:25,744 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:25,746 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:25,747 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:25,932 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:25,934 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}
+2025-06-15 23:04:25,934 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:26,119 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:04:26,122 [INFO] AFC remote call 1 is done.
+2025-06-15 23:04:26,123 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:26,256 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:26,258 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+2025-06-15 23:04:26,258 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:35,939 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:36,138 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:36,140 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}
+2025-06-15 23:04:36,140 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:36,263 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:36,307 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:36,309 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}
+2025-06-15 23:04:36,309 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:46,146 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:46,221 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:46,223 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2025-06-15 23:04:46,223 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:46,314 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:46,358 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:46,359 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2025-06-15 23:04:46,359 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:56,227 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:56,291 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:56,292 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}
+2025-06-15 23:04:56,292 [INFO] Retrying in 10 seconds...
+2025-06-15 23:04:56,362 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:04:56,402 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:04:56,403 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}
+2025-06-15 23:04:56,404 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:06,298 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:06,366 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:06,367 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}
+2025-06-15 23:05:06,367 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:06,409 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:06,450 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:06,452 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}
+2025-06-15 23:05:06,452 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:16,373 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:16,452 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:16,945 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:16,947 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:16,948 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:17,734 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:17,735 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:17,736 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:17,763 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:17,765 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:17,765 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:18,200 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:18,204 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:18,204 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:18,788 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:18,790 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:18,791 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:18,888 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:18,890 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:18,890 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:19,402 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:19,404 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:19,405 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:19,811 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:19,814 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:19,814 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:20,438 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:20,440 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:20,441 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:20,526 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:20,528 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:20,528 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:21,244 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:21,246 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:21,247 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:21,304 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:21,313 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:21,315 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:21,959 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:21,961 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:21,961 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:22,269 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:22,270 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:22,270 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:22,885 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:22,887 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:22,887 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:23,127 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:23,130 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:23,130 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:23,728 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:23,730 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:23,730 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:24,112 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:24,115 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:24,115 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:24,300 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:24,302 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:24,303 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:24,728 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:24,731 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:24,731 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:24,867 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:05:24,869 [INFO] AFC remote call 1 is done.
+2025-06-15 23:05:24,869 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:24,899 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:24,900 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}
+2025-06-15 23:05:24,900 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:24,902 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:24,903 [ERROR] API call failed on attempt 1/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}
+2025-06-15 23:05:24,903 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:34,902 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:34,906 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:34,976 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:34,978 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}
+2025-06-15 23:05:34,978 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:34,997 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:35,000 [ERROR] API call failed on attempt 2/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}
+2025-06-15 23:05:35,000 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:44,982 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:45,004 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:45,077 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:45,078 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}
+2025-06-15 23:05:45,079 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:45,087 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:45,088 [ERROR] API call failed on attempt 3/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}
+2025-06-15 23:05:45,088 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:55,081 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:55,089 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:05:55,153 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:55,158 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+2025-06-15 23:05:55,158 [INFO] Retrying in 10 seconds...
+2025-06-15 23:05:55,167 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:05:55,168 [ERROR] API call failed on attempt 4/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+2025-06-15 23:05:55,168 [INFO] Retrying in 10 seconds...
+2025-06-15 23:06:05,160 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:05,173 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:05,265 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:06:05,266 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'model': 'gemma-3-1b', 'location': 'global'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+2025-06-15 23:06:05,267 [INFO] Retrying in 10 seconds...
+2025-06-15 23:06:05,275 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-15 23:06:05,276 [ERROR] API call failed on attempt 5/10: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count', 'quotaId': 'GenerateContentPaidTierInputTokensPerModelPerMinute', 'quotaDimensions': {'location': 'global', 'model': 'gemma-3-1b'}, 'quotaValue': '15000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+2025-06-15 23:06:05,276 [INFO] Retrying in 10 seconds...
+2025-06-15 23:06:15,271 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:15,281 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:16,089 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:16,092 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:16,092 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:16,139 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:16,141 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:16,141 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:17,022 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:17,022 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:17,023 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:17,409 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:17,410 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:17,411 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:17,493 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:17,497 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:17,497 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:17,950 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:17,952 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:17,953 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:18,416 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:18,419 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:18,420 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:18,489 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:18,491 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:18,492 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:19,512 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:19,513 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:19,516 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:19,516 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:19,517 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:19,518 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:20,060 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:20,063 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:20,063 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:20,842 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:20,845 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:20,845 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:20,858 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:20,859 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:20,859 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:21,559 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:21,562 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:21,563 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:21,627 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:21,629 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:21,629 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:22,787 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:22,790 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:22,791 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:22,792 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:22,794 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:22,794 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:23,402 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:23,405 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:23,405 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:23,710 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:23,715 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:23,715 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:24,221 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:24,224 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:24,224 [INFO] AFC is enabled with max remote calls: 10.
+2025-06-15 23:06:24,315 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:24,335 [INFO] AFC remote call 1 is done.
+2025-06-15 23:06:24,986 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemma-3-1b-it:generateContent "HTTP/1.1 200 OK"
+2025-06-15 23:06:24,989 [INFO] AFC remote call 1 is done.
