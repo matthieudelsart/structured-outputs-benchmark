@@ -1,0 +1,119 @@
+[
+    {
+        "id": 3280,
+        "input": "Input text: The host Atlanta Hawks defeated the Milwaukee Bucks, 107 - 100, at Philips Arena on Wednesday. Most of the statistics would indicate a Milwaukee win, but Atlanta prevailed thanks to great teamwork. The second quarter was especially decisive, as the Hawks outscored the Bucks 31 - 9 in that 12 - minute stretch. Strangely, Milwaukee took 26 more shots than Atlanta, but made only four more baskets. The Bucks also dominated in the paint, outscoring the Hawks 50 - 28. Atlanta was extremely efficient though, as they shot 49 percent from the field and assisted on 29 of their 35 made baskets. They also took care of business at the charity stripe, going 27 - of - 31 from the free - throw line. Milwaukee (5 - 5) had their opportunities to win this game, but they realized how tough it is to beat an efficient Atlanta team. Giannis Antetokounmpo carried the load, as he tallied 26 points, 15 rebounds and seven assists. Jabari Parker was great as well, totaling 23 points, eight rebounds, three assists and three steals of his own. The only other starter in double figures was Tony Snell, who amassed 11 points, four rebounds and three assists. Mirza Teletovic was a nice spark off the bench, as he scored 14 points on 5 - of - 10 shooting. Milwaukee will be on back - to - back duties, as they travel to face the Miami Heat on Thursday for their next game. Atlanta (9 - 2) had to play this game without Dwight Howard (quad), but they did n't miss a beat. Paul Millsap stepped up in his absence, as he tallied 21 points, eight rebounds and three assists in the win. Mike Muscala started for Howard and provided 16 points, five rebounds and three assists of his own. Kyle Korver had one of his best games of the season, totaling 11 points, six rebounds and five assists. All five starters for Atlanta scored at least 11 points and provided at least three rebounds and three assists. On deck for the Hawks is a road matchup against the Charlotte Hornets on Friday. Table format: There are two tables in the text.   The first table has ten columns: \"Team\", \"Number of team assists\", \"Percentage of field goals\", \"Losses\", \"Total points\", \"Points in 1st quarter\", \"Points in 2nd quarter\", \"Points in 3rd quarter\", \"Wins\", and \"<NEWLINE>\". This table has two rows: \"Hawks\" and \"Bucks\".   The second table has eleven columns: \"Player\", \"Assists\", \"Blocks\", \"3-pointers made\", \"Field goals attempted\", \"Field goals made\", \"Offensive rebounds\", \"Points\", \"Total rebounds\", \"Steals\", and \"<NEWLINE>\". This table has six rows: \"Giannis Antetokounmpo\", \"Jabari Parker\", \"Tony Snell\", \"Mirza Teletovic\", \"Paul Millsap\", and \"Mike Muscala\".",
+        "output": {
+            "teams": [
+                {
+                    "team": "Hawks",
+                    "number_of_team_assists": 29,
+                    "percentage_of_field_goals": 49,
+                    "losses": 2,
+                    "total_points": 107,
+                    "points_in_1st_quarter": null,
+                    "points_in_2nd_quarter": 31,
+                    "points_in_3rd_quarter": null,
+                    "wins": 9
+                },
+                {
+                    "team": "Bucks",
+                    "number_of_team_assists": null,
+                    "percentage_of_field_goals": null,
+                    "losses": 5,
+                    "total_points": 100,
+                    "points_in_1st_quarter": 26,
+                    "points_in_2nd_quarter": 9,
+                    "points_in_3rd_quarter": 35,
+                    "wins": 5
+                }
+            ],
+            "players": [
+                {
+                    "player": "Giannis Antetokounmpo",
+                    "assists": 7,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 26,
+                    "total_rebounds": 15,
+                    "steals": null
+                },
+                {
+                    "player": "Jabari Parker",
+                    "assists": 3,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 23,
+                    "total_rebounds": 8,
+                    "steals": 3
+                },
+                {
+                    "player": "Tony Snell",
+                    "assists": 3,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 11,
+                    "total_rebounds": 4,
+                    "steals": null
+                },
+                {
+                    "player": "Mirza Teletovic",
+                    "assists": null,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": 10,
+                    "field_goals_made": 5,
+                    "offensive_rebounds": null,
+                    "points": 14,
+                    "total_rebounds": null,
+                    "steals": null
+                },
+                {
+                    "player": "Paul Millsap",
+                    "assists": 3,
+                    "blocks": 1,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 21,
+                    "total_rebounds": 8,
+                    "steals": null
+                },
+                {
+                    "player": "Mike Muscala",
+                    "assists": 3,
+                    "blocks": 1,
+                    "3_pointers_made": 1,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": 1,
+                    "points": 16,
+                    "total_rebounds": 5,
+                    "steals": null
+                },
+                {
+                    "player": "Kyle Korver",
+                    "assists": 5,
+                    "blocks": null,
+                    "3_pointers_made": null,
+                    "field_goals_attempted": null,
+                    "field_goals_made": null,
+                    "offensive_rebounds": null,
+                    "points": 11,
+                    "total_rebounds": 6,
+                    "steals": 1
+                }
+            ]
+        },
+        "generated_output": "```json\n{\n  \"teams\": [\n    {\n      \"team\": \"Atlanta Hawks\",\n      \"wins\": 9,\n      \"losses\": 2,\n      \"total_points\": 107,\n      \"points_in_1st_quarter\": null,\n      \"points_in_2nd_quarter\": 31,\n      \"points_in_3rd_quarter\": null,\n      \"points_in_4th_quarter\": null\n    },\n    {\n      \"team\": \"Milwaukee Bucks\",\n      \"wins\": 5,\n      \"losses\": 5,\n      \"total_points\": 100,\n      \"points_in_1st_quarter\": null,\n      \"points_in_2nd_quarter\": 9,\n      \"points_in_3rd_quarter\": null,\n      \"points_in_4th_quarter\": null\n    }\n  ],\n  \"players\": [\n    {\n      \"player\": \"Giannis Antetokounmpo\",\n      \"points\": 26,\n      \"assists\": 7,\n      \"rebounds\": 15\n    },\n    {\n      \"player\": \"Jabari Parker\",\n      \"points\": 23,\n      \"rebounds\": 8,\n      \"assists\": 3,\n      \"steals\": 3\n    },\n    {\n      \"player\": \"Tony Snell\",\n      \"points\": 11,\n      \"rebounds\": 4,\n      \"assists\": 3\n    },\n    {\n      \"player\": \"Mirza Teletovic\",\n      \"points\": 14,\n      \"rebounds\": null,\n      \"assists\": null\n    },\n    {\n      \"player\": \"Paul Millsap\",\n      \"points\": 21,\n      \"rebounds\": 8,\n      \"assists\": 3\n    },\n    {\n      \"player\": \"Mike Muscala\",\n      \"points\": 16,\n      \"rebounds\": 5,\n      \"assists\": 3\n    },\n    {\n      \"player\": \"Kyle Korver\",\n      \"points\": 11,\n      \"rebounds\": 6,\n      \"assists\": 5\n    }\n  ]\n}\n```"
+    }
+]

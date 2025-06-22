@@ -1,0 +1,18 @@
+2025-06-22 20:07:36,277 [INFO] Loading model 'google/gemma-3-4b-it' with vLLM …
+2025-06-22 20:08:29,147 [INFO] Processing task: 1-rotowire
+2025-06-22 20:29:56,255 [INFO] Task 1-rotowire completed in 1287.11 s
+2025-06-22 20:29:56,256 [INFO] Processing task: 2-wiki_bio
+2025-06-22 20:49:07,679 [INFO] Task 2-wiki_bio completed in 1151.42 s
+2025-06-22 20:49:07,680 [INFO] Processing task: 3-few_nerd
+2025-06-22 21:01:14,423 [INFO] Task 3-few_nerd completed in 726.74 s
+2025-06-22 21:01:14,423 [INFO] Processing task: 4-TOPv1
+2025-06-22 21:04:25,993 [INFO] Task 4-TOPv1 completed in 191.57 s
+2025-06-22 21:04:25,994 [INFO] Processing task: 5-api_bank
+2025-06-22 21:16:43,547 [INFO] Task 5-api_bank completed in 737.55 s
+2025-06-22 21:16:43,547 [INFO] Processing task: 6-reasoning
+2025-06-22 21:16:43,548 [INFO]   > subtask GSM8K
+2025-06-22 21:16:43,548 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-22 21:22:36,445 [INFO] Task 6-reasoning/GSM8K completed in 352.90 s
+2025-06-22 21:22:36,445 [INFO]   > subtask last_letter
+2025-06-22 21:22:36,445 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-22 21:26:09,848 [INFO] Task 6-reasoning/last_letter completed in 213.40 s
