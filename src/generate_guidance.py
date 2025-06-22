@@ -90,7 +90,7 @@ def _process_records(
             total=len(prompts),
             desc=f"Generating ({task_name})",
         ):
-            schema_str = json.dumps(schema, sort_keys=True)
+            schema_str = json.dumps(schema)
             program = _compiled_program(prompt, schema_str)
             # pass the *session* (not the bare llm) so the KV/cache sticks
             result = program(llm=session, _schema=json.loads(schema_str))
