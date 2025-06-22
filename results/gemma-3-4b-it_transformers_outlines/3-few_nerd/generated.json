@@ -1,0 +1,20 @@
+[
+    {
+        "id": 16119,
+        "input": "The mission of the 303rd Military Intelligence Battalion , `` Longhorns , '' is to , on order , conduct multi-disciplined intelligence collection , exploitation , and limited analysis operations in support of the commander 's information requirements during worldwide contingency missions within assigned areas of a Division , Corps , or Joint Task Force area of operations .",
+        "output": {
+            "art": null,
+            "building": null,
+            "event": null,
+            "location": null,
+            "organization": [
+                "303rd Military Intelligence Battalion",
+                "Longhorns"
+            ],
+            "other": null,
+            "person": null,
+            "product": null
+        },
+        "generated_output": "\"\""
+    }
+]

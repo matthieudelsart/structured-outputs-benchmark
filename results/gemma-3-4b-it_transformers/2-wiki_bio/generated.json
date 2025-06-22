@@ -1,0 +1,160 @@
+[
+    {
+        "id": 32710,
+        "input": "robert w. `` bob'' doll (august 10, 1919 -- september 18, 1959) was an american professional basketball player who played in the early days of professional basketball for the st. louis bombers and boston celtics during the early years of the nba. doll starred at chaffey high school in ontario, california and played collegiately at the university of colorado from 1939 to 1942, leading the buffaloes to a period of great team success. a post player, `` ichabod'' doll was known as a voracious rebounder and defender with a soft shooting touch. in his first season of eligibility as a sophomore in 1940, doll led the buffaloes to bids in both the ncaa tournament and nit. while the ncaa tournament appearance lasted only one game, doll led the buffs to the nit title and was named the tournament most valuable player after averaging 15.5 points per game. two years later, doll was named a consensus second team all-american and led colorado to its first final four. following the close of his collegiate career, doll played for several years in the amateur athletic union and was named an aau all-american in 1943 while playing for the denver american legion team. in 1946, doll joined the st. louis bombers of the basketball association of america (baa). after two years with the bombers, doll joined the boston celtics as a free agent. during his two-year stint with the celtics, the baa merged with the national basketball league to form the national basketball association. doll played for one more year with the celtics in the inaugural nba campaign. bob doll averaged 8.4 points and 1.4 assists per game for his four-year baa/nba career. doll died on september 18, 1959 at the age of 40, of an apparent suicide.",
+        "output": {
+            "career_end": "1950",
+            "statlabel": "points rebounds assists",
+            "college": "colorado (1939 -- 1942)",
+            "number": "519",
+            "years": "1946 -- 1948 1948 -- 1950",
+            "name": "bob doll",
+            "height_in": "5",
+            "weight_lbs": "195",
+            "birth_date": "1919-08-10",
+            "statvalue": "1,653 not tracked 273",
+            "bbr": "dollbo01",
+            "height_ft": "6",
+            "highschool": "chaffey (ontario, california)",
+            "birth_place": "steamboat springs, colorado",
+            "career_start": "1946",
+            "article_title": "bob doll",
+            "position": "forward / center",
+            "team": "st. louis bombers boston celtics",
+            "death_date": "1959-09-13"
+        },
+        "keys": [
+            "article_title",
+            "bbr",
+            "birth_date",
+            "birth_place",
+            "career_end",
+            "career_start",
+            "college",
+            "death_date",
+            "height_ft",
+            "height_in",
+            "highschool",
+            "name",
+            "number",
+            "position",
+            "statlabel",
+            "statvalue",
+            "team",
+            "weight_lbs",
+            "years"
+        ],
+        "schema": {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "required": [
+                "article_title",
+                "bbr",
+                "birth_date",
+                "birth_place",
+                "career_end",
+                "career_start",
+                "college",
+                "death_date",
+                "height_ft",
+                "height_in",
+                "highschool",
+                "name",
+                "number",
+                "position",
+                "statlabel",
+                "statvalue",
+                "team",
+                "weight_lbs",
+                "years"
+            ],
+            "properties": {
+                "article_title": {
+                    "type": "string"
+                },
+                "bbr": {
+                    "type": "string"
+                },
+                "birth_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "birth_place": {
+                    "type": "string"
+                },
+                "career_end": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "career_start": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "college": {
+                    "type": "string"
+                },
+                "death_date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}(-\\d{2}){0,1}(-\\d{2}){0,1}$"
+                },
+                "height_ft": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "height_in": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "highschool": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "number": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "position": {
+                    "type": "string"
+                },
+                "statlabel": {
+                    "type": "string"
+                },
+                "statvalue": {
+                    "type": "string"
+                },
+                "team": {
+                    "type": "string"
+                },
+                "weight_lbs": {
+                    "type": [
+                        "string",
+                        "integer"
+                    ],
+                    "pattern": "^[0-9]+$"
+                },
+                "years": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "generated_output": "```json\n{\n    \"article_title\": \"Robert W. Doll\",\n    \"bbr\": \"\",\n    \"birth_date\": \"1919-08-10\",\n    \"birth_place\": \"California\",\n    \"career_end\": \"1959\",\n    \"career_start\": \"1946\",\n    \"college\": \"University of Colorado\",\n    \"death_date\": \"1959-09-18\",\n    \"height_ft\": \"6\",\n    \"height_in\": \"\",\n    \"highschool\": \"Chaffey High School\",\n    \"name\": \"Robert W. Doll\",\n    \"number\": \"8.4\",\n    \"position\": \"post player\",\n    \"statlabel\": \"points per game\",\n    \"statvalue\": \"15.5\",\n    \"team\": \"St. Louis Bombers; Boston Celtics\",\n    \"weight_lbs\": \"\",\n    \"years\": \"1939-1942; 1943; 1946-1959\"\n}\n```"
+    }
+]

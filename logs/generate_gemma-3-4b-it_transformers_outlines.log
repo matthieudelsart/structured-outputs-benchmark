@@ -1,0 +1,62 @@
+2025-06-22 21:58:03,915 [INFO] Processing task: 1-rotowire
+2025-06-22 21:59:13,010 [INFO] 
+===== RERUN invoked =====
+2025-06-22 21:59:19,733 [INFO] Processing task: 1-rotowire
+2025-06-22 21:59:56,340 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:00:03,265 [INFO] Processing task: 1-rotowire
+2025-06-22 22:00:17,337 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:00:24,615 [INFO] Processing task: 1-rotowire
+2025-06-22 22:00:27,806 [INFO] PyTorch version 2.7.0 available.
+2025-06-22 22:01:06,955 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:01:13,497 [INFO] Processing task: 1-rotowire
+2025-06-22 22:02:56,058 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:03:26,680 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:03:33,225 [INFO] Processing task: 1-rotowire
+2025-06-22 22:04:08,095 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:04:33,460 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:04:46,300 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:05:05,945 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:05:12,527 [INFO] Processing task: 1-rotowire
+2025-06-22 22:06:52,227 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:07:16,283 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:07:28,297 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:07:44,350 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:07:50,820 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:08:06,370 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:08:12,944 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:08:42,590 [INFO] Processing task: 5-api_bank
+2025-06-22 22:09:13,349 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:09:19,795 [INFO] Processing task: 1-rotowire
+2025-06-22 22:11:01,146 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:11:25,996 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:12:52,749 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:12:59,041 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:14:11,545 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:14:36,435 [INFO] Processing task: 5-api_bank
+2025-06-22 22:15:06,036 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:15:12,444 [INFO] Processing task: 1-rotowire
+2025-06-22 22:15:40,970 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:16:05,289 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:17:13,470 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:17:38,455 [INFO] Processing task: 5-api_bank
+2025-06-22 22:18:01,278 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-22 22:18:41,578 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-22 22:24:10,086 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:24:16,693 [INFO] Processing task: 1-rotowire
+2025-06-22 22:25:41,341 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:26:05,752 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:27:11,605 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:27:37,133 [INFO] Processing task: 5-api_bank
+2025-06-22 22:28:01,099 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-22 22:28:42,284 [INFO] Processing task: 6-reasoning/last_letter

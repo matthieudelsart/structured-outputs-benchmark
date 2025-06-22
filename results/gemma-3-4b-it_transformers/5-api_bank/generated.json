@@ -1,0 +1,44 @@
+[
+    {
+        "id": 129,
+        "input": "User: Can you give me the definition of the word \"resilience\"?\nAI: Sure, let me check.\nGenerate API Request:\n",
+        "instruction": "\nGenerate an API request in the format of {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}} based on the previous dialogue context.\nThe current year is 2023.\nInput: \nUser: User's utterence\nAI: AI's response\n\nExpected output:\nAPI-Request: {\"api_name\":\"ApiName\",\"parameters\":{\"key1\":\"value1\",\"key2\":\"value2\"}}\n\nAPI descriptions:\n{\"name\": \"Dictionary\", \"description\": \"This API searches the dictionary for a given keyword.\", \"input_parameters\": {\"keyword\": {\"type\": \"str\", \"description\": \"The keyword to search.\"}}, \"output_parameters\": {\"results\": {\"type\": \"list\", \"description\": \"The list of results. Format be like [{\\\"partOfSpeech\\\": \\\"xxx\\\", \\\"definitions\\\": [{\\\"definition\\\": \\\"xxx\\\", \\\"example\\\": \\\"xxx\\\", \\\"synonyms\\\": [\\\"xxx\\\", \\\"xxx\\\"]}, ...]\"}}}",
+        "output": {
+            "api_name": "Dictionary",
+            "parameters": {
+                "keyword": "resilience"
+            }
+        },
+        "json_schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "required": [
+                        "api_name",
+                        "parameters"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "api_name": {
+                            "const": "Dictionary"
+                        },
+                        "parameters": {
+                            "type": "object",
+                            "required": [
+                                "keyword"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "keyword": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "generated_output": "{\"api_name\": \"Dictionary\",\n      \"parameters\": {\n        \"keyword\": \"resilience\"\n      }\n    }\n```json\n{\"api_name\": \"Dictionary\",\n      \"parameters\": {\n        \"keyword\": \"resilience\"\n      }\n    }\n```"
+    }
+]

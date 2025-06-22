@@ -1,0 +1,11 @@
+[
+    {
+        "id": 131,
+        "input": "Take the last letters of each words in \"Jae Dennis Cris Bernadette\" and concatenate them.",
+        "output": {
+            "reasoning": "",
+            "answer": "esse"
+        },
+        "generated_output": "{\"reasoning\": \"The problem asks me to take the last letter of each word in the string \\\"Jae Dennis Cris Bernadette\\\" and concatenate them. The last letters of the words are 'e', 's', 's', 'e'. Concatenating these letters gives us \\\"ess\\\" .\", \"answer\": \"ess\"}"
+    }
+]

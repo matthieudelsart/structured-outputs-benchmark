@@ -1,0 +1,44 @@
+2025-06-22 21:28:28,373 [INFO] 
+===== RERUN invoked =====
+2025-06-22 21:28:28,373 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-22 21:28:32,006 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-22 21:28:33,861 [INFO] Processing task: 1-rotowire
+2025-06-22 21:35:30,207 [INFO] 
+===== RERUN invoked =====
+2025-06-22 21:35:30,207 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-22 21:41:36,323 [INFO] 
+===== RERUN invoked =====
+2025-06-22 21:41:36,323 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-22 21:41:40,012 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-22 21:41:42,044 [INFO] Processing task: 1-rotowire
+2025-06-22 21:45:00,028 [INFO] 
+===== RERUN invoked =====
+2025-06-22 21:45:00,028 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-22 21:45:03,706 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-22 21:45:05,708 [INFO] Processing task: 1-rotowire
+2025-06-22 21:46:10,436 [INFO] 
+===== RERUN invoked =====
+2025-06-22 21:46:10,436 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-22 21:46:14,063 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-22 21:46:16,127 [INFO] Processing task: 1-rotowire
+2025-06-22 22:21:27,862 [INFO] 
+===== RERUN invoked =====
+2025-06-22 22:21:27,862 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-22 22:21:31,488 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-22 22:21:33,457 [INFO] Processing task: 1-rotowire
+2025-06-22 22:22:01,411 [INFO] Task 1-rotowire completed in 27.95 s
+2025-06-22 22:22:01,412 [INFO] Processing task: 2-wiki_bio
+2025-06-22 22:22:14,523 [INFO] Task 2-wiki_bio completed in 13.11 s
+2025-06-22 22:22:14,523 [INFO] Processing task: 3-few_nerd
+2025-06-22 22:22:18,546 [INFO] Task 3-few_nerd completed in 4.02 s
+2025-06-22 22:22:18,546 [INFO] Processing task: 4-TOPv1
+2025-06-22 22:22:24,389 [INFO] Task 4-TOPv1 completed in 5.84 s
+2025-06-22 22:22:24,390 [INFO] Processing task: 5-api_bank
+2025-06-22 22:22:27,818 [INFO] Task 5-api_bank completed in 3.43 s
+2025-06-22 22:22:27,818 [INFO] Processing task: 6-reasoning
+2025-06-22 22:22:27,818 [INFO]   > subtask GSM8K
+2025-06-22 22:22:27,818 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-22 22:22:42,919 [INFO] Task 6-reasoning/GSM8K completed in 15.10 s
+2025-06-22 22:22:42,919 [INFO]   > subtask last_letter
+2025-06-22 22:22:42,919 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-22 22:23:08,922 [INFO] Task 6-reasoning/last_letter completed in 26.00 s

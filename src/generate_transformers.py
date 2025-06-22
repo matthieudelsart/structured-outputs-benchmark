@@ -311,6 +311,11 @@ def main() -> None:
     torch_dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
     tokenizer = AutoTokenizer.from_pretrained(args.model, cache_dir=str(MODEL_DOWNLOAD_DIR))
 
+    # Flash-Attention requires left-padded batches -------------------------
+    tokenizer.padding_side = "left"
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
     # Choose attention impl
     attn_impl = "flash_attention_2" if args.flash_attn else None
 

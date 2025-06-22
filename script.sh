@@ -2,9 +2,8 @@
 
 set -euo pipefail 
 
-uv run python -m src.generate_vllm --model google/gemma-3-4b-it
-uv run python -m src.generate_vllm_outlines --model google/gemma-3-4b-it 
 uv run python -m src.generate_transformers --model google/gemma-3-4b-it
+uv run python -m src.generate_transformers_outlines --model google/gemma-3-4b-it
 git add .
-git commit -m "Add results"
+git commit -m "Add results transformers"
 git push

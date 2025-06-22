@@ -1,0 +1,11 @@
+[
+    {
+        "id": 4758,
+        "input": "Where are the active photo radar cameras in the 10 mile radius around my house",
+        "output": {
+            "intent": "UNSUPPORTED_NAVIGATION",
+            "slots": {}
+        },
+        "generated_output": "{\"intent\":\"GET_INFO_TRAFFIC\",\"slots\":{\"DATE_TIME\":\"now\",\"DESTINATION\":{\"intent\":\"GET_LOCATION\",\"slots\":null}, \"SEARCH_RADIUS\": \"10\"}}"
+    }
+]

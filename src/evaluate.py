@@ -1257,7 +1257,7 @@ def evaluate_repo(repo_path: str | Path, output_file: str) -> None:
     current_results[repo_name] = all_results
 
     with open(output_path, "w") as f:
-        json.dump(current_results, f, indent=4)
+        json.dump(current_results, f, indent=4, sort_keys=True)
 
     logging.info("Evaluation complete for repository: %s", repo_name)
 

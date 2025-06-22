@@ -10,8 +10,14 @@
         "overall": 699.697804722935
     },
     "gemma-3-4b-it_transformers": {
-        "1-rotowire": 27.92984371073544,
-        "overall": 27.92984371073544
+        "1-rotowire": 27.954102721996605,
+        "2-wiki_bio": 13.110798078589141,
+        "3-few_nerd": 4.022562122903764,
+        "4-TOPv1": 5.8429861618205905,
+        "5-api_bank": 3.4280658923089504,
+        "6-reasoning/GSM8K": 15.100168129429221,
+        "6-reasoning/last_letter": 26.002722343429923,
+        "overall": 95.4614054504782
     },
     "gemma-3-4b-it_vllm_outlines": {
         "1-rotowire": 1287.1084100073203,

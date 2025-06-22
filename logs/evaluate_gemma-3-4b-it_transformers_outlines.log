@@ -1,0 +1,26 @@
+2025-06-22 22:23:24,765 [INFO] Starting evaluation for repository: gemma-3-4b-it_transformers_outlines
+2025-06-22 22:23:24,799 [INFO] Evaluating task: 1-rotowire
+2025-06-22 22:23:24,799 [INFO] Computed scores for 1-rotowire
+2025-06-22 22:23:24,799 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.383, 'compliance': 0.87, 'is_valid': 1.0}
+2025-06-22 22:23:24,799 [INFO] Evaluating task: 2-wiki_bio
+2025-06-22 22:23:24,801 [INFO] Computed scores for 2-wiki_bio
+2025-06-22 22:23:24,801 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.158, 'compliance': 1.0, 'is_valid': 1.0}
+2025-06-22 22:23:24,801 [INFO] Evaluating task: 3-few_nerd
+2025-06-22 22:23:24,801 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["303rd Military Intelligence Battalion", "Longhorns"], "other": null, "person": null, "product": null} } - Fixing
+2025-06-22 22:23:24,802 [INFO] Computed scores for 3-few_nerd
+2025-06-22 22:23:24,802 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 1.0, 'compliance': 1.0, 'is_valid': 0.0}
+2025-06-22 22:23:24,802 [INFO] Evaluating task: 4-TOPv1
+2025-06-22 22:23:24,803 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-06-22 22:23:24,803 [INFO] Computed scores for 4-TOPv1
+2025-06-22 22:23:24,803 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.0, 'compliance': 0.0, 'is_valid': 0.0}
+2025-06-22 22:23:24,803 [INFO] Evaluating task: 5-api_bank
+2025-06-22 22:23:24,805 [INFO] Computed scores for 5-api_bank
+2025-06-22 22:23:24,805 [INFO] Aggregated scores for 5-api_bank: {'correctness': 1.0, 'compliance': 1.0, 'is_valid': 1.0}
+2025-06-22 22:23:24,805 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-06-22 22:23:24,805 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the temperature of the second mug in degrees.  Donny pours 4 ounces of 33-degree water into his bottle and 1 ounce of $x$-degree water into his bottle. The total volume is 5 ounces.  The final temperature is such that Donny can drink it, which means it is at least 40 degrees.  We can use the weighted average formula to find the final temperature: $\\frac{4 \\(33) + 1 \\(x)}{5} \\\\\\\\geq 40$.  Multiplying by 5, we get $4(33) + x \\\\\\\\geq 200$.  $132 + x \\\\\\\\geq 200$.  $x \\\\\\\\geq 200 - 132$. $x \\\\\\\\geq 68$. The temperature of the second mug must be at least 68 degrees. Since the prompt states Donny pours 4 ounces from the 33 degree mug and 1 ounce from the other mug, the volume of the second mug must be at least 1 ounce. The second bottle contains $x$ degrees. If he pours 4 ounces from the 33 degree mug into his bottle, the remaining water in the 33-degree mug is $y$ ounces. The second mug has $z$ ounces. The equation is $\\frac{4(33) + (z-1)x}{5} \\\\\\\\geq 40$. Let's suppose the other bottle has $z$ ounces (where $z \\\\\\\\geq 1$) and the temperature of the second bottle is $x$.  We pour 4 ounces from the 33 degree mug into the bottle, so we have 4 ounces. Then we pour 1 ounce from the second mug into the bottle, so we have $z - 1$.  The total volume is $4 + (z - 1) = z + 3$. Since the volume is 5, we have $z + 3 = 5$, so $z = 2$. But we had $z \\\\\\\\geq 1$. Let's rephrase the constraints.  The amount of water poured is $4+1=5$ ounces total.  So the amount of water in the other mug must be - Fixing
+2025-06-22 22:23:24,807 [INFO] Computed scores for 6-reasoning/GSM8K
+2025-06-22 22:23:24,807 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.0, 'compliance': 0.0, 'is_valid': 0.0}
+2025-06-22 22:23:24,807 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-06-22 22:23:24,807 [INFO] Computed scores for 6-reasoning/last_letter
+2025-06-22 22:23:24,807 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.0, 'compliance': 1.0, 'is_valid': 1.0}
+2025-06-22 22:23:24,808 [INFO] Evaluation complete for repository: gemma-3-4b-it_transformers_outlines
