@@ -1,0 +1,323 @@
+2025-06-17 22:48:43,619 [INFO] Starting evaluation for repository: Qwen3-1.7B
+2025-06-17 22:48:43,640 [INFO] Evaluating task: 1-rotowire
+2025-06-17 22:48:43,640 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Atlanta Hawks",
+      "wins": 9,
+      "losses": 2,
+      "total_points": 107,
+      "points_in_1st_quarter": 31,
+      "points_in_2nd_quarter": 9,
+      "points_in_3rd_quarter": 50,
+      "points_in_4th_quarter": 28,
+      "rebounds": 29,
+      "percentage_of_field_goals": 49,
+      "number_of_team_assists": 29
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "wins": 5,
+      "losses": 5,
+      "total_points": 100,
+      "points_in_1st_quarter": 12,
+      "points_in_2nd_quarter": 9,
+      "points_in_3rd_quarter": 28,
+      "points_in_4th_quarter": 4,
+      "rebounds": 35,
+      "percentage_of_field_goals": 49,
+      "number_of_team_assists": 26 - Fixing
+2025-06-17 22:48:43,640 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Mavericks",
+      "wins": 19,
+      "losses": 8,
+      "total_points": 100,
+      "number_of_team_assists": 17,
+      "percentage_of_field_goals": 47,
+      "rebounds": 55,
+      "turnovers": 7
+    },
+    {
+      "team": "Knicks",
+      "wins": 8,
+      "losses": 10,
+      "total_points": 90,
+      "number_of_team_assists": 17,
+      "percentage_of_field_goals": 42,
+      "rebounds": 36,
+      "turnovers": 18
+    }
+  ],
+  "players": [
+    {
+      "player": "Harrison Barnes",
+      "field_goals_attempted": 23,
+      "field_goals_made": 23,
+      "points": 20,
+      "field_goal_percentage": 100
+    },
+    {
+      "player": "Dirk Nowitzki",
+      "field_goals_attempted": 12,
+      "field_goals_m - Fixing
+2025-06-17 22:48:43,641 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Bulls",
+      "wins": 12,
+      "losses": 20,
+      "total_points": 115
+    },
+    {
+      "team": "Raptors",
+      "wins": 14,
+      "losses": 21,
+      "total_points": 113
+    }
+  ],
+  "players": [
+    {
+      "player": "Jimmy Butler",
+      "assists": 5,
+      "blocks": 1,
+      "3_pointers_made": 1,
+      "3_pointers_attempted": 23,
+      "3_pointer_percentage": 4,
+      "field_goals_made": 10,
+      "field_goals_attempted": 11,
+      "field_goal_percentage": 90,
+      "free_throws_made": 1,
+      "free_throws_attempted": 11,
+      "free_throw_percentage": 9,
+      "minutes_played": 38,
+      "points": 42,
+      "total_rebounds": 1,
+      "defensive_rebounds": 0,
+      "offensive - Fixing
+2025-06-17 22:48:43,641 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Houston Rockets",
+      "wins": 26,
+      "losses": 11,
+      "total_points": 97,
+      "turnovers": 0,
+      "points_in_1st_quarter": null,
+      "points_in_2nd_quarter": null,
+      "points_in_3rd_quarter": null,
+      "points_in_4th_quarter": null,
+      "rebounds": null,
+      "percentage_of_3_points": null,
+      "percentage_of_field_goals": null
+    },
+    {
+      "team": "Utah Jazz",
+      "wins": 13,
+      "losses": 25,
+      "total_points": 82,
+      "turnovers": 47,
+      "points_in_1st_quarter": null,
+      "points_in_2nd_quarter": null,
+      "points_in_3rd_quarter": null,
+      "points_in_4th_quarter": null,
+      "rebounds": null,
+      "percentage_of_3_points": null,
+      "percentage_of_field_goals": null
+    }
+  ],
+  "players - Fixing
+2025-06-17 22:48:43,641 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    { "team": "San Antonio Spurs", "wins": 29, "losses": 17, "total_points": 101 },
+    { "team": "Milwaukee Bucks", "wins": 22, "losses": 22, "total_points": 95 }
+  ],
+  "players": [
+    { "player": "Tim Duncan", "points": 20, "assists": 11, "rebounds": 11, "turnovers": 0, "field_goals_made": 9, "field_goals_attempted": 13, "field_goal_percentage": 69, "free_throws_made": 4, "free_throws_attempted": 4, "free_throw_percentage": 100, "minutes_played": 31 },
+    { "player": "Kawhi Leonard", "points": 19, "assists": 14, "rebounds": 14, "turnovers": 0, "field_goals_made": 4, "field_goals_attempted": 11, "field_goal_percentage": 3 - Fixing
+2025-06-17 22:48:43,642 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Minnesota Timberwolves",
+      "wins": 10,
+      "losses": 5,
+      "total_points": 103,
+      "points_in_1st_quarter": 34,
+      "points_in_4th_quarter": 14,
+      "points_in_2nd_quarter": 24
+    },
+    {
+      "team": "Golden State Warriors",
+      "wins": 8,
+      "losses": 7,
+      "total_points": 102,
+      "points_in_1st_quarter": 10,
+      "points_in_4th_quarter": 130,
+      "points_in_2nd_quarter": 1
+    }
+  ],
+  "players": [
+    {
+      "player": "Klay Thompson",
+      "assists": 0,
+      "3_pointers_attempted": 22,
+      "3_pointers_made": 12,
+      "field_goals_attempted": 22,
+      "field_goals_made": 12,
+      "minutes_played": 35,
+      "points - Fixing
+2025-06-17 22:48:43,642 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    { "team": "Grizzlies", "wins": 11, "losses": 1, "total_points": 102 },
+    { "team": "Suns", "wins": 8, "losses": 2, "total_points": 91 }
+  ],
+  "players": [
+    { "player": "Marc Gasol", "assists": 8, "blocks": 3, "field_goals_made": 15, "free_throws_made": 15, "offensive_rebounds": 5, "points": 15, "total_rebounds": 6, "steals": 0, "turnovers": 0 },
+    { "player": "Eric Bledsoe", "assists": 8, "blocks": 2, "field_goals_made": 21, "free_throws_made": 10, "offensive_rebounds": 7, "points": 21, "total_rebounds": 14, "steals": 4, "turnovers": 0 },
+    { "player": "Isaiah Thomas", - Fixing
+2025-06-17 22:48:43,642 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Los Angeles Lakers",
+      "wins": 7,
+      "losses": 2,
+      "total_points": 93,
+      "turnovers": 10,
+      "percentage_of_field_goals": 38,
+      "rebounds": 10,
+      "percentage_of_3_points": 23,
+      "number_of_team_assists": 5
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "wins": 3,
+      "losses": 2,
+      "total_points": 84,
+      "turnovers": 16,
+      "percentage_of_field_goals": 38,
+      "rebounds": 8,
+      "percentage_of_3_points": 23,
+      "number_of_team_assists": 0
+    }
+  ],
+  "players": [
+    {
+      "player": "Nerlens Noel",
+      "assists": 3,
+      "blocks": 3,
+      "3_pointers_made": 0,
+      "3_pointers_attempted": 0,
+      "3_pointer_percentage": 0,
+      " - Fixing
+2025-06-17 22:48:43,643 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Wizards",
+      "wins": null,
+      "losses": null,
+      "total_points": 100,
+      "points_in_1st_quarter": null,
+      "points_in_2nd_quarter": null,
+      "points_in_3rd_quarter": null,
+      "points_in_4th_quarter": null,
+      "rebounds": null,
+      "percentage_of_3_points": null,
+      "percentage_of_field_goals": 51
+    },
+    {
+      "team": "Spurs",
+      "wins": null,
+      "losses": null,
+      "total_points": 100,
+      "points_in_1st_quarter": null,
+      "points_in_2nd_quarter": null,
+      "points_in_3rd_quarter": null,
+      "points_in_4th_quarter": null,
+      "rebounds": null,
+      "percentage_of_3_points": null,
+      "percentage_of_field_goals": 49
+    }
+  ],
+  "players": [
+    {
+      "player": "Marcin Gortat",
+      "assists": - Fixing
+2025-06-17 22:48:43,643 [WARNING] Invalid JSON string: ```json
+{
+  "teams": [
+    {
+      "team": "Portland Trail Blazers",
+      "wins": 40,
+      "losses": 36,
+      "total_points": 116
+    },
+    {
+      "team": "Boston Celtics",
+      "wins": 43,
+      "losses": 32,
+      "total_points": 109
+    }
+  ],
+  "players": [
+    {
+      "player": "Jae Crowder",
+      "assists": 0,
+      "blocks": 0,
+      "3_pointers_attempted": 0,
+      "3_pointers_made": 0,
+      "field_goals_attempted": 0,
+      "field_goals_made": 0,
+      "free_throws_attempted": 0,
+      "free_throws_made": 0,
+      "minutes_played": 36,
+      "points": 13,
+      "total_rebounds": 10,
+      "defensive_rebounds": 0,
+      "offensive_rebounds": 0,
+      "steals": 0,
+      "turnovers": 0,
+      "personal_fouls - Fixing
+2025-06-17 22:48:43,643 [INFO] Computed scores for 1-rotowire
+2025-06-17 22:48:43,643 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.355, 'is_valid': 0.0, 'compliance': 0.87}
+2025-06-17 22:48:43,643 [INFO] Evaluating task: 2-wiki_bio
+2025-06-17 22:48:43,646 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-06-17 22:48:43,648 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
+2025-06-17 22:48:43,649 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
+2025-06-17 22:48:43,651 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-17 22:48:43,651 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-17 22:48:43,651 [INFO] Computed scores for 2-wiki_bio
+2025-06-17 22:48:43,651 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.283, 'is_valid': 0.9, 'compliance': 0.952}
+2025-06-17 22:48:43,651 [INFO] Evaluating task: 3-few_nerd
+2025-06-17 22:48:43,652 [INFO] Computed scores for 3-few_nerd
+2025-06-17 22:48:43,653 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.329, 'is_valid': 1.0, 'compliance': 1.0}
+2025-06-17 22:48:43,653 [INFO] Evaluating task: 4-TOPv1
+2025-06-17 22:48:43,659 [INFO] Computed scores for 4-TOPv1
+2025-06-17 22:48:43,659 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.332, 'is_valid': 1.0, 'compliance': 1.0}
+2025-06-17 22:48:43,659 [INFO] Evaluating task: 5-api_bank
+2025-06-17 22:48:43,659 [WARNING] Invalid JSON string: API-Request: {"api_name":"Dictionary","parameters":{"keyword":"resilience"}} - Fixing
+2025-06-17 22:48:43,660 [WARNING] Invalid JSON string: API-Request: {"api_name":"EmergencyKnowledge","parameters":{"symptom":"headache"}} - Fixing
+2025-06-17 22:48:43,661 [WARNING] Invalid JSON string: API-Request: {"api_name":"QueryBalance","parameters":{"token":"p9o8i7u6y5t4r3e2w1q"}} - Fixing
+2025-06-17 22:48:43,662 [WARNING] Invalid JSON string: API-Request: {"api_name":"DeleteAgenda","parameters":{"token":"p9o8i7u6y5t4k3e2w1q","content":"Dinner with friends","time":"2023-03-20 18:00:00","location":"Cheesecake Factory"}} - Fixing
+2025-06-17 22:48:43,664 [WARNING] Invalid JSON string: API-Request: {"api_name":"QueryHealthData","parameters":{"user_id":"A12345","start_time":"2023-03-08 00:00:00","end_time":"2023-03-15 23:59:59"}} - Fixing
+2025-06-17 22:48:43,665 [WARNING] Invalid JSON string: API-Request: {"api_name":"DocumentQA","parameters":{"url":"https://www.example.com/article-4.txt","question":"What are the key features of this software?"}} - Fixing
+2025-06-17 22:48:43,666 [WARNING] Invalid JSON string: API-Request: {"api_name":"QueryHistoryToday","parameters":{"date":"04-21"}} - Fixing
+2025-06-17 22:48:43,667 [WARNING] Invalid JSON string: API-Request: {"api_name":"RecordHealthData","parameters":{"user_id":"12345","time":"2023-09-17 10:30:00","health_data":[{"name":"blood_pressure","value":"120/80"},{"name":"heart_rate","value":"75"}]}} - Fixing
+2025-06-17 22:48:43,669 [WARNING] Invalid JSON string: API-Request: {"api_name":"QueryBalance","parameters":{"token":"q9w8e7r6t5y4u3i2o1"}} - Fixing
+2025-06-17 22:48:43,670 [WARNING] Invalid JSON string: API-Request: {"api_name":"EmergencyKnowledge","parameters":{"symptom":"Shortness of breath"}} - Fixing
+2025-06-17 22:48:43,671 [INFO] Computed scores for 5-api_bank
+2025-06-17 22:48:43,671 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.821, 'is_valid': 0.0, 'compliance': 1.0}
+2025-06-17 22:48:43,671 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-06-17 22:48:43,672 [WARNING] Benchmark file not found, skipping: results/Qwen3-1.7B/6-reasoning/GSM8K/generated.json
+2025-06-17 22:48:43,672 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-06-17 22:48:43,672 [WARNING] Benchmark file not found, skipping: results/Qwen3-1.7B/6-reasoning/last_letter/generated.json
+2025-06-17 22:48:43,673 [INFO] Evaluation complete for repository: Qwen3-1.7B

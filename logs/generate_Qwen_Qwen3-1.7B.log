@@ -1,0 +1,8 @@
+2025-06-14 17:01:45,635 [INFO] Loading model Qwen/Qwen3-1.7B to models
+2025-06-14 17:01:48,453 [INFO] Model loaded on device mps:0
+2025-06-14 17:01:48,453 [INFO] Processing task: 1-rotowire
+2025-06-14 17:05:44,285 [INFO] Processing task: 2-wiki_bio
+2025-06-14 17:09:59,092 [INFO] Processing task: 3-few_nerd
+2025-06-14 17:12:23,159 [INFO] Processing task: 4-TOPv1
+2025-06-14 17:15:11,193 [INFO] Processing task: 5-api_bank
+2025-06-14 17:17:06,327 [INFO] Processing task: 6-reasoning
