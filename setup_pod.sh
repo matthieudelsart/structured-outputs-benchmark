@@ -1,10 +1,7 @@
 #!/bin/bash
-
-cd ..
-cd /workspace
-
-git clone https://github.com/matthieudelsart/structured-outputs
+python -m pip install --upgrade pip
 pip install uv 
 uv sync
-
-uv huggingface-cli login --token XXX
+git config --global user.email "matthieu.delsart@gmail.com"
+uv pip install flash-attn --no-build-isolation
+uv run huggingface-cli login --token xxx

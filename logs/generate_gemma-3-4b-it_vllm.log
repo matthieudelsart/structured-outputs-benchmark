@@ -1,0 +1,2006 @@
+2025-06-22 15:54:11,392 [INFO] Loading model 'google/gemma-3-4b-it' with vLLM …
+2025-06-22 15:54:57,763 [INFO] Processing task: 1-rotowire
+2025-06-22 16:16:39,398 [INFO] Task 1-rotowire completed in 1301.63 s
+2025-06-22 16:16:39,398 [INFO] Processing task: 2-wiki_b2025-06-22 16:35:22,543 [INFO] Task 2-wiki_bio completed in 1123.15 s
+2025-06-22 16:35:22,543 [INFO] Processing task: 3-few_nerd
+2025-06-22 16:46:57,552 [INFO] Task 3-few_nerd completed in 695.01 s
+2025-06-22 16:46:57,552 [INFO] Processing task: 4-TOPv1
+2025-06-22 16:49:58,942 [INFO] Task 4-TOPv1 completed in 181.39 s
+2025-06-22 16:49:58,942 [INFO] Processing task: 5-api_2025-06-22 17:01:47,709 [INFO] Task 5-api_bank completed in 708.77 s
+2025-06-22 17:01:47,709 [INFO] Processing task: 6-reasoning
+2025-06-22 17:01:47,709 [INFO]   > subtask GSM8K
+graph shapes:  14%|#4        | 5/35 [00:02<00:14,  2.13it/s]
+Capturing CUDA graph shapes:  17%|#7        | 6/35 [00:02<00:13,  2.12it/s]
+Capturing CUDA graph shapes:  20%|##        | 7/35 [00:03<00:13,  2.14it/s]
+Capturing CUDA graph shapes:  23%|##2       | 8/35 [00:03<00:12,  2.09it/s]
+Capturing CUDA graph shapes:  26%|##5       | 9/35 [00:04<00:12,  2.10it/s]
+Capturing CUDA graph shapes:  29%|##8       | 10/35 [00:04<00:11,  2.11it/s]
+Capturing CUDA graph shapes:  31%|###1      | 11/35 [00:05<00:11,  2.11it/s]
+Capturing CUDA graph shapes:  34%|###4      | 12/35 [00:05<00:10,  2.13it/s]
+Capturing CUDA graph shapes:  37%|###7      | 13/35 [00:06<00:10,  2.14it/s]
+Capturing CUDA graph shapes:  40%|####      | 14/35 [00:06<00:09,  2.16it/s]
+Capturing CUDA graph shapes:  43%|####2     | 15/35 [00:07<00:09,  2.16it/s]
+Capturing CUDA graph shapes:  46%|####5     | 16/35 [00:07<00:08,  2.12it/s]
+Capturing CUDA graph shapes:  49%|####8     | 17/35 [00:08<00:08,  2.13it/s]
+Capturing CUDA graph shapes:  51%|#####1    | 18/35 [00:08<00:08,  2.10it/s]
+Capturing CUDA graph shapes:  54%|#####4    | 19/35 [00:09<00:07,  2.13it/s]
+Capturing CUDA graph shapes:  57%|#####7    | 20/35 [00:09<00:07,  2.11it/s]
+Capturing CUDA graph shapes:  60%|######    | 21/35 [00:09<00:06,  2.14it/s]
+Capturing CUDA graph shapes:  63%|######2   | 22/35 [00:10<00:06,  2.13it/s]
+Capturing CUDA graph shapes:  66%|######5   | 23/35 [00:10<00:05,  2.12it/s]
+Capturing CUDA graph shapes:  69%|######8   | 24/35 [00:11<00:05,  2.13it/s]
+Capturing CUDA graph shapes:  71%|#######1  | 25/35 [00:11<00:04,  2.12it/s]
+Capturing CUDA graph shapes:  74%|#######4  | 26/35 [00:12<00:04,  2.14it/s]
+Capturing CUDA graph shapes:  77%|#######7  | 27/35 [00:12<00:03,  2.10it/s]
+Capturing CUDA graph shapes:  80%|########  | 28/35 [00:13<00:03,  2.12it/s]
+Capturing CUDA graph shapes:  83%|########2 | 29/35 [00:13<00:02,  2.11it/s]
+Capturing CUDA graph shapes:  86%|########5 | 30/35 [00:14<00:02,  2.12it/s]
+Capturing CUDA graph shapes:  89%|########8 | 31/35 [00:14<00:01,  2.15it/s]
+Capturing CUDA graph shapes:  91%|#########1| 32/35 [00:15<00:01,  2.13it/s]
+Capturing CUDA graph shapes:  94%|#########4| 33/35 [00:15<00:00,  2.14it/s]
+Capturing CUDA graph shapes:  97%|#########7| 34/35 [00:16<00:00,  2.14it/s]
+Capturing CUDA graph shapes: 100%|##########| 35/35 [00:16<00:00,  1.97it/s]
+Capturing CUDA graph shapes: 100%|##########| 35/35 [00:16<00:00,  2.10it/s]
+
+Generating (1-rotowire):   0%|          | 0/100 [00:00<?, ?it/s]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:13<03:19, 13.30s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:24<02:45, 11.84s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:35<02:30, 11.54s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:46<02:15, 11.30s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:57<02:02, 11.11s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:07<01:50, 11.06s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:18<01:38, 10.99s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:29<01:27, 10.92s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:40<01:16, 10.87s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:51<01:05, 10.91s/it][A
+
+Adding requests:  69%|######8   | 11/16 [02:02<00:54, 10.90s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [02:13<00:43, 10.89s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:24<00:32, 10.97s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:35<00:21, 10.95s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:45<00:10, 10.91s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:56<00:00, 10.92s/it][A
+Adding requests: 100%|##########| 16/16 [02:56<00:00, 11.06s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:46,  3.11s/it, est. speed input: 606.93 toks/s, output: 2.25 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:05<00:00,  3.51it/s, est. speed input: 5317.23 toks/s, output: 39.23 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:05<00:00,  2.96it/s, est. speed input: 5317.23 toks/s, output: 39.23 toks/s]
+
+Generating (1-rotowire):  16%|#6        | 16/100 [03:02<15:57, 11.39s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:10<02:43, 10.93s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:21<02:33, 10.95s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:32<02:22, 10.97s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:43<02:12, 11.01s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:54<02:00, 10.97s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:05<01:50, 11.03s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:16<01:38, 10.96s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:27<01:28, 11.01s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:39<01:17, 11.13s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:49<01:05, 10.93s/it][A
+
+Adding requests:  69%|######8   | 11/16 [02:00<00:54, 10.87s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [02:11<00:43, 10.91s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:22<00:32, 10.95s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:33<00:21, 10.98s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:44<00:10, 10.88s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:55<00:00, 10.85s/it][A
+Adding requests: 100%|##########| 16/16 [02:55<00:00, 10.94s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:45,  3.00s/it, est. speed input: 536.09 toks/s, output: 2.00 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:03<00:00,  5.28it/s, est. speed input: 9363.04 toks/s, output: 36.65 toks/s]
+
+Generating (1-rotowire):  32%|###2      | 32/100 [06:00<12:44, 11.24s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:11<02:45, 11.06s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:21<02:32, 10.86s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:32<02:22, 10.97s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:43<02:12, 11.03s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:54<02:00, 10.96s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:05<01:48, 10.87s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:16<01:37, 10.87s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:27<01:27, 10.96s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:38<01:17, 11.00s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:49<01:05, 10.96s/it][A
+
+Adding requests:  69%|######8   | 11/16 [02:00<00:54, 10.91s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [02:11<00:43, 10.94s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:22<00:32, 10.97s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:33<00:21, 10.97s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:45<00:11, 11.17s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:56<00:00, 11.28s/it][A
+Adding requests: 100%|##########| 16/16 [02:56<00:00, 11.03s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:46,  3.11s/it, est. speed input: 629.25 toks/s, output: 1.93 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:48<00:00,  3.03s/it, est. speed input: 589.28 toks/s, output: 41.03 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:48<00:00,  3.03s/it, est. speed input: 589.28 toks/s, output: 41.03 toks/s]
+
+Generating (1-rotowire):  48%|####8     | 48/100 [09:45<10:51, 12.53s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:11<02:54, 11.64s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:23<02:44, 11.74s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:35<02:31, 11.68s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:46<02:19, 11.64s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:58<02:08, 11.68s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:10<01:56, 11.67s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:21<01:44, 11.61s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:33<01:33, 11.66s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:44<01:21, 11.66s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:56<01:10, 11.71s/it][A
+
+Adding requests:  69%|######8   | 11/16 [02:08<00:58, 11.71s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [02:20<00:47, 11.83s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:32<00:35, 11.85s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:44<00:23, 11.77s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:55<00:11, 11.68s/it][A
+
+Adding requests: 100%|##########| 16/16 [03:06<00:00, 11.56s/it][A
+Adding requests: 100%|##########| 16/16 [03:06<00:00, 11.68s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:49,  3.32s/it, est. speed input: 490.91 toks/s, output: 2.11 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:03<00:00,  5.27it/s, est. speed input: 7099.41 toks/s, output: 30.92 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  2.21it/s, est. speed input: 4020.05 toks/s, output: 36.88 toks/s]
+
+Generating (1-rotowire):  64%|######4   | 64/100 [12:59<07:25, 12.37s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:11<02:48, 11.20s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:22<02:38, 11.35s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:34<02:30, 11.61s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:45<02:16, 11.41s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:56<02:04, 11.36s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:08<01:53, 11.35s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:19<01:42, 11.39s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:31<01:31, 11.49s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:42<01:20, 11.44s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:54<01:09, 11.63s/it][A
+
+Adding requests:  69%|######8   | 11/16 [02:06<00:58, 11.62s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [02:18<00:46, 11.60s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:29<00:34, 11.58s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:41<00:23, 11.59s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:52<00:11, 11.59s/it][A
+
+Adding requests: 100%|##########| 16/16 [03:04<00:00, 11.58s/it][A
+Adding requests: 100%|##########| 16/16 [03:04<00:00, 11.52s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:47,  3.17s/it, est. speed input: 553.74 toks/s, output: 2.20 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:35<00:00,  2.21s/it, est. speed input: 817.18 toks/s, output: 38.02 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:35<00:00,  2.23s/it, est. speed input: 817.18 toks/s, output: 38.02 toks/s]
+
+Generating (1-rotowire):  80%|########  | 80/100 [16:39<04:17, 12.87s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:11<02:58, 11.93s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:23<02:41, 11.57s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:34<02:30, 11.56s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:46<02:17, 11.49s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:57<02:06, 11.50s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:09<01:55, 11.52s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:20<01:42, 11.35s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:30<01:29, 11.14s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:41<01:16, 10.90s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:51<01:04, 10.80s/it][A
+
+Adding requests:  69%|######8   | 11/16 [02:02<00:54, 10.80s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [02:13<00:43, 10.82s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:24<00:32, 10.88s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:35<00:22, 11.03s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:46<00:11, 11.01s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:57<00:00, 11.00s/it][A
+Adding requests: 100%|##########| 16/16 [02:57<00:00, 11.12s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:49,  3.32s/it, est. speed input: 491.43 toks/s, output: 2.11 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [01:18<00:05,  5.24s/it, est. speed input: 363.95 toks/s, output: 25.31 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [01:20<00:00,  4.96s/it, est. speed input: 381.34 toks/s, output: 49.19 toks/s][A
+Processed prompts: 100%|##########| 16/16 [01:20<00:00,  5.00s/it, est. speed input: 381.34 toks/s, output: 49.19 toks/s]
+
+Generating (1-rotowire):  96%|#########6| 96/100 [20:57<00:55, 13.97s/it]
+
+Adding requests:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Adding requests:  25%|##5       | 1/4 [00:10<00:32, 10.79s/it][A
+
+Adding requests:  50%|#####     | 2/4 [00:21<00:21, 10.85s/it][A
+
+Adding requests:  75%|#######5  | 3/4 [00:32<00:10, 10.98s/it][A
+
+Adding requests: 100%|##########| 4/4 [00:43<00:00, 10.82s/it][A
+Adding requests: 100%|##########| 4/4 [00:43<00:00, 10.85s/it]
+
+
+Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:  25%|##5       | 1/4 [00:00<00:02,  1.22it/s, est. speed input: 2084.41 toks/s, output: 8.52 toks/s][A
+Processed prompts: 100%|##########| 4/4 [00:00<00:00,  4.87it/s, est. speed input: 8394.75 toks/s, output: 34.08 toks/s]
+
+Generating (1-rotowire): 100%|##########| 100/100 [21:41<00:00, 13.66s/it]
+Generating (1-rotowire): 100%|##########| 100/100 [21:41<00:00, 13.02s/it]
+2025-06-22 16:16:39,398 [INFO] Task 1-rotowire completed in 1301.63 s
+
+Generating (2-wiki_bio):   0%|          | 0/100 [00:00<?, ?it/s]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:10<02:37, 10.53s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:19<02:14,  9.59s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:27<01:53,  8.70s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:31<01:24,  7.01s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:37<01:11,  6.50s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:54<01:40, 10.08s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:58<01:14,  8.25s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:12<01:21, 10.13s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:20<01:05,  9.34s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:24<00:45,  7.60s/it][A
+
+Adding requests:  69%|######8   | 11/16 [01:32<00:38,  7.78s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:40<00:31,  7.87s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:50<00:25,  8.62s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:57<00:16,  8.15s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:12<00:10, 10.14s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:20<00:00,  9.41s/it][A
+Adding requests: 100%|##########| 16/16 [02:20<00:00,  8.76s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:05<01:22,  5.47s/it, est. speed input: 206.09 toks/s, output: 5.49 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:07<00:48,  3.49s/it, est. speed input: 262.95 toks/s, output: 9.51 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:09<00:37,  2.91s/it, est. speed input: 303.78 toks/s, output: 12.85 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:14<00:43,  3.65s/it, est. speed input: 280.62 toks/s, output: 14.26 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:17<00:38,  3.50s/it, est. speed input: 301.13 toks/s, output: 17.28 toks/s][A
+
+Processed prompts:  38%|###7      | 6/16 [00:17<00:23,  2.37s/it, est. speed input: 363.26 toks/s, output: 22.74 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:18<00:17,  1.91s/it, est. speed input: 393.99 toks/s, output: 27.24 toks/s][A
+
+Processed prompts:  50%|#####     | 8/16 [00:20<00:13,  1.70s/it, est. speed input: 419.00 toks/s, output: 31.28 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:21<00:11,  1.60s/it, est. speed input: 433.77 toks/s, output: 35.11 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:22<00:07,  1.24s/it, est. speed input: 489.02 toks/s, output: 40.34 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:22<00:04,  1.05it/s, est. speed input: 526.32 toks/s, output: 45.79 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:23<00:04,  1.03s/it, est. speed input: 545.69 toks/s, output: 49.69 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:24<00:03,  1.04s/it, est. speed input: 566.03 toks/s, output: 54.09 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:25<00:01,  1.17it/s, est. speed input: 596.37 toks/s, output: 59.98 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:25<00:00,  1.33it/s, est. speed input: 622.58 toks/s, output: 65.96 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:32<00:00,  2.68s/it, est. speed input: 518.47 toks/s, output: 65.45 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:32<00:00,  2.04s/it, est. speed input: 518.47 toks/s, output: 65.45 toks/s]
+
+Generating (2-wiki_bio):  16%|#6        | 16/100 [02:52<15:07, 10.81s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:14<03:41, 14.76s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:17<01:50,  7.88s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:20<01:09,  5.32s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:29<01:22,  6.87s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:37<01:22,  7.51s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:48<01:25,  8.52s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:54<01:09,  7.77s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:00<00:58,  7.26s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:04<00:42,  6.13s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:14<00:43,  7.18s/it][A
+
+Adding requests:  69%|######8   | 11/16 [01:25<00:42,  8.44s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:31<00:30,  7.69s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:39<00:23,  7.70s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:44<00:14,  7.16s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:53<00:07,  7.65s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:02<00:00,  8.06s/it][A
+Adding requests: 100%|##########| 16/16 [02:02<00:00,  7.67s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:04<01:07,  4.50s/it, est. speed input: 191.62 toks/s, output: 6.88 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:06<00:39,  2.81s/it, est. speed input: 322.98 toks/s, output: 11.42 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:07<00:25,  1.96s/it, est. speed input: 404.21 toks/s, output: 16.25 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:11<00:33,  2.76s/it, est. speed input: 335.67 toks/s, output: 17.16 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:11<00:21,  1.92s/it, est. speed input: 397.94 toks/s, output: 23.29 toks/s][A
+
+Processed prompts:  38%|###7      | 6/16 [00:11<00:13,  1.32s/it, est. speed input: 480.92 toks/s, output: 29.76 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:12<00:09,  1.05s/it, est. speed input: 541.27 toks/s, output: 35.41 toks/s][A
+
+Processed prompts:  50%|#####     | 8/16 [00:14<00:10,  1.37s/it, est. speed input: 526.43 toks/s, output: 37.27 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:15<00:08,  1.28s/it, est. speed input: 558.30 toks/s, output: 41.78 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:16<00:06,  1.11s/it, est. speed input: 598.00 toks/s, output: 47.21 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:16<00:04,  1.19it/s, est. speed input: 655.33 toks/s, output: 53.88 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:16<00:02,  1.55it/s, est. speed input: 722.32 toks/s, output: 60.66 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:19<00:04,  1.48s/it, est. speed input: 648.12 toks/s, output: 58.25 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:20<00:02,  1.33s/it, est. speed input: 689.27 toks/s, output: 63.84 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:21<00:01,  1.12s/it, est. speed input: 719.55 toks/s, output: 70.67 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:21<00:00,  1.10it/s, est. speed input: 781.01 toks/s, output: 78.56 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:21<00:00,  1.37s/it, est. speed input: 781.01 toks/s, output: 78.56 toks/s]
+
+Generating (2-wiki_bio):  32%|###2      | 32/100 [05:17<11:04,  9.77s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:04<01:07,  4.49s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:18<02:20, 10.04s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:26<02:01,  9.36s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:47<02:44, 13.74s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:52<01:56, 10.59s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:57<01:28,  8.84s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:04<01:12,  8.03s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:09<00:57,  7.24s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:13<00:43,  6.16s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:22<00:42,  7.00s/it][A
+
+Adding requests:  69%|######8   | 11/16 [01:31<00:37,  7.48s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:38<00:29,  7.33s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:46<00:23,  7.69s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:59<00:18,  9.25s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:08<00:09,  9.30s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:17<00:00,  9.10s/it][A
+Adding requests: 100%|##########| 16/16 [02:17<00:00,  8.59s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:08<02:02,  8.17s/it, est. speed input: 127.66 toks/s, output: 5.39 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:11<01:12,  5.20s/it, est. speed input: 179.40 toks/s, output: 9.39 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:13<00:47,  3.69s/it, est. speed input: 220.80 toks/s, output: 13.58 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:13<00:29,  2.43s/it, est. speed input: 295.63 toks/s, output: 18.63 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:14<00:22,  2.01s/it, est. speed input: 332.75 toks/s, output: 22.67 toks/s][A
+
+Processed prompts:  38%|###7      | 6/16 [00:16<00:18,  1.80s/it, est. speed input: 360.35 toks/s, output: 26.47 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:16<00:11,  1.27s/it, est. speed input: 440.52 toks/s, output: 32.01 toks/s][A
+
+Processed prompts:  50%|#####     | 8/16 [00:16<00:07,  1.10it/s, est. speed input: 507.84 toks/s, output: 37.56 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:17<00:06,  1.16it/s, est. speed input: 536.08 toks/s, output: 41.83 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:18<00:04,  1.26it/s, est. speed input: 580.10 toks/s, output: 46.44 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:18<00:03,  1.43it/s, est. speed input: 623.12 toks/s, output: 51.63 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:20<00:04,  1.14s/it, est. speed input: 606.64 toks/s, output: 53.66 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:21<00:03,  1.06s/it, est. speed input: 634.60 toks/s, output: 59.14 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:23<00:00,  1.04it/s, est. speed input: 684.94 toks/s, output: 71.02 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [01:15<00:00, 13.73s/it, est. speed input: 223.94 toks/s, output: 48.99 toks/s][A
+Processed prompts: 100%|##########| 16/16 [01:15<00:00,  4.72s/it, est. speed input: 223.94 toks/s, output: 48.99 toks/s]
+
+Generating (2-wiki_bio):  48%|####8     | 48/100 [08:50<09:51, 11.38s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:06<01:43,  6.88s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:13<01:33,  6.70s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:25<01:58,  9.14s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:32<01:37,  8.12s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:40<01:29,  8.18s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:46<01:13,  7.39s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:54<01:09,  7.69s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:07<01:16,  9.51s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:14<01:00,  8.64s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:19<00:45,  7.56s/it][A
+
+Adding requests:  69%|######8   | 11/16 [01:41<00:59, 11.97s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:49<00:42, 10.56s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:56<00:29,  9.68s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:05<00:19,  9.55s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:22<00:11, 11.51s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:30<00:00, 10.52s/it][A
+Adding requests: 100%|##########| 16/16 [02:30<00:00,  9.39s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:06<01:35,  6.38s/it, est. speed input: 159.98 toks/s, output: 7.21 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:09<01:04,  4.59s/it, est. speed input: 225.64 toks/s, output: 11.22 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:10<00:36,  2.80s/it, est. speed input: 297.29 toks/s, output: 16.84 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:12<00:32,  2.71s/it, est. speed input: 313.47 toks/s, output: 19.61 toks/s][A
+
+Processed prompts:  38%|###7      | 6/16 [00:14<00:17,  1.79s/it, est. speed input: 405.65 toks/s, output: 28.30 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:16<00:15,  1.73s/it, est. speed input: 422.72 toks/s, output: 31.51 toks/s][A
+
+Processed prompts:  50%|#####     | 8/16 [00:16<00:10,  1.28s/it, est. speed input: 514.98 toks/s, output: 37.15 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:19<00:11,  1.65s/it, est. speed input: 494.26 toks/s, output: 38.33 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:19<00:07,  1.23s/it, est. speed input: 539.24 toks/s, output: 44.11 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:20<00:06,  1.26s/it, est. speed input: 563.01 toks/s, output: 47.67 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:21<00:03,  1.03it/s, est. speed input: 606.20 toks/s, output: 53.56 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:22<00:03,  1.20s/it, est. speed input: 604.52 toks/s, output: 57.02 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:24<00:00,  1.25it/s, est. speed input: 700.44 toks/s, output: 77.67 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:24<00:00,  1.51s/it, est. speed input: 700.44 toks/s, output: 77.67 toks/s]
+
+Generating (2-wiki_bio):  64%|######4   | 64/100 [11:44<06:42, 11.19s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:11<02:49, 11.33s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:16<01:46,  7.60s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:27<02:00,  9.27s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:47<02:42, 13.54s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:58<02:18, 12.63s/it][A
+
+Adding requests:  38%|###7      | 6/16 [01:05<01:45, 10.56s/it][A
+
+Adding requests:  44%|####3     | 7/16 [01:17<01:40, 11.18s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:30<01:34, 11.77s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:40<01:18, 11.23s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:45<00:55,  9.18s/it][A
+
+Adding requests:  69%|######8   | 11/16 [01:52<00:42,  8.50s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:58<00:31,  7.84s/it][A
+
+Adding requests:  81%|########1 | 13/16 [02:07<00:24,  8.24s/it][A
+
+Adding requests:  88%|########7 | 14/16 [02:12<00:14,  7.31s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:23<00:08,  8.17s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:32<00:00,  8.48s/it][A
+Adding requests: 100%|##########| 16/16 [02:32<00:00,  9.52s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:05<01:24,  5.65s/it, est. speed input: 162.38 toks/s, output: 7.43 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:06<00:35,  2.55s/it, est. speed input: 426.07 toks/s, output: 14.58 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:08<00:31,  2.42s/it, est. speed input: 421.72 toks/s, output: 17.73 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:10<00:29,  2.47s/it, est. speed input: 406.13 toks/s, output: 20.47 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:11<00:21,  1.95s/it, est. speed input: 452.07 toks/s, output: 25.78 toks/s][A
+
+Processed prompts:  38%|###7      | 6/16 [00:12<00:14,  1.40s/it, est. speed input: 536.29 toks/s, output: 32.18 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:12<00:09,  1.10s/it, est. speed input: 667.94 toks/s, output: 38.18 toks/s][A
+
+Processed prompts:  50%|#####     | 8/16 [00:13<00:07,  1.01it/s, est. speed input: 706.33 toks/s, output: 43.19 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:14<00:06,  1.12it/s, est. speed input: 752.13 toks/s, output: 48.55 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:16<00:04,  1.06it/s, est. speed input: 813.93 toks/s, output: 57.17 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:16<00:03,  1.27it/s, est. speed input: 858.62 toks/s, output: 64.22 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:16<00:02,  1.39it/s, est. speed input: 888.38 toks/s, output: 70.92 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:17<00:00,  1.84it/s, est. speed input: 986.77 toks/s, output: 86.28 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:17<00:00,  2.03it/s, est. speed input: 1024.01 toks/s, output: 94.78 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:17<00:00,  1.12s/it, est. speed input: 1024.01 toks/s, output: 94.78 toks/s]
+
+Generating (2-wiki_bio):  80%|########  | 80/100 [14:35<03:39, 10.99s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:06<01:38,  6.58s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:15<01:52,  8.06s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:25<01:53,  8.73s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:38<02:05, 10.45s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:40<01:23,  7.56s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:46<01:09,  6.92s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:58<01:18,  8.76s/it][A
+
+Adding requests:  50%|#####     | 8/16 [01:03<00:59,  7.39s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [01:14<00:58,  8.41s/it][A
+
+Adding requests:  62%|######2   | 10/16 [01:21<00:49,  8.20s/it][A
+
+Adding requests:  69%|######8   | 11/16 [01:26<00:35,  7.16s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:34<00:29,  7.31s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:40<00:21,  7.07s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:46<00:13,  6.78s/it][A
+
+Adding requests:  94%|#########3| 15/16 [02:00<00:08,  8.90s/it][A
+
+Adding requests: 100%|##########| 16/16 [02:11<00:00,  9.36s/it][A
+Adding requests: 100%|##########| 16/16 [02:11<00:00,  8.19s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:03<00:51,  3.41s/it, est. speed input: 297.81 toks/s, output: 4.99 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:11<01:22,  5.88s/it, est. speed input: 186.40 toks/s, output: 6.53 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:12<00:49,  3.84s/it, est. speed input: 239.38 toks/s, output: 10.70 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:17<00:50,  4.17s/it, est. speed input: 232.29 toks/s, output: 13.03 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:17<00:32,  2.92s/it, est. speed input: 276.95 toks/s, output: 17.81 toks/s][A
+
+Processed prompts:  38%|###7      | 6/16 [00:19<00:24,  2.43s/it, est. speed input: 313.46 toks/s, output: 21.79 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:19<00:15,  1.72s/it, est. speed input: 366.85 toks/s, output: 26.87 toks/s][A
+
+Processed prompts:  50%|#####     | 8/16 [00:20<00:12,  1.55s/it, est. speed input: 391.88 toks/s, output: 30.76 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:21<00:08,  1.15s/it, est. speed input: 440.04 toks/s, output: 35.83 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:21<00:06,  1.10s/it, est. speed input: 465.35 toks/s, output: 39.79 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:23<00:06,  1.21s/it, est. speed input: 473.99 toks/s, output: 43.05 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:24<00:04,  1.09s/it, est. speed input: 501.71 toks/s, output: 47.45 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:24<00:02,  1.14it/s, est. speed input: 532.57 toks/s, output: 52.73 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:27<00:03,  1.57s/it, est. speed input: 522.90 toks/s, output: 53.73 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:36<00:03,  3.58s/it, est. speed input: 429.03 toks/s, output: 51.38 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [01:23<00:00, 16.78s/it, est. speed input: 197.36 toks/s, output: 46.72 toks/s][A
+Processed prompts: 100%|##########| 16/16 [01:23<00:00,  5.22s/it, est. speed input: 197.36 toks/s, output: 46.72 toks/s]
+
+Generating (2-wiki_bio):  96%|#########6| 96/100 [18:09<00:47, 11.82s/it]
+
+Adding requests:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Adding requests:  25%|##5       | 1/4 [00:07<00:23,  7.90s/it][A
+
+Adding requests:  50%|#####     | 2/4 [00:13<00:13,  6.65s/it][A
+
+Adding requests:  75%|#######5  | 3/4 [00:23<00:07,  8.00s/it][A
+
+Adding requests: 100%|##########| 4/4 [00:27<00:00,  6.60s/it][A
+Adding requests: 100%|##########| 4/4 [00:27<00:00,  6.93s/it]
+
+
+Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:  25%|##5       | 1/4 [00:02<00:07,  2.36s/it, est. speed input: 430.31 toks/s, output: 21.60 toks/s][A
+
+Processed prompts:  50%|#####     | 2/4 [00:04<00:03,  1.96s/it, est. speed input: 496.90 toks/s, output: 33.67 toks/s][A
+
+Processed prompts: 100%|##########| 4/4 [00:05<00:00,  1.24s/it, est. speed input: 735.74 toks/s, output: 65.89 toks/s][A
+Processed prompts: 100%|##########| 4/4 [00:05<00:00,  1.42s/it, est. speed input: 735.74 toks/s, output: 65.89 toks/s]
+
+Generating (2-wiki_bio): 100%|##########| 100/100 [18:43<00:00, 11.44s/it]
+Generating (2-wiki_bio): 100%|##########| 100/100 [18:43<00:00, 11.23s/it]
+
+Generating (3-few_nerd):   0%|          | 0/100 [00:00<?, ?it/s]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:05<01:27,  5.81s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:11<01:16,  5.48s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:16<01:08,  5.24s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:20<01:01,  5.13s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:25<00:55,  5.06s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:30<00:50,  5.02s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:36<00:46,  5.11s/it][A
+
+Adding requests:  50%|#####     | 8/16 [00:41<00:41,  5.14s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [00:46<00:35,  5.09s/it][A
+
+Adding requests:  62%|######2   | 10/16 [00:51<00:30,  5.10s/it][A
+
+Adding requests:  69%|######8   | 11/16 [00:56<00:25,  5.12s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:01<00:20,  5.11s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:06<00:15,  5.14s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:12<00:10,  5.16s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:17<00:05,  5.15s/it][A
+
+Adding requests: 100%|##########| 16/16 [01:22<00:00,  5.17s/it][A
+Adding requests: 100%|##########| 16/16 [01:22<00:00,  5.16s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:07<01:51,  7.44s/it, est. speed input: 60.33 toks/s, output: 4.70 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:08<00:51,  3.65s/it, est. speed input: 110.27 toks/s, output: 8.89 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:08<00:27,  2.08s/it, est. speed input: 158.44 toks/s, output: 13.41 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:09<00:03,  2.06it/s, est. speed input: 452.73 toks/s, output: 40.02 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:09<00:02,  2.25it/s, est. speed input: 488.72 toks/s, output: 43.99 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:10<00:02,  1.90it/s, est. speed input: 490.62 toks/s, output: 45.38 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:11<00:02,  1.64it/s, est. speed input: 488.90 toks/s, output: 47.07 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:11<00:00,  2.37it/s, est. speed input: 559.56 toks/s, output: 57.35 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:11<00:00,  2.74it/s, est. speed input: 593.25 toks/s, output: 62.74 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:12<00:00,  2.04it/s, est. speed input: 588.49 toks/s, output: 66.80 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:12<00:00,  1.29it/s, est. speed input: 588.49 toks/s, output: 66.80 toks/s]
+
+Generating (3-few_nerd):  16%|#6        | 16/100 [01:34<08:18,  5.93s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:05<01:18,  5.22s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:10<01:12,  5.21s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:15<01:07,  5.19s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:20<01:03,  5.26s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:26<00:57,  5.21s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:31<00:52,  5.22s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:36<00:47,  5.25s/it][A
+
+Adding requests:  50%|#####     | 8/16 [00:41<00:41,  5.22s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [00:46<00:36,  5.19s/it][A
+
+Adding requests:  62%|######2   | 10/16 [00:52<00:31,  5.23s/it][A
+
+Adding requests:  69%|######8   | 11/16 [00:57<00:26,  5.30s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:02<00:20,  5.24s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:08<00:15,  5.33s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:13<00:10,  5.26s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:18<00:05,  5.23s/it][A
+
+Adding requests: 100%|##########| 16/16 [01:23<00:00,  5.23s/it][A
+Adding requests: 100%|##########| 16/16 [01:23<00:00,  5.24s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:05<01:21,  5.40s/it, est. speed input: 81.41 toks/s, output: 6.48 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:05<00:32,  2.33s/it, est. speed input: 156.86 toks/s, output: 12.71 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:05<00:11,  1.01it/s, est. speed input: 299.48 toks/s, output: 24.58 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:06<00:07,  1.38it/s, est. speed input: 365.64 toks/s, output: 30.84 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:06<00:01,  4.69it/s, est. speed input: 782.18 toks/s, output: 69.89 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:09<00:01,  1.88it/s, est. speed input: 646.87 toks/s, output: 68.18 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:12<00:00,  1.32it/s, est. speed input: 570.03 toks/s, output: 76.08 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:12<00:00,  1.27it/s, est. speed input: 570.03 toks/s, output: 76.08 toks/s]
+
+Generating (3-few_nerd):  32%|###2      | 32/100 [03:11<06:47,  5.99s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:05<01:16,  5.10s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:10<01:11,  5.10s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:15<01:06,  5.09s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:20<01:01,  5.10s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:26<00:58,  5.31s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:31<00:52,  5.26s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:36<00:47,  5.23s/it][A
+
+Adding requests:  50%|#####     | 8/16 [00:41<00:41,  5.22s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [00:46<00:36,  5.20s/it][A
+
+Adding requests:  62%|######2   | 10/16 [00:52<00:31,  5.26s/it][A
+
+Adding requests:  69%|######8   | 11/16 [00:57<00:26,  5.32s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:03<00:21,  5.36s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:08<00:15,  5.30s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:13<00:10,  5.31s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:18<00:05,  5.30s/it][A
+
+Adding requests: 100%|##########| 16/16 [01:24<00:00,  5.34s/it][A
+Adding requests: 100%|##########| 16/16 [01:24<00:00,  5.27s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:05<01:16,  5.09s/it, est. speed input: 88.60 toks/s, output: 6.68 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:05<00:30,  2.19s/it, est. speed input: 168.61 toks/s, output: 13.13 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:05<00:17,  1.38s/it, est. speed input: 237.58 toks/s, output: 18.89 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:05<00:10,  1.13it/s, est. speed input: 310.25 toks/s, output: 25.18 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:05<00:06,  1.58it/s, est. speed input: 375.84 toks/s, output: 31.26 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:06<00:01,  3.99it/s, est. speed input: 777.59 toks/s, output: 69.22 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:07<00:01,  2.83it/s, est. speed input: 739.45 toks/s, output: 68.75 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:08<00:00,  2.89it/s, est. speed input: 790.12 toks/s, output: 80.19 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  3.21it/s, est. speed input: 831.40 toks/s, output: 88.37 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  1.82it/s, est. speed input: 831.40 toks/s, output: 88.37 toks/s]
+
+Generating (3-few_nerd):  48%|####8     | 48/100 [04:44<05:07,  5.91s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:05<01:15,  5.02s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:10<01:13,  5.26s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:15<01:06,  5.14s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:20<01:01,  5.12s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:25<00:57,  5.21s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:31<00:51,  5.18s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:36<00:46,  5.19s/it][A
+
+Adding requests:  50%|#####     | 8/16 [00:41<00:41,  5.16s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [00:46<00:36,  5.15s/it][A
+
+Adding requests:  62%|######2   | 10/16 [00:51<00:30,  5.15s/it][A
+
+Adding requests:  69%|######8   | 11/16 [00:56<00:25,  5.16s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:02<00:20,  5.22s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:07<00:15,  5.26s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:12<00:10,  5.29s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:18<00:05,  5.26s/it][A
+
+Adding requests: 100%|##########| 16/16 [01:23<00:00,  5.29s/it][A
+Adding requests: 100%|##########| 16/16 [01:23<00:00,  5.21s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:05<01:18,  5.20s/it, est. speed input: 86.86 toks/s, output: 6.73 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:05<00:33,  2.37s/it, est. speed input: 160.16 toks/s, output: 13.05 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:06<00:19,  1.50s/it, est. speed input: 220.51 toks/s, output: 18.80 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:06<00:01,  3.79it/s, est. speed input: 796.33 toks/s, output: 70.77 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:07<00:00,  3.35it/s, est. speed input: 830.63 toks/s, output: 77.44 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:07<00:00,  3.34it/s, est. speed input: 886.23 toks/s, output: 89.51 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [01:03<00:00,  8.63s/it, est. speed input: 115.10 toks/s, output: 43.17 toks/s][A
+Processed prompts: 100%|##########| 16/16 [01:03<00:00,  3.96s/it, est. speed input: 115.10 toks/s, output: 43.17 toks/s]
+
+Generating (3-few_nerd):  64%|######4   | 64/100 [07:11<04:19,  7.20s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:05<01:25,  5.67s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:10<01:14,  5.35s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:16<01:09,  5.35s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:21<01:03,  5.28s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:26<00:57,  5.26s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:31<00:52,  5.22s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:36<00:46,  5.20s/it][A
+
+Adding requests:  50%|#####     | 8/16 [00:41<00:41,  5.18s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [00:47<00:36,  5.21s/it][A
+
+Adding requests:  62%|######2   | 10/16 [00:52<00:31,  5.25s/it][A
+
+Adding requests:  69%|######8   | 11/16 [00:58<00:26,  5.30s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:03<00:21,  5.26s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:08<00:15,  5.24s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:13<00:10,  5.21s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:19<00:05,  5.32s/it][A
+
+Adding requests: 100%|##########| 16/16 [01:24<00:00,  5.30s/it][A
+Adding requests: 100%|##########| 16/16 [01:24<00:00,  5.27s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:04<01:12,  4.86s/it, est. speed input: 89.96 toks/s, output: 7.41 toks/s][A
+
+Processed prompts:  12%|#2        | 2/16 [00:05<00:30,  2.18s/it, est. speed input: 170.74 toks/s, output: 14.52 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:05<00:10,  1.12it/s, est. speed input: 325.72 toks/s, output: 28.76 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:06<00:01,  3.58it/s, est. speed input: 813.32 toks/s, output: 74.62 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:06<00:01,  3.49it/s, est. speed input: 839.56 toks/s, output: 78.55 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:06<00:00,  3.07it/s, est. speed input: 840.40 toks/s, output: 80.62 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  3.66it/s, est. speed input: 953.90 toks/s, output: 100.40 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  2.14it/s, est. speed input: 953.90 toks/s, output: 100.40 toks/s]
+
+Generating (3-few_nerd):  80%|########  | 80/100 [08:43<02:13,  6.67s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:05<01:18,  5.22s/it][A
+
+Adding requests:  12%|#2        | 2/16 [00:10<01:14,  5.36s/it][A
+
+Adding requests:  19%|#8        | 3/16 [00:16<01:11,  5.47s/it][A
+
+Adding requests:  25%|##5       | 4/16 [00:22<01:07,  5.64s/it][A
+
+Adding requests:  31%|###1      | 5/16 [00:27<01:00,  5.52s/it][A
+
+Adding requests:  38%|###7      | 6/16 [00:32<00:53,  5.39s/it][A
+
+Adding requests:  44%|####3     | 7/16 [00:37<00:47,  5.28s/it][A
+
+Adding requests:  50%|#####     | 8/16 [00:42<00:41,  5.20s/it][A
+
+Adding requests:  56%|#####6    | 9/16 [00:47<00:35,  5.14s/it][A
+
+Adding requests:  62%|######2   | 10/16 [00:52<00:30,  5.13s/it][A
+
+Adding requests:  69%|######8   | 11/16 [00:58<00:26,  5.21s/it][A
+
+Adding requests:  75%|#######5  | 12/16 [01:03<00:20,  5.21s/it][A
+
+Adding requests:  81%|########1 | 13/16 [01:08<00:15,  5.22s/it][A
+
+Adding requests:  88%|########7 | 14/16 [01:13<00:10,  5.24s/it][A
+
+Adding requests:  94%|#########3| 15/16 [01:19<00:05,  5.23s/it][A
+
+Adding requests: 100%|##########| 16/16 [01:24<00:00,  5.26s/it][A
+Adding requests: 100%|##########| 16/16 [01:24<00:00,  5.28s/it]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:06<01:40,  6.68s/it, est. speed input: 66.03 toks/s, output: 5.24 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:07<00:24,  1.87s/it, est. speed input: 188.58 toks/s, output: 15.19 toks/s][A
+
+Processed prompts:  25%|##5       | 4/16 [00:07<00:17,  1.48s/it, est. speed input: 226.51 toks/s, output: 18.98 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:07<00:03,  2.26it/s, est. speed input: 505.86 toks/s, output: 44.77 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:08<00:01,  2.64it/s, est. speed input: 584.59 toks/s, output: 53.74 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:08<00:00,  3.04it/s, est. speed input: 660.86 toks/s, output: 63.06 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:09<00:00,  3.68it/s, est. speed input: 739.78 toks/s, output: 74.23 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:09<00:00,  1.75it/s, est. speed input: 784.62 toks/s, output: 80.46 toks/s]
+
+Generating (3-few_nerd):  96%|#########6| 96/100 [10:16<00:25,  6.39s/it]
+
+Adding requests:   0%|          | 0/4 [00:00<?, ?it/s][A
+
+Adding requests:  25%|##5       | 1/4 [00:05<00:15,  5.14s/it][A
+
+Adding requests:  50%|#####     | 2/4 [00:10<00:10,  5.15s/it][A
+
+Adding requests:  75%|#######5  | 3/4 [00:15<00:05,  5.14s/it][A
+
+Adding requests: 100%|##########| 4/4 [00:20<00:00,  5.12s/it][A
+Adding requests: 100%|##########| 4/4 [00:20<00:00,  5.13s/it]
+
+
+Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:  25%|##5       | 1/4 [00:01<00:05,  1.71s/it, est. speed input: 264.34 toks/s, output: 22.76 toks/s][A
+
+Processed prompts:  50%|#####     | 2/4 [00:01<00:01,  1.30it/s, est. speed input: 499.50 toks/s, output: 43.91 toks/s][A
+
+Processed prompts:  75%|#######5  | 3/4 [00:04<00:01,  1.58s/it, est. speed input: 315.41 toks/s, output: 39.63 toks/s][A
+
+Processed prompts: 100%|##########| 4/4 [00:57<00:00, 22.08s/it, est. speed input: 31.41 toks/s, output: 38.38 toks/s] [A
+Processed prompts: 100%|##########| 4/4 [00:57<00:00, 14.47s/it, est. speed input: 31.41 toks/s, output: 38.38 toks/s]
+
+Generating (3-few_nerd): 100%|##########| 100/100 [11:35<00:00,  7.82s/it]
+Generating (3-few_nerd): 100%|##########| 100/100 [11:35<00:00,  6.95s/it]
+
+Generating (4-TOPv1):   0%|          | 0/150 [00:00<?, ?it/s]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.47it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.49it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:02<00:08,  1.50it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.50it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.49it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:04<00:06,  1.46it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:06,  1.44it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.41it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:06<00:04,  1.42it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:04,  1.43it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.44it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:08<00:02,  1.46it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:02,  1.46it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.48it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:10<00:00,  1.49it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.50it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.47it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:35,  2.35s/it, est. speed input: 735.08 toks/s, output: 0.85 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:06<00:02,  1.84it/s, est. speed input: 2897.73 toks/s, output: 7.35 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:06<00:01,  2.03it/s, est. speed input: 3108.10 toks/s, output: 11.59 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:07<00:01,  1.86it/s, est. speed input: 3007.50 toks/s, output: 15.20 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:07<00:01,  1.94it/s, est. speed input: 3070.08 toks/s, output: 19.63 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:08<00:00,  1.86it/s, est. speed input: 3042.64 toks/s, output: 24.29 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:10<00:00,  1.17it/s, est. speed input: 2633.13 toks/s, output: 31.19 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:10<00:00,  1.53it/s, est. speed input: 2633.13 toks/s, output: 31.19 toks/s]
+
+Generating (4-TOPv1):  11%|#         | 16/150 [00:21<02:58,  1.33s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.45it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.50it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.53it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.51it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.49it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.50it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.51it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.53it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.54it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.54it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.55it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.56it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.55it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.55it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.54it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.55it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.53it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:34,  2.27s/it, est. speed input: 759.62 toks/s, output: 0.88 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:02<00:00,  6.88it/s, est. speed input: 8668.10 toks/s, output: 10.50 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  2.00it/s, est. speed input: 3440.47 toks/s, output: 31.00 toks/s]
+
+Generating (4-TOPv1):  21%|##1       | 32/150 [00:39<02:24,  1.23s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.57it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:08,  1.59it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.59it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.59it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:06,  1.58it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.58it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.56it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.57it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.57it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.58it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:06<00:03,  1.58it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.58it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.58it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:08<00:01,  1.58it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.58it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.58it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.58it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:34,  2.30s/it, est. speed input: 748.01 toks/s, output: 0.87 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:07<00:03,  1.54it/s, est. speed input: 2484.46 toks/s, output: 6.95 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:09<00:02,  1.39it/s, est. speed input: 2332.21 toks/s, output: 14.27 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:10<00:01,  1.33it/s, est. speed input: 2285.40 toks/s, output: 18.96 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:10<00:00,  1.54it/s, est. speed input: 2421.83 toks/s, output: 24.94 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:10<00:00,  1.73it/s, est. speed input: 2520.10 toks/s, output: 31.29 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:10<00:00,  1.46it/s, est. speed input: 2520.10 toks/s, output: 31.29 toks/s]
+
+Generating (4-TOPv1):  32%|###2      | 48/150 [01:00<02:09,  1.27s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.49it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.51it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.53it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.53it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.53it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.50it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:06,  1.49it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.51it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.53it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.54it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.55it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.54it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.56it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.56it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.55it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.54it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.53it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:33,  2.24s/it, est. speed input: 770.84 toks/s, output: 0.89 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:05<00:01,  2.83it/s, est. speed input: 4346.54 toks/s, output: 10.28 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:05<00:00,  2.64it/s, est. speed input: 4185.89 toks/s, output: 15.62 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:05<00:00,  2.84it/s, est. speed input: 4354.72 toks/s, output: 22.08 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:06<00:00,  2.84it/s, est. speed input: 4384.10 toks/s, output: 29.43 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:06<00:00,  2.55it/s, est. speed input: 4384.10 toks/s, output: 29.43 toks/s]
+
+Generating (4-TOPv1):  43%|####2     | 64/150 [01:17<01:41,  1.18s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.50it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.53it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.52it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.52it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.54it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.55it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.56it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.56it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.56it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.56it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.56it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.57it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.58it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:08<00:01,  1.58it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.57it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.58it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.56it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:33,  2.20s/it, est. speed input: 783.00 toks/s, output: 0.91 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:06<00:01,  2.33it/s, est. speed input: 3656.80 toks/s, output: 10.14 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:08<00:00,  1.85it/s, est. speed input: 3147.43 toks/s, output: 21.35 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  1.93it/s, est. speed input: 3319.46 toks/s, output: 30.64 toks/s]
+
+Generating (4-TOPv1):  53%|#####3    | 80/150 [01:36<01:22,  1.17s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.56it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.55it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.55it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.54it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.53it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.56it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.55it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.55it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.56it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.57it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.55it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.51it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:02,  1.50it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.47it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.44it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.45it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.51it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:34,  2.32s/it, est. speed input: 742.17 toks/s, output: 0.86 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:06<00:02,  1.78it/s, est. speed input: 2830.27 toks/s, output: 7.32 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:07<00:02,  1.55it/s, est. speed input: 2587.70 toks/s, output: 11.02 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:10<00:02,  1.06it/s, est. speed input: 2091.83 toks/s, output: 14.30 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:12<00:00,  1.30it/s, est. speed input: 2268.55 toks/s, output: 32.71 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:12<00:00,  1.32it/s, est. speed input: 2268.55 toks/s, output: 32.71 toks/s]
+
+Generating (4-TOPv1):  64%|######4   | 96/150 [01:58<01:07,  1.26s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.51it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.53it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.54it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.56it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:06,  1.58it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.59it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.59it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.55it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.50it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:04,  1.48it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.51it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.53it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.53it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.54it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.51it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.49it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.53it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:35,  2.34s/it, est. speed input: 733.10 toks/s, output: 0.85 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:02<00:00,  5.56it/s, est. speed input: 7194.20 toks/s, output: 9.13 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:05<00:00,  2.36it/s, est. speed input: 4209.29 toks/s, output: 17.14 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  2.10it/s, est. speed input: 3893.40 toks/s, output: 29.30 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  2.26it/s, est. speed input: 3893.40 toks/s, output: 29.30 toks/s]
+
+Generating (4-TOPv1):  75%|#######4  | 112/150 [02:16<00:45,  1.20s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.38it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:10,  1.39it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:02<00:09,  1.39it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:08,  1.41it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.44it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:04<00:06,  1.49it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.53it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.55it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:06<00:04,  1.57it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.57it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.59it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.59it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.60it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.59it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.59it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.61it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.54it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:34,  2.28s/it, est. speed input: 751.49 toks/s, output: 0.88 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:06<00:01,  2.03it/s, est. speed input: 3208.12 toks/s, output: 8.54 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:07<00:01,  1.99it/s, est. speed input: 3181.43 toks/s, output: 13.37 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:08<00:01,  1.69it/s, est. speed input: 2940.30 toks/s, output: 18.06 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:08<00:00,  1.94it/s, est. speed input: 3106.91 toks/s, output: 24.68 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  1.91it/s, est. speed input: 3288.95 toks/s, output: 31.66 toks/s]
+
+Generating (4-TOPv1):  85%|########5 | 128/150 [02:35<00:26,  1.19s/it]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.59it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:08,  1.61it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.62it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.63it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:06,  1.63it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.63it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.62it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:04<00:04,  1.61it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.60it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.60it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:06<00:03,  1.60it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.61it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.61it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:08<00:01,  1.62it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.62it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:09<00:00,  1.63it/s][A
+Adding requests: 100%|##########| 16/16 [00:09<00:00,  1.62it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:02<00:34,  2.29s/it, est. speed input: 752.44 toks/s, output: 0.87 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:05<00:02,  2.12it/s, est. speed input: 3301.76 toks/s, output: 7.67 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:06<00:01,  2.20it/s, est. speed input: 3433.76 toks/s, output: 15.35 toks/s][A
+
+Processed prompts:  94%|#########3| 15/16 [00:07<00:00,  2.30it/s, est. speed input: 3560.12 toks/s, output: 24.70 toks/s][A
+
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  2.40it/s, est. speed input: 3639.39 toks/s, output: 31.34 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:07<00:00,  2.12it/s, est. speed input: 3639.39 toks/s, output: 31.34 toks/s]
+
+Generating (4-TOPv1):  96%|#########6| 144/150 [02:52<00:06,  1.16s/it]
+
+Adding requests:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Adding requests:  17%|#6        | 1/6 [00:00<00:03,  1.49it/s][A
+
+Adding requests:  33%|###3      | 2/6 [00:01<00:02,  1.51it/s][A
+
+Adding requests:  50%|#####     | 3/6 [00:02<00:02,  1.50it/s][A
+
+Adding requests:  67%|######6   | 4/6 [00:02<00:01,  1.48it/s][A
+
+Adding requests:  83%|########3 | 5/6 [00:03<00:00,  1.47it/s][A
+
+Adding requests: 100%|##########| 6/6 [00:04<00:00,  1.48it/s][A
+Adding requests: 100%|##########| 6/6 [00:04<00:00,  1.48it/s]
+
+
+Processed prompts:   0%|          | 0/6 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:  17%|#6        | 1/6 [00:00<00:04,  1.01it/s, est. speed input: 1742.72 toks/s, output: 2.02 toks/s][A
+
+Processed prompts:  67%|######6   | 4/6 [00:03<00:01,  1.04it/s, est. speed input: 1785.57 toks/s, output: 11.16 toks/s][A
+
+Processed prompts:  83%|########3 | 5/6 [00:04<00:00,  1.12it/s, est. speed input: 1877.17 toks/s, output: 20.31 toks/s][A
+
+Processed prompts: 100%|##########| 6/6 [00:04<00:00,  1.46it/s, est. speed input: 2180.70 toks/s, output: 31.51 toks/s][A
+Processed prompts: 100%|##########| 6/6 [00:04<00:00,  1.27it/s, est. speed input: 2180.70 toks/s, output: 31.51 toks/s]
+
+Generating (4-TOPv1): 100%|##########| 150/150 [03:01<00:00,  1.21s/it]
+Generating (4-TOPv1): 100%|##########| 150/150 [03:01<00:00,  1.21s/it]
+
+Generating (5-api_bank):   0%|          | 0/150 [00:00<?, ?it/s]
+
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.54it/s][A
+
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.55it/s][A
+
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.57it/s][A
+
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.56it/s][A
+
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.56it/s][A
+
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.56it/s][A
+
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.56it/s][A
+
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.56it/s][A
+
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.57it/s][A
+
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.56it/s][A
+
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.57it/s][A
+
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.55it/s][A
+
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.55it/s][A
+
+Adding requests:  88%|########7 | 14/16 [00:08<00:01,  1.55it/s][A
+
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.56it/s][A
+
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.56it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.56it/s]
+
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+
+Processed prompts:   6%|6         | 1/16 [00:04<01:14,  4.97s/it, est. speed input: 88.31 toks/s, output: 2.01 toks/s][A
+
+Processed prompts:  19%|#8        | 3/16 [00:05<00:18,  1.41s/it, est. speed input: 328.75 toks/s, output: 5.86 toks/s][A
+
+Processed prompts:  31%|###1      | 5/16 [00:06<00:10,  1.01it/s, est. speed input: 526.70 toks/s, output: 8.80 toks/s][A
+
+Processed prompts:  44%|####3     | 7/16 [00:09<00:10,  1.19s/it, est. speed input: 509.39 toks/s, output: 10.44 toks/s][A
+
+Processed prompts:  56%|#####6    | 9/16 [00:10<00:06,  1.12it/s, est. speed input: 625.03 toks/s, output: 15.10 toks/s][A
+
+Processed prompts:  62%|######2   | 10/16 [00:10<00:05,  1.16it/s, est. speed input: 622.10 toks/s, output: 17.20 toks/s][A
+
+Processed prompts:  69%|######8   | 11/16 [00:11<00:04,  1.15it/s, est. speed input: 615.77 toks/s, output: 19.25 toks/s][A
+
+Processed prompts:  75%|#######5  | 12/16 [00:14<00:05,  1.38s/it, est. speed input: 549.66 toks/s, output: 19.67 toks/s][A
+
+Processed prompts:  81%|########1 | 13/16 [00:17<00:04,  1.63s/it, est. speed input: 508.94 toks/s, output: 21.96 toks/s][A
+
+Processed prompts:  88%|########7 | 14/16 [00:19<00:03,  1.90s/it, est. speed input: 494.37 toks/s, output: 25.02 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [02:06<00:31, 31.28s/it, est. speed input: 81.95 toks/s, output: 20.11 toks/s] [AProcessed prompts: 100%|##########| 16/16 [02:06<00:00,  7.90s/it, est. speed input: 86.39 toks/s, output: 36.32 toks/s]
+Generating (5-api_bank):  11%|#         | 16/150 [02:16<19:04,  8.54s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.45it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.48it/s][A
+Adding requests:  19%|#8        | 3/16 [00:02<00:08,  1.46it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:08,  1.45it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.46it/s][A
+Adding requests:  38%|###7      | 6/16 [00:04<00:06,  1.47it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:06,  1.48it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.47it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:06<00:04,  1.47it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:04,  1.46it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.46it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:08<00:02,  1.46it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:02,  1.48it/s][A
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.48it/s][A
+Adding requests:  94%|#########3| 15/16 [00:10<00:00,  1.48it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.49it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.47it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:02<00:30,  2.03s/it, est. speed input: 245.33 toks/s, output: 1.48 toks/s][A
+Processed prompts:  19%|#8        | 3/16 [00:02<00:08,  1.48it/s, est. speed input: 651.29 toks/s, output: 4.11 toks/s][A
+Processed prompts:  25%|##5       | 4/16 [00:04<00:13,  1.13s/it, est. speed input: 473.86 toks/s, output: 4.53 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:04<00:04,  2.06it/s, est. speed input: 798.09 toks/s, output: 11.16 toks/s][A
+Processed prompts:  75%|#######5  | 12/16 [00:07<00:02,  1.78it/s, est. speed input: 884.03 toks/s, output: 16.86 toks/s][A
+Processed prompts:  81%|########1 | 13/16 [00:07<00:01,  1.90it/s, est. speed input: 906.76 toks/s, output: 20.87 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [00:08<00:00,  2.02it/s, est. speed input: 939.61 toks/s, output: 25.03 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [00:10<00:00,  1.25it/s, est. speed input: 847.25 toks/s, output: 27.84 toks/s][AProcessed prompts: 100%|##########| 16/16 [00:10<00:00,  1.53it/s, est. speed input: 982.00 toks/s, output: 35.63 toks/s]
+Generating (5-api_bank):  21%|##1       | 32/150 [02:37<08:27,  4.30s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.47it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.48it/s][A
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.52it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.53it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.54it/s][A
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.49it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:06,  1.49it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.50it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.51it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.53it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.54it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.55it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.56it/s][A
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.55it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.55it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.54it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.53it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:27,  1.86s/it, est. speed input: 365.75 toks/s, output: 1.61 toks/s][A
+Processed prompts:  31%|###1      | 5/16 [00:02<00:03,  2.96it/s, est. speed input: 1604.96 toks/s, output: 7.45 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:03<00:04,  1.83it/s, est. speed input: 1204.19 toks/s, output: 7.88 toks/s][A
+Processed prompts:  56%|#####6    | 9/16 [00:06<00:05,  1.39it/s, est. speed input: 961.08 toks/s, output: 10.47 toks/s][A
+Processed prompts:  62%|######2   | 10/16 [00:06<00:03,  1.64it/s, est. speed input: 1120.85 toks/s, output: 13.75 toks/s][A
+Processed prompts:  69%|######8   | 11/16 [00:07<00:03,  1.41it/s, est. speed input: 1033.65 toks/s, output: 15.73 toks/s][A
+Processed prompts:  81%|########1 | 13/16 [00:09<00:02,  1.10it/s, est. speed input: 979.32 toks/s, output: 20.10 toks/s] [A
+Processed prompts:  88%|########7 | 14/16 [00:11<00:02,  1.15s/it, est. speed input: 858.18 toks/s, output: 23.23 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [00:12<00:01,  1.13s/it, est. speed input: 830.85 toks/s, output: 28.87 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:14<00:00,  1.36s/it, est. speed input: 778.07 toks/s, output: 36.39 toks/s][AProcessed prompts: 100%|##########| 16/16 [00:14<00:00,  1.08it/s, est. speed input: 778.07 toks/s, output: 36.39 toks/s]
+Generating (5-api_bank):  32%|###2      | 48/150 [03:03<05:11,  3.06s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.52it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.53it/s][A
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.53it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.53it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.48it/s][A
+Adding requests:  38%|###7      | 6/16 [00:04<00:06,  1.44it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:06,  1.46it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.48it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:06<00:04,  1.51it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.53it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.54it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.55it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.55it/s][A
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.56it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.56it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.56it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.53it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:28,  1.92s/it, est. speed input: 220.64 toks/s, output: 1.56 toks/s][A
+Processed prompts:  19%|#8        | 3/16 [00:04<00:18,  1.41s/it, est. speed input: 425.49 toks/s, output: 3.65 toks/s][A
+Processed prompts:  56%|#####6    | 9/16 [00:04<00:02,  2.81it/s, est. speed input: 1182.61 toks/s, output: 17.02 toks/s][A
+Processed prompts:  75%|#######5  | 12/16 [00:06<00:01,  2.13it/s, est. speed input: 1085.66 toks/s, output: 19.07 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [00:11<00:02,  1.02s/it, est. speed input: 732.35 toks/s, output: 21.27 toks/s] [A
+Processed prompts:  94%|#########3| 15/16 [01:59<00:17, 17.23s/it, est. speed input: 78.39 toks/s, output: 19.25 toks/s] [AProcessed prompts: 100%|##########| 16/16 [01:59<00:00,  7.47s/it, est. speed input: 83.63 toks/s, output: 36.39 toks/s]
+Generating (5-api_bank):  43%|####2     | 64/150 [05:13<07:14,  5.06s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.46it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.51it/s][A
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.53it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.54it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.55it/s][A
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.55it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.55it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.54it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.55it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.57it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.57it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.56it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.57it/s][A
+Adding requests:  88%|########7 | 14/16 [00:08<00:01,  1.58it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.59it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.59it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.56it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:28,  1.92s/it, est. speed input: 414.44 toks/s, output: 1.56 toks/s][A
+Processed prompts:  19%|#8        | 3/16 [00:02<00:08,  1.60it/s, est. speed input: 961.46 toks/s, output: 4.41 toks/s][A
+Processed prompts:  25%|##5       | 4/16 [00:03<00:08,  1.34it/s, est. speed input: 972.48 toks/s, output: 5.23 toks/s][A
+Processed prompts:  31%|###1      | 5/16 [00:04<00:08,  1.31it/s, est. speed input: 928.39 toks/s, output: 6.69 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:04<00:03,  2.26it/s, est. speed input: 1196.84 toks/s, output: 11.30 toks/s][A
+Processed prompts:  56%|#####6    | 9/16 [00:05<00:04,  1.66it/s, est. speed input: 1134.74 toks/s, output: 13.19 toks/s][A
+Processed prompts:  62%|######2   | 10/16 [00:09<00:07,  1.18s/it, est. speed input: 856.61 toks/s, output: 12.57 toks/s][A
+Processed prompts:  69%|######8   | 11/16 [00:12<00:08,  1.77s/it, est. speed input: 657.62 toks/s, output: 13.65 toks/s][A
+Processed prompts:  75%|#######5  | 12/16 [00:12<00:05,  1.34s/it, est. speed input: 700.02 toks/s, output: 18.23 toks/s][A
+Processed prompts:  81%|########1 | 13/16 [00:16<00:05,  1.99s/it, est. speed input: 578.83 toks/s, output: 19.83 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [03:00<01:34, 47.07s/it, est. speed input: 55.88 toks/s, output: 13.16 toks/s] [AProcessed prompts: 100%|##########| 16/16 [03:00<00:00, 11.28s/it, est. speed input: 61.63 toks/s, output: 35.85 toks/s]
+Generating (5-api_bank):  53%|#####3    | 80/150 [08:23<08:47,  7.53s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.51it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:08,  1.56it/s][A
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.58it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.59it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:06,  1.60it/s][A
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.60it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.60it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.60it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.59it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.58it/s][A
+Adding requests:  69%|######8   | 11/16 [00:06<00:03,  1.57it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.56it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.57it/s][A
+Adding requests:  88%|########7 | 14/16 [00:08<00:01,  1.57it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.57it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.57it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.58it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:02<00:30,  2.03s/it, est. speed input: 347.44 toks/s, output: 1.48 toks/s][A
+Processed prompts:  25%|##5       | 4/16 [00:03<00:08,  1.50it/s, est. speed input: 1065.28 toks/s, output: 4.87 toks/s][A
+Processed prompts:  31%|###1      | 5/16 [00:04<00:08,  1.23it/s, est. speed input: 932.56 toks/s, output: 5.85 toks/s] [A
+Processed prompts:  50%|#####     | 8/16 [00:04<00:03,  2.22it/s, est. speed input: 1188.12 toks/s, output: 12.10 toks/s][A
+Processed prompts:  56%|#####6    | 9/16 [00:05<00:03,  2.29it/s, est. speed input: 1239.31 toks/s, output: 13.94 toks/s][A
+Processed prompts:  62%|######2   | 10/16 [00:06<00:03,  1.70it/s, est. speed input: 1200.44 toks/s, output: 14.70 toks/s][A
+Processed prompts:  69%|######8   | 11/16 [00:09<00:06,  1.23s/it, est. speed input: 860.56 toks/s, output: 13.83 toks/s] [A
+Processed prompts:  75%|#######5  | 12/16 [00:10<00:04,  1.09s/it, est. speed input: 873.01 toks/s, output: 17.23 toks/s][A
+Processed prompts:  81%|########1 | 13/16 [00:11<00:03,  1.19s/it, est. speed input: 876.23 toks/s, output: 19.98 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [00:12<00:02,  1.14s/it, est. speed input: 864.63 toks/s, output: 23.88 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [02:04<00:32, 32.75s/it, est. speed input: 91.97 toks/s, output: 18.82 toks/s] [AProcessed prompts: 100%|##########| 16/16 [02:04<00:00,  7.80s/it, est. speed input: 96.30 toks/s, output: 35.24 toks/s]
+Generating (5-api_bank):  64%|######4   | 96/150 [10:38<07:03,  7.84s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.48it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.52it/s][A
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.52it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.54it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.53it/s][A
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.51it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.50it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.51it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.51it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.51it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.51it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.51it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.51it/s][A
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.50it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.50it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.51it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.51it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:23,  1.53s/it, est. speed input: 250.90 toks/s, output: 1.30 toks/s][A
+Processed prompts:  12%|#2        | 2/16 [00:01<00:11,  1.17it/s, est. speed input: 616.93 toks/s, output: 2.61 toks/s][A
+Processed prompts:  31%|###1      | 5/16 [00:02<00:05,  2.03it/s, est. speed input: 1265.22 toks/s, output: 5.74 toks/s][A
+Processed prompts:  38%|###7      | 6/16 [00:03<00:04,  2.26it/s, est. speed input: 1482.52 toks/s, output: 7.37 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:03<00:04,  2.02it/s, est. speed input: 1362.73 toks/s, output: 8.72 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [00:05<00:00,  3.16it/s, est. speed input: 1672.26 toks/s, output: 22.84 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [00:07<00:00,  1.86it/s, est. speed input: 1299.03 toks/s, output: 25.51 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  1.96it/s, est. speed input: 1321.68 toks/s, output: 34.35 toks/s][AProcessed prompts: 100%|##########| 16/16 [00:08<00:00,  1.99it/s, est. speed input: 1321.68 toks/s, output: 34.35 toks/s]
+Generating (5-api_bank):  75%|#######4  | 112/150 [10:57<03:34,  5.66s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:09,  1.51it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.54it/s][A
+Adding requests:  19%|#8        | 3/16 [00:01<00:08,  1.55it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:07,  1.56it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.56it/s][A
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.56it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.56it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.55it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.55it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.55it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.53it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.50it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:02,  1.49it/s][A
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.48it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.48it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.47it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.52it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:28,  1.88s/it, est. speed input: 634.64 toks/s, output: 1.60 toks/s][A
+Processed prompts:  38%|###7      | 6/16 [00:03<00:04,  2.29it/s, est. speed input: 1606.80 toks/s, output: 7.22 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:03<00:04,  2.02it/s, est. speed input: 1483.15 toks/s, output: 8.75 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [00:05<00:00,  3.53it/s, est. speed input: 1877.75 toks/s, output: 24.92 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [00:05<00:00,  2.87it/s, est. speed input: 1835.04 toks/s, output: 28.39 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:08<00:00,  1.55it/s, est. speed input: 1451.69 toks/s, output: 35.42 toks/s][AProcessed prompts: 100%|##########| 16/16 [00:08<00:00,  1.95it/s, est. speed input: 1451.69 toks/s, output: 35.42 toks/s]
+Generating (5-api_bank):  85%|########5 | 128/150 [11:16<01:33,  4.23s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:00<00:10,  1.49it/s][A
+Adding requests:  12%|#2        | 2/16 [00:01<00:09,  1.50it/s][A
+Adding requests:  19%|#8        | 3/16 [00:02<00:08,  1.49it/s][A
+Adding requests:  25%|##5       | 4/16 [00:02<00:08,  1.50it/s][A
+Adding requests:  31%|###1      | 5/16 [00:03<00:07,  1.50it/s][A
+Adding requests:  38%|###7      | 6/16 [00:03<00:06,  1.51it/s][A
+Adding requests:  44%|####3     | 7/16 [00:04<00:05,  1.51it/s][A
+Adding requests:  50%|#####     | 8/16 [00:05<00:05,  1.51it/s][A
+Adding requests:  56%|#####6    | 9/16 [00:05<00:04,  1.51it/s][A
+Adding requests:  62%|######2   | 10/16 [00:06<00:03,  1.51it/s][A
+Adding requests:  69%|######8   | 11/16 [00:07<00:03,  1.51it/s][A
+Adding requests:  75%|#######5  | 12/16 [00:07<00:02,  1.51it/s][A
+Adding requests:  81%|########1 | 13/16 [00:08<00:01,  1.51it/s][A
+Adding requests:  88%|########7 | 14/16 [00:09<00:01,  1.51it/s][A
+Adding requests:  94%|#########3| 15/16 [00:09<00:00,  1.51it/s][A
+Adding requests: 100%|##########| 16/16 [00:10<00:00,  1.51it/s][AAdding requests: 100%|##########| 16/16 [00:10<00:00,  1.51it/s]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:28,  1.89s/it, est. speed input: 211.81 toks/s, output: 1.58 toks/s][A
+Processed prompts:  12%|#2        | 2/16 [00:04<00:32,  2.30s/it, est. speed input: 194.00 toks/s, output: 2.90 toks/s][A
+Processed prompts:  31%|###1      | 5/16 [00:04<00:07,  1.42it/s, est. speed input: 536.51 toks/s, output: 9.39 toks/s][A
+Processed prompts:  62%|######2   | 10/16 [00:07<00:03,  1.78it/s, est. speed input: 737.21 toks/s, output: 15.80 toks/s][A
+Processed prompts:  69%|######8   | 11/16 [00:08<00:03,  1.55it/s, est. speed input: 722.58 toks/s, output: 17.46 toks/s][A
+Processed prompts:  75%|#######5  | 12/16 [00:09<00:02,  1.39it/s, est. speed input: 714.22 toks/s, output: 19.65 toks/s][A
+Processed prompts:  81%|########1 | 13/16 [00:11<00:03,  1.08s/it, est. speed input: 617.77 toks/s, output: 20.79 toks/s][A
+Processed prompts:  88%|########7 | 14/16 [00:12<00:01,  1.03it/s, est. speed input: 626.47 toks/s, output: 25.45 toks/s][A
+Processed prompts:  94%|#########3| 15/16 [00:13<00:01,  1.09s/it, est. speed input: 596.54 toks/s, output: 29.76 toks/s][A
+Processed prompts: 100%|##########| 16/16 [00:14<00:00,  1.04it/s, est. speed input: 627.39 toks/s, output: 36.78 toks/s][AProcessed prompts: 100%|##########| 16/16 [00:14<00:00,  1.11it/s, est. speed input: 627.39 toks/s, output: 36.78 toks/s]
+Generating (5-api_bank):  96%|#########6| 144/150 [11:41<00:20,  3.40s/it]
+Adding requests:   0%|          | 0/6 [00:00<?, ?it/s][A
+Adding requests:  17%|#6        | 1/6 [00:00<00:03,  1.56it/s][A
+Adding requests:  33%|###3      | 2/6 [00:01<00:02,  1.55it/s][A
+Adding requests:  50%|#####     | 3/6 [00:01<00:01,  1.55it/s][A
+Adding requests:  67%|######6   | 4/6 [00:02<00:01,  1.56it/s][A
+Adding requests:  83%|########3 | 5/6 [00:03<00:00,  1.57it/s][A
+Adding requests: 100%|##########| 6/6 [00:03<00:00,  1.57it/s][AAdding requests: 100%|##########| 6/6 [00:03<00:00,  1.56it/s]
+
+Processed prompts:   0%|          | 0/6 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:  17%|#6        | 1/6 [00:00<00:03,  1.45it/s, est. speed input: 1379.24 toks/s, output: 4.34 toks/s][A
+Processed prompts:  33%|###3      | 2/6 [00:01<00:02,  1.34it/s, est. speed input: 918.86 toks/s, output: 8.82 toks/s] [A
+Processed prompts:  83%|########3 | 5/6 [00:03<00:00,  1.42it/s, est. speed input: 915.56 toks/s, output: 22.64 toks/s][A
+Processed prompts: 100%|##########| 6/6 [00:03<00:00,  1.80it/s, est. speed input: 982.68 toks/s, output: 36.14 toks/s][AProcessed prompts: 100%|##########| 6/6 [00:03<00:00,  1.64it/s, est. speed input: 982.68 toks/s, output: 36.14 toks/s]
+Generating (5-api_bank): 100%|##########| 150/150 [11:48<00:00,  3.09s/it]Generating (5-api_bank): 100%|##########| 150/150 [11:48<00:00,  4.72s/it]
+Generating (6-reasoning/GSM8K):   0%|          | 0/100 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:01<00:23,  1.56s/it][A
+Adding requests:  12%|#2        | 2/16 [00:02<00:20,  1.46s/it][A
+Adding requests:  19%|#8        | 3/16 [00:04<00:18,  1.43s/it][A
+Adding requests:  25%|##5       | 4/16 [00:05<00:16,  1.41s/it][A
+Adding requests:  31%|###1      | 5/16 [00:07<00:15,  1.40s/it][A
+Adding requests:  38%|###7      | 6/16 [00:08<00:13,  1.40s/it][A
+Adding requests:  44%|####3     | 7/16 [00:09<00:12,  1.41s/it][A
+Adding requests:  50%|#####     | 8/16 [00:11<00:11,  1.40s/it][A
+Adding requests:  56%|#####6    | 9/16 [00:12<00:09,  1.40s/it][A
+Adding requests:  62%|######2   | 10/16 [00:14<00:08,  1.43s/it][A
+Adding requests:  69%|######8   | 11/16 [00:15<00:07,  1.45s/it][A
+Adding requests:  75%|#######5  | 12/16 [00:17<00:05,  1.43s/it][A
+Adding requests:  81%|########1 | 13/16 [00:18<00:04,  1.41s/it][A
+Adding requests:  88%|########7 | 14/16 [00:19<00:02,  1.41s/it][A
+Adding requests:  94%|#########3| 15/16 [00:21<00:01,  1.40s/it][A
+Adding requests: 100%|##########| 16/16 [00:22<00:00,  1.44s/it][AAdding requests: 100%|##########| 16/16 [00:22<00:00,  1.42s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:23,  1.60s/it, est. speed input: 117.65 toks/s, output: 7.51 toks/s][A
+Processed prompts:  25%|##5       | 4/16 [00:22<01:10,  5.88s/it, est. speed input: 28.87 toks/s, output: 4.90 toks/s] [A
+Processed prompts:  31%|###1      | 5/16 [00:22<00:47,  4.32s/it, est. speed input: 34.47 toks/s, output: 8.13 toks/s][A
+Processed prompts:  38%|###7      | 6/16 [00:43<01:31,  9.12s/it, est. speed input: 21.13 toks/s, output: 7.65 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:54<01:26,  9.66s/it, est. speed input: 19.78 toks/s, output: 9.69 toks/s][A
+Processed prompts:  50%|#####     | 8/16 [01:47<02:57, 22.17s/it, est. speed input: 11.90 toks/s, output: 9.04 toks/s][A
+Processed prompts:  56%|#####6    | 9/16 [06:57<12:29, 107.13s/it, est. speed input: 3.44 toks/s, output: 7.22 toks/s][AProcessed prompts: 100%|##########| 16/16 [06:57<00:00, 26.11s/it, est. speed input: 6.49 toks/s, output: 41.54 toks/s]
+Generating (6-reasoning/GSM8K):  16%|#6        | 16/100 [07:20<38:32, 27.53s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|6         | 1/16 [00:01<00:22,  1.48s/it][A
+Adding requests:  12%|#2        | 2/16 [00:02<00:20,  1.45s/it][A
+Adding requests:  19%|#8        | 3/16 [00:04<00:19,  1.47s/it][A
+Adding requests:  25%|##5       | 4/16 [00:05<00:17,  1.44s/it][A
+Adding requests:  31%|###1      | 5/16 [00:07<00:15,  1.45s/it][A
+Adding requests:  38%|###7      | 6/16 [00:08<00:14,  1.45s/it][A
+Adding requests:  44%|####3     | 7/16 [00:10<00:12,  1.44s/it][A
+Adding requests:  50%|#####     | 8/16 [00:11<00:11,  1.44s/it][A
+Adding requests:  56%|#####6    | 9/16 [00:12<00:10,  1.43s/it][A
+Adding requests:  62%|######2   | 10/16 [00:14<00:08,  1.42s/it][A
+Adding requests:  69%|######8   | 11/16 [00:15<00:07,  1.42s/it][A
+Adding requests:  75%|#######5  | 12/16 [00:17<00:05,  1.42s/it][A
+Adding requests:  81%|########1 | 13/16 [00:18<00:04,  1.42s/it][A
+Adding requests:  88%|########7 | 14/16 [00:20<00:02,  1.43s/it][A
+Adding requests:  94%|#########3| 15/16 [00:21<00:01,  1.43s/it][A
+Adding requests: 100%|##########| 16/16 [00:22<00:00,  1.43s/it][AAdding requests: 100%|##########| 16/16 [00:22<00:00,  1.43s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|6         | 1/16 [00:01<00:21,  1.45s/it, est. speed input: 97.56 toks/s, output: 7.61 toks/s][A
+Processed prompts:  12%|#2        | 2/16 [00:02<00:14,  1.05s/it, est. speed input: 145.84 toks/s, output: 10.80 toks/s][A
+Processed prompts:  19%|#8        | 3/16 [00:22<02:09,  9.98s/it, est. speed input: 20.68 toks/s, output: 3.94 toks/s]  [A
+Processed prompts:  25%|##5       | 4/16 [00:36<02:19, 11.60s/it, est. speed input: 17.07 toks/s, output: 5.26 toks/s][A
+Processed prompts:  31%|###1      | 5/16 [00:42<01:43,  9.36s/it, est. speed input: 18.37 toks/s, output: 7.42 toks/s][A
+Processed prompts:  38%|###7      | 6/16 [00:44<01:07,  6.79s/it, est. speed input: 21.59 toks/s, output: 9.98 toks/s][A
+Processed prompts:  44%|####3     | 7/16 [00:44<00:43,  4.82s/it, est. speed input: 24.61 toks/s, output: 12.69 toks/s][A
+Processed prompts:  50%|#####     | 8/16 [00:46<00:29,  3.70s/it, est. speed input: 26.86 toks/s, output: 15.23 toks/s][A
+Processed prompts:  56%|#####6    | 9/16 [00:51<00:28,  4.08s/it, est. speed input: 27.04 toks/s, output: 16.80 toks/s][A
+Processed prompts:  62%|######2   | 10/16 [00:55<00:25,  4.29s/it, est. speed input: 27.78 toks/s, output: 18.57 toks/s][A
+Processed prompts:  69%|######8   | 11/16 [00:58<00:18,  3.74s/it, est. speed input: 29.25 toks/s, output: 21.10 toks/s][A
+Processed prompts:  75%|#######5  | 12/16 [01:02<00:15,  3.77s/it, est. speed input: 30.92 toks/s, output: 23.36 toks/s][A
