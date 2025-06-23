@@ -290,10 +290,17 @@ def main() -> None:
         "5-api_bank": lambda: _generate_apibank(model, base/"5-api_bank", results_root/"5-api_bank", args.prompt_type, max_new_tokens=args.max_new_tokens),
     }
 
-    if args.start_from and args.start_from != "6-reasoning":
-        ordered = list(tasks.keys())
-        start_idx = ordered.index(args.start_from)
-        ordered = ordered[start_idx:]
+    # Determine which of the (1-5) tasks to run ---------------------------------
+    ordered: List[str]
+    if args.start_from:
+        if args.start_from == "6-reasoning":
+            # Skip tasks 1-5 entirely – reasoning will be handled later.
+            ordered = []
+        else:
+            # Start from the requested task within the ordered dict keys.
+            all_keys = list(tasks.keys())
+            start_idx = all_keys.index(args.start_from)
+            ordered = all_keys[start_idx:]
     else:
         ordered = list(tasks.keys())
 
