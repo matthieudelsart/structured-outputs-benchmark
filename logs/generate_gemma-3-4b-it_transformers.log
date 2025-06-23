@@ -42,3 +42,24 @@
 2025-06-22 22:22:42,919 [INFO]   > subtask last_letter
 2025-06-22 22:22:42,919 [INFO] Processing task: 6-reasoning/last_letter
 2025-06-22 22:23:08,922 [INFO] Task 6-reasoning/last_letter completed in 26.00 s
+2025-06-23 06:41:10,697 [INFO] 
+===== RERUN invoked =====
+2025-06-23 06:41:10,697 [INFO] Loading model 'google/gemma-3-4b-it' with transformers on cuda …
+2025-06-23 06:41:35,748 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 06:41:37,948 [INFO] Processing task: 1-rotowire
+2025-06-23 06:59:59,011 [INFO] Task 1-rotowire completed in 1101.06 s
+2025-06-23 06:59:59,012 [INFO] Processing task: 2-wiki_bio
+2025-06-23 07:02:59,367 [INFO] Task 2-wiki_bio completed in 180.35 s
+2025-06-23 07:02:59,367 [INFO] Processing task: 3-few_nerd
+2025-06-23 07:03:50,020 [INFO] Task 3-few_nerd completed in 50.65 s
+2025-06-23 07:03:50,020 [INFO] Processing task: 4-TOPv1
+2025-06-23 07:18:17,597 [INFO] Task 4-TOPv1 completed in 867.58 s
+2025-06-23 07:18:17,597 [INFO] Processing task: 5-api_bank
+2025-06-23 07:25:44,148 [INFO] Task 5-api_bank completed in 446.55 s
+2025-06-23 07:25:44,148 [INFO] Processing task: 6-reasoning
+2025-06-23 07:25:44,148 [INFO]   > subtask GSM8K
+2025-06-23 07:25:44,148 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-23 07:28:56,480 [INFO] Task 6-reasoning/GSM8K completed in 192.33 s
+2025-06-23 07:28:56,480 [INFO]   > subtask last_letter
+2025-06-23 07:28:56,480 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-23 07:32:17,907 [INFO] Task 6-reasoning/last_letter completed in 201.43 s

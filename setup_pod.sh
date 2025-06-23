@@ -6,4 +6,8 @@ cd structured-outputs
 pip install uv 
 uv sync
 uv pip install flash-attn --no-build-isolation
+
+apt-get update
+apt-get install -y tmux
+
 uv run huggingface-cli login --token 
