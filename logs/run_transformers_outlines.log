@@ -225,9 +225,167 @@ remote: No anonymous write access.
 fatal: Authentication failed for 'https://github.com/matthieudelsart/structured-outputs.git/'
 2025-06-23 12:50:26,164 [INFO] 
 ===== RERUN invoked =====
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.23it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.16it/s]
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.13s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.23it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.16it/s]
 2025-06-23 12:50:33,071 [INFO] Processing task: 6-reasoning/GSM8K
-Generating (6-reasoning/GSM8K):   0%|          | 0/100 [00:00<?, ?it/s]`generation_config` default values have been modified to match model-specific defaults: {'cache_implementation': 'hybrid', 'bos_token_id': 2}. If this is not desired, please set these values explicitly.
-Generating (6-reasoning/GSM8K):  16%|█▌        | 16/100 [02:09<11:20,  8.10s/it]Generating (6-reasoning/GSM8K):  32%|███▏      | 32/100 [03:53<08:07,  7.16s/it]Generating (6-reasoning/GSM8K):  48%|████▊     | 48/100 [06:23<07:05,  8.18s/it]Generating (6-reasoning/GSM8K):  64%|██████▍   | 64/100 [08:05<04:28,  7.45s/it]Generating (6-reasoning/GSM8K):  80%|████████  | 80/100 [09:44<02:19,  7.00s/it]Generating (6-reasoning/GSM8K):  96%|█████████▌| 96/100 [11:25<00:27,  6.77s/it]Generating (6-reasoning/GSM8K): 100%|██████████| 100/100 [11:53<00:00,  6.78s/it]Generating (6-reasoning/GSM8K): 100%|██████████| 100/100 [11:53<00:00,  7.13s/it]
+
+Generating (6-reasoning/GSM8K):   0%|          | 0/100 [00:00<?, ?it/s]`generation_config` default values have been modified to match model-specific defaults: {'cache_implementation': 'hybrid', 'bos_token_id': 2}. If this is not desired, please set these values explicitly.
+
+Generating (6-reasoning/GSM8K):  16%|█▌        | 16/100 [02:09<11:20,  8.10s/it]
+Generating (6-reasoning/GSM8K):  32%|███▏      | 32/100 [03:53<08:07,  7.16s/it]
+Generating (6-reasoning/GSM8K):  48%|████▊     | 48/100 [06:23<07:05,  8.18s/it]
+Generating (6-reasoning/GSM8K):  64%|██████▍   | 64/100 [08:05<04:28,  7.45s/it]
+Generating (6-reasoning/GSM8K):  80%|████████  | 80/100 [09:44<02:19,  7.00s/it]
+Generating (6-reasoning/GSM8K):  96%|█████████▌| 96/100 [11:25<00:27,  6.77s/it]
+Generating (6-reasoning/GSM8K): 100%|██████████| 100/100 [11:53<00:00,  6.78s/it]
+Generating (6-reasoning/GSM8K): 100%|██████████| 100/100 [11:53<00:00,  7.13s/it]
 2025-06-23 13:02:26,193 [INFO] Processing task: 6-reasoning/last_letter
-Generating (6-reasoning/last_letter):   0%|          | 0/100 [00:00<?, ?it/s]Generating (6-reasoning/last_letter):  16%|█▌        | 16/100 [00:29<02:32,  1.82s/it]Generating (6-reasoning/last_letter):  32%|███▏      | 32/100 [00:56<01:59,  1.76s/it]Generating (6-reasoning/last_letter):  48%|████▊     | 48/100 [01:26<01:34,  1.82s/it]Generating (6-reasoning/last_letter):  64%|██████▍   | 64/100 [01:58<01:07,  1.89s/it]Generating (6-reasoning/last_letter):  80%|████████  | 80/100 [02:30<00:38,  1.93s/it]Generating (6-reasoning/last_letter):  96%|█████████▌| 96/100 [03:01<00:07,  1.92s/it]Generating (6-reasoning/last_letter): 100%|██████████| 100/100 [03:15<00:00,  2.10s/it]Generating (6-reasoning/last_letter): 100%|██████████| 100/100 [03:15<00:00,  1.95s/it]
+
+Generating (6-reasoning/last_letter):   0%|          | 0/100 [00:00<?, ?it/s]
+Generating (6-reasoning/last_letter):  16%|█▌        | 16/100 [00:29<02:32,  1.82s/it]
+Generating (6-reasoning/last_letter):  32%|███▏      | 32/100 [00:56<01:59,  1.76s/it]
+Generating (6-reasoning/last_letter):  48%|████▊     | 48/100 [01:26<01:34,  1.82s/it]
+Generating (6-reasoning/last_letter):  64%|██████▍   | 64/100 [01:58<01:07,  1.89s/it]
+Generating (6-reasoning/last_letter):  80%|████████  | 80/100 [02:30<00:38,  1.93s/it]
+Generating (6-reasoning/last_letter):  96%|█████████▌| 96/100 [03:01<00:07,  1.92s/it]
+Generating (6-reasoning/last_letter): 100%|██████████| 100/100 [03:15<00:00,  2.10s/it]
+Generating (6-reasoning/last_letter): 100%|██████████| 100/100 [03:15<00:00,  1.95s/it]
+[main 767bd29] Add results transformers outlines
+ 6 files changed, 1908 insertions(+), 32 deletions(-)
+ rewrite results/gemma-3-4b-it_transformers_outlines/6-reasoning/GSM8K/generated.json (66%)
+To https://github.com/matthieudelsart/structured-outputs.git
+   5a0042c..767bd29  main -> main
+# Fin: 13:06
+2025-06-23 13:20:40,514 [INFO] 
+===== RERUN invoked =====
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.10s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.25it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.18it/s]
+2025-06-23 13:20:47,033 [INFO] Processing task: 1-rotowire
+
+Generating (1-rotowire):   0%|          | 0/100 [00:00<?, ?it/s]`generation_config` default values have been modified to match model-specific defaults: {'cache_implementation': 'hybrid', 'bos_token_id': 2}. If this is not desired, please set these values explicitly.
+
+Generating (1-rotowire):  16%|█▌        | 16/100 [02:25<12:44,  9.10s/it]
+Generating (1-rotowire):  32%|███▏      | 32/100 [05:53<12:53, 11.38s/it]
+Generating (1-rotowire):  48%|████▊     | 48/100 [09:20<10:29, 12.11s/it]
+Generating (1-rotowire):  64%|██████▍   | 64/100 [11:26<06:15, 10.42s/it]
+Generating (1-rotowire):  80%|████████  | 80/100 [15:52<04:13, 12.66s/it]
+Generating (1-rotowire):  96%|█████████▌| 96/100 [18:45<00:48, 12.04s/it]
+Generating (1-rotowire): 100%|██████████| 100/100 [19:30<00:00, 11.95s/it]
+Generating (1-rotowire): 100%|██████████| 100/100 [19:30<00:00, 11.71s/it]
+2025-06-23 13:40:17,573 [INFO] Task 1-rotowire completed in 1170.54 s
+2025-06-23 13:40:17,574 [INFO] Processing task: 2-wiki_bio
+
+Generating (2-wiki_bio):   0%|          | 0/100 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 344, in <module>
+    main() 
+    ^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 336, in main
+    tasks[t]()
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 315, in <lambda>
+    "2-wiki_bio": lambda: _timeit("2-wiki_bio", lambda: _generate_wikibio(model, base/"2-wiki_bio", results_root/"2-wiki_bio", args.prompt_type, max_new_tokens=args.max_new_tokens)),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 306, in _timeit
+    fn()
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 315, in <lambda>
+    "2-wiki_bio": lambda: _timeit("2-wiki_bio", lambda: _generate_wikibio(model, base/"2-wiki_bio", results_root/"2-wiki_bio", args.prompt_type, max_new_tokens=args.max_new_tokens)),
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 224, in _generate_wikibio
+    _process_records(model, prompts, schemas, bench, output_path, "2-wiki_bio", max_new_tokens=max_new_tokens)
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 169, in _process_records
+    all_results.extend(_generate_batch(model, chunk_prompts, chunk_schemas, max_new_tokens))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 135, in _generate_batch
+    out = gen_fn(prompt, max_tokens=mnt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/generate/api.py", line 504, in __call__
+    completions = self.model.generate(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/models/transformers.py", line 247, in generate
+    generated_ids = self._generate_output_seq(prompts, inputs, **generation_kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/models/transformers.py", line 350, in _generate_output_seq
+    output_ids = self.model.generate(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 2597, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 3560, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 1345, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 969, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 1208, in forward
+    outputs = self.language_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 969, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 654, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 463, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+                                       ^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 393, in forward
+    attn_output = self.o_proj(attn_output)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+Generating (2-wiki_bio):   0%|          | 0/100 [01:40<?, ?it/s]

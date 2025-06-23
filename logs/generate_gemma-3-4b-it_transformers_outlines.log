@@ -90,3 +90,17 @@
 ===== RERUN invoked =====
 2025-06-23 12:50:33,071 [INFO] Processing task: 6-reasoning/GSM8K
 2025-06-23 13:02:26,193 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-23 13:09:46,645 [INFO] 
+===== RERUN invoked =====
+2025-06-23 13:09:53,927 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-23 13:10:16,617 [INFO] Task 6-reasoning/GSM8K completed in 22.69 s
+2025-06-23 13:10:16,618 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-23 13:10:24,499 [INFO] Task 6-reasoning/last_letter completed in 7.88 s
+2025-06-23 13:20:22,003 [INFO] 
+===== RERUN invoked =====
+2025-06-23 13:20:28,716 [INFO] Processing task: 1-rotowire
+2025-06-23 13:20:40,514 [INFO] 
+===== RERUN invoked =====
+2025-06-23 13:20:47,033 [INFO] Processing task: 1-rotowire
+2025-06-23 13:40:17,573 [INFO] Task 1-rotowire completed in 1170.54 s
+2025-06-23 13:40:17,574 [INFO] Processing task: 2-wiki_bio

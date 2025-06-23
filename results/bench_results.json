@@ -400,75 +400,75 @@
     },
     "gemma-3-4b-it_transformers": {
         "1-rotowire": {
-            "compliance": 0.879,
-            "correctness": 0.408,
-            "is_valid": 0.9
+            "compliance": 0.615,
+            "correctness": 0.305,
+            "is_valid": 0.054
         },
         "2-wiki_bio": {
-            "compliance": 0.842,
-            "correctness": 0.158,
-            "is_valid": 0.9
+            "compliance": 0.421,
+            "correctness": 0.16,
+            "is_valid": 0.054
         },
         "3-few_nerd": {
-            "compliance": 1.0,
-            "correctness": 1.0,
-            "is_valid": 0.9
+            "compliance": 0.92,
+            "correctness": 0.4,
+            "is_valid": 0.063
         },
         "4-TOPv1": {
-            "compliance": 0.0,
-            "correctness": 0.0,
+            "compliance": 0.36,
+            "correctness": 0.219,
             "is_valid": 0.0
         },
         "5-api_bank": {
-            "compliance": 1.0,
-            "correctness": 1.0,
-            "is_valid": 0.0
+            "compliance": 0.093,
+            "correctness": 0.079,
+            "is_valid": 0.04
         },
         "6-reasoning/GSM8K": {
-            "compliance": 1.0,
-            "correctness": 1.0,
-            "is_valid": 0.0
+            "compliance": 0.85,
+            "correctness": 0.67,
+            "is_valid": 0.019
         },
         "6-reasoning/last_letter": {
-            "compliance": 0.0,
-            "correctness": 0.0,
+            "compliance": 0.495,
+            "correctness": 0.01,
             "is_valid": 0.0
         }
     },
     "gemma-3-4b-it_transformers_outlines": {
         "1-rotowire": {
-            "compliance": 0.87,
-            "correctness": 0.383,
+            "compliance": 0.922,
+            "correctness": 0.466,
             "is_valid": 1.0
         },
         "2-wiki_bio": {
             "compliance": 1.0,
-            "correctness": 0.158,
+            "correctness": 0.348,
             "is_valid": 1.0
         },
         "3-few_nerd": {
-            "compliance": 1.0,
-            "correctness": 1.0,
-            "is_valid": 0.0
+            "compliance": 0.917,
+            "correctness": 0.355,
+            "is_valid": 0.07
         },
         "4-TOPv1": {
-            "compliance": 0.0,
-            "correctness": 0.0,
-            "is_valid": 0.0
+            "compliance": 0.333,
+            "correctness": 0.209,
+            "is_valid": 0.573
         },
         "5-api_bank": {
+            "compliance": 0.746,
+            "correctness": 0.639,
+            "is_valid": 1.0
+        },
+        "6-reasoning/GSM8K": {
             "compliance": 1.0,
             "correctness": 1.0,
             "is_valid": 1.0
         },
-        "6-reasoning/GSM8K": {
-            "compliance": 0.0,
-            "correctness": 0.0,
-            "is_valid": 0.0
-        },
         "6-reasoning/last_letter": {
             "compliance": 1.0,
-            "correctness": 0.0,
+            "correctness": 1.0,
             "is_valid": 1.0
         }
     },

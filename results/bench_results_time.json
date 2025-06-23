@@ -28,5 +28,9 @@
         "6-reasoning/GSM8K": 352.8970230789855,
         "6-reasoning/last_letter": 213.40288409776986,
         "overall": 4660.6978365127
+    },
+    "gemma-3-4b-it_transformers_outlines": {
+        "1-rotowire": 1170.5399181293324,
+        "overall": 1170.5399181293324
     }
 }

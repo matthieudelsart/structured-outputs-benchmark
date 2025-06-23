@@ -282,12 +282,40 @@ def main() -> None:
     base = Path("data/clean")
     results_root = Path("results") / f"{model_slug}_transformers_outlines{suff}"
 
+    # ─── Timers (persist to results/bench_results_time.json) ─────────────
+    bench_time_path = Path("results") / "bench_results_time.json"
+    task_times: Dict[str, float] = {}
+
+    def _persist_times() -> None:
+        snap = {k: v for k, v in task_times.items()}
+        snap["overall"] = sum(task_times.values())
+        if bench_time_path.exists() and bench_time_path.stat().st_size > 0:
+            try:
+                data = json.loads(bench_time_path.read_text())
+            except Exception:
+                data = {}
+        else:
+            data = {}
+        data[results_root.name] = snap
+        with bench_time_path.open("w") as f:
+            json.dump(data, f, indent=4)
+
+    def _timeit(name: str, fn):
+        logger.info(f"Processing task: {name}")
+        start = time.perf_counter()
+        fn()
+        elapsed = time.perf_counter() - start
+        task_times[name] = elapsed
+        logger.info(f"Task {name} completed in {elapsed:.2f} s")
+        _persist_times()
+
+    # Task dispatch --------------------------------------------------------
     tasks = {
-        "1-rotowire": lambda: _generate_generic(model, "1-rotowire", base/"1-rotowire", results_root/"1-rotowire", args.prompt_type, max_new_tokens=args.max_new_tokens),
-        "2-wiki_bio": lambda: _generate_wikibio(model, base/"2-wiki_bio", results_root/"2-wiki_bio", args.prompt_type, max_new_tokens=args.max_new_tokens),
-        "3-few_nerd": lambda: _generate_generic(model, "3-few_nerd", base/"3-few_nerd", results_root/"3-few_nerd", args.prompt_type, max_new_tokens=args.max_new_tokens),
-        "4-TOPv1": lambda: _generate_generic(model, "4-TOPv1", base/"4-TOPv1", results_root/"4-TOPv1", args.prompt_type, max_new_tokens=args.max_new_tokens),
-        "5-api_bank": lambda: _generate_apibank(model, base/"5-api_bank", results_root/"5-api_bank", args.prompt_type, max_new_tokens=args.max_new_tokens),
+        "1-rotowire": lambda: _timeit("1-rotowire", lambda: _generate_generic(model, "1-rotowire", base/"1-rotowire", results_root/"1-rotowire", args.prompt_type, max_new_tokens=args.max_new_tokens)),
+        "2-wiki_bio": lambda: _timeit("2-wiki_bio", lambda: _generate_wikibio(model, base/"2-wiki_bio", results_root/"2-wiki_bio", args.prompt_type, max_new_tokens=args.max_new_tokens)),
+        "3-few_nerd": lambda: _timeit("3-few_nerd", lambda: _generate_generic(model, "3-few_nerd", base/"3-few_nerd", results_root/"3-few_nerd", args.prompt_type, max_new_tokens=args.max_new_tokens)),
+        "4-TOPv1": lambda: _timeit("4-TOPv1", lambda: _generate_generic(model, "4-TOPv1", base/"4-TOPv1", results_root/"4-TOPv1", args.prompt_type, max_new_tokens=args.max_new_tokens)),
+        "5-api_bank": lambda: _timeit("5-api_bank", lambda: _generate_apibank(model, base/"5-api_bank", results_root/"5-api_bank", args.prompt_type, max_new_tokens=args.max_new_tokens)),
     }
 
     # Determine which of the (1-5) tasks to run ---------------------------------
@@ -305,14 +333,12 @@ def main() -> None:
         ordered = list(tasks.keys())
 
     for t in ordered:
-        logger.info(f"Processing task: {t}")
         tasks[t]()
 
     if not args.start_from or args.start_from == "6-reasoning" or args.start_from not in tasks:
         for sub in ["GSM8K", "last_letter"]:
             name = f"6-reasoning/{sub}"
-            logger.info(f"Processing task: {name}")
-            _generate_generic(model, name, base/"6-reasoning"/sub, results_root/"6-reasoning"/sub, args.prompt_type, max_new_tokens=512)
+            _timeit(name, lambda sub_name=name, sub=sub: _generate_generic(model, sub_name, base/"6-reasoning"/sub, results_root/"6-reasoning"/sub, args.prompt_type, max_new_tokens=512))
 
 if __name__ == "__main__":
     main() 

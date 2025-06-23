@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Union
 import torch, guidance
 from guidance import models as gmodels
 from tqdm import tqdm
+from guidance import library as lb
 # ------------------------------------------------------------------
 os.environ.setdefault("TORCH_COMPILE_DISABLE", "1"); os.environ.setdefault("DISABLE_TORCH_COMPILE", "1")
 if hasattr(torch, "compile"): torch.compile = lambda m,*a,**k: m  # type: ignore
@@ -39,18 +40,14 @@ _BASE_TEMPLATE = """{#system}Return JSON only.{/system}
 
 {#assistant}{{json name='answer' schema=_s}}{{/assistant}}"""
 
-@lru_cache(maxsize=None)
-def _prog(_: str, schema_json: str):  # the first arg kept for backwards cache compatibility
-    """Return a compiled Guidance program.
+# We build completions ad-hoc; no need for a cached compiled template. Guidance
+# lets us use the Model object like a growing string. The helper below keeps the
+# logic in one place.
 
-    The template is generic: it expects a *prompt* variable (the user prompt
-    including any task instructions and input) and a bound variable `_s` that
-    contains the JSON schema object.  We memo-ise per *sanitised* schema so
-    that identical schemas across thousands of records reuse the pre-parsed
-    DFA.
-    """
-
-    return guidance(_BASE_TEMPLATE)
+def _run_guidance(llm, prompt: str, schema_json: str | dict, max_tokens: int):
+    ctx = llm + "{#system}Return JSON only.{/system}\n" + prompt + "\n"
+    ctx += lb.json(name="answer", schema=schema_json, max_tokens=max_tokens)
+    return ctx["answer"]
 
 def _process(
     llm,
@@ -88,17 +85,10 @@ def _process(
         grouped.setdefault(canonical_key, []).append((prm, sj_ordered, rec))
 
     out: List[Dict[str, Any]] = []
-    with llm.session() as sess:
-        for _, items in grouped.items():
-            # Compile once per canonical schema key – we can use the first
-            # item's *ordered* schema to build the program.
-            first_ordered_str = items[0][1]
-            prog = _prog("shared", first_ordered_str)
-            schema_obj = json.loads(first_ordered_str)
-
-            for prm, sj_ord, rec in tqdm(items, desc=f"{task} (schema group)"):
-                res = prog(llm=sess, _s=json.loads(sj_ord), prompt=prm, max_tokens=mnt)
-                out.append({**rec, "generated_output": res["answer"].strip()})
+    for _, items in grouped.items():
+        for prm, sj_ord, rec in tqdm(items, desc=f"{task} (schema group)"):
+            res = _run_guidance(llm, prm, json.loads(sj_ord), mnt)
+            out.append({**rec, "generated_output": res.strip()})
 
     json.dump(out, open(out_path / "generated.json", "w"), indent=4)
 
@@ -145,24 +135,63 @@ def main():
     if logf.exists(): logger.info("RERUN")
     # model
     extra={"attn_implementation":"flash_attention_2"} if args.flash_attn else {}
-    device="cuda" if torch.cuda.is_available() else "cpu"
-    llm=gmodels.Transformers(args.model, device=device, dtype=(torch.bfloat16 if device=="cuda" else torch.float32), trust_remote_code=True, **extra)
+    is_cuda = torch.cuda.is_available()
+    torch_dtype = torch.bfloat16 if is_cuda else torch.float32
+
+    # Guidance's Transformers wrapper currently forwards all unknown kwargs
+    # directly to `AutoModelForCausalLM.from_pretrained`.  Passing `device` is
+    # **not** accepted by many HF model classes (e.g. Gemma).  Instead we rely
+    # on `device_map="auto"` so HF shards the weights and then *optionally*
+    # move the model to CUDA afterwards.
+
+    llm = gmodels.Transformers(
+        args.model,
+        torch_dtype=torch_dtype,
+        trust_remote_code=True,
+        device_map="auto" if is_cuda else None,
+        **extra,  # e.g. Flash-Attention implementation hint
+    )
+
+    # guidance already places weights on GPU when `device_map` is set – no manual `.to()` needed.
     base=Path("data/clean"); res_root=Path("results")/f"{slug}_transformers_guidance{suff}"
+
+    # ─── Timers ─────────────────────────────────────────────────────────
+    bench_time_path=Path("results")/"bench_results_time.json"
+    task_times: Dict[str,float] = {}
+    def _persist_times():
+        snap={k:v for k,v in task_times.items()}; snap["overall"]=sum(task_times.values())
+        if bench_time_path.exists() and bench_time_path.stat().st_size>0:
+            try:
+                data=json.loads(bench_time_path.read_text())
+            except Exception:
+                data={}
+        else:
+            data={}
+        data[res_root.name]=snap
+        with bench_time_path.open("w") as f:
+            json.dump(data, f, indent=4)
+    def _timeit(name:str, fn):
+        logger.info(f"Processing task: {name}")
+        t0=time.perf_counter(); fn(); dt=time.perf_counter()-t0
+        task_times[name]=dt
+        logger.info(f"Task {name} completed in {dt:.2f} s")
+        _persist_times()
+
     # tasks
     tasks={
-        "1-rotowire": lambda: _gen_generic(llm,"1-rotowire",base/"1-rotowire",res_root/"1-rotowire",args.prompt_type,args.max_new_tokens),
-        "2-wiki_bio": lambda: _gen_wikibio(llm,base/"2-wiki_bio",res_root/"2-wiki_bio",args.prompt_type,args.max_new_tokens),
-        "3-few_nerd": lambda: _gen_generic(llm,"3-few_nerd",base/"3-few_nerd",res_root/"3-few_nerd",args.prompt_type,args.max_new_tokens),
-        "4-TOPv1": lambda: _gen_generic(llm,"4-TOPv1",base/"4-TOPv1",res_root/"4-TOPv1",args.prompt_type,args.max_new_tokens),
-        "5-api_bank": lambda: _gen_apibank(llm,base/"5-api_bank",res_root/"5-api_bank",args.prompt_type,args.max_new_tokens),
+        "1-rotowire": lambda: _timeit("1-rotowire", lambda: _gen_generic(llm,"1-rotowire",base/"1-rotowire",res_root/"1-rotowire",args.prompt_type,args.max_new_tokens)),
+        "2-wiki_bio":  lambda: _timeit("2-wiki_bio",  lambda: _gen_wikibio(llm,base/"2-wiki_bio",res_root/"2-wiki_bio",args.prompt_type,args.max_new_tokens)),
+        "3-few_nerd":  lambda: _timeit("3-few_nerd",  lambda: _gen_generic(llm,"3-few_nerd",base/"3-few_nerd",res_root/"3-few_nerd",args.prompt_type,args.max_new_tokens)),
+        "4-TOPv1":     lambda: _timeit("4-TOPv1",     lambda: _gen_generic(llm,"4-TOPv1",base/"4-TOPv1",res_root/"4-TOPv1",args.prompt_type,args.max_new_tokens)),
+        "5-api_bank":  lambda: _timeit("5-api_bank",  lambda: _gen_apibank(llm,base/"5-api_bank",res_root/"5-api_bank",args.prompt_type,args.max_new_tokens)),
     }
     order=list(tasks.keys());
     if args.start_from and args.start_from!="6-reasoning": order=order[order.index(args.start_from):]
     for k in order:
-        logger.info(f"Task {k}"); t0=time.perf_counter(); tasks[k](); logger.info(f"done in {time.perf_counter()-t0:.1f}s")
+        tasks[k]()
     if not args.start_from or args.start_from=="6-reasoning" or args.start_from not in tasks:
         for sub in ["GSM8K","last_letter"]:
-            name=f"6-reasoning/{sub}"; logger.info(name); _gen_generic(llm,name,base/"6-reasoning"/sub,res_root/"6-reasoning"/sub,args.prompt_type,512)
+            name=f"6-reasoning/{sub}"; _timeit(name, lambda subname=name,ss=sub: _gen_generic(llm,subname,base/"6-reasoning"/ss,res_root/"6-reasoning"/ss,args.prompt_type,512))
 
 if __name__=="__main__":
     main() 

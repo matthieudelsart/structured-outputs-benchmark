@@ -1,0 +1,33 @@
+2025-06-23 13:17:27,221 RERUN
+2025-06-23 13:18:45,596 RERUN
+2025-06-23 13:19:09,874 RERUN
+2025-06-23 13:19:12,680 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:19:21,440 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:19:38,983 RERUN
+2025-06-23 13:19:41,652 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:19:48,158 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:19:48,161 Processing task: 1-rotowire
+2025-06-23 13:20:19,270 RERUN
+2025-06-23 13:20:22,192 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:20:28,692 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:20:28,697 Processing task: 1-rotowire
+2025-06-23 13:21:59,916 RERUN
+2025-06-23 13:22:02,722 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:22:09,615 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:22:09,619 Processing task: 1-rotowire
+2025-06-23 13:23:35,681 RERUN
+2025-06-23 13:23:38,428 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:23:45,536 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:23:45,541 Processing task: 1-rotowire
+2025-06-23 13:28:30,619 RERUN
+2025-06-23 13:28:33,263 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:28:40,098 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:28:40,102 Processing task: 1-rotowire
+2025-06-23 13:29:16,213 RERUN
+2025-06-23 13:29:18,939 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:29:25,919 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:29:25,923 Processing task: 1-rotowire
+2025-06-23 13:30:02,189 RERUN
+2025-06-23 13:30:04,995 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-23 13:30:12,337 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-23 13:30:12,340 Processing task: 1-rotowire
