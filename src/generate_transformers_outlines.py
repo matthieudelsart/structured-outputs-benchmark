@@ -38,7 +38,7 @@ TEMPERATURE = 0.0      # keep deterministic
 MAX_NEW_TOKENS = 2048
 MODEL_DOWNLOAD_DIR = Path("models"); MODEL_DOWNLOAD_DIR.mkdir(exist_ok=True)
 
-BATCH_SIZE = 4         # Outlines is slower than vLLM – smaller batches
+BATCH_SIZE = 16         # Outlines is slower than vLLM – smaller batches
 MAX_RECORDS: int | None = None
 
 logger = logging.getLogger(__name__)

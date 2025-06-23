@@ -60,3 +60,14 @@
 2025-06-22 22:27:37,133 [INFO] Processing task: 5-api_bank
 2025-06-22 22:28:01,099 [INFO] Processing task: 6-reasoning/GSM8K
 2025-06-22 22:28:42,284 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-23 07:43:42,173 [INFO] 
+===== RERUN invoked =====
+2025-06-23 07:44:07,036 [INFO] Processing task: 1-rotowire
+2025-06-23 07:45:08,898 [INFO] 
+===== RERUN invoked =====
+2025-06-23 07:45:15,193 [INFO] Processing task: 1-rotowire
+2025-06-23 07:48:59,500 [INFO] 
+===== RERUN invoked =====
+2025-06-23 07:49:05,826 [INFO] Processing task: 1-rotowire
+2025-06-23 08:46:46,438 [INFO] Processing task: 2-wiki_bio
+2025-06-23 09:15:22,327 [INFO] Processing task: 3-few_nerd
