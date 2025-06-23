@@ -7,4 +7,151 @@
 2025-06-23 08:46:46,438 [INFO] Processing task: 2-wiki_bio
 Generating (2-wiki_bio):   0%|          | 0/100 [00:00<?, ?it/s]Generating (2-wiki_bio):  16%|█▌        | 16/100 [04:38<24:19, 17.38s/it]Generating (2-wiki_bio):  32%|███▏      | 32/100 [08:47<18:29, 16.32s/it]Generating (2-wiki_bio):  48%|████▊     | 48/100 [13:19<14:25, 16.64s/it]Generating (2-wiki_bio):  64%|██████▍   | 64/100 [18:11<10:21, 17.27s/it]Generating (2-wiki_bio):  80%|████████  | 80/100 [23:02<05:52, 17.61s/it]Generating (2-wiki_bio):  96%|█████████▌| 96/100 [27:41<01:10, 17.54s/it]Generating (2-wiki_bio): 100%|██████████| 100/100 [28:35<00:00, 17.12s/it]Generating (2-wiki_bio): 100%|██████████| 100/100 [28:35<00:00, 17.16s/it]
 2025-06-23 09:15:22,327 [INFO] Processing task: 3-few_nerd
-Generating (3-few_nerd):   0%|          | 0/100 [00:00<?, ?it/s]Generating (3-few_nerd):  16%|█▌        | 16/100 [18:21<1:36:25, 68.87s/it]
+Generating (3-few_nerd):   0%|          | 0/100 [00:00<?, ?it/s]Generating (3-few_nerd):  16%|█▌        | 16/100 [18:21<1:36:25, 68.87s/it]Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 277, in <module>
+    model_kwargs={
+^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 268, in main
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", handlers=[logging.FileHandler(log_path, mode="a"), logging.StreamHandler()], force=True)
+        ^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 254, in <lambda>
+    p.add_argument("--max-records", type=int)
+                              ^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 176, in _generate_generic
+    
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 135, in _process_records
+    schema_obj = json.dumps(schema_fixed)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 97, in _generate_batch
+    try:
+         
+  File "/root/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/functools.py", line 909, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/generate/json.py", line 66, in json
+    generator = regex(model, regex_str, sampler)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/functools.py", line 909, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/generate/regex.py", line 34, in regex
+    logits_processor = RegexLogitsProcessor(regex_str, tokenizer=model.tokenizer)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/processors/structured.py", line 153, in __init__
+    guide = RegexGuide.from_regex(regex_string, tokenizer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/fsm/guide.py", line 92, in from_regex
+    return super().from_regex(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines_core/fsm/guide.py", line 212, in from_regex
+    ) = _create_states_mapping(
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/fsm/guide.py", line 76, in cached_create_states_mapping
+    return uncached_create_states_mapping(regex_string, tokenizer, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines_core/fsm/guide.py", line 141, in create_states_mapping
+    return create_states_mapping_from_fsm(regex_fsm, tokenizer, frozen_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines_core/fsm/guide.py", line 178, in create_states_mapping_from_fsm
+    states_to_token_maps, empty_token_ids = create_fsm_index_tokenizer(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines_core/fsm/regex.py", line 475, in create_fsm_index_tokenizer
+    states_to_token_subsets = Index(  # type: ignore
+                              ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Generating (3-few_nerd):  16%|█▌        | 16/100 [35:32<3:06:35, 133.28s/it]
+2025-06-23 09:53:25,486 [INFO] 
+===== RERUN invoked =====
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.23it/s]
+2025-06-23 09:53:31,962 [INFO] Processing task: 3-few_nerd
+Generating (3-few_nerd):   0%|          | 0/100 [00:00<?, ?it/s]`generation_config` default values have been modified to match model-specific defaults: {'cache_implementation': 'hybrid', 'bos_token_id': 2}. If this is not desired, please set these values explicitly.
+Generating (3-few_nerd):  16%|█▌        | 16/100 [01:26<07:32,  5.39s/it]Generating (3-few_nerd):  32%|███▏      | 32/100 [02:47<05:54,  5.22s/it]Generating (3-few_nerd):  48%|████▊     | 48/100 [04:11<04:32,  5.23s/it]Generating (3-few_nerd):  64%|██████▍   | 64/100 [05:37<03:09,  5.28s/it]Generating (3-few_nerd):  80%|████████  | 80/100 [07:01<01:45,  5.28s/it]Generating (3-few_nerd):  96%|█████████▌| 96/100 [08:24<00:20,  5.24s/it]Generating (3-few_nerd): 100%|██████████| 100/100 [09:36<00:00,  6.62s/it]Generating (3-few_nerd): 100%|██████████| 100/100 [09:36<00:00,  5.77s/it]
+2025-06-23 10:03:08,500 [INFO] Processing task: 4-TOPv1
+Generating (4-TOPv1):   0%|          | 0/150 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 316, in <module>
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 307, in main
+    logger.info(f"Processing task: {name}")
+^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 294, in <lambda>
+    ordered = list(tasks.keys())
+                       ^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 215, in _generate_generic
+    if MAX_RECORDS is not None:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 174, in _process_records
+    merged = [{**rec, "generated_output": gen} for rec, gen in zip(records, all_results)]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/src/generate_transformers_outlines.py", line 122, in _generate_batch
+    outs = [outs_raw.strip() if isinstance(outs_raw, str) else json.dumps(outs_raw, ensure_ascii=False)]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/generate/api.py", line 504, in __call__
+    completions = self.model.generate(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/models/transformers.py", line 247, in generate
+    generated_ids = self._generate_output_seq(prompts, inputs, **generation_kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/models/transformers.py", line 350, in _generate_output_seq
+    output_ids = self.model.generate(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 2597, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 3576, in _sample
+    next_token_scores = logits_processor(input_ids, next_token_logits)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/transformers/generation/logits_process.py", line 88, in __call__
+    scores = processor(input_ids, scores)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/processors/base_logits_processor.py", line 88, in __call__
+    processed_logits = self.process_logits(input_ids, torch_logits)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines/processors/structured.py", line 97, in process_logits
+    curr_state_key = hash(tuple(gen_ids.tolist()))
+                                ^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Generating (4-TOPv1):   0%|          | 0/150 [01:54<?, ?it/s]
+usage: generate_transformers_outlines.py [-h] --model MODEL
+                                         [--prompt-type {,low}]
+                                         [--batch-size BATCH_SIZE]
+                                         [--max-new-tokens MAX_NEW_TOKENS]
+                                         [--max-records MAX_RECORDS]
+                                         [--start-from {1-rotowire,2-wiki_bio,3-few_nerd,4-TOPv1,5-api_bank,6-reasoning}]
+generate_transformers_outlines.py: error: argument --start-from: invalid choice: '4-few_nerd' (choose from '1-rotowire', '2-wiki_bio', '3-few_nerd', '4-TOPv1', '5-api_bank', '6-reasoning')
+2025-06-23 10:07:01,744 [INFO] 
+===== RERUN invoked =====
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.06s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.26it/s]
+2025-06-23 10:07:08,216 [INFO] Processing task: 4-TOPv1
+Generating (4-TOPv1):   0%|          | 0/150 [00:00<?, ?it/s]`generation_config` default values have been modified to match model-specific defaults: {'cache_implementation': 'hybrid', 'bos_token_id': 2}. If this is not desired, please set these values explicitly.
+Generating (4-TOPv1):  11%|█         | 16/150 [03:22<28:17, 12.67s/it]Generating (4-TOPv1):  21%|██▏       | 32/150 [04:06<13:24,  6.82s/it]Generating (4-TOPv1):  32%|███▏      | 48/150 [07:28<16:06,  9.48s/it]Generating (4-TOPv1):  43%|████▎     | 64/150 [10:50<15:21, 10.71s/it]Generating (4-TOPv1):  53%|█████▎    | 80/150 [11:31<09:04,  7.78s/it]Generating (4-TOPv1):  64%|██████▍   | 96/150 [12:11<05:22,  5.98s/it]Generating (4-TOPv1):  75%|███████▍  | 112/150 [12:50<03:03,  4.82s/it]Generating (4-TOPv1):  85%|████████▌ | 128/150 [16:09<02:39,  7.25s/it]Generating (4-TOPv1):  96%|█████████▌| 144/150 [16:51<00:34,  5.80s/it]Generating (4-TOPv1): 100%|██████████| 150/150 [17:22<00:00,  5.71s/it]Generating (4-TOPv1): 100%|██████████| 150/150 [17:22<00:00,  6.95s/it]
+2025-06-23 10:24:30,459 [INFO] Processing task: 5-api_bank
+Generating (5-api_bank):   0%|          | 0/150 [00:00<?, ?it/s]Generating (5-api_bank):  11%|█         | 16/150 [06:48<57:02, 25.54s/it]Generating (5-api_bank):  21%|██▏       | 32/150 [15:16<57:24, 29.19s/it]Generating (5-api_bank):  32%|███▏      | 48/150 [21:42<45:42, 26.89s/it]Generating (5-api_bank):  43%|████▎     | 64/150 [28:58<38:44, 27.03s/it]Generating (5-api_bank):  53%|█████▎    | 80/150 [35:44<30:50, 26.43s/it]Generating (5-api_bank):  64%|██████▍   | 96/150 [42:27<23:24, 26.01s/it]Generating (5-api_bank):  75%|███████▍  | 112/150 [50:52<17:36, 27.81s/it]Generating (5-api_bank):  85%|████████▌ | 128/150 [57:49<09:59, 27.26s/it]Generating (5-api_bank):  96%|█████████▌| 144/150 [1:08:17<03:06, 31.02s/it]Generating (5-api_bank): 100%|██████████| 150/150 [1:10:43<00:00, 30.05s/it]Generating (5-api_bank): 100%|██████████| 150/150 [1:10:43<00:00, 28.29s/it]
+[main 2f1c506] Add results transformers outlines
+ 8 files changed, 16574 insertions(+), 17 deletions(-)
+Missing or invalid credentials.
+Error: connect ECONNREFUSED /tmp/vscode-git-2a5a620015.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '/tmp/vscode-git-2a5a620015.sock'
+}
+Missing or invalid credentials.
+Error: connect ECONNREFUSED /tmp/vscode-git-2a5a620015.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '/tmp/vscode-git-2a5a620015.sock'
+}
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/matthieudelsart/structured-outputs.git/'

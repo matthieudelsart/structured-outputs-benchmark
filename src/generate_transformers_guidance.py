@@ -34,20 +34,73 @@ def _prep_schema(s: Union[str, Dict[str,Any]])->str:
 def _load_prompt(p: Path)->str:
     return p.read_text()
 
-@lru_cache(maxsize=None)
-def _prog(tpl: str, schema_json: str):
-    txt = f"{{#system}}Return JSON only.{{/system}}\n{tpl}\n\n{{#assistant}}{{json name='answer' schema=_s}}{{/assistant}}"
-    return guidance(txt)
+_BASE_TEMPLATE = """{#system}Return JSON only.{/system}
+{{prompt}}
 
-def _process(llm, prompts: List[str], schemas: List[Any], recs: List[Dict[str,Any]], out_path: Path, task: str, mnt: int):
+{#assistant}{{json name='answer' schema=_s}}{{/assistant}}"""
+
+@lru_cache(maxsize=None)
+def _prog(_: str, schema_json: str):  # the first arg kept for backwards cache compatibility
+    """Return a compiled Guidance program.
+
+    The template is generic: it expects a *prompt* variable (the user prompt
+    including any task instructions and input) and a bound variable `_s` that
+    contains the JSON schema object.  We memo-ise per *sanitised* schema so
+    that identical schemas across thousands of records reuse the pre-parsed
+    DFA.
+    """
+
+    return guidance(_BASE_TEMPLATE)
+
+def _process(
+    llm,
+    prompts: List[str],
+    schemas: List[Any],
+    recs: List[Dict[str, Any]],
+    out_path: Path,
+    task: str,
+    mnt: int,
+):
+    """Run generation. When *all* prompts share the same schema (the usual case for
+    Rotowire / FewNERD / TOPv1 / the reasoning tasks) we compile the Guidance
+    program **once** and then stream the different prompts through the same
+    DFA, which avoids the significant per-call overhead of repeatedly
+    validating an identical JSON Schema.
+
+    For heterogeneous-schema datasets (WikiBio, API-Bank) we fall back to the
+    original per-record loop.
+    """
+
     out_path.mkdir(parents=True, exist_ok=True)
-    out: List[Dict[str,Any]] = []
+
+    # Group records by *sanitised* schema string so we can reuse the compiled
+    # program where possible.  In most tasks there will only be **one** key in
+    # this dict, and therefore the inner loop will amortise the schema
+    # validation cost.
+    grouped: Dict[str, List[tuple[str, str, Dict[str, Any]]]] = {}
+    for prm, sch, rec in zip(prompts, schemas, recs):
+        # Keep the *ordered* sanitised schema dict for generation, but build a
+        # canonical key (keys sorted) so that identical schemas differing only
+        # by property order still end up in the same bucket.
+        ordered_dict = _sanitize(json.loads(json.dumps(sch))) if isinstance(sch, (dict, list)) else sch
+        sj_ordered = json.dumps(ordered_dict)
+        canonical_key = json.dumps(ordered_dict, sort_keys=True)
+        grouped.setdefault(canonical_key, []).append((prm, sj_ordered, rec))
+
+    out: List[Dict[str, Any]] = []
     with llm.session() as sess:
-        for prm, sch, r in tqdm(list(zip(prompts, schemas, recs)), desc=task):
-            s_json = _prep_schema(sch)
-            res = _prog(prm, s_json)(llm=sess, _s=json.loads(s_json), max_tokens=mnt)
-            out.append({**r, "generated_output": res["answer"].strip()})
-    json.dump(out, open(out_path/"generated.json", "w"), indent=4)
+        for _, items in grouped.items():
+            # Compile once per canonical schema key – we can use the first
+            # item's *ordered* schema to build the program.
+            first_ordered_str = items[0][1]
+            prog = _prog("shared", first_ordered_str)
+            schema_obj = json.loads(first_ordered_str)
+
+            for prm, sj_ord, rec in tqdm(items, desc=f"{task} (schema group)"):
+                res = prog(llm=sess, _s=json.loads(sj_ord), prompt=prm, max_tokens=mnt)
+                out.append({**rec, "generated_output": res["answer"].strip()})
+
+    json.dump(out, open(out_path / "generated.json", "w"), indent=4)
 
 # ------------------------------- task wrappers ---------------------------
 

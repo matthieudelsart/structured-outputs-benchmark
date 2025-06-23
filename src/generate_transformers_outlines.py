@@ -86,22 +86,56 @@ def _generate_batch(model: Any, prompts: List[str], schemas: List[Union[Dict[str
     so we loop serially inside the batch for now.  Still faster than fully
     serial outer loop because the model stays on device.
     """
+    mnt = max_new_tokens if max_new_tokens is not None else MAX_NEW_TOKENS
+
+    # ───────────── Fast path: all prompts share one identical schema ────────────
+    # Many benchmark tasks (Rotowire, FewNERD, TOPv1, reasoning) load their
+    # schema from a *single* schema.json file.  When this is the case we can
+    # call Outlines once with a *batched* list of prompts and reap true GPU
+    # parallelism.
+
+    def _canon(x: Union[Dict[str, Any], str]) -> str:
+        return json.dumps(x, sort_keys=True) if not isinstance(x, str) else x
+
+    try:
+        first_schema = schemas[0]
+        same_schema = all(_canon(s) == _canon(first_schema) for s in schemas)
+    except Exception:
+        same_schema = False
+
+    if same_schema and len(prompts) > 1:
+        # Prepare/canonicalise once
+        if isinstance(first_schema, (dict, list)):
+            schema_fixed = _sanitize(json.loads(json.dumps(first_schema)))
+            schema_obj = json.dumps(schema_fixed)
+        else:
+            schema_obj = first_schema
+
+        gen_fn = outlines.generate.json(model, schema_obj)
+        gen_fn.format_sequence = lambda x: x  # type: ignore – keep raw text
+
+        outs_raw = gen_fn(prompts, max_tokens=mnt)
+        # Outlines returns a list (or single str).  Normalise to List[str].
+        if isinstance(outs_raw, list):
+            outs = [o.strip() if isinstance(o, str) else json.dumps(o, ensure_ascii=False) for o in outs_raw]
+        else:
+            outs = [outs_raw.strip() if isinstance(outs_raw, str) else json.dumps(outs_raw, ensure_ascii=False)]
+        return outs
+
+    # ───────────── Fallback: heterogeneous schemas – serial loop ───────────────
     outs: List[str] = []
     for prompt, schema in zip(prompts, schemas):
-        mnt = max_new_tokens if max_new_tokens is not None else MAX_NEW_TOKENS
         if isinstance(schema, (dict, list)):
             schema_fixed = _sanitize(json.loads(json.dumps(schema)))  # deep copy
             schema_obj = json.dumps(schema_fixed)
         else:
             schema_obj = schema
         gen_fn = outlines.generate.json(model, schema_obj)
-        # Disable automatic JSON parsing to avoid runtime failures when model deviates
         gen_fn.format_sequence = lambda x: x  # type: ignore
         out = gen_fn(prompt, max_tokens=mnt)
         if isinstance(out, str):
             text = out.strip()
         else:
-            # Convert python object (dict/list) to pretty JSON string
             text = json.dumps(out, ensure_ascii=False)
         outs.append(text)
     return outs
