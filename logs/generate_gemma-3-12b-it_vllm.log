@@ -1,0 +1,21 @@
+2025-06-28 14:06:11,036 [INFO] Loading model 'google/gemma-3-12b-it' with vLLM …
+2025-06-28 14:12:49,359 [INFO] 
+===== RERUN invoked =====
+2025-06-28 14:12:49,359 [INFO] Loading model 'google/gemma-3-12b-it' with vLLM …
+2025-06-28 14:15:28,782 [INFO] Processing task: 1-rotowire
+2025-06-28 14:30:35,995 [INFO] Task 1-rotowire completed in 907.21 s
+2025-06-28 14:30:35,997 [INFO] Processing task: 2-wiki_bio
+2025-06-28 14:45:37,705 [INFO] Task 2-wiki_bio completed in 901.71 s
+2025-06-28 14:45:37,707 [INFO] Processing task: 3-few_nerd
+2025-06-28 15:00:13,532 [INFO] Task 3-few_nerd completed in 875.83 s
+2025-06-28 15:00:13,534 [INFO] Processing task: 4-TOPv1
+2025-06-28 15:21:43,763 [INFO] Task 4-TOPv1 completed in 1290.23 s
+2025-06-28 15:21:43,765 [INFO] Processing task: 5-api_bank
+2025-06-28 15:43:35,585 [INFO] Task 5-api_bank completed in 1311.82 s
+2025-06-28 15:43:35,586 [INFO] Processing task: 6-reasoning
+2025-06-28 15:43:35,586 [INFO]   > subtask GSM8K
+2025-06-28 15:43:35,586 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-28 15:46:50,491 [INFO] Task 6-reasoning/GSM8K completed in 194.90 s
+2025-06-28 15:46:50,492 [INFO]   > subtask last_letter
+2025-06-28 15:46:50,492 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-28 15:50:04,890 [INFO] Task 6-reasoning/last_letter completed in 194.40 s
