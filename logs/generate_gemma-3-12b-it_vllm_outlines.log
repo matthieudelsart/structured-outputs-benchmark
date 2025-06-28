@@ -1,2 +1,6 @@
 2025-06-28 15:50:12,478 [INFO] Loading model 'google/gemma-3-12b-it' with vLLM …
 2025-06-28 15:51:15,945 [INFO] Processing task: 1-rotowire
+2025-06-28 17:25:51,329 [INFO] Task 1-rotowire completed in 5675.38 s
+2025-06-28 17:25:51,330 [INFO] Processing task: 2-wiki_bio
+2025-06-28 18:57:26,916 [INFO] Task 2-wiki_bio completed in 5495.59 s
+2025-06-28 18:57:26,917 [INFO] Processing task: 3-few_nerd
