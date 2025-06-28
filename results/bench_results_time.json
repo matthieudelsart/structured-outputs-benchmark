@@ -83,5 +83,10 @@
         "6-reasoning/GSM8K": 25.64393526315689,
         "6-reasoning/last_letter": 25.82467359583825,
         "overall": 589.1483937799931
+    },
+    "gemma-3-1b-it_vllm_outlines": {
+        "1-rotowire": 1256.3100520074368,
+        "2-wiki_bio": 1073.33749133721,
+        "overall": 2329.6475433446467
     }
 }

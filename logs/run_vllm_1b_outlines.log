@@ -159,3 +159,383 @@ INFO 06-28 22:24:39 [llm_engine.py:428] init engine (profile, create kv cache, w
 Adding requests:  62%|██████▎   | 10/16 [01:50<01:06, 11.11s/it][A
 Adding requests:  69%|██████▉   | 11/16 [02:01<00:55, 11.11s/it][A
 Adding requests:  75%|███████▌  | 12/16 [02:12<00:44, 11.13s/it][A
+Adding requests:  81%|████████▏ | 13/16 [02:24<00:33, 11.14s/it][A
+Adding requests:  88%|████████▊ | 14/16 [02:35<00:22, 11.27s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:46<00:11, 11.20s/it][A
+Adding requests: 100%|██████████| 16/16 [02:57<00:00, 11.12s/it][AAdding requests: 100%|██████████| 16/16 [02:57<00:00, 11.10s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:13<03:23, 13.57s/it, est. speed input: 132.08 toks/s, output: 3.90 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:13<01:20,  5.72s/it, est. speed input: 258.18 toks/s, output: 7.75 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:14<00:42,  3.28s/it, est. speed input: 375.42 toks/s, output: 11.50 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:14<00:18,  1.64s/it, est. speed input: 597.09 toks/s, output: 18.69 toks/s][A
+Processed prompts:  38%|███▊      | 6/16 [00:15<00:12,  1.25s/it, est. speed input: 688.08 toks/s, output: 22.41 toks/s][A
+Processed prompts:  44%|████▍     | 7/16 [00:15<00:09,  1.01s/it, est. speed input: 808.16 toks/s, output: 26.01 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:15<00:01,  2.89it/s, est. speed input: 1413.32 toks/s, output: 46.90 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:19<00:01,  1.42it/s, est. speed input: 1349.89 toks/s, output: 50.12 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [00:19<00:00,  1.65it/s, est. speed input: 1477.22 toks/s, output: 63.52 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:19<00:00,  1.23s/it, est. speed input: 1477.22 toks/s, output: 63.52 toks/s]
+Generating (1-rotowire):  80%|████████  | 80/100 [16:51<04:11, 12.59s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:10<02:41, 10.78s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:21<02:31, 10.82s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:32<02:21, 10.86s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:43<02:10, 10.91s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:54<01:59, 10.88s/it][A
+Adding requests:  38%|███▊      | 6/16 [01:05<01:48, 10.82s/it][A
+Adding requests:  44%|████▍     | 7/16 [01:16<01:38, 10.93s/it][A
+Adding requests:  50%|█████     | 8/16 [01:27<01:27, 10.94s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:38<01:17, 11.02s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:49<01:05, 10.96s/it][A
+Adding requests:  69%|██████▉   | 11/16 [02:00<00:54, 10.94s/it][A
+Adding requests:  75%|███████▌  | 12/16 [02:11<00:43, 10.94s/it][A
+Adding requests:  81%|████████▏ | 13/16 [02:21<00:32, 10.88s/it][A
+Adding requests:  88%|████████▊ | 14/16 [02:32<00:21, 10.86s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:43<00:10, 10.87s/it][A
+Adding requests: 100%|██████████| 16/16 [02:54<00:00, 10.88s/it][AAdding requests: 100%|██████████| 16/16 [02:54<00:00, 10.90s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:13<03:24, 13.61s/it, est. speed input: 125.31 toks/s, output: 3.82 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:14<00:48,  3.73s/it, est. speed input: 392.24 toks/s, output: 11.31 toks/s][A
+Processed prompts:  25%|██▌       | 4/16 [00:14<00:32,  2.70s/it, est. speed input: 482.73 toks/s, output: 14.69 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:15<00:22,  2.09s/it, est. speed input: 585.15 toks/s, output: 18.09 toks/s][A
+Processed prompts:  69%|██████▉   | 11/16 [00:15<00:02,  1.78it/s, est. speed input: 1304.91 toks/s, output: 43.05 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:16<00:01,  1.79it/s, est. speed input: 1441.41 toks/s, output: 49.43 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:20<00:00,  1.14it/s, est. speed input: 1391.35 toks/s, output: 56.01 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [00:21<00:00,  1.22it/s, est. speed input: 1453.99 toks/s, output: 63.90 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:21<00:00,  1.31s/it, est. speed input: 1453.99 toks/s, output: 63.90 toks/s]
+Generating (1-rotowire):  96%|█████████▌| 96/100 [20:06<00:49, 12.46s/it]
+Adding requests:   0%|          | 0/4 [00:00<?, ?it/s][A
+Adding requests:  25%|██▌       | 1/4 [00:10<00:32, 10.97s/it][A
+Adding requests:  50%|█████     | 2/4 [00:22<00:22, 11.03s/it][A
+Adding requests:  75%|███████▌  | 3/4 [00:33<00:11, 11.05s/it][A
+Adding requests: 100%|██████████| 4/4 [00:44<00:00, 11.21s/it][AAdding requests: 100%|██████████| 4/4 [00:44<00:00, 11.14s/it]
+
+Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:  25%|██▌       | 1/4 [00:03<00:10,  3.64s/it, est. speed input: 470.05 toks/s, output: 14.83 toks/s][A
+Processed prompts:  50%|█████     | 2/4 [00:04<00:03,  1.82s/it, est. speed input: 825.57 toks/s, output: 28.90 toks/s][A
+Processed prompts: 100%|██████████| 4/4 [00:05<00:00,  1.01it/s, est. speed input: 1328.67 toks/s, output: 60.49 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:05<00:00,  1.30s/it, est. speed input: 1328.67 toks/s, output: 60.49 toks/s]
+Generating (1-rotowire): 100%|██████████| 100/100 [20:56<00:00, 12.46s/it]Generating (1-rotowire): 100%|██████████| 100/100 [20:56<00:00, 12.56s/it]
+2025-06-28 22:45:37,116 [INFO] Task 1-rotowire completed in 1256.31 s
+2025-06-28 22:45:37,116 [INFO] Processing task: 2-wiki_bio
+Generating (2-wiki_bio):   0%|          | 0/100 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:11<02:49, 11.32s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:21<02:28, 10.60s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:29<02:04,  9.57s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:34<01:32,  7.69s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:40<01:18,  7.14s/it][A
+Adding requests:  38%|███▊      | 6/16 [00:58<01:46, 10.60s/it][A
+Adding requests:  44%|████▍     | 7/16 [01:02<01:17,  8.60s/it][A
+Adding requests:  50%|█████     | 8/16 [01:17<01:25, 10.71s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:25<01:09,  9.92s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:29<00:48,  8.05s/it][A
+Adding requests:  69%|██████▉   | 11/16 [01:38<00:41,  8.24s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:46<00:33,  8.26s/it][A
+Adding requests:  81%|████████▏ | 13/16 [01:57<00:27,  9.00s/it][A
+Adding requests:  88%|████████▊ | 14/16 [02:04<00:16,  8.41s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:20<00:10, 10.55s/it][A
+Adding requests: 100%|██████████| 16/16 [02:27<00:00,  9.69s/it][AAdding requests: 100%|██████████| 16/16 [02:27<00:00,  9.23s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:05<01:21,  5.44s/it, est. speed input: 207.26 toks/s, output: 7.17 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:07<00:44,  3.20s/it, est. speed input: 281.73 toks/s, output: 12.31 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:10<00:40,  3.14s/it, est. speed input: 293.62 toks/s, output: 15.78 toks/s][A
+Processed prompts:  25%|██▌       | 4/16 [00:11<00:31,  2.60s/it, est. speed input: 356.68 toks/s, output: 20.89 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:13<00:24,  2.21s/it, est. speed input: 391.61 toks/s, output: 26.45 toks/s][A
+Processed prompts:  56%|█████▋    | 9/16 [00:13<00:05,  1.31it/s, est. speed input: 696.46 toks/s, output: 57.84 toks/s][A
+Processed prompts:  69%|██████▉   | 11/16 [00:14<00:03,  1.47it/s, est. speed input: 810.18 toks/s, output: 70.84 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:15<00:02,  1.58it/s, est. speed input: 846.32 toks/s, output: 78.13 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:16<00:02,  1.16it/s, est. speed input: 819.59 toks/s, output: 80.86 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:18<00:01,  1.05it/s, est. speed input: 822.23 toks/s, output: 86.78 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:18<00:00,  1.19it/s, est. speed input: 858.97 toks/s, output: 96.57 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:18<00:00,  1.16s/it, est. speed input: 910.16 toks/s, output: 108.62 toks/s]
+Generating (2-wiki_bio):  16%|█▌        | 16/100 [02:46<14:33, 10.40s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:14<03:44, 14.98s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:18<01:52,  8.06s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:20<01:10,  5.45s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:30<01:25,  7.12s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:39<01:26,  7.91s/it][A
+Adding requests:  38%|███▊      | 6/16 [00:50<01:29,  8.93s/it][A
+Adding requests:  44%|████▍     | 7/16 [00:56<01:13,  8.13s/it][A
+Adding requests:  50%|█████     | 8/16 [01:03<01:01,  7.63s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:07<00:45,  6.47s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:17<00:45,  7.51s/it][A
+Adding requests:  69%|██████▉   | 11/16 [01:29<00:44,  8.86s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:35<00:32,  8.07s/it][A
+Adding requests:  81%|████████▏ | 13/16 [01:43<00:24,  8.08s/it][A
+Adding requests:  88%|████████▊ | 14/16 [01:49<00:15,  7.54s/it][A
+Adding requests:  94%|█████████▍| 15/16 [01:59<00:08,  8.27s/it][A
+Adding requests: 100%|██████████| 16/16 [02:08<00:00,  8.54s/it][AAdding requests: 100%|██████████| 16/16 [02:08<00:00,  8.06s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:03<00:46,  3.13s/it, est. speed input: 275.47 toks/s, output: 9.26 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:04<00:28,  2.01s/it, est. speed input: 454.35 toks/s, output: 14.92 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:06<00:29,  2.28s/it, est. speed input: 411.75 toks/s, output: 16.69 toks/s][A
+Processed prompts:  25%|██▌       | 4/16 [00:07<00:18,  1.53s/it, est. speed input: 506.33 toks/s, output: 23.98 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:11<00:29,  2.64s/it, est. speed input: 391.61 toks/s, output: 22.67 toks/s][A
+Processed prompts:  38%|███▊      | 6/16 [00:12<00:19,  1.90s/it, est. speed input: 459.66 toks/s, output: 29.70 toks/s][A
+Processed prompts:  44%|████▍     | 7/16 [00:13<00:15,  1.71s/it, est. speed input: 505.44 toks/s, output: 34.96 toks/s][A
+Processed prompts:  50%|█████     | 8/16 [00:14<00:10,  1.35s/it, est. speed input: 558.93 toks/s, output: 41.75 toks/s][A
+Processed prompts:  56%|█████▋    | 9/16 [00:14<00:06,  1.01it/s, est. speed input: 626.22 toks/s, output: 49.52 toks/s][A
+Processed prompts:  62%|██████▎   | 10/16 [00:14<00:04,  1.35it/s, est. speed input: 685.52 toks/s, output: 57.18 toks/s][A
+Processed prompts:  69%|██████▉   | 11/16 [00:15<00:03,  1.30it/s, est. speed input: 717.51 toks/s, output: 62.82 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:15<00:02,  1.64it/s, est. speed input: 771.85 toks/s, output: 70.56 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:16<00:01,  1.99it/s, est. speed input: 862.43 toks/s, output: 78.32 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:16<00:01,  1.69it/s, est. speed input: 875.15 toks/s, output: 84.08 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:19<00:01,  1.28s/it, est. speed input: 791.67 toks/s, output: 83.28 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [00:20<00:00,  1.01it/s, est. speed input: 853.62 toks/s, output: 94.11 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:20<00:00,  1.25s/it, est. speed input: 853.62 toks/s, output: 94.11 toks/s]
+Generating (2-wiki_bio):  32%|███▏      | 32/100 [05:15<11:03,  9.76s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:04<01:12,  4.87s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:18<02:24, 10.30s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:27<02:04,  9.61s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:49<02:51, 14.25s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:54<02:01, 11.02s/it][A
+Adding requests:  38%|███▊      | 6/16 [01:00<01:31,  9.20s/it][A
+Adding requests:  44%|████▍     | 7/16 [01:06<01:15,  8.34s/it][A
+Adding requests:  50%|█████     | 8/16 [01:12<01:00,  7.51s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:16<00:45,  6.47s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:25<00:43,  7.27s/it][A
+Adding requests:  69%|██████▉   | 11/16 [01:34<00:38,  7.65s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:41<00:29,  7.49s/it][A
+Adding requests:  81%|████████▏ | 13/16 [01:49<00:23,  7.68s/it][A
+Adding requests:  88%|████████▊ | 14/16 [02:02<00:18,  9.20s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:11<00:09,  9.11s/it][A
+Adding requests: 100%|██████████| 16/16 [02:19<00:00,  8.99s/it][AAdding requests: 100%|██████████| 16/16 [02:19<00:00,  8.73s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:07<01:46,  7.10s/it, est. speed input: 195.10 toks/s, output: 6.48 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:08<00:50,  3.57s/it, est. speed input: 296.02 toks/s, output: 12.07 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:09<00:32,  2.47s/it, est. speed input: 364.23 toks/s, output: 17.41 toks/s][A
+Processed prompts:  25%|██▌       | 4/16 [00:13<00:37,  3.14s/it, est. speed input: 317.57 toks/s, output: 18.78 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:13<00:23,  2.10s/it, est. speed input: 394.33 toks/s, output: 25.19 toks/s][A
+Processed prompts:  38%|███▊      | 6/16 [00:14<00:17,  1.73s/it, est. speed input: 430.23 toks/s, output: 30.23 toks/s][A
+Processed prompts:  44%|████▍     | 7/16 [00:15<00:12,  1.40s/it, est. speed input: 469.28 toks/s, output: 35.59 toks/s][A
+Processed prompts:  50%|█████     | 8/16 [00:18<00:16,  2.05s/it, est. speed input: 436.29 toks/s, output: 36.05 toks/s][A
+Processed prompts:  56%|█████▋    | 9/16 [00:19<00:10,  1.46s/it, est. speed input: 492.44 toks/s, output: 42.72 toks/s][A
+Processed prompts:  62%|██████▎   | 10/16 [00:19<00:06,  1.11s/it, est. speed input: 529.51 toks/s, output: 49.07 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:20<00:02,  1.38it/s, est. speed input: 627.33 toks/s, output: 61.84 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:20<00:02,  1.42it/s, est. speed input: 655.27 toks/s, output: 67.67 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:21<00:01,  1.30it/s, est. speed input: 679.58 toks/s, output: 73.00 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:25<00:01,  1.71s/it, est. speed input: 611.69 toks/s, output: 72.49 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [01:15<00:00, 15.10s/it, est. speed input: 225.05 toks/s, output: 52.14 toks/s][AProcessed prompts: 100%|██████████| 16/16 [01:15<00:00,  4.70s/it, est. speed input: 225.05 toks/s, output: 52.14 toks/s]
+Generating (2-wiki_bio):  48%|████▊     | 48/100 [08:50<09:54, 11.44s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:06<01:34,  6.27s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:11<01:20,  5.77s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:23<01:49,  8.43s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:29<01:31,  7.60s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:37<01:24,  7.66s/it][A
+Adding requests:  38%|███▊      | 6/16 [00:42<01:09,  6.93s/it][A
+Adding requests:  44%|████▍     | 7/16 [00:50<01:05,  7.29s/it][A
+Adding requests:  50%|█████     | 8/16 [01:03<01:11,  8.91s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:09<00:56,  8.13s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:14<00:42,  7.14s/it][A
+Adding requests:  69%|██████▉   | 11/16 [01:35<00:56, 11.31s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:42<00:39,  9.96s/it][A
+Adding requests:  81%|████████▏ | 13/16 [01:49<00:27,  9.21s/it][A
+Adding requests:  88%|████████▊ | 14/16 [01:58<00:18,  9.14s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:14<00:10, 11.00s/it][A
+Adding requests: 100%|██████████| 16/16 [02:21<00:00, 10.07s/it][AAdding requests: 100%|██████████| 16/16 [02:21<00:00,  8.87s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:12<03:06, 12.43s/it, est. speed input: 72.19 toks/s, output: 6.28 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:13<01:17,  5.57s/it, est. speed input: 188.55 toks/s, output: 12.28 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:14<00:45,  3.48s/it, est. speed input: 243.81 toks/s, output: 17.70 toks/s][A
+Processed prompts:  25%|██▌       | 4/16 [00:14<00:29,  2.42s/it, est. speed input: 301.51 toks/s, output: 22.95 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:15<00:19,  1.74s/it, est. speed input: 366.74 toks/s, output: 28.35 toks/s][A
+Processed prompts:  38%|███▊      | 6/16 [00:15<00:12,  1.24s/it, est. speed input: 437.25 toks/s, output: 34.12 toks/s][A
+Processed prompts:  44%|████▍     | 7/16 [00:17<00:12,  1.40s/it, est. speed input: 446.81 toks/s, output: 37.07 toks/s][A
+Processed prompts:  50%|█████     | 8/16 [00:18<00:10,  1.31s/it, est. speed input: 477.03 toks/s, output: 41.33 toks/s][A
+Processed prompts:  56%|█████▋    | 9/16 [00:19<00:07,  1.08s/it, est. speed input: 513.34 toks/s, output: 46.64 toks/s][A
+Processed prompts:  62%|██████▎   | 10/16 [00:19<00:05,  1.19it/s, est. speed input: 557.11 toks/s, output: 52.54 toks/s][A
+Processed prompts:  69%|██████▉   | 11/16 [00:19<00:03,  1.59it/s, est. speed input: 599.92 toks/s, output: 58.80 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:21<00:04,  1.14s/it, est. speed input: 582.42 toks/s, output: 59.91 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:22<00:02,  1.03it/s, est. speed input: 618.96 toks/s, output: 65.77 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:32<00:07,  3.54s/it, est. speed input: 468.33 toks/s, output: 56.32 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:33<00:03,  3.02s/it, est. speed input: 470.22 toks/s, output: 64.07 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [00:34<00:00,  2.26s/it, est. speed input: 493.38 toks/s, output: 75.24 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:34<00:00,  2.15s/it, est. speed input: 493.38 toks/s, output: 75.24 toks/s]
+Generating (2-wiki_bio):  64%|██████▍   | 64/100 [11:46<06:45, 11.27s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:10<02:39, 10.63s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:15<01:41,  7.25s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:26<01:57,  9.00s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:46<02:41, 13.42s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:57<02:15, 12.35s/it][A
+Adding requests:  38%|███▊      | 6/16 [01:03<01:43, 10.39s/it][A
+Adding requests:  44%|████▍     | 7/16 [01:16<01:40, 11.20s/it][A
+Adding requests:  50%|█████     | 8/16 [01:30<01:36, 12.10s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:40<01:19, 11.30s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:44<00:55,  9.18s/it][A
+Adding requests:  69%|██████▉   | 11/16 [01:51<00:41,  8.38s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:57<00:30,  7.63s/it][A
+Adding requests:  81%|████████▏ | 13/16 [02:06<00:24,  8.02s/it][A
+Adding requests:  88%|████████▊ | 14/16 [02:11<00:14,  7.20s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:21<00:08,  8.06s/it][A
+Adding requests: 100%|██████████| 16/16 [02:30<00:00,  8.23s/it][AAdding requests: 100%|██████████| 16/16 [02:30<00:00,  9.38s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:08<02:11,  8.80s/it, est. speed input: 188.01 toks/s, output: 7.62 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:08<00:52,  3.74s/it, est. speed input: 286.06 toks/s, output: 15.01 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:09<00:32,  2.48s/it, est. speed input: 350.07 toks/s, output: 21.03 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:13<00:22,  2.05s/it, est. speed input: 399.73 toks/s, output: 29.13 toks/s][A
+Processed prompts:  44%|████▍     | 7/16 [00:14<00:11,  1.31s/it, est. speed input: 586.01 toks/s, output: 43.05 toks/s][A
+Processed prompts:  56%|█████▋    | 9/16 [00:14<00:05,  1.21it/s, est. speed input: 748.58 toks/s, output: 58.84 toks/s][A
+Processed prompts:  62%|██████▎   | 10/16 [00:15<00:05,  1.02it/s, est. speed input: 747.00 toks/s, output: 62.02 toks/s][A
+Processed prompts:  69%|██████▉   | 11/16 [00:16<00:04,  1.05it/s, est. speed input: 765.90 toks/s, output: 68.08 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:17<00:03,  1.27it/s, est. speed input: 816.69 toks/s, output: 76.19 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:17<00:02,  1.37it/s, est. speed input: 846.63 toks/s, output: 83.55 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:17<00:01,  1.70it/s, est. speed input: 908.59 toks/s, output: 92.76 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:18<00:00,  1.80it/s, est. speed input: 949.76 toks/s, output: 101.14 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [00:19<00:00,  1.24it/s, est. speed input: 931.12 toks/s, output: 108.75 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:19<00:00,  1.23s/it, est. speed input: 931.12 toks/s, output: 108.75 toks/s]
+Generating (2-wiki_bio):  80%|████████  | 80/100 [14:36<03:40, 11.03s/it]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:06<01:40,  6.67s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:15<01:52,  8.05s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:25<01:52,  8.68s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:38<02:06, 10.53s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:40<01:23,  7.62s/it][A
+Adding requests:  38%|███▊      | 6/16 [00:47<01:11,  7.12s/it][A
+Adding requests:  44%|████▍     | 7/16 [00:59<01:20,  8.96s/it][A
+Adding requests:  50%|█████     | 8/16 [01:04<00:59,  7.49s/it][A
+Adding requests:  56%|█████▋    | 9/16 [01:15<00:59,  8.56s/it][A
+Adding requests:  62%|██████▎   | 10/16 [01:22<00:49,  8.29s/it][A
+Adding requests:  69%|██████▉   | 11/16 [01:27<00:36,  7.25s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:35<00:30,  7.50s/it][A
+Adding requests:  81%|████████▏ | 13/16 [01:42<00:22,  7.37s/it][A
+Adding requests:  88%|████████▊ | 14/16 [01:49<00:14,  7.19s/it][A
+Adding requests:  94%|█████████▍| 15/16 [02:05<00:09,  9.81s/it][A
+Adding requests: 100%|██████████| 16/16 [02:16<00:00, 10.27s/it][AAdding requests: 100%|██████████| 16/16 [02:16<00:00,  8.55s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:03<00:54,  3.65s/it, est. speed input: 278.43 toks/s, output: 6.31 toks/s][A
+Processed prompts:  12%|█▎        | 2/16 [00:08<01:03,  4.52s/it, est. speed input: 220.00 toks/s, output: 9.12 toks/s][A
+Processed prompts:  19%|█▉        | 3/16 [00:10<00:39,  3.04s/it, est. speed input: 295.69 toks/s, output: 14.54 toks/s][A
+Processed prompts:  25%|██▌       | 4/16 [00:12<00:34,  2.88s/it, est. speed input: 306.84 toks/s, output: 17.91 toks/s][A
+Processed prompts:  31%|███▏      | 5/16 [00:15<00:31,  2.85s/it, est. speed input: 307.75 toks/s, output: 21.05 toks/s][A
+Processed prompts:  38%|███▊      | 6/16 [00:15<00:19,  1.96s/it, est. speed input: 365.69 toks/s, output: 27.15 toks/s][A
+Processed prompts:  44%|████▍     | 7/16 [00:16<00:14,  1.57s/it, est. speed input: 406.46 toks/s, output: 32.37 toks/s][A
+Processed prompts:  50%|█████     | 8/16 [00:16<00:08,  1.12s/it, est. speed input: 460.21 toks/s, output: 38.60 toks/s][A
+Processed prompts:  56%|█████▋    | 9/16 [00:17<00:06,  1.06it/s, est. speed input: 503.52 toks/s, output: 43.86 toks/s][A
+Processed prompts:  62%|██████▎   | 10/16 [00:19<00:08,  1.33s/it, est. speed input: 495.50 toks/s, output: 45.71 toks/s][A
+Processed prompts:  69%|██████▉   | 11/16 [00:20<00:05,  1.13s/it, est. speed input: 535.59 toks/s, output: 51.26 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:21<00:04,  1.11s/it, est. speed input: 555.66 toks/s, output: 56.33 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:22<00:03,  1.10s/it, est. speed input: 592.86 toks/s, output: 61.78 toks/s][A
+Processed prompts:  88%|████████▊ | 14/16 [00:22<00:01,  1.01it/s, est. speed input: 620.90 toks/s, output: 68.33 toks/s][A
+Processed prompts:  94%|█████████▍| 15/16 [00:23<00:00,  1.22it/s, est. speed input: 657.40 toks/s, output: 75.93 toks/s][A
+Processed prompts: 100%|██████████| 16/16 [00:27<00:00,  1.72s/it, est. speed input: 606.41 toks/s, output: 79.04 toks/s][AProcessed prompts: 100%|██████████| 16/16 [00:27<00:00,  1.70s/it, est. speed input: 606.41 toks/s, output: 79.04 toks/s]
+Generating (2-wiki_bio):  96%|█████████▌| 96/100 [17:20<00:43, 10.77s/it]
+Adding requests:   0%|          | 0/4 [00:00<?, ?it/s][A
+Adding requests:  25%|██▌       | 1/4 [00:08<00:26,  8.70s/it][A
+Adding requests:  50%|█████     | 2/4 [00:14<00:14,  7.23s/it][A
+Adding requests:  75%|███████▌  | 3/4 [00:24<00:08,  8.36s/it][A
+Adding requests: 100%|██████████| 4/4 [00:29<00:00,  6.84s/it][AAdding requests: 100%|██████████| 4/4 [00:29<00:00,  7.28s/it]
+
+Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:  25%|██▌       | 1/4 [00:01<00:05,  1.75s/it, est. speed input: 579.63 toks/s, output: 32.52 toks/s][A
+Processed prompts:  50%|█████     | 2/4 [00:03<00:03,  1.53s/it, est. speed input: 629.11 toks/s, output: 49.99 toks/s][A
+Processed prompts:  75%|███████▌  | 3/4 [00:03<00:00,  1.09it/s, est. speed input: 893.15 toks/s, output: 80.12 toks/s][A
+Processed prompts: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s, est. speed input: 1075.35 toks/s, output: 105.34 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:03<00:00,  1.03it/s, est. speed input: 1075.35 toks/s, output: 105.34 toks/s]
+Generating (2-wiki_bio): 100%|██████████| 100/100 [17:53<00:00, 10.49s/it]Generating (2-wiki_bio): 100%|██████████| 100/100 [17:53<00:00, 10.73s/it]
+2025-06-28 23:03:30,454 [INFO] Task 2-wiki_bio completed in 1073.34 s
+2025-06-28 23:03:30,454 [INFO] Processing task: 3-few_nerd
+Generating (3-few_nerd):   0%|          | 0/100 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s][A
+Adding requests:   6%|▋         | 1/16 [00:05<01:18,  5.20s/it][A
+Adding requests:  12%|█▎        | 2/16 [00:10<01:12,  5.19s/it][A
+Adding requests:  19%|█▉        | 3/16 [00:15<01:07,  5.21s/it][A
+Adding requests:  25%|██▌       | 4/16 [00:20<01:02,  5.18s/it][A
+Adding requests:  31%|███▏      | 5/16 [00:26<00:57,  5.22s/it][A
+Adding requests:  38%|███▊      | 6/16 [00:31<00:52,  5.23s/it][A
+Adding requests:  44%|████▍     | 7/16 [00:36<00:47,  5.25s/it][A
+Adding requests:  50%|█████     | 8/16 [00:41<00:42,  5.27s/it][A
+Adding requests:  56%|█████▋    | 9/16 [00:47<00:37,  5.32s/it][A
+Adding requests:  62%|██████▎   | 10/16 [00:52<00:32,  5.39s/it][A
+Adding requests:  69%|██████▉   | 11/16 [00:58<00:27,  5.41s/it][A
+Adding requests:  75%|███████▌  | 12/16 [01:03<00:21,  5.43s/it][A
+Adding requests:  81%|████████▏ | 13/16 [01:09<00:16,  5.46s/it][A
+Adding requests:  88%|████████▊ | 14/16 [01:14<00:10,  5.47s/it][A
+Adding requests:  94%|█████████▍| 15/16 [01:20<00:05,  5.45s/it][A
+Adding requests: 100%|██████████| 16/16 [01:25<00:00,  5.40s/it][AAdding requests: 100%|██████████| 16/16 [01:25<00:00,  5.34s/it]
+
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   6%|▋         | 1/16 [00:03<00:57,  3.81s/it, est. speed input: 126.29 toks/s, output: 8.93 toks/s][A
+Processed prompts:  38%|███▊      | 6/16 [00:04<00:05,  1.76it/s, est. speed input: 629.10 toks/s, output: 48.09 toks/s][A
+Processed prompts:  75%|███████▌  | 12/16 [00:05<00:01,  3.35it/s, est. speed input: 1070.78 toks/s, output: 91.16 toks/s][A
+Processed prompts:  81%|████████▏ | 13/16 [00:07<00:01,  2.00it/s, est. speed input: 844.62 toks/s, output: 76.23 toks/s] [A[rank0]: Traceback (most recent call last):
+[rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank0]:   File "<frozen runpy>", line 88, in _run_code
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 618, in <module>
+[rank0]:     main() 
+[rank0]:     ^^^^^^
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 598, in main
+[rank0]:     tasks[t]()
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 544, in <lambda>
+[rank0]:     "3-few_nerd": lambda: _timeit(
+[rank0]:                           ^^^^^^^^
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 510, in _timeit
+[rank0]:     fn()
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 546, in <lambda>
+[rank0]:     lambda: _generate_generic(
+[rank0]:             ^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 230, in _generate_generic
+[rank0]:     _process_records(llm, prompts, schemas, bench, output_path, task_name, max_new_tokens=max_new_tokens)
+[rank0]:   File "/root/structured-outputs/src/generate_vllm_outlines.py", line 153, in _process_records
+[rank0]:     outputs = llm.generate(chunk_prompts, param_list)  # type: ignore[arg-type]
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/utils.py", line 1267, in inner
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/entrypoints/llm.py", line 474, in generate
+[rank0]:     outputs = self._run_engine(use_tqdm=use_tqdm)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/entrypoints/llm.py", line 1517, in _run_engine
+[rank0]:     step_outputs = self.llm_engine.step()
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/engine/llm_engine.py", line 1352, in step
+[rank0]:     outputs = self.model_executor.execute_model(
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/executor/executor_base.py", line 141, in execute_model
+[rank0]:     output = self.collective_rpc("execute_model",
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+[rank0]:     answer = run_method(self.driver_worker, method, args, kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/utils.py", line 2671, in run_method
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/worker/worker_base.py", line 421, in execute_model
+[rank0]:     output = self.model_runner.execute_model(
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/worker/model_runner.py", line 1893, in execute_model
+[rank0]:     logits = self.model.compute_logits(hidden_or_intermediate_states,
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/model_executor/models/gemma3.py", line 522, in compute_logits
+[rank0]:     logits = self.logits_processor(self.model.embed_tokens, hidden_states,
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/model_executor/layers/logits_processor.py", line 84, in forward
+[rank0]:     logits = _apply_logits_processors(logits, sampling_metadata)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/model_executor/layers/logits_processor.py", line 171, in _apply_logits_processors
+[rank0]:     _apply_logits_processors_single_seq(
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/model_executor/layers/logits_processor.py", line 196, in _apply_logits_processors_single_seq
+[rank0]:     logits_row = logits_processor(past_tokens_ids, logits_row)
+[rank0]:                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/vllm/model_executor/guided_decoding/outlines_logits_processors.py", line 104, in __call__
+[rank0]:     instruction = self._guide.get_next_instruction(
+[rank0]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/structured-outputs/.venv/lib/python3.11/site-packages/outlines_core/fsm/guide.py", line 272, in get_next_instruction
+[rank0]:     return Generate(torch.tensor(next_tokens_mask))
+[rank0]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt
+Processed prompts:  81%|████████▏ | 13/16 [01:02<00:14,  4.79s/it, est. speed input: 844.62 toks/s, output: 76.23 toks/s]
+Generating (3-few_nerd):   0%|          | 0/100 [02:27<?, ?it/s]
+[rank0]:[W628 23:05:58.723257307 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
