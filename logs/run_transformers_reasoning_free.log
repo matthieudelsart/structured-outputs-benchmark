@@ -1,0 +1,21 @@
+2025-06-28 13:28:01,567 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.49it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+Generating (reasoning free):   0%|          | 0/100 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  16%|█▌        | 16/100 [00:30<02:41,  1.92s/it]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  32%|███▏      | 32/100 [01:01<02:11,  1.93s/it]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  48%|████▊     | 48/100 [01:32<01:40,  1.92s/it]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  64%|██████▍   | 64/100 [02:03<01:09,  1.93s/it]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  80%|████████  | 80/100 [02:34<00:38,  1.93s/it]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  96%|█████████▌| 96/100 [03:05<00:07,  1.93s/it]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free): 100%|██████████| 100/100 [03:31<00:00,  2.44s/it]Generating (reasoning free): 100%|██████████| 100/100 [03:31<00:00,  2.12s/it]
+2025-06-28 13:31:35,039 Task GSM8K completed in 211.66s
+Generating (reasoning free):   0%|          | 0/100 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  16%|█▌        | 16/100 [00:05<00:31,  2.68it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  32%|███▏      | 32/100 [00:11<00:23,  2.87it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  48%|████▊     | 48/100 [00:18<00:20,  2.56it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  64%|██████▍   | 64/100 [00:23<00:13,  2.73it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  80%|████████  | 80/100 [00:32<00:08,  2.28it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free):  96%|█████████▌| 96/100 [00:38<00:01,  2.46it/s]The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating (reasoning free): 100%|██████████| 100/100 [00:41<00:00,  2.16it/s]Generating (reasoning free): 100%|██████████| 100/100 [00:41<00:00,  2.38it/s]
+2025-06-28 13:32:16,977 Task last_letter completed in 41.94s

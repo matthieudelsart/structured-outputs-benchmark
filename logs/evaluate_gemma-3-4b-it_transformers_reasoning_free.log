@@ -1,0 +1,16 @@
+2025-06-28 13:55:45,873 [INFO] Starting evaluation for repository: gemma-3-4b-it_transformers_reasoning_free
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 1-rotowire
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/1-rotowire/generated.json
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 2-wiki_bio
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/2-wiki_bio/generated.json
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 3-few_nerd
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/3-few_nerd/generated.json
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 4-TOPv1
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/4-TOPv1/generated.json
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 5-api_bank
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/5-api_bank/generated.json
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/6-reasoning/GSM8K/generated.json
+2025-06-28 13:55:45,907 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-06-28 13:55:45,907 [WARNING] Benchmark file not found, skipping: results/gemma-3-4b-it_transformers_reasoning_free/6-reasoning/last_letter/generated.json
+2025-06-28 13:55:45,908 [INFO] Evaluation complete for repository: gemma-3-4b-it_transformers_reasoning_free

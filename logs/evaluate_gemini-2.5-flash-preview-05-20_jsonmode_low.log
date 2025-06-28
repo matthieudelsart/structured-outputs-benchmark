@@ -1,102 +1,102 @@
-2025-06-23 13:19:06,187 [INFO] Starting evaluation for repository: gemini-2.5-flash-preview-05-20_jsonmode_low
-2025-06-23 13:19:06,221 [INFO] Evaluating task: 1-rotowire
-2025-06-23 13:19:06,232 [INFO] Computed scores for 1-rotowire
-2025-06-23 13:19:06,233 [INFO] Aggregated scores for 1-rotowire: {'compliance': 0.925, 'is_valid': 1.0, 'correctness': 0.496}
-2025-06-23 13:19:06,233 [INFO] Evaluating task: 2-wiki_bio
-2025-06-23 13:19:06,238 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-23 13:19:06,238 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
-2025-06-23 13:19:06,241 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
-2025-06-23 13:19:06,241 [WARNING] Lookup error for nationality: Prince Edward Island, error: Could not find a record for 'prince edward island'
-2025-06-23 13:19:06,242 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
-2025-06-23 13:19:06,242 [WARNING] Lookup error for nationality: Japanese, error: Could not find a record for 'japanese'
-2025-06-23 13:19:06,244 [ERROR] Error parsing date: late 1920s, error: second must be in 0..59: late 1920s
-2025-06-23 13:19:06,245 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,245 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,247 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-23 13:19:06,247 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-23 13:19:06,248 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
-2025-06-23 13:19:06,251 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,252 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
-2025-06-23 13:19:06,252 [WARNING] Lookup error for nationality: Filipino-American, error: Could not find a record for 'filipino-american'
-2025-06-23 13:19:06,253 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,254 [ERROR] Error parsing date: 11 february 1862 -- 14 september 1940, error: Unknown string format: 11 february 1862 -- 14 september 1940
-2025-06-23 13:19:06,254 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,259 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,271 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,272 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,272 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,272 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,272 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,277 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
-2025-06-23 13:19:06,277 [WARNING] Lookup error for nationality: Soviet, error: Could not find a record for 'soviet'
-2025-06-23 13:19:06,279 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
-2025-06-23 13:19:06,279 [WARNING] Lookup error for nationality: Cameroonian, error: Could not find a record for 'cameroonian'
-2025-06-23 13:19:06,284 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
-2025-06-23 13:19:06,288 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,289 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,289 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
-2025-06-23 13:19:06,291 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,291 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,292 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
-2025-06-23 13:19:06,292 [WARNING] Lookup error for nationality: Tunisian, error: Could not find a record for 'tunisian'
-2025-06-23 13:19:06,294 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,295 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,295 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,295 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,298 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-23 13:19:06,298 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-23 13:19:06,302 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,302 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,312 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,312 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,315 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,315 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,315 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,320 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,322 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,325 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-23 13:19:06,325 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-23 13:19:06,326 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-23 13:19:06,326 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
-2025-06-23 13:19:06,326 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,327 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
-2025-06-23 13:19:06,328 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-23 13:19:06,328 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-23 13:19:06,330 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,331 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,332 [WARNING] Lookup error for nationality: Welsh American, error: Could not find a record for 'welsh american'
-2025-06-23 13:19:06,332 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
-2025-06-23 13:19:06,332 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
-2025-06-23 13:19:06,333 [WARNING] Lookup error for nationality: Indian, error: Could not find a record for 'indian'
-2025-06-23 13:19:06,333 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
-2025-06-23 13:19:06,333 [WARNING] Lookup error for nationality: Australian, error: Could not find a record for 'australian'
-2025-06-23 13:19:06,335 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,335 [WARNING] Lookup error for nationality: English, error: Could not find a record for 'english'
-2025-06-23 13:19:06,339 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
-2025-06-23 13:19:06,342 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,343 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-23 13:19:06,343 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
-2025-06-23 13:19:06,343 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-23 13:19:06,344 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,344 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-23 13:19:06,347 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-23 13:19:06,347 [WARNING] Lookup error for nationality: Norwegian, error: Could not find a record for 'norwegian'
-2025-06-23 13:19:06,347 [INFO] Computed scores for 2-wiki_bio
-2025-06-23 13:19:06,348 [INFO] Aggregated scores for 2-wiki_bio: {'compliance': 0.851, 'is_valid': 1.0, 'correctness': 0.333}
-2025-06-23 13:19:06,348 [INFO] Evaluating task: 3-few_nerd
-2025-06-23 13:19:06,373 [INFO] Computed scores for 3-few_nerd
-2025-06-23 13:19:06,373 [INFO] Aggregated scores for 3-few_nerd: {'compliance': 1.0, 'is_valid': 1.0, 'correctness': 0.594}
-2025-06-23 13:19:06,373 [INFO] Evaluating task: 4-TOPv1
-2025-06-23 13:19:06,455 [INFO] Computed scores for 4-TOPv1
-2025-06-23 13:19:06,455 [INFO] Aggregated scores for 4-TOPv1: {'compliance': 0.987, 'is_valid': 1.0, 'correctness': 0.626}
-2025-06-23 13:19:06,455 [INFO] Evaluating task: 5-api_bank
-2025-06-23 13:19:06,522 [ERROR] Error parsing JSON: the JSON object must be str, bytes or bytearray, not NoneType. Problem with None
-2025-06-23 13:19:06,717 [INFO] Computed scores for 5-api_bank
-2025-06-23 13:19:06,718 [INFO] Aggregated scores for 5-api_bank: {'compliance': 0.988, 'is_valid': 0.993, 'correctness': 0.901}
-2025-06-23 13:19:06,718 [INFO] Evaluating task: 6-reasoning/GSM8K
-2025-06-23 13:19:06,721 [INFO] Computed scores for 6-reasoning/GSM8K
-2025-06-23 13:19:06,721 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'compliance': 0.81, 'is_valid': 1.0, 'correctness': 0.59}
-2025-06-23 13:19:06,721 [INFO] Evaluating task: 6-reasoning/last_letter
-2025-06-23 13:19:06,724 [INFO] Computed scores for 6-reasoning/last_letter
-2025-06-23 13:19:06,724 [INFO] Aggregated scores for 6-reasoning/last_letter: {'compliance': 1.0, 'is_valid': 1.0, 'correctness': 0.97}
-2025-06-23 13:19:06,725 [INFO] Evaluation complete for repository: gemini-2.5-flash-preview-05-20_jsonmode_low
+2025-06-28 13:55:32,905 [INFO] Starting evaluation for repository: gemini-2.5-flash-preview-05-20_jsonmode_low
+2025-06-28 13:55:32,938 [INFO] Evaluating task: 1-rotowire
+2025-06-28 13:55:32,949 [INFO] Computed scores for 1-rotowire
+2025-06-28 13:55:32,949 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.496, 'compliance': 0.925, 'is_valid': 1.0}
+2025-06-28 13:55:32,949 [INFO] Evaluating task: 2-wiki_bio
+2025-06-28 13:55:32,955 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-06-28 13:55:32,955 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
+2025-06-28 13:55:32,958 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
+2025-06-28 13:55:32,958 [WARNING] Lookup error for nationality: Prince Edward Island, error: Could not find a record for 'prince edward island'
+2025-06-28 13:55:32,959 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
+2025-06-28 13:55:32,959 [WARNING] Lookup error for nationality: Japanese, error: Could not find a record for 'japanese'
+2025-06-28 13:55:32,960 [ERROR] Error parsing date: late 1920s, error: second must be in 0..59: late 1920s
+2025-06-28 13:55:32,962 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:32,962 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:32,964 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-06-28 13:55:32,964 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-06-28 13:55:32,965 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
+2025-06-28 13:55:32,968 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,969 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
+2025-06-28 13:55:32,969 [WARNING] Lookup error for nationality: Filipino-American, error: Could not find a record for 'filipino-american'
+2025-06-28 13:55:32,970 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,970 [ERROR] Error parsing date: 11 february 1862 -- 14 september 1940, error: Unknown string format: 11 february 1862 -- 14 september 1940
+2025-06-28 13:55:32,970 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,984 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,996 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,997 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,997 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,997 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:32,997 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,002 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
+2025-06-28 13:55:33,002 [WARNING] Lookup error for nationality: Soviet, error: Could not find a record for 'soviet'
+2025-06-28 13:55:33,004 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
+2025-06-28 13:55:33,004 [WARNING] Lookup error for nationality: Cameroonian, error: Could not find a record for 'cameroonian'
+2025-06-28 13:55:33,009 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
+2025-06-28 13:55:33,013 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:33,014 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:33,014 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
+2025-06-28 13:55:33,016 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,016 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,017 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
+2025-06-28 13:55:33,017 [WARNING] Lookup error for nationality: Tunisian, error: Could not find a record for 'tunisian'
+2025-06-28 13:55:33,019 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,020 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,020 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,020 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,023 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-06-28 13:55:33,023 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-06-28 13:55:33,027 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,027 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,029 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,029 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,031 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,031 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,031 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,036 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,039 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,041 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-06-28 13:55:33,041 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-06-28 13:55:33,042 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-06-28 13:55:33,042 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
+2025-06-28 13:55:33,043 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,044 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
+2025-06-28 13:55:33,044 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 13:55:33,044 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 13:55:33,046 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,047 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,048 [WARNING] Lookup error for nationality: Welsh American, error: Could not find a record for 'welsh american'
+2025-06-28 13:55:33,048 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
+2025-06-28 13:55:33,049 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
+2025-06-28 13:55:33,049 [WARNING] Lookup error for nationality: Indian, error: Could not find a record for 'indian'
+2025-06-28 13:55:33,049 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
+2025-06-28 13:55:33,049 [WARNING] Lookup error for nationality: Australian, error: Could not find a record for 'australian'
+2025-06-28 13:55:33,051 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:33,051 [WARNING] Lookup error for nationality: English, error: Could not find a record for 'english'
+2025-06-28 13:55:33,055 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
+2025-06-28 13:55:33,058 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,059 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-06-28 13:55:33,059 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
+2025-06-28 13:55:33,059 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 13:55:33,060 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:33,060 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 13:55:33,063 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 13:55:33,063 [WARNING] Lookup error for nationality: Norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 13:55:33,063 [INFO] Computed scores for 2-wiki_bio
+2025-06-28 13:55:33,064 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.333, 'compliance': 0.851, 'is_valid': 1.0}
+2025-06-28 13:55:33,064 [INFO] Evaluating task: 3-few_nerd
+2025-06-28 13:55:33,088 [INFO] Computed scores for 3-few_nerd
+2025-06-28 13:55:33,088 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.594, 'compliance': 1.0, 'is_valid': 1.0}
+2025-06-28 13:55:33,088 [INFO] Evaluating task: 4-TOPv1
+2025-06-28 13:55:33,169 [INFO] Computed scores for 4-TOPv1
+2025-06-28 13:55:33,170 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.626, 'compliance': 0.987, 'is_valid': 1.0}
+2025-06-28 13:55:33,170 [INFO] Evaluating task: 5-api_bank
+2025-06-28 13:55:33,236 [ERROR] Error parsing JSON: the JSON object must be str, bytes or bytearray, not NoneType. Problem with None
+2025-06-28 13:55:33,431 [INFO] Computed scores for 5-api_bank
+2025-06-28 13:55:33,432 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.901, 'compliance': 0.988, 'is_valid': 0.993}
+2025-06-28 13:55:33,432 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-06-28 13:55:33,435 [INFO] Computed scores for 6-reasoning/GSM8K
+2025-06-28 13:55:33,435 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.59, 'compliance': 0.81, 'is_valid': 1.0}
+2025-06-28 13:55:33,435 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-06-28 13:55:33,438 [INFO] Computed scores for 6-reasoning/last_letter
+2025-06-28 13:55:33,438 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.97, 'compliance': 1.0, 'is_valid': 1.0}
+2025-06-28 13:55:33,439 [INFO] Evaluation complete for repository: gemini-2.5-flash-preview-05-20_jsonmode_low

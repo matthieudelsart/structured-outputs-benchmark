@@ -1,80 +1,0 @@
-2025-06-28 10:52:24,553 RERUN
-Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:20<00:20, 20.76s/it]Fetching 2 files: 100%|██████████| 2/2 [00:20<00:00, 10.38s/it]
-2025-06-28 10:52:52,633 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.46it/s]
-/root/structured-outputs/.venv/lib/python3.11/site-packages/guidance/chat.py:80: UserWarning: Chat template {{ bos_token }}
-{%- if messages[0]['role'] == 'system' -%}
-    {%- if messages[0]['content'] is string -%}
-        {%- set first_user_prefix = messages[0]['content'] + '
-
-' -%}
-    {%- else -%}
-        {%- set first_user_prefix = messages[0]['content'][0]['text'] + '
-
-' -%}
-    {%- endif -%}
-    {%- set loop_messages = messages[1:] -%}
-{%- else -%}
-    {%- set first_user_prefix = "" -%}
-    {%- set loop_messages = messages -%}
-{%- endif -%}
-{%- for message in loop_messages -%}
-    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) -%}
-        {{ raise_exception("Conversation roles must alternate user/assistant/user/assistant/...") }}
-    {%- endif -%}
-    {%- if (message['role'] == 'assistant') -%}
-        {%- set role = "model" -%}
-    {%- else -%}
-        {%- set role = message['role'] -%}
-    {%- endif -%}
-    {{ '<start_of_turn>' + role + '
-' + (first_user_prefix if loop.first else "") }}
-    {%- if message['content'] is string -%}
-        {{ message['content'] | trim }}
-    {%- elif message['content'] is iterable -%}
-        {%- for item in message['content'] -%}
-            {%- if item['type'] == 'image' -%}
-                {{ '<start_of_image>' }}
-            {%- elif item['type'] == 'text' -%}
-                {{ item['text'] | trim }}
-            {%- endif -%}
-        {%- endfor -%}
-    {%- else -%}
-        {{ raise_exception("Invalid content type") }}
-    {%- endif -%}
-    {{ '<end_of_turn>
-' }}
-{%- endfor -%}
-{%- if add_generation_prompt -%}
-    {{'<start_of_turn>model
-'}}
-{%- endif -%}
- was unable to be loaded directly into guidance.
-                        Defaulting to the ChatML format which may not be optimal for the selected model. 
-                        For best results, create and pass in a `guidance.ChatTemplate` subclass for your model.
-  warnings.warn(
-2025-06-28 10:53:00,587 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
-2025-06-28 10:53:00,590 Processing task: 1-rotowire
-1-rotowire (schema group):   0%|          | 0/100 [00:00<?, ?it/s]1-rotowire (schema group):   1%|          | 1/100 [00:21<35:47, 21.69s/it]1-rotowire (schema group):   2%|▏         | 2/100 [00:33<26:13, 16.06s/it]1-rotowire (schema group):   3%|▎         | 3/100 [01:13<43:15, 26.75s/it]1-rotowire (schema group):   4%|▍         | 4/100 [01:31<37:22, 23.36s/it]1-rotowire (schema group):   5%|▌         | 5/100 [01:47<32:35, 20.59s/it]1-rotowire (schema group):   6%|▌         | 6/100 [02:12<34:56, 22.31s/it]1-rotowire (schema group):   7%|▋         | 7/100 [02:25<29:43, 19.17s/it]1-rotowire (schema group):   8%|▊         | 8/100 [02:39<26:44, 17.44s/it]1-rotowire (schema group):   9%|▉         | 9/100 [02:51<23:56, 15.78s/it]1-rotowire (schema group):  10%|█         | 10/100 [03:05<22:45, 15.17s/it]1-rotowire (schema group):  11%|█         | 11/100 [04:50<1:03:34, 42.86s/it]1-rotowire (schema group):  12%|█▏        | 12/100 [06:58<1:40:51, 68.76s/it]1-rotowire (schema group):  13%|█▎        | 13/100 [07:13<1:15:58, 52.40s/it]1-rotowire (schema group):  14%|█▍        | 14/100 [07:29<59:31, 41.53s/it]  1-rotowire (schema group):  15%|█▌        | 15/100 [07:44<47:07, 33.27s/it]1-rotowire (schema group):  16%|█▌        | 16/100 [08:01<39:42, 28.36s/it]1-rotowire (schema group):  17%|█▋        | 17/100 [08:17<34:28, 24.92s/it]1-rotowire (schema group):  18%|█▊        | 18/100 [08:36<31:22, 22.95s/it]1-rotowire (schema group):  19%|█▉        | 19/100 [10:26<1:06:08, 49.00s/it]1-rotowire (schema group):  20%|██        | 20/100 [10:40<51:29, 38.61s/it]  1-rotowire (schema group):  21%|██        | 21/100 [12:25<1:16:59, 58.48s/it]1-rotowire (schema group):  22%|██▏       | 22/100 [12:50<1:02:56, 48.42s/it]1-rotowire (schema group):  23%|██▎       | 23/100 [13:14<52:44, 41.09s/it]  1-rotowire (schema group):  24%|██▍       | 24/100 [13:46<48:36, 38.37s/it]1-rotowire (schema group):  25%|██▌       | 25/100 [14:01<39:14, 31.40s/it]1-rotowire (schema group):  26%|██▌       | 26/100 [14:14<32:05, 26.02s/it]1-rotowire (schema group):  27%|██▋       | 27/100 [16:05<1:02:36, 51.46s/it]1-rotowire (schema group):  28%|██▊       | 28/100 [16:18<47:41, 39.74s/it]  1-rotowire (schema group):  29%|██▉       | 29/100 [16:29<37:08, 31.38s/it]1-rotowire (schema group):  30%|███       | 30/100 [16:43<30:17, 25.97s/it]1-rotowire (schema group):  31%|███       | 31/100 [16:56<25:24, 22.09s/it]1-rotowire (schema group):  32%|███▏      | 32/100 [17:10<22:24, 19.78s/it]1-rotowire (schema group):  33%|███▎      | 33/100 [17:23<19:41, 17.64s/it]1-rotowire (schema group):  34%|███▍      | 34/100 [17:35<17:36, 16.00s/it]1-rotowire (schema group):  35%|███▌      | 35/100 [17:46<15:49, 14.61s/it]1-rotowire (schema group):  36%|███▌      | 36/100 [18:00<15:21, 14.39s/it]1-rotowire (schema group):  37%|███▋      | 37/100 [18:15<15:08, 14.42s/it]1-rotowire (schema group):  38%|███▊      | 38/100 [18:32<15:47, 15.29s/it]1-rotowire (schema group):  39%|███▉      | 39/100 [18:47<15:24, 15.16s/it]1-rotowire (schema group):  40%|████      | 40/100 [19:02<15:05, 15.10s/it]1-rotowire (schema group):  41%|████      | 41/100 [20:44<40:35, 41.29s/it]1-rotowire (schema group):  42%|████▏     | 42/100 [20:57<31:30, 32.60s/it]1-rotowire (schema group):  43%|████▎     | 43/100 [22:40<51:01, 53.71s/it]1-rotowire (schema group):  44%|████▍     | 44/100 [22:53<38:55, 41.71s/it]1-rotowire (schema group):  45%|████▌     | 45/100 [24:35<54:50, 59.83s/it]1-rotowire (schema group):  46%|████▌     | 46/100 [24:47<40:51, 45.40s/it]1-rotowire (schema group):  47%|████▋     | 47/100 [25:00<31:26, 35.59s/it]1-rotowire (schema group):  48%|████▊     | 48/100 [25:13<25:06, 28.97s/it]1-rotowire (schema group):  49%|████▉     | 49/100 [25:25<20:18, 23.89s/it]1-rotowire (schema group):  50%|█████     | 50/100 [25:41<17:48, 21.36s/it]1-rotowire (schema group):  51%|█████     | 51/100 [25:58<16:22, 20.05s/it]1-rotowire (schema group):  52%|█████▏    | 52/100 [26:49<23:24, 29.25s/it]1-rotowire (schema group):  53%|█████▎    | 53/100 [27:04<19:41, 25.14s/it]1-rotowire (schema group):  54%|█████▍    | 54/100 [27:17<16:34, 21.61s/it]1-rotowire (schema group):  55%|█████▌    | 55/100 [27:29<13:54, 18.54s/it]1-rotowire (schema group):  56%|█████▌    | 56/100 [29:12<32:16, 44.01s/it]1-rotowire (schema group):  57%|█████▋    | 57/100 [29:24<24:31, 34.22s/it]1-rotowire (schema group):  58%|█████▊    | 58/100 [29:41<20:22, 29.10s/it]1-rotowire (schema group):  59%|█████▉    | 59/100 [29:54<16:43, 24.47s/it]1-rotowire (schema group):  60%|██████    | 60/100 [30:07<13:59, 20.99s/it]1-rotowire (schema group):  61%|██████    | 61/100 [30:21<12:09, 18.70s/it]1-rotowire (schema group):  62%|██████▏   | 62/100 [30:34<10:45, 17.00s/it]1-rotowire (schema group):  63%|██████▎   | 63/100 [32:17<26:25, 42.86s/it]1-rotowire (schema group):  64%|██████▍   | 64/100 [32:30<20:20, 33.91s/it]1-rotowire (schema group):  65%|██████▌   | 65/100 [32:43<16:08, 27.68s/it]1-rotowire (schema group):  66%|██████▌   | 66/100 [34:51<32:47, 57.86s/it]1-rotowire (schema group):  67%|██████▋   | 67/100 [35:04<24:25, 44.39s/it]1-rotowire (schema group):  68%|██████▊   | 68/100 [35:19<18:54, 35.46s/it]1-rotowire (schema group):  69%|██████▉   | 69/100 [35:31<14:42, 28.45s/it]1-rotowire (schema group):  70%|███████   | 70/100 [36:00<14:16, 28.56s/it]1-rotowire (schema group):  71%|███████   | 71/100 [37:43<24:39, 51.01s/it]1-rotowire (schema group):  72%|███████▏  | 72/100 [39:26<31:06, 66.65s/it]1-rotowire (schema group):  73%|███████▎  | 73/100 [41:09<34:51, 77.45s/it]1-rotowire (schema group):  74%|███████▍  | 74/100 [43:16<39:58, 92.25s/it]1-rotowire (schema group):  75%|███████▌  | 75/100 [43:32<28:52, 69.30s/it]1-rotowire (schema group):  76%|███████▌  | 76/100 [45:14<31:37, 79.08s/it]1-rotowire (schema group):  77%|███████▋  | 77/100 [45:27<22:46, 59.43s/it]1-rotowire (schema group):  78%|███████▊  | 78/100 [45:40<16:40, 45.49s/it]1-rotowire (schema group):  79%|███████▉  | 79/100 [45:53<12:27, 35.60s/it]1-rotowire (schema group):  80%|████████  | 80/100 [46:07<09:43, 29.18s/it]1-rotowire (schema group):  81%|████████  | 81/100 [46:19<07:38, 24.11s/it]1-rotowire (schema group):  82%|████████▏ | 82/100 [48:05<14:35, 48.63s/it]1-rotowire (schema group):  83%|████████▎ | 83/100 [48:25<11:19, 39.97s/it]1-rotowire (schema group):  84%|████████▍ | 84/100 [48:37<08:27, 31.73s/it]1-rotowire (schema group):  85%|████████▌ | 85/100 [48:52<06:40, 26.68s/it]1-rotowire (schema group):  86%|████████▌ | 86/100 [49:18<06:11, 26.52s/it]1-rotowire (schema group):  87%|████████▋ | 87/100 [50:39<09:14, 42.66s/it]1-rotowire (schema group):  88%|████████▊ | 88/100 [50:52<06:46, 33.87s/it]1-rotowire (schema group):  89%|████████▉ | 89/100 [51:33<06:36, 36.00s/it]1-rotowire (schema group):  90%|█████████ | 90/100 [51:48<04:55, 29.59s/it]1-rotowire (schema group):  91%|█████████ | 91/100 [52:03<03:47, 25.26s/it]1-rotowire (schema group):  92%|█████████▏| 92/100 [53:46<06:29, 48.67s/it]1-rotowire (schema group):  93%|█████████▎| 93/100 [55:31<07:38, 65.56s/it]1-rotowire (schema group):  94%|█████████▍| 94/100 [55:45<05:00, 50.16s/it]1-rotowire (schema group):  95%|█████████▌| 95/100 [57:30<05:32, 66.48s/it]1-rotowire (schema group):  96%|█████████▌| 96/100 [58:13<03:57, 59.48s/it]1-rotowire (schema group):  97%|█████████▋| 97/100 [58:26<02:16, 45.44s/it]1-rotowire (schema group):  98%|█████████▊| 98/100 [59:57<01:58, 59.16s/it]1-rotowire (schema group):  99%|█████████▉| 99/100 [1:00:09<00:45, 45.12s/it]1-rotowire (schema group): 100%|██████████| 100/100 [1:01:52<00:00, 62.46s/it]1-rotowire (schema group): 100%|██████████| 100/100 [1:01:52<00:00, 37.13s/it]
-2025-06-28 11:54:53,121 Task 1-rotowire completed in 3712.53 s
-2025-06-28 11:54:53,121 Processing task: 2-wiki_bio
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:13<00:00, 13.88s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:13<00:00, 13.89s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.73s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.73s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.03s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.03s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:07<00:00,  7.18s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:07<00:00,  7.18s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.45s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.45s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:13<00:00, 13.88s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:13<00:00, 13.88s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.41s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.41s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:14<00:00, 14.16s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:14<00:00, 14.16s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.75s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.75s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.40s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.40s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.03s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:11<00:00, 11.03s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:12<00:00, 12.71s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:12<00:00, 12.71s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:15<00:00, 15.07s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:15<00:00, 15.07s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:12<00:00, 12.50s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:12<00:00, 12.50s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:15<00:00, 15.34s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:15<00:00, 15.34s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:10<00:00, 10.77s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:10<00:00, 10.77s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:16<00:00, 16.29s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:16<00:00, 16.29s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.48s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:09<00:00,  9.48s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:07<00:00,  7.29s/it]2-wiki_bio (schema group): 100%|██████████| 1/1 [00:07<00:00,  7.29s/it]
-2-wiki_bio (schema group):   0%|          | 0/1 [00:00<?, ?it/s]

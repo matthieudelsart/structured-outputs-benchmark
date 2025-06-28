@@ -37,3 +37,14 @@
 2025-06-28 10:53:00,590 Processing task: 1-rotowire
 2025-06-28 11:54:53,121 Task 1-rotowire completed in 3712.53 s
 2025-06-28 11:54:53,121 Processing task: 2-wiki_bio
+2025-06-28 12:14:58,043 Task 2-wiki_bio completed in 1204.92 s
+2025-06-28 12:14:58,044 Processing task: 3-few_nerd
+2025-06-28 12:21:38,525 Task 3-few_nerd completed in 400.48 s
+2025-06-28 12:21:38,525 Processing task: 4-TOPv1
+2025-06-28 12:49:21,678 Task 4-TOPv1 completed in 1663.15 s
+2025-06-28 12:49:21,679 Processing task: 5-api_bank
+2025-06-28 12:57:53,884 Task 5-api_bank completed in 512.21 s
+2025-06-28 12:57:53,885 Processing task: 6-reasoning/GSM8K
+2025-06-28 13:15:25,374 Task 6-reasoning/GSM8K completed in 1051.49 s
+2025-06-28 13:15:25,375 Processing task: 6-reasoning/last_letter
+2025-06-28 13:21:14,745 Task 6-reasoning/last_letter completed in 349.37 s

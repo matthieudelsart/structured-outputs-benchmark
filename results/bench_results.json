@@ -183,8 +183,8 @@
             "is_valid": 0.9
         },
         "2-wiki_bio": {
-            "compliance": 0.965,
-            "correctness": 0.319,
+            "compliance": 0.975,
+            "correctness": 0.322,
             "is_valid": 0.73
         },
         "3-few_nerd": {
@@ -220,8 +220,8 @@
             "is_valid": 0.9
         },
         "2-wiki_bio": {
-            "compliance": 0.838,
-            "correctness": 0.329,
+            "compliance": 0.847,
+            "correctness": 0.33,
             "is_valid": 0.624
         },
         "3-few_nerd": {
@@ -257,8 +257,8 @@
             "is_valid": 0.81
         },
         "2-wiki_bio": {
-            "compliance": 0.744,
-            "correctness": 0.219,
+            "compliance": 0.846,
+            "correctness": 0.243,
             "is_valid": 0.503
         },
         "3-few_nerd": {
@@ -331,8 +331,8 @@
             "is_valid": 0.9
         },
         "2-wiki_bio": {
-            "compliance": 0.956,
-            "correctness": 0.344,
+            "compliance": 0.966,
+            "correctness": 0.347,
             "is_valid": 0.827
         },
         "3-few_nerd": {
@@ -435,10 +435,47 @@
             "is_valid": 0.0
         }
     },
+    "gemma-3-4b-it_transformers_guidance": {
+        "1-rotowire": {
+            "compliance": 0.028,
+            "correctness": 0.012,
+            "is_valid": 0.7
+        },
+        "2-wiki_bio": {
+            "compliance": 1.0,
+            "correctness": 0.353,
+            "is_valid": 1.0
+        },
+        "3-few_nerd": {
+            "compliance": 1.0,
+            "correctness": 0.419,
+            "is_valid": 1.0
+        },
+        "4-TOPv1": {
+            "compliance": 0.0,
+            "correctness": 0.12,
+            "is_valid": 0.98
+        },
+        "5-api_bank": {
+            "compliance": 0.664,
+            "correctness": 0.631,
+            "is_valid": 1.0
+        },
+        "6-reasoning/GSM8K": {
+            "compliance": 0.97,
+            "correctness": 0.8,
+            "is_valid": 0.95
+        },
+        "6-reasoning/last_letter": {
+            "compliance": 1.0,
+            "correctness": 0.47,
+            "is_valid": 1.0
+        }
+    },
     "gemma-3-4b-it_transformers_outlines": {
         "1-rotowire": {
-            "compliance": 0.922,
-            "correctness": 0.466,
+            "compliance": 0.888,
+            "correctness": 0.473,
             "is_valid": 1.0
         },
         "2-wiki_bio": {
@@ -472,6 +509,7 @@
             "is_valid": 1.0
         }
     },
+    "gemma-3-4b-it_transformers_reasoning_free": {},
     "gemma-3-4b-it_vllm": {
         "1-rotowire": {
             "compliance": 0.888,
@@ -516,8 +554,8 @@
             "is_valid": 0.02
         },
         "2-wiki_bio": {
-            "compliance": 0.98,
-            "correctness": 0.278,
+            "compliance": 1.0,
+            "correctness": 0.28,
             "is_valid": 0.96
         },
         "3-few_nerd": {
