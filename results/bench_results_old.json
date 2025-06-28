@@ -1,5 +1,5 @@
 {
-    "gemini-2.5-flash-preview-05-20": {
+    "gemini-2.5-flash": {
         "1-rotowire": {
             "correctness": 0.565,
             "compliance": 1.0,

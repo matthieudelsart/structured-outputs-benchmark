@@ -6,7 +6,7 @@ MODELS=(
     "gemma-3-4b-it"
     "gemma-3-1b-it"
    # "gemma-3-12b-it"
-    "gemini-2.5-flash-preview-05-20"
+    "gemini-2.5-flash"
 
 )
 

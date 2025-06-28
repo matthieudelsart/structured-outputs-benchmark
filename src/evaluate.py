@@ -1292,5 +1292,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # uv run python -m  src.evaluate --bench_repo results/gemini-2.5-flash-preview-05-20 --output_file results/bench_results.json
+    # uv run python -m  src.evaluate --bench_repo results/gemini-2.5-flash --output_file results/bench_results.json
     # uv run python -m  src.evaluate --bench_repo results/gemma-3-4b-it     

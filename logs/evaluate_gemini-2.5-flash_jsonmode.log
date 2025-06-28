@@ -1,4 +1,4 @@
-2025-06-28 21:29:16,466 [INFO] Starting evaluation for repository: gemini-2.5-flash-preview-05-20_jsonmode
+2025-06-28 21:29:16,466 [INFO] Starting evaluation for repository: gemini-2.5-flash_jsonmode
 2025-06-28 21:29:16,500 [INFO] Evaluating task: 1-rotowire
 2025-06-28 21:29:16,512 [INFO] Computed scores for 1-rotowire
 2025-06-28 21:29:16,512 [INFO] Aggregated scores for 1-rotowire: {'is_valid': 1.0, 'correctness': 0.56, 'compliance': 0.999}
@@ -77,4 +77,4 @@
 2025-06-28 21:29:17,004 [INFO] Evaluating task: 6-reasoning/last_letter
 2025-06-28 21:29:17,006 [INFO] Computed scores for 6-reasoning/last_letter
 2025-06-28 21:29:17,007 [INFO] Aggregated scores for 6-reasoning/last_letter: {'is_valid': 1.0, 'correctness': 0.97, 'compliance': 1.0}
-2025-06-28 21:29:17,008 [INFO] Evaluation complete for repository: gemini-2.5-flash-preview-05-20_jsonmode
+2025-06-28 21:29:17,008 [INFO] Evaluation complete for repository: gemini-2.5-flash_jsonmode

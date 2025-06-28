@@ -1,4 +1,4 @@
-2025-06-28 21:29:15,923 [INFO] Starting evaluation for repository: gemini-2.5-flash-preview-05-20
+2025-06-28 21:29:15,923 [INFO] Starting evaluation for repository: gemini-2.5-flash
 2025-06-28 21:29:15,957 [INFO] Evaluating task: 1-rotowire
 2025-06-28 21:29:15,971 [INFO] Computed scores for 1-rotowire
 2025-06-28 21:29:15,971 [INFO] Aggregated scores for 1-rotowire: {'is_valid': 0.902, 'correctness': 0.541, 'compliance': 0.998}
@@ -114,4 +114,4 @@ To verify, the combined ages would be 2 * 13 + 3 * 6 = 26 + 18 = 44, which match
 2025-06-28 21:29:16,461 [INFO] Evaluating task: 6-reasoning/last_letter
 2025-06-28 21:29:16,464 [INFO] Computed scores for 6-reasoning/last_letter
 2025-06-28 21:29:16,465 [INFO] Aggregated scores for 6-reasoning/last_letter: {'is_valid': 0.9, 'correctness': 0.98, 'compliance': 1.0}
-2025-06-28 21:29:16,466 [INFO] Evaluation complete for repository: gemini-2.5-flash-preview-05-20
+2025-06-28 21:29:16,466 [INFO] Evaluation complete for repository: gemini-2.5-flash

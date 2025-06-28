@@ -1,5 +1,5 @@
 {
-    "gemini-2.5-flash-preview-05-20": {
+    "gemini-2.5-flash": {
         "1-rotowire": {
             "compliance": 0.998,
             "correctness": 0.541,
@@ -36,7 +36,7 @@
             "is_valid": 0.9
         }
     },
-    "gemini-2.5-flash-preview-05-20_jsonmode": {
+    "gemini-2.5-flash_jsonmode": {
         "1-rotowire": {
             "compliance": 0.999,
             "correctness": 0.56,
@@ -73,7 +73,7 @@
             "is_valid": 1.0
         }
     },
-    "gemini-2.5-flash-preview-05-20_jsonmode_low": {
+    "gemini-2.5-flash_jsonmode_low": {
         "1-rotowire": {
             "compliance": 0.925,
             "correctness": 0.496,
@@ -110,7 +110,7 @@
             "is_valid": 1.0
         }
     },
-    "gemini-2.5-flash-preview-05-20_low": {
+    "gemini-2.5-flash_low": {
         "1-rotowire": {
             "compliance": 0.913,
             "correctness": 0.5,
