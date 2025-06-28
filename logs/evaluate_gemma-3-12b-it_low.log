@@ -1,9 +1,9 @@
-2025-06-28 13:55:34,549 [INFO] Starting evaluation for repository: gemma-3-12b-it_low
-2025-06-28 13:55:34,582 [INFO] Evaluating task: 1-rotowire
-2025-06-28 13:55:34,596 [INFO] Computed scores for 1-rotowire
-2025-06-28 13:55:34,597 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.535, 'compliance': 0.91, 'is_valid': 0.9}
-2025-06-28 13:55:34,597 [INFO] Evaluating task: 2-wiki_bio
-2025-06-28 13:55:34,600 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,697 [INFO] Starting evaluation for repository: gemma-3-12b-it_low
+2025-06-28 21:29:18,730 [INFO] Evaluating task: 1-rotowire
+2025-06-28 21:29:18,746 [INFO] Computed scores for 1-rotowire
+2025-06-28 21:29:18,746 [INFO] Aggregated scores for 1-rotowire: {'is_valid': 0.9, 'correctness': 0.535, 'compliance': 0.91}
+2025-06-28 21:29:18,746 [INFO] Evaluating task: 2-wiki_bio
+2025-06-28 21:29:18,750 [WARNING] Invalid JSON string: ```json
 {
     'allegiance': 'United States',
     'article_title': 'William Frishe Dean, Sr.',
@@ -20,25 +20,25 @@
     'serviceyears': '1921-1981'
 }
 ``` - Fixing
-2025-06-28 13:55:34,602 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-28 13:55:34,602 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
-2025-06-28 13:55:34,605 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
-2025-06-28 13:55:34,605 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
-2025-06-28 13:55:34,606 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
-2025-06-28 13:55:34,606 [WARNING] Lookup error for nationality: Japanese, error: Could not find a record for 'japanese'
-2025-06-28 13:55:34,608 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,609 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-28 13:55:34,609 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
-2025-06-28 13:55:34,611 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-28 13:55:34,611 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
-2025-06-28 13:55:34,613 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
-2025-06-28 13:55:34,615 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,616 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
-2025-06-28 13:55:34,616 [WARNING] Lookup error for nationality: Filipino-American, error: Could not find a record for 'filipino-american'
-2025-06-28 13:55:34,618 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,618 [ERROR] Error parsing date: 11 February 1862 -- 14 September 1940, error: Unknown string format: 11 February 1862 -- 14 September 1940
-2025-06-28 13:55:34,618 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,619 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,752 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-06-28 21:29:18,752 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
+2025-06-28 21:29:18,755 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
+2025-06-28 21:29:18,755 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
+2025-06-28 21:29:18,756 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
+2025-06-28 21:29:18,756 [WARNING] Lookup error for nationality: Japanese, error: Could not find a record for 'japanese'
+2025-06-28 21:29:18,758 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,759 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 21:29:18,759 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
+2025-06-28 21:29:18,761 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-06-28 21:29:18,761 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
+2025-06-28 21:29:18,762 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
+2025-06-28 21:29:18,765 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,766 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
+2025-06-28 21:29:18,766 [WARNING] Lookup error for nationality: Filipino-American, error: Could not find a record for 'filipino-american'
+2025-06-28 21:29:18,768 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,768 [ERROR] Error parsing date: 11 February 1862 -- 14 September 1940, error: Unknown string format: 11 February 1862 -- 14 September 1940
+2025-06-28 21:29:18,768 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,769 [WARNING] Invalid JSON string: ```json
 {
     'article_title': 'Louis Althusser',
     'birth_date': '16 October 1918',
@@ -55,9 +55,9 @@
     'school_tradition': 'Marxism, Structuralism'
 }
 ``` - Fixing
-2025-06-28 13:55:34,624 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,630 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
-2025-06-28 13:55:34,632 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,774 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,780 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
+2025-06-28 21:29:18,782 [WARNING] Invalid JSON string: ```json
 {
     'article_title': "Bob Delaney",
     'birth_date': "November 1, 1951",
@@ -67,7 +67,7 @@
     'occupation': "Former police officer and professional basketball referee"
 }
 ``` - Fixing
-2025-06-28 13:55:34,634 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,784 [WARNING] Invalid JSON string: ```json
 {
     'article_title': 'Andrew Rathbone',
     'associated_acts': 'Mansun, The Wandering Quatrains, Jonti, Seraphim, Into the Bleach, The Jokers, World Upside Down, Green Smoke Hokum Band, Indio\'s Dream',
@@ -83,16 +83,16 @@
     'years_active': '1980s–present'
 }
 ``` - Fixing
-2025-06-28 13:55:34,637 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,637 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,638 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,638 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,638 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,643 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
-2025-06-28 13:55:34,643 [WARNING] Lookup error for nationality: Soviet, error: Could not find a record for 'soviet'
-2025-06-28 13:55:34,645 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
-2025-06-28 13:55:34,645 [WARNING] Lookup error for nationality: Cameroonian, error: Could not find a record for 'cameroonian'
-2025-06-28 13:55:34,645 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,788 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,788 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,788 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,788 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,788 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,794 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
+2025-06-28 21:29:18,794 [WARNING] Lookup error for nationality: Soviet, error: Could not find a record for 'soviet'
+2025-06-28 21:29:18,796 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
+2025-06-28 21:29:18,796 [WARNING] Lookup error for nationality: Cameroonian, error: Could not find a record for 'cameroonian'
+2025-06-28 21:29:18,796 [WARNING] Invalid JSON string: ```json
 {
     'allegiance': 'United States',
     'article_title': 'Aedanus Burke',
@@ -115,7 +115,7 @@
     'term_start': 'March 4, 1789'
 }
 ``` - Fixing
-2025-06-28 13:55:34,648 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,799 [WARNING] Invalid JSON string: ```json
 {
     'article_title': "Eleanor Coerr",
     'birth_date': "May 29, 1922",
@@ -131,24 +131,24 @@
     'subject': "Canadian-born American writer"
 }
 ``` - Fixing
-2025-06-28 13:55:34,651 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
-2025-06-28 13:55:34,654 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-28 13:55:34,654 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
-2025-06-28 13:55:34,655 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
-2025-06-28 13:55:34,657 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,657 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,658 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
-2025-06-28 13:55:34,658 [WARNING] Lookup error for nationality: Tunisian, error: Could not find a record for 'tunisian'
-2025-06-28 13:55:34,660 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,661 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,661 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,661 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,663 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-28 13:55:34,664 [WARNING] Lookup error for nationality: German, error: Could not find a record for 'german'
-2025-06-28 13:55:34,672 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,672 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,677 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,679 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,802 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
+2025-06-28 21:29:18,806 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 21:29:18,806 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
+2025-06-28 21:29:18,806 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
+2025-06-28 21:29:18,808 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,808 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,809 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
+2025-06-28 21:29:18,809 [WARNING] Lookup error for nationality: Tunisian, error: Could not find a record for 'tunisian'
+2025-06-28 21:29:18,812 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,812 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,812 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,812 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,815 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-06-28 21:29:18,815 [WARNING] Lookup error for nationality: German, error: Could not find a record for 'german'
+2025-06-28 21:29:18,824 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,824 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,829 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,831 [WARNING] Invalid JSON string: ```json
 {
     'article_title': 'Anson Vasco Call II',
     'birth_date': '""',
@@ -162,8 +162,8 @@
     'term_start': '1902'
 }
 ``` - Fixing
-2025-06-28 13:55:34,680 [ERROR] Error parsing date: "", error: String does not contain a date: ""
-2025-06-28 13:55:34,680 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,832 [ERROR] Error parsing date: "", error: String does not contain a date: ""
+2025-06-28 21:29:18,832 [WARNING] Invalid JSON string: ```json
 {
     'article_title': 'James L. Baumann',
     'district': 'Ohio House of Representatives',
@@ -176,7 +176,7 @@
     'term': '""'
 }
 ``` - Fixing
-2025-06-28 13:55:34,681 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,833 [WARNING] Invalid JSON string: ```json
 {
     'article_title': "Edmund Graves Brown, Jr.",
     'birth_date': "March 28, 1921",
@@ -193,17 +193,17 @@
     'spouse': "Bethia 'Bitza' McCay"
 }
 ``` - Fixing
-2025-06-28 13:55:34,683 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-28 13:55:34,683 [WARNING] Lookup error for nationality: German, error: Could not find a record for 'german'
-2025-06-28 13:55:34,684 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-28 13:55:34,684 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
-2025-06-28 13:55:34,685 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
-2025-06-28 13:55:34,686 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-28 13:55:34,686 [WARNING] Lookup error for nationality: Norwegian, error: Could not find a record for 'norwegian'
-2025-06-28 13:55:34,688 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,688 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,689 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,689 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,835 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-06-28 21:29:18,835 [WARNING] Lookup error for nationality: German, error: Could not find a record for 'german'
+2025-06-28 21:29:18,836 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-06-28 21:29:18,836 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
+2025-06-28 21:29:18,838 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
+2025-06-28 21:29:18,839 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 21:29:18,839 [WARNING] Lookup error for nationality: Norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 21:29:18,840 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,841 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,841 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,841 [WARNING] Invalid JSON string: ```json
 {
     'alma_mater': "Christ's Hospital (also known as `` the bluecoat school'')",
     'alongside': "",
@@ -227,13 +227,13 @@
     'term_start': "1757"
 }
 ``` - Fixing
-2025-06-28 13:55:34,690 [WARNING] Lookup error for nationality: Welsh American, error: Could not find a record for 'welsh american'
-2025-06-28 13:55:34,690 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
-2025-06-28 13:55:34,691 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
-2025-06-28 13:55:34,691 [WARNING] Lookup error for nationality: Indian, error: Could not find a record for 'indian'
-2025-06-28 13:55:34,692 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
-2025-06-28 13:55:34,692 [WARNING] Lookup error for nationality: Australian, error: Could not find a record for 'australian'
-2025-06-28 13:55:34,692 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,843 [WARNING] Lookup error for nationality: Welsh American, error: Could not find a record for 'welsh american'
+2025-06-28 21:29:18,843 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
+2025-06-28 21:29:18,843 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
+2025-06-28 21:29:18,843 [WARNING] Lookup error for nationality: Indian, error: Could not find a record for 'indian'
+2025-06-28 21:29:18,844 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
+2025-06-28 21:29:18,844 [WARNING] Lookup error for nationality: Australian, error: Could not find a record for 'australian'
+2025-06-28 21:29:18,844 [WARNING] Invalid JSON string: ```json
 {
     'alma_mater': 'Newnham College, Cambridge',
     'article_title': 'Rosalind Elsie Franklin',
@@ -255,9 +255,9 @@
     'work_institutions': 'British Coal Utilisation Research Association (Bcura), Laboratoire Central des Services Chimiques de l\'Etat, King\'s College London, Birkbeck College'
 }
 ``` - Fixing
-2025-06-28 13:55:34,694 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-28 13:55:34,694 [WARNING] Lookup error for nationality: English, error: Could not find a record for 'english'
-2025-06-28 13:55:34,697 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,846 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 21:29:18,846 [WARNING] Lookup error for nationality: English, error: Could not find a record for 'english'
+2025-06-28 21:29:18,850 [WARNING] Invalid JSON string: ```json
 {
     'alias': 'bezel',
     'article_title': 'Jay Bezel',
@@ -272,21 +272,21 @@
     'occupation': 'Rapper'
 }
 ``` - Fixing
-2025-06-28 13:55:34,699 [WARNING] Lookup error for nationality: Canadian, error: Could not find a record for 'canadian'
-2025-06-28 13:55:34,701 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-28 13:55:34,702 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-28 13:55:34,702 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
-2025-06-28 13:55:34,703 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-28 13:55:34,703 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
-2025-06-28 13:55:34,706 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-28 13:55:34,706 [WARNING] Lookup error for nationality: Norwegian, error: Could not find a record for 'norwegian'
-2025-06-28 13:55:34,706 [INFO] Computed scores for 2-wiki_bio
-2025-06-28 13:55:34,707 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.33, 'compliance': 0.847, 'is_valid': 0.624}
-2025-06-28 13:55:34,707 [INFO] Evaluating task: 3-few_nerd
-2025-06-28 13:55:34,734 [INFO] Computed scores for 3-few_nerd
-2025-06-28 13:55:34,734 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.401, 'compliance': 1.0, 'is_valid': 0.9}
-2025-06-28 13:55:34,734 [INFO] Evaluating task: 4-TOPv1
-2025-06-28 13:55:34,757 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,852 [WARNING] Lookup error for nationality: Canadian, error: Could not find a record for 'canadian'
+2025-06-28 21:29:18,854 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-06-28 21:29:18,855 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-06-28 21:29:18,856 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
+2025-06-28 21:29:18,857 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-06-28 21:29:18,857 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
+2025-06-28 21:29:18,860 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 21:29:18,860 [WARNING] Lookup error for nationality: Norwegian, error: Could not find a record for 'norwegian'
+2025-06-28 21:29:18,860 [INFO] Computed scores for 2-wiki_bio
+2025-06-28 21:29:18,860 [INFO] Aggregated scores for 2-wiki_bio: {'is_valid': 0.624, 'correctness': 0.33, 'compliance': 0.847}
+2025-06-28 21:29:18,860 [INFO] Evaluating task: 3-few_nerd
+2025-06-28 21:29:18,888 [INFO] Computed scores for 3-few_nerd
+2025-06-28 21:29:18,888 [INFO] Aggregated scores for 3-few_nerd: {'is_valid': 0.9, 'correctness': 0.401, 'compliance': 1.0}
+2025-06-28 21:29:18,888 [INFO] Evaluating task: 4-TOPv1
+2025-06-28 21:29:18,913 [WARNING] Invalid JSON string: ```json
 {
   "intent": "GET_ESTIMATED_ARRIVAL",
   "slots": {
@@ -297,7 +297,7 @@
   }
 }
 ``` - Fixing
-2025-06-28 13:55:34,812 [WARNING] Invalid JSON string: ```json
+2025-06-28 21:29:18,970 [WARNING] Invalid JSON string: ```json
 {
   "intent": "GET_ESTIMATED_ARRIVAL",
   "slots": {
@@ -308,25 +308,25 @@
   }
 }
 ``` - Fixing
-2025-06-28 13:55:34,824 [INFO] Computed scores for 4-TOPv1
-2025-06-28 13:55:34,825 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.563, 'compliance': 0.827, 'is_valid': 0.888}
-2025-06-28 13:55:34,825 [INFO] Evaluating task: 5-api_bank
-2025-06-28 13:55:35,091 [INFO] Computed scores for 5-api_bank
-2025-06-28 13:55:35,091 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.783, 'compliance': 0.992, 'is_valid': 0.959}
-2025-06-28 13:55:35,091 [INFO] Evaluating task: 6-reasoning/GSM8K
-2025-06-28 13:55:35,092 [WARNING] Invalid JSON string: {"reasoning": "Let the temperature of the second mug be $x$ degrees. Donny can drink the water in his water bottle if the temperature is at least 40 degrees. He pours 4 ounces of water from the 33-degree mug and 1 ounce of water from the $x$-degree mug into the water bottle. Let $V_1$ be the volume of the first mug and $V_2$ be the volume of the second mug. The total volume of water in the bottle is $4+1=5$ ounces. The temperature of the mixture in the bottle is given by the weighted average of the temperatures of the two mugs, where the weights are the volumes of water from each mug. So, the temperature of the mixture is $\frac{4 \cdot 33 + 1 \cdot x}{4+1} = \frac{132 + x}{5}$. Since Donny can drink the water, the temperature of the mixture must be at least 40 degrees. Therefore, we have the inequality:
+2025-06-28 21:29:18,983 [INFO] Computed scores for 4-TOPv1
+2025-06-28 21:29:18,983 [INFO] Aggregated scores for 4-TOPv1: {'is_valid': 0.888, 'correctness': 0.563, 'compliance': 0.827}
+2025-06-28 21:29:18,983 [INFO] Evaluating task: 5-api_bank
+2025-06-28 21:29:19,252 [INFO] Computed scores for 5-api_bank
+2025-06-28 21:29:19,253 [INFO] Aggregated scores for 5-api_bank: {'is_valid': 0.959, 'correctness': 0.783, 'compliance': 0.992}
+2025-06-28 21:29:19,253 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-06-28 21:29:19,253 [WARNING] Invalid JSON string: {"reasoning": "Let the temperature of the second mug be $x$ degrees. Donny can drink the water in his water bottle if the temperature is at least 40 degrees. He pours 4 ounces of water from the 33-degree mug and 1 ounce of water from the $x$-degree mug into the water bottle. Let $V_1$ be the volume of the first mug and $V_2$ be the volume of the second mug. The total volume of water in the bottle is $4+1=5$ ounces. The temperature of the mixture in the bottle is given by the weighted average of the temperatures of the two mugs, where the weights are the volumes of water from each mug. So, the temperature of the mixture is $\frac{4 \cdot 33 + 1 \cdot x}{4+1} = \frac{132 + x}{5}$. Since Donny can drink the water, the temperature of the mixture must be at least 40 degrees. Therefore, we have the inequality:
 $\frac{132 + x}{5} \geq 40$
 $132 + x \geq 200$
 $x \geq 200 - 132$
 $x \geq 68$
 Thus, the temperature of the second mug must be at least 68 degrees.", "answer": 68} - Fixing
-2025-06-28 13:55:35,093 [WARNING] Invalid JSON string: {"reasoning": "Let J be the number of dishes Jada makes, R be the number of dishes Rory makes, and K be the number of dishes Kora makes. We are given that Jada makes twice as many clay dishes as Rory, so J = 2R. Rory makes 20 more clay dishes than Kora, so R = K + 20. Kora made 20 dishes, so K = 20.
+2025-06-28 21:29:19,254 [WARNING] Invalid JSON string: {"reasoning": "Let J be the number of dishes Jada makes, R be the number of dishes Rory makes, and K be the number of dishes Kora makes. We are given that Jada makes twice as many clay dishes as Rory, so J = 2R. Rory makes 20 more clay dishes than Kora, so R = K + 20. Kora made 20 dishes, so K = 20.
 
 We can find the number of dishes Rory made: R = K + 20 = 20 + 20 = 40.
 We can find the number of dishes Jada made: J = 2R = 2 * 40 = 80.
 
 The total number of dishes they all made together is J + R + K = 80 + 40 + 20 = 140.", "answer": 140} - Fixing
-2025-06-28 13:55:35,093 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the total number of steps Elliott wants to walk in a day. We are given that $x = 10,000$.
+2025-06-28 21:29:19,254 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the total number of steps Elliott wants to walk in a day. We are given that $x = 10,000$.
 Elliott finished half of his steps on his walks to and from school, which is $\frac{1}{2} \times 10,000 = 5,000$ steps.
 He did another 1,000 steps going for a short walk with his friend.
 After his jog, he had 2,000 steps left to take.
@@ -336,7 +336,7 @@ So, $5,000 + 1,000 + j + 2,000 = 10,000$.
 Combining the known steps, we have $8,000 + j = 10,000$.
 Subtracting 8,000 from both sides, we get $j = 10,000 - 8,000 = 2,000$.
 Therefore, Elliott took 2,000 steps during his jog.", "answer": 2000} - Fixing
-2025-06-28 13:55:35,094 [WARNING] Invalid JSON string: {"reasoning": "Let $L$ be the amount Tasha made from lemonade sales.
+2025-06-28 21:29:19,255 [WARNING] Invalid JSON string: {"reasoning": "Let $L$ be the amount Tasha made from lemonade sales.
 Let $M$ be the amount Tasha made from mowing lawns.
 We are given that $L + M = 80$.
 Let $x$ be the number of times Tasha mowed Joe's lawn.
@@ -376,7 +376,7 @@ The total amount she made from mowing lawns is $M = 6 + 18 + 30 = 54$.
 Then $L + M = 80$, so $L + 54 = 80$, which means $L = 80 - 54 = 26$.
 
 Final Answer: The final answer is $\boxed{26}$", "answer": "26"} - Fixing
-2025-06-28 13:55:35,096 [WARNING] Invalid JSON string: {"reasoning": "First, we need to find the average height of the 9 cheerleaders who are 64 inches tall. Since all 9 are the same height, the average is 64 inches. Then, we need to find the average height of all 10 cheerleaders. The total height of the 9 cheerleaders is 9 * 64 = 576 inches. The total height of all 10 cheerleaders is 576 + 60 = 636 inches. The average height of all 10 cheerleaders is 636 / 10 = 63.6 inches.
+2025-06-28 21:29:19,258 [WARNING] Invalid JSON string: {"reasoning": "First, we need to find the average height of the 9 cheerleaders who are 64 inches tall. Since all 9 are the same height, the average is 64 inches. Then, we need to find the average height of all 10 cheerleaders. The total height of the 9 cheerleaders is 9 * 64 = 576 inches. The total height of all 10 cheerleaders is 576 + 60 = 636 inches. The average height of all 10 cheerleaders is 636 / 10 = 63.6 inches.
 
 Now, we need to determine the height of the human pyramid. The pyramid has 4 girls on the bottom, 3 in the middle, and 2 on top, with the shortest girl at the very top. We are given that the shortest girl is 60 inches tall. We are not given the heights of the other cheerleaders, so we will assume that the bottom layer is made up of the tallest cheerleaders (64 inches), the middle layer is made up of the next tallest cheerleaders, and the top layer is made up of the shorter cheerleaders. However, the problem does not specify the heights of the cheerleaders in each layer. We are only given the height of the shortest cheerleader.
 
@@ -413,12 +413,12 @@ Total height = 4 * 64 + 3 * 64 + 2 * 64 + 60 = 256 + 192 + 128 + 60 = 636 inches
 636 inches / 12 inches/foot = 53 feet.
 
 Final Answer: The final answer is $\boxed{53}$", "answer": "53"} - Fixing
-2025-06-28 13:55:35,101 [WARNING] Invalid JSON string: {"reasoning": "Let $A$ be the number of arms grown and $L$ be the number of legs grown.
+2025-06-28 21:29:19,262 [WARNING] Invalid JSON string: {"reasoning": "Let $A$ be the number of arms grown and $L$ be the number of legs grown.
 Helena's serum causes a person to grow an extra arm every three days. After fifteen days, the number of arms grown is $\frac{15}{3} = 5$. So, $A = 5$.
 Helena's serum causes a person to grow an extra leg every five days. After fifteen days, the number of legs grown is $\frac{15}{5} = 3$. So, $L = 3$.
 The total number of new limbs is the sum of the number of arms and the number of legs.
 Total limbs = $A + L = 5 + 3 = 8$.", "answer": 8} - Fixing
-2025-06-28 13:55:35,102 [WARNING] Invalid JSON string: {"reasoning": "First, we need to determine how long it would take to download the file without any interruptions. This is calculated by dividing the total file size by the download speed: 200 GB / 2 GB/minute = 100 minutes.
+2025-06-28 21:29:19,263 [WARNING] Invalid JSON string: {"reasoning": "First, we need to determine how long it would take to download the file without any interruptions. This is calculated by dividing the total file size by the download speed: 200 GB / 2 GB/minute = 100 minutes.
 
 Next, we need to figure out when the Windows update interruption occurs. It happens 40% of the way through the download, so we calculate 40% of 200 GB: 0.40 * 200 GB = 80 GB.
 
@@ -429,7 +429,7 @@ Then, the Windows update takes 20 minutes.
 After the update, Carla has to restart the download from the beginning, meaning she has to download the entire 200 GB file again. This takes 100 minutes.
 
 Finally, we add up the time for the initial download portion, the update time, and the time for the restarted download: 40 minutes + 20 minutes + 100 minutes = 160 minutes.", "answer": 160} - Fixing
-2025-06-28 13:55:35,102 [WARNING] Invalid JSON string: {"reasoning": "Let $h_n$ be the height of the beanstalk on day $n$. We are given that the beanstalk starts out 4 feet tall, so $h_0 = 4$. The beanstalk doubles its height every day, so $h_n = 4 \cdot 2^n$. We want to find the smallest integer $n$ such that $h_n > 20$.
+2025-06-28 21:29:19,264 [WARNING] Invalid JSON string: {"reasoning": "Let $h_n$ be the height of the beanstalk on day $n$. We are given that the beanstalk starts out 4 feet tall, so $h_0 = 4$. The beanstalk doubles its height every day, so $h_n = 4 \cdot 2^n$. We want to find the smallest integer $n$ such that $h_n > 20$.
 We have $4 \cdot 2^n > 20$. Dividing both sides by 4, we get $2^n > 5$.
 We can test values of $n$:
 For $n=1$, $2^1 = 2$, which is not greater than 5.
@@ -437,7 +437,7 @@ For $n=2$, $2^2 = 4$, which is not greater than 5.
 For $n=3$, $2^3 = 8$, which is greater than 5.
 Therefore, the smallest integer $n$ such that $2^n > 5$ is $n=3$.
 So it will take 3 days for the beanstalk to be taller than Mark's window.", "answer": "3"} - Fixing
-2025-06-28 13:55:35,103 [WARNING] Invalid JSON string: {"reasoning": "Let the cost of a dozen cups be $c$.
+2025-06-28 21:29:19,264 [WARNING] Invalid JSON string: {"reasoning": "Let the cost of a dozen cups be $c$.
 Twenty dozen cups cost $20c$.
 Half a dozen plates sold at $6000 each cost $\frac{1}{2} \times 6 = 3$ plates.
 The total cost of half a dozen plates is $3 \times 6000 = 18000$.
@@ -448,7 +448,7 @@ The cost of a dozen cups is $840.
 The cost of each cup is $\frac{840}{12} = 70$.
 
 Therefore, the total cost of buying each cup is $70.", "answer": 70} - Fixing
-2025-06-28 13:55:35,103 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the temperature Maggie should set the oven to. The oven is off by the same percentage for any recipe. When she sets it to 450, the actual temperature is 468. The difference between the set temperature and the actual temperature is $468 - 450 = 18$. The percentage difference is $\frac{18}{450} = \frac{18}{450} = \frac{9}{225} = \frac{3}{75} = \frac{1}{25} = 0.04$. So the oven is off by 4%.
+2025-06-28 21:29:19,265 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the temperature Maggie should set the oven to. The oven is off by the same percentage for any recipe. When she sets it to 450, the actual temperature is 468. The difference between the set temperature and the actual temperature is $468 - 450 = 18$. The percentage difference is $\frac{18}{450} = \frac{18}{450} = \frac{9}{225} = \frac{3}{75} = \frac{1}{25} = 0.04$. So the oven is off by 4%.
 
 If the recipe calls for 520 degrees, let $x$ be the temperature Maggie should set the oven to. Then the actual temperature will be $x + 0.04x = 1.04x$. We want the actual temperature to be 520, so $1.04x = 520$.
 Dividing both sides by 1.04, we get $x = \frac{520}{1.04} = \frac{52000}{104} = \frac{52000}{104} = \frac{26000}{52} = \frac{13000}{26} = \frac{6500}{13} = 500$.
@@ -458,7 +458,7 @@ If the recipe calls for 520 degrees, we want to find the set temperature $x$ suc
 Then $x = \frac{520}{1.04} = \frac{520}{1.04} = \frac{52000}{104} = 500$.
 
 Therefore, Maggie should set the oven to 500 degrees.", "answer": 500} - Fixing
-2025-06-28 13:55:35,106 [WARNING] Invalid JSON string: {"reasoning": "Let $o$ be the number of orange fish Bob initially had, and $w$ be the number of white fish Bob initially had. We are given that $o = 3$ and $w = 4$.
+2025-06-28 21:29:19,267 [WARNING] Invalid JSON string: {"reasoning": "Let $o$ be the number of orange fish Bob initially had, and $w$ be the number of white fish Bob initially had. We are given that $o = 3$ and $w = 4$.
 Let $o'$ be the number of orange fish Bob bought at the store, and $w'$ be the number of white fish Bob bought at the store. We are given that the total number of fish Bob bought is 17, so $o' + w' = 17$.
 After adding the new fish, the total number of orange fish is $o + o' = 3 + o'$ and the total number of white fish is $w + w' = 4 + w'$.
 We are given that the number of orange fish is twice the number of white fish after adding the new fish. So, $3 + o' = 2(4 + w')$.
@@ -478,7 +478,7 @@ So, Bob bought 13 orange fish and 4 white fish.
 The number of white fish Bob bought at the store is $w' = 4$.
 
 Final Answer: The final answer is $\boxed{4}$", "answer": "4"} - Fixing
-2025-06-28 13:55:35,107 [WARNING] Invalid JSON string: {"reasoning": "Let $r$ be the number of red balloons and $y$ be the number of yellow balloons. We are given that Benny threw 2 pieces of bologna at each red balloon and 3 pieces of bologna at each yellow balloon. The total number of pieces of bologna thrown is 58. We are also given that the number of red balloons is 20, so $r = 20$. We can set up the equation:
+2025-06-28 21:29:19,268 [WARNING] Invalid JSON string: {"reasoning": "Let $r$ be the number of red balloons and $y$ be the number of yellow balloons. We are given that Benny threw 2 pieces of bologna at each red balloon and 3 pieces of bologna at each yellow balloon. The total number of pieces of bologna thrown is 58. We are also given that the number of red balloons is 20, so $r = 20$. We can set up the equation:
 $2r + 3y = 58$
 Substitute $r = 20$ into the equation:
 $2(20) + 3y = 58$
@@ -488,18 +488,18 @@ $3y = 18$
 $y = \frac{18}{3}$
 $y = 6$
 Therefore, there were 6 yellow balloons.", "answer": 6} - Fixing
-2025-06-28 13:55:35,107 [WARNING] Invalid JSON string: {"reasoning": "Let $c$ be the number of spots a cobra has, and $m$ be the number of spots a mamba has. We are given that a cobra has 70 spots, so $c = 70$. We are also given that a cobra has twice as many spots as a mamba, so $c = 2m$. Since $c = 70$, we have $70 = 2m$, which means $m = \frac{70}{2} = 35$.
+2025-06-28 21:29:19,269 [WARNING] Invalid JSON string: {"reasoning": "Let $c$ be the number of spots a cobra has, and $m$ be the number of spots a mamba has. We are given that a cobra has 70 spots, so $c = 70$. We are also given that a cobra has twice as many spots as a mamba, so $c = 2m$. Since $c = 70$, we have $70 = 2m$, which means $m = \frac{70}{2} = 35$.
 There are 40 cobras, so the total number of spots on the cobras is $40 \times c = 40 \times 70 = 2800$.
 There are 60 mambas, so the total number of spots on the mambas is $60 \times m = 60 \times 35 = 2100$.
 The total number of spots on all the snakes is $2800 + 2100 = 4900$.
 We want to find half the number of spots they all have combined, which is $\frac{4900}{2} = 2450$.", "answer": 2450} - Fixing
-2025-06-28 13:55:35,108 [WARNING] Invalid JSON string: {"reasoning": "Let $M$ be the total number of microphones, which is 50.
+2025-06-28 21:29:19,269 [WARNING] Invalid JSON string: {"reasoning": "Let $M$ be the total number of microphones, which is 50.
 Let $P$ be the number of pairs of microphones that can be arranged on the stage.
 The number of microphones that won't find any space is 20% of the total number of microphones, which is $0.20 \times 50 = 10$.
 The number of microphones that are arranged in pairs is the total number of microphones minus the number of microphones that won't find any space, which is $50 - 10 = 40$.
 Since the microphones are arranged in pairs, the number of pairs is the number of microphones arranged in pairs divided by 2, which is $40 / 2 = 20$.
 Therefore, the number of pairs of microphones that can be arranged on the stage is 20.", "answer": 20} - Fixing
-2025-06-28 13:55:35,109 [WARNING] Invalid JSON string: {"reasoning": "Let R be the amount of laundry Raymond does, S be the amount of laundry Sarah does, and D be the amount of laundry David does. We are given that Raymond does half as much laundry as Sarah, so R = S/2. We are also given that Sarah does 4 times as much laundry as David, so S = 4D. We are given that Sarah does 400 pounds of laundry, so S = 400.
+2025-06-28 21:29:19,270 [WARNING] Invalid JSON string: {"reasoning": "Let R be the amount of laundry Raymond does, S be the amount of laundry Sarah does, and D be the amount of laundry David does. We are given that Raymond does half as much laundry as Sarah, so R = S/2. We are also given that Sarah does 4 times as much laundry as David, so S = 4D. We are given that Sarah does 400 pounds of laundry, so S = 400.
 
 We want to find the difference in the amount of laundry Raymond and David do, which is |R - D|.
 
@@ -511,7 +511,7 @@ Now we can find the difference between the amount of laundry Raymond and David d
 |R - D| = |200 - 100| = |100| = 100.
 
 Therefore, the difference in the amount of laundry Raymond and David do is 100 pounds.", "answer": 100} - Fixing
-2025-06-28 13:55:35,109 [WARNING] Invalid JSON string: {"reasoning": "Let the price of Juice Box A be $A$.
+2025-06-28 21:29:19,270 [WARNING] Invalid JSON string: {"reasoning": "Let the price of Juice Box A be $A$.
 Let the price of Juice Box B be $B$.
 Let the price of Juice Box C be $C$.
 
@@ -520,7 +520,7 @@ Juice Box B is 5 dollars more than Juice Box A, so $B = A + 5 = 4 + 5 = 9$ dolla
 Juice Box C is 7 dollars more than Juice Box A, so $C = A + 7 = 4 + 7 = 11$ dollars.
 
 We want to find how much more Juice Box C is than Juice Box B, which is $C - B = 11 - 9 = 2$ dollars.", "answer": 2} - Fixing
-2025-06-28 13:55:35,110 [WARNING] Invalid JSON string: {"reasoning": "Let $e_A$ and $e_E$ be the number of enemies Ava and Emma jump on, respectively. Let $b_A$ and $b_E$ be the number of berries Ava and Emma collect, respectively. Let $t_A$ and $t_E$ be the time left on the timer when Ava and Emma finish the level, respectively.
+2025-06-28 21:29:19,271 [WARNING] Invalid JSON string: {"reasoning": "Let $e_A$ and $e_E$ be the number of enemies Ava and Emma jump on, respectively. Let $b_A$ and $b_E$ be the number of berries Ava and Emma collect, respectively. Let $t_A$ and $t_E$ be the time left on the timer when Ava and Emma finish the level, respectively.
 
 Ava's score is $10e_A + 5b_A + 30t_A$.
 Emma's score is $10e_E + 5b_E + 30t_E$.
@@ -537,12 +537,12 @@ $10(e_E + 8 - e_E) + 5(b_E + 3 - b_E) + 30(t_E - 4 - t_E) = 10(8) + 5(3) + 30(-4
 The difference between their scores is -25. This means Ava's score is 25 points less than Emma's score.
 
 Final Answer: The final answer is -25", "answer": -25} - Fixing
-2025-06-28 13:55:35,110 [WARNING] Invalid JSON string: {"reasoning": "Let P be the principal amount, which is $100. The monthly interest rate is 2%, or 0.02. The number of months is 3.
+2025-06-28 21:29:19,271 [WARNING] Invalid JSON string: {"reasoning": "Let P be the principal amount, which is $100. The monthly interest rate is 2%, or 0.02. The number of months is 3.
 After the first month, the amount Mandy owes is $100 * (1 + 0.02) = $100 * 1.02 = $102.
 After the second month, the amount Mandy owes is $102 * 1.02 = $104.04.
 After the third month, the amount Mandy owes is $104.04 * 1.02 = $106.1208.
 Since we are dealing with money, we should round to the nearest cent. So, Mandy should give Benedict $106.12.", "answer": 106.12} - Fixing
-2025-06-28 13:55:35,111 [WARNING] Invalid JSON string: {"reasoning": "Let $n$ be the number of chickens Wendi has. We are given that $n = 20$.
+2025-06-28 21:29:19,272 [WARNING] Invalid JSON string: {"reasoning": "Let $n$ be the number of chickens Wendi has. We are given that $n = 20$.
 Each chicken is fed 3 cups of feed per day. So, the total amount of feed needed for all chickens in a day is $3 \times n = 3 \times 20 = 60$ cups.
 Wendi gives the chickens their feed in three separate meals.
 In the morning, she gives 15 cups of feed.
@@ -554,111 +554,111 @@ $40 + x = 60$
 $x = 60 - 40$
 $x = 20$
 Therefore, Wendi needs to give her chickens 20 cups of feed in the final meal of the day.", "answer": "20"} - Fixing
-2025-06-28 13:55:35,111 [WARNING] Invalid JSON string: {"reasoning": "Let T be the number of fish Tommy caught, D be the number of fish Darren caught, and N be the number of fish Naomi caught. We are given that Tommy caught 3 more fish than Darren, so T = D + 3. We are also given that Darren caught 6 less than Naomi, so D = N - 6. Finally, we are given that Naomi caught 17 fish, so N = 17.
+2025-06-28 21:29:19,272 [WARNING] Invalid JSON string: {"reasoning": "Let T be the number of fish Tommy caught, D be the number of fish Darren caught, and N be the number of fish Naomi caught. We are given that Tommy caught 3 more fish than Darren, so T = D + 3. We are also given that Darren caught 6 less than Naomi, so D = N - 6. Finally, we are given that Naomi caught 17 fish, so N = 17.
 
 We can substitute N = 17 into the equation D = N - 6 to find the number of fish Darren caught: D = 17 - 6 = 11.
 Now we can substitute D = 11 into the equation T = D + 3 to find the number of fish Tommy caught: T = 11 + 3 = 14.
 
 Therefore, Tommy caught 14 fish.", "answer": 14} - Fixing
-2025-06-28 13:55:35,112 [INFO] Computed scores for 6-reasoning/GSM8K
-2025-06-28 13:55:35,112 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.79, 'compliance': 0.89, 'is_valid': 0.8}
-2025-06-28 13:55:35,112 [INFO] Evaluating task: 6-reasoning/last_letter
-2025-06-28 13:55:35,112 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Silvia Carolina Stan Chuck\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,273 [INFO] Computed scores for 6-reasoning/GSM8K
+2025-06-28 21:29:19,273 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'is_valid': 0.8, 'correctness': 0.79, 'compliance': 0.89}
+2025-06-28 21:29:19,273 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-06-28 21:29:19,274 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Silvia Carolina Stan Chuck\". I need to identify the last letter of each word and concatenate them in the given order.
 - Silvia: last letter is 'a'
 - Carolina: last letter is 'a'
 - Stan: last letter is 'n'
 - Chuck: last letter is 'k'
 Concatenating these letters gives 'aank'.", "answer": "aank"} - Fixing
-2025-06-28 13:55:35,113 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Lesley Luna Nadia Adriana\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,274 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Lesley Luna Nadia Adriana\". I need to identify the last letter of each word and concatenate them in the given order.
 - Lesley's last letter is 'y'.
 - Luna's last letter is 'a'.
 - Nadia's last letter is 'a'.
 - Adriana's last letter is 'a'.
 Concatenating these letters gives 'y', 'a', 'a', 'a', which results in the string 'yaaa'.", "answer": "yaaa"} - Fixing
-2025-06-28 13:55:35,113 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Janice Shelly Arnulfo Nestor\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,274 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Janice Shelly Arnulfo Nestor\". I need to identify the last letter of each word and concatenate them in the given order.
 - Janice ends with 'e'
 - Shelly ends with 'y'
 - Arnulfo ends with 'o'
 - Nestor ends with 'r'
 Concatenating these last letters gives 'eyor'.", "answer": "eyor"} - Fixing
-2025-06-28 13:55:35,113 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Daniella Dianne Ram Mirian\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,275 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Daniella Dianne Ram Mirian\". I need to identify the last letter of each word and concatenate them in the given order.
 - Daniella's last letter is 'a'.
 - Dianne's last letter is 'e'.
 - Ram's last letter is 'm'.
 - Mirian's last letter is 'n'.
 Concatenating these letters gives 'aemn'.", "answer": "aemn"} - Fixing
-2025-06-28 13:55:35,114 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Marlen Sonja Anita Dale\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,275 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Marlen Sonja Anita Dale\". I need to identify the last letter of each word and concatenate them in the given order.
 - Marlen's last letter is 'n'.
 - Sonja's last letter is 'a'.
 - Anita's last letter is 'a'.
 - Dale's last letter is 'e'.
 Concatenating these letters gives 'naae'.", "answer": "naae"} - Fixing
-2025-06-28 13:55:35,114 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Tori Mariam Gaby Brayan\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,275 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Tori Mariam Gaby Brayan\". I need to identify the last letter of each word and concatenate them in the given order.
 - Tori: last letter is 'i'
 - Mariam: last letter is 'm'
 - Gaby: last letter is 'y'
 - Brayan: last letter is 'n'
 Concatenating these letters gives 'imyn'.", "answer": "imyn"} - Fixing
-2025-06-28 13:55:35,114 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Lalo Yolanda Elida Ester\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,275 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Lalo Yolanda Elida Ester\". I need to identify the last letter of each word and concatenate them in the given order.
 - Lalo: last letter is 'o'
 - Yolanda: last letter is 'a'
 - Elida: last letter is 'a'
 - Ester: last letter is 'r'
 Concatenating these letters gives 'oaar'.", "answer": "oaar"} - Fixing
-2025-06-28 13:55:35,114 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Wally Claire Helen Nacho\".
+2025-06-28 21:29:19,276 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Wally Claire Helen Nacho\".
 The last letters of the words are:
 - Wally: y
 - Claire: e
 - Helen: n
 - Nacho: o
 Concatenating these last letters gives us the string \"y e n o\".", "answer": "yeno"} - Fixing
-2025-06-28 13:55:35,115 [WARNING] Invalid JSON string: {"reasoning": "The input is a sequence of words: \"Kristine Van Marisol Preston\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,276 [WARNING] Invalid JSON string: {"reasoning": "The input is a sequence of words: \"Kristine Van Marisol Preston\". I need to identify the last letter of each word and concatenate them in the given order.
 - Kristine: last letter is 'e'
 - Van: last letter is 'n'
 - Marisol: last letter is 'l'
 - Preston: last letter is 'n'
 Concatenating these letters gives 'enln'.", "answer": "enln"} - Fixing
-2025-06-28 13:55:35,115 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Kennedy Ginny Iliana Sky\".
+2025-06-28 21:29:19,276 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Kennedy Ginny Iliana Sky\".
 The last letter of \"Kennedy\" is 'y'.
 The last letter of \"Ginny\" is 'y'.
 The last letter of \"Iliana\" is 'a'.
 The last letter of \"Sky\" is 'y'.
 Concatenating these last letters gives 'yyay'.", "answer": "yyay"} - Fixing
-2025-06-28 13:55:35,115 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Arnold Aidan Ally Ami\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,276 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Arnold Aidan Ally Ami\". I need to identify the last letter of each word and concatenate them in the given order.
 - Arnold's last letter is 'd'.
 - Aidan's last letter is 'n'.
 - Ally's last letter is 'y'.
 - Ami's last letter is 'i'.
 Concatenating these letters gives 'dnyi'.", "answer": "dnyi"} - Fixing
-2025-06-28 13:55:35,115 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Jr Meredith Zoe Robby\".
+2025-06-28 21:29:19,277 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Jr Meredith Zoe Robby\".
 The last letters of each word are:
 - Jr: r
 - Meredith: d
 - Zoe: e
 - Robby: y
 Concatenating these last letters gives us the string \"rdey\".", "answer": "rdey"} - Fixing
-2025-06-28 13:55:35,116 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Christina Edna Ileana Lynette\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,277 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Christina Edna Ileana Lynette\". I need to identify the last letter of each word and concatenate them in the given order.
 - Christina's last letter is 'a'.
 - Edna's last letter is 'a'.
 - Ileana's last letter is 'a'.
 - Lynette's last letter is 'e'.
 Concatenating these letters gives 'aaaae'.", "answer": "aaaae"} - Fixing
-2025-06-28 13:55:35,116 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Liliana Quincy Bart Makayla\". I need to identify the last letter of each word and concatenate them in the given order. \n- Liliana ends with 'a'\n- Quincy ends with 'y'\n- Bart ends with 't'\n- Makayla ends with 'a'\n\nConcatenating these last letters gives 'ayta'.", "answer": \"ayta\"}
+2025-06-28 21:29:19,277 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Liliana Quincy Bart Makayla\". I need to identify the last letter of each word and concatenate them in the given order. \n- Liliana ends with 'a'\n- Quincy ends with 'y'\n- Bart ends with 't'\n- Makayla ends with 'a'\n\nConcatenating these last letters gives 'ayta'.", "answer": \"ayta\"}
  - Fixing
-2025-06-28 13:55:35,116 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Agnes Adrienne Haley Riley\".
+2025-06-28 21:29:19,277 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Agnes Adrienne Haley Riley\".
 The last letters of each word are:
 - Agnes: s
 - Adrienne: e
 - Haley: y
 - Riley: y
 Concatenating these last letters gives us \"seyy\".", "answer": "seyy"} - Fixing
-2025-06-28 13:55:35,116 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Maxwell Jose Beto Joe\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,277 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Maxwell Jose Beto Joe\". I need to identify the last letter of each word and concatenate them in the given order.
 - Maxwell's last letter is 'l'.
 - Jose's last letter is 'e'.
 - Beto's last letter is 'o'.
 - Joe's last letter is 'e'.
 Concatenating these letters gives 'leoe'.", "answer": "leoe"} - Fixing
-2025-06-28 13:55:35,117 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Hazel Gabrielle Tre Dalton\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,278 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Hazel Gabrielle Tre Dalton\". I need to identify the last letter of each word and concatenate them in the given order.
 
 - Hazel: last letter is 'l'
 - Gabrielle: last letter is 'e'
@@ -666,111 +666,111 @@ Concatenating these letters gives 'leoe'.", "answer": "leoe"} - Fixing
 - Dalton: last letter is 'n'
 
 Concatenating these last letters gives 'leen'.", "answer": "leen"} - Fixing
-2025-06-28 13:55:35,117 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Madeline Mckenzie Louie Dylan\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,278 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Madeline Mckenzie Louie Dylan\". I need to identify the last letter of each word and concatenate them in the given order.
 - Madeline's last letter is 'e'.
 - Mckenzie's last letter is 'e'.
 - Louie's last letter is 'e'.
 - Dylan's last letter is 'n'.
 Concatenating these letters gives 'e' + 'e' + 'e' + 'n' = 'een'.", "answer": "een"} - Fixing
-2025-06-28 13:55:35,117 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Pauline Kerry Jeannette Hope\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,278 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Pauline Kerry Jeannette Hope\". I need to identify the last letter of each word and concatenate them in the given order.
 - Pauline's last letter is 'e'.
 - Kerry's last letter is 'y'.
 - Jeannette's last letter is 'e'.
 - Hope's last letter is 'e'.
 Concatenating these letters gives 'eyee'.", "answer": "eyee"} - Fixing
-2025-06-28 13:55:35,118 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Alina Alessandra Amina Bianca\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,279 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Alina Alessandra Amina Bianca\". I need to identify the last letter of each word and concatenate them in the given order.
 - Alina: last letter is 'a'
 - Alessandra: last letter is 'a'
 - Amina: last letter is 'a'
 - Bianca: last letter is 'a'
 Concatenating these last letters gives 'aaaa'.", "answer": "aaaa"} - Fixing
-2025-06-28 13:55:35,118 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Dorian Mayra Freddie Magaly\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,279 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Dorian Mayra Freddie Magaly\". I need to identify the last letter of each word and concatenate them in the given order.
 - Dorian's last letter is 'n'.
 - Mayra's last letter is 'a'.
 - Freddie's last letter is 'e'.
 - Magaly's last letter is 'y'.
 Concatenating these letters gives 'n a e y'.", "answer": "naey"} - Fixing
-2025-06-28 13:55:35,118 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Erwin Chad Margarito Shanna\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,279 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Erwin Chad Margarito Shanna\". I need to identify the last letter of each word and concatenate them in the given order.
 - Erwin's last letter is n.
 - Chad's last letter is d.
 - Margarito's last letter is o.
 - Shanna's last letter is a.
 Concatenating these letters gives \"ndoa\".", "answer": "ndoa"} - Fixing
-2025-06-28 13:55:35,118 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Mario Pierre Amit Nelson\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,279 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Mario Pierre Amit Nelson\". I need to identify the last letter of each word and concatenate them in the given order.
 - Mario's last letter is 'o'.
 - Pierre's last letter is 'e'.
 - Amit's last letter is 't'.
 - Nelson's last letter is 'n'.
 Concatenating these letters gives 'oetn'.", "answer": "oetn"} - Fixing
-2025-06-28 13:55:35,119 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Ángel Carlton Sameer Martinez\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,280 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Ángel Carlton Sameer Martinez\". I need to identify the last letter of each word and concatenate them in the given order.
 - Ángel's last letter is 'l'.
 - Carlton's last letter is 'n'.
 - Sameer's last letter is 'r'.
 - Martinez's last letter is 'z'.
 Concatenating these letters gives 'lnrz'.", "answer": "lnrz"} - Fixing
-2025-06-28 13:55:35,119 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Evan Ray Sofia Alonso\".
+2025-06-28 21:29:19,280 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Evan Ray Sofia Alonso\".
 The last letters of each word are:
 - Evan: n
 - Ray: y
 - Sofia: a
 - Alonso: o
 Concatenating these last letters gives us \"nyao\".", "answer": "nyao"} - Fixing
-2025-06-28 13:55:35,119 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Yvonne Rafaela Jb Salomon\".
+2025-06-28 21:29:19,280 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Yvonne Rafaela Jb Salomon\".
 The last letters of each word are:
 - Yvonne: e
 - Rafaela: a
 - Jb: b
 - Salomon: n
 Concatenating these last letters gives us \"eabn\".", "answer": "eabn"} - Fixing
-2025-06-28 13:55:35,119 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Sandeep Graciela Jai Xiomara\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,280 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Sandeep Graciela Jai Xiomara\". I need to identify the last letter of each word and concatenate them in the given order.
 - Sandeep's last letter is 'p'.
 - Graciela's last letter is 'a'.
 - Jai's last letter is 'i'.
 - Xiomara's last letter is 'a'.
 Concatenating these letters gives 'paia'.", "answer": "paia"} - Fixing
-2025-06-28 13:55:35,120 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Sterling Jenifer Patsy Denise\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,281 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Sterling Jenifer Patsy Denise\". I need to identify the last letter of each word and concatenate them in the given order.
 - Sterling ends with 'g'.
 - Jenifer ends with 'r'.
 - Patsy ends with 'y'.
 - Denise ends with 'e'.
 Concatenating these last letters gives 'grye'.", "answer": "grye"} - Fixing
-2025-06-28 13:55:35,120 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Ashish Tracey Varun Emil\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,281 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Ashish Tracey Varun Emil\". I need to identify the last letter of each word and concatenate them in the given order.
 - Ashish ends with 'h'
 - Tracey ends with 'y'
 - Varun ends with 'n'
 - Emil ends with 'l'
 Concatenating these last letters gives 'hynl'.", "answer": "hynl"} - Fixing
-2025-06-28 13:55:35,120 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Theo Sheila Mariana Esmeralda\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,281 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Theo Sheila Mariana Esmeralda\". I need to identify the last letter of each word and concatenate them in the given order.
 - Theo: last letter is 'o'
 - Sheila: last letter is 'a'
 - Mariana: last letter is 'a'
 - Esmeralda: last letter is 'a'
 Concatenating these last letters gives 'oaa'.", "answer": "oaa"} - Fixing
-2025-06-28 13:55:35,120 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Hayden Maya Zack Roberto\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,281 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Hayden Maya Zack Roberto\". I need to identify the last letter of each word and concatenate them in the given order.
 - Hayden's last letter is 'n'.
 - Maya's last letter is 'a'.
 - Zack's last letter is 'k'.
 - Roberto's last letter is 'o'.
 Concatenating these letters gives 'nako'.", "answer": "nako"} - Fixing
-2025-06-28 13:55:35,120 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"María Fredy Bridgette Kenya\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,282 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"María Fredy Bridgette Kenya\". I need to identify the last letter of each word and concatenate them in the given order.
 - María: last letter is 'a'
 - Fredy: last letter is 'y'
 - Bridgette: last letter is 'e'
 - Kenya: last letter is 'a'
 Concatenating these letters gives 'ayea'.", "answer": "ayea"} - Fixing
-2025-06-28 13:55:35,121 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Michel Roy Sergey Jessie\". I need to identify the last letter of each word and concatenate them in the given order.
+2025-06-28 21:29:19,282 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Michel Roy Sergey Jessie\". I need to identify the last letter of each word and concatenate them in the given order.
 - Michel: last letter is l
 - Roy: last letter is y
 - Sergey: last letter is y
 - Jessie: last letter is e
 Concatenating these letters gives \"lyye\".", "answer": "lyye"} - Fixing
-2025-06-28 13:55:35,121 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Russell Mitchell Bee Faith\".
+2025-06-28 21:29:19,282 [WARNING] Invalid JSON string: {"reasoning": "The input sequence of words is \"Russell Mitchell Bee Faith\".
 The last letters of each word are:
 - Russell: l
 - Mitchell: l
 - Bee: e
 - Faith: h
 Concatenating these last letters gives us \"lleh\".", "answer": "lleh"} - Fixing
-2025-06-28 13:55:35,121 [INFO] Computed scores for 6-reasoning/last_letter
-2025-06-28 13:55:35,121 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.75, 'compliance': 1.0, 'is_valid': 0.66}
-2025-06-28 13:55:35,122 [INFO] Evaluation complete for repository: gemma-3-12b-it_low
+2025-06-28 21:29:19,282 [INFO] Computed scores for 6-reasoning/last_letter
+2025-06-28 21:29:19,283 [INFO] Aggregated scores for 6-reasoning/last_letter: {'is_valid': 0.66, 'correctness': 0.75, 'compliance': 1.0}
+2025-06-28 21:29:19,284 [INFO] Evaluation complete for repository: gemma-3-12b-it_low

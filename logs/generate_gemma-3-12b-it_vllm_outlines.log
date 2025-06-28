@@ -4,3 +4,14 @@
 2025-06-28 17:25:51,330 [INFO] Processing task: 2-wiki_bio
 2025-06-28 18:57:26,916 [INFO] Task 2-wiki_bio completed in 5495.59 s
 2025-06-28 18:57:26,917 [INFO] Processing task: 3-few_nerd
+2025-06-28 20:50:23,675 [INFO] Task 3-few_nerd completed in 6776.76 s
+2025-06-28 20:50:23,675 [INFO] Processing task: 4-TOPv1
+2025-06-28 20:56:36,581 [INFO] Task 4-TOPv1 completed in 372.91 s
+2025-06-28 20:56:36,582 [INFO] Processing task: 5-api_bank
+2025-06-28 20:58:47,264 [INFO] Task 5-api_bank completed in 130.68 s
+2025-06-28 20:58:47,264 [INFO] Processing task: 6-reasoning
+2025-06-28 20:58:47,264 [INFO]   > subtask GSM8K
+2025-06-28 20:58:47,264 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-28 21:26:17,380 [INFO] Task 6-reasoning/GSM8K completed in 1650.12 s
+2025-06-28 21:26:17,381 [INFO]   > subtask last_letter
+2025-06-28 21:26:17,381 [INFO] Processing task: 6-reasoning/last_letter
