@@ -31,3 +31,9 @@
 2025-06-23 13:30:04,995 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
 2025-06-23 13:30:12,337 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
 2025-06-23 13:30:12,340 Processing task: 1-rotowire
+2025-06-28 10:52:24,553 RERUN
+2025-06-28 10:52:52,633 We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-06-28 10:53:00,587 gpustat is not installed, run `pip install gpustat` to collect GPU stats.
+2025-06-28 10:53:00,590 Processing task: 1-rotowire
+2025-06-28 11:54:53,121 Task 1-rotowire completed in 3712.53 s
+2025-06-28 11:54:53,121 Processing task: 2-wiki_bio

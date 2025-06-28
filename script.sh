@@ -8,7 +8,5 @@ set -euo pipefail
 # git commit -m "Add results transformers"
 # git push
 
-uv run python -m src.generate_transformers_outlines --model google/gemma-3-4b-it --start-from "6-reasoning"
+uv run python -m src.generate_transformers_guidance --model google/gemma-3-4b-it
 git add .
-git commit -m "Add results transformers outlines"
-git push
