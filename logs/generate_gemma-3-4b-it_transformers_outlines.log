@@ -104,3 +104,15 @@
 2025-06-23 13:20:47,033 [INFO] Processing task: 1-rotowire
 2025-06-23 13:40:17,573 [INFO] Task 1-rotowire completed in 1170.54 s
 2025-06-23 13:40:17,574 [INFO] Processing task: 2-wiki_bio
+2025-06-29 10:35:54,211 [INFO] 
+===== RERUN invoked =====
+2025-06-29 10:36:20,688 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-29 10:47:09,036 [INFO] Task 6-reasoning/GSM8K completed in 648.35 s
+2025-06-29 10:47:09,036 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-29 10:50:31,671 [INFO] Task 6-reasoning/last_letter completed in 202.63 s
+2025-06-29 10:55:09,592 [INFO] 
+===== RERUN invoked =====
+2025-06-29 10:55:16,113 [INFO] Processing task: 6-reasoning/GSM8K
+2025-06-29 11:06:27,596 [INFO] Task 6-reasoning/GSM8K completed in 671.48 s
+2025-06-29 11:06:27,597 [INFO] Processing task: 6-reasoning/last_letter
+2025-06-29 11:10:03,841 [INFO] Task 6-reasoning/last_letter completed in 216.24 s
