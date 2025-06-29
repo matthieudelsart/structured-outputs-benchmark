@@ -192,7 +192,7 @@
         },
         "2-wiki_bio": {
             "compliance": 0.975,
-            "correctness": 0.322,
+            "correctness": 0.323,
             "is_valid": 0.73
         },
         "3-few_nerd": {
@@ -325,6 +325,11 @@
             "compliance": 0.51,
             "correctness": 0.0,
             "is_valid": 0.0
+        },
+        "6-reasoning/last_letter": {
+            "compliance": 0.5,
+            "correctness": 0.0,
+            "is_valid": 0.0
         }
     },
     "gemma-3-1b-it": {
@@ -362,6 +367,70 @@
             "compliance": 1.0,
             "correctness": 0.0,
             "is_valid": 0.977
+        }
+    },
+    "gemma-3-1b-it_vllm": {
+        "1-rotowire": {
+            "compliance": 0.841,
+            "correctness": 0.227,
+            "is_valid": 0.0
+        },
+        "2-wiki_bio": {
+            "compliance": 0.688,
+            "correctness": 0.213,
+            "is_valid": 0.0
+        },
+        "3-few_nerd": {
+            "compliance": 0.631,
+            "correctness": 0.158,
+            "is_valid": 0.0
+        },
+        "4-TOPv1": {
+            "compliance": 0.013,
+            "correctness": 0.003,
+            "is_valid": 0.0
+        },
+        "5-api_bank": {
+            "compliance": 0.069,
+            "correctness": 0.119,
+            "is_valid": 0.258
+        },
+        "6-reasoning/GSM8K": {
+            "compliance": 0.38,
+            "correctness": 0.04,
+            "is_valid": 0.16
+        },
+        "6-reasoning/last_letter": {
+            "compliance": 0.5,
+            "correctness": 0.0,
+            "is_valid": 0.0
+        }
+    },
+    "gemma-3-1b-it_vllm_outlines": {
+        "1-rotowire": {
+            "compliance": 0.761,
+            "correctness": 0.201,
+            "is_valid": 0.95
+        },
+        "2-wiki_bio": {
+            "compliance": 0.986,
+            "correctness": 0.27,
+            "is_valid": 0.98
+        },
+        "3-few_nerd": {
+            "compliance": 0.0,
+            "correctness": 0.001,
+            "is_valid": 0.89
+        },
+        "4-TOPv1": {
+            "compliance": 0.0,
+            "correctness": 0.0,
+            "is_valid": 1.0
+        },
+        "5-api_bank": {
+            "compliance": 0.0,
+            "correctness": 0.0,
+            "is_valid": 0.973
         }
     },
     "gemma-3-27b-it": {

@@ -4,3 +4,12 @@
 2025-06-28 22:45:37,116 [INFO] Processing task: 2-wiki_bio
 2025-06-28 23:03:30,454 [INFO] Task 2-wiki_bio completed in 1073.34 s
 2025-06-28 23:03:30,454 [INFO] Processing task: 3-few_nerd
+2025-06-29 09:01:43,356 [INFO] 
+===== RERUN invoked =====
+2025-06-29 09:01:43,356 [INFO] Loading model 'google/gemma-3-1b-it' with vLLM …
+2025-06-29 09:02:38,792 [INFO] Processing task: 3-few_nerd
+2025-06-29 09:21:41,872 [INFO] Task 3-few_nerd completed in 1143.08 s
+2025-06-29 09:21:41,873 [INFO] Processing task: 4-TOPv1
+2025-06-29 09:23:18,686 [INFO] Task 4-TOPv1 completed in 96.81 s
+2025-06-29 09:23:18,687 [INFO] Processing task: 5-api_bank
+2025-06-29 09:28:50,666 [INFO] Task 5-api_bank completed in 331.98 s

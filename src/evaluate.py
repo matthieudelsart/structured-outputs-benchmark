@@ -1286,9 +1286,105 @@ def main():
         bench_repos = [d for d in results_dir.iterdir() if d.is_dir()]
 
         for repo in bench_repos:
-            evaluate_repo(repo, output_file=args.output_file)
+            if "free" in repo.name:
+                # These are handled separately by `evaluate_repo_reasoning_free`
+                evaluate_repo_reasoning_free(repo, output_file=args.output_file)
+            else:
+                evaluate_repo(repo, output_file=args.output_file)
     else:
         evaluate_repo(Path(args.bench_repo), output_file=args.output_file)
+
+# ============================================================================
+# Special-case evaluator for *free* reasoning runs (no JSON compliance needed)
+# ----------------------------------------------------------------------------
+
+def evaluate_repo_reasoning_free(repo_path: str | Path, output_file: str) -> None:
+    """Evaluate accuracy for repositories created with
+    ``src/generate_transformers_reasoning_free.py``.
+
+    The directory layout is expected to be::
+
+        results/<repo_name>/<Subtask>/generated.json
+
+    where *Subtask* ∈ {``GSM8K``, ``last_letter``}.  Each *generated.json* is a
+    list of records with at least the keys ``generated_output`` (model answer)
+    and ``output`` → ``answer`` (ground-truth answer).
+
+    The function computes the exact-match *accuracy* for each subtask (after
+    lightweight normalisation with :func:`_norm_name`) and stores the scores in
+    the consolidated *output_file* under ``<repo_name>`` →
+    ``6-reasoning/<Subtask>``.
+    """
+
+    repo_path = Path(repo_path)
+    repo_name = repo_path.name
+
+    # ------------- logging -------------
+    logs_dir = Path("logs"); logs_dir.mkdir(exist_ok=True)
+    log_file = logs_dir / f"evaluate_{repo_name}.log"
+
+    # Reset root handlers to avoid duplicate logs when evaluating multiple repos
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        handlers=[logging.FileHandler(log_file, mode="w"), logging.StreamHandler()],
+    )
+
+    logging.info("Starting *reasoning-free* evaluation for repository: %s", repo_name)
+
+    subtasks = ["GSM8K", "last_letter"]
+    all_results: Dict[str, Dict[str, float]] = {}
+
+    for sub in subtasks:
+        bench_path = repo_path / sub / "generated.json"
+        task_key = f"6-reasoning/{sub}"
+
+        if not bench_path.exists():
+            logging.warning("Benchmark file not found, skipping: %s", bench_path)
+            continue
+
+        try:
+            with open(bench_path, "r") as f:
+                records = json.load(f)
+        except Exception as e:
+            logging.error("Failed to read %s: %s", bench_path, e)
+            continue
+
+        if not records:
+            logging.warning("No records in %s", bench_path)
+            all_results[task_key] = {"accuracy": 0.0}
+            continue
+
+        correct = 0
+        for rec in records:
+            pred = _norm_name(str(rec.get("generated_output", "")))
+            target = _norm_name(str(rec.get("output", {}).get("answer", "")))
+            if pred == target:
+                correct += 1
+
+        acc = round(correct / len(records), 3)
+        all_results[task_key] = {"accuracy": acc}
+        logging.info("%s – accuracy %.3f (%d/%d)", task_key, acc, correct, len(records))
+
+    # ------------- write output -------------
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        with open(output_path, "r") as f:
+            current_results = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        current_results = {}
+
+    current_results[repo_name] = all_results
+
+    with open(output_path, "w") as f:
+        json.dump(current_results, f, indent=4, sort_keys=True)
+
+    logging.info("Reasoning-free evaluation complete for repository: %s", repo_name)
 
 if __name__ == '__main__':
     main()
