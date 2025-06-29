@@ -191,7 +191,7 @@
             "is_valid": 0.9
         },
         "2-wiki_bio": {
-            "compliance": 0.975,
+            "compliance": 0.973,
             "correctness": 0.323,
             "is_valid": 0.73
         },
@@ -228,7 +228,7 @@
             "is_valid": 0.9
         },
         "2-wiki_bio": {
-            "compliance": 0.847,
+            "compliance": 0.846,
             "correctness": 0.33,
             "is_valid": 0.624
         },
@@ -339,12 +339,12 @@
             "is_valid": 0.81
         },
         "2-wiki_bio": {
-            "compliance": 0.846,
-            "correctness": 0.243,
+            "compliance": 0.817,
+            "correctness": 0.237,
             "is_valid": 0.503
         },
         "3-few_nerd": {
-            "compliance": 0.746,
+            "compliance": 0.751,
             "correctness": 0.226,
             "is_valid": 0.0
         },
@@ -376,8 +376,8 @@
             "is_valid": 0.0
         },
         "2-wiki_bio": {
-            "compliance": 0.688,
-            "correctness": 0.213,
+            "compliance": 0.677,
+            "correctness": 0.209,
             "is_valid": 0.0
         },
         "3-few_nerd": {
@@ -401,7 +401,7 @@
             "is_valid": 0.16
         },
         "6-reasoning/last_letter": {
-            "compliance": 0.5,
+            "compliance": 0.495,
             "correctness": 0.0,
             "is_valid": 0.0
         }
@@ -431,6 +431,16 @@
             "compliance": 0.0,
             "correctness": 0.0,
             "is_valid": 0.973
+        },
+        "6-reasoning/GSM8K": {
+            "compliance": 0.955,
+            "correctness": 0.09,
+            "is_valid": 0.92
+        },
+        "6-reasoning/last_letter": {
+            "compliance": 1.0,
+            "correctness": 0.0,
+            "is_valid": 1.0
         }
     },
     "gemma-3-27b-it": {
@@ -477,7 +487,7 @@
             "is_valid": 0.9
         },
         "2-wiki_bio": {
-            "compliance": 0.966,
+            "compliance": 0.965,
             "correctness": 0.347,
             "is_valid": 0.827
         },
@@ -529,7 +539,7 @@
             "is_valid": 0.9
         },
         "5-api_bank": {
-            "compliance": 0.99,
+            "compliance": 0.989,
             "correctness": 0.806,
             "is_valid": 0.817
         },
@@ -645,17 +655,24 @@
             "is_valid": 1.0
         },
         "6-reasoning/GSM8K": {
-            "compliance": 1.0,
-            "correctness": 1.0,
-            "is_valid": 1.0
+            "compliance": 0.96,
+            "correctness": 0.78,
+            "is_valid": 0.94
         },
         "6-reasoning/last_letter": {
             "compliance": 1.0,
-            "correctness": 1.0,
+            "correctness": 0.38,
             "is_valid": 1.0
         }
     },
-    "gemma-3-4b-it_transformers_reasoning_free": {},
+    "gemma-3-4b-it_transformers_reasoning_free": {
+        "6-reasoning/GSM8K": {
+            "correctness": 0.72
+        },
+        "6-reasoning/last_letter": {
+            "correctness": 0.41
+        }
+    },
     "gemma-3-4b-it_vllm": {
         "1-rotowire": {
             "compliance": 0.888,

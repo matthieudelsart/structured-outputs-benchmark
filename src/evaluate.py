@@ -1355,7 +1355,7 @@ def evaluate_repo_reasoning_free(repo_path: str | Path, output_file: str) -> Non
 
         if not records:
             logging.warning("No records in %s", bench_path)
-            all_results[task_key] = {"accuracy": 0.0}
+            all_results[task_key] = {"correctness": 0.0}
             continue
 
         correct = 0
@@ -1366,8 +1366,8 @@ def evaluate_repo_reasoning_free(repo_path: str | Path, output_file: str) -> Non
                 correct += 1
 
         acc = round(correct / len(records), 3)
-        all_results[task_key] = {"accuracy": acc}
-        logging.info("%s – accuracy %.3f (%d/%d)", task_key, acc, correct, len(records))
+        all_results[task_key] = {"correctness": acc}
+        logging.info("%s – correctness %.3f (%d/%d)", task_key, acc, correct, len(records))
 
     # ------------- write output -------------
     output_path = Path(output_file)
