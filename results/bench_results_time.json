@@ -30,9 +30,14 @@
         "overall": 4660.6978365127
     },
     "gemma-3-4b-it_transformers_outlines": {
-        "6-reasoning/GSM8K": 671.4831237196922,
-        "6-reasoning/last_letter": 216.2443996714428,
-        "overall": 887.727523391135
+        "1-rotowire": 1170.5399181293324,
+        "2-wiki_bio": 1715.0,
+        "3-few_nerd": 576.0,
+        "4-TOPv1": 1042.0,
+        "5-api_bank": 4243.0,
+        "6-reasoning/GSM8K": 713.0,
+        "6-reasoning/last_letter": 195.0,
+        "overall": 9654
     },
     "gemma-3-4b-it_transformers_guidance": {
         "1-rotowire": 3712.53075780347,
@@ -80,8 +85,13 @@
         "overall": 589.1483937799931
     },
     "gemma-3-1b-it_vllm_outlines": {
+        "1-rotowire": 1256.31,
+        "2-wiki_bio": 1073.34,
+        "3-few_nerd": 1143.08,
+        "4-TOPv1": 96.81,
+        "5-api_bank": 331.98,
         "6-reasoning/GSM8K": 319.35558913461864,
         "6-reasoning/last_letter": 167.97684694826603,
-        "overall": 487.33243608288467
+        "overall": 4388.852436082884
     }
 }

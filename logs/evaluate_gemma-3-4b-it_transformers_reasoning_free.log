@@ -1,4 +1,4 @@
-2025-06-29 13:24:45,154 [INFO] Starting *reasoning-free* evaluation for repository: gemma-3-4b-it_transformers_reasoning_free
-2025-06-29 13:24:45,155 [INFO] 6-reasoning/GSM8K – correctness 0.720 (72/100)
-2025-06-29 13:24:45,155 [INFO] 6-reasoning/last_letter – correctness 0.410 (41/100)
-2025-06-29 13:24:45,156 [INFO] Reasoning-free evaluation complete for repository: gemma-3-4b-it_transformers_reasoning_free
+2025-07-02 18:56:49,695 [INFO] Starting *reasoning-free* evaluation for repository: gemma-3-4b-it_transformers_reasoning_free
+2025-07-02 18:56:49,696 [INFO] 6-reasoning/GSM8K – correctness 0.720 (72/100)
+2025-07-02 18:56:49,696 [INFO] 6-reasoning/last_letter – correctness 0.410 (41/100)
+2025-07-02 18:56:49,697 [INFO] Reasoning-free evaluation complete for repository: gemma-3-4b-it_transformers_reasoning_free

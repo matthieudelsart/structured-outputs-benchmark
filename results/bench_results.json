@@ -192,7 +192,7 @@
         },
         "2-wiki_bio": {
             "compliance": 0.973,
-            "correctness": 0.323,
+            "correctness": 0.322,
             "is_valid": 0.73
         },
         "3-few_nerd": {
@@ -414,7 +414,7 @@
         },
         "2-wiki_bio": {
             "compliance": 0.986,
-            "correctness": 0.27,
+            "correctness": 0.269,
             "is_valid": 0.98
         },
         "3-few_nerd": {

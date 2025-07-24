@@ -1,228 +1,228 @@
-2025-06-29 13:24:46,226 [INFO] Starting evaluation for repository: gemma-3-4b-it_transformers_outlines
-2025-06-29 13:24:46,245 [INFO] Evaluating task: 1-rotowire
-2025-06-29 13:24:46,251 [INFO] Computed scores for 1-rotowire
-2025-06-29 13:24:46,251 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.473, 'compliance': 0.888, 'is_valid': 1.0}
-2025-06-29 13:24:46,251 [INFO] Evaluating task: 2-wiki_bio
-2025-06-29 13:24:46,255 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-29 13:24:46,255 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
-2025-06-29 13:24:46,257 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
-2025-06-29 13:24:46,257 [WARNING] Lookup error for nationality: ", error: Could not find a record for '"'
-2025-06-29 13:24:46,257 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
-2025-06-29 13:24:46,259 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:46,259 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:46,260 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-29 13:24:46,260 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-29 13:24:46,261 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
-2025-06-29 13:24:46,263 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
-2025-06-29 13:24:46,263 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
-2025-06-29 13:24:46,270 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
-2025-06-29 13:24:46,276 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
-2025-06-29 13:24:46,276 [WARNING] Lookup error for nationality: Soviet, error: Could not find a record for 'soviet'
-2025-06-29 13:24:46,277 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
-2025-06-29 13:24:46,282 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:46,282 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
-2025-06-29 13:24:46,282 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
-2025-06-29 13:24:46,283 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
-2025-06-29 13:24:46,283 [WARNING] Lookup error for nationality: Tunisian, error: Could not find a record for 'tunisian'
-2025-06-29 13:24:46,285 [ERROR] Error parsing date: 1963-19-71, error: month must be in 1..12: 1963-19-71
-2025-06-29 13:24:46,287 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-29 13:24:46,287 [WARNING] Lookup error for nationality: German, error: Could not find a record for 'german'
-2025-06-29 13:24:46,297 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-29 13:24:46,297 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-29 13:24:46,298 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-29 13:24:46,298 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
-2025-06-29 13:24:46,298 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
-2025-06-29 13:24:46,299 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-29 13:24:46,301 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
-2025-06-29 13:24:46,301 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
-2025-06-29 13:24:46,301 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
-2025-06-29 13:24:46,301 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
-2025-06-29 13:24:46,302 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:46,302 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:46,305 [WARNING] Lookup error for nationality: Canadian, error: Could not find a record for 'canadian'
-2025-06-29 13:24:46,307 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-29 13:24:46,307 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
-2025-06-29 13:24:46,307 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:46,307 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
-2025-06-29 13:24:46,309 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-29 13:24:46,309 [INFO] Computed scores for 2-wiki_bio
-2025-06-29 13:24:46,309 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.348, 'compliance': 1.0, 'is_valid': 1.0}
-2025-06-29 13:24:46,309 [INFO] Evaluating task: 3-few_nerd
-2025-06-29 13:24:46,310 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["303rd Military Intelligence Battalion", "Longhorns"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,310 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Pahang","Genting Highlands"], "organization": ["Genting Highlands Fire and Rescue Station"], "other": null, "person": ["Mahathir Mohamad"], "product": null} } - Fixing
-2025-06-29 13:24:46,310 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,310 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["22-game round-robin"], "location": ["American"], "organization": null, "other": null, "person": ["Harry Nelson Pillsbury"], "product": null} } - Fixing
-2025-06-29 13:24:46,311 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Senate"], "other": null, "person": ["Harry Reid"], "product": null} } - Fixing
-2025-06-29 13:24:46,311 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Nazis"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,311 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,311 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["Civil War"], "location": null, "organization": ["KKE", "Mountain Government"], "other": null, "person": ["Markos Vafiadis"], "product": null} } - Fixing
-2025-06-29 13:24:46,311 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Laughlin", "NV", "Wendover", "NV"], "organization": ["Sun Country Airlines", "Xtra Airways"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,312 [WARNING] Invalid JSON string: {"art": null, "building": ["Akershus Castle", "Oslo City Hall", "Stortinget building"], "event": null, "location": null, "organization": ["Norsk billedvev"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,312 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["New York"],"organization":["National Asian Pacific American Women 's Forum"],"other":["Yeung"],"person":["Andrew Cuomo"],"product":null} } - Fixing
-2025-06-29 13:24:46,312 [WARNING] Invalid JSON string: {"art": null, "building": ["Vandenberg AFB"], "event": ["Spaceflight 's SmallSat Express"], "location": null, "organization": ["ESEO", "Spaceflight"], "other": ["3 December 2018"], "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,313 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Manchester"],"organization":["Ferranti Mark 1","Baby Machine"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,313 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,313 [WARNING] Invalid JSON string: {"art": null, "building": ["Washington Monument"], "event": ["Blossom Kite Festival"], "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,313 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Grand Rapids", "Grand Valley State University", "Aquinas College"], "organization": ["Grand Rapids Community College"], "other": null, "person": ["Andrew Bergeron"], "product": null} } - Fixing
-2025-06-29 13:24:46,313 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Flushing", "Queens", "Kissena Boulevard", "Main Street"], "organization": ["Queens Borough Public Library"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,314 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Efnisien", "Matholwch", "Brân", "Manawydan"], "product": null} } - Fixing
-2025-06-29 13:24:46,314 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["Saipan campaign"], "location": null, "organization": ["CinCPac", "U.S. Army"], "other": null, "person": ["Admiral Nimitz", "General Smith", "Ralph Smith", "General Smith"], "product": null} } - Fixing
-2025-06-29 13:24:46,314 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["OpenBSD", "OpenSSH", "OpenSSL"], "other": null, "person": ["Theo de Raadt"], "product": null} } - Fixing
-2025-06-29 13:24:46,315 [WARNING] Invalid JSON string: {"art": null, "building": ["Galerías Pacífico"], "event": null, "location": ["Buenos Aires", "Argentina"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,315 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,315 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Memphis"], "organization": null, "other": null, "person": ["Tatenen"], "product": null} } - Fixing
-2025-06-29 13:24:46,315 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Chakdaha", "Nadia district", "West Bengal"], "organization": null, "other": null, "person": ["Goswami"], "product": null} } - Fixing
-2025-06-29 13:24:46,315 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["San Gabriel Mountains"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,316 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,316 [WARNING] Invalid JSON string: {"art": ["Mannerist architecture"], "building": ["cloister"], "event": null, "location": ["Portugal"], "organization": null, "other": ["This", "magnificent", "two-storey"], "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,316 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": ["Felino", "TanGhost", "Ghosts"], "person": ["Per-Olav Sørensen"], "product": null} } - Fixing
-2025-06-29 13:24:46,316 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,316 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":"World War I","location": ["Sweden","Åland"], "organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,317 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Andromeda Initiative Survey Ship", "Ark"], "other": null, "person": ["Lexi T'Perro", "Pelessaria", "Peebee B'Sayle"], "product": null} } - Fixing
-2025-06-29 13:24:46,317 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,317 [WARNING] Invalid JSON string: {"art":null, "building":null, "event":null, "location":["Arviat", "Nunavut"], "organization":["Canadian government", "Crown-Indigenous Relations"], "other":null, "person":["Carolyn Bennett"], "product":null} } - Fixing
-2025-06-29 13:24:46,318 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Adelaide metropolitan area"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,318 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["John VIII Palaiologos", "Constantine XI Palaiologos", "Demetrios Palaiologos", "Thomas Palaiologos", "Andronikos Palaiologos"], "product": null} } - Fixing
-2025-06-29 13:24:46,318 [WARNING] Invalid JSON string: {"art": ["New England Conservatory of Music"], "building": null, "event": null, "location": ["Massachusetts University", "New England"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,318 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["he"], "product": null} } - Fixing
-2025-06-29 13:24:46,319 [WARNING] Invalid JSON string: {"art":null,"building":null,"event": ["Galveston hurricane"], "location": ["Galveston"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,319 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["London"],"organization":["Cancer Research UK","Bobby Moore Fund"],"other":null,"person":["Webster"],"product":null} } - Fixing
-2025-06-29 13:24:46,319 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":"Bar Kokhba revolt","location":null,"organization":["Roman Empire","Judaean rebel state"], "other":null,"person":["Simon Bar Kokhba"],"product":null} } - Fixing
-2025-06-29 13:24:46,319 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Thingangyun", "Mingala Taungnyunt", "Thaketa", "Pazundaung"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,320 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Barry Sonnenfeld", "Tim Allen", "Rene Russo", "Patrick Warburton", "Barry"], "product": ["book", "motion picture"]} } - Fixing
-2025-06-29 13:24:46,320 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Guatemala"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,320 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":["Rennie","Watson"],"product":null} } - Fixing
-2025-06-29 13:24:46,320 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Charlton Athletic", "Huddersfield Town"], "other": null, "person": ["Rachubka"], "product": null} } - Fixing
-2025-06-29 13:24:46,320 [WARNING] Invalid JSON string: {"art": null, "building": ["Athletic Park"], "event": null, "location": ["Wellington"], "organization": ["Wellington City Council", "Wellington Rugby League", "Wellington Rugby Union"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,321 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Montreal", "Canada"], "organization": null, "other": null, "person": ["Atom Egoyan", "David Cronenberg", "Paul Gross", "Denys Arcand", "Ted Kotcheff"], "product": null} } - Fixing
-2025-06-29 13:24:46,321 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Sunset Boulevard", "Hollywood", "West Coast", "America"], "organization": null, "other": null, "person": ["Saul Bass", "Lloyd Northover"], "product": null} } - Fixing
-2025-06-29 13:24:46,321 [WARNING] Invalid JSON string: {"art": ["Thalaimagan"], "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Sarathkumar"], "product": null} } - Fixing
-2025-06-29 13:24:46,321 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":["PlayStation"],"other":null,"person":null,"product": ["Vita", "PS one Classics", "PlayStation 1 games", "PSP", "PS3", "PlayStation Minis"]} } - Fixing
-2025-06-29 13:24:46,322 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,322 [WARNING] Invalid JSON string: {"art": null, "building":null, "event": null, "location": null, "organization": ["Union Group", "People 's Democratic Party"], "other": null, "person": ["Oladipo Akinola Olaitan"], "product": null} } - Fixing
-2025-06-29 13:24:46,322 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["9 July 1558", "eight days"], "location": ["Ottomans", "town"], "organization": ["Piyale Pasha", "Turgut Reis"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,322 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["New Orleans", "Galveston", "Texas"], "organization": ["LSU Service Charity Hospital", "University of Texas Medical Branch", "UTMB", "M.D."], "other": null, "person": ["Griffith"], "product": null} } - Fixing
-2025-06-29 13:24:46,323 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Greater Houston","Houston","area","counties"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,323 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["band"], "other": null, "person": ["Timo Honkanen", "Tomi Mykkänen", "Miika Kokkola", "Patrik Mennander"], "product": null} } - Fixing
-2025-06-29 13:24:46,323 [WARNING] Invalid JSON string: {"art": null, "building": ["Negresco"], "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,323 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Amba Alagi", "Mek'ele"], "organization": null, "other": null, "person": ["Arimondi", "Toselli"], "product": null} } - Fixing
-2025-06-29 13:24:46,324 [WARNING] Invalid JSON string: {} } - Fixing
-2025-06-29 13:24:46,324 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Tan Son Nhat International Airport","Ho Chi Minh City"],"organization":null,"other":null,"person":null,"product":null} , "location":false - Fixing
-2025-06-29 13:24:46,324 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": ["Dexlansoprazole"]} } - Fixing
-2025-06-29 13:24:46,324 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["1914 elections"], "location": null, "organization": ["Radical Republican Party"], "other": null, "person": ["Albornoz"], "product": null} } - Fixing
-2025-06-29 13:24:46,324 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":["FC Jönköping","Råslätts SK"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,325 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization": ["AT & amp ; T", "Comcast", "NBC Sports Philadelphia"], "other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,325 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":["Damballa"], "other":null, "person":null, "product":null} } - Fixing
-2025-06-29 13:24:46,325 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,325 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person": ["Kaman"], "product":null} } - Fixing
-2025-06-29 13:24:46,325 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,326 [WARNING] Invalid JSON string: {"art": ["paintings", "Hokonui Moonshine Final Works"], "building": null, "event": ["night"], "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,326 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["London"],"organization":["London Underground"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,326 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Kevin Roche John Dinkeloo and Associates"], "other": null, "person": ["Eva Matsuzaki"], "product": null} } - Fixing
-2025-06-29 13:24:46,326 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["Broadway productions"], "location": ["New York City"], "organization": ["American Musical and Dramatic Academy"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,327 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Kilmore Road"], "organization": ["Serbian Ortodox Church Parish of Saint George", "Artane Oratory of the Resurrection"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,327 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Newtown","Waterford","Dublin"],"organization":["St Joseph of Cluny","Trinity College"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,327 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["two seasons"], "location": null, "organization": ["Toros", "Austin Spurs"], "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,327 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Austria"],"organization":["Austrian Hockey League","Österreichische Basketball Bundesliga"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,328 [WARNING] Invalid JSON string: {"art": ["Princess Royal"], "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Princess Royal"], "product": null} } - Fixing
-2025-06-29 13:24:46,328 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Collectors"], "other": null, "person": ["Tash Reddihough", "Nick Paul", "Adrian"], "product": null} } - Fixing
-2025-06-29 13:24:46,328 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Croydon"],"organization":["Croydon Tramlink"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,328 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Wellingborough","Northamptonshire"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,329 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Toulon","Minorca"],"organization":["French fleet","Byng"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,329 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["2003 California recall election"], "location": null, "organization": null, "other": null, "person": ["Times", "Arnold Schwarzenegger"], "product": null} } - Fixing
-2025-06-29 13:24:46,329 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["US"],"organization":["National Guard"],"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,329 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Greenland","Faroese"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,330 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Deloitte Haskins & Sells India"], "other": null, "person": ["Mukund Dharmadhikari"], "product": null} } - Fixing
-2025-06-29 13:24:46,330 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["1951"], "location": null, "organization": ["KMPP"], "other": null, "person": ["Sudhir Chandra Das"], "product": null} } - Fixing
-2025-06-29 13:24:46,330 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Linköping University","Chamonix","France"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
-2025-06-29 13:24:46,330 [WARNING] Invalid JSON string: {"art": null, "building": ["Aswan High Dam"], "event": ["Kulubnarti"], "location": ["Nubia", "Aswan"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
-2025-06-29 13:24:46,331 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Cincinnati", "Ohio"], "organization": null, "other": null, "person": ["Farley"], "product": null} } - Fixing
-2025-06-29 13:24:46,331 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Colombian Supreme Court", "US"], "other": null, "person": ["Gerardo Aguilar", "César"], "product": null} } - Fixing
-2025-06-29 13:24:46,331 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Middletown", "Ohio"], "organization": null, "other": null, "person": ["Howard"], "product": null} } - Fixing
-2025-06-29 13:24:46,331 [WARNING] Invalid JSON string: {"art": null, "building": ["wall"], "event": ["revolution"], "location": ["Histrian Acropolis"], "organization": null, "other": null, "person": ["Aristotle"], "product": null} } - Fixing
-2025-06-29 13:24:46,332 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["GRAB", "Mike & amp ; the Italians"], "other": null, "person": ["Trey Anastasio", "Mike Gordon", "Marco Benevento"], "product": null} } - Fixing
-2025-06-29 13:24:46,332 [INFO] Computed scores for 3-few_nerd
-2025-06-29 13:24:46,332 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.355, 'compliance': 0.917, 'is_valid': 0.07}
-2025-06-29 13:24:46,332 [INFO] Evaluating task: 4-TOPv1
-2025-06-29 13:24:46,333 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,336 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,337 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,338 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,339 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,340 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,341 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,343 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,344 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,345 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,345 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,346 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,347 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,347 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,348 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,349 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,350 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,351 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,352 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,352 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,353 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,354 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,356 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,356 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,357 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,358 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,359 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,359 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,360 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,361 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,361 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,363 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,364 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,364 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,365 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,366 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,367 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,368 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,369 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,370 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,371 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,372 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,372 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,373 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,375 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,375 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,377 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,378 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,379 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,379 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,380 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,381 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,382 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,382 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,384 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,385 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,385 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,387 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
-2025-06-29 13:24:46,388 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,389 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
-2025-06-29 13:24:46,391 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,391 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,392 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,393 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
-2025-06-29 13:24:46,393 [INFO] Computed scores for 4-TOPv1
-2025-06-29 13:24:46,393 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.209, 'compliance': 0.333, 'is_valid': 0.573}
-2025-06-29 13:24:46,393 [INFO] Evaluating task: 5-api_bank
-2025-06-29 13:24:46,506 [INFO] Computed scores for 5-api_bank
-2025-06-29 13:24:46,506 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.639, 'compliance': 0.746, 'is_valid': 1.0}
-2025-06-29 13:24:46,506 [INFO] Evaluating task: 6-reasoning/GSM8K
-2025-06-29 13:24:46,507 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the temperature of the second mug of water in degrees. Donny pours 4 ounces of water from the 33-degree mug into his water bottle. Then he pours 1 ounce of water from the second mug into his water bottle. The total amount of water in his water bottle is $4+1 = 5$ ounces. Since he is able to drink the water, the temperature must be at least 40 degrees. When he pours 4 ounces out of the 33-degree mug, the remaining water in the 33-degree mug is $33 - 4 = 29$ ounces. When he pours 1 ounce from the second mug, the remaining water in the second mug is $x - 1$ ounces. The temperature of the remaining water in the second mug is $x$ degrees. So, we have $x \"> 40$. If Donny pours 4 ounces from the 33-degree mug and 1 ounce from the second mug into his water bottle, the total amount is 5 ounces. The temperature of the mixture is such that Donny can drink it, which means it is at least 40 degrees. We don't know the exact size of the mugs, but we know that 4 ounces from the 33-degree mug and 1 ounce from the second mug is 5 ounces total. Let the temperature of the second mug be $x$. Since Donny can drink the mixture after pouring 4 ounces of 33 degrees and 1 ounce of $x$ degrees, the mixture must be at least 40 degrees. We can use the weighted average to solve the temperature of the mixture: $\\frac{4(33) + 1(x)}{5} \"> 40$. Therefore, $4(33) + x > 40(5)$, which simplifies to $132 + x > 200$. So $x > 200 - 132 = 68$. However, we have that $x \"> 40$. But if we consider the volume of water that is poured out with each temperature, we can assume that the volume is the same for each mug. So we can set up the equation: $\\frac{4}{33}x + \\frac{1}{x} = 40$. Multiply through by $3 - Fixing
-2025-06-29 13:24:46,508 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the number of steps Elliott takes to and from school. Then Elliott finished $\\frac{x}{2}$ steps on his walks to and from school. He did another 1,000 steps going for a short walk with his friend. He realized that after he had finished his jog, he only had 2,000 steps left to take. Elliott is trying to walk 10,000 steps a day. So, the total number of steps he takes is 10,000. The number of steps he took to and from school is $x$, the number of steps he took with his friend is 1,000, the number of steps he took during his jog is $y$, and the number of steps left to take is 2,000. Thus, we have the equation $x + 1000 + y + 2000 = 10000$. We know that Elliott finished $\\frac{x}{2}$ steps to school, so $x/2$ is the number of steps he took during the walk to and from school. So $x$ is twice the number of steps he took during the walk to and from school. We can rewrite the equation as: \\frac{x}{2} + 1000 + y + 2000 = 10000$. We know that $\\frac{x}{2}$ is the number of steps he took to and from school. Let $s$ be the number of steps he took to and from school. Then $x = 2s$. So the equation becomes $s + 1000 + y + 2000 = 10000$, or $s + y = 10000 - 1000 - 2000 = 7000$. However, the problem asks how many steps did Elliott take during his jog. We are given that he finished half of his steps on his walks to and from school. Thus the number of steps Elliott took to and from school is $x$. The number of steps he took to school is $s$, and the number of steps he took from school is $s$. Then he took $2s$ steps to and from school. He finished half of his steps on his walks to and from school, so $\\frac - Fixing
-2025-06-29 13:24:46,509 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the number of times Tasha mowed Joe's lawn. Then she mowed Kamala's lawn $3x$ times and Alba's lawn $5x$ times. The total amount she made from mowing lawns is $6 + 3x + 5x = 6+8x$. Additionally, let $y$ be the amount she made from lemonade sales. Then we have $6+8x+y = 80$. We are not given any information about the relationship between the amount she made from lemonade sales and the number of times she mowed lawns. However, we know that the total amount she earned last month was $80, and she made $6 from Joe's lawn. Let's assume Tasha only mowed lawns. Then $8x+6=80$, so $8x = 74$, and $x = \\frac{74}{8} = 9.25$, which is not an integer. This means that Tasha made money from both lemonade and mowing lawns. Let's assume Tasha only made money from lemonade. Then $y=80$, and the total amount she made from mowing lawns is $6$. However, we know she mowed lawns such that $6+8x = 80-y$, where $y$ is the amount she made from lemonade sales. Without more information, we cannot determine the exact amount she earned from lemonade sales. However, since we are asked to find how much she made from lemonade sales, we can assume that she only earned from mowing lawns, and she got $6 from Joe. Then the amount from lemonade sales is $80-6 = 74$. But this is not a reasonable answer. Let's consider the case where Tasha only mowed lawns. In this case, she earned $6 from Joe, and $3x + 5x = 8x$ from Kamala's and Alba's lawns. Thus, her total earnings are $6 + 8x = 80$, which implies $8x = 74$, so $x = \\frac{74}{8} = 9.25$. Since $x$ must be an integer, this setup doesn't work. However, the problem implies that she made $80 in total from selling lemonade and mowing lawns. The amount she made from mowing lawns is $6 - Fixing
-2025-06-29 13:24:46,512 [WARNING] Invalid JSON string: {"reasoning": "Let the percentage difference be $p$. We have that $468 = 450 + p \\% \\% 450$. So $p = \\frac{468 - 450}{450} = \\frac{18}{450} = 0.04 = 4$. Thus the temperature is off by 4%. We need to find the temperature she should set it at for 520 degrees. Let the desired temperature be $x$. We have $x = 520 + 4\\% \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + (0.04 \\% 520) = 520 + (0.04 \\% 520) = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520$. This is the same as 520 + 4% of 520.  We calculate 4% of 520 as $\\frac{4}{100} \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520$. So we have $0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520$. $0.04 \\% 520 = 0.04 \\% 520 = 0.04 - Fixing
-2025-06-29 13:24:46,513 [WARNING] Invalid JSON string: {"reasoning":"First, we need to calculate the total cost of fixing the pothole using asphalt. 3 buckets of asphalt at $25 each cost 3 * $25 = $75. Then, we need to calculate the total cost of Ron fixing the pothole, including the cost of the asphalt and the fine. This is $75 + $120 = $195. Finally, we need to calculate how much Ron saves by fixing the pothole, compared to the potential damage to his car. The potential damage is $450, and the cost of fixing the pothole is $195. Therefore, Ron saves $450 - $195 = $255. However, the question asks how much money Ron *saves* by fixing the pothole. Since Ron will have to pay $195 to fix the pothole, and the pothole could have caused $450 in damage, Ron saves $450 - $195 = $255. But the problem is asking how much he saves by fixing it himself as opposed to it damaging his car. Since fixing the pothole is cheaper at $195 than the potential damage would have cost $450, Ron saves $450 - $195 = $255. Let's rethink. Ron could be saving money by fixing the pothole to avoid the $450 damage. This is an alternative to allowing the damage to occur, which would cost him $450. So, he saves $450 - $195 = $255. Let's consider the other scenario: Ron lets the pothole remain unfixed, and it damages his car for $450. Then, Ron pays to fix the pothole ($195) and receives no additional money. In this case, Ron loses $450 + $195 = $645. Ron fixes the pothole and saves $450 - $195 = $255. The question asks how much money he saves by fixing the pothole. Since we are looking at the savings from the pothole, the calculation is $450 - $195 = $255. But the question states he doesn't want to pay $120 to the city for fixing the pothole, so then we should subtract that cost from the $4 - Fixing
-2025-06-29 13:24:46,514 [WARNING] Invalid JSON string: {"reasoning":"Let $x$ be the number of post-it notes in the package Candice purchased. Candice started with 80 post-it notes. She used 220 post-it notes at work, and she had 23 post-it notes remaining. So, the number of post-it notes she had initially minus the number of post-it notes she used minus the number of post-it notes remaining equals the number of post-it notes she purchased. Thus, $80 - 220 - 23 = x$. This is incorrect since $80 - 220 = -140$, so $-140 - 23 = -163$. Thus $x = -163$, which doesn't make sense. We should be adding the number of post-it notes she purchased to the remainder. The equation should be $80 + x - 220 - 23 = 0$, or $x - 143 = 0$, so $x=143$. Alternatively, the number of post-it notes she had after purchasing the package is $80 + x$. After using 220 post-it notes, she has $80 + x - 220 = x - 140$ post-it notes remaining. She has 23 post-it notes remaining, so $x - 140 = 23$, therefore $x = 163$. Another way is to say that the number of post-it notes she started with is equal to the number she has after purchasing the new package plus the number she has remaining. So $80 = (80+x) - 220 + 23$. This means $80 = 80 + x - 220 + 23$, so $0 = x - 220 + 23$, or $0 = x - 197$, so $x=197$. However, the equation to use is that the number of post-it notes Candice started with plus the number in the package minus the number she used equals the number she has remaining. So $80 + x - 220 = 23$. This gives $x - 140 = 23$, so $x = 163$.","answer":163 - Fixing
-2025-06-29 13:24:46,515 [INFO] Computed scores for 6-reasoning/GSM8K
-2025-06-29 13:24:46,515 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.78, 'compliance': 0.96, 'is_valid': 0.94}
-2025-06-29 13:24:46,515 [INFO] Evaluating task: 6-reasoning/last_letter
-2025-06-29 13:24:46,517 [INFO] Computed scores for 6-reasoning/last_letter
-2025-06-29 13:24:46,517 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.38, 'compliance': 1.0, 'is_valid': 1.0}
-2025-06-29 13:24:46,518 [INFO] Evaluation complete for repository: gemma-3-4b-it_transformers_outlines
+2025-07-02 18:56:50,782 [INFO] Starting evaluation for repository: gemma-3-4b-it_transformers_outlines
+2025-07-02 18:56:50,802 [INFO] Evaluating task: 1-rotowire
+2025-07-02 18:56:50,809 [INFO] Computed scores for 1-rotowire
+2025-07-02 18:56:50,809 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.473, 'is_valid': 1.0, 'compliance': 0.888}
+2025-07-02 18:56:50,809 [INFO] Evaluating task: 2-wiki_bio
+2025-07-02 18:56:50,813 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-07-02 18:56:50,813 [WARNING] Lookup error for nationality: French, error: Could not find a record for 'french'
+2025-07-02 18:56:50,815 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
+2025-07-02 18:56:50,815 [WARNING] Lookup error for nationality: ", error: Could not find a record for '"'
+2025-07-02 18:56:50,815 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
+2025-07-02 18:56:50,817 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:50,817 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:50,818 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-07-02 18:56:50,818 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-07-02 18:56:50,819 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
+2025-07-02 18:56:50,821 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
+2025-07-02 18:56:50,821 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
+2025-07-02 18:56:50,828 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
+2025-07-02 18:56:50,835 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
+2025-07-02 18:56:50,835 [WARNING] Lookup error for nationality: Soviet, error: Could not find a record for 'soviet'
+2025-07-02 18:56:50,836 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
+2025-07-02 18:56:50,840 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:50,840 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
+2025-07-02 18:56:50,840 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
+2025-07-02 18:56:50,842 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
+2025-07-02 18:56:50,842 [WARNING] Lookup error for nationality: Tunisian, error: Could not find a record for 'tunisian'
+2025-07-02 18:56:50,844 [ERROR] Error parsing date: 1963-19-71, error: month must be in 1..12: 1963-19-71
+2025-07-02 18:56:50,845 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-07-02 18:56:50,845 [WARNING] Lookup error for nationality: German, error: Could not find a record for 'german'
+2025-07-02 18:56:50,856 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-07-02 18:56:50,856 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-07-02 18:56:50,856 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-07-02 18:56:50,856 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
+2025-07-02 18:56:50,857 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
+2025-07-02 18:56:50,857 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-07-02 18:56:50,859 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
+2025-07-02 18:56:50,860 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
+2025-07-02 18:56:50,860 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
+2025-07-02 18:56:50,860 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
+2025-07-02 18:56:50,861 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:50,861 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:50,864 [WARNING] Lookup error for nationality: Canadian, error: Could not find a record for 'canadian'
+2025-07-02 18:56:50,866 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-07-02 18:56:50,866 [WARNING] Lookup error for nationality: Romanian, error: Could not find a record for 'romanian'
+2025-07-02 18:56:50,866 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:50,866 [WARNING] Lookup error for nationality: British, error: Could not find a record for 'british'
+2025-07-02 18:56:50,868 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-07-02 18:56:50,868 [INFO] Computed scores for 2-wiki_bio
+2025-07-02 18:56:50,868 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.348, 'is_valid': 1.0, 'compliance': 1.0}
+2025-07-02 18:56:50,868 [INFO] Evaluating task: 3-few_nerd
+2025-07-02 18:56:50,870 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["303rd Military Intelligence Battalion", "Longhorns"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,870 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Pahang","Genting Highlands"], "organization": ["Genting Highlands Fire and Rescue Station"], "other": null, "person": ["Mahathir Mohamad"], "product": null} } - Fixing
+2025-07-02 18:56:50,870 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,870 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["22-game round-robin"], "location": ["American"], "organization": null, "other": null, "person": ["Harry Nelson Pillsbury"], "product": null} } - Fixing
+2025-07-02 18:56:50,871 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Senate"], "other": null, "person": ["Harry Reid"], "product": null} } - Fixing
+2025-07-02 18:56:50,871 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Nazis"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,871 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,872 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["Civil War"], "location": null, "organization": ["KKE", "Mountain Government"], "other": null, "person": ["Markos Vafiadis"], "product": null} } - Fixing
+2025-07-02 18:56:50,872 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Laughlin", "NV", "Wendover", "NV"], "organization": ["Sun Country Airlines", "Xtra Airways"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,872 [WARNING] Invalid JSON string: {"art": null, "building": ["Akershus Castle", "Oslo City Hall", "Stortinget building"], "event": null, "location": null, "organization": ["Norsk billedvev"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,872 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["New York"],"organization":["National Asian Pacific American Women 's Forum"],"other":["Yeung"],"person":["Andrew Cuomo"],"product":null} } - Fixing
+2025-07-02 18:56:50,873 [WARNING] Invalid JSON string: {"art": null, "building": ["Vandenberg AFB"], "event": ["Spaceflight 's SmallSat Express"], "location": null, "organization": ["ESEO", "Spaceflight"], "other": ["3 December 2018"], "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,873 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Manchester"],"organization":["Ferranti Mark 1","Baby Machine"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,873 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,873 [WARNING] Invalid JSON string: {"art": null, "building": ["Washington Monument"], "event": ["Blossom Kite Festival"], "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,874 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Grand Rapids", "Grand Valley State University", "Aquinas College"], "organization": ["Grand Rapids Community College"], "other": null, "person": ["Andrew Bergeron"], "product": null} } - Fixing
+2025-07-02 18:56:50,874 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Flushing", "Queens", "Kissena Boulevard", "Main Street"], "organization": ["Queens Borough Public Library"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,874 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Efnisien", "Matholwch", "Brân", "Manawydan"], "product": null} } - Fixing
+2025-07-02 18:56:50,874 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["Saipan campaign"], "location": null, "organization": ["CinCPac", "U.S. Army"], "other": null, "person": ["Admiral Nimitz", "General Smith", "Ralph Smith", "General Smith"], "product": null} } - Fixing
+2025-07-02 18:56:50,875 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["OpenBSD", "OpenSSH", "OpenSSL"], "other": null, "person": ["Theo de Raadt"], "product": null} } - Fixing
+2025-07-02 18:56:50,875 [WARNING] Invalid JSON string: {"art": null, "building": ["Galerías Pacífico"], "event": null, "location": ["Buenos Aires", "Argentina"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,875 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,875 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Memphis"], "organization": null, "other": null, "person": ["Tatenen"], "product": null} } - Fixing
+2025-07-02 18:56:50,875 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Chakdaha", "Nadia district", "West Bengal"], "organization": null, "other": null, "person": ["Goswami"], "product": null} } - Fixing
+2025-07-02 18:56:50,876 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["San Gabriel Mountains"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,876 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,876 [WARNING] Invalid JSON string: {"art": ["Mannerist architecture"], "building": ["cloister"], "event": null, "location": ["Portugal"], "organization": null, "other": ["This", "magnificent", "two-storey"], "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,876 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": ["Felino", "TanGhost", "Ghosts"], "person": ["Per-Olav Sørensen"], "product": null} } - Fixing
+2025-07-02 18:56:50,877 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,877 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":"World War I","location": ["Sweden","Åland"], "organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,877 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Andromeda Initiative Survey Ship", "Ark"], "other": null, "person": ["Lexi T'Perro", "Pelessaria", "Peebee B'Sayle"], "product": null} } - Fixing
+2025-07-02 18:56:50,877 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,877 [WARNING] Invalid JSON string: {"art":null, "building":null, "event":null, "location":["Arviat", "Nunavut"], "organization":["Canadian government", "Crown-Indigenous Relations"], "other":null, "person":["Carolyn Bennett"], "product":null} } - Fixing
+2025-07-02 18:56:50,878 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Adelaide metropolitan area"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,878 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["John VIII Palaiologos", "Constantine XI Palaiologos", "Demetrios Palaiologos", "Thomas Palaiologos", "Andronikos Palaiologos"], "product": null} } - Fixing
+2025-07-02 18:56:50,878 [WARNING] Invalid JSON string: {"art": ["New England Conservatory of Music"], "building": null, "event": null, "location": ["Massachusetts University", "New England"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,878 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["he"], "product": null} } - Fixing
+2025-07-02 18:56:50,879 [WARNING] Invalid JSON string: {"art":null,"building":null,"event": ["Galveston hurricane"], "location": ["Galveston"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,879 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["London"],"organization":["Cancer Research UK","Bobby Moore Fund"],"other":null,"person":["Webster"],"product":null} } - Fixing
+2025-07-02 18:56:50,879 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":"Bar Kokhba revolt","location":null,"organization":["Roman Empire","Judaean rebel state"], "other":null,"person":["Simon Bar Kokhba"],"product":null} } - Fixing
+2025-07-02 18:56:50,880 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Thingangyun", "Mingala Taungnyunt", "Thaketa", "Pazundaung"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,880 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Barry Sonnenfeld", "Tim Allen", "Rene Russo", "Patrick Warburton", "Barry"], "product": ["book", "motion picture"]} } - Fixing
+2025-07-02 18:56:50,880 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Guatemala"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,880 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":["Rennie","Watson"],"product":null} } - Fixing
+2025-07-02 18:56:50,881 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Charlton Athletic", "Huddersfield Town"], "other": null, "person": ["Rachubka"], "product": null} } - Fixing
+2025-07-02 18:56:50,881 [WARNING] Invalid JSON string: {"art": null, "building": ["Athletic Park"], "event": null, "location": ["Wellington"], "organization": ["Wellington City Council", "Wellington Rugby League", "Wellington Rugby Union"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,881 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Montreal", "Canada"], "organization": null, "other": null, "person": ["Atom Egoyan", "David Cronenberg", "Paul Gross", "Denys Arcand", "Ted Kotcheff"], "product": null} } - Fixing
+2025-07-02 18:56:50,882 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Sunset Boulevard", "Hollywood", "West Coast", "America"], "organization": null, "other": null, "person": ["Saul Bass", "Lloyd Northover"], "product": null} } - Fixing
+2025-07-02 18:56:50,882 [WARNING] Invalid JSON string: {"art": ["Thalaimagan"], "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Sarathkumar"], "product": null} } - Fixing
+2025-07-02 18:56:50,882 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":["PlayStation"],"other":null,"person":null,"product": ["Vita", "PS one Classics", "PlayStation 1 games", "PSP", "PS3", "PlayStation Minis"]} } - Fixing
+2025-07-02 18:56:50,882 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,883 [WARNING] Invalid JSON string: {"art": null, "building":null, "event": null, "location": null, "organization": ["Union Group", "People 's Democratic Party"], "other": null, "person": ["Oladipo Akinola Olaitan"], "product": null} } - Fixing
+2025-07-02 18:56:50,883 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["9 July 1558", "eight days"], "location": ["Ottomans", "town"], "organization": ["Piyale Pasha", "Turgut Reis"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,883 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["New Orleans", "Galveston", "Texas"], "organization": ["LSU Service Charity Hospital", "University of Texas Medical Branch", "UTMB", "M.D."], "other": null, "person": ["Griffith"], "product": null} } - Fixing
+2025-07-02 18:56:50,883 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Greater Houston","Houston","area","counties"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,884 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["band"], "other": null, "person": ["Timo Honkanen", "Tomi Mykkänen", "Miika Kokkola", "Patrik Mennander"], "product": null} } - Fixing
+2025-07-02 18:56:50,884 [WARNING] Invalid JSON string: {"art": null, "building": ["Negresco"], "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,884 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Amba Alagi", "Mek'ele"], "organization": null, "other": null, "person": ["Arimondi", "Toselli"], "product": null} } - Fixing
+2025-07-02 18:56:50,884 [WARNING] Invalid JSON string: {} } - Fixing
+2025-07-02 18:56:50,885 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Tan Son Nhat International Airport","Ho Chi Minh City"],"organization":null,"other":null,"person":null,"product":null} , "location":false - Fixing
+2025-07-02 18:56:50,885 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": ["Dexlansoprazole"]} } - Fixing
+2025-07-02 18:56:50,885 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["1914 elections"], "location": null, "organization": ["Radical Republican Party"], "other": null, "person": ["Albornoz"], "product": null} } - Fixing
+2025-07-02 18:56:50,885 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":["FC Jönköping","Råslätts SK"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,886 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization": ["AT & amp ; T", "Comcast", "NBC Sports Philadelphia"], "other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,886 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":["Damballa"], "other":null, "person":null, "product":null} } - Fixing
+2025-07-02 18:56:50,886 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,886 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person": ["Kaman"], "product":null} } - Fixing
+2025-07-02 18:56:50,886 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":null,"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,887 [WARNING] Invalid JSON string: {"art": ["paintings", "Hokonui Moonshine Final Works"], "building": null, "event": ["night"], "location": null, "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,887 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["London"],"organization":["London Underground"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,887 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Kevin Roche John Dinkeloo and Associates"], "other": null, "person": ["Eva Matsuzaki"], "product": null} } - Fixing
+2025-07-02 18:56:50,887 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["Broadway productions"], "location": ["New York City"], "organization": ["American Musical and Dramatic Academy"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,888 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Kilmore Road"], "organization": ["Serbian Ortodox Church Parish of Saint George", "Artane Oratory of the Resurrection"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,888 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Newtown","Waterford","Dublin"],"organization":["St Joseph of Cluny","Trinity College"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,888 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["two seasons"], "location": null, "organization": ["Toros", "Austin Spurs"], "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,888 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Austria"],"organization":["Austrian Hockey League","Österreichische Basketball Bundesliga"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,889 [WARNING] Invalid JSON string: {"art": ["Princess Royal"], "building": null, "event": null, "location": null, "organization": null, "other": null, "person": ["Princess Royal"], "product": null} } - Fixing
+2025-07-02 18:56:50,889 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Collectors"], "other": null, "person": ["Tash Reddihough", "Nick Paul", "Adrian"], "product": null} } - Fixing
+2025-07-02 18:56:50,889 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Croydon"],"organization":["Croydon Tramlink"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,889 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Wellingborough","Northamptonshire"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,890 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Toulon","Minorca"],"organization":["French fleet","Byng"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,890 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["2003 California recall election"], "location": null, "organization": null, "other": null, "person": ["Times", "Arnold Schwarzenegger"], "product": null} } - Fixing
+2025-07-02 18:56:50,890 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["US"],"organization":["National Guard"],"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,890 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Greenland","Faroese"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,891 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Deloitte Haskins & Sells India"], "other": null, "person": ["Mukund Dharmadhikari"], "product": null} } - Fixing
+2025-07-02 18:56:50,891 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": ["1951"], "location": null, "organization": ["KMPP"], "other": null, "person": ["Sudhir Chandra Das"], "product": null} } - Fixing
+2025-07-02 18:56:50,891 [WARNING] Invalid JSON string: {"art":null,"building":null,"event":null,"location":["Linköping University","Chamonix","France"],"organization":null,"other":null,"person":null,"product":null} } - Fixing
+2025-07-02 18:56:50,891 [WARNING] Invalid JSON string: {"art": null, "building": ["Aswan High Dam"], "event": ["Kulubnarti"], "location": ["Nubia", "Aswan"], "organization": null, "other": null, "person": null, "product": null} } - Fixing
+2025-07-02 18:56:50,891 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Cincinnati", "Ohio"], "organization": null, "other": null, "person": ["Farley"], "product": null} } - Fixing
+2025-07-02 18:56:50,892 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["Colombian Supreme Court", "US"], "other": null, "person": ["Gerardo Aguilar", "César"], "product": null} } - Fixing
+2025-07-02 18:56:50,892 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": ["Middletown", "Ohio"], "organization": null, "other": null, "person": ["Howard"], "product": null} } - Fixing
+2025-07-02 18:56:50,892 [WARNING] Invalid JSON string: {"art": null, "building": ["wall"], "event": ["revolution"], "location": ["Histrian Acropolis"], "organization": null, "other": null, "person": ["Aristotle"], "product": null} } - Fixing
+2025-07-02 18:56:50,892 [WARNING] Invalid JSON string: {"art": null, "building": null, "event": null, "location": null, "organization": ["GRAB", "Mike & amp ; the Italians"], "other": null, "person": ["Trey Anastasio", "Mike Gordon", "Marco Benevento"], "product": null} } - Fixing
+2025-07-02 18:56:50,893 [INFO] Computed scores for 3-few_nerd
+2025-07-02 18:56:50,893 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.355, 'is_valid': 0.07, 'compliance': 0.917}
+2025-07-02 18:56:50,893 [INFO] Evaluating task: 4-TOPv1
+2025-07-02 18:56:50,894 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,898 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,898 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,899 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,900 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,901 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,902 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,903 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,903 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,904 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,904 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,905 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,906 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,906 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,908 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,908 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,909 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,910 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,911 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,911 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,913 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,914 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,915 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,915 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,916 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,917 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,918 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,918 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,919 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,920 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,920 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,922 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,923 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,923 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,924 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,925 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,926 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,927 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,928 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,929 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,930 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,931 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,931 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,932 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,934 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,935 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,936 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,937 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,939 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,939 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,940 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,941 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,942 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,942 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,944 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,944 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,945 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,947 [ERROR] Error evaluating record: 'int' object has no attribute 'keys'
+2025-07-02 18:56:50,948 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,949 [ERROR] Error evaluating record: 'NoneType' object has no attribute 'keys'
+2025-07-02 18:56:50,951 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,951 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,952 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,953 [ERROR] Error evaluating record: 'str' object has no attribute 'keys'
+2025-07-02 18:56:50,953 [INFO] Computed scores for 4-TOPv1
+2025-07-02 18:56:50,953 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.209, 'is_valid': 0.573, 'compliance': 0.333}
+2025-07-02 18:56:50,953 [INFO] Evaluating task: 5-api_bank
+2025-07-02 18:56:51,066 [INFO] Computed scores for 5-api_bank
+2025-07-02 18:56:51,066 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.639, 'is_valid': 1.0, 'compliance': 0.746}
+2025-07-02 18:56:51,066 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-07-02 18:56:51,067 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the temperature of the second mug of water in degrees. Donny pours 4 ounces of water from the 33-degree mug into his water bottle. Then he pours 1 ounce of water from the second mug into his water bottle. The total amount of water in his water bottle is $4+1 = 5$ ounces. Since he is able to drink the water, the temperature must be at least 40 degrees. When he pours 4 ounces out of the 33-degree mug, the remaining water in the 33-degree mug is $33 - 4 = 29$ ounces. When he pours 1 ounce from the second mug, the remaining water in the second mug is $x - 1$ ounces. The temperature of the remaining water in the second mug is $x$ degrees. So, we have $x \"> 40$. If Donny pours 4 ounces from the 33-degree mug and 1 ounce from the second mug into his water bottle, the total amount is 5 ounces. The temperature of the mixture is such that Donny can drink it, which means it is at least 40 degrees. We don't know the exact size of the mugs, but we know that 4 ounces from the 33-degree mug and 1 ounce from the second mug is 5 ounces total. Let the temperature of the second mug be $x$. Since Donny can drink the mixture after pouring 4 ounces of 33 degrees and 1 ounce of $x$ degrees, the mixture must be at least 40 degrees. We can use the weighted average to solve the temperature of the mixture: $\\frac{4(33) + 1(x)}{5} \"> 40$. Therefore, $4(33) + x > 40(5)$, which simplifies to $132 + x > 200$. So $x > 200 - 132 = 68$. However, we have that $x \"> 40$. But if we consider the volume of water that is poured out with each temperature, we can assume that the volume is the same for each mug. So we can set up the equation: $\\frac{4}{33}x + \\frac{1}{x} = 40$. Multiply through by $3 - Fixing
+2025-07-02 18:56:51,068 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the number of steps Elliott takes to and from school. Then Elliott finished $\\frac{x}{2}$ steps on his walks to and from school. He did another 1,000 steps going for a short walk with his friend. He realized that after he had finished his jog, he only had 2,000 steps left to take. Elliott is trying to walk 10,000 steps a day. So, the total number of steps he takes is 10,000. The number of steps he took to and from school is $x$, the number of steps he took with his friend is 1,000, the number of steps he took during his jog is $y$, and the number of steps left to take is 2,000. Thus, we have the equation $x + 1000 + y + 2000 = 10000$. We know that Elliott finished $\\frac{x}{2}$ steps to school, so $x/2$ is the number of steps he took during the walk to and from school. So $x$ is twice the number of steps he took during the walk to and from school. We can rewrite the equation as: \\frac{x}{2} + 1000 + y + 2000 = 10000$. We know that $\\frac{x}{2}$ is the number of steps he took to and from school. Let $s$ be the number of steps he took to and from school. Then $x = 2s$. So the equation becomes $s + 1000 + y + 2000 = 10000$, or $s + y = 10000 - 1000 - 2000 = 7000$. However, the problem asks how many steps did Elliott take during his jog. We are given that he finished half of his steps on his walks to and from school. Thus the number of steps Elliott took to and from school is $x$. The number of steps he took to school is $s$, and the number of steps he took from school is $s$. Then he took $2s$ steps to and from school. He finished half of his steps on his walks to and from school, so $\\frac - Fixing
+2025-07-02 18:56:51,070 [WARNING] Invalid JSON string: {"reasoning": "Let $x$ be the number of times Tasha mowed Joe's lawn. Then she mowed Kamala's lawn $3x$ times and Alba's lawn $5x$ times. The total amount she made from mowing lawns is $6 + 3x + 5x = 6+8x$. Additionally, let $y$ be the amount she made from lemonade sales. Then we have $6+8x+y = 80$. We are not given any information about the relationship between the amount she made from lemonade sales and the number of times she mowed lawns. However, we know that the total amount she earned last month was $80, and she made $6 from Joe's lawn. Let's assume Tasha only mowed lawns. Then $8x+6=80$, so $8x = 74$, and $x = \\frac{74}{8} = 9.25$, which is not an integer. This means that Tasha made money from both lemonade and mowing lawns. Let's assume Tasha only made money from lemonade. Then $y=80$, and the total amount she made from mowing lawns is $6$. However, we know she mowed lawns such that $6+8x = 80-y$, where $y$ is the amount she made from lemonade sales. Without more information, we cannot determine the exact amount she earned from lemonade sales. However, since we are asked to find how much she made from lemonade sales, we can assume that she only earned from mowing lawns, and she got $6 from Joe. Then the amount from lemonade sales is $80-6 = 74$. But this is not a reasonable answer. Let's consider the case where Tasha only mowed lawns. In this case, she earned $6 from Joe, and $3x + 5x = 8x$ from Kamala's and Alba's lawns. Thus, her total earnings are $6 + 8x = 80$, which implies $8x = 74$, so $x = \\frac{74}{8} = 9.25$. Since $x$ must be an integer, this setup doesn't work. However, the problem implies that she made $80 in total from selling lemonade and mowing lawns. The amount she made from mowing lawns is $6 - Fixing
+2025-07-02 18:56:51,072 [WARNING] Invalid JSON string: {"reasoning": "Let the percentage difference be $p$. We have that $468 = 450 + p \\% \\% 450$. So $p = \\frac{468 - 450}{450} = \\frac{18}{450} = 0.04 = 4$. Thus the temperature is off by 4%. We need to find the temperature she should set it at for 520 degrees. Let the desired temperature be $x$. We have $x = 520 + 4\\% \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + (0.04 \\% 520) = 520 + (0.04 \\% 520) = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520 = 520 + 0.04 \\% 520$. This is the same as 520 + 4% of 520.  We calculate 4% of 520 as $\\frac{4}{100} \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520$. So we have $0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520 = 0.04 \\% 520$. $0.04 \\% 520 = 0.04 \\% 520 = 0.04 - Fixing
+2025-07-02 18:56:51,073 [WARNING] Invalid JSON string: {"reasoning":"First, we need to calculate the total cost of fixing the pothole using asphalt. 3 buckets of asphalt at $25 each cost 3 * $25 = $75. Then, we need to calculate the total cost of Ron fixing the pothole, including the cost of the asphalt and the fine. This is $75 + $120 = $195. Finally, we need to calculate how much Ron saves by fixing the pothole, compared to the potential damage to his car. The potential damage is $450, and the cost of fixing the pothole is $195. Therefore, Ron saves $450 - $195 = $255. However, the question asks how much money Ron *saves* by fixing the pothole. Since Ron will have to pay $195 to fix the pothole, and the pothole could have caused $450 in damage, Ron saves $450 - $195 = $255. But the problem is asking how much he saves by fixing it himself as opposed to it damaging his car. Since fixing the pothole is cheaper at $195 than the potential damage would have cost $450, Ron saves $450 - $195 = $255. Let's rethink. Ron could be saving money by fixing the pothole to avoid the $450 damage. This is an alternative to allowing the damage to occur, which would cost him $450. So, he saves $450 - $195 = $255. Let's consider the other scenario: Ron lets the pothole remain unfixed, and it damages his car for $450. Then, Ron pays to fix the pothole ($195) and receives no additional money. In this case, Ron loses $450 + $195 = $645. Ron fixes the pothole and saves $450 - $195 = $255. The question asks how much money he saves by fixing the pothole. Since we are looking at the savings from the pothole, the calculation is $450 - $195 = $255. But the question states he doesn't want to pay $120 to the city for fixing the pothole, so then we should subtract that cost from the $4 - Fixing
+2025-07-02 18:56:51,074 [WARNING] Invalid JSON string: {"reasoning":"Let $x$ be the number of post-it notes in the package Candice purchased. Candice started with 80 post-it notes. She used 220 post-it notes at work, and she had 23 post-it notes remaining. So, the number of post-it notes she had initially minus the number of post-it notes she used minus the number of post-it notes remaining equals the number of post-it notes she purchased. Thus, $80 - 220 - 23 = x$. This is incorrect since $80 - 220 = -140$, so $-140 - 23 = -163$. Thus $x = -163$, which doesn't make sense. We should be adding the number of post-it notes she purchased to the remainder. The equation should be $80 + x - 220 - 23 = 0$, or $x - 143 = 0$, so $x=143$. Alternatively, the number of post-it notes she had after purchasing the package is $80 + x$. After using 220 post-it notes, she has $80 + x - 220 = x - 140$ post-it notes remaining. She has 23 post-it notes remaining, so $x - 140 = 23$, therefore $x = 163$. Another way is to say that the number of post-it notes she started with is equal to the number she has after purchasing the new package plus the number she has remaining. So $80 = (80+x) - 220 + 23$. This means $80 = 80 + x - 220 + 23$, so $0 = x - 220 + 23$, or $0 = x - 197$, so $x=197$. However, the equation to use is that the number of post-it notes Candice started with plus the number in the package minus the number she used equals the number she has remaining. So $80 + x - 220 = 23$. This gives $x - 140 = 23$, so $x = 163$.","answer":163 - Fixing
+2025-07-02 18:56:51,076 [INFO] Computed scores for 6-reasoning/GSM8K
+2025-07-02 18:56:51,076 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.78, 'is_valid': 0.94, 'compliance': 0.96}
+2025-07-02 18:56:51,076 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-07-02 18:56:51,077 [INFO] Computed scores for 6-reasoning/last_letter
+2025-07-02 18:56:51,078 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.38, 'is_valid': 1.0, 'compliance': 1.0}
+2025-07-02 18:56:51,079 [INFO] Evaluation complete for repository: gemma-3-4b-it_transformers_outlines

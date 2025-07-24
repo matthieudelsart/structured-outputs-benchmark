@@ -1,39 +1,39 @@
-2025-06-29 13:24:53,187 [INFO] Starting evaluation for repository: gemma-3-27b-it
-2025-06-29 13:24:53,205 [INFO] Evaluating task: 1-rotowire
-2025-06-29 13:24:53,213 [INFO] Computed scores for 1-rotowire
-2025-06-29 13:24:53,213 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.503, 'compliance': 0.989, 'is_valid': 0.9}
-2025-06-29 13:24:53,213 [INFO] Evaluating task: 2-wiki_bio
-2025-06-29 13:24:53,217 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-29 13:24:53,219 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
-2025-06-29 13:24:53,219 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
-2025-06-29 13:24:53,221 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:53,222 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
-2025-06-29 13:24:53,223 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
-2025-06-29 13:24:53,224 [ERROR] Error parsing date: 19571973, error: month must be in 1..12: 19571973
-2025-06-29 13:24:53,225 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
-2025-06-29 13:24:53,226 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,226 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,228 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,232 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
-2025-06-29 13:24:53,236 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,236 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,236 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,236 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,236 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,239 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
-2025-06-29 13:24:53,239 [WARNING] Lookup error for nationality: Soviet Union, error: Could not find a record for 'soviet union'
-2025-06-29 13:24:53,240 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
-2025-06-29 13:24:53,245 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:53,245 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
-2025-06-29 13:24:53,247 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,247 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,247 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
-2025-06-29 13:24:53,249 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,249 [ERROR] Error parsing date: 19631971, error: month must be in 1..12: 19631971
-2025-06-29 13:24:53,249 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,249 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,251 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-29 13:24:53,254 [WARNING] Invalid JSON string: ```json
+2025-07-02 18:56:57,770 [INFO] Starting evaluation for repository: gemma-3-27b-it
+2025-07-02 18:56:57,790 [INFO] Evaluating task: 1-rotowire
+2025-07-02 18:56:57,798 [INFO] Computed scores for 1-rotowire
+2025-07-02 18:56:57,799 [INFO] Aggregated scores for 1-rotowire: {'correctness': 0.503, 'is_valid': 0.9, 'compliance': 0.989}
+2025-07-02 18:56:57,799 [INFO] Evaluating task: 2-wiki_bio
+2025-07-02 18:56:57,803 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-07-02 18:56:57,805 [WARNING] Lookup error for nationality: canadian, error: Could not find a record for 'canadian'
+2025-07-02 18:56:57,805 [WARNING] Lookup error for nationality: japan japanese, error: Could not find a record for 'japan japanese'
+2025-07-02 18:56:57,807 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:57,808 [WARNING] Lookup error for nationality: french, error: Could not find a record for 'french'
+2025-07-02 18:56:57,808 [ERROR] Error parsing date: y 21 september 1905 9 april 1850, error: Unknown string format: y 21 september 1905 9 april 1850
+2025-07-02 18:56:57,810 [ERROR] Error parsing date: 19571973, error: month must be in 1..12: 19571973
+2025-07-02 18:56:57,810 [WARNING] Lookup error for nationality: filipino-american, error: Could not find a record for 'filipino-american'
+2025-07-02 18:56:57,811 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,811 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,814 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,818 [WARNING] Lookup error for nationality: , error: Could not find a record for ''
+2025-07-02 18:56:57,822 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,822 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,822 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,822 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,822 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,825 [WARNING] Lookup error for nationality: soviet, error: Could not find a record for 'soviet'
+2025-07-02 18:56:57,825 [WARNING] Lookup error for nationality: Soviet Union, error: Could not find a record for 'soviet union'
+2025-07-02 18:56:57,826 [WARNING] Lookup error for nationality: cameroonian, error: Could not find a record for 'cameroonian'
+2025-07-02 18:56:57,831 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:57,831 [ERROR] Error parsing date: 29 may 1896 22 may 1828, error: Unknown string format: 29 may 1896 22 may 1828
+2025-07-02 18:56:57,832 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,832 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,833 [WARNING] Lookup error for nationality: tunisian, error: Could not find a record for 'tunisian'
+2025-07-02 18:56:57,834 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,834 [ERROR] Error parsing date: 19631971, error: month must be in 1..12: 19631971
+2025-07-02 18:56:57,834 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,834 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,836 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-07-02 18:56:57,839 [WARNING] Invalid JSON string: ```json
 {
     'article_title': 'john cleave `` rube'' benton',
     'bats': '',
@@ -54,20 +54,20 @@
     'throws': ''
 }
 ``` - Fixing
-2025-06-29 13:24:53,255 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,255 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,256 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,256 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,256 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,259 [ERROR] Error parsing date: 19791982, error: month must be in 1..12: 19791982
-2025-06-29 13:24:53,262 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
-2025-06-29 13:24:53,262 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-29 13:24:53,262 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,263 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
-2025-06-29 13:24:53,263 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-29 13:24:53,264 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,265 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,265 [WARNING] Invalid JSON string: ```json
+2025-07-02 18:56:57,840 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,840 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,841 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,841 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,841 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,844 [ERROR] Error parsing date: 19791982, error: month must be in 1..12: 19791982
+2025-07-02 18:56:57,847 [WARNING] Lookup error for nationality: german, error: Could not find a record for 'german'
+2025-07-02 18:56:57,847 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-07-02 18:56:57,848 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,848 [WARNING] Lookup error for nationality: usa american, error: Could not find a record for 'usa american'
+2025-07-02 18:56:57,849 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-07-02 18:56:57,849 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,850 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,850 [WARNING] Invalid JSON string: ```json
 {
     'article_title': 'gabriel jones',
     'other_key': '',
@@ -92,36 +92,36 @@
     'term_start': '1757'
 }
 ``` - Fixing
-2025-06-29 13:24:53,266 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
-2025-06-29 13:24:53,266 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
-2025-06-29 13:24:53,266 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
-2025-06-29 13:24:53,267 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:53,271 [ERROR] Error parsing date: 1959; 1960; 1961; 1962; 1963; 1964; 1983; 2000, error: Unknown string format: 1959; 1960; 1961; 1962; 1963; 1964; 1983; 2000
-2025-06-29 13:24:53,272 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
-2025-06-29 13:24:53,272 [ERROR] Error parsing date: , error: String does not contain a date: 
-2025-06-29 13:24:53,272 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
-2025-06-29 13:24:53,274 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
-2025-06-29 13:24:53,274 [INFO] Computed scores for 2-wiki_bio
-2025-06-29 13:24:53,274 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.331, 'compliance': 0.97, 'is_valid': 0.686}
-2025-06-29 13:24:53,274 [INFO] Evaluating task: 3-few_nerd
-2025-06-29 13:24:53,290 [INFO] Computed scores for 3-few_nerd
-2025-06-29 13:24:53,290 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.389, 'compliance': 1.0, 'is_valid': 0.9}
-2025-06-29 13:24:53,291 [INFO] Evaluating task: 4-TOPv1
-2025-06-29 13:24:53,349 [INFO] Computed scores for 4-TOPv1
-2025-06-29 13:24:53,349 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.604, 'compliance': 0.827, 'is_valid': 0.9}
-2025-06-29 13:24:53,349 [INFO] Evaluating task: 5-api_bank
-2025-06-29 13:24:53,488 [INFO] Computed scores for 5-api_bank
-2025-06-29 13:24:53,488 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.822, 'compliance': 1.0, 'is_valid': 0.997}
-2025-06-29 13:24:53,488 [INFO] Evaluating task: 6-reasoning/GSM8K
-2025-06-29 13:24:53,488 [WARNING] Invalid JSON string: ```json
+2025-07-02 18:56:57,851 [ERROR] Error parsing date: october 1806 may 17, 1724, error: Unknown string format: october 1806 may 17, 1724
+2025-07-02 18:56:57,851 [WARNING] Lookup error for nationality: indian / british, error: Could not find a record for 'indian / british'
+2025-07-02 18:56:57,852 [WARNING] Lookup error for nationality: australian, error: Could not find a record for 'australian'
+2025-07-02 18:56:57,853 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:57,857 [ERROR] Error parsing date: 1959; 1960; 1961; 1962; 1963; 1964; 1983; 2000, error: Unknown string format: 1959; 1960; 1961; 1962; 1963; 1964; 1983; 2000
+2025-07-02 18:56:57,857 [WARNING] Lookup error for nationality: romanian, error: Could not find a record for 'romanian'
+2025-07-02 18:56:57,857 [ERROR] Error parsing date: , error: String does not contain a date: 
+2025-07-02 18:56:57,858 [WARNING] Lookup error for nationality: british, error: Could not find a record for 'british'
+2025-07-02 18:56:57,859 [WARNING] Lookup error for nationality: norwegian, error: Could not find a record for 'norwegian'
+2025-07-02 18:56:57,860 [INFO] Computed scores for 2-wiki_bio
+2025-07-02 18:56:57,860 [INFO] Aggregated scores for 2-wiki_bio: {'correctness': 0.331, 'is_valid': 0.686, 'compliance': 0.97}
+2025-07-02 18:56:57,860 [INFO] Evaluating task: 3-few_nerd
+2025-07-02 18:56:57,875 [INFO] Computed scores for 3-few_nerd
+2025-07-02 18:56:57,876 [INFO] Aggregated scores for 3-few_nerd: {'correctness': 0.389, 'is_valid': 0.9, 'compliance': 1.0}
+2025-07-02 18:56:57,876 [INFO] Evaluating task: 4-TOPv1
+2025-07-02 18:56:57,934 [INFO] Computed scores for 4-TOPv1
+2025-07-02 18:56:57,934 [INFO] Aggregated scores for 4-TOPv1: {'correctness': 0.604, 'is_valid': 0.9, 'compliance': 0.827}
+2025-07-02 18:56:57,934 [INFO] Evaluating task: 5-api_bank
+2025-07-02 18:56:58,077 [INFO] Computed scores for 5-api_bank
+2025-07-02 18:56:58,077 [INFO] Aggregated scores for 5-api_bank: {'correctness': 0.822, 'is_valid': 0.997, 'compliance': 1.0}
+2025-07-02 18:56:58,077 [INFO] Evaluating task: 6-reasoning/GSM8K
+2025-07-02 18:56:58,078 [WARNING] Invalid JSON string: ```json
 {"reasoning": "Let $T_1$ be the temperature of the first mug (33 degrees) and $T_2$ be the temperature of the second mug (unknown). Donny pours 4 ounces of water from the first mug and 1 ounce of water from the second mug into his water bottle. The resulting mixture is at least 40 degrees. We can assume that the temperature of the mixture is a weighted average of the temperatures of the two mugs. Let $T_m$ be the temperature of the mixture. Then, we have:\n\n$T_m = \frac{4 \times T_1 + 1 \times T_2}{4 + 1} = \frac{4 \times 33 + 1 \times T_2}{5} = \frac{132 + T_2}{5}$\n\nSince Donny can drink the water, $T_m \ge 40$. Therefore:\n\n$\frac{132 + T_2}{5} \ge 40$\n$132 + T_2 \ge 200$\n$T_2 \ge 200 - 132$\n$T_2 \ge 68$\n\nSo, the temperature of the second bottle must be at least 68 degrees.", "answer": 68}
 ``` - Fixing
-2025-06-29 13:24:53,489 [WARNING] Invalid JSON string: {"reasoning": "First, we need to find out how many pizzas the glee club ate. They ordered 20 pizzas and ate 70%, so they ate 0.70 * 20 = 14 pizzas. This means there are 20 - 14 = 6 pizzas left from the glee club's order.
+2025-07-02 18:56:58,079 [WARNING] Invalid JSON string: {"reasoning": "First, we need to find out how many pizzas the glee club ate. They ordered 20 pizzas and ate 70%, so they ate 0.70 * 20 = 14 pizzas. This means there are 20 - 14 = 6 pizzas left from the glee club's order.
 
 Next, we need to find out how many pizzas the football team ordered. They ordered twice as many as the glee club, so they ordered 2 * 20 = 40 pizzas. They ate 80% of them, so they ate 0.80 * 40 = 32 pizzas. This means there are 40 - 32 = 8 pizzas left from the football team's order.
 
 Finally, we need to find the total number of pizzas left. The glee club has 6 pizzas left and the football team has 8 pizzas left, so there are 6 + 8 = 14 pizzas left in total.", "answer": 14} - Fixing
-2025-06-29 13:24:53,490 [WARNING] Invalid JSON string: {"reasoning": "Let $h_n$ be the height of the beanstalk on day $n$. We are given that $h_0 = 4$ feet. The beanstalk doubles its height every day, so $h_n = 4 \cdot 2^n$. We want to find the smallest integer $n$ such that $h_n > 20$.
+2025-07-02 18:56:58,079 [WARNING] Invalid JSON string: {"reasoning": "Let $h_n$ be the height of the beanstalk on day $n$. We are given that $h_0 = 4$ feet. The beanstalk doubles its height every day, so $h_n = 4 \cdot 2^n$. We want to find the smallest integer $n$ such that $h_n > 20$.
 We have $4 \cdot 2^n > 20$. Dividing both sides by 4, we get $2^n > 5$.
 We can test values of $n$:
 - If $n=1$, $2^1 = 2$, which is not greater than 5.
@@ -129,12 +129,12 @@ We can test values of $n$:
 - If $n=3$, $2^3 = 8$, which is greater than 5.
 Therefore, the smallest integer $n$ such that $2^n > 5$ is $n=3$.
 So it will take 3 days for the beanstalk to be taller than Mark's window.", "answer": 3} - Fixing
-2025-06-29 13:24:53,490 [WARNING] Invalid JSON string: {"reasoning": "First, we need to find the number of indoor plants. This is one-fourth of 100, which is 100/4 = 25.
+2025-07-02 18:56:58,080 [WARNING] Invalid JSON string: {"reasoning": "First, we need to find the number of indoor plants. This is one-fourth of 100, which is 100/4 = 25.
 Next, we find the number of plants that are not indoor plants. This is 100 - 25 = 75.
 Then, we find the number of outdoor plants. This is two-thirds of the remaining plants, which is (2/3) * 75 = 50.
 Finally, we find the number of flowering plants. This is the number of remaining plants minus the number of outdoor plants, which is 75 - 50 = 25.
 To find the percentage of flowering plants, we divide the number of flowering plants by the total number of plants and multiply by 100: (25/100) * 100 = 25%.", "answer": 25} - Fixing
-2025-06-29 13:24:53,491 [WARNING] Invalid JSON string: {"reasoning": "First, let's calculate how far Blake runs. He runs back and forth 15 times on a 100-yard field. This means he runs 15 * 2 * 100 = 3000 yards.
+2025-07-02 18:56:58,080 [WARNING] Invalid JSON string: {"reasoning": "First, let's calculate how far Blake runs. He runs back and forth 15 times on a 100-yard field. This means he runs 15 * 2 * 100 = 3000 yards.
 
 Next, let's calculate how far Kelly runs. She runs back and forth once, which is 2 * 100 = 200 yards. Then she runs to the 40-yard line and back 34 times. This means she runs 34 * 2 * 40 = 2720 yards.
 
@@ -143,16 +143,16 @@ So, Kelly's total distance is 200 + 2720 = 2920 yards.
 Blake runs 3000 yards and Kelly runs 2920 yards. Blake is the winner. The difference between their distances is 3000 - 2920 = 80 yards.
 
 ", "answer": 80} - Fixing
-2025-06-29 13:24:53,491 [WARNING] Invalid JSON string: {"reasoning": "Let the total number of microphones be $M = 50$. The singer wants to arrange the microphones in pairs. Let the number of pairs be $P$.
+2025-07-02 18:56:58,081 [WARNING] Invalid JSON string: {"reasoning": "Let the total number of microphones be $M = 50$. The singer wants to arrange the microphones in pairs. Let the number of pairs be $P$.
 The number of microphones used in pairs is $2P$.
 The number of microphones that won't find a space to fit in is 20% of the total number of microphones, which is $0.20 \times 50 = 10$.
 The number of microphones used in pairs is the total number of microphones minus the number of microphones that won't fit in, which is $50 - 10 = 40$.
 Since each pair consists of 2 microphones, the number of pairs is $P = \frac{40}{2} = 20$.
 
 Therefore, the singer was able to arrange 20 pairs of microphones on the stage.", "answer": 20} - Fixing
-2025-06-29 13:24:53,492 [INFO] Computed scores for 6-reasoning/GSM8K
-2025-06-29 13:24:53,492 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.91, 'compliance': 1.0, 'is_valid': 0.915}
-2025-06-29 13:24:53,492 [INFO] Evaluating task: 6-reasoning/last_letter
-2025-06-29 13:24:53,494 [INFO] Computed scores for 6-reasoning/last_letter
-2025-06-29 13:24:53,494 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.84, 'compliance': 1.0, 'is_valid': 0.9}
-2025-06-29 13:24:53,495 [INFO] Evaluation complete for repository: gemma-3-27b-it
+2025-07-02 18:56:58,081 [INFO] Computed scores for 6-reasoning/GSM8K
+2025-07-02 18:56:58,081 [INFO] Aggregated scores for 6-reasoning/GSM8K: {'correctness': 0.91, 'is_valid': 0.915, 'compliance': 1.0}
+2025-07-02 18:56:58,081 [INFO] Evaluating task: 6-reasoning/last_letter
+2025-07-02 18:56:58,084 [INFO] Computed scores for 6-reasoning/last_letter
+2025-07-02 18:56:58,084 [INFO] Aggregated scores for 6-reasoning/last_letter: {'correctness': 0.84, 'is_valid': 0.9, 'compliance': 1.0}
+2025-07-02 18:56:58,085 [INFO] Evaluation complete for repository: gemma-3-27b-it
